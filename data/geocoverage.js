@@ -1,0 +1,4 @@
+var geocoverage = [
+    "France",
+    "Italy"
+]
