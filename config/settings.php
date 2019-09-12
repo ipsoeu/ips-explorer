@@ -9,7 +9,7 @@
   $site_description = "These pages allow you to explore innovative public services that have been collected from different sources in an integrated and harmonized way. Services can be discovered using a text-based, as well as, a graphic-based approach. We also list the contributing sources and offer the possibility to add your own service descriptions.";
 
   $twitter = "";
-  $github = "https://github.com/ec-jrc/ips-explorer/";
+  $github = "https://github.com/ipsoeu/ips-explorer/";
 
   $footer = '<p></p>';
 
