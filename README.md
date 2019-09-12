@@ -164,17 +164,17 @@ The value of "N" must be incremental to the ones used in the already contributed
 <tr>
 <td><code>environmental_domain</code></td>
 <td>One of these values: <code>Atmospheric</code>, <code>Cross-cutting</code>, <code>Freshwater</code>, <code>Marine</code>, <code>Terrestrial</code></td>
-<td>The dominant environmental domain of research for this service.</td>
+<td>The primary sector for this service.</td>
 </tr>
 <tr>
 <td><code>environmental_field</code></td>
 <td>One of these values: <code>Air quality</code>, <code>Animal welfare</code>, <code>Biodiversity, nature and landscapes</code>, <code>Climate</code>, <code>Cross-cutting</code>, <code>Efficient use of resources</code>, <code>Environmental health</code>, <code>Environmental risks</code>, <code>Land</code>, <code>Noise</code>, <code>Sustainable consumption and production</code>, <code>Waste</code>, <code>Water</code></td>
-<td>The dominant environmental field tackled by the service activities.</td>
+<td>The secondary sector tackled by the service.</td>
 </tr>
 <tr>
 <td><code>category</code></td>
 <td>One of these values: <code>Civic science</code>, <code>Crowd-sourcing</code>, <code>DIY engineering</code>, <code>Monitoring</code>, <code>Occasional reporting</code>, <code>Passive sensing</code>, <code>Volunteer computing</code></td>
-<td>The primary category of the service. The current categories have been derived from the study <a href="https://www.wilsoncenter.org/publication/citizen-science-and-policy-european-perspective"><em>Citizen Science and Policy: A European Perspective</em></a>.</td>
+<td>The primary technology used in the service.</td>
 </tr>
 <tr>
 <td><code>social_uptake</code></td>
