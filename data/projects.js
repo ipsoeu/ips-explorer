@@ -23,7 +23,7 @@ var projects = [
         "active": "Yes",
         "end_date": "",
         "environmental_domain": "Welfare",
-        "environmental_field": "Welfare",
+        "environmental_field": "Childcare",
         "category": "Blockchain",
         "social_uptake": "Very large",
         "policy_uptake": "N\/a",
