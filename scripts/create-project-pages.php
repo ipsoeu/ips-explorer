@@ -207,15 +207,15 @@ $(document).ready(function() {
 <aside class="sidebar col-md-3">
 <div>
 <div class="well">
-<p><strong>Category</strong></p>
+<p><strong>Technologies</strong></p>
 <p>' . $category . '</p>
 <p><strong>Geographic extent</strong></p>
 <p>' . $geoextent . '</p>
 <p><strong>Geographic coverage</strong></p>
 <p>' . join(", ", $geocoverage) . '</p>
-<p><strong>Primary environmental domain</strong></p>
+<p><strong>Primary sector</strong></p>
 <p>' . $environmental_domain . '</p>
-<p><strong>Primary environmental field</strong></p>
+<p><strong>Secondary sector</strong></p>
 <p>' . $environmental_field . '</p>
 <p><strong>Social uptake</strong></p>
 <p>' . $social_uptake . '</p>

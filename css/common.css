@@ -15,6 +15,7 @@ body {background-color:#ececf7;color:#211b38;}
 .navbar .navbar-brand, .navbar .navbar-nav li a {color:#ffffff;}
 .navbar .navbar-brand:hover, .navbar .navbar-nav li a:hover {color:#ececf7;}
 
+svg {background-color: #7f94ba;}
 .thumbnail {background-color:#ececf7;color:#211b38;}
 .thumbnail .caption, .thumbnail .caption h3 {color:#211b38;} 
 .thumbnail .img .fa {font-size:60px;color:#211b38;}
