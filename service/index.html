@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>IPS-X | Services</title>
+    <link type="text/css" rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://eloquentstudio.github.io/filter.js/assets/css/bootstrap.min.css" media="screen" rel="stylesheet" type="text/css">
+    <link href="https://eloquentstudio.github.io/filter.js/assets/css/jquery-ui-1.10.2.custom.min.css" media="screen" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jvectormap/2.0.3/jquery-jvectormap.min.css" crossorigin="anonymous" />
+    
+    <link href="/ips-explorer/css/common.css" media="screen" rel="stylesheet" type="text/css">    
+    <link href="/ips-explorer/css/services.css" media="screen" rel="stylesheet" type="text/css">
+    <script src="https://eloquentstudio.github.io/filter.js/assets/js/jquery-1.11.3.min.js" type="text/javascript"></script>
+    <script src="https://eloquentstudio.github.io/filter.js/assets/js/jquery-ui-1.10.2.custom.min.js" type="text/javascript"></script>
+    <script src="https://eloquentstudio.github.io/filter.js/filter.min.js" type="text/javascript"></script>
+
+    <script src="/ips-explorer/js/jvectormap.com/js/jquery-jvectormap-2.0.3.min.js"></script>
+    <script src="/ips-explorer/js/jvectormap.com/js/jquery-jvectormap-world-mill.js"></script>
+        
+    <script type="text/javascript" src="/ips-explorer/js/common.js"></script>
+    <script src="/ips-explorer/data/services.js" type="text/javascript"></script>
+    <script src="/ips-explorer/js/services-map.js" type="text/javascript"></script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.9.1/underscore-min.js" integrity="sha256-G7A4JrJjJlFqP0yamznwPjAApIKPkadeHfyIwiaa9e0=" crossorigin="anonymous"></script>    
+  </head>
+  <body>
+<nav role="navigation" class="navbar navbar-default">
+<div class="container">
+<p class="navbar-header"><a class="navbar-brand" href="/ips-explorer/">IPS-X</a></p>
+<ul class="nav navbar-nav collapse navbar-collapse">
+<li class="active"><a href="/ips-explorer/service/">Services</a></li>
+<li class=""><a href="/ips-explorer/chart/">Gallery</a></li>
+<li class=""><a href="/ips-explorer/catalog/">Sources</a></li>
+</ul>
+<ul class="nav navbar-nav collapse navbar-collapse navbar-right">
+<li><a target="_blank" href="https://github.com/ipsoeu/ips-explorer/" title="GitHub"><i class="fa fa-github"></i> About IPS-X</a></li>
+</ul>
+</div>
+</nav>
+<!--
+    <header class="page-header">
+      <div class="container">
+      <h1 class="title">IPS-X</h1>
+      <p class="lead">Innovative Public Services Explorer</p>
+      </div>
+    </header>
+-->    
+    <article class="container">
+      <aside class="sidebar col-md-3">
+        <div>
+          <h4 class='col-md-6'>Services (<span id="total_services">0</span>)</h4>
+        </div>
+        <div>
+          <label class="sr-only" for="searchbox">Search</label>
+          <input type="text" class="form-control" id="searchbox" placeholder="Search &hellip;" autocomplete="off">
+          <span class="glyphicon glyphicon-search search-icon"></span>
+        </div>
+        <br>
+        <div class="well">
+            <fieldset id="category_criteria">
+                <legend>Technologies</legend>
+                <div class="checkbox">
+                  <label>
+                    <input type="checkbox" value="All" id="all_category">
+                    <span>All</span>
+                  </label>
+                </div>
+            
+            <div class="checkbox">
+              <label>
+                <input type="checkbox" value="Api">
+                <span>Api<span>
+              </label>
+            </div>
+            
+            <div class="checkbox">
+              <label>
+                <input type="checkbox" value="Blockchain">
+                <span>Blockchain<span>
+              </label>
+            </div>
+            
+            <div class="checkbox">
+              <label>
+                <input type="checkbox" value="Data analytics">
+                <span>Data analytics<span>
+              </label>
+            </div>
+            
+            </fieldset>
+        </div>
+        <div class="well">
+            <fieldset id="geoextent_criteria">
+                <legend>Geographic extent</legend>
+                <div class="checkbox">
+                  <label>
+                    <input type="checkbox" value="All" id="all_geoextent">
+                    <span>All</span>
+                  </label>
+                </div>
+            
+            <div class="checkbox">
+              <label>
+                <input type="checkbox" value="Local">
+                <span>Local<span>
+              </label>
+            </div>
+            
+            <div class="checkbox">
+              <label>
+                <input type="checkbox" value="National">
+                <span>National<span>
+              </label>
+            </div>
+            
+            <div class="checkbox">
+              <label>
+                <input type="checkbox" value="Regional">
+                <span>Regional<span>
+              </label>
+            </div>
+            
+            </fieldset>
+        </div>
+        <div class="well">
+            <fieldset id="primary_sector_criteria">
+                <legend>Primary sector</legend>
+                <div class="checkbox">
+                  <label>
+                    <input type="checkbox" value="All" id="all_primary_sector">
+                    <span>All</span>
+                  </label>
+                </div>
+            
+            <div class="checkbox">
+              <label>
+                <input type="checkbox" value="Agriculture">
+                <span>Agriculture<span>
+              </label>
+            </div>
+            
+            <div class="checkbox">
+              <label>
+                <input type="checkbox" value="Bureaucracy">
+                <span>Bureaucracy<span>
+              </label>
+            </div>
+            
+            <div class="checkbox">
+              <label>
+                <input type="checkbox" value="Education">
+                <span>Education<span>
+              </label>
+            </div>
+            
+            <div class="checkbox">
+              <label>
+                <input type="checkbox" value="General">
+                <span>General<span>
+              </label>
+            </div>
+            
+            <div class="checkbox">
+              <label>
+                <input type="checkbox" value="It services">
+                <span>It services<span>
+              </label>
+            </div>
+            
+            <div class="checkbox">
+              <label>
+                <input type="checkbox" value="Public procurement">
+                <span>Public procurement<span>
+              </label>
+            </div>
+            
+            <div class="checkbox">
+              <label>
+                <input type="checkbox" value="Taxation">
+                <span>Taxation<span>
+              </label>
+            </div>
+            
+            <div class="checkbox">
+              <label>
+                <input type="checkbox" value="Transport">
+                <span>Transport<span>
+              </label>
+            </div>
+            
+            <div class="checkbox">
+              <label>
+                <input type="checkbox" value="Waste">
+                <span>Waste<span>
+              </label>
+            </div>
+            
+            <div class="checkbox">
+              <label>
+                <input type="checkbox" value="Welfare">
+                <span>Welfare<span>
+              </label>
+            </div>
+            
+            </fieldset>
+        </div>
+        <div class="well">
+            <fieldset id="secondary_sector_criteria">
+                <legend>Secondary sector</legend>
+                <div class="checkbox">
+                  <label>
+                    <input type="checkbox" value="All" id="all_secondary_sector">
+                    <span>All</span>
+                  </label>
+                </div>
+            
+            <div class="checkbox">
+              <label>
+                <input type="checkbox" value="Bureaucracy">
+                <span>Bureaucracy<span>
+              </label>
+            </div>
+            
+            <div class="checkbox">
+              <label>
+                <input type="checkbox" value="Childcare">
+                <span>Childcare<span>
+              </label>
+            </div>
+            
+            <div class="checkbox">
+              <label>
+                <input type="checkbox" value="Education">
+                <span>Education<span>
+              </label>
+            </div>
+            
+            <div class="checkbox">
+              <label>
+                <input type="checkbox" value="Environment">
+                <span>Environment<span>
+              </label>
+            </div>
+            
+            <div class="checkbox">
+              <label>
+                <input type="checkbox" value="General">
+                <span>General<span>
+              </label>
+            </div>
+            
+            <div class="checkbox">
+              <label>
+                <input type="checkbox" value="Health">
+                <span>Health<span>
+              </label>
+            </div>
+            
+            <div class="checkbox">
+              <label>
+                <input type="checkbox" value="It services">
+                <span>It services<span>
+              </label>
+            </div>
+            
+            <div class="checkbox">
+              <label>
+                <input type="checkbox" value="Public procurement">
+                <span>Public procurement<span>
+              </label>
+            </div>
+            
+            <div class="checkbox">
+              <label>
+                <input type="checkbox" value="Taxation">
+                <span>Taxation<span>
+              </label>
+            </div>
+            
+            <div class="checkbox">
+              <label>
+                <input type="checkbox" value="Transport">
+                <span>Transport<span>
+              </label>
+            </div>
+            
+            <div class="checkbox">
+              <label>
+                <input type="checkbox" value="Welfare">
+                <span>Welfare<span>
+              </label>
+            </div>
+            
+            </fieldset>
+        </div>
+        <div class="well">
+            <fieldset id="social_uptake_criteria">
+                <legend>Social uptake</legend>
+                <div class="checkbox">
+                  <label>
+                    <input type="checkbox" value="All" id="all_social_uptake">
+                    <span>All</span>
+                  </label>
+                </div>
+            
+            <div class="checkbox">
+              <label>
+                <input type="checkbox" value="Considerable">
+                <span>Considerable<span>
+              </label>
+            </div>
+            
+            <div class="checkbox">
+              <label>
+                <input type="checkbox" value="Large">
+                <span>Large<span>
+              </label>
+            </div>
+            
+            <div class="checkbox">
+              <label>
+                <input type="checkbox" value="Very large">
+                <span>Very large<span>
+              </label>
+            </div>
+            
+            </fieldset>
+        </div>
+        <div class="well">
+            <fieldset id="policy_uptake_criteria">
+                <legend>Policy uptake</legend>
+                <div class="checkbox">
+                  <label>
+                    <input type="checkbox" value="All" id="all_policy_uptake">
+                    <span>All</span>
+                  </label>
+                </div>
+            
+            <div class="checkbox">
+              <label>
+                <input type="checkbox" value="N/a">
+                <span>N/a<span>
+              </label>
+            </div>
+            
+            </fieldset>
+        </div>
+        <div class="well">
+            <fieldset id="policy_relevance_criteria">
+                <legend>Policy relevance</legend>
+                <div class="checkbox">
+                  <label>
+                    <input type="checkbox" value="All" id="all_policy_relevance">
+                    <span>All</span>
+                  </label>
+                </div>
+            
+            <div class="checkbox">
+              <label>
+                <input type="checkbox" value="Policy implementation or monitoring">
+                <span>Policy implementation or monitoring<span>
+              </label>
+            </div>
+            
+            </fieldset>
+        </div>
+    </aside>
+
+<!-- /.col-md-3 -->
+    <section class="col-md-9">
+      <div class="row">
+        <div class="content col-md-12">
+          <div id="search-map" class="services row col-md-12" style="height:300px;"></div>        
+          <div id="pagination" class="pagination col-md-9"></div>
+          <div class="col-md-3 content">
+            Per Page: <span id="per_page" class="content"></span>
+          </div>
+        </div>
+      </div>
+
+      <div class="services row col-md-12" id="services"> </div>
+      
+    </section>
+<!-- /.col-md-9 -->
+</article>
+<footer>
+<p></p></footer>
+<!-- /.container -->
+      <script id="service-template" type="text/html">
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h4><a href="./<%= id %>.html"><%= name %></a></h4>
+          </div>
+          <div class="panel-body">
+            <p><%= description %></p>
+          </div>
+          <div class="panel-footer">
+<!--          
+            <p>
+              <span class="icon icon-ca" title="Category">CA</span> <%= category %> 
+              <span class="icon icon-ed" title="Primary sector">ED</span> <%= primary_sector %> 
+              <span class="icon icon-ef" title="Secondary sector">EF</span> <%= secondary_sector %> 
+              <span class="icon icon-su" title="Social uptake">SU</span> <%= social_uptake %>
+              <span class="icon icon-pr" title="Policy relevance">PR</span> <%= policy_relevance %> 
+              <span class="icon icon-pu" title="Policy uptake">PU</span> <%= policy_uptake %> 
+            </p>
+-->              
+          </div>
+        </div>
+      </div>
+      </script>
+<!--      
+      <script id="geoextent-template" type="text/html">
+        <div class="checkbox">
+          <label>
+            <input type="checkbox" value="<%= geoextent %>"> <%= geoextent %>
+          </label>
+        </div>
+      </script>
+-->      
+    </body>
+  </html>

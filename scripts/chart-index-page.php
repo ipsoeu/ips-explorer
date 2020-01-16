@@ -23,7 +23,7 @@
 <script src="https://unpkg.com/@jpmorganchase/perspective-viewer-hypergrid/build/hypergrid.plugin.js"></script>
 <script src="https://unpkg.com/@jpmorganchase/perspective-viewer-highcharts/build/highcharts.plugin.js"></script>
         
-<script src="<?php echo $section["project"]["data"]; ?>.js"></script>
+<script src="<?php echo $section["service"]["data"]; ?>.js"></script>
 <script src="https://eloquentstudio.github.io/filter.js/assets/js/jquery-1.11.3.min.js" type="text/javascript"></script>
 <script src="https://eloquentstudio.github.io/filter.js/assets/js/jquery-ui-1.10.2.custom.min.js" type="text/javascript"></script>
 <!--
@@ -51,7 +51,7 @@
 <script>
 $(document).ready(function () {
 <?php if (isset($chart_lib["jvectormap"])) { ?>
-  var countries = _.map(projects, function (p) {
+  var countries = _.map(services, function (p) {
     return p.geocoverage_codes;
   });
   countries = _.flatten(countries);
@@ -71,17 +71,17 @@ $(document).ready(function () {
       }]
     },
     onRegionTipShow: function (e, el, code) {
-      el.html(el.html() + ' - Projects: ' + (data[code] ? data[code] : 'unknown') );
+      el.html(el.html() + ' - Services: ' + (data[code] ? data[code] : 'unknown') );
     },
     onRegionClick: function(e, code){
-      window.location.href = window.location.href + 'project';
+      window.location.href = window.location.href + 'service';
     }
   });
 <?php } ?>
 <?php if (isset($chart_lib["perspective"])) { ?>
   document.addEventListener("WebComponentsReady", function () {
     for (var el of document.getElementsByTagName('perspective-viewer')) {
-      el.load(projects);
+      el.load(services);
     }
   });
 <?php } ?>

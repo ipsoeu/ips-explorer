@@ -162,12 +162,12 @@ The value of "N" must be incremental to the ones used in the already contributed
 <td>Whether the service was or not still active at the moment when it was added to the data source</td>
 </tr>
 <tr>
-<td><code>environmental_domain</code></td>
+<td><code>primary_sector</code></td>
 <td>One of these values: <code>Atmospheric</code>, <code>Cross-cutting</code>, <code>Freshwater</code>, <code>Marine</code>, <code>Terrestrial</code></td>
 <td>The primary sector for this service.</td>
 </tr>
 <tr>
-<td><code>environmental_field</code></td>
+<td><code>secondary_sector</code></td>
 <td>One of these values: <code>Air quality</code>, <code>Animal welfare</code>, <code>Biodiversity, nature and landscapes</code>, <code>Climate</code>, <code>Cross-cutting</code>, <code>Efficient use of resources</code>, <code>Environmental health</code>, <code>Environmental risks</code>, <code>Land</code>, <code>Noise</code>, <code>Sustainable consumption and production</code>, <code>Waste</code>, <code>Water</code></td>
 <td>The secondary sector tackled by the service.</td>
 </tr>

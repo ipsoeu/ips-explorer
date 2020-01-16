@@ -13,7 +13,7 @@
 
   $data[1] = $data_folder . 'catalogs.json';
 
-  $prj_db =  $data_folder . 'projects.json';
+  $prj_db =  $data_folder . 'services.json';
 
   foreach ($data as $i => $file) {
 
@@ -46,8 +46,8 @@
 //    $start_date = $v["start_date"];
 //    $active = $v["active"];
 //    $end_date = $v["end_date"];
-//    $environmental_domain = $v["environmental_domain"];
-//    $environmental_field = $v["environmental_field"];
+//    $primary_sector = $v["primary_sector"];
+//    $secondary_sector = $v["secondary_sector"];
 //    $category = $v["category"];
 //    $social_uptake = $v["social_uptake"];
 //    $policy_uptake = $v["policy_uptake"];
@@ -77,24 +77,24 @@
   $json = file_get_contents($prj_db);
 
   $prj = json_decode($json, true);
-  $related_projects = array();
+  $related_services = array();
 
   foreach ($prj as $pdata) {
     if ($pdata["cid"] === $id) {
-      $related_projects[] = $pdata;
+      $related_services[] = $pdata;
     }
   }
 
-//var_dump($related_projects);
+//var_dump($related_services);
 //exit;
 
   $json = null;
   $prj = null;
   
-  $prj_nr = count($related_projects);
+  $prj_nr = count($related_services);
   
   $prj_geocoverage = array();
-  foreach ($related_projects as $pdata) {
+  foreach ($related_services as $pdata) {
     foreach ($pdata as $pk => $pv) {
       if ($pk == "geocoverage") {
         foreach ($pv as $pgc) {
@@ -182,12 +182,12 @@ $("footer").addClass("page-footer container text-muted small text-center").css("
 
   $html .= '<script>
 $(document).ready(function() {
-  var related_projects_table = $("#related_projects").DataTable( { 
+  var related_services_table = $("#related_services").DataTable( { 
     "scrollY": "500px", "scrollCollapse": true, "paging": false, "dom": "Bfrtip", 
     "order": [[ 1, "asc" ]],
     "buttons": [ "copy", "csv", "excel", "pdf" ] 
   } );
-  related_projects_table.columns().every( function () {
+  related_services_table.columns().every( function () {
     var that = this;
     $( "input.filter", this.footer() ).on( "keyup change", function () {
       if ( that.search() !== this.value ) {
@@ -246,10 +246,10 @@ $(document).ready(function() {
 <div>
 <div class="well">
 ';
-  $html .= '<p><strong>Project number</strong></p>
+  $html .= '<p><strong>Service number</strong></p>
 <p>' . $prj_nr . '</p>
 ';
-  $html .= '<p><strong>Project coverage</strong></p>
+  $html .= '<p><strong>Service coverage</strong></p>
 ';
   foreach ($prj_geocoverage as $pgck => $pgcv) {
     $html .= '<p>' . $pgck . ' (' . $pgcv . ')</p>
@@ -262,10 +262,10 @@ $(document).ready(function() {
 <p>' . $geoextent . '</p>
 <p><strong>Geographic coverage</strong></p>
 <p>' . join(", ", $geocoverage) . '</p>
-<p><strong>Primary environmental domain</strong></p>
-<p>' . $environmental_domain . '</p>
-<p><strong>Primary environmental field</strong></p>
-<p>' . $environmental_field . '</p>
+<p><strong>Primary sector</strong></p>
+<p>' . $primary_sector . '</p>
+<p><strong>Secondary sector</strong></p>
+<p>' . $secondary_sector . '</p>
 <p><strong>Social uptake</strong></p>
 <p>' . $social_uptake . '</p>
 <p><strong>Policy uptake</strong></p>
@@ -395,26 +395,26 @@ if ($policy_uptake == 'Yes') {
   $html .= '</section>
 */
   $html .= '<section>
-<h3>Related projects</h3>
+<h3>Related services</h3>
 ';
-//var_dump($related_projects);
+//var_dump($related_services);
 
-  if (count($related_projects) > 0) {
-    $html .= '<table id="related_projects" class="table table-hover table-striped">
+  if (count($related_services) > 0) {
+    $html .= '<table id="related_services" class="table table-hover table-striped">
 <thead>
 <tr>
-<th>Project</th>
+<th>Service</th>
 <th>Category</th>
 <th>Geo extent</th>
 </tr>
 </thead>
 <tbody>
 ';
-    foreach ($related_projects as $rp) {
+    foreach ($related_services as $rp) {
 //      $score = count($rp) - 1;
 //      $score = 100*((count($rp) - 1)/10) . "%";
       $html .= '<tr>
-<td><a href="../project/' . $rp["id"] . '.html">' . $rp["name"] . '</a></td>
+<td><a href="../service/' . $rp["id"] . '.html">' . $rp["name"] . '</a></td>
 <td>' . $rp["category"] . '</td>      
 <td>' . $rp["geoextent"] . '</td>      
 </tr>
@@ -423,7 +423,7 @@ if ($policy_uptake == 'Yes') {
   $html .= '</tbody>
 <tfoot>
 <tr>
-<th><input class="filter" type="text" placeholder="Filter by project" data-index="0" /></th>
+<th><input class="filter" type="text" placeholder="Filter by service" data-index="0" /></th>
 <th><input class="filter" type="text" placeholder="Filter by category" data-index="1" /></th>
 <th><input class="filter" type="text" placeholder="Filter by geo extent" data-index="2" /></th>
 </tr>

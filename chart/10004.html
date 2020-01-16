@@ -11,7 +11,7 @@
 <script src="https://unpkg.com/@jpmorganchase/perspective-viewer/build/perspective.view.js"></script>
 <script src="https://unpkg.com/@jpmorganchase/perspective-viewer-hypergrid/build/hypergrid.plugin.js"></script>
 <script src="https://unpkg.com/@jpmorganchase/perspective-viewer-highcharts/build/highcharts.plugin.js"></script>
-<script src="/ips-explorer/data/projects.js"></script>
+<script src="/ips-explorer/data/services.js"></script>
 <script src="https://eloquentstudio.github.io/filter.js/assets/js/jquery-1.11.3.min.js" type="text/javascript"></script>
 <script src="https://eloquentstudio.github.io/filter.js/assets/js/jquery-ui-1.10.2.custom.min.js" type="text/javascript"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.9.1/underscore-min.js" integrity="sha256-G7A4JrJjJlFqP0yamznwPjAApIKPkadeHfyIwiaa9e0=" crossorigin="anonymous"></script>
@@ -30,7 +30,7 @@
 $(document).ready(function () {
   document.addEventListener("WebComponentsReady", function () {
     var element = document.getElementById("chart-10004");
-    element.load(projects);
+    element.load(services);
     element._toggle_config();
   });
 });
@@ -41,7 +41,7 @@ $(document).ready(function () {
 <div class="container">
 <p class="navbar-header"><a class="navbar-brand" href="/ips-explorer/">IPS-X</a></p>
 <ul class="nav navbar-nav collapse navbar-collapse">
-<li class=""><a href="/ips-explorer/project/">Services</a></li>
+<li class=""><a href="/ips-explorer/service/">Services</a></li>
 <li class="active"><a href="/ips-explorer/chart/">Gallery</a></li>
 <li class=""><a href="/ips-explorer/catalog/">Sources</a></li>
 </ul>
@@ -50,5 +50,5 @@ $(document).ready(function () {
 </ul>
 </div>
 </nav>
-<perspective-viewer view="sunburst" row-pivots='["environmental_domain", "environmental_field"]' sort='[["id", "asc"]]' columns='["id", "geocoverage"]' id="chart-10004"></perspective-viewer></body>
+<perspective-viewer view="sunburst" row-pivots='["primary_sector", "secondary_sector"]' sort='[["id", "asc"]]' columns='["id", "geocoverage"]' id="chart-10004"></perspective-viewer></body>
 </html>

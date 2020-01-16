@@ -128,12 +128,12 @@ select:focus, textarea:focus, input:focus{
   display: block;
 }
 
-.project{
+.service{
   margin-bottom: 20px;
   padding-right: 5px;
 }
 
-.project h4{
+.service h4{
   margin-top: 15px;
   margin-bottom: -5px;
 /*  border-bottom: 1px solid #A9A9A9; */

@@ -32,12 +32,12 @@
 <script type="text/javascript" src="/ips-explorer/js/common.js"></script> 
 <script>
 $(document).ready(function() {
-  var related_projects_table = $("#related_projects").DataTable( { 
+  var related_services_table = $("#related_services").DataTable( { 
     "scrollY": "500px", "scrollCollapse": true, "paging": false, "dom": "Bfrtip", 
     "order": [[ 1, "asc" ]],
     "buttons": [ "copy", "csv", "excel", "pdf" ] 
   } );
-  related_projects_table.columns().every( function () {
+  related_services_table.columns().every( function () {
     var that = this;
     $( "input.filter", this.footer() ).on( "keyup change", function () {
       if ( that.search() !== this.value ) {
@@ -65,7 +65,7 @@ $(document).ready(function() {
 <div class="container">
 <p class="navbar-header"><a class="navbar-brand" href="/ips-explorer/">IPS-X</a></p>
 <ul class="nav navbar-nav collapse navbar-collapse">
-<li class=""><a href="/ips-explorer/project/">Services</a></li>
+<li class=""><a href="/ips-explorer/service/">Services</a></li>
 <li class=""><a href="/ips-explorer/chart/">Gallery</a></li>
 <li class="active"><a href="/ips-explorer/catalog/">Sources</a></li>
 </ul>
@@ -78,9 +78,9 @@ $(document).ready(function() {
 <aside class="sidebar col-md-3">
 <div>
 <div class="well">
-<p><strong>Project number</strong></p>
+<p><strong>Service number</strong></p>
 <p>27</p>
-<p><strong>Project coverage</strong></p>
+<p><strong>Service coverage</strong></p>
 <p>Italy (14)</p>
 <p>France (13)</p>
 </div>
@@ -99,160 +99,160 @@ $(document).ready(function() {
 <td>Desk research</td>
 </tr>
 <tr><th>Contact point</th>
-<td><a href="mailto:andrea.perego@ec.europa.eu">mailto:andrea.perego@ec.europa.eu</a></td></tr>
+<td><a href="mailto:jrc-ips@ec.europa.eu">mailto:jrc-ips@ec.europa.eu</a></td></tr>
 </tbody>
 </table>
 </section>
 <section>
-<h3>Related projects</h3>
-<table id="related_projects" class="table table-hover table-striped">
+<h3>Related services</h3>
+<table id="related_services" class="table table-hover table-striped">
 <thead>
 <tr>
-<th>Project</th>
+<th>Service</th>
 <th>Category</th>
 <th>Geo extent</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td><a href="../project/10001.html">Nidi gratis</a></td>
+<td><a href="../service/10001.html">Nidi gratis</a></td>
 <td>Blockchain</td>      
 <td>Regional</td>      
 </tr>
 <tr>
-<td><a href="../project/10002.html">IFT</a></td>
+<td><a href="../service/10002.html">IFT</a></td>
 <td>Api</td>      
 <td>National</td>      
 </tr>
 <tr>
-<td><a href="../project/10003.html">ARPENT(examen)</a></td>
+<td><a href="../service/10003.html">ARPENT(examen)</a></td>
 <td>Api</td>      
 <td>National</td>      
 </tr>
 <tr>
-<td><a href="../project/10004.html">ARPENT(résultats)</a></td>
+<td><a href="../service/10004.html">ARPENT(résultats)</a></td>
 <td>Api</td>      
 <td>National</td>      
 </tr>
 <tr>
-<td><a href="../project/10005.html">BourseSCO</a></td>
+<td><a href="../service/10005.html">BourseSCO</a></td>
 <td>Api</td>      
 <td>National</td>      
 </tr>
 <tr>
-<td><a href="../project/10006.html">Lyon : Mon compte</a></td>
+<td><a href="../service/10006.html">Lyon : Mon compte</a></td>
 <td>Api</td>      
 <td>Local</td>      
 </tr>
 <tr>
-<td><a href="../project/10007.html">demarches-simplifiees.fr</a></td>
+<td><a href="../service/10007.html">demarches-simplifiees.fr</a></td>
 <td>Api</td>      
 <td>National</td>      
 </tr>
 <tr>
-<td><a href="../project/10008.html">Dossier Social Étudiant</a></td>
+<td><a href="../service/10008.html">Dossier Social Étudiant</a></td>
 <td>Api</td>      
 <td>National</td>      
 </tr>
 <tr>
-<td><a href="../project/10009.html">Mes aides</a></td>
+<td><a href="../service/10009.html">Mes aides</a></td>
 <td>Api</td>      
 <td>National</td>      
 </tr>
 <tr>
-<td><a href="../project/10010.html">MPS</a></td>
+<td><a href="../service/10010.html">MPS</a></td>
 <td>Api</td>      
 <td>National</td>      
 </tr>
 <tr>
-<td><a href="../project/10011.html">Déchets malins</a></td>
+<td><a href="../service/10011.html">Déchets malins</a></td>
 <td>Api</td>      
 <td>Local</td>      
 </tr>
 <tr>
-<td><a href="../project/10012.html">RenCircul</a></td>
+<td><a href="../service/10012.html">RenCircul</a></td>
 <td>Api</td>      
 <td>Local</td>      
 </tr>
 <tr>
-<td><a href="../project/10013.html">Simulateur d'embauche</a></td>
+<td><a href="../service/10013.html">Simulateur d'embauche</a></td>
 <td>Api</td>      
 <td>National</td>      
 </tr>
 <tr>
-<td><a href="../project/10014.html">Télépoints</a></td>
+<td><a href="../service/10014.html">Télépoints</a></td>
 <td>Api</td>      
 <td>National</td>      
 </tr>
 <tr>
-<td><a href="../project/10015.html">pagoPA</a></td>
+<td><a href="../service/10015.html">pagoPA</a></td>
 <td>Api</td>      
 <td>National</td>      
 </tr>
 <tr>
-<td><a href="../project/10016.html">IO</a></td>
+<td><a href="../service/10016.html">IO</a></td>
 <td>Api</td>      
 <td>National</td>      
 </tr>
 <tr>
-<td><a href="../project/10017.html">18app e Carta Docente</a></td>
+<td><a href="../service/10017.html">18app e Carta Docente</a></td>
 <td>Api</td>      
 <td>National</td>      
 </tr>
 <tr>
-<td><a href="../project/10018.html">ANPR</a></td>
+<td><a href="../service/10018.html">ANPR</a></td>
 <td>Api</td>      
 <td>National</td>      
 </tr>
 <tr>
-<td><a href="../project/10019.html">Data & Analytics Framework (DAF)</a></td>
+<td><a href="../service/10019.html">Data & Analytics Framework (DAF)</a></td>
 <td>Data analytics</td>      
 <td>National</td>      
 </tr>
 <tr>
-<td><a href="../project/10020.html">dati.gov.it</a></td>
+<td><a href="../service/10020.html">dati.gov.it</a></td>
 <td>Api</td>      
 <td>National</td>      
 </tr>
 <tr>
-<td><a href="../project/10021.html">Designers Italia</a></td>
+<td><a href="../service/10021.html">Designers Italia</a></td>
 <td>Api</td>      
 <td>National</td>      
 </tr>
 <tr>
-<td><a href="../project/10022.html">Develops Italia</a></td>
+<td><a href="../service/10022.html">Develops Italia</a></td>
 <td>Api</td>      
 <td>National</td>      
 </tr>
 <tr>
-<td><a href="../project/10023.html">Docs Italia</a></td>
+<td><a href="../service/10023.html">Docs Italia</a></td>
 <td>Api</td>      
 <td>National</td>      
 </tr>
 <tr>
-<td><a href="../project/10024.html">Fatturazione Elettronica</a></td>
+<td><a href="../service/10024.html">Fatturazione Elettronica</a></td>
 <td>Api</td>      
 <td>National</td>      
 </tr>
 <tr>
-<td><a href="../project/10025.html">OTELLO 2.0</a></td>
+<td><a href="../service/10025.html">OTELLO 2.0</a></td>
 <td>Api</td>      
 <td>National</td>      
 </tr>
 <tr>
-<td><a href="../project/10026.html">SPID</a></td>
+<td><a href="../service/10026.html">SPID</a></td>
 <td>Api</td>      
 <td>National</td>      
 </tr>
 <tr>
-<td><a href="../project/10027.html">E015</a></td>
+<td><a href="../service/10027.html">E015</a></td>
 <td>Api</td>      
 <td>Regional</td>      
 </tr>
 </tbody>
 <tfoot>
 <tr>
-<th><input class="filter" type="text" placeholder="Filter by project" data-index="0" /></th>
+<th><input class="filter" type="text" placeholder="Filter by service" data-index="0" /></th>
 <th><input class="filter" type="text" placeholder="Filter by category" data-index="1" /></th>
 <th><input class="filter" type="text" placeholder="Filter by geo extent" data-index="2" /></th>
 </tr>

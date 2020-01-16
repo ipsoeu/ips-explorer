@@ -112,8 +112,8 @@
     $output[$k]["start_date"] = trim($v["start_date"]);
     $output[$k]["active"] = trim($v["active"]);
     $output[$k]["end_date"] = trim($v["end_date"]);
-    $output[$k]["environmental_domain"] = ucfirst(mb_strtolower(trim($v["environmental_domain"])));
-    $output[$k]["environmental_field"] = ucfirst(mb_strtolower(trim($v["environmental_field"])));
+    $output[$k]["primary_sector"] = ucfirst(mb_strtolower(trim($v["primary_sector"])));
+    $output[$k]["secondary_sector"] = ucfirst(mb_strtolower(trim($v["secondary_sector"])));
     $output[$k]["category"] = ucfirst(mb_strtolower(trim($v["category"])));
     $output[$k]["social_uptake"] = ucfirst(mb_strtolower(trim($v["social_uptake"])));
     $output[$k]["policy_uptake"] = ucfirst(mb_strtolower(trim($v["policy_uptake"])));

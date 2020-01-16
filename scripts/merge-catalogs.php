@@ -37,8 +37,8 @@
   $field[] = "geoextent";
   $field[] = "geocoverage";
   $field[] = "category";
-  $field[] = "environmental_domain";
-  $field[] = "environmental_field";
+  $field[] = "primary_sector";
+  $field[] = "secondary_sector";
   $field[] = "social_uptake";
   $field[] = "policy_uptake";
   $field[] = "policy_relevance";
@@ -71,12 +71,12 @@
       $prj_per_country = array_count_values($input);
 //var_dump($prj_per_country);
 //exit;
-      echo "Creating file: " . $target_folder . "projects-per-country.json\n";
-      if (file_put_contents($target_folder . "projects-per-country.json", json_encode($prj_per_country, JSON_PRETTY_PRINT))) {
+      echo "Creating file: " . $target_folder . "services-per-country.json\n";
+      if (file_put_contents($target_folder . "services-per-country.json", json_encode($prj_per_country, JSON_PRETTY_PRINT))) {
         echo "Done." . "\n\n";
       }
-      echo "Creating file: " . $target_folder . "projects-per-country.js\n";
-        if (file_put_contents($target_folder . "projects-per-country.js", "var prj_per_country = " . json_encode($prj_per_country, JSON_PRETTY_PRINT))) {
+      echo "Creating file: " . $target_folder . "services-per-country.js\n";
+        if (file_put_contents($target_folder . "services-per-country.js", "var prj_per_country = " . json_encode($prj_per_country, JSON_PRETTY_PRINT))) {
         echo "Done." . "\n\n";
       }
     }

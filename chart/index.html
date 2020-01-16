@@ -14,7 +14,7 @@
 <script src="https://unpkg.com/@jpmorganchase/perspective-viewer-hypergrid/build/hypergrid.plugin.js"></script>
 <script src="https://unpkg.com/@jpmorganchase/perspective-viewer-highcharts/build/highcharts.plugin.js"></script>
         
-<script src="/ips-explorer/data/projects.js"></script>
+<script src="/ips-explorer/data/services.js"></script>
 <script src="https://eloquentstudio.github.io/filter.js/assets/js/jquery-1.11.3.min.js" type="text/javascript"></script>
 <script src="https://eloquentstudio.github.io/filter.js/assets/js/jquery-ui-1.10.2.custom.min.js" type="text/javascript"></script>
 <!--
@@ -32,7 +32,7 @@
 </style>
 <script>
 $(document).ready(function () {
-  var countries = _.map(projects, function (p) {
+  var countries = _.map(services, function (p) {
     return p.geocoverage_codes;
   });
   countries = _.flatten(countries);
@@ -52,15 +52,15 @@ $(document).ready(function () {
       }]
     },
     onRegionTipShow: function (e, el, code) {
-      el.html(el.html() + ' - Projects: ' + (data[code] ? data[code] : 'unknown') );
+      el.html(el.html() + ' - Services: ' + (data[code] ? data[code] : 'unknown') );
     },
     onRegionClick: function(e, code){
-      window.location.href = window.location.href + 'project';
+      window.location.href = window.location.href + 'service';
     }
   });
   document.addEventListener("WebComponentsReady", function () {
     for (var el of document.getElementsByTagName('perspective-viewer')) {
-      el.load(projects);
+      el.load(services);
     }
   });
 });
@@ -71,7 +71,7 @@ $(document).ready(function () {
 <div class="container">
 <p class="navbar-header"><a class="navbar-brand" href="/ips-explorer/">IPS-X</a></p>
 <ul class="nav navbar-nav collapse navbar-collapse">
-<li class=""><a href="/ips-explorer/project/">Services</a></li>
+<li class=""><a href="/ips-explorer/service/">Services</a></li>
 <li class="active"><a href="/ips-explorer/chart/">Gallery</a></li>
 <li class=""><a href="/ips-explorer/catalog/">Sources</a></li>
 </ul>
@@ -103,7 +103,7 @@ $(document).ready(function () {
 </div>
 <div class="col-sm-6 col-md-6 block-link" href="/ips-explorer/chart/10002.html">
 <div class="thumbnail">
-<perspective-viewer view="treemap" row-pivots='["environmental_field"]' sort='[["id", "asc"]]' columns='["id", "geocoverage"]' aggregates='{"id": "distinct count"}' id="chart-10002"></perspective-viewer>
+<perspective-viewer view="treemap" row-pivots='["secondary_sector"]' sort='[["id", "asc"]]' columns='["id", "geocoverage"]' aggregates='{"id": "distinct count"}' id="chart-10002"></perspective-viewer>
 <div class="caption">
 <h3>Primary sector</h3>
 <p>The primary sector tackled by public services.</p>
@@ -123,7 +123,7 @@ $(document).ready(function () {
 </div>
 <div class="col-sm-6 col-md-6 block-link" href="/ips-explorer/chart/10004.html">
 <div class="thumbnail">
-<perspective-viewer view="sunburst" row-pivots='["environmental_domain", "environmental_field"]' sort='[["id", "asc"]]' columns='["id", "geocoverage"]' id="chart-10004"></perspective-viewer>
+<perspective-viewer view="sunburst" row-pivots='["primary_sector", "secondary_sector"]' sort='[["id", "asc"]]' columns='["id", "geocoverage"]' id="chart-10004"></perspective-viewer>
 <div class="caption">
 <h3>Primary sector vs. secondary sector</h3>
 <p>Joint visual representation of the primary sector and the secondary sector of the collected public services.</p>

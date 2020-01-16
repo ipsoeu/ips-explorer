@@ -17,7 +17,7 @@
 <link href="https://eloquentstudio.github.io/filter.js/assets/css/jquery-ui-1.10.2.custom.min.css" media="screen" rel="stylesheet" type="text/css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jvectormap/2.0.3/jquery-jvectormap.min.css" crossorigin="anonymous" />
 <link href="<?php echo $site_abs_path; ?>css/common.css" media="screen" rel="stylesheet" type="text/css">
-<script src="<?php echo $section["project"]["data"]; ?>.js"></script>
+<script src="<?php echo $section["service"]["data"]; ?>.js"></script>
 <script src="https://eloquentstudio.github.io/filter.js/assets/js/jquery-1.11.3.min.js" type="text/javascript"></script>
 <script src="https://eloquentstudio.github.io/filter.js/assets/js/jquery-ui-1.10.2.custom.min.js" type="text/javascript"></script>
 <!--
@@ -39,7 +39,7 @@
 </style>
 <script>
 $(document).ready(function () {
-  var countries = _.map(projects, function (p) {
+  var countries = _.map(services, function (p) {
     return p.geocoverage_codes;
   });
   countries = _.flatten(countries);
@@ -67,10 +67,10 @@ $(document).ready(function () {
       }]
     },
     onRegionTipShow: function (e, el, code) {
-      el.html(el.html() + ' - Projects: ' + (data[code] ? data[code] : 'unknown') );
+      el.html(el.html() + ' - Services: ' + (data[code] ? data[code] : 'unknown') );
     },
     onRegionClick: function(e, code){
-//      window.location.href = window.location.href + 'project';
+//      window.location.href = window.location.href + 'service';
     }
   });
 });

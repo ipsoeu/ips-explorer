@@ -144,10 +144,10 @@
               <dd><%= category %></dd>
               <dt>Geographic extent</dt>
               <dd><%= geoextent %></dd>
-              <dt>Primary environmental domain</dt>
-              <dd><%= environmental_domain %></dd>
-              <dt>Primary environmental field</dt>
-              <dd><%= environmental_field %></dd>
+              <dt>Primary sector</dt>
+              <dd><%= primary_sector %></dd>
+              <dt>Secondary sector</dt>
+              <dd><%= secondary_sector %></dd>
             </dl>
 -->
 <!--

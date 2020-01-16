@@ -6,8 +6,8 @@ echo "Creating page ../index.html"
 php index-page.php > ../index.html
 echo "Done."
 
-echo "Creating page ../project/index.html"
-php project-index-page.php > ../project/index.html
+echo "Creating page ../service/index.html"
+php service-index-page.php > ../service/index.html
 echo "Done."
 
 echo "Creating page ../catalog/index.html"
