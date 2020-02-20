@@ -1,13 +1,10 @@
 var secondary_sector = [
-    "Bureaucracy",
-    "Childcare",
     "Education",
-    "Environment",
-    "General",
+    "Financial and fiscal affairs",
+    "General public services",
     "Health",
-    "It services",
-    "Public procurement",
+    "Social protection",
     "Taxation",
     "Transport",
-    "Welfare"
+    "Waste management"
 ]

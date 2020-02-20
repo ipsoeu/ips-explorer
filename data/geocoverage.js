@@ -1,4 +1,10 @@
 var geocoverage = [
     "France",
-    "Italy"
+    "Georgia",
+    "Italy",
+    "Luxembourg",
+    "Malta",
+    "Netherlands",
+    "Sweden",
+    "Switzerland"
 ]

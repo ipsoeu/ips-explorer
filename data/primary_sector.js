@@ -1,12 +1,8 @@
 var primary_sector = [
-    "Agriculture",
-    "Bureaucracy",
+    "Agriculture, forestry, fishing and hunting",
+    "Communication",
     "Education",
-    "General",
-    "It services",
-    "Public procurement",
-    "Taxation",
-    "Transport",
-    "Waste",
-    "Welfare"
+    "Executive and legislative organs, financial and fiscal affairs, external affairs",
+    "General public services",
+    "Social protection"
 ]

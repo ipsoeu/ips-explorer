@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+<title>IPS-X | MPS</title>
+<link type="text/css" rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://eloquentstudio.github.io/filter.js/assets/css/bootstrap.min.css" media="screen" rel="stylesheet" type="text/css">
+<link type="text/css" rel="stylesheet" href="https://cdn.datatables.net/1.10.10/css/dataTables.bootstrap.min.css" media="screen"/>
+<link href="https://eloquentstudio.github.io/filter.js/assets/css/jquery-ui-1.10.2.custom.min.css" media="screen" rel="stylesheet" type="text/css">
+<link type="text/css" rel="stylesheet" href="https://cdn.datatables.net/buttons/1.2.4/css/buttons.dataTables.min.css" media="screen"/>
+<link type="text/css" rel="stylesheet" href="https://cdn.datatables.net/select/1.2.1/css/select.dataTables.min.css" media="screen"/>
+<link type="text/css" rel="stylesheet" href="https://getbootstrap.com/docs/3.3/assets/css/docs.min.css"/>
+<link href="/ips-explorer/css/common.css" media="screen" rel="stylesheet" type="text/css">
+<script src="https://eloquentstudio.github.io/filter.js/assets/js/jquery-1.11.3.min.js" type="text/javascript"></script>
+<script src="https://eloquentstudio.github.io/filter.js/assets/js/jquery-ui-1.10.2.custom.min.js" type="text/javascript"></script>
+<script src="https://eloquentstudio.github.io/filter.js/filter.min.js" type="text/javascript"></script>
+<script type="text/javascript" src="https://cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script>
+<script type="text/javascript" src="https://cdn.datatables.net/1.10.16/js/dataTables.bootstrap.min.js"></script>
+<script type="text/javascript" src="https://cdn.datatables.net/buttons/1.5.1/js/dataTables.buttons.min.js"></script>
+<script type="text/javascript" src="https://cdn.datatables.net/buttons/1.5.1/js/buttons.flash.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.1.3/jszip.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.32/pdfmake.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.32/vfs_fonts.js"></script>
+<script type="text/javascript" src="https://cdn.datatables.net/buttons/1.5.1/js/buttons.html5.min.js"></script>
+<script type="text/javascript" src="https://cdn.datatables.net/buttons/1.5.1/js/buttons.print.min.js"></script>
+<script type="text/javascript" src="https://cdn.datatables.net/select/1.2.7/js/dataTables.select.min.js"></script>
+<script type="text/javascript" src="https://cdn.datatables.net/buttons/1.5.2/js/buttons.colVis.min.js"></script>
+<script type="text/javascript" src="https://getbootstrap.com/docs/3.3/dist/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="https://getbootstrap.com/docs/3.3/assets/js/docs.min.js"></script> 
+<script type="text/javascript" src="/ips-explorer/js/common.js"></script>
+<script>
+$(document).ready(function() {
+  var related_services_table = $("#related_services").DataTable( { 
+    "scrollY": "500px", "scrollCollapse": true, "paging": false, "dom": "Bfrtip", 
+    "order": [[ 1, "desc" ]],
+    "buttons": [ "copy", "csv", "excel", "pdf" ] 
+  } );
+  related_services_table.columns().every( function () {
+    var that = this;
+    $( "input.filter", this.footer() ).on( "keyup change", function () {
+      if ( that.search() !== this.value ) {
+        that.search( this.value ).draw();
+      }
+    } );
+  } );    
+});
+</script>
+<script type="application/ld+json">
+{
+  "@context":"http://schema.org",
+  "@type":"Service",
+  "@id":"http://purl.org/ips-x/service/20009",
+  "name":"MPS",
+  "url":"https://mps.apientreprise.fr/",
+  "description":"En adoptant MPS, la plateforme de dématérialisation Marchés Sécurisés permet aux entreprises de candidater à un marché public sans remplir de formulaire complexe ni fournir de pièces justificatives. Les entreprises saisisissent leur numéro de SIRET, valident leur consentement à ce que l’acheteur public accède aux attestations sociales ou fiscales, et déposent simplement leur offre.",
+  "spatialCoverage":[
+    {"@type":"Place","name":"France"}
+  ]
+}
+</script>
+
+</head>
+<body>
+<nav role="navigation" class="navbar navbar-default">
+<div class="container">
+<p class="navbar-header"><a class="navbar-brand" href="/ips-explorer/">IPS-X</a></p>
+<ul class="nav navbar-nav collapse navbar-collapse">
+<li class="active"><a href="/ips-explorer/service/">Services</a></li>
+<li class=""><a href="/ips-explorer/chart/">Gallery</a></li>
+<li class=""><a href="/ips-explorer/catalog/">Sources</a></li>
+</ul>
+<ul class="nav navbar-nav collapse navbar-collapse navbar-right">
+<li><a target="_blank" href="https://github.com/ipsoeu/ips-explorer/" title="GitHub"><i class="fa fa-github"></i> About IPS-X</a></li>
+</ul>
+</div>
+</nav>
+<article class="container">
+<aside class="sidebar col-md-3">
+<div>
+<div class="well">
+<p><strong>Technologies</strong></p>
+<p>Api</p>
+<p><strong>Geographic extent</strong></p>
+<p>National</p>
+<p><strong>Geographic coverage</strong></p>
+<p>France</p>
+<p><strong>Primary sector</strong></p>
+<p>Executive and legislative organs, financial and fiscal affairs, external affairs</p>
+<p><strong>Secondary sector</strong></p>
+<p>Financial and fiscal affairs</p>
+<p><strong>Social uptake</strong></p>
+<p>Unknown</p>
+<p><strong>Policy uptake</strong></p>
+<p>N/a</p>
+<p><strong>Policy relevance</strong></p>
+<p></p>
+</div>
+</div>
+</aside>
+<section class="col-md-9">
+<h2>MPS</h2>
+<address class="small">
+<p>Responsible organisation: DINSIC (Governmental)</p>
+</address>
+<p>En adoptant MPS, la plateforme de dématérialisation Marchés Sécurisés permet aux entreprises de candidater à un marché public sans remplir de formulaire complexe ni fournir de pièces justificatives. Les entreprises saisisissent leur numéro de SIRET, valident leur consentement à ce que l’acheteur public accède aux attestations sociales ou fiscales, et déposent simplement leur offre.</p>
+<section>
+<h3>Additional information</h3>
+<table class="table table-hover table-striped">
+<tbody>
+<tr>
+<th>Source</th>
+<td><a href="/ips-explorer/catalog/10002.html">api.gouv.fr</a></td>
+</tr>
+<tr>
+<th>Web site</th>
+<td><a href="https://mps.apientreprise.fr/">https://mps.apientreprise.fr/</a></td>
+</tr>
+<tr>
+<th>Start/end date</th>
+<td> - </td>
+</tr>
+<tr>
+<th>Still active?</th>
+<td>Yes</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section>
+<h3>Contribution to UN Sustainable Development Goals</h3>
+<table id="table-unsdg">
+<tbody>
+<tr>
+<tr>  <td class="unsdg-" title=""></td>  <td class="unsdg-" title=""></td>  <td class="unsdg-" title=""></td>  <td class="unsdg-" title=""></td>  <td class="unsdg-" title=""></td>  <td class="unsdg-" title=""></td>  <td class="unsdg-" title=""></td>  <td class="unsdg-" title=""></td>  <td class="unsdg-" title=""></td>  <td class="unsdg-" title=""></td>  <td class="unsdg-" title=""></td>  <td class="unsdg-" title=""></td>  <td class="unsdg-" title=""></td>  <td class="unsdg-" title=""></td>  <td class="unsdg-" title=""></td>  <td class="unsdg-" title=""></td>  <td class="unsdg-" title=""></td></tr></tbody>
+<tfoot>
+<tr>
+<th title="Poverty"><a href="https://sustainabledevelopment.un.org/sdg1">SDG1</a></th>
+<th title="Food, sustainable agriculture"><a href="https://sustainabledevelopment.un.org/sdg2">SDG2</a></th>
+<th title="Health and well-being"><a href="https://sustainabledevelopment.un.org/sdg3">SDG3</a></th>
+<th title="Education"><a href="https://sustainabledevelopment.un.org/sdg4">SDG4</a></th>
+<th title="Gender equality"><a href="https://sustainabledevelopment.un.org/sdg5">SDG5</a></th>
+<th title="Water availability and sustainable management"><a href="https://sustainabledevelopment.un.org/sdg6">SDG6</a></th>
+<th title="Energy affordable, reliable, sustainable"><a href="https://sustainabledevelopment.un.org/sdg7">SDG7</a></th>
+<th title="Sustainable economic growth and employment"><a href="https://sustainabledevelopment.un.org/sdg8">SDG8</a></th>
+<th title="Resilient infrastructure, innovation"><a href="https://sustainabledevelopment.un.org/sdg9">SDG9</a></th>
+<th title="Reduce inequality"><a href="https://sustainabledevelopment.un.org/sdg10">SDG10</a></th>
+<th title="Sustainable, resilient cities/settlements"><a href="https://sustainabledevelopment.un.org/sdg11">SDG11</a></th>
+<th title="Sustainable consumption and production"><a href="https://sustainabledevelopment.un.org/sdg12">SDG12</a></th>
+<th title="Action to combat climate change and its impacts"><a href="https://sustainabledevelopment.un.org/sdg13">SDG13</a></th>
+<th title="Marine conservation and sustainable development"><a href="https://sustainabledevelopment.un.org/sdg14">SDG14</a></th>
+<th title="Terrestrial biodiversity conservation, sustainable forest management and land use management"><a href="https://sustainabledevelopment.un.org/sdg15">SDG15</a></th>
+<th title="Peace, justice for all"><a href="https://sustainabledevelopment.un.org/sdg16">SDG16</a></th>
+<th title="Strengthen Global Partnership for Sustainable Development"><a href="https://sustainabledevelopment.un.org/sdg17">SDG17</a></th>
+</tr>
+</tfoot>
+</table>
+</section>
+<section>
+<h3>Related services</h3>
+<table id="related_services" class="table table-hover table-striped">
+<thead>
+<tr>
+<th>Service</th>
+<th>Similarity</th>
+<th>Relationships</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="./10001.html">Nidi gratis</a></td>
+<td>40%</td>      
+<td><span class="icon icon-su" title="Same social uptake">SU</span>&nbsp;<span class="icon icon-pu" title="Same policy uptake">PU</span>&nbsp;<span class="icon icon-pr" title="Same policy relevance">PR</span>&nbsp;<span class="icon icon-sdg" title="Similar contribution to UN SDGs">SDG</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10002.html">E015</a></td>
+<td>50%</td>      
+<td><span class="icon icon-it" title="Same technology">IT</span>&nbsp;<span class="icon icon-su" title="Same social uptake">SU</span>&nbsp;<span class="icon icon-pu" title="Same policy uptake">PU</span>&nbsp;<span class="icon icon-pr" title="Same policy relevance">PR</span>&nbsp;<span class="icon icon-sdg" title="Similar contribution to UN SDGs">SDG</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10003.html">Tracciabilità filiera</a></td>
+<td>40%</td>      
+<td><span class="icon icon-su" title="Same social uptake">SU</span>&nbsp;<span class="icon icon-pu" title="Same policy uptake">PU</span>&nbsp;<span class="icon icon-pr" title="Same policy relevance">PR</span>&nbsp;<span class="icon icon-sdg" title="Similar contribution to UN SDGs">SDG</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./20001.html">IFT</a></td>
+<td>70%</td>      
+<td><span class="icon icon-it" title="Same technology">IT</span>&nbsp;<span class="icon icon-ge" title="Same geographic extent">GE</span>&nbsp;<span class="icon icon-gc" title="Overlapping geographic coverage">GC</span>&nbsp;<span class="icon icon-su" title="Same social uptake">SU</span>&nbsp;<span class="icon icon-pu" title="Same policy uptake">PU</span>&nbsp;<span class="icon icon-pr" title="Same policy relevance">PR</span>&nbsp;<span class="icon icon-sdg" title="Similar contribution to UN SDGs">SDG</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./20002.html">ARPENT(examen)</a></td>
+<td>70%</td>      
+<td><span class="icon icon-it" title="Same technology">IT</span>&nbsp;<span class="icon icon-ge" title="Same geographic extent">GE</span>&nbsp;<span class="icon icon-gc" title="Overlapping geographic coverage">GC</span>&nbsp;<span class="icon icon-su" title="Same social uptake">SU</span>&nbsp;<span class="icon icon-pu" title="Same policy uptake">PU</span>&nbsp;<span class="icon icon-pr" title="Same policy relevance">PR</span>&nbsp;<span class="icon icon-sdg" title="Similar contribution to UN SDGs">SDG</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./20003.html">ARPENT(résultats)</a></td>
+<td>70%</td>      
+<td><span class="icon icon-it" title="Same technology">IT</span>&nbsp;<span class="icon icon-ge" title="Same geographic extent">GE</span>&nbsp;<span class="icon icon-gc" title="Overlapping geographic coverage">GC</span>&nbsp;<span class="icon icon-su" title="Same social uptake">SU</span>&nbsp;<span class="icon icon-pu" title="Same policy uptake">PU</span>&nbsp;<span class="icon icon-pr" title="Same policy relevance">PR</span>&nbsp;<span class="icon icon-sdg" title="Similar contribution to UN SDGs">SDG</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./20004.html">BourseSCO</a></td>
+<td>70%</td>      
+<td><span class="icon icon-it" title="Same technology">IT</span>&nbsp;<span class="icon icon-ge" title="Same geographic extent">GE</span>&nbsp;<span class="icon icon-gc" title="Overlapping geographic coverage">GC</span>&nbsp;<span class="icon icon-su" title="Same social uptake">SU</span>&nbsp;<span class="icon icon-pu" title="Same policy uptake">PU</span>&nbsp;<span class="icon icon-pr" title="Same policy relevance">PR</span>&nbsp;<span class="icon icon-sdg" title="Similar contribution to UN SDGs">SDG</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./20005.html">Lyon : Mon compte</a></td>
+<td>80%</td>      
+<td><span class="icon icon-it" title="Same technology">IT</span>&nbsp;<span class="icon icon-gc" title="Overlapping geographic coverage">GC</span>&nbsp;<span class="icon icon-ps" title="Same primary sector">PS</span>&nbsp;<span class="icon icon-ss" title="Same secondary sector">SS</span>&nbsp;<span class="icon icon-su" title="Same social uptake">SU</span>&nbsp;<span class="icon icon-pu" title="Same policy uptake">PU</span>&nbsp;<span class="icon icon-pr" title="Same policy relevance">PR</span>&nbsp;<span class="icon icon-sdg" title="Similar contribution to UN SDGs">SDG</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./20006.html">demarches-simplifiees.fr</a></td>
+<td>70%</td>      
+<td><span class="icon icon-it" title="Same technology">IT</span>&nbsp;<span class="icon icon-ge" title="Same geographic extent">GE</span>&nbsp;<span class="icon icon-gc" title="Overlapping geographic coverage">GC</span>&nbsp;<span class="icon icon-su" title="Same social uptake">SU</span>&nbsp;<span class="icon icon-pu" title="Same policy uptake">PU</span>&nbsp;<span class="icon icon-pr" title="Same policy relevance">PR</span>&nbsp;<span class="icon icon-sdg" title="Similar contribution to UN SDGs">SDG</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./20007.html">Dossier Social Étudiant</a></td>
+<td>70%</td>      
+<td><span class="icon icon-it" title="Same technology">IT</span>&nbsp;<span class="icon icon-ge" title="Same geographic extent">GE</span>&nbsp;<span class="icon icon-gc" title="Overlapping geographic coverage">GC</span>&nbsp;<span class="icon icon-su" title="Same social uptake">SU</span>&nbsp;<span class="icon icon-pu" title="Same policy uptake">PU</span>&nbsp;<span class="icon icon-pr" title="Same policy relevance">PR</span>&nbsp;<span class="icon icon-sdg" title="Similar contribution to UN SDGs">SDG</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./20008.html">Mes aides</a></td>
+<td>70%</td>      
+<td><span class="icon icon-it" title="Same technology">IT</span>&nbsp;<span class="icon icon-ge" title="Same geographic extent">GE</span>&nbsp;<span class="icon icon-gc" title="Overlapping geographic coverage">GC</span>&nbsp;<span class="icon icon-su" title="Same social uptake">SU</span>&nbsp;<span class="icon icon-pu" title="Same policy uptake">PU</span>&nbsp;<span class="icon icon-pr" title="Same policy relevance">PR</span>&nbsp;<span class="icon icon-sdg" title="Similar contribution to UN SDGs">SDG</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./20010.html">Déchets malins</a></td>
+<td>60%</td>      
+<td><span class="icon icon-it" title="Same technology">IT</span>&nbsp;<span class="icon icon-gc" title="Overlapping geographic coverage">GC</span>&nbsp;<span class="icon icon-su" title="Same social uptake">SU</span>&nbsp;<span class="icon icon-pu" title="Same policy uptake">PU</span>&nbsp;<span class="icon icon-pr" title="Same policy relevance">PR</span>&nbsp;<span class="icon icon-sdg" title="Similar contribution to UN SDGs">SDG</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./20011.html">RenCircul</a></td>
+<td>60%</td>      
+<td><span class="icon icon-it" title="Same technology">IT</span>&nbsp;<span class="icon icon-gc" title="Overlapping geographic coverage">GC</span>&nbsp;<span class="icon icon-su" title="Same social uptake">SU</span>&nbsp;<span class="icon icon-pu" title="Same policy uptake">PU</span>&nbsp;<span class="icon icon-pr" title="Same policy relevance">PR</span>&nbsp;<span class="icon icon-sdg" title="Similar contribution to UN SDGs">SDG</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./20012.html">Simulateur d'embauche</a></td>
+<td>70%</td>      
+<td><span class="icon icon-it" title="Same technology">IT</span>&nbsp;<span class="icon icon-ge" title="Same geographic extent">GE</span>&nbsp;<span class="icon icon-gc" title="Overlapping geographic coverage">GC</span>&nbsp;<span class="icon icon-su" title="Same social uptake">SU</span>&nbsp;<span class="icon icon-pu" title="Same policy uptake">PU</span>&nbsp;<span class="icon icon-pr" title="Same policy relevance">PR</span>&nbsp;<span class="icon icon-sdg" title="Similar contribution to UN SDGs">SDG</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./20013.html">Télépoints</a></td>
+<td>70%</td>      
+<td><span class="icon icon-it" title="Same technology">IT</span>&nbsp;<span class="icon icon-ge" title="Same geographic extent">GE</span>&nbsp;<span class="icon icon-gc" title="Overlapping geographic coverage">GC</span>&nbsp;<span class="icon icon-su" title="Same social uptake">SU</span>&nbsp;<span class="icon icon-pu" title="Same policy uptake">PU</span>&nbsp;<span class="icon icon-pr" title="Same policy relevance">PR</span>&nbsp;<span class="icon icon-sdg" title="Similar contribution to UN SDGs">SDG</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./30001.html">pagoPA</a></td>
+<td>70%</td>      
+<td><span class="icon icon-it" title="Same technology">IT</span>&nbsp;<span class="icon icon-ge" title="Same geographic extent">GE</span>&nbsp;<span class="icon icon-ps" title="Same primary sector">PS</span>&nbsp;<span class="icon icon-ss" title="Same secondary sector">SS</span>&nbsp;<span class="icon icon-pu" title="Same policy uptake">PU</span>&nbsp;<span class="icon icon-pr" title="Same policy relevance">PR</span>&nbsp;<span class="icon icon-sdg" title="Similar contribution to UN SDGs">SDG</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./30002.html">IO</a></td>
+<td>60%</td>      
+<td><span class="icon icon-it" title="Same technology">IT</span>&nbsp;<span class="icon icon-ge" title="Same geographic extent">GE</span>&nbsp;<span class="icon icon-su" title="Same social uptake">SU</span>&nbsp;<span class="icon icon-pu" title="Same policy uptake">PU</span>&nbsp;<span class="icon icon-pr" title="Same policy relevance">PR</span>&nbsp;<span class="icon icon-sdg" title="Similar contribution to UN SDGs">SDG</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./30003.html">18app e Carta Docente</a></td>
+<td>50%</td>      
+<td><span class="icon icon-it" title="Same technology">IT</span>&nbsp;<span class="icon icon-ge" title="Same geographic extent">GE</span>&nbsp;<span class="icon icon-pu" title="Same policy uptake">PU</span>&nbsp;<span class="icon icon-pr" title="Same policy relevance">PR</span>&nbsp;<span class="icon icon-sdg" title="Similar contribution to UN SDGs">SDG</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./30004.html">ANPR</a></td>
+<td>50%</td>      
+<td><span class="icon icon-it" title="Same technology">IT</span>&nbsp;<span class="icon icon-ge" title="Same geographic extent">GE</span>&nbsp;<span class="icon icon-pu" title="Same policy uptake">PU</span>&nbsp;<span class="icon icon-pr" title="Same policy relevance">PR</span>&nbsp;<span class="icon icon-sdg" title="Similar contribution to UN SDGs">SDG</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./30005.html">Data & Analytics Framework (DAF)</a></td>
+<td>50%</td>      
+<td><span class="icon icon-ge" title="Same geographic extent">GE</span>&nbsp;<span class="icon icon-su" title="Same social uptake">SU</span>&nbsp;<span class="icon icon-pu" title="Same policy uptake">PU</span>&nbsp;<span class="icon icon-pr" title="Same policy relevance">PR</span>&nbsp;<span class="icon icon-sdg" title="Similar contribution to UN SDGs">SDG</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./30006.html">dati.gov.it</a></td>
+<td>60%</td>      
+<td><span class="icon icon-it" title="Same technology">IT</span>&nbsp;<span class="icon icon-ge" title="Same geographic extent">GE</span>&nbsp;<span class="icon icon-su" title="Same social uptake">SU</span>&nbsp;<span class="icon icon-pu" title="Same policy uptake">PU</span>&nbsp;<span class="icon icon-pr" title="Same policy relevance">PR</span>&nbsp;<span class="icon icon-sdg" title="Similar contribution to UN SDGs">SDG</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./30007.html">Designers Italia</a></td>
+<td>60%</td>      
+<td><span class="icon icon-it" title="Same technology">IT</span>&nbsp;<span class="icon icon-ge" title="Same geographic extent">GE</span>&nbsp;<span class="icon icon-su" title="Same social uptake">SU</span>&nbsp;<span class="icon icon-pu" title="Same policy uptake">PU</span>&nbsp;<span class="icon icon-pr" title="Same policy relevance">PR</span>&nbsp;<span class="icon icon-sdg" title="Similar contribution to UN SDGs">SDG</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./30008.html">Develops Italia</a></td>
+<td>60%</td>      
+<td><span class="icon icon-it" title="Same technology">IT</span>&nbsp;<span class="icon icon-ge" title="Same geographic extent">GE</span>&nbsp;<span class="icon icon-su" title="Same social uptake">SU</span>&nbsp;<span class="icon icon-pu" title="Same policy uptake">PU</span>&nbsp;<span class="icon icon-pr" title="Same policy relevance">PR</span>&nbsp;<span class="icon icon-sdg" title="Similar contribution to UN SDGs">SDG</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./30009.html">Docs Italia</a></td>
+<td>60%</td>      
+<td><span class="icon icon-it" title="Same technology">IT</span>&nbsp;<span class="icon icon-ge" title="Same geographic extent">GE</span>&nbsp;<span class="icon icon-su" title="Same social uptake">SU</span>&nbsp;<span class="icon icon-pu" title="Same policy uptake">PU</span>&nbsp;<span class="icon icon-pr" title="Same policy relevance">PR</span>&nbsp;<span class="icon icon-sdg" title="Similar contribution to UN SDGs">SDG</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./30010.html">Fatturazione Elettronica</a></td>
+<td>70%</td>      
+<td><span class="icon icon-it" title="Same technology">IT</span>&nbsp;<span class="icon icon-ge" title="Same geographic extent">GE</span>&nbsp;<span class="icon icon-ps" title="Same primary sector">PS</span>&nbsp;<span class="icon icon-ss" title="Same secondary sector">SS</span>&nbsp;<span class="icon icon-pu" title="Same policy uptake">PU</span>&nbsp;<span class="icon icon-pr" title="Same policy relevance">PR</span>&nbsp;<span class="icon icon-sdg" title="Similar contribution to UN SDGs">SDG</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./30011.html">OTELLO 2.0</a></td>
+<td>70%</td>      
+<td><span class="icon icon-it" title="Same technology">IT</span>&nbsp;<span class="icon icon-ge" title="Same geographic extent">GE</span>&nbsp;<span class="icon icon-ps" title="Same primary sector">PS</span>&nbsp;<span class="icon icon-ss" title="Same secondary sector">SS</span>&nbsp;<span class="icon icon-pu" title="Same policy uptake">PU</span>&nbsp;<span class="icon icon-pr" title="Same policy relevance">PR</span>&nbsp;<span class="icon icon-sdg" title="Similar contribution to UN SDGs">SDG</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./30012.html">SPID</a></td>
+<td>50%</td>      
+<td><span class="icon icon-it" title="Same technology">IT</span>&nbsp;<span class="icon icon-ge" title="Same geographic extent">GE</span>&nbsp;<span class="icon icon-pu" title="Same policy uptake">PU</span>&nbsp;<span class="icon icon-pr" title="Same policy relevance">PR</span>&nbsp;<span class="icon icon-sdg" title="Similar contribution to UN SDGs">SDG</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./40001.html">Exonum land title registry</a></td>
+<td>30%</td>      
+<td><span class="icon icon-ge" title="Same geographic extent">GE</span>&nbsp;<span class="icon icon-pr" title="Same policy relevance">PR</span>&nbsp;<span class="icon icon-sdg" title="Similar contribution to UN SDGs">SDG</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./40002.html">Blockcerts academic credentials</a></td>
+<td>30%</td>      
+<td><span class="icon icon-ge" title="Same geographic extent">GE</span>&nbsp;<span class="icon icon-pr" title="Same policy relevance">PR</span>&nbsp;<span class="icon icon-sdg" title="Similar contribution to UN SDGs">SDG</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./40003.html">Chromaway property transactions</a></td>
+<td>40%</td>      
+<td><span class="icon icon-ge" title="Same geographic extent">GE</span>&nbsp;<span class="icon icon-su" title="Same social uptake">SU</span>&nbsp;<span class="icon icon-pr" title="Same policy relevance">PR</span>&nbsp;<span class="icon icon-sdg" title="Similar contribution to UN SDGs">SDG</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./40004.html">uPort decentralised identity</a></td>
+<td>20%</td>      
+<td><span class="icon icon-pr" title="Same policy relevance">PR</span>&nbsp;<span class="icon icon-sdg" title="Similar contribution to UN SDGs">SDG</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./40005.html">Infrachain governance framework</a></td>
+<td>40%</td>      
+<td><span class="icon icon-ge" title="Same geographic extent">GE</span>&nbsp;<span class="icon icon-su" title="Same social uptake">SU</span>&nbsp;<span class="icon icon-pr" title="Same policy relevance">PR</span>&nbsp;<span class="icon icon-sdg" title="Similar contribution to UN SDGs">SDG</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./40006.html">Pension infrastructure</a></td>
+<td>30%</td>      
+<td><span class="icon icon-ge" title="Same geographic extent">GE</span>&nbsp;<span class="icon icon-pr" title="Same policy relevance">PR</span>&nbsp;<span class="icon icon-sdg" title="Similar contribution to UN SDGs">SDG</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./40007.html">Stadjerspas smart vouchers</a></td>
+<td>20%</td>      
+<td><span class="icon icon-pr" title="Same policy relevance">PR</span>&nbsp;<span class="icon icon-sdg" title="Similar contribution to UN SDGs">SDG</span>&nbsp;</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<th><input class="filter" type="text" placeholder="Filter by service" data-index="0" /></th>
+<th><input class="filter" type="text" placeholder="Filter by similarity" data-index="1" /></th>
+<th><input class="filter" type="text" placeholder="Filter by relationship" data-index="2" /></th>
+</tr>
+</tfoot>
+</table>
+</section>
+</section>
+</article>
+<footer>
+<?php echo $footer; ?>
+</footer>
+</body>
+</html>

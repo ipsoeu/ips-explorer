@@ -1,0 +1,652 @@
+[
+    {
+        "cid": 10002,
+        "id": 20001,
+        "name": "IFT",
+        "url": "https:\/\/alim.agriculture.gouv.fr\/ift\/",
+        "contact": "",
+        "description": "Atelier de calcul de l'Indicateur de Fr\u00e9quence de Traitements phytopharmaceutiques",
+        "geoextent": "National",
+        "geocoverage": [
+            "France"
+        ],
+        "geocoverage_codes": [
+            "FR"
+        ],
+        "lead_organisation": {
+            "name": "Minist\u00e8re de l'Agriculture et de l'Alimentation",
+            "category": "Governmental"
+        },
+        "lead_organisation_name": "Minist\u00e8re de l'Agriculture et de l'Alimentation",
+        "lead_organisation_category": "Governmental",
+        "start_date": "",
+        "active": "Yes",
+        "end_date": "",
+        "primary_sector": "Agriculture, forestry, fishing and hunting",
+        "secondary_sector": "Health",
+        "category": "Api",
+        "social_uptake": "Unknown",
+        "policy_uptake": "N\/a",
+        "policy_uptake_explanation": "N\/A",
+        "policy_relevance": "",
+        "unsdg": {
+            "1": "0",
+            "2": "0",
+            "3": "1",
+            "4": "0",
+            "5": "0",
+            "6": "0",
+            "7": "0",
+            "8": "0",
+            "9": "0",
+            "10": "0",
+            "11": "0",
+            "12": "0",
+            "13": "0",
+            "14": "0",
+            "15": "0",
+            "16": "0",
+            "17": "0"
+        }
+    },
+    {
+        "cid": 10002,
+        "id": 20002,
+        "name": "ARPENT(examen)",
+        "url": "https:\/\/ensagri.agriculture.gouv.fr\/arpent-examen\/apprenant",
+        "contact": "",
+        "description": "ARPENT(examen) facilite les d\u00e9marches des candidats aux examens de l\u2019enseignement agricole en utilisant les briques interminist\u00e9rielles FranceConnect et Base Adresse Nationale. Les donn\u00e9es personnelles sont automatiquement renseign\u00e9es dans le dossier d\u2019inscription et la saisie de l\u2019adresse simplifi\u00e9e !",
+        "geoextent": "National",
+        "geocoverage": [
+            "France"
+        ],
+        "geocoverage_codes": [
+            "FR"
+        ],
+        "lead_organisation": {
+            "name": "Minist\u00e8re de l'Agriculture et de l'Alimentation",
+            "category": "Governmental"
+        },
+        "lead_organisation_name": "Minist\u00e8re de l'Agriculture et de l'Alimentation",
+        "lead_organisation_category": "Governmental",
+        "start_date": "",
+        "active": "Yes",
+        "end_date": "",
+        "primary_sector": "Agriculture, forestry, fishing and hunting",
+        "secondary_sector": "Education",
+        "category": "Api",
+        "social_uptake": "Unknown",
+        "policy_uptake": "N\/a",
+        "policy_uptake_explanation": "N\/A",
+        "policy_relevance": "",
+        "unsdg": {
+            "1": "0",
+            "2": "0",
+            "3": "0",
+            "4": "1",
+            "5": "0",
+            "6": "0",
+            "7": "0",
+            "8": "0",
+            "9": "0",
+            "10": "0",
+            "11": "0",
+            "12": "0",
+            "13": "0",
+            "14": "0",
+            "15": "0",
+            "16": "0",
+            "17": "0"
+        }
+    },
+    {
+        "cid": 10002,
+        "id": 20003,
+        "name": "ARPENT(r\u00e9sultats)",
+        "url": "https:\/\/ensagri.agriculture.gouv.fr\/arpent-resultats\/",
+        "contact": "",
+        "description": "ARPENT(r\u00e9sultats) permet aux candidats aux examens de l\u2019enseignement agricole de conna\u00eetre leur r\u00e9sultats et d\u2019\u00e9diter leur relev\u00e9 de notes. Gr\u00e2ce \u00e0 l\u2019API G\u00e9o, ARPENT(r\u00e9sultats) vous guide suivant un axe g\u00e9ographique pour retrouver votre \u00e9tablissement scolaire sans \u00eatre oblig\u00e9 d\u2019utiliser la carte.",
+        "geoextent": "National",
+        "geocoverage": [
+            "France"
+        ],
+        "geocoverage_codes": [
+            "FR"
+        ],
+        "lead_organisation": {
+            "name": "Minist\u00e8re de l'Agriculture et de l'Alimentation",
+            "category": "Governmental"
+        },
+        "lead_organisation_name": "Minist\u00e8re de l'Agriculture et de l'Alimentation",
+        "lead_organisation_category": "Governmental",
+        "start_date": "",
+        "active": "Yes",
+        "end_date": "",
+        "primary_sector": "Agriculture, forestry, fishing and hunting",
+        "secondary_sector": "Education",
+        "category": "Api",
+        "social_uptake": "Unknown",
+        "policy_uptake": "N\/a",
+        "policy_uptake_explanation": "N\/A",
+        "policy_relevance": "",
+        "unsdg": {
+            "1": "0",
+            "2": "0",
+            "3": "0",
+            "4": "1",
+            "5": "0",
+            "6": "0",
+            "7": "0",
+            "8": "0",
+            "9": "0",
+            "10": "0",
+            "11": "0",
+            "12": "0",
+            "13": "0",
+            "14": "0",
+            "15": "0",
+            "16": "0",
+            "17": "0"
+        }
+    },
+    {
+        "cid": 10002,
+        "id": 20004,
+        "name": "BourseSCO",
+        "url": "https:\/\/bourse.beta.gouv.fr\/",
+        "contact": "",
+        "description": "Il n\u2019a jamais \u00e9t\u00e9 aussi simple de r\u00e9aliser sa demande de bourse en ligne, et sans justificatifs ! Gr\u00e2ce \u00e0 Bourse Simplifi\u00e9e, l\u2019usager n\u2019a plus \u00e0 fournir de justificatifs. Apr\u00e8s avoir saisi ses informations, il consent \u00e0 ce que le personnel en charge dans l\u2019\u00e9tablissement aient acc\u00e8s \u00e0 son avis d\u2019imposition, et c\u2019est fini ! C\u00f4t\u00e9 intendance, un outil simple et ergonomique permet de g\u00e9rer la compl\u00e9tude des dossiers et la communication usager sans aucun recours au papier. Tout est \u00e9galement archiv\u00e9 est auditable. Les gains de productivit\u00e9 observ\u00e9s vont du simple au triple par rapport au mode de fonctionnement manuel et papier.",
+        "geoextent": "National",
+        "geocoverage": [
+            "France"
+        ],
+        "geocoverage_codes": [
+            "FR"
+        ],
+        "lead_organisation": {
+            "name": "Minist\u00e8re de l'\u00c9ducation nationale et de la Jeunesse",
+            "category": "Governmental"
+        },
+        "lead_organisation_name": "Minist\u00e8re de l'\u00c9ducation nationale et de la Jeunesse",
+        "lead_organisation_category": "Governmental",
+        "start_date": "",
+        "active": "No",
+        "end_date": "",
+        "primary_sector": "Education",
+        "secondary_sector": "Social protection",
+        "category": "Api",
+        "social_uptake": "Unknown",
+        "policy_uptake": "N\/a",
+        "policy_uptake_explanation": "N\/A",
+        "policy_relevance": "",
+        "unsdg": {
+            "1": "0",
+            "2": "0",
+            "3": "0",
+            "4": "1",
+            "5": "0",
+            "6": "0",
+            "7": "0",
+            "8": "0",
+            "9": "0",
+            "10": "1",
+            "11": "0",
+            "12": "0",
+            "13": "0",
+            "14": "0",
+            "15": "0",
+            "16": "0",
+            "17": "0"
+        }
+    },
+    {
+        "cid": 10002,
+        "id": 20005,
+        "name": "Lyon : Mon compte",
+        "url": "https:\/\/www.lyon.fr\/demarche\/loisirs\/calcul-du-quotient-familial-municipal",
+        "contact": "",
+        "description": "Le calcul du quotient familial municipal sert \u00e0 obtenir des r\u00e9ductions sur le prix des repas de la cantine scolaire dans les \u00e9coles publiques ou priv\u00e9es, sur les tarifs des activit\u00e9s de Divertisport, des Mercredis de Lyon, des Vendredis apr\u00e8m et des classes transplant\u00e9es. Il est d\u00e9termin\u00e9 en fonction des revenus et de la composition de la famille.",
+        "geoextent": "Local",
+        "geocoverage": [
+            "France"
+        ],
+        "geocoverage_codes": [
+            "FR"
+        ],
+        "lead_organisation": {
+            "name": "Ville de Lyon",
+            "category": "Governmental"
+        },
+        "lead_organisation_name": "Ville de Lyon",
+        "lead_organisation_category": "Governmental",
+        "start_date": "",
+        "active": "Yes",
+        "end_date": "",
+        "primary_sector": "Executive and legislative organs, financial and fiscal affairs, external affairs",
+        "secondary_sector": "Financial and fiscal affairs",
+        "category": "Api",
+        "social_uptake": "Unknown",
+        "policy_uptake": "N\/a",
+        "policy_uptake_explanation": "N\/A",
+        "policy_relevance": "",
+        "unsdg": {
+            "1": "0",
+            "2": "0",
+            "3": "0",
+            "4": "0",
+            "5": "0",
+            "6": "0",
+            "7": "0",
+            "8": "0",
+            "9": "0",
+            "10": "1",
+            "11": "0",
+            "12": "0",
+            "13": "0",
+            "14": "0",
+            "15": "0",
+            "16": "0",
+            "17": "0"
+        }
+    },
+    {
+        "cid": 10002,
+        "id": 20006,
+        "name": "demarches-simplifiees.fr",
+        "url": "https:\/\/www.demarches-simplifiees.fr\/",
+        "contact": "",
+        "description": "demarches-simplifiees.fr est une application enti\u00e8rement en ligne qui permet \u00e0 tous les organismes assurant des missions de service public de cr\u00e9er des d\u00e9marches en quelques minutes et de g\u00e9rer les demandes des usagers sur une plateforme d\u00e9di\u00e9e.",
+        "geoextent": "National",
+        "geocoverage": [
+            "France"
+        ],
+        "geocoverage_codes": [
+            "FR"
+        ],
+        "lead_organisation": {
+            "name": "DINSIC",
+            "category": "Governmental"
+        },
+        "lead_organisation_name": "DINSIC",
+        "lead_organisation_category": "Governmental",
+        "start_date": "",
+        "active": "Yes",
+        "end_date": "",
+        "primary_sector": "General public services",
+        "secondary_sector": "General public services",
+        "category": "Api",
+        "social_uptake": "Unknown",
+        "policy_uptake": "N\/a",
+        "policy_uptake_explanation": "N\/A",
+        "policy_relevance": "",
+        "unsdg": {
+            "1": "0",
+            "2": "0",
+            "3": "0",
+            "4": "0",
+            "5": "0",
+            "6": "0",
+            "7": "0",
+            "8": "0",
+            "9": "0",
+            "10": "0",
+            "11": "0",
+            "12": "0",
+            "13": "0",
+            "14": "0",
+            "15": "0",
+            "16": "0",
+            "17": "0"
+        }
+    },
+    {
+        "cid": 10002,
+        "id": 20007,
+        "name": "Dossier Social \u00c9tudiant",
+        "url": "https:\/\/www.messervices.etudiant.gouv.fr\/envole\/",
+        "contact": "",
+        "description": "En utilisant l\u2019API Particulier lors de la demande du DSE, les \u00e9tudiants n\u2019ont plus \u00e0 fournir le justificatif d\u2019imposition de leurs parents, il est r\u00e9cup\u00e9r\u00e9 directement aupr\u00e8s de la DGFiP.",
+        "geoextent": "National",
+        "geocoverage": [
+            "France"
+        ],
+        "geocoverage_codes": [
+            "FR"
+        ],
+        "lead_organisation": {
+            "name": "Minist\u00e8re de l'\u00c9ducation nationale et de la Jeunesse",
+            "category": "Governmental"
+        },
+        "lead_organisation_name": "Minist\u00e8re de l'\u00c9ducation nationale et de la Jeunesse",
+        "lead_organisation_category": "Governmental",
+        "start_date": "",
+        "active": "Yes",
+        "end_date": "",
+        "primary_sector": "Education",
+        "secondary_sector": "Social protection",
+        "category": "Api",
+        "social_uptake": "Unknown",
+        "policy_uptake": "N\/a",
+        "policy_uptake_explanation": "N\/A",
+        "policy_relevance": "",
+        "unsdg": {
+            "1": "0",
+            "2": "0",
+            "3": "0",
+            "4": "1",
+            "5": "0",
+            "6": "0",
+            "7": "0",
+            "8": "0",
+            "9": "0",
+            "10": "1",
+            "11": "0",
+            "12": "0",
+            "13": "0",
+            "14": "0",
+            "15": "0",
+            "16": "0",
+            "17": "0"
+        }
+    },
+    {
+        "cid": 10002,
+        "id": 20008,
+        "name": "Mes aides",
+        "url": "http:\/\/mes-aides.gouv.fr\/",
+        "contact": "",
+        "description": "Dans le maquis des aides sociales, c\u2019est \u00e0 l\u2019usager de d\u00e9terminer le bon guichet pour conna\u00eetre ses droits. Gr\u00e2ce \u00e0 mes-aides, l\u2019usager peut en quelques clics d\u00e9couvrir toutes les aides auxquelles il a droit en d\u00e9crivant sa situation une seule fois. Le simulateur OpenFisca prend en compte toute la l\u00e9gislation fiscale et sociale et permet donc de r\u00e9pondre pr\u00e9cis\u00e9ment \u00e0 la question \u00ab \u00e0 quelles aides ai-je droit ? \u00bb",
+        "geoextent": "National",
+        "geocoverage": [
+            "France"
+        ],
+        "geocoverage_codes": [
+            "FR"
+        ],
+        "lead_organisation": {
+            "name": "DINSIC",
+            "category": "Governmental"
+        },
+        "lead_organisation_name": "DINSIC",
+        "lead_organisation_category": "Governmental",
+        "start_date": "",
+        "active": "Yes",
+        "end_date": "",
+        "primary_sector": "Communication",
+        "secondary_sector": "Social protection",
+        "category": "Api",
+        "social_uptake": "Unknown",
+        "policy_uptake": "N\/a",
+        "policy_uptake_explanation": "N\/A",
+        "policy_relevance": "",
+        "unsdg": {
+            "1": "0",
+            "2": "0",
+            "3": "0",
+            "4": "0",
+            "5": "0",
+            "6": "0",
+            "7": "0",
+            "8": "0",
+            "9": "0",
+            "10": "0",
+            "11": "0",
+            "12": "0",
+            "13": "0",
+            "14": "0",
+            "15": "0",
+            "16": "0",
+            "17": "0"
+        }
+    },
+    {
+        "cid": 10002,
+        "id": 20009,
+        "name": "MPS",
+        "url": "https:\/\/mps.apientreprise.fr\/",
+        "contact": "",
+        "description": "En adoptant MPS, la plateforme de d\u00e9mat\u00e9rialisation March\u00e9s S\u00e9curis\u00e9s permet aux entreprises de candidater \u00e0 un march\u00e9 public sans remplir de formulaire complexe ni fournir de pi\u00e8ces justificatives. Les entreprises saisisissent leur num\u00e9ro de SIRET, valident leur consentement \u00e0 ce que l\u2019acheteur public acc\u00e8de aux attestations sociales ou fiscales, et d\u00e9posent simplement leur offre.",
+        "geoextent": "National",
+        "geocoverage": [
+            "France"
+        ],
+        "geocoverage_codes": [
+            "FR"
+        ],
+        "lead_organisation": {
+            "name": "DINSIC",
+            "category": "Governmental"
+        },
+        "lead_organisation_name": "DINSIC",
+        "lead_organisation_category": "Governmental",
+        "start_date": "",
+        "active": "Yes",
+        "end_date": "",
+        "primary_sector": "Executive and legislative organs, financial and fiscal affairs, external affairs",
+        "secondary_sector": "Financial and fiscal affairs",
+        "category": "Api",
+        "social_uptake": "Unknown",
+        "policy_uptake": "N\/a",
+        "policy_uptake_explanation": "N\/A",
+        "policy_relevance": "",
+        "unsdg": {
+            "1": "0",
+            "2": "0",
+            "3": "0",
+            "4": "0",
+            "5": "0",
+            "6": "0",
+            "7": "0",
+            "8": "0",
+            "9": "0",
+            "10": "0",
+            "11": "0",
+            "12": "0",
+            "13": "0",
+            "14": "0",
+            "15": "0",
+            "16": "0",
+            "17": "0"
+        }
+    },
+    {
+        "cid": 10002,
+        "id": 20010,
+        "name": "D\u00e9chets malins",
+        "url": "http:\/\/dechets.rennesmetropole.fr\/",
+        "contact": "",
+        "description": "Ce site comporte un guide du tri mis \u00e0 jour en permanence. Premi\u00e8re nationale : une fonction permet, en saisissant son adresse, de conna\u00eetre les horaires de passage th\u00e9orique des bennes \u00e0 2h pr\u00e8s.",
+        "geoextent": "Local",
+        "geocoverage": [
+            "France"
+        ],
+        "geocoverage_codes": [
+            "FR"
+        ],
+        "lead_organisation": {
+            "name": "Rennes, Ville et Metropole",
+            "category": "Governmental"
+        },
+        "lead_organisation_name": "Rennes, Ville et Metropole",
+        "lead_organisation_category": "Governmental",
+        "start_date": "",
+        "active": "Yes",
+        "end_date": "",
+        "primary_sector": "Communication",
+        "secondary_sector": "Waste management",
+        "category": "Api",
+        "social_uptake": "Unknown",
+        "policy_uptake": "N\/a",
+        "policy_uptake_explanation": "N\/A",
+        "policy_relevance": "",
+        "unsdg": {
+            "1": "0",
+            "2": "0",
+            "3": "1",
+            "4": "0",
+            "5": "0",
+            "6": "0",
+            "7": "0",
+            "8": "0",
+            "9": "0",
+            "10": "0",
+            "11": "0",
+            "12": "0",
+            "13": "0",
+            "14": "0",
+            "15": "0",
+            "16": "0",
+            "17": "0"
+        }
+    },
+    {
+        "cid": 10002,
+        "id": 20011,
+        "name": "RenCircul",
+        "url": "http:\/\/circulation.rennesmetropole.fr\/",
+        "contact": "",
+        "description": "Actualis\u00e9s quotidiennement pour tenir compte de l\u2019impact des chantiers sur le territoire de la ville et de l\u2019agglom\u00e9ration de Rennes, RenCircul et le site circulation.rennesmetropole.fr proposent des informations sur les travaux et sur les modifications des conditions de circulation qu\u2019ils g\u00e9n\u00e8rent.",
+        "geoextent": "Local",
+        "geocoverage": [
+            "France"
+        ],
+        "geocoverage_codes": [
+            "FR"
+        ],
+        "lead_organisation": {
+            "name": "Rennes, Ville et Metropole",
+            "category": "Governmental"
+        },
+        "lead_organisation_name": "Rennes, Ville et Metropole",
+        "lead_organisation_category": "Governmental",
+        "start_date": "",
+        "active": "Yes",
+        "end_date": "",
+        "primary_sector": "Communication",
+        "secondary_sector": "Transport",
+        "category": "Api",
+        "social_uptake": "Unknown",
+        "policy_uptake": "N\/a",
+        "policy_uptake_explanation": "N\/A",
+        "policy_relevance": "",
+        "unsdg": {
+            "1": "0",
+            "2": "0",
+            "3": "0",
+            "4": "0",
+            "5": "0",
+            "6": "0",
+            "7": "0",
+            "8": "0",
+            "9": "0",
+            "10": "0",
+            "11": "0",
+            "12": "0",
+            "13": "0",
+            "14": "0",
+            "15": "0",
+            "16": "0",
+            "17": "0"
+        }
+    },
+    {
+        "cid": 10002,
+        "id": 20012,
+        "name": "Simulateur d'embauche",
+        "url": "http:\/\/embauche.beta.gouv.fr\/",
+        "contact": "",
+        "description": "Un module Web de simulation du co\u00fbt d\u2019une embauche et du salaire net, \u00e0 int\u00e9grer simplement sur une page Web.",
+        "geoextent": "National",
+        "geocoverage": [
+            "France"
+        ],
+        "geocoverage_codes": [
+            "FR"
+        ],
+        "lead_organisation": {
+            "name": "DINSIC",
+            "category": "Governmental"
+        },
+        "lead_organisation_name": "DINSIC",
+        "lead_organisation_category": "Governmental",
+        "start_date": "",
+        "active": "Yes",
+        "end_date": "",
+        "primary_sector": "Communication",
+        "secondary_sector": "Taxation",
+        "category": "Api",
+        "social_uptake": "Unknown",
+        "policy_uptake": "N\/a",
+        "policy_uptake_explanation": "N\/A",
+        "policy_relevance": "",
+        "unsdg": {
+            "1": "0",
+            "2": "0",
+            "3": "0",
+            "4": "0",
+            "5": "0",
+            "6": "0",
+            "7": "0",
+            "8": "0",
+            "9": "0",
+            "10": "0",
+            "11": "0",
+            "12": "0",
+            "13": "0",
+            "14": "0",
+            "15": "0",
+            "16": "0",
+            "17": "0"
+        }
+    },
+    {
+        "cid": 10002,
+        "id": 20013,
+        "name": "T\u00e9l\u00e9points",
+        "url": "https:\/\/permisdeconduire.ants.gouv.fr\/Vos-demarches\/Le-permis-a-points\/Solde-de-vos-points-Via-France-Connect",
+        "contact": "",
+        "description": "Gr\u00e2ce \u00e0 FranceConnect, vous pouvez consulter imm\u00e9diatement votre solde de points sur le portail de l\u2019ANTS.",
+        "geoextent": "National",
+        "geocoverage": [
+            "France"
+        ],
+        "geocoverage_codes": [
+            "FR"
+        ],
+        "lead_organisation": {
+            "name": "DINSIC",
+            "category": "Governmental"
+        },
+        "lead_organisation_name": "DINSIC",
+        "lead_organisation_category": "Governmental",
+        "start_date": "",
+        "active": "Yes",
+        "end_date": "",
+        "primary_sector": "Communication",
+        "secondary_sector": "Transport",
+        "category": "Api",
+        "social_uptake": "Unknown",
+        "policy_uptake": "N\/a",
+        "policy_uptake_explanation": "N\/A",
+        "policy_relevance": "",
+        "unsdg": {
+            "1": "0",
+            "2": "0",
+            "3": "0",
+            "4": "0",
+            "5": "0",
+            "6": "0",
+            "7": "0",
+            "8": "0",
+            "9": "0",
+            "10": "0",
+            "11": "0",
+            "12": "0",
+            "13": "0",
+            "14": "0",
+            "15": "0",
+            "16": "0",
+            "17": "0"
+        }
+    }
+]

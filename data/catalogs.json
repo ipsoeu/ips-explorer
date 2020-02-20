@@ -1,11 +1,38 @@
 [
     {
         "c_id": 10001,
-        "c_name": "Inventory of Innovative Public Services",
-        "c_url": "",
-        "c_contact": "mailto:jrc-ips@ec.europa.eu",
-        "c_description": "Data resulting from a  desk research study carried out by the European Commission (DG DIGIT, with the support of DG JRC) in order to get an evidence base of public services making use of innovative digital technologies.",
-        "c_publisher": "European Commission, Joint Research Centre (JRC)",
+        "c_name": "Open Innovation Regione Lombardia",
+        "c_url": "https:\/\/www.openinnovation.regione.lombardia.it\/",
+        "c_contact": "mailto:openinnovation@regione.lombardia.it",
+        "c_description": "Platform of Regione Lombardia, aimed at all actors of innovation processes in companies, research centers, public administrations, civil society and all citizens who want to play an active role in research and innovation policies.",
+        "c_publisher": "Regione Lombardia",
+        "c_type": "Catalogue"
+    },
+    {
+        "c_id": 10002,
+        "c_name": "api.gouv.fr",
+        "c_url": "https:\/\/api.gouv.fr\/",
+        "c_contact": "mailto:contact@api.gouv.fr",
+        "c_description": "Catalogue of APIs used by the French public administration. The catalogue includes also the list public services using such APIs.",
+        "c_publisher": "DINUM",
+        "c_type": "Catalogue"
+    },
+    {
+        "c_id": 10003,
+        "c_name": "Developers Italia",
+        "c_url": "https:\/\/developers.italia.it\/",
+        "c_contact": "",
+        "c_description": "Developers Italia is the community dedicated to the development of Open Source Software to support Italian digital public services. It collects a large amount of libraries and SDK, as well as test environments, code examples and clear documentation aimed at simplifying the integration of the national enabling platforms within digital services.",
+        "c_publisher": "Agenzia per l'Italia Digitale",
+        "c_type": "Catalogue"
+    },
+    {
+        "c_id": 10004,
+        "c_name": "Blockchain for digital government - An assessment of pioneering implementations in public services",
+        "c_url": "https:\/\/doi.org\/10.2760\/942739",
+        "c_contact": "",
+        "c_description": "The publication, carried out in the framework of the the ISA\u00b2 ELISE Action, analyses seven blockchain-based services developed in Europe, with an active participation of public authorities from both national and local levels.",
+        "c_publisher": "Publications Office of the European Union",
         "c_type": "Desk research"
     }
 ]

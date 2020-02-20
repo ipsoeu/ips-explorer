@@ -1,0 +1,152 @@
+[
+    {
+        "cid": 10001,
+        "id": 10001,
+        "name": "Nidi gratis",
+        "url": "https:\/\/nidigratis.blockchainregionelombardia.it\/",
+        "contact": "mailto:supporto@blockchainregionelombardia.it",
+        "description": "A public service, using blockchain technologies, which offers families from deprived backgrounds free access to childcare for children up to the age of 3.",
+        "geoextent": "Regional",
+        "geocoverage": [
+            "Italy"
+        ],
+        "geocoverage_codes": [
+            "IT"
+        ],
+        "lead_organisation": {
+            "name": "Regione Lombardia",
+            "category": "Governmental"
+        },
+        "lead_organisation_name": "Regione Lombardia",
+        "lead_organisation_category": "Governmental",
+        "start_date": "2019",
+        "active": "Yes",
+        "end_date": "",
+        "primary_sector": "Social protection",
+        "secondary_sector": "Education",
+        "category": "Blockchain",
+        "social_uptake": "Unknown",
+        "policy_uptake": "N\/a",
+        "policy_uptake_explanation": "N\/A",
+        "policy_relevance": "",
+        "unsdg": {
+            "1": "0",
+            "2": "0",
+            "3": "0",
+            "4": "1",
+            "5": "0",
+            "6": "0",
+            "7": "0",
+            "8": "0",
+            "9": "0",
+            "10": "1",
+            "11": "0",
+            "12": "0",
+            "13": "0",
+            "14": "0",
+            "15": "0",
+            "16": "0",
+            "17": "0"
+        }
+    },
+    {
+        "cid": 10001,
+        "id": 10002,
+        "name": "E015",
+        "url": "https:\/\/www.e015.regione.lombardia.it\/",
+        "contact": "",
+        "description": "L'Ecosistema Digitale E015 \u00e8 una iniziativa promossa da Regione Lombardia insieme con Confindustria, CCIAA di Milano, Confcommercio, Assolombarda e Unione del Commercio, con il coordinamento tecnico-scientifico di Cefriel. Favorisce la creazione di relazioni digitali fra soggetti diversi, sia pubblici che privati, interessati a valorizzare il proprio patrimonio digitale condividendolo o ad arricchire le soluzioni software per i propri utenti con le funzionalit\u00e0 e le informazioni condivise dagli altri partecipanti. La condivisione di funzionalit\u00e0 e informazioni in E015 avviene attraverso la pubblicazione di API, in accordo alle linee guida e con il coordinamento del Technical Management Board",
+        "geoextent": "Regional",
+        "geocoverage": [
+            "Italy"
+        ],
+        "geocoverage_codes": [
+            "IT"
+        ],
+        "lead_organisation": {
+            "name": "Regione Lombardia",
+            "category": "Governmental"
+        },
+        "lead_organisation_name": "Regione Lombardia",
+        "lead_organisation_category": "Governmental",
+        "start_date": "",
+        "active": "Yes",
+        "end_date": "",
+        "primary_sector": "General public services",
+        "secondary_sector": "General public services",
+        "category": "Api",
+        "social_uptake": "Unknown",
+        "policy_uptake": "N\/a",
+        "policy_uptake_explanation": "N\/A",
+        "policy_relevance": "",
+        "unsdg": {
+            "1": "0",
+            "2": "0",
+            "3": "0",
+            "4": "0",
+            "5": "0",
+            "6": "0",
+            "7": "0",
+            "8": "0",
+            "9": "0",
+            "10": "0",
+            "11": "0",
+            "12": "0",
+            "13": "0",
+            "14": "0",
+            "15": "0",
+            "16": "0",
+            "17": "0"
+        }
+    },
+    {
+        "cid": 10001,
+        "id": 10003,
+        "name": "Tracciabilit\u00e0 filiera",
+        "url": "https:\/\/filiera.blockchainregionelombardia.it\/",
+        "contact": "mailto:supporto@blockchainregionelombardia.it",
+        "description": "La sperimentazione \u201cBlockchain applicata alla tracciabilit\u00e0 degli alimenti di origine animale\u201d nasce all\u2019interno del Programma Strategico Triennale per la Ricerca, l\u2019Innovazione e il Trasferimento Tecnologico deliberato da Regione Lombardia, che prevede iniziative trainanti per lo sviluppo del sistema lombardo, tra cui anche l\u2019utilizzo dell\u2019ICT di frontiera come la Blockchain.",
+        "geoextent": "Regional",
+        "geocoverage": [
+            "Italy"
+        ],
+        "geocoverage_codes": [
+            "IT"
+        ],
+        "lead_organisation": {
+            "name": "Regione Lombardia",
+            "category": "Governmental"
+        },
+        "lead_organisation_name": "Regione Lombardia",
+        "lead_organisation_category": "Governmental",
+        "start_date": "2019",
+        "active": "Yes",
+        "end_date": "",
+        "primary_sector": "Agriculture, forestry, fishing and hunting",
+        "secondary_sector": "Health",
+        "category": "Blockchain",
+        "social_uptake": "Unknown",
+        "policy_uptake": "N\/a",
+        "policy_uptake_explanation": "N\/A",
+        "policy_relevance": "",
+        "unsdg": {
+            "1": "0",
+            "2": "0",
+            "3": "1",
+            "4": "0",
+            "5": "0",
+            "6": "0",
+            "7": "0",
+            "8": "0",
+            "9": "1",
+            "10": "0",
+            "11": "0",
+            "12": "1",
+            "13": "0",
+            "14": "0",
+            "15": "0",
+            "16": "0",
+            "17": "0"
+        }
+    }
+]
