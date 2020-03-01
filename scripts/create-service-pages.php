@@ -47,9 +47,9 @@
     $secondary_sector = $v["secondary_sector"];
     $category = $v["category"];
     $social_uptake = $v["social_uptake"];
-    $policy_uptake = $v["policy_uptake"];
+    $cross_sector = $v["cross_sector"];
     $policy_uptake_explanation = $v["policy_uptake_explanation"];
-    $policy_relevance = $v["policy_relevance"];
+    $type = $v["type"];
     $unsdg[1]  = $v["unsdg"][1];
     $unsdg[2]  = $v["unsdg"][2];
     $unsdg[3]  = $v["unsdg"][3];
@@ -217,12 +217,12 @@ $(document).ready(function() {
 <p>' . $primary_sector . '</p>
 <p><strong>Secondary sector</strong></p>
 <p>' . $secondary_sector . '</p>
-<p><strong>Social uptake</strong></p>
+<p><strong>Uptake</strong></p>
 <p>' . $social_uptake . '</p>
-<p><strong>Policy uptake</strong></p>
-<p>' . $policy_uptake . '</p>
-<p><strong>Policy relevance</strong></p>
-<p>' . $policy_relevance . '</p>
+<p><strong>Cross-sector</strong></p>
+<p>' . $cross_sector . '</p>
+<p><strong>Type</strong></p>
+<p>' . $type . '</p>
 </div>
 </div>
 </aside>
@@ -371,11 +371,11 @@ if ($policy_uptake == 'Yes') {
       if ($social_uptake == $p["social_uptake"]) {
         $related_services[$p["id"]]["social_uptake"] = "Yes";
       }
-      if ($policy_uptake == $p["policy_uptake"]) {
-        $related_services[$p["id"]]["policy_uptake"] = "Yes";
+      if ($cross_sector == $p["cross_sector"]) {
+        $related_services[$p["id"]]["cross_sector"] = "Yes";
       }
-      if ($policy_relevance == $p["policy_relevance"]) {
-        $related_services[$p["id"]]["policy_relevance"] = "Yes";
+      if ($type == $p["type"]) {
+        $related_services[$p["id"]]["type"] = "Yes";
       }
       if (count(array_intersect_assoc($unsdg, $p["unsdg"])) > 0) {
         $related_services[$p["id"]]["unsdg"] = "Yes";
@@ -432,16 +432,16 @@ if ($policy_uptake == 'Yes') {
               $label = "Same secondary sector";
               break;
             case "social_uptake":
-              $tag = "SU";
-              $label = "Same social uptake";
+              $tag = "UP";
+              $label = "Same level of uptake";
               break;
-            case "policy_uptake":
-              $tag = "PU";
-              $label = "Same policy uptake";
+            case "cross_sector":
+              $tag = "CS";
+              $label = "Same cross-sector applicability";
               break;
-            case "policy_relevance":
-              $label = "Same policy relevance";
-              $tag = "PR";
+            case "type":
+              $label = "Same type";
+              $tag = "TY";
               break;
             case "unsdg":
               $label = "Similar contribution to UN SDGs";

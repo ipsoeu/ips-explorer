@@ -1,0 +1,652 @@
+[
+    {
+        "cid": 10004,
+        "id": 40001,
+        "name": "Blockcerts academic credentials",
+        "url": "https:\/\/newsbook.com.mt\/en\/malta-first-to-introduce-blockcerts-for-academic-credentials\/",
+        "contact": "",
+        "description": "In October 2017, the Maltese government has launched a project that develops academic credentials verification using blockchain technology. The Ministry for Education and Employment (MEDE) of Malta decided to use the Blockcerts open standard for management of academic records. Blockcerts provides all aspects of the value chain: creation, issuing, viewing, and verification of the certificates, and uses blockchain technology as the infrastructure. The pilot was initiated to create a verifiable proof of education for citizens.",
+        "geoextent": "National",
+        "geocoverage": [
+            "Malta"
+        ],
+        "geocoverage_codes": [
+            "MT"
+        ],
+        "lead_organisation": {
+            "name": "Ministry for Education and Employment",
+            "category": "Governmental"
+        },
+        "lead_organisation_name": "Ministry for Education and Employment",
+        "lead_organisation_category": "Governmental",
+        "start_date": "2017",
+        "active": "Yes",
+        "end_date": "",
+        "primary_sector": "Education",
+        "secondary_sector": "Education",
+        "category": "Blockchain",
+        "social_uptake": "Considerable",
+        "cross_sector": "Yes",
+        "policy_uptake_explanation": "",
+        "type": "Disintermediation and decentralized networks",
+        "unsdg": {
+            "1": "0",
+            "2": "0",
+            "3": "0",
+            "4": "1",
+            "5": "0",
+            "6": "0",
+            "7": "0",
+            "8": "0",
+            "9": "1",
+            "10": "0",
+            "11": "0",
+            "12": "0",
+            "13": "0",
+            "14": "0",
+            "15": "0",
+            "16": "0",
+            "17": "0"
+        }
+    },
+    {
+        "cid": 10004,
+        "id": 40002,
+        "name": "Chromaway property transactions",
+        "url": "http:\/\/chromaway.com\/solutions",
+        "contact": "",
+        "description": "In real estate the value at stake is high, highlighting the importance of security and transparency of property transactions. Currently, transaction settlement in real estate is slow, costly and exposed to various business risks, including contested property deeds. This project attempts to tackle both the distrust between parties in real estate transfers and the speed of transactions. The project was initiated in September 2016 by the Swedish Mapping, Cadaster and Land Registration Authority, Landshypotek Bank, SBAB, Telia, Chromaway and Kairos Future. The project was set-up to redefine real estate transactions and mortgage deeds.",
+        "geoextent": "National",
+        "geocoverage": [
+            "Sweden"
+        ],
+        "geocoverage_codes": [
+            "SE"
+        ],
+        "lead_organisation": {
+            "name": "Mapping, Cadaster and Land Registration Authority",
+            "category": "Governmental"
+        },
+        "lead_organisation_name": "Mapping, Cadaster and Land Registration Authority",
+        "lead_organisation_category": "Governmental",
+        "start_date": "2016",
+        "active": "Yes",
+        "end_date": "",
+        "primary_sector": "General public services",
+        "secondary_sector": "General public services",
+        "category": "Blockchain",
+        "social_uptake": "Unknown",
+        "cross_sector": "No",
+        "policy_uptake_explanation": "",
+        "type": "Tracking of goods, supply chain, iot",
+        "unsdg": {
+            "1": "0",
+            "2": "0",
+            "3": "0",
+            "4": "0",
+            "5": "0",
+            "6": "0",
+            "7": "0",
+            "8": "0",
+            "9": "1",
+            "10": "0",
+            "11": "0",
+            "12": "0",
+            "13": "0",
+            "14": "0",
+            "15": "0",
+            "16": "0",
+            "17": "0"
+        }
+    },
+    {
+        "cid": 10004,
+        "id": 40003,
+        "name": "uPort decentralised identity",
+        "url": "https:\/\/www.uport.me\/",
+        "contact": "",
+        "description": "The City of Zug has launched a government-issued identity on the Ethereum blockchain, called uPort. The aim of the project is to provide a trusted and self-reliant blockchain-based identity to authenticate for e-government services and share personal data with third parties. The project itself does not focus on developing public services that would use the blockchain-based identity. From the citizen's perspective the Uport service allows for a selective disclosure of specific information to particular companies or governmental institutions giving citizens a full control and de facto ownership over their personal data.",
+        "geoextent": "Local",
+        "geocoverage": [
+            "Switzerland"
+        ],
+        "geocoverage_codes": [
+            "CH"
+        ],
+        "lead_organisation": {
+            "name": "Municipality of Zug",
+            "category": "Governmental"
+        },
+        "lead_organisation_name": "Municipality of Zug",
+        "lead_organisation_category": "Governmental",
+        "start_date": "2017",
+        "active": "Yes",
+        "end_date": "",
+        "primary_sector": "General public services",
+        "secondary_sector": "General public services",
+        "category": "Blockchain",
+        "social_uptake": "Small",
+        "cross_sector": "Yes",
+        "policy_uptake_explanation": "",
+        "type": "Self sovereign - digital identity",
+        "unsdg": {
+            "1": "0",
+            "2": "0",
+            "3": "0",
+            "4": "0",
+            "5": "0",
+            "6": "0",
+            "7": "0",
+            "8": "0",
+            "9": "1",
+            "10": "0",
+            "11": "0",
+            "12": "0",
+            "13": "0",
+            "14": "0",
+            "15": "0",
+            "16": "0",
+            "17": "0"
+        }
+    },
+    {
+        "cid": 10004,
+        "id": 40004,
+        "name": "Infrachain governance framework",
+        "url": "https:\/\/digital-luxembourg.public.lu\/initiatives\/infrachain",
+        "contact": "",
+        "description": "Infrachain is a non-profit organisation, launched in November 2016 in Luxembourg. The aim of the organisation is to support the creation of independent and incorruptible nodes involved in the operation of blockchain instances. Infrachain develops a governance layer placed \u2018on top\u2019 of existing and future permissioned blockchains. The Infrachain governance framework gives attention to privacy protection, cyber-security, law enforcement and business continuity to the same degree as centralized systems. The framework postulates a separation of service and network layers and the establishment of a reference blockchain infrastructure, composed of independent nodes, hosting different public and private services.",
+        "geoextent": "National",
+        "geocoverage": [
+            "Luxembourg"
+        ],
+        "geocoverage_codes": [
+            "LU"
+        ],
+        "lead_organisation": {
+            "name": "Infrachain",
+            "category": "Private"
+        },
+        "lead_organisation_name": "Infrachain",
+        "lead_organisation_category": "Private",
+        "start_date": "2016",
+        "active": "Yes",
+        "end_date": "",
+        "primary_sector": "General public services",
+        "secondary_sector": "General public services",
+        "category": "Blockchain",
+        "social_uptake": "Unknown",
+        "cross_sector": "Yes",
+        "policy_uptake_explanation": "",
+        "type": "Governance and voting",
+        "unsdg": {
+            "1": "0",
+            "2": "0",
+            "3": "0",
+            "4": "0",
+            "5": "0",
+            "6": "0",
+            "7": "0",
+            "8": "0",
+            "9": "1",
+            "10": "0",
+            "11": "0",
+            "12": "0",
+            "13": "0",
+            "14": "0",
+            "15": "0",
+            "16": "0",
+            "17": "0"
+        }
+    },
+    {
+        "cid": 10004,
+        "id": 40005,
+        "name": "Pension infrastructure",
+        "url": "https:\/\/www.apg.nl\/en\/article\/APG%20en%20PGGM%20blockchain\/937",
+        "contact": "",
+        "description": "The Pension Infrastructure (PI) is a complete community-based pension administration blockchain back-office. The aim of the project is to realize a more flexible and transparent pension administration system for citizens, while reducing significantly pension management costs. The project was initiated on the notion of the large similarities between blockchain payments and pension administration. In both systems actors have a personal balance and transactions between the balances occur.",
+        "geoextent": "National",
+        "geocoverage": [
+            "Netherlands"
+        ],
+        "geocoverage_codes": [
+            "NL"
+        ],
+        "lead_organisation": {
+            "name": "APG",
+            "category": "Governmental"
+        },
+        "lead_organisation_name": "APG",
+        "lead_organisation_category": "Governmental",
+        "start_date": "2018",
+        "active": "Yes",
+        "end_date": "",
+        "primary_sector": "Social protection",
+        "secondary_sector": "Social protection",
+        "category": "Blockchain",
+        "social_uptake": "Small",
+        "cross_sector": "Yes",
+        "policy_uptake_explanation": "",
+        "type": "Process digitization",
+        "unsdg": {
+            "1": "0",
+            "2": "0",
+            "3": "0",
+            "4": "0",
+            "5": "0",
+            "6": "0",
+            "7": "0",
+            "8": "0",
+            "9": "1",
+            "10": "0",
+            "11": "0",
+            "12": "0",
+            "13": "0",
+            "14": "0",
+            "15": "0",
+            "16": "0",
+            "17": "0"
+        }
+    },
+    {
+        "cid": 10004,
+        "id": 40006,
+        "name": "Stadjerspas smart vouchers",
+        "url": "https:\/\/stadjerspas.nl\/",
+        "contact": "",
+        "description": "Stadjerspas is a fully operable service which uses blockchain infrastructure to provide discounted services to low-income citizens of the Municipality of Groningen. Promotion of inclusivity in the city via a voucher system started in 1994. Up until 2013 vouchers were completely paper-based. In 2016 the voucher system in Groningen was moved to a blockchain, developed by DutchChain, a technology provider company. The core value-added of the blockchain-based system is the enhanced targeting of public money thanks to programmable money flows. Detailed spending conditions and eligibility criteria are programmed in the smart contract. Possible criteria include: detailed profiles of the beneficiaries and authorized providers, financial thresholds or usage limits. Smart vouchers can be used, for example, in sport clubs, cinemas or for subsidization of solar panels for home owners. From the municipality perspective Stadjerspas ensures that public money reserved for a specified purpose is spent exclusively on that purpose and targeted at a desired group of beneficiaries.",
+        "geoextent": "Local",
+        "geocoverage": [
+            "Netherlands"
+        ],
+        "geocoverage_codes": [
+            "NL"
+        ],
+        "lead_organisation": {
+            "name": "Municipality of Groningen",
+            "category": "Governmental"
+        },
+        "lead_organisation_name": "Municipality of Groningen",
+        "lead_organisation_category": "Governmental",
+        "start_date": "2016",
+        "active": "Yes",
+        "end_date": "",
+        "primary_sector": "Social protection",
+        "secondary_sector": "Social protection",
+        "category": "Blockchain",
+        "social_uptake": "Very large",
+        "cross_sector": "Yes",
+        "policy_uptake_explanation": "",
+        "type": "Disintermediation and decentralized networks",
+        "unsdg": {
+            "1": "0",
+            "2": "0",
+            "3": "0",
+            "4": "0",
+            "5": "0",
+            "6": "0",
+            "7": "0",
+            "8": "0",
+            "9": "1",
+            "10": "0",
+            "11": "0",
+            "12": "0",
+            "13": "0",
+            "14": "0",
+            "15": "0",
+            "16": "0",
+            "17": "0"
+        }
+    },
+    {
+        "cid": 10003,
+        "id": 30007,
+        "name": "Docs Italia",
+        "url": "https:\/\/docs.italia.it\/",
+        "contact": "",
+        "description": "Docs Italia is the tool for publishing technical and legal documents, offering to citizens the ability to read and comment easily. In addition to the readTheDocs API, DocsItalia exhibits a REST interface for querying documents.",
+        "geoextent": "National",
+        "geocoverage": [
+            "Italy"
+        ],
+        "geocoverage_codes": [
+            "IT"
+        ],
+        "lead_organisation": {
+            "name": "Agenzia per l'Italia Digitale",
+            "category": "Governmental"
+        },
+        "lead_organisation_name": "Agenzia per l'Italia Digitale",
+        "lead_organisation_category": "Governmental",
+        "start_date": "",
+        "active": "Yes",
+        "end_date": "",
+        "primary_sector": "General public services",
+        "secondary_sector": "General public services",
+        "category": "Api",
+        "social_uptake": "Unknown",
+        "cross_sector": "Yes",
+        "policy_uptake_explanation": "N\/A",
+        "type": "Process digitization",
+        "unsdg": {
+            "1": "0",
+            "2": "0",
+            "3": "0",
+            "4": "0",
+            "5": "0",
+            "6": "0",
+            "7": "0",
+            "8": "0",
+            "9": "0",
+            "10": "0",
+            "11": "0",
+            "12": "0",
+            "13": "0",
+            "14": "0",
+            "15": "0",
+            "16": "0",
+            "17": "0"
+        }
+    },
+    {
+        "cid": 10003,
+        "id": 30008,
+        "name": "Fatturazione Elettronica",
+        "url": "https:\/\/www.fatturapa.gov.it\/export\/fatturazione\/",
+        "contact": "",
+        "description": "An XML format to describe an invoice: find out how to integrate it into your management software.",
+        "geoextent": "National",
+        "geocoverage": [
+            "Italy"
+        ],
+        "geocoverage_codes": [
+            "IT"
+        ],
+        "lead_organisation": {
+            "name": "Agenzia delle Entrate",
+            "category": "Governmental"
+        },
+        "lead_organisation_name": "Agenzia delle Entrate",
+        "lead_organisation_category": "Governmental",
+        "start_date": "",
+        "active": "Yes",
+        "end_date": "",
+        "primary_sector": "Executive and legislative organs, financial and fiscal affairs, external affairs",
+        "secondary_sector": "Financial and fiscal affairs",
+        "category": "Api",
+        "social_uptake": "Very large",
+        "cross_sector": "No",
+        "policy_uptake_explanation": "N\/A",
+        "type": "Payments and international transactions",
+        "unsdg": {
+            "1": "0",
+            "2": "0",
+            "3": "0",
+            "4": "0",
+            "5": "0",
+            "6": "0",
+            "7": "0",
+            "8": "0",
+            "9": "0",
+            "10": "0",
+            "11": "0",
+            "12": "0",
+            "13": "0",
+            "14": "0",
+            "15": "0",
+            "16": "0",
+            "17": "0"
+        }
+    },
+    {
+        "cid": 10003,
+        "id": 30009,
+        "name": "OTELLO 2.0",
+        "url": "https:\/\/www.adm.gov.it\/portale\/o.t.e.l.l.o.-2.0",
+        "contact": "",
+        "description": "OTELLO is the platform of the Customs and Monopolies Agency which manages the process that allows non-EU subjects to obtain direct relief or VAT refund on goods purchased on Italian territory.",
+        "geoextent": "National",
+        "geocoverage": [
+            "Italy"
+        ],
+        "geocoverage_codes": [
+            "IT"
+        ],
+        "lead_organisation": {
+            "name": "Agenzia delle Dogane e dei Monopoli",
+            "category": "Governmental"
+        },
+        "lead_organisation_name": "Agenzia delle Dogane e dei Monopoli",
+        "lead_organisation_category": "Governmental",
+        "start_date": "",
+        "active": "Yes",
+        "end_date": "",
+        "primary_sector": "Executive and legislative organs, financial and fiscal affairs, external affairs",
+        "secondary_sector": "Financial and fiscal affairs",
+        "category": "Api",
+        "social_uptake": "Large",
+        "cross_sector": "No",
+        "policy_uptake_explanation": "N\/A",
+        "type": "Process digitization",
+        "unsdg": {
+            "1": "0",
+            "2": "0",
+            "3": "0",
+            "4": "0",
+            "5": "0",
+            "6": "0",
+            "7": "0",
+            "8": "0",
+            "9": "0",
+            "10": "0",
+            "11": "0",
+            "12": "0",
+            "13": "0",
+            "14": "0",
+            "15": "0",
+            "16": "0",
+            "17": "0"
+        }
+    },
+    {
+        "cid": 10003,
+        "id": 30010,
+        "name": "SPID",
+        "url": "https:\/\/www.spid.gov.it\/",
+        "contact": "",
+        "description": "SPID (Public Digital Identity System) is the solution that allows Italian citizens to access all online services of the Public Administration with a single Digital Identity that can be used on computers, tablets and smartphones. Citizens can obtain SPID through Identity Managers (called Identity Providers); once the verification procedure is completed, which certifies the identity of the applicant, credentials are released that allow access to the Service Providers (called Service Providers).",
+        "geoextent": "National",
+        "geocoverage": [
+            "Italy"
+        ],
+        "geocoverage_codes": [
+            "IT"
+        ],
+        "lead_organisation": {
+            "name": "Agenzia per l'Italia Digitale",
+            "category": "Governmental"
+        },
+        "lead_organisation_name": "Agenzia per l'Italia Digitale",
+        "lead_organisation_category": "Governmental",
+        "start_date": "",
+        "active": "Yes",
+        "end_date": "",
+        "primary_sector": "General public services",
+        "secondary_sector": "General public services",
+        "category": "Api",
+        "social_uptake": "Considerable",
+        "cross_sector": "Yes",
+        "policy_uptake_explanation": "N\/A",
+        "type": "Digital identity",
+        "unsdg": {
+            "1": "0",
+            "2": "0",
+            "3": "0",
+            "4": "0",
+            "5": "0",
+            "6": "0",
+            "7": "0",
+            "8": "0",
+            "9": "0",
+            "10": "0",
+            "11": "0",
+            "12": "0",
+            "13": "0",
+            "14": "0",
+            "15": "0",
+            "16": "0",
+            "17": "0"
+        }
+    },
+    {
+        "cid": 10002,
+        "id": 20011,
+        "name": "RenCircul",
+        "url": "http:\/\/circulation.rennesmetropole.fr\/",
+        "contact": "",
+        "description": "Updated daily to take into account the impact of construction sites on the territory of the city and the agglomeration of Rennes, RenCircul and the site circulation.rennesmetropole.fr offer information on the works and on the changes in traffic conditions that they generate.",
+        "geoextent": "Local",
+        "geocoverage": [
+            "France"
+        ],
+        "geocoverage_codes": [
+            "FR"
+        ],
+        "lead_organisation": {
+            "name": "Rennes, Ville et Metropole",
+            "category": "Governmental"
+        },
+        "lead_organisation_name": "Rennes, Ville et Metropole",
+        "lead_organisation_category": "Governmental",
+        "start_date": "",
+        "active": "Yes",
+        "end_date": "",
+        "primary_sector": "Communication",
+        "secondary_sector": "Transport",
+        "category": "Api",
+        "social_uptake": "Unknown",
+        "cross_sector": "No",
+        "policy_uptake_explanation": "N\/A",
+        "type": "Process digitization",
+        "unsdg": {
+            "1": "0",
+            "2": "0",
+            "3": "0",
+            "4": "0",
+            "5": "0",
+            "6": "0",
+            "7": "0",
+            "8": "0",
+            "9": "0",
+            "10": "0",
+            "11": "0",
+            "12": "0",
+            "13": "0",
+            "14": "0",
+            "15": "0",
+            "16": "0",
+            "17": "0"
+        }
+    },
+    {
+        "cid": 10002,
+        "id": 20012,
+        "name": "Simulateur d'embauche",
+        "url": "http:\/\/embauche.beta.gouv.fr\/",
+        "contact": "",
+        "description": "A web module for simulating the cost of hiring and the net salary, which can be easily integrated into a web page.",
+        "geoextent": "National",
+        "geocoverage": [
+            "France"
+        ],
+        "geocoverage_codes": [
+            "FR"
+        ],
+        "lead_organisation": {
+            "name": "DINSIC",
+            "category": "Governmental"
+        },
+        "lead_organisation_name": "DINSIC",
+        "lead_organisation_category": "Governmental",
+        "start_date": "",
+        "active": "Yes",
+        "end_date": "",
+        "primary_sector": "Communication",
+        "secondary_sector": "Financial and fiscal affairs",
+        "category": "Api",
+        "social_uptake": "Unknown",
+        "cross_sector": "No",
+        "policy_uptake_explanation": "N\/A",
+        "type": "Process digitization",
+        "unsdg": {
+            "1": "0",
+            "2": "0",
+            "3": "0",
+            "4": "0",
+            "5": "0",
+            "6": "0",
+            "7": "0",
+            "8": "0",
+            "9": "0",
+            "10": "0",
+            "11": "0",
+            "12": "0",
+            "13": "0",
+            "14": "0",
+            "15": "0",
+            "16": "0",
+            "17": "0"
+        }
+    },
+    {
+        "cid": 10002,
+        "id": 20013,
+        "name": "T\u00e9l\u00e9points",
+        "url": "https:\/\/permisdeconduire.ants.gouv.fr\/Vos-demarches\/Le-permis-a-points\/Solde-de-vos-points-Via-France-Connect",
+        "contact": "",
+        "description": "Thanks to FranceConnect, you can immediately consult your point balance on the ANTS portal.",
+        "geoextent": "National",
+        "geocoverage": [
+            "France"
+        ],
+        "geocoverage_codes": [
+            "FR"
+        ],
+        "lead_organisation": {
+            "name": "DINSIC",
+            "category": "Governmental"
+        },
+        "lead_organisation_name": "DINSIC",
+        "lead_organisation_category": "Governmental",
+        "start_date": "",
+        "active": "Yes",
+        "end_date": "",
+        "primary_sector": "Communication",
+        "secondary_sector": "Transport",
+        "category": "Api",
+        "social_uptake": "Unknown",
+        "cross_sector": "No",
+        "policy_uptake_explanation": "N\/A",
+        "type": "Process digitization",
+        "unsdg": {
+            "1": "0",
+            "2": "0",
+            "3": "0",
+            "4": "0",
+            "5": "0",
+            "6": "0",
+            "7": "0",
+            "8": "0",
+            "9": "0",
+            "10": "0",
+            "11": "0",
+            "12": "0",
+            "13": "0",
+            "14": "0",
+            "15": "0",
+            "16": "0",
+            "17": "0"
+        }
+    }
+]

@@ -34,5 +34,14 @@
         "c_description": "The publication, carried out in the framework of the the ISA\u00b2 ELISE Action, analyses seven blockchain-based services developed in Europe, with an active participation of public authorities from both national and local levels.",
         "c_publisher": "Publications Office of the European Union",
         "c_type": "Desk research"
+    },
+    {
+        "c_id": 10005,
+        "c_name": "EU Blockchain Observatory and Forum - Initiatives Map",
+        "c_url": "https:\/\/www.eublockchainforum.eu\/initiative-map",
+        "c_contact": "",
+        "c_description": "The European Union Blockchain Observatory and Forum aims to accelerate blockchain innovation and the development of the blockchain ecosystem within the EU, and so help cement Europe\u2019s position as a global leader in this transformative new technology. The Web site includes a map of existing initiatives.",
+        "c_publisher": "EU Blockchain Observatory and Forum",
+        "c_type": "Catalogue"
     }
 ]

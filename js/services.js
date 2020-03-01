@@ -41,23 +41,23 @@ $(document).ready(function(){
       }
       c.next().text(c.val() + ' (' + count + ')')
     });
-    var checkboxes  = $("#policy_uptake_criteria :input:gt(0)");
+    var checkboxes  = $("#cross_sector_criteria :input:gt(0)");
 
     checkboxes.each(function(){
       var c = $(this), count = 0
 
       if(result.length > 0){
-        count = jQ.where({ 'policy_uptake': c.val() }).count;
+        count = jQ.where({ 'cross_sector': c.val() }).count;
       }
       c.next().text(c.val() + ' (' + count + ')')
     });
-    var checkboxes  = $("#policy_relevance_criteria :input:gt(0)");
+    var checkboxes  = $("#type_criteria :input:gt(0)");
 
     checkboxes.each(function(){
       var c = $(this), count = 0
 
       if(result.length > 0){
-        count = jQ.where({ 'policy_relevance': c.val() }).count;
+        count = jQ.where({ 'type': c.val() }).count;
       }
       c.next().text(c.val() + ' (' + count + ')')
     });
@@ -129,8 +129,8 @@ $(document).ready(function(){
   FJS.addCriteria({field: 'category', ele: '#category_criteria input:checkbox'});
   FJS.addCriteria({field: 'geoextent', ele: '#geoextent_criteria input:checkbox'});
   FJS.addCriteria({field: 'social_uptake', ele: '#social_uptake_criteria input:checkbox'});
-  FJS.addCriteria({field: 'policy_uptake', ele: '#policy_uptake_criteria input:checkbox'});
-  FJS.addCriteria({field: 'policy_relevance', ele: '#policy_relevance_criteria input:checkbox'});
+  FJS.addCriteria({field: 'cross_sector', ele: '#cross_sector_criteria input:checkbox'});
+  FJS.addCriteria({field: 'type', ele: '#type_criteria input:checkbox'});
   FJS.addCriteria({field: 'primary_sector', ele: '#primary_sector_criteria input:checkbox'});
   FJS.addCriteria({field: 'secondary_sector', ele: '#secondary_sector_criteria input:checkbox'});
 
@@ -183,13 +183,13 @@ function initSliders(){
   $('#all_social_uptake').on('click', function(){
     $('#social_uptake_criteria :checkbox').prop('checked', $(this).is(':checked'));
   });
-  $('#policy_uptake_criteria :checkbox').prop('checked', true);
-  $('#all_policy_uptake').on('click', function(){
-    $('#policy_uptake_criteria :checkbox').prop('checked', $(this).is(':checked'));
+  $('#cross_sector_criteria :checkbox').prop('checked', true);
+  $('#all_cross_sector').on('click', function(){
+    $('#cross_sector_criteria :checkbox').prop('checked', $(this).is(':checked'));
   });
-  $('#policy_relevance_criteria :checkbox').prop('checked', true);
-  $('#all_policy_relevance').on('click', function(){
-    $('#policy_relevance_criteria :checkbox').prop('checked', $(this).is(':checked'));
+  $('#type_criteria :checkbox').prop('checked', true);
+  $('#all_type').on('click', function(){
+    $('#type_criteria :checkbox').prop('checked', $(this).is(':checked'));
   });
   $('#primary_sector_criteria :checkbox').prop('checked', true);
   $('#all_primary_sector').on('click', function(){

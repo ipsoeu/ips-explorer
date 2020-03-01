@@ -50,9 +50,9 @@
 //    $secondary_sector = $v["secondary_sector"];
 //    $category = $v["category"];
 //    $social_uptake = $v["social_uptake"];
-//    $policy_uptake = $v["policy_uptake"];
+//    $cross_sector = $v["cross_sector"];
 //    $policy_uptake_explanation = $v["policy_uptake_explanation"];
-//    $policy_relevance = $v["policy_relevance"];
+//    $type = $v["type"];
 /*
     $unsdg[1]  = $v["unsdg"][1];
     $unsdg[2]  = $v["unsdg"][2];
@@ -266,12 +266,12 @@ $(document).ready(function() {
 <p>' . $primary_sector . '</p>
 <p><strong>Secondary sector</strong></p>
 <p>' . $secondary_sector . '</p>
-<p><strong>Social uptake</strong></p>
+<p><strong>Uptake</strong></p>
 <p>' . $social_uptake . '</p>
-<p><strong>Policy uptake</strong></p>
-<p>' . $policy_uptake . '</p>
+<p><strong>Cross-sector</strong></p>
+<p>' . $cross_sector . '</p>
 <p><strong>Policy relevance</strong></p>
-<p>' . $policy_relevance . '</p>
+<p>' . $type . '</p>
 ';
 */
   $html .= '</div>

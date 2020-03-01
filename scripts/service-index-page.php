@@ -11,8 +11,8 @@
   $fn[] = "primary_sector";
   $fn[] = "secondary_sector";
   $fn[] = "social_uptake";
-  $fn[] = "policy_uptake";
-  $fn[] = "policy_relevance";
+  $fn[] = "cross_sector";
+  $fn[] = "type";
   
   $records = json_decode(file_get_contents($data_folder . "services.json"), true);
 
@@ -152,7 +152,7 @@
         </div>
         <div class="well">
             <fieldset id="social_uptake_criteria">
-                <legend>Social uptake</legend>
+                <legend>Uptake</legend>
                 <div class="checkbox">
                   <label>
                     <input type="checkbox" value="All" id="all_social_uptake">
@@ -170,15 +170,15 @@
             </fieldset>
         </div>
         <div class="well">
-            <fieldset id="policy_uptake_criteria">
-                <legend>Policy uptake</legend>
+            <fieldset id="cross_sector_criteria">
+                <legend>Cross-sector</legend>
                 <div class="checkbox">
                   <label>
-                    <input type="checkbox" value="All" id="all_policy_uptake">
+                    <input type="checkbox" value="All" id="all_cross_sector">
                     <span>All</span>
                   </label>
                 </div>
-<?php foreach ($filter["policy_uptake"] as $filter_value) { ?>            
+<?php foreach ($filter["cross_sector"] as $filter_value) { ?>            
             <div class="checkbox">
               <label>
                 <input type="checkbox" value="<?php echo $filter_value; ?>">
@@ -189,15 +189,15 @@
             </fieldset>
         </div>
         <div class="well">
-            <fieldset id="policy_relevance_criteria">
-                <legend>Policy relevance</legend>
+            <fieldset id="type_criteria">
+                <legend>Type</legend>
                 <div class="checkbox">
                   <label>
-                    <input type="checkbox" value="All" id="all_policy_relevance">
+                    <input type="checkbox" value="All" id="all_type">
                     <span>All</span>
                   </label>
                 </div>
-<?php foreach ($filter["policy_relevance"] as $filter_value) { ?>            
+<?php foreach ($filter["type"] as $filter_value) { ?>            
             <div class="checkbox">
               <label>
                 <input type="checkbox" value="<?php echo $filter_value; ?>">
@@ -244,9 +244,9 @@
               <span class="icon icon-ca" title="Category">CA</span> <%= category %> 
               <span class="icon icon-ed" title="Primary sector">ED</span> <%= primary_sector %> 
               <span class="icon icon-ef" title="Secondary sector">EF</span> <%= secondary_sector %> 
-              <span class="icon icon-su" title="Social uptake">SU</span> <%= social_uptake %>
-              <span class="icon icon-pr" title="Policy relevance">PR</span> <%= policy_relevance %> 
-              <span class="icon icon-pu" title="Policy uptake">PU</span> <%= policy_uptake %> 
+              <span class="icon icon-su" title="Uptake">SU</span> <%= social_uptake %>
+              <span class="icon icon-pr" title="Type">PR</span> <%= type %> 
+              <span class="icon icon-pu" title="Cross-sector">CS</span> <%= cross_sector %> 
             </p>
 -->              
           </div>

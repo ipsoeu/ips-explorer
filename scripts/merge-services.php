@@ -40,8 +40,8 @@
   $field[] = "primary_sector";
   $field[] = "secondary_sector";
   $field[] = "social_uptake";
-  $field[] = "policy_uptake";
-  $field[] = "policy_relevance";
+  $field[] = "cross_sector";
+  $field[] = "type";
 
   $file = $target_folder . $filename . ".json";
   $records = json_decode(file_get_contents($file), true);
