@@ -27,27 +27,7 @@
         "category": "Api",
         "social_uptake": "Considerable",
         "cross_sector": "Yes",
-        "policy_uptake_explanation": "N\/A",
-        "type": "Payments and international transactions",
-        "unsdg": {
-            "1": "0",
-            "2": "0",
-            "3": "0",
-            "4": "0",
-            "5": "0",
-            "6": "0",
-            "7": "0",
-            "8": "0",
-            "9": "0",
-            "10": "0",
-            "11": "0",
-            "12": "0",
-            "13": "0",
-            "14": "0",
-            "15": "0",
-            "16": "0",
-            "17": "0"
-        }
+        "type": "Payments and international transactions"
     },
     {
         "cid": 10003,
@@ -77,27 +57,7 @@
         "category": "Api",
         "social_uptake": "Unknown",
         "cross_sector": "Yes",
-        "policy_uptake_explanation": "N\/A",
-        "type": "Process digitization",
-        "unsdg": {
-            "1": "0",
-            "2": "0",
-            "3": "0",
-            "4": "0",
-            "5": "0",
-            "6": "0",
-            "7": "0",
-            "8": "0",
-            "9": "0",
-            "10": "0",
-            "11": "0",
-            "12": "0",
-            "13": "0",
-            "14": "0",
-            "15": "0",
-            "16": "0",
-            "17": "0"
-        }
+        "type": "Process digitization"
     },
     {
         "cid": 10003,
@@ -127,27 +87,7 @@
         "category": "Api",
         "social_uptake": "Considerable",
         "cross_sector": "Yes",
-        "policy_uptake_explanation": "N\/A",
-        "type": "Process digitization",
-        "unsdg": {
-            "1": "0",
-            "2": "0",
-            "3": "0",
-            "4": "1",
-            "5": "0",
-            "6": "0",
-            "7": "0",
-            "8": "0",
-            "9": "0",
-            "10": "1",
-            "11": "0",
-            "12": "0",
-            "13": "0",
-            "14": "0",
-            "15": "0",
-            "16": "0",
-            "17": "0"
-        }
+        "type": "Process digitization"
     },
     {
         "cid": 10003,
@@ -177,27 +117,7 @@
         "category": "Api",
         "social_uptake": "Small",
         "cross_sector": "Yes",
-        "policy_uptake_explanation": "N\/A",
-        "type": "Process digitization",
-        "unsdg": {
-            "1": "0",
-            "2": "0",
-            "3": "0",
-            "4": "0",
-            "5": "0",
-            "6": "0",
-            "7": "0",
-            "8": "0",
-            "9": "0",
-            "10": "0",
-            "11": "0",
-            "12": "0",
-            "13": "0",
-            "14": "0",
-            "15": "0",
-            "16": "0",
-            "17": "0"
-        }
+        "type": "Process digitization"
     },
     {
         "cid": 10003,
@@ -227,27 +147,7 @@
         "category": "Data analytics",
         "social_uptake": "Unknown",
         "cross_sector": "Yes",
-        "policy_uptake_explanation": "N\/A",
-        "type": "Process digitization",
-        "unsdg": {
-            "1": "0",
-            "2": "0",
-            "3": "0",
-            "4": "0",
-            "5": "0",
-            "6": "0",
-            "7": "0",
-            "8": "0",
-            "9": "0",
-            "10": "0",
-            "11": "0",
-            "12": "0",
-            "13": "0",
-            "14": "0",
-            "15": "0",
-            "16": "0",
-            "17": "0"
-        }
+        "type": "Process digitization"
     },
     {
         "cid": 10003,
@@ -277,27 +177,7 @@
         "category": "Api",
         "social_uptake": "Unknown",
         "cross_sector": "Yes",
-        "policy_uptake_explanation": "N\/A",
-        "type": "Process digitization",
-        "unsdg": {
-            "1": "0",
-            "2": "0",
-            "3": "0",
-            "4": "0",
-            "5": "0",
-            "6": "0",
-            "7": "0",
-            "8": "0",
-            "9": "0",
-            "10": "0",
-            "11": "0",
-            "12": "0",
-            "13": "0",
-            "14": "0",
-            "15": "0",
-            "16": "0",
-            "17": "0"
-        }
+        "type": "Process digitization"
     },
     {
         "cid": 10003,
@@ -327,27 +207,7 @@
         "category": "Api",
         "social_uptake": "Unknown",
         "cross_sector": "Yes",
-        "policy_uptake_explanation": "N\/A",
-        "type": "Process digitization",
-        "unsdg": {
-            "1": "0",
-            "2": "0",
-            "3": "0",
-            "4": "0",
-            "5": "0",
-            "6": "0",
-            "7": "0",
-            "8": "0",
-            "9": "0",
-            "10": "0",
-            "11": "0",
-            "12": "0",
-            "13": "0",
-            "14": "0",
-            "15": "0",
-            "16": "0",
-            "17": "0"
-        }
+        "type": "Process digitization"
     },
     {
         "cid": 10003,
@@ -377,27 +237,7 @@
         "category": "Api",
         "social_uptake": "Very large",
         "cross_sector": "No",
-        "policy_uptake_explanation": "N\/A",
-        "type": "Payments and international transactions",
-        "unsdg": {
-            "1": "0",
-            "2": "0",
-            "3": "0",
-            "4": "0",
-            "5": "0",
-            "6": "0",
-            "7": "0",
-            "8": "0",
-            "9": "0",
-            "10": "0",
-            "11": "0",
-            "12": "0",
-            "13": "0",
-            "14": "0",
-            "15": "0",
-            "16": "0",
-            "17": "0"
-        }
+        "type": "Payments and international transactions"
     },
     {
         "cid": 10003,
@@ -427,27 +267,7 @@
         "category": "Api",
         "social_uptake": "Large",
         "cross_sector": "No",
-        "policy_uptake_explanation": "N\/A",
-        "type": "Process digitization",
-        "unsdg": {
-            "1": "0",
-            "2": "0",
-            "3": "0",
-            "4": "0",
-            "5": "0",
-            "6": "0",
-            "7": "0",
-            "8": "0",
-            "9": "0",
-            "10": "0",
-            "11": "0",
-            "12": "0",
-            "13": "0",
-            "14": "0",
-            "15": "0",
-            "16": "0",
-            "17": "0"
-        }
+        "type": "Process digitization"
     },
     {
         "cid": 10003,
@@ -477,27 +297,7 @@
         "category": "Api",
         "social_uptake": "Considerable",
         "cross_sector": "Yes",
-        "policy_uptake_explanation": "N\/A",
-        "type": "Digital identity",
-        "unsdg": {
-            "1": "0",
-            "2": "0",
-            "3": "0",
-            "4": "0",
-            "5": "0",
-            "6": "0",
-            "7": "0",
-            "8": "0",
-            "9": "0",
-            "10": "0",
-            "11": "0",
-            "12": "0",
-            "13": "0",
-            "14": "0",
-            "15": "0",
-            "16": "0",
-            "17": "0"
-        }
+        "type": "Digital identity"
     },
     {
         "cid": 10002,
@@ -527,27 +327,7 @@
         "category": "Api",
         "social_uptake": "Unknown",
         "cross_sector": "No",
-        "policy_uptake_explanation": "N\/A",
-        "type": "Process digitization",
-        "unsdg": {
-            "1": "0",
-            "2": "0",
-            "3": "0",
-            "4": "0",
-            "5": "0",
-            "6": "0",
-            "7": "0",
-            "8": "0",
-            "9": "0",
-            "10": "0",
-            "11": "0",
-            "12": "0",
-            "13": "0",
-            "14": "0",
-            "15": "0",
-            "16": "0",
-            "17": "0"
-        }
+        "type": "Process digitization"
     },
     {
         "cid": 10002,
@@ -577,27 +357,7 @@
         "category": "Api",
         "social_uptake": "Unknown",
         "cross_sector": "No",
-        "policy_uptake_explanation": "N\/A",
-        "type": "Process digitization",
-        "unsdg": {
-            "1": "0",
-            "2": "0",
-            "3": "0",
-            "4": "0",
-            "5": "0",
-            "6": "0",
-            "7": "0",
-            "8": "0",
-            "9": "0",
-            "10": "0",
-            "11": "0",
-            "12": "0",
-            "13": "0",
-            "14": "0",
-            "15": "0",
-            "16": "0",
-            "17": "0"
-        }
+        "type": "Process digitization"
     },
     {
         "cid": 10002,
@@ -627,26 +387,6 @@
         "category": "Api",
         "social_uptake": "Unknown",
         "cross_sector": "No",
-        "policy_uptake_explanation": "N\/A",
-        "type": "Process digitization",
-        "unsdg": {
-            "1": "0",
-            "2": "0",
-            "3": "0",
-            "4": "0",
-            "5": "0",
-            "6": "0",
-            "7": "0",
-            "8": "0",
-            "9": "0",
-            "10": "0",
-            "11": "0",
-            "12": "0",
-            "13": "0",
-            "14": "0",
-            "15": "0",
-            "16": "0",
-            "17": "0"
-        }
+        "type": "Process digitization"
     }
 ]

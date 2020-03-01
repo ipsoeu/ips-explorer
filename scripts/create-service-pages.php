@@ -48,8 +48,8 @@
     $category = $v["category"];
     $social_uptake = $v["social_uptake"];
     $cross_sector = $v["cross_sector"];
-    $policy_uptake_explanation = $v["policy_uptake_explanation"];
     $type = $v["type"];
+/*
     $unsdg[1]  = $v["unsdg"][1];
     $unsdg[2]  = $v["unsdg"][2];
     $unsdg[3]  = $v["unsdg"][3];
@@ -67,7 +67,7 @@
     $unsdg[15] = $v["unsdg"][15];
     $unsdg[16] = $v["unsdg"][16];
     $unsdg[17] = $v["unsdg"][17];
-    
+*/    
     foreach (json_decode(file_get_contents($data_folder . "catalogs.json"), true) as $rv) {
       if ($rv["c_id"] == $cid) {
         $cid_name = $rv["c_name"];
@@ -233,12 +233,6 @@ $(document).ready(function() {
 </address>
 <p>' . $description . '</p>
 ';
-if ($policy_uptake == 'Yes') {
-  $html .= '<section>
-<h3>Policy uptake explanation</h3>
-<p>' . $policy_uptake_explanation . '</p>
-';
-}
   $html .= '<section>
 <h3>Additional information</h3>
 <table class="table table-hover table-striped">
@@ -273,44 +267,31 @@ if ($policy_uptake == 'Yes') {
 </tr>
 </tbody>
 </table>
-</section>
-<section>
+</section>';
+/*
+  $html .= '<section>
 <h3>Contribution to UN Sustainable Development Goals</h3>
 <table id="table-unsdg">
 <tbody>
 <tr>
 ';
-/*
-  for ($i = 5; $i > 0; $i--) {
-    $html .= '<tr>';
-    foreach ($unsdg as $c) {
-      if ($c == $i || $c > $i) {
-        $html .= '  <td class="filled" title="' . $c . '">&nbsp;</td>';
-      }
-      else {
-        $html .= '  <td>&nbsp;</td>';
-      }
+  $html .= '<tr>';
+  foreach ($unsdg as $c) {
+    $contrib = '';
+    if ($c == "1") {
+      $contrib = "Direct";
     }
-    $html .= '</tr>';
+    if ($c == "2") {
+      $contrib = "Indirect";
+    }
+    if ($c != '') {
+      $html .= '  <td class="unsdg-' . strtolower($contrib) . '" title="' . $contrib . '">' . substr($contrib,0,1) . '</td>';
+    }
+    else {
+      $html .= '  <td>&nbsp;</td>';
+    }
   }
-*/
-    $html .= '<tr>';
-    foreach ($unsdg as $c) {
-      $contrib = '';
-      if ($c == "1") {
-        $contrib = "Direct";
-      }
-      if ($c == "2") {
-        $contrib = "Indirect";
-      }
-      if ($c != '') {
-        $html .= '  <td class="unsdg-' . strtolower($contrib) . '" title="' . $contrib . '">' . substr($contrib,0,1) . '</td>';
-      }
-      else {
-        $html .= '  <td>&nbsp;</td>';
-      }
-    }
-    $html .= '</tr>';
+  $html .= '</tr>';
 
   $html .= '</tbody>
 <tfoot>
@@ -322,31 +303,13 @@ if ($policy_uptake == 'Yes') {
   foreach ($sdgs as $sdg) {
     $html .= '<th title="' . $sdg["name"] . '"><a href="' . $sdg["url"] . '">' . $sdg["code"] . '</a></th>' . "\n";
   }
-/*  
-  $html .= '<th title="">SDG1</th>
-<th title="">SDG2</th>
-<th title="">SDG3</th>
-<th title="">SDG4</th>
-<th title="">SDG5</th>
-<th title="">SDG6</th>
-<th title="">SDG7</th>
-<th title="">SDG8</th>
-<th title="">SDG9</th>
-<th title="">SDG10</th>
-<th title="">SDG11</th>
-<th title="">SDG12</th>
-<th title="">SDG13</th>
-<th title="">SDG14</th>
-<th title="">SDG15</th>
-<th title="">SDG16</th>
-<th title="">SDG17</th>
-';
-*/
+
   $html .= '</tr>
 </tfoot>
 </table>
-</section>
-<section>
+</section>';
+*/
+  $html .= '<section>
 <h3>Related services</h3>
 ';
 
@@ -377,9 +340,11 @@ if ($policy_uptake == 'Yes') {
       if ($type == $p["type"]) {
         $related_services[$p["id"]]["type"] = "Yes";
       }
+/*      
       if (count(array_intersect_assoc($unsdg, $p["unsdg"])) > 0) {
         $related_services[$p["id"]]["unsdg"] = "Yes";
       }
+*/      
       if (isset($related_services[$p["id"]])) {
         $related_services[$p["id"]]["name"] = $p["name"];
       }
@@ -442,11 +407,13 @@ if ($policy_uptake == 'Yes') {
             case "type":
               $label = "Same type";
               $tag = "TY";
-              break;
+	      break;
+/*	      
             case "unsdg":
               $label = "Similar contribution to UN SDGs";
               $tag = "SDG";
-              break;
+	      break;
+*/	      
           }
           $html .= '<span class="icon icon-' . strtolower($tag) . '" title="' . $label . '">' . $tag . '</span>&nbsp;';
         }

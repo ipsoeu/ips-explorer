@@ -114,8 +114,8 @@
     $output[$k]["category"] = ucfirst(mb_strtolower(trim($v["category"])));
     $output[$k]["social_uptake"] = ucfirst(mb_strtolower(trim($v["social_uptake"])));
     $output[$k]["cross_sector"] = ucfirst(mb_strtolower(trim($v["cross_sector"])));
-    $output[$k]["policy_uptake_explanation"] = trim($v["policy_uptake_explanation"]);
     $output[$k]["type"] = ucfirst(mb_strtolower(trim($v["type"])));
+/*
     $output[$k]["unsdg"][1]  = $v["sdg1"];
     $output[$k]["unsdg"][2]  = $v["sdg2"];
     $output[$k]["unsdg"][3]  = $v["sdg3"];
@@ -133,7 +133,7 @@
     $output[$k]["unsdg"][15] = $v["sdg15"];
     $output[$k]["unsdg"][16] = $v["sdg16"];
     $output[$k]["unsdg"][17] = $v["sdg17"];
-    
+*/    
     $rn++;
 
   }

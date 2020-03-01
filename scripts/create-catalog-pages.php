@@ -51,7 +51,6 @@
 //    $category = $v["category"];
 //    $social_uptake = $v["social_uptake"];
 //    $cross_sector = $v["cross_sector"];
-//    $policy_uptake_explanation = $v["policy_uptake_explanation"];
 //    $type = $v["type"];
 /*
     $unsdg[1]  = $v["unsdg"][1];
@@ -72,7 +71,6 @@
     $unsdg[16] = $v["unsdg"][16];
     $unsdg[17] = $v["unsdg"][17];
 */
-
 
   $json = file_get_contents($prj_db);
 
@@ -282,14 +280,6 @@ $(document).ready(function() {
 <address class="small">Publisher: ' . $publisher . '</address>
 <p>' . $description . '</p>
 ';
-/*
-if ($policy_uptake == 'Yes') {
-  $html .= '<section>
-<h3>Policy uptake explanation</h3>
-<p>' . $policy_uptake_explanation . '</p>
-';
-}
-*/
   $html .= '<section>
 <h3>Additional information</h3>
 <table class="table table-hover table-striped">

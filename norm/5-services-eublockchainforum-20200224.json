@@ -27,27 +27,7 @@
         "category": "Blockchain",
         "social_uptake": "Unknown",
         "cross_sector": "Yes",
-        "policy_uptake_explanation": "",
-        "type": "Other",
-        "unsdg": {
-            "1": "0",
-            "2": "0",
-            "3": "0",
-            "4": "0",
-            "5": "0",
-            "6": "0",
-            "7": "0",
-            "8": "0",
-            "9": "0",
-            "10": "0",
-            "11": "0",
-            "12": "0",
-            "13": "0",
-            "14": "0",
-            "15": "0",
-            "16": "0",
-            "17": "0"
-        }
+        "type": "Other"
     },
     {
         "cid": 10005,
@@ -77,27 +57,7 @@
         "category": "Blockchain",
         "social_uptake": "Unknown",
         "cross_sector": "No",
-        "policy_uptake_explanation": "",
-        "type": "Other",
-        "unsdg": {
-            "1": "0",
-            "2": "0",
-            "3": "0",
-            "4": "0",
-            "5": "0",
-            "6": "0",
-            "7": "0",
-            "8": "0",
-            "9": "0",
-            "10": "0",
-            "11": "0",
-            "12": "0",
-            "13": "0",
-            "14": "0",
-            "15": "0",
-            "16": "0",
-            "17": "0"
-        }
+        "type": "Other"
     },
     {
         "cid": 10005,
@@ -127,27 +87,7 @@
         "category": "Blockchain",
         "social_uptake": "Unknown",
         "cross_sector": "No",
-        "policy_uptake_explanation": "",
-        "type": "Process digitization",
-        "unsdg": {
-            "1": "0",
-            "2": "0",
-            "3": "0",
-            "4": "0",
-            "5": "0",
-            "6": "0",
-            "7": "0",
-            "8": "0",
-            "9": "0",
-            "10": "0",
-            "11": "0",
-            "12": "0",
-            "13": "0",
-            "14": "0",
-            "15": "0",
-            "16": "0",
-            "17": "0"
-        }
+        "type": "Process digitization"
     },
     {
         "cid": 10005,
@@ -177,27 +117,7 @@
         "category": "Blockchain",
         "social_uptake": "Unknown",
         "cross_sector": "Yes",
-        "policy_uptake_explanation": "",
-        "type": "Other",
-        "unsdg": {
-            "1": "0",
-            "2": "0",
-            "3": "0",
-            "4": "0",
-            "5": "0",
-            "6": "0",
-            "7": "0",
-            "8": "0",
-            "9": "0",
-            "10": "0",
-            "11": "0",
-            "12": "0",
-            "13": "0",
-            "14": "0",
-            "15": "0",
-            "16": "0",
-            "17": "0"
-        }
+        "type": "Other"
     },
     {
         "cid": 10005,
@@ -227,27 +147,7 @@
         "category": "Blockchain",
         "social_uptake": "Unknown",
         "cross_sector": "No",
-        "policy_uptake_explanation": "",
-        "type": "Other",
-        "unsdg": {
-            "1": "0",
-            "2": "0",
-            "3": "0",
-            "4": "0",
-            "5": "0",
-            "6": "0",
-            "7": "0",
-            "8": "0",
-            "9": "0",
-            "10": "0",
-            "11": "0",
-            "12": "0",
-            "13": "0",
-            "14": "0",
-            "15": "0",
-            "16": "0",
-            "17": "0"
-        }
+        "type": "Other"
     },
     {
         "cid": 10005,
@@ -277,27 +177,7 @@
         "category": "Blockchain",
         "social_uptake": "Unknown",
         "cross_sector": "No",
-        "policy_uptake_explanation": "",
-        "type": "Self sovereign - digital identity",
-        "unsdg": {
-            "1": "0",
-            "2": "0",
-            "3": "0",
-            "4": "0",
-            "5": "0",
-            "6": "0",
-            "7": "0",
-            "8": "0",
-            "9": "0",
-            "10": "0",
-            "11": "0",
-            "12": "0",
-            "13": "0",
-            "14": "0",
-            "15": "0",
-            "16": "0",
-            "17": "0"
-        }
+        "type": "Self sovereign - digital identity"
     },
     {
         "cid": 10005,
@@ -327,27 +207,7 @@
         "category": "Blockchain",
         "social_uptake": "Unknown",
         "cross_sector": "Yes",
-        "policy_uptake_explanation": "",
-        "type": "Self sovereign - digital identity",
-        "unsdg": {
-            "1": "0",
-            "2": "0",
-            "3": "0",
-            "4": "0",
-            "5": "0",
-            "6": "0",
-            "7": "0",
-            "8": "0",
-            "9": "0",
-            "10": "0",
-            "11": "0",
-            "12": "0",
-            "13": "0",
-            "14": "0",
-            "15": "0",
-            "16": "0",
-            "17": "0"
-        }
+        "type": "Self sovereign - digital identity"
     },
     {
         "cid": 10005,
@@ -377,27 +237,7 @@
         "category": "Blockchain",
         "social_uptake": "Unknown",
         "cross_sector": "No",
-        "policy_uptake_explanation": "",
-        "type": "Disintermediation and decentralized networks",
-        "unsdg": {
-            "1": "0",
-            "2": "0",
-            "3": "0",
-            "4": "0",
-            "5": "0",
-            "6": "0",
-            "7": "0",
-            "8": "0",
-            "9": "0",
-            "10": "0",
-            "11": "0",
-            "12": "0",
-            "13": "0",
-            "14": "0",
-            "15": "0",
-            "16": "0",
-            "17": "0"
-        }
+        "type": "Disintermediation and decentralized networks"
     },
     {
         "cid": 10005,
@@ -427,27 +267,7 @@
         "category": "Blockchain",
         "social_uptake": "Unknown",
         "cross_sector": "No",
-        "policy_uptake_explanation": "",
-        "type": "Governance and voting",
-        "unsdg": {
-            "1": "0",
-            "2": "0",
-            "3": "0",
-            "4": "0",
-            "5": "0",
-            "6": "0",
-            "7": "0",
-            "8": "0",
-            "9": "0",
-            "10": "0",
-            "11": "0",
-            "12": "0",
-            "13": "0",
-            "14": "0",
-            "15": "0",
-            "16": "0",
-            "17": "0"
-        }
+        "type": "Governance and voting"
     },
     {
         "cid": 10005,
@@ -477,27 +297,7 @@
         "category": "Blockchain",
         "social_uptake": "Unknown",
         "cross_sector": "Yes",
-        "policy_uptake_explanation": "",
-        "type": "Authentication",
-        "unsdg": {
-            "1": "0",
-            "2": "0",
-            "3": "0",
-            "4": "0",
-            "5": "0",
-            "6": "0",
-            "7": "0",
-            "8": "0",
-            "9": "0",
-            "10": "0",
-            "11": "0",
-            "12": "0",
-            "13": "0",
-            "14": "0",
-            "15": "0",
-            "16": "0",
-            "17": "0"
-        }
+        "type": "Authentication"
     },
     {
         "cid": 10005,
@@ -527,27 +327,7 @@
         "category": "Blockchain",
         "social_uptake": "Unknown",
         "cross_sector": "No",
-        "policy_uptake_explanation": "",
-        "type": "Authentication",
-        "unsdg": {
-            "1": "0",
-            "2": "0",
-            "3": "0",
-            "4": "0",
-            "5": "0",
-            "6": "0",
-            "7": "0",
-            "8": "0",
-            "9": "0",
-            "10": "0",
-            "11": "0",
-            "12": "0",
-            "13": "0",
-            "14": "0",
-            "15": "0",
-            "16": "0",
-            "17": "0"
-        }
+        "type": "Authentication"
     },
     {
         "cid": 10005,
@@ -577,27 +357,7 @@
         "category": "Blockchain",
         "social_uptake": "Unknown",
         "cross_sector": "Yes",
-        "policy_uptake_explanation": "",
-        "type": "Cybersecurity",
-        "unsdg": {
-            "1": "0",
-            "2": "0",
-            "3": "0",
-            "4": "0",
-            "5": "0",
-            "6": "0",
-            "7": "0",
-            "8": "0",
-            "9": "0",
-            "10": "0",
-            "11": "0",
-            "12": "0",
-            "13": "0",
-            "14": "0",
-            "15": "0",
-            "16": "0",
-            "17": "0"
-        }
+        "type": "Cybersecurity"
     },
     {
         "cid": 10005,
@@ -627,27 +387,7 @@
         "category": "Blockchain",
         "social_uptake": "Unknown",
         "cross_sector": "Yes",
-        "policy_uptake_explanation": "",
-        "type": "Governance and voting",
-        "unsdg": {
-            "1": "0",
-            "2": "0",
-            "3": "0",
-            "4": "0",
-            "5": "0",
-            "6": "0",
-            "7": "0",
-            "8": "0",
-            "9": "0",
-            "10": "0",
-            "11": "0",
-            "12": "0",
-            "13": "0",
-            "14": "0",
-            "15": "0",
-            "16": "0",
-            "17": "0"
-        }
+        "type": "Governance and voting"
     },
     {
         "cid": 10005,
@@ -677,27 +417,7 @@
         "category": "Blockchain",
         "social_uptake": "Unknown",
         "cross_sector": "No",
-        "policy_uptake_explanation": "",
-        "type": "Other",
-        "unsdg": {
-            "1": "0",
-            "2": "0",
-            "3": "0",
-            "4": "0",
-            "5": "0",
-            "6": "0",
-            "7": "0",
-            "8": "0",
-            "9": "0",
-            "10": "0",
-            "11": "0",
-            "12": "0",
-            "13": "0",
-            "14": "0",
-            "15": "0",
-            "16": "0",
-            "17": "0"
-        }
+        "type": "Other"
     },
     {
         "cid": 10005,
@@ -727,27 +447,7 @@
         "category": "Blockchain",
         "social_uptake": "Unknown",
         "cross_sector": "No",
-        "policy_uptake_explanation": "",
-        "type": "Other",
-        "unsdg": {
-            "1": "0",
-            "2": "0",
-            "3": "0",
-            "4": "0",
-            "5": "0",
-            "6": "0",
-            "7": "0",
-            "8": "0",
-            "9": "0",
-            "10": "0",
-            "11": "0",
-            "12": "0",
-            "13": "0",
-            "14": "0",
-            "15": "0",
-            "16": "0",
-            "17": "0"
-        }
+        "type": "Other"
     },
     {
         "cid": 10005,
@@ -777,27 +477,7 @@
         "category": "Blockchain",
         "social_uptake": "Unknown",
         "cross_sector": "Yes",
-        "policy_uptake_explanation": "",
-        "type": "Tracking of goods, supply chain, iot",
-        "unsdg": {
-            "1": "0",
-            "2": "0",
-            "3": "0",
-            "4": "0",
-            "5": "0",
-            "6": "0",
-            "7": "0",
-            "8": "0",
-            "9": "0",
-            "10": "0",
-            "11": "0",
-            "12": "0",
-            "13": "0",
-            "14": "0",
-            "15": "0",
-            "16": "0",
-            "17": "0"
-        }
+        "type": "Tracking of goods, supply chain, iot"
     },
     {
         "cid": 10005,
@@ -827,27 +507,7 @@
         "category": "Blockchain",
         "social_uptake": "Unknown",
         "cross_sector": "No",
-        "policy_uptake_explanation": "",
-        "type": "Process digitization",
-        "unsdg": {
-            "1": "0",
-            "2": "0",
-            "3": "0",
-            "4": "0",
-            "5": "0",
-            "6": "0",
-            "7": "0",
-            "8": "0",
-            "9": "0",
-            "10": "0",
-            "11": "0",
-            "12": "0",
-            "13": "0",
-            "14": "0",
-            "15": "0",
-            "16": "0",
-            "17": "0"
-        }
+        "type": "Process digitization"
     },
     {
         "cid": 10005,
@@ -877,27 +537,7 @@
         "category": "Blockchain",
         "social_uptake": "Unknown",
         "cross_sector": "No",
-        "policy_uptake_explanation": "",
-        "type": "Tracking of goods, supply chain, iot",
-        "unsdg": {
-            "1": "0",
-            "2": "0",
-            "3": "0",
-            "4": "0",
-            "5": "0",
-            "6": "0",
-            "7": "0",
-            "8": "0",
-            "9": "0",
-            "10": "0",
-            "11": "0",
-            "12": "0",
-            "13": "0",
-            "14": "0",
-            "15": "0",
-            "16": "0",
-            "17": "0"
-        }
+        "type": "Tracking of goods, supply chain, iot"
     },
     {
         "cid": 10005,
@@ -927,27 +567,7 @@
         "category": "Blockchain",
         "social_uptake": "Unknown",
         "cross_sector": "No",
-        "policy_uptake_explanation": "",
-        "type": "Tracking of goods, supply chain, iot",
-        "unsdg": {
-            "1": "0",
-            "2": "0",
-            "3": "0",
-            "4": "0",
-            "5": "0",
-            "6": "0",
-            "7": "0",
-            "8": "0",
-            "9": "0",
-            "10": "0",
-            "11": "0",
-            "12": "0",
-            "13": "0",
-            "14": "0",
-            "15": "0",
-            "16": "0",
-            "17": "0"
-        }
+        "type": "Tracking of goods, supply chain, iot"
     },
     {
         "cid": 10005,
@@ -977,27 +597,7 @@
         "category": "Blockchain",
         "social_uptake": "Unknown",
         "cross_sector": "No",
-        "policy_uptake_explanation": "",
-        "type": "Tracking of goods, supply chain, iot",
-        "unsdg": {
-            "1": "0",
-            "2": "0",
-            "3": "0",
-            "4": "0",
-            "5": "0",
-            "6": "0",
-            "7": "0",
-            "8": "0",
-            "9": "0",
-            "10": "0",
-            "11": "0",
-            "12": "0",
-            "13": "0",
-            "14": "0",
-            "15": "0",
-            "16": "0",
-            "17": "0"
-        }
+        "type": "Tracking of goods, supply chain, iot"
     },
     {
         "cid": 10005,
@@ -1027,27 +627,7 @@
         "category": "Blockchain",
         "social_uptake": "Unknown",
         "cross_sector": "Yes",
-        "policy_uptake_explanation": "",
-        "type": "Self sovereign - digital identity",
-        "unsdg": {
-            "1": "0",
-            "2": "0",
-            "3": "0",
-            "4": "0",
-            "5": "0",
-            "6": "0",
-            "7": "0",
-            "8": "0",
-            "9": "0",
-            "10": "0",
-            "11": "0",
-            "12": "0",
-            "13": "0",
-            "14": "0",
-            "15": "0",
-            "16": "0",
-            "17": "0"
-        }
+        "type": "Self sovereign - digital identity"
     },
     {
         "cid": 10005,
@@ -1077,27 +657,7 @@
         "category": "Blockchain",
         "social_uptake": "Unknown",
         "cross_sector": "No",
-        "policy_uptake_explanation": "",
-        "type": "Other",
-        "unsdg": {
-            "1": "0",
-            "2": "0",
-            "3": "0",
-            "4": "0",
-            "5": "0",
-            "6": "0",
-            "7": "0",
-            "8": "0",
-            "9": "0",
-            "10": "0",
-            "11": "0",
-            "12": "0",
-            "13": "0",
-            "14": "0",
-            "15": "0",
-            "16": "0",
-            "17": "0"
-        }
+        "type": "Other"
     },
     {
         "cid": 10005,
@@ -1127,27 +687,7 @@
         "category": "Blockchain",
         "social_uptake": "Unknown",
         "cross_sector": "No",
-        "policy_uptake_explanation": "",
-        "type": "Tracking of goods, supply chain, iot",
-        "unsdg": {
-            "1": "0",
-            "2": "0",
-            "3": "0",
-            "4": "0",
-            "5": "0",
-            "6": "0",
-            "7": "0",
-            "8": "0",
-            "9": "0",
-            "10": "0",
-            "11": "0",
-            "12": "0",
-            "13": "0",
-            "14": "0",
-            "15": "0",
-            "16": "0",
-            "17": "0"
-        }
+        "type": "Tracking of goods, supply chain, iot"
     },
     {
         "cid": 10005,
@@ -1177,27 +717,7 @@
         "category": "Blockchain",
         "social_uptake": "Unknown",
         "cross_sector": "No",
-        "policy_uptake_explanation": "",
-        "type": "Process digitization",
-        "unsdg": {
-            "1": "0",
-            "2": "0",
-            "3": "0",
-            "4": "0",
-            "5": "0",
-            "6": "0",
-            "7": "0",
-            "8": "0",
-            "9": "0",
-            "10": "0",
-            "11": "0",
-            "12": "0",
-            "13": "0",
-            "14": "0",
-            "15": "0",
-            "16": "0",
-            "17": "0"
-        }
+        "type": "Process digitization"
     },
     {
         "cid": 10005,
@@ -1227,27 +747,7 @@
         "category": "Blockchain",
         "social_uptake": "Unknown",
         "cross_sector": "No",
-        "policy_uptake_explanation": "",
-        "type": "Auditing and logging",
-        "unsdg": {
-            "1": "0",
-            "2": "0",
-            "3": "0",
-            "4": "0",
-            "5": "0",
-            "6": "0",
-            "7": "0",
-            "8": "0",
-            "9": "0",
-            "10": "0",
-            "11": "0",
-            "12": "0",
-            "13": "0",
-            "14": "0",
-            "15": "0",
-            "16": "0",
-            "17": "0"
-        }
+        "type": "Auditing and logging"
     },
     {
         "cid": 10005,
@@ -1277,27 +777,7 @@
         "category": "Blockchain",
         "social_uptake": "Unknown",
         "cross_sector": "Yes",
-        "policy_uptake_explanation": "",
-        "type": "Process digitization",
-        "unsdg": {
-            "1": "0",
-            "2": "0",
-            "3": "0",
-            "4": "0",
-            "5": "0",
-            "6": "0",
-            "7": "0",
-            "8": "0",
-            "9": "0",
-            "10": "0",
-            "11": "0",
-            "12": "0",
-            "13": "0",
-            "14": "0",
-            "15": "0",
-            "16": "0",
-            "17": "0"
-        }
+        "type": "Process digitization"
     },
     {
         "cid": 10005,
@@ -1327,27 +807,7 @@
         "category": "Blockchain",
         "social_uptake": "Unknown",
         "cross_sector": "No",
-        "policy_uptake_explanation": "",
-        "type": "Tracking of goods, supply chain, iot",
-        "unsdg": {
-            "1": "0",
-            "2": "0",
-            "3": "0",
-            "4": "0",
-            "5": "0",
-            "6": "0",
-            "7": "0",
-            "8": "0",
-            "9": "0",
-            "10": "0",
-            "11": "0",
-            "12": "0",
-            "13": "0",
-            "14": "0",
-            "15": "0",
-            "16": "0",
-            "17": "0"
-        }
+        "type": "Tracking of goods, supply chain, iot"
     },
     {
         "cid": 10005,
@@ -1377,27 +837,7 @@
         "category": "Blockchain",
         "social_uptake": "Unknown",
         "cross_sector": "No",
-        "policy_uptake_explanation": "",
-        "type": "Tracking of goods, supply chain, iot",
-        "unsdg": {
-            "1": "0",
-            "2": "0",
-            "3": "0",
-            "4": "0",
-            "5": "0",
-            "6": "0",
-            "7": "0",
-            "8": "0",
-            "9": "0",
-            "10": "0",
-            "11": "0",
-            "12": "0",
-            "13": "0",
-            "14": "0",
-            "15": "0",
-            "16": "0",
-            "17": "0"
-        }
+        "type": "Tracking of goods, supply chain, iot"
     },
     {
         "cid": 10005,
@@ -1427,27 +867,7 @@
         "category": "Blockchain",
         "social_uptake": "Unknown",
         "cross_sector": "No",
-        "policy_uptake_explanation": "",
-        "type": "Process digitization",
-        "unsdg": {
-            "1": "0",
-            "2": "0",
-            "3": "0",
-            "4": "0",
-            "5": "0",
-            "6": "0",
-            "7": "0",
-            "8": "0",
-            "9": "0",
-            "10": "0",
-            "11": "0",
-            "12": "0",
-            "13": "0",
-            "14": "0",
-            "15": "0",
-            "16": "0",
-            "17": "0"
-        }
+        "type": "Process digitization"
     },
     {
         "cid": 10005,
@@ -1477,27 +897,7 @@
         "category": "Blockchain",
         "social_uptake": "Unknown",
         "cross_sector": "No",
-        "policy_uptake_explanation": "",
-        "type": "Process digitization",
-        "unsdg": {
-            "1": "0",
-            "2": "0",
-            "3": "0",
-            "4": "0",
-            "5": "0",
-            "6": "0",
-            "7": "0",
-            "8": "0",
-            "9": "0",
-            "10": "0",
-            "11": "0",
-            "12": "0",
-            "13": "0",
-            "14": "0",
-            "15": "0",
-            "16": "0",
-            "17": "0"
-        }
+        "type": "Process digitization"
     },
     {
         "cid": 10005,
@@ -1527,27 +927,7 @@
         "category": "Blockchain",
         "social_uptake": "Unknown",
         "cross_sector": "No",
-        "policy_uptake_explanation": "",
-        "type": "Process digitization",
-        "unsdg": {
-            "1": "0",
-            "2": "0",
-            "3": "0",
-            "4": "0",
-            "5": "0",
-            "6": "0",
-            "7": "0",
-            "8": "0",
-            "9": "0",
-            "10": "0",
-            "11": "0",
-            "12": "0",
-            "13": "0",
-            "14": "0",
-            "15": "0",
-            "16": "0",
-            "17": "0"
-        }
+        "type": "Process digitization"
     },
     {
         "cid": 10005,
@@ -1577,27 +957,7 @@
         "category": "Blockchain",
         "social_uptake": "Unknown",
         "cross_sector": "No",
-        "policy_uptake_explanation": "",
-        "type": "Authentication",
-        "unsdg": {
-            "1": "0",
-            "2": "0",
-            "3": "0",
-            "4": "0",
-            "5": "0",
-            "6": "0",
-            "7": "0",
-            "8": "0",
-            "9": "0",
-            "10": "0",
-            "11": "0",
-            "12": "0",
-            "13": "0",
-            "14": "0",
-            "15": "0",
-            "16": "0",
-            "17": "0"
-        }
+        "type": "Authentication"
     },
     {
         "cid": 10005,
@@ -1627,27 +987,7 @@
         "category": "Blockchain",
         "social_uptake": "Unknown",
         "cross_sector": "No",
-        "policy_uptake_explanation": "",
-        "type": "Disintermediation and decentralized networks",
-        "unsdg": {
-            "1": "0",
-            "2": "0",
-            "3": "0",
-            "4": "0",
-            "5": "0",
-            "6": "0",
-            "7": "0",
-            "8": "0",
-            "9": "0",
-            "10": "0",
-            "11": "0",
-            "12": "0",
-            "13": "0",
-            "14": "0",
-            "15": "0",
-            "16": "0",
-            "17": "0"
-        }
+        "type": "Disintermediation and decentralized networks"
     },
     {
         "cid": 10005,
@@ -1677,27 +1017,7 @@
         "category": "Blockchain",
         "social_uptake": "Unknown",
         "cross_sector": "No",
-        "policy_uptake_explanation": "",
-        "type": "Process digitization",
-        "unsdg": {
-            "1": "0",
-            "2": "0",
-            "3": "0",
-            "4": "0",
-            "5": "0",
-            "6": "0",
-            "7": "0",
-            "8": "0",
-            "9": "0",
-            "10": "0",
-            "11": "0",
-            "12": "0",
-            "13": "0",
-            "14": "0",
-            "15": "0",
-            "16": "0",
-            "17": "0"
-        }
+        "type": "Process digitization"
     },
     {
         "cid": 10005,
@@ -1727,27 +1047,7 @@
         "category": "Blockchain",
         "social_uptake": "Unknown",
         "cross_sector": "No",
-        "policy_uptake_explanation": "",
-        "type": "Process digitization",
-        "unsdg": {
-            "1": "0",
-            "2": "0",
-            "3": "0",
-            "4": "0",
-            "5": "0",
-            "6": "0",
-            "7": "0",
-            "8": "0",
-            "9": "0",
-            "10": "0",
-            "11": "0",
-            "12": "0",
-            "13": "0",
-            "14": "0",
-            "15": "0",
-            "16": "0",
-            "17": "0"
-        }
+        "type": "Process digitization"
     },
     {
         "cid": 10005,
@@ -1777,27 +1077,7 @@
         "category": "Blockchain",
         "social_uptake": "Unknown",
         "cross_sector": "Yes",
-        "policy_uptake_explanation": "",
-        "type": "Self sovereign - digital identity",
-        "unsdg": {
-            "1": "0",
-            "2": "0",
-            "3": "0",
-            "4": "0",
-            "5": "0",
-            "6": "0",
-            "7": "0",
-            "8": "0",
-            "9": "0",
-            "10": "0",
-            "11": "0",
-            "12": "0",
-            "13": "0",
-            "14": "0",
-            "15": "0",
-            "16": "0",
-            "17": "0"
-        }
+        "type": "Self sovereign - digital identity"
     },
     {
         "cid": 10005,
@@ -1827,27 +1107,7 @@
         "category": "Blockchain",
         "social_uptake": "Unknown",
         "cross_sector": "No",
-        "policy_uptake_explanation": "",
-        "type": "Process digitization",
-        "unsdg": {
-            "1": "0",
-            "2": "0",
-            "3": "0",
-            "4": "0",
-            "5": "0",
-            "6": "0",
-            "7": "0",
-            "8": "0",
-            "9": "0",
-            "10": "0",
-            "11": "0",
-            "12": "0",
-            "13": "0",
-            "14": "0",
-            "15": "0",
-            "16": "0",
-            "17": "0"
-        }
+        "type": "Process digitization"
     },
     {
         "cid": 10005,
@@ -1877,27 +1137,7 @@
         "category": "Blockchain",
         "social_uptake": "Unknown",
         "cross_sector": "No",
-        "policy_uptake_explanation": "",
-        "type": "Tracking of goods, supply chain, iot",
-        "unsdg": {
-            "1": "0",
-            "2": "0",
-            "3": "0",
-            "4": "0",
-            "5": "0",
-            "6": "0",
-            "7": "0",
-            "8": "0",
-            "9": "0",
-            "10": "0",
-            "11": "0",
-            "12": "0",
-            "13": "0",
-            "14": "0",
-            "15": "0",
-            "16": "0",
-            "17": "0"
-        }
+        "type": "Tracking of goods, supply chain, iot"
     },
     {
         "cid": 10005,
@@ -1927,27 +1167,7 @@
         "category": "Blockchain",
         "social_uptake": "Unknown",
         "cross_sector": "No",
-        "policy_uptake_explanation": "",
-        "type": "Process digitization",
-        "unsdg": {
-            "1": "0",
-            "2": "0",
-            "3": "0",
-            "4": "0",
-            "5": "0",
-            "6": "0",
-            "7": "0",
-            "8": "0",
-            "9": "0",
-            "10": "0",
-            "11": "0",
-            "12": "0",
-            "13": "0",
-            "14": "0",
-            "15": "0",
-            "16": "0",
-            "17": "0"
-        }
+        "type": "Process digitization"
     },
     {
         "cid": 10005,
@@ -1977,27 +1197,7 @@
         "category": "Blockchain",
         "social_uptake": "Unknown",
         "cross_sector": "Yes",
-        "policy_uptake_explanation": "",
-        "type": "Auditing and logging",
-        "unsdg": {
-            "1": "0",
-            "2": "0",
-            "3": "0",
-            "4": "0",
-            "5": "0",
-            "6": "0",
-            "7": "0",
-            "8": "0",
-            "9": "0",
-            "10": "0",
-            "11": "0",
-            "12": "0",
-            "13": "0",
-            "14": "0",
-            "15": "0",
-            "16": "0",
-            "17": "0"
-        }
+        "type": "Auditing and logging"
     },
     {
         "cid": 10005,
@@ -2027,27 +1227,7 @@
         "category": "Blockchain",
         "social_uptake": "Unknown",
         "cross_sector": "No",
-        "policy_uptake_explanation": "",
-        "type": "Disintermediation and decentralized networks",
-        "unsdg": {
-            "1": "0",
-            "2": "0",
-            "3": "0",
-            "4": "0",
-            "5": "0",
-            "6": "0",
-            "7": "0",
-            "8": "0",
-            "9": "0",
-            "10": "0",
-            "11": "0",
-            "12": "0",
-            "13": "0",
-            "14": "0",
-            "15": "0",
-            "16": "0",
-            "17": "0"
-        }
+        "type": "Disintermediation and decentralized networks"
     },
     {
         "cid": 10005,
@@ -2077,27 +1257,7 @@
         "category": "Blockchain",
         "social_uptake": "Unknown",
         "cross_sector": "Yes",
-        "policy_uptake_explanation": "",
-        "type": "Self sovereign - digital identity",
-        "unsdg": {
-            "1": "0",
-            "2": "0",
-            "3": "0",
-            "4": "0",
-            "5": "0",
-            "6": "0",
-            "7": "0",
-            "8": "0",
-            "9": "0",
-            "10": "0",
-            "11": "0",
-            "12": "0",
-            "13": "0",
-            "14": "0",
-            "15": "0",
-            "16": "0",
-            "17": "0"
-        }
+        "type": "Self sovereign - digital identity"
     },
     {
         "cid": 10005,
@@ -2127,27 +1287,7 @@
         "category": "Blockchain",
         "social_uptake": "Unknown",
         "cross_sector": "No",
-        "policy_uptake_explanation": "",
-        "type": "Disintermediation and decentralized networks",
-        "unsdg": {
-            "1": "0",
-            "2": "0",
-            "3": "0",
-            "4": "0",
-            "5": "0",
-            "6": "0",
-            "7": "0",
-            "8": "0",
-            "9": "0",
-            "10": "0",
-            "11": "0",
-            "12": "0",
-            "13": "0",
-            "14": "0",
-            "15": "0",
-            "16": "0",
-            "17": "0"
-        }
+        "type": "Disintermediation and decentralized networks"
     },
     {
         "cid": 10005,
@@ -2177,27 +1317,7 @@
         "category": "Blockchain",
         "social_uptake": "Unknown",
         "cross_sector": "Yes",
-        "policy_uptake_explanation": "",
-        "type": "Governance and voting",
-        "unsdg": {
-            "1": "0",
-            "2": "0",
-            "3": "0",
-            "4": "0",
-            "5": "0",
-            "6": "0",
-            "7": "0",
-            "8": "0",
-            "9": "0",
-            "10": "0",
-            "11": "0",
-            "12": "0",
-            "13": "0",
-            "14": "0",
-            "15": "0",
-            "16": "0",
-            "17": "0"
-        }
+        "type": "Governance and voting"
     },
     {
         "cid": 10005,
@@ -2227,27 +1347,7 @@
         "category": "Blockchain",
         "social_uptake": "Unknown",
         "cross_sector": "No",
-        "policy_uptake_explanation": "",
-        "type": "Disintermediation and decentralized networks",
-        "unsdg": {
-            "1": "0",
-            "2": "0",
-            "3": "0",
-            "4": "0",
-            "5": "0",
-            "6": "0",
-            "7": "0",
-            "8": "0",
-            "9": "0",
-            "10": "0",
-            "11": "0",
-            "12": "0",
-            "13": "0",
-            "14": "0",
-            "15": "0",
-            "16": "0",
-            "17": "0"
-        }
+        "type": "Disintermediation and decentralized networks"
     },
     {
         "cid": 10005,
@@ -2277,27 +1377,7 @@
         "category": "Blockchain",
         "social_uptake": "Unknown",
         "cross_sector": "No",
-        "policy_uptake_explanation": "",
-        "type": "Process digitization",
-        "unsdg": {
-            "1": "0",
-            "2": "0",
-            "3": "0",
-            "4": "0",
-            "5": "0",
-            "6": "0",
-            "7": "0",
-            "8": "0",
-            "9": "0",
-            "10": "0",
-            "11": "0",
-            "12": "0",
-            "13": "0",
-            "14": "0",
-            "15": "0",
-            "16": "0",
-            "17": "0"
-        }
+        "type": "Process digitization"
     },
     {
         "cid": 10005,
@@ -2327,27 +1407,7 @@
         "category": "Blockchain",
         "social_uptake": "Unknown",
         "cross_sector": "Yes",
-        "policy_uptake_explanation": "",
-        "type": "Process digitization",
-        "unsdg": {
-            "1": "0",
-            "2": "0",
-            "3": "0",
-            "4": "0",
-            "5": "0",
-            "6": "0",
-            "7": "0",
-            "8": "0",
-            "9": "0",
-            "10": "0",
-            "11": "0",
-            "12": "0",
-            "13": "0",
-            "14": "0",
-            "15": "0",
-            "16": "0",
-            "17": "0"
-        }
+        "type": "Process digitization"
     },
     {
         "cid": 10005,
@@ -2377,27 +1437,7 @@
         "category": "Blockchain",
         "social_uptake": "Unknown",
         "cross_sector": "No",
-        "policy_uptake_explanation": "",
-        "type": "Process digitization",
-        "unsdg": {
-            "1": "0",
-            "2": "0",
-            "3": "0",
-            "4": "0",
-            "5": "0",
-            "6": "0",
-            "7": "0",
-            "8": "0",
-            "9": "0",
-            "10": "0",
-            "11": "0",
-            "12": "0",
-            "13": "0",
-            "14": "0",
-            "15": "0",
-            "16": "0",
-            "17": "0"
-        }
+        "type": "Process digitization"
     },
     {
         "cid": 10005,
@@ -2427,27 +1467,7 @@
         "category": "Blockchain",
         "social_uptake": "Unknown",
         "cross_sector": "Yes",
-        "policy_uptake_explanation": "",
-        "type": "Process digitization",
-        "unsdg": {
-            "1": "0",
-            "2": "0",
-            "3": "0",
-            "4": "0",
-            "5": "0",
-            "6": "0",
-            "7": "0",
-            "8": "0",
-            "9": "0",
-            "10": "0",
-            "11": "0",
-            "12": "0",
-            "13": "0",
-            "14": "0",
-            "15": "0",
-            "16": "0",
-            "17": "0"
-        }
+        "type": "Process digitization"
     },
     {
         "cid": 10005,
@@ -2477,26 +1497,6 @@
         "category": "Blockchain",
         "social_uptake": "Unknown",
         "cross_sector": "No",
-        "policy_uptake_explanation": "",
-        "type": "Tracking of goods, supply chain, iot",
-        "unsdg": {
-            "1": "0",
-            "2": "0",
-            "3": "0",
-            "4": "0",
-            "5": "0",
-            "6": "0",
-            "7": "0",
-            "8": "0",
-            "9": "0",
-            "10": "0",
-            "11": "0",
-            "12": "0",
-            "13": "0",
-            "14": "0",
-            "15": "0",
-            "16": "0",
-            "17": "0"
-        }
+        "type": "Tracking of goods, supply chain, iot"
     }
 ]
