@@ -86,44 +86,44 @@
   $subsection["chart"]["10004"]["graph"] = '<perspective-viewer view="sunburst" row-pivots=\'["primary_sector", "secondary_sector"]\' sort=\'[["id", "asc"]]\' columns=\'["id", "geocoverage"]\' id="chart-10004"></perspective-viewer>';
   $subsection["chart"]["10004"]["lib"] = 'perspective';
   
-  $subsection["chart"]["10005"]["name"] = "Policy uptake vs. technology";
+  $subsection["chart"]["10005"]["name"] = "Service type vs. technology";
   $subsection["chart"]["10005"]["icon"] = "fa-area-chart";
-  $subsection["chart"]["10005"]["descr"] = "Joint visual representation of the public service policy uptake and the used technologies.";
+  $subsection["chart"]["10005"]["descr"] = "Joint visual representation of the public service type and the used technologies.";
 //  $subsection["chart"]["10005"]["url"] = $site_abs_path . "chart/10005.html";
 //  $subsection["chart"]["10005"]["path"] = $root_abs_path . "chart/10005.html";
 //  $subsection["chart"]["10005"]["data"] = $site_abs_path . $data_folder . "services";
   $subsection["chart"]["10005"]["data"] = $data_path . "services";
-  $subsection["chart"]["10005"]["graph"] = '<perspective-viewer view="sunburst" row-pivots=\'["type", "category"]\' sort=\'[["id", "asc"]]\' columns=\'["id", "geocoverage"]\' id="chart-10005"></perspective-viewer>';
+  $subsection["chart"]["10005"]["graph"] = '<perspective-viewer view="sunburst" row-pivots=\'["type", "technology"]\' sort=\'[["id", "asc"]]\' columns=\'["id", "geocoverage"]\' id="chart-10005"></perspective-viewer>';
   $subsection["chart"]["10005"]["lib"] = 'perspective';
   
-  $subsection["chart"]["10006"]["name"] = "Policy relevance vs. technology";
+  $subsection["chart"]["10006"]["name"] = "Cross-sector applicability vs. technology";
   $subsection["chart"]["10006"]["icon"] = "fa-area-chart";
-  $subsection["chart"]["10006"]["descr"] = "Joint visual representation of the public service policy relevance and the used technologies.";
+  $subsection["chart"]["10006"]["descr"] = "Joint visual representation of the public service applicability in cross-sector scenarios and the used technologies.";
 //  $subsection["chart"]["10006"]["url"] = $site_abs_path . "chart/10006.html";
 //  $subsection["chart"]["10006"]["path"] = $root_abs_path . "chart/10006.html";
 //  $subsection["chart"]["10006"]["data"] = $site_abs_path . $data_folder . "services";
   $subsection["chart"]["10006"]["data"] = $data_path . "services";
-  $subsection["chart"]["10006"]["graph"] = '<perspective-viewer view="x_bar" row-pivots=\'["policy_relevance", "category"]\' sort=\'[["id", "asc"]]\' columns=\'["id"]\' id="chart-10006"></perspective-viewer>';
+  $subsection["chart"]["10006"]["graph"] = '<perspective-viewer view="x_bar" row-pivots=\'["cross_sector", "technology"]\' sort=\'[["id", "asc"]]\' columns=\'["id"]\' id="chart-10006"></perspective-viewer>';
   $subsection["chart"]["10006"]["lib"] = 'perspective';
   
-  $subsection["chart"]["10007"]["name"] = "Social uptake vs. organisation category";
+  $subsection["chart"]["10007"]["name"] = "Uptake vs. organisation category";
   $subsection["chart"]["10007"]["icon"] = "fa-area-chart";
-  $subsection["chart"]["10007"]["descr"] = "Joint visual representation of the public service social uptake and the responsible organisation category.";
+  $subsection["chart"]["10007"]["descr"] = "Joint visual representation of the public service uptake and the responsible organisation category.";
 //  $subsection["chart"]["10007"]["url"] = $site_abs_path . "chart/10007.html";
 //  $subsection["chart"]["10007"]["path"] = $root_abs_path . "chart/10007.html";
 //  $subsection["chart"]["10007"]["data"] = $site_abs_path . $data_folder . "services";
   $subsection["chart"]["10007"]["data"] = $data_path . "services";
-  $subsection["chart"]["10007"]["graph"] = '<perspective-viewer view="x_bar" row-pivots=\'["social_uptake", "lead_organisation_category"]\' sort=\'[["id", "asc"]]\' columns=\'["id"]\' id="chart-10007"></perspective-viewer>';
+  $subsection["chart"]["10007"]["graph"] = '<perspective-viewer view="x_bar" row-pivots=\'["uptake", "lead_organisation_category"]\' sort=\'[["id", "asc"]]\' columns=\'["id"]\' id="chart-10007"></perspective-viewer>';
   $subsection["chart"]["10007"]["lib"] = 'perspective';
   
-  $subsection["chart"]["10008"]["name"] = "Policy uptake vs. social uptake";
+  $subsection["chart"]["10008"]["name"] = "Technology vs. uptake";
   $subsection["chart"]["10008"]["icon"] = "fa-area-chart";
-  $subsection["chart"]["10008"]["descr"] = "Joint visual representation of the public service policy uptake and its social uptake.";
+  $subsection["chart"]["10008"]["descr"] = "Joint visual representation of the public service technology and its social uptake.";
 //  $subsection["chart"]["10008"]["url"] = $site_abs_path . "chart/10008.html";
 //  $subsection["chart"]["10008"]["path"] = $root_abs_path . "chart/10008.html";
 //  $subsection["chart"]["10008"]["data"] = $site_abs_path . $data_folder . "services";
   $subsection["chart"]["10008"]["data"] = $data_path . "services";
-  $subsection["chart"]["10008"]["graph"] = '<perspective-viewer view="sunburst" row-pivots=\'["type", "social_uptake"]\' sort=\'[["id", "asc"]]\' columns=\'["id", "start_date"]\' id="chart-10008"></perspective-viewer>';
+  $subsection["chart"]["10008"]["graph"] = '<perspective-viewer view="sunburst" row-pivots=\'["type", "uptake"]\' sort=\'[["id", "asc"]]\' columns=\'["id", "start_date"]\' id="chart-10008"></perspective-viewer>';
   $subsection["chart"]["10008"]["lib"] = 'perspective';
 
   foreach ($subsection["chart"] as $ssk => $ssv) {

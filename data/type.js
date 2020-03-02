@@ -2,6 +2,7 @@ var type = [
     "Auditing and logging",
     "Authentication",
     "Cybersecurity",
+    "Data access and reuse",
     "Digital identity",
     "Disintermediation and decentralized networks",
     "Governance and voting",
@@ -9,5 +10,8 @@ var type = [
     "Payments and international transactions",
     "Process digitization",
     "Self sovereign - digital identity",
-    "Tracking of goods, supply chain, iot"
+    "Service integration",
+    "Smart city",
+    "Tracking of goods, supply chain, iot",
+    "Validation and benchmarking"
 ]

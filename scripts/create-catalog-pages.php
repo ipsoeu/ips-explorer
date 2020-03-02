@@ -48,8 +48,8 @@
 //    $end_date = $v["end_date"];
 //    $primary_sector = $v["primary_sector"];
 //    $secondary_sector = $v["secondary_sector"];
-//    $category = $v["category"];
-//    $social_uptake = $v["social_uptake"];
+//    $technology = $v["technology"];
+//    $uptake = $v["uptake"];
 //    $cross_sector = $v["cross_sector"];
 //    $type = $v["type"];
 /*
@@ -254,8 +254,8 @@ $(document).ready(function() {
 ';
   }  
 /*
-  $html .= '<p><strong>Category</strong></p>
-<p>' . $category . '</p>
+  $html .= '<p><strong>Technologies</strong></p>
+<p>' . $technology . '</p>
 <p><strong>Geographic extent</strong></p>
 <p>' . $geoextent . '</p>
 <p><strong>Geographic coverage</strong></p>
@@ -265,7 +265,7 @@ $(document).ready(function() {
 <p><strong>Secondary sector</strong></p>
 <p>' . $secondary_sector . '</p>
 <p><strong>Uptake</strong></p>
-<p>' . $social_uptake . '</p>
+<p>' . $uptake . '</p>
 <p><strong>Cross-sector</strong></p>
 <p>' . $cross_sector . '</p>
 <p><strong>Policy relevance</strong></p>
@@ -394,7 +394,7 @@ $(document).ready(function() {
 <thead>
 <tr>
 <th>Service</th>
-<th>Category</th>
+<th>Technology</th>
 <th>Geo extent</th>
 </tr>
 </thead>
@@ -405,7 +405,7 @@ $(document).ready(function() {
 //      $score = 100*((count($rp) - 1)/10) . "%";
       $html .= '<tr>
 <td><a href="../service/' . $rp["id"] . '.html">' . $rp["name"] . '</a></td>
-<td>' . $rp["category"] . '</td>      
+<td>' . $rp["technology"] . '</td>      
 <td>' . $rp["geoextent"] . '</td>      
 </tr>
 ';
@@ -414,7 +414,7 @@ $(document).ready(function() {
 <tfoot>
 <tr>
 <th><input class="filter" type="text" placeholder="Filter by service" data-index="0" /></th>
-<th><input class="filter" type="text" placeholder="Filter by category" data-index="1" /></th>
+<th><input class="filter" type="text" placeholder="Filter by technology" data-index="1" /></th>
 <th><input class="filter" type="text" placeholder="Filter by geo extent" data-index="2" /></th>
 </tr>
 </tfoot>

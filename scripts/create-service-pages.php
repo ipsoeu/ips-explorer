@@ -45,8 +45,8 @@
     $end_date = $v["end_date"];
     $primary_sector = $v["primary_sector"];
     $secondary_sector = $v["secondary_sector"];
-    $category = $v["category"];
-    $social_uptake = $v["social_uptake"];
+    $technology = $v["technology"];
+    $uptake = $v["uptake"];
     $cross_sector = $v["cross_sector"];
     $type = $v["type"];
 /*
@@ -208,7 +208,7 @@ $(document).ready(function() {
 <div>
 <div class="well">
 <p><strong>Technologies</strong></p>
-<p>' . $category . '</p>
+<p>' . $technology . '</p>
 <p><strong>Geographic extent</strong></p>
 <p>' . $geoextent . '</p>
 <p><strong>Geographic coverage</strong></p>
@@ -218,7 +218,7 @@ $(document).ready(function() {
 <p><strong>Secondary sector</strong></p>
 <p>' . $secondary_sector . '</p>
 <p><strong>Uptake</strong></p>
-<p>' . $social_uptake . '</p>
+<p>' . $uptake . '</p>
 <p><strong>Cross-sector</strong></p>
 <p>' . $cross_sector . '</p>
 <p><strong>Type</strong></p>
@@ -316,8 +316,8 @@ $(document).ready(function() {
   $related_services = array();
   foreach ($d as $p) {
     if ($p["id"] != $id) {
-      if ($category == $p["category"]) {
-        $related_services[$p["id"]]["category"] = "Yes";
+      if ($technology == $p["technology"]) {
+        $related_services[$p["id"]]["technology"] = "Yes";
       }
       if ($geoextent == $p["geoextent"]) {
         $related_services[$p["id"]]["geoextent"] = "Yes";
@@ -331,8 +331,8 @@ $(document).ready(function() {
       if ($secondary_sector == $p["secondary_sector"]) {
         $related_services[$p["id"]]["secondary_sector"] = "Yes";
       }
-      if ($social_uptake == $p["social_uptake"]) {
-        $related_services[$p["id"]]["social_uptake"] = "Yes";
+      if ($uptake == $p["uptake"]) {
+        $related_services[$p["id"]]["uptake"] = "Yes";
       }
       if ($cross_sector == $p["cross_sector"]) {
         $related_services[$p["id"]]["cross_sector"] = "Yes";
@@ -376,7 +376,7 @@ $(document).ready(function() {
         $label = "";
         if ($rpf == "Yes") {
           switch ($rpfn) {
-            case "category":
+            case "technology":
               $tag = "IT";
               $label = "Same technology";
               break;
@@ -396,7 +396,7 @@ $(document).ready(function() {
               $tag = "SS";
               $label = "Same secondary sector";
               break;
-            case "social_uptake":
+            case "uptake":
               $tag = "UP";
               $label = "Same level of uptake";
               break;

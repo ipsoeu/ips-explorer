@@ -10,13 +10,13 @@ $(document).ready(function(){
   var afterFilter = function(result, jQ){
     $('#total_services').text(result.length);
 
-    var checkboxes  = $("#category_criteria :input:gt(0)");
+    var checkboxes  = $("#technology_criteria :input:gt(0)");
 
     checkboxes.each(function(){
       var c = $(this), count = 0
 
       if(result.length > 0){
-        count = jQ.where({ 'category': c.val() }).count;
+        count = jQ.where({ 'technology': c.val() }).count;
       }
       c.next().text(c.val() + ' (' + count + ')')
     });
@@ -31,13 +31,13 @@ $(document).ready(function(){
       }
       c.next().text(c.val() + ' (' + count + ')')
     });
-    var checkboxes  = $("#social_uptake_criteria :input:gt(0)");
+    var checkboxes  = $("#uptake_criteria :input:gt(0)");
 
     checkboxes.each(function(){
       var c = $(this), count = 0
 
       if(result.length > 0){
-        count = jQ.where({ 'social_uptake': c.val() }).count;
+        count = jQ.where({ 'uptake': c.val() }).count;
       }
       c.next().text(c.val() + ' (' + count + ')')
     });
@@ -126,9 +126,9 @@ $(document).ready(function(){
 //  FJS.addCriteria({field: 'year', ele: '#year_filter', type: 'range', all: 'all'});
 //  FJS.addCriteria({field: 'rating', ele: '#rating_filter', type: 'range'});
 //  FJS.addCriteria({field: 'runtime', ele: '#runtime_filter', type: 'range'});
-  FJS.addCriteria({field: 'category', ele: '#category_criteria input:checkbox'});
+  FJS.addCriteria({field: 'technology', ele: '#technology_criteria input:checkbox'});
   FJS.addCriteria({field: 'geoextent', ele: '#geoextent_criteria input:checkbox'});
-  FJS.addCriteria({field: 'social_uptake', ele: '#social_uptake_criteria input:checkbox'});
+  FJS.addCriteria({field: 'uptake', ele: '#uptake_criteria input:checkbox'});
   FJS.addCriteria({field: 'cross_sector', ele: '#cross_sector_criteria input:checkbox'});
   FJS.addCriteria({field: 'type', ele: '#type_criteria input:checkbox'});
   FJS.addCriteria({field: 'primary_sector', ele: '#primary_sector_criteria input:checkbox'});
@@ -171,17 +171,17 @@ function initSliders(){
     }
   });
 */
-  $('#category_criteria :checkbox').prop('checked', true);
-  $('#all_category').on('click', function(){
-    $('#category_criteria :checkbox').prop('checked', $(this).is(':checked'));
+  $('#technology_criteria :checkbox').prop('checked', true);
+  $('#all_technology').on('click', function(){
+    $('#technology_criteria :checkbox').prop('checked', $(this).is(':checked'));
   });
   $('#geoextent_criteria :checkbox').prop('checked', true);
   $('#all_geoextent').on('click', function(){
     $('#geoextent_criteria :checkbox').prop('checked', $(this).is(':checked'));
   });
-  $('#social_uptake_criteria :checkbox').prop('checked', true);
-  $('#all_social_uptake').on('click', function(){
-    $('#social_uptake_criteria :checkbox').prop('checked', $(this).is(':checked'));
+  $('#uptake_criteria :checkbox').prop('checked', true);
+  $('#all_uptake').on('click', function(){
+    $('#uptake_criteria :checkbox').prop('checked', $(this).is(':checked'));
   });
   $('#cross_sector_criteria :checkbox').prop('checked', true);
   $('#all_cross_sector').on('click', function(){

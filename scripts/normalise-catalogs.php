@@ -114,8 +114,8 @@
     $output[$k]["end_date"] = trim($v["end_date"]);
     $output[$k]["primary_sector"] = ucfirst(mb_strtolower(trim($v["primary_sector"])));
     $output[$k]["secondary_sector"] = ucfirst(mb_strtolower(trim($v["secondary_sector"])));
-    $output[$k]["category"] = ucfirst(mb_strtolower(trim($v["category"])));
-    $output[$k]["social_uptake"] = ucfirst(mb_strtolower(trim($v["social_uptake"])));
+    $output[$k]["technology"] = ucfirst(mb_strtolower(trim($v["technology"])));
+    $output[$k]["uptake"] = ucfirst(mb_strtolower(trim($v["uptake"])));
     $output[$k]["cross_sector"] = ucfirst(mb_strtolower(trim($v["cross_sector"])));
     $output[$k]["type"] = ucfirst(mb_strtolower(trim($v["type"])));
     $output[$k]["unsdg"][1]  = $v["sdg1"];

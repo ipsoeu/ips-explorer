@@ -15,4 +15,7 @@
   $src["catalog"][5]  = "5-catalog-eublockchainforum-20200224.csv";
   $src["services"][5] = "5-services-eublockchainforum-20200224.csv";
 
+  $src["catalog"][6]  = "6-catalog-apis4dgov.csv";
+  $src["services"][6] = "6-services-apis4dgov.csv";
+
 ?>

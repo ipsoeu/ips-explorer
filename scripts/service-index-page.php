@@ -6,11 +6,11 @@
 
   $baseuri = $baseuri . "service/";
 
-  $fn[] = "category";
+  $fn[] = "technology";
   $fn[] = "geoextent";
   $fn[] = "primary_sector";
   $fn[] = "secondary_sector";
-  $fn[] = "social_uptake";
+  $fn[] = "uptake";
   $fn[] = "cross_sector";
   $fn[] = "type";
   
@@ -75,15 +75,15 @@
         </div>
         <br>
         <div class="well">
-            <fieldset id="category_criteria">
+            <fieldset id="technology_criteria">
                 <legend>Technologies</legend>
                 <div class="checkbox">
                   <label>
-                    <input type="checkbox" value="All" id="all_category">
+                    <input type="checkbox" value="All" id="all_technology">
                     <span>All</span>
                   </label>
                 </div>
-<?php foreach ($filter["category"] as $filter_value) { ?>            
+<?php foreach ($filter["technology"] as $filter_value) { ?>            
             <div class="checkbox">
               <label>
                 <input type="checkbox" value="<?php echo $filter_value; ?>">
@@ -151,15 +151,15 @@
             </fieldset>
         </div>
         <div class="well">
-            <fieldset id="social_uptake_criteria">
+            <fieldset id="uptake_criteria">
                 <legend>Uptake</legend>
                 <div class="checkbox">
                   <label>
-                    <input type="checkbox" value="All" id="all_social_uptake">
+                    <input type="checkbox" value="All" id="all_uptake">
                     <span>All</span>
                   </label>
                 </div>
-<?php foreach ($filter["social_uptake"] as $filter_value) { ?>            
+<?php foreach ($filter["uptake"] as $filter_value) { ?>            
             <div class="checkbox">
               <label>
                 <input type="checkbox" value="<?php echo $filter_value; ?>">
@@ -241,11 +241,11 @@
           <div class="panel-footer">
 <!--          
             <p>
-              <span class="icon icon-ca" title="Category">CA</span> <%= category %> 
-              <span class="icon icon-ed" title="Primary sector">ED</span> <%= primary_sector %> 
-              <span class="icon icon-ef" title="Secondary sector">EF</span> <%= secondary_sector %> 
-              <span class="icon icon-su" title="Uptake">SU</span> <%= social_uptake %>
-              <span class="icon icon-pr" title="Type">PR</span> <%= type %> 
+              <span class="icon icon-ca" title="Technology">IT</span> <%= technology %> 
+              <span class="icon icon-ed" title="Primary sector">PS</span> <%= primary_sector %> 
+              <span class="icon icon-ef" title="Secondary sector">SS</span> <%= secondary_sector %> 
+              <span class="icon icon-su" title="Uptake">UP</span> <%= uptake %>
+              <span class="icon icon-pr" title="Type">TY</span> <%= type %> 
               <span class="icon icon-pu" title="Cross-sector">CS</span> <%= cross_sector %> 
             </p>
 -->              

@@ -36,10 +36,10 @@
 
   $field[] = "geoextent";
   $field[] = "geocoverage";
-  $field[] = "category";
+  $field[] = "technology";
   $field[] = "primary_sector";
   $field[] = "secondary_sector";
-  $field[] = "social_uptake";
+  $field[] = "uptake";
   $field[] = "cross_sector";
   $field[] = "type";
 

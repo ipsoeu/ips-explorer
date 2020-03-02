@@ -24,8 +24,8 @@
         "end_date": "",
         "primary_sector": "Social protection",
         "secondary_sector": "Education",
-        "category": "Blockchain",
-        "social_uptake": "Small",
+        "technology": "Blockchain",
+        "uptake": "Small",
         "cross_sector": "Yes",
         "type": "Process digitization"
     },
@@ -54,8 +54,8 @@
         "end_date": "",
         "primary_sector": "Agriculture, forestry, fishing and hunting",
         "secondary_sector": "Health",
-        "category": "Blockchain",
-        "social_uptake": "Small",
+        "technology": "Blockchain",
+        "uptake": "Small",
         "cross_sector": "Yes",
         "type": "Tracking of goods, supply chain, iot"
     }

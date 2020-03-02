@@ -140,8 +140,8 @@
       </script>
 <!--
             <dl>
-              <dt>Category</dt>
-              <dd><%= category %></dd>
+              <dt>Technologies</dt>
+              <dd><%= technology %></dd>
               <dt>Geographic extent</dt>
               <dd><%= geoextent %></dd>
               <dt>Primary sector</dt>
