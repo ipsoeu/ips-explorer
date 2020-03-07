@@ -131,7 +131,7 @@ $(document).ready(function() {
   "name":"' . $name . '",
   "url":"' . $url . '",
   "description":"' . $description . '",
-  "provider":{"@type":"Organization","name","' . $lead_organisation["name"] . '"},
+  "provider":{"@type":"Organization","name":"' . $lead_organisation["name"] . '"},
   "areaServed":[
 ';
 
