@@ -20,7 +20,7 @@
    
   $section["service"]["name"] = "Services";
   $section["service"]["icon"] = "fa-group";
-  $section["service"]["descr"] = "Explore European public services making use of emerging and disruptive technologies, such as AI, DLT, IoT and APIs. Find out their distribution and scope in terms of public administration levels and sectors, which of them address cross-sector and cross-border cases, their uptake level, and much more.";
+  $section["service"]["descr"] = "Explore European public services making use of emerging and disruptive technologies, such as AI, DLT, IoT and APIs, and find out their distribution and scope in terms of public administration levels and sectors";
   $section["service"]["url"] = $site_abs_path . "service/";
   $section["service"]["path"] = $root_abs_path . "service/";
 //  $section["service"]["data"] = $site_abs_path . $data_folder . "services";
