@@ -131,7 +131,8 @@ $(document).ready(function() {
   "name":"' . $name . '",
   "url":"' . $url . '",
   "description":"' . $description . '",
-  "spatialCoverage":[
+  "provider":{"@type:"Organization","name","' . $lead_organisation["name"] . '"},
+  "areaServed":[
 ';
 
   foreach ($geocoverage as $gk => $gc) {
