@@ -10,6 +10,7 @@ a:hover > .thumbnail {opacity:1.0;}
 
 /* Site specific styles */
 
+body {font-family: "Open Sans", sans-serif;}
 body {background-color:#ececf7;color:#211b38;}
 .navbar, .navbar-default {background-color:#27456b;color:#ffffff;}
 .navbar .navbar-brand, .navbar .navbar-nav li a {color:#ffffff;}

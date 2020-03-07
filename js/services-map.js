@@ -3,6 +3,7 @@ $(document).ready(function () {
   //configuring JVecorMap
   var countries = _.map(services, function (p) {
       return p.geocoverage_codes;
+//      return p.geocoverage_codes.toLowerCase();
   });
   countries = _.flatten(countries);
   countries = _.groupBy(countries);
@@ -12,7 +13,14 @@ $(document).ready(function () {
   }, data);
 
   var map = new jvm.Map({
-    map: 'world_mill',
+//    map: 'world_mill',
+//    map: 'europe_mill',
+//    map: 'europe_merc',
+// jvectormap 1.2.2
+    map: 'europe_mill_en',
+//   map: 'europe_merc_en',
+// JQVMap
+//    map: 'europe_en',
     container: $('#search-map'),
     regionsSelectable: true,
     regionStyle: {

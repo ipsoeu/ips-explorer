@@ -20,10 +20,6 @@
 <script src="<?php echo $section["service"]["data"]; ?>.js"></script>
 <script src="https://eloquentstudio.github.io/filter.js/assets/js/jquery-1.11.3.min.js" type="text/javascript"></script>
 <script src="https://eloquentstudio.github.io/filter.js/assets/js/jquery-ui-1.10.2.custom.min.js" type="text/javascript"></script>
-<!--
-<script src="http://jvectormap.com/js/jquery-jvectormap-2.0.3.min.js"></script>
-<script src="http://jvectormap.com/js/jquery-jvectormap-world-mill.js"></script>
--->
 <script src="<?php echo $site_abs_path; ?>js/jvectormap.com/js/jquery-jvectormap-2.0.3.min.js"></script>
 <script src="<?php echo $site_abs_path; ?>js/jvectormap.com/js/jquery-jvectormap-world-mill.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.9.1/underscore-min.js" integrity="sha256-G7A4JrJjJlFqP0yamznwPjAApIKPkadeHfyIwiaa9e0=" crossorigin="anonymous"></script>
@@ -67,7 +63,7 @@ $(document).ready(function () {
       }]
     },
     onRegionTipShow: function (e, el, code) {
-      el.html(el.html() + ' - Services: ' + (data[code] ? data[code] : 'unknown') );
+//      el.html(el.html() + ' - Services: ' + (data[code] ? data[code] : 'unknown') );
     },
     onRegionClick: function(e, code){
 //      window.location.href = window.location.href + 'service';

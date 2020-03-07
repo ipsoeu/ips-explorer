@@ -81,16 +81,12 @@
 <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
 <title>' . $site_title . ' | ' . $name . '</title>
 <link type="text/css" rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-<link href="https://eloquentstudio.github.io/filter.js/assets/css/bootstrap.min.css" media="screen" rel="stylesheet" type="text/css">
 <link type="text/css" rel="stylesheet" href="https://cdn.datatables.net/1.10.10/css/dataTables.bootstrap.min.css" media="screen"/>
-<link href="https://eloquentstudio.github.io/filter.js/assets/css/jquery-ui-1.10.2.custom.min.css" media="screen" rel="stylesheet" type="text/css">
 <link type="text/css" rel="stylesheet" href="https://cdn.datatables.net/buttons/1.2.4/css/buttons.dataTables.min.css" media="screen"/>
 <link type="text/css" rel="stylesheet" href="https://cdn.datatables.net/select/1.2.1/css/select.dataTables.min.css" media="screen"/>
-<link type="text/css" rel="stylesheet" href="https://getbootstrap.com/docs/3.3/assets/css/docs.min.css"/>
+<link href="https://eloquentstudio.github.io/filter.js/assets/css/bootstrap.min.css" media="screen" rel="stylesheet" type="text/css">
+<link href="https://eloquentstudio.github.io/filter.js/assets/css/jquery-ui-1.10.2.custom.min.css" media="screen" rel="stylesheet" type="text/css">
 <link href="' . $site_abs_path . 'css/common.css" media="screen" rel="stylesheet" type="text/css">
-<script src="https://eloquentstudio.github.io/filter.js/assets/js/jquery-1.11.3.min.js" type="text/javascript"></script>
-<script src="https://eloquentstudio.github.io/filter.js/assets/js/jquery-ui-1.10.2.custom.min.js" type="text/javascript"></script>
-<script src="https://eloquentstudio.github.io/filter.js/filter.min.js" type="text/javascript"></script>
 <script type="text/javascript" src="https://cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script>
 <script type="text/javascript" src="https://cdn.datatables.net/1.10.16/js/dataTables.bootstrap.min.js"></script>
 <script type="text/javascript" src="https://cdn.datatables.net/buttons/1.5.1/js/dataTables.buttons.min.js"></script>
@@ -102,49 +98,12 @@
 <script type="text/javascript" src="https://cdn.datatables.net/buttons/1.5.1/js/buttons.print.min.js"></script>
 <script type="text/javascript" src="https://cdn.datatables.net/select/1.2.7/js/dataTables.select.min.js"></script>
 <script type="text/javascript" src="https://cdn.datatables.net/buttons/1.5.2/js/buttons.colVis.min.js"></script>
-<script type="text/javascript" src="https://getbootstrap.com/docs/3.3/dist/js/bootstrap.min.js"></script>
-<script type="text/javascript" src="https://getbootstrap.com/docs/3.3/assets/js/docs.min.js"></script> 
+<script src="https://eloquentstudio.github.io/filter.js/assets/js/jquery-1.11.3.min.js" type="text/javascript"></script>
+<script src="https://eloquentstudio.github.io/filter.js/assets/js/jquery-ui-1.10.2.custom.min.js" type="text/javascript"></script>
+<script src="https://eloquentstudio.github.io/filter.js/filter.min.js" type="text/javascript"></script>
 <script type="text/javascript" src="' . $site_abs_path . 'js/common.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.9.1/underscore-min.js" integrity="sha256-G7A4JrJjJlFqP0yamznwPjAApIKPkadeHfyIwiaa9e0=" crossorigin="anonymous"></script>
 ';
-/*
-<title>' . $name . '</title>
-<link type="text/css" rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/readable/bootstrap.min.css" media="screen"/>
-<link type="text/css" rel="stylesheet" href="https://getbootstrap.com/docs/3.3/assets/css/docs.min.css"/>
-<style rel="stylesheet" type="text/css">
-.metadata dd {
-  margin-left: 40px;
-}
-.metadata a, .metadata code, .metadata pre {
-  overflow-wrap: break-word;
-  word-wrap: break-word;
-  word-break: break-all;
-}
-</style>
-<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
-<script type="text/javascript" src="https://getbootstrap.com/docs/3.3/dist/js/bootstrap.min.js"></script>
-<script type="text/javascript" src="https://getbootstrap.com/docs/3.3/assets/js/docs.min.js"></script>  
-<script type="text/javascript">
-$(document).ready(function() {
-//$("header").addClass("navbar bg-primary container-fluid");
-//$("header > h1").addClass("navbar-header container");
-//$("header > p").addClass("lead container");
-$("header").addClass("bs-docs-header");
-$("header > h1").addClass("container");
-$("header > p").addClass("container");
-$("header").addClass("hide");
-$("nav").addClass("navbar navbar-default container-fluid");
-$("nav > p").addClass("navbar-header");
-$("nav > p > a").addClass("navbar-brand");        
-$("nav > ul").addClass("nav navbar-nav collapse navbar-collapse");
-$("nav > ul li > ul").addClass("dropdown-menu");
-$("nav > ul li > ul").attr("role", "menu");
-$("nav > ul li > ul").parent().addClass("dropdown");
-$("body > article").addClass("bs-docs-container container");
-$("body > article section").addClass("bs-docs-section").css("padding","1em");
-$("footer").addClass("page-footer container text-muted small text-center").css("padding","1em");
-});
-</script>
-*/
 
   $html .= '<script>
 $(document).ready(function() {

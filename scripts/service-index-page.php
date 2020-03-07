@@ -45,7 +45,7 @@
     <script src="https://eloquentstudio.github.io/filter.js/filter.min.js" type="text/javascript"></script>
 
     <script src="<?php echo $site_abs_path; ?>js/jvectormap.com/js/jquery-jvectormap-2.0.3.min.js"></script>
-    <script src="<?php echo $site_abs_path; ?>js/jvectormap.com/js/jquery-jvectormap-world-mill.js"></script>
+    <script src="<?php echo $site_abs_path; ?>js/jvectormap.com/js/jquery-jvectormap-europe-mill-en.js"></script>
         
     <script type="text/javascript" src="<?php echo $site_abs_path; ?>js/common.js"></script>
     <script src="<?php echo $section[$sec]["data"] ; ?>.js" type="text/javascript"></script>

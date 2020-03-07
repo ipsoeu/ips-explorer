@@ -44,7 +44,7 @@
 
     if ($sv["lib"] == "jvectormap") {
       $html .= '<script src="' . $site_abs_path . 'js/jvectormap.com/js/jquery-jvectormap-2.0.3.min.js"></script>
-<script src="' . $site_abs_path . 'js/jvectormap.com/js/jquery-jvectormap-world-mill.js"></script>
+<script src="' . $site_abs_path . 'js/jvectormap.com/js/jquery-jvectormap-europe-mill-en.js"></script>
 ';
     }
 
@@ -80,7 +80,7 @@ $(document).ready(function () {
   }, data);
 
   $("#chart-' . $sk . '").vectorMap({
-    map: "world_mill",
+    map: "europe_mill_en",
     series: {
       regions: [{
         values: data,
