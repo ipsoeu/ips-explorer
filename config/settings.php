@@ -20,7 +20,7 @@
    
   $section["service"]["name"] = "Services";
   $section["service"]["icon"] = "fa-group";
-  $section["service"]["descr"] = "Explore the services collected by our partners and us. Find past and current services addressing different domains, participatory approaches, etc. Discover their relationships to the Sustainable Development Goals, and much more.";
+  $section["service"]["descr"] = "Explore European public services making use of emerging and disruptive technologies, such as AI, DLT, IoT and APIs. Find out their distribution and scope in terms of public administration levels and sectors, which of them address cross-sector and cross-border cases, their uptake level, and much more.";
   $section["service"]["url"] = $site_abs_path . "service/";
   $section["service"]["path"] = $root_abs_path . "service/";
 //  $section["service"]["data"] = $site_abs_path . $data_folder . "services";
@@ -32,13 +32,13 @@
 */   
   $section["chart"]["name"] = "Gallery";
   $section["chart"]["icon"] = "fa-area-chart";
-  $section["chart"]["descr"] = "Enjoy graphic representations of public services based on their core characteristics, including geographic and thematic coverage, policy uptake and policy relevance. Browse the already prepared views, and create dynamic visualizations.";
+  $section["chart"]["descr"] = "Access statistics of public services based on their core characteristics, including geographic coverage, uptake and the technologies used. Browse the already prepared views, and create dynamic visualisations.";
   $section["chart"]["url"] = $site_abs_path . "chart/";
   $section["chart"]["path"] = $root_abs_path . "chart/";
 
   $section["catalog"]["name"] = "Sources";
   $section["catalog"]["icon"] = "fa-download";
-  $section["catalog"]["descr"] = "Get to know the surveys, catalogs and data sets of public services that are integrated here. Find out how you could add your own public service, or results from a longitudinal study.";
+  $section["catalog"]["descr"] = "Get to know the surveys, catalogues and data sets of public services that are integrated here. Find out how you could add your own public service, or results from a longitudinal study.";
   $section["catalog"]["url"] = $site_abs_path . "catalog/";
   $section["catalog"]["path"] = $root_abs_path . "catalog/";
 //  $section["catalog"]["data"] = $site_abs_path . $data_folder . "catalogs";
