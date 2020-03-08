@@ -11,8 +11,11 @@
   $fn[] = "primary_sector";
   $fn[] = "secondary_sector";
   $fn[] = "uptake";
+  $fn[] = "cross_border";
   $fn[] = "cross_sector";
   $fn[] = "type";
+  $fn[] = "status";
+  $fn[] = "active";
   
   $records = json_decode(file_get_contents($data_folder . "services.json"), true);
 
@@ -170,6 +173,25 @@
             </fieldset>
         </div>
         <div class="well">
+            <fieldset id="cross_border_criteria">
+                <legend>Cross-border</legend>
+                <div class="checkbox">
+                  <label>
+                    <input type="checkbox" value="All" id="all_cross_border">
+                    <span>All</span>
+                  </label>
+                </div>
+<?php foreach ($filter["cross_border"] as $filter_value) { ?>            
+            <div class="checkbox">
+              <label>
+                <input type="checkbox" value="<?php echo $filter_value; ?>">
+                <span><?php echo $filter_value; ?><span>
+              </label>
+            </div>
+<?php } ?>            
+            </fieldset>
+        </div>
+        <div class="well">
             <fieldset id="cross_sector_criteria">
                 <legend>Cross-sector</legend>
                 <div class="checkbox">
@@ -198,6 +220,44 @@
                   </label>
                 </div>
 <?php foreach ($filter["type"] as $filter_value) { ?>            
+            <div class="checkbox">
+              <label>
+                <input type="checkbox" value="<?php echo $filter_value; ?>">
+                <span><?php echo $filter_value; ?><span>
+              </label>
+            </div>
+<?php } ?>            
+            </fieldset>
+        </div>
+        <div class="well">
+            <fieldset id="status_criteria">
+                <legend>Status</legend>
+                <div class="checkbox">
+                  <label>
+                    <input type="checkbox" value="All" id="all_status">
+                    <span>All</span>
+                  </label>
+                </div>
+<?php foreach ($filter["status"] as $filter_value) { ?>            
+            <div class="checkbox">
+              <label>
+                <input type="checkbox" value="<?php echo $filter_value; ?>">
+                <span><?php echo $filter_value; ?><span>
+              </label>
+            </div>
+<?php } ?>            
+            </fieldset>
+        </div>
+        <div class="well">
+            <fieldset id="active_criteria">
+                <legend>Active</legend>
+                <div class="checkbox">
+                  <label>
+                    <input type="checkbox" value="All" id="all_active">
+                    <span>All</span>
+                  </label>
+                </div>
+<?php foreach ($filter["active"] as $filter_value) { ?>            
             <div class="checkbox">
               <label>
                 <input type="checkbox" value="<?php echo $filter_value; ?>">

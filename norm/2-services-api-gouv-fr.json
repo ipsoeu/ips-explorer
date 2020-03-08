@@ -26,8 +26,10 @@
         "secondary_sector": "Health",
         "technology": "Api",
         "uptake": "Unknown",
+        "cross_border": "No",
         "cross_sector": "Yes",
-        "type": "Process digitization"
+        "type": "Process digitization",
+        "status": "In production"
     },
     {
         "cid": 10002,
@@ -56,8 +58,10 @@
         "secondary_sector": "Education",
         "technology": "Api",
         "uptake": "Unknown",
+        "cross_border": "No",
         "cross_sector": "Yes",
-        "type": "Process digitization"
+        "type": "Process digitization",
+        "status": "In production"
     },
     {
         "cid": 10002,
@@ -86,8 +90,10 @@
         "secondary_sector": "Education",
         "technology": "Api",
         "uptake": "Unknown",
+        "cross_border": "No",
         "cross_sector": "Yes",
-        "type": "Process digitization"
+        "type": "Process digitization",
+        "status": "In production"
     },
     {
         "cid": 10002,
@@ -116,8 +122,10 @@
         "secondary_sector": "Social protection",
         "technology": "Api",
         "uptake": "Unknown",
+        "cross_border": "No",
         "cross_sector": "Yes",
-        "type": "Process digitization"
+        "type": "Process digitization",
+        "status": "In production"
     },
     {
         "cid": 10002,
@@ -146,8 +154,10 @@
         "secondary_sector": "Financial and fiscal affairs",
         "technology": "Api",
         "uptake": "Unknown",
+        "cross_border": "No",
         "cross_sector": "No",
-        "type": "Process digitization"
+        "type": "Process digitization",
+        "status": "In production"
     },
     {
         "cid": 10002,
@@ -176,8 +186,10 @@
         "secondary_sector": "General public services",
         "technology": "Api",
         "uptake": "Unknown",
+        "cross_border": "No",
         "cross_sector": "No",
-        "type": "Process digitization"
+        "type": "Process digitization",
+        "status": "In production"
     },
     {
         "cid": 10002,
@@ -206,8 +218,10 @@
         "secondary_sector": "Social protection",
         "technology": "Api",
         "uptake": "Unknown",
+        "cross_border": "No",
         "cross_sector": "Yes",
-        "type": "Process digitization"
+        "type": "Process digitization",
+        "status": "In production"
     },
     {
         "cid": 10002,
@@ -236,8 +250,10 @@
         "secondary_sector": "Social protection",
         "technology": "Api",
         "uptake": "Unknown",
+        "cross_border": "No",
         "cross_sector": "No",
-        "type": "Process digitization"
+        "type": "Process digitization",
+        "status": "In production"
     },
     {
         "cid": 10002,
@@ -266,8 +282,10 @@
         "secondary_sector": "Financial and fiscal affairs",
         "technology": "Api",
         "uptake": "Unknown",
+        "cross_border": "No",
         "cross_sector": "No",
-        "type": "Process digitization"
+        "type": "Process digitization",
+        "status": "In production"
     },
     {
         "cid": 10002,
@@ -296,8 +314,10 @@
         "secondary_sector": "Waste management",
         "technology": "Api",
         "uptake": "Unknown",
+        "cross_border": "No",
         "cross_sector": "No",
-        "type": "Process digitization"
+        "type": "Process digitization",
+        "status": "In production"
     },
     {
         "cid": 10002,
@@ -326,8 +346,10 @@
         "secondary_sector": "Transport",
         "technology": "Api",
         "uptake": "Unknown",
+        "cross_border": "No",
         "cross_sector": "No",
-        "type": "Process digitization"
+        "type": "Process digitization",
+        "status": "In production"
     },
     {
         "cid": 10002,
@@ -356,8 +378,10 @@
         "secondary_sector": "Financial and fiscal affairs",
         "technology": "Api",
         "uptake": "Unknown",
+        "cross_border": "No",
         "cross_sector": "No",
-        "type": "Process digitization"
+        "type": "Process digitization",
+        "status": "In production"
     },
     {
         "cid": 10002,
@@ -386,7 +410,9 @@
         "secondary_sector": "Transport",
         "technology": "Api",
         "uptake": "Unknown",
+        "cross_border": "No",
         "cross_sector": "No",
-        "type": "Process digitization"
+        "type": "Process digitization",
+        "status": "In production"
     }
 ]

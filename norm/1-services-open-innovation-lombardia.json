@@ -26,8 +26,10 @@
         "secondary_sector": "Education",
         "technology": "Blockchain",
         "uptake": "Small",
+        "cross_border": "No",
         "cross_sector": "Yes",
-        "type": "Process digitization"
+        "type": "Process digitization",
+        "status": "Pilot"
     },
     {
         "cid": 10001,
@@ -56,7 +58,9 @@
         "secondary_sector": "Health",
         "technology": "Blockchain",
         "uptake": "Small",
+        "cross_border": "No",
         "cross_sector": "Yes",
-        "type": "Tracking of goods, supply chain, iot"
+        "type": "Tracking of goods, supply chain, iot",
+        "status": "Pilot"
     }
 ]

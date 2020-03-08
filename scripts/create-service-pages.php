@@ -47,8 +47,10 @@
     $secondary_sector = $v["secondary_sector"];
     $technology = $v["technology"];
     $uptake = $v["uptake"];
+    $cross_border = $v["cross_border"];
     $cross_sector = $v["cross_sector"];
     $type = $v["type"];
+    $status = $v["status"];
 /*
     $unsdg[1]  = $v["unsdg"][1];
     $unsdg[2]  = $v["unsdg"][2];
@@ -179,10 +181,14 @@ $(document).ready(function() {
 <p>' . $secondary_sector . '</p>
 <p><strong>Uptake</strong></p>
 <p>' . $uptake . '</p>
+<p><strong>Cross-border</strong></p>
+<p>' . $cross_border . '</p>
 <p><strong>Cross-sector</strong></p>
 <p>' . $cross_sector . '</p>
 <p><strong>Type</strong></p>
 <p>' . $type . '</p>
+<p><strong>Status</strong></p>
+<p>' . $status . '</p>
 </div>
 </div>
 </aside>

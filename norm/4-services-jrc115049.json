@@ -26,8 +26,10 @@
         "secondary_sector": "Education",
         "technology": "Blockchain",
         "uptake": "Considerable",
+        "cross_border": "Yes",
         "cross_sector": "Yes",
-        "type": "Disintermediation and decentralized networks"
+        "type": "Disintermediation and decentralized networks",
+        "status": "Pilot"
     },
     {
         "cid": 10004,
@@ -56,8 +58,10 @@
         "secondary_sector": "General public services",
         "technology": "Blockchain",
         "uptake": "Unknown",
+        "cross_border": "No",
         "cross_sector": "No",
-        "type": "Tracking of goods, supply chain, iot"
+        "type": "Tracking of goods, supply chain, iot",
+        "status": "Pilot"
     },
     {
         "cid": 10004,
@@ -86,8 +90,10 @@
         "secondary_sector": "General public services",
         "technology": "Blockchain",
         "uptake": "Small",
+        "cross_border": "No",
         "cross_sector": "Yes",
-        "type": "Self sovereign - digital identity"
+        "type": "Self sovereign - digital identity",
+        "status": "Pilot"
     },
     {
         "cid": 10004,
@@ -116,8 +122,10 @@
         "secondary_sector": "General public services",
         "technology": "Blockchain",
         "uptake": "Unknown",
+        "cross_border": "Yes",
         "cross_sector": "Yes",
-        "type": "Governance and voting"
+        "type": "Governance and voting",
+        "status": "Pilot"
     },
     {
         "cid": 10004,
@@ -146,8 +154,10 @@
         "secondary_sector": "Social protection",
         "technology": "Blockchain",
         "uptake": "Small",
+        "cross_border": "No",
         "cross_sector": "Yes",
-        "type": "Process digitization"
+        "type": "Process digitization",
+        "status": "Pilot"
     },
     {
         "cid": 10004,
@@ -176,8 +186,10 @@
         "secondary_sector": "Social protection",
         "technology": "Blockchain",
         "uptake": "Very large",
+        "cross_border": "No",
         "cross_sector": "Yes",
-        "type": "Disintermediation and decentralized networks"
+        "type": "Disintermediation and decentralized networks",
+        "status": "In production"
     },
     {
         "cid": 10003,
@@ -206,8 +218,10 @@
         "secondary_sector": "General public services",
         "technology": "Api",
         "uptake": "Unknown",
+        "cross_border": "No",
         "cross_sector": "Yes",
-        "type": "Process digitization"
+        "type": "Process digitization",
+        "status": "In production"
     },
     {
         "cid": 10003,
@@ -236,8 +250,10 @@
         "secondary_sector": "Financial and fiscal affairs",
         "technology": "Api",
         "uptake": "Very large",
+        "cross_border": "No",
         "cross_sector": "No",
-        "type": "Payments and international transactions"
+        "type": "Payments and international transactions",
+        "status": "In production"
     },
     {
         "cid": 10003,
@@ -266,8 +282,10 @@
         "secondary_sector": "Financial and fiscal affairs",
         "technology": "Api",
         "uptake": "Large",
+        "cross_border": "No",
         "cross_sector": "No",
-        "type": "Process digitization"
+        "type": "Process digitization",
+        "status": "In production"
     },
     {
         "cid": 10003,
@@ -296,8 +314,10 @@
         "secondary_sector": "General public services",
         "technology": "Api",
         "uptake": "Considerable",
+        "cross_border": "Yes",
         "cross_sector": "Yes",
-        "type": "Digital identity"
+        "type": "Digital identity",
+        "status": "In production"
     },
     {
         "cid": 10002,
@@ -326,8 +346,10 @@
         "secondary_sector": "Transport",
         "technology": "Api",
         "uptake": "Unknown",
+        "cross_border": "No",
         "cross_sector": "No",
-        "type": "Process digitization"
+        "type": "Process digitization",
+        "status": "In production"
     },
     {
         "cid": 10002,
@@ -356,8 +378,10 @@
         "secondary_sector": "Financial and fiscal affairs",
         "technology": "Api",
         "uptake": "Unknown",
+        "cross_border": "No",
         "cross_sector": "No",
-        "type": "Process digitization"
+        "type": "Process digitization",
+        "status": "In production"
     },
     {
         "cid": 10002,
@@ -386,7 +410,9 @@
         "secondary_sector": "Transport",
         "technology": "Api",
         "uptake": "Unknown",
+        "cross_border": "No",
         "cross_sector": "No",
-        "type": "Process digitization"
+        "type": "Process digitization",
+        "status": "In production"
     }
 ]

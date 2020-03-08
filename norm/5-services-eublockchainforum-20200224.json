@@ -26,8 +26,10 @@
         "secondary_sector": "General public services",
         "technology": "Blockchain",
         "uptake": "Unknown",
+        "cross_border": "No",
         "cross_sector": "Yes",
-        "type": "Other"
+        "type": "Other",
+        "status": "In production"
     },
     {
         "cid": 10005,
@@ -56,8 +58,10 @@
         "secondary_sector": "General public services",
         "technology": "Blockchain",
         "uptake": "Unknown",
+        "cross_border": "No",
         "cross_sector": "No",
-        "type": "Other"
+        "type": "Other",
+        "status": "In development"
     },
     {
         "cid": 10005,
@@ -86,8 +90,10 @@
         "secondary_sector": "Financial and fiscal affairs",
         "technology": "Blockchain",
         "uptake": "Unknown",
+        "cross_border": "No",
         "cross_sector": "No",
-        "type": "Process digitization"
+        "type": "Process digitization",
+        "status": "In development"
     },
     {
         "cid": 10005,
@@ -116,8 +122,10 @@
         "secondary_sector": "General public services",
         "technology": "Blockchain",
         "uptake": "Unknown",
+        "cross_border": "No",
         "cross_sector": "Yes",
-        "type": "Other"
+        "type": "Other",
+        "status": "In development"
     },
     {
         "cid": 10005,
@@ -146,8 +154,10 @@
         "secondary_sector": "Social protection",
         "technology": "Blockchain",
         "uptake": "Unknown",
+        "cross_border": "No",
         "cross_sector": "No",
-        "type": "Other"
+        "type": "Other",
+        "status": "In production"
     },
     {
         "cid": 10005,
@@ -176,8 +186,10 @@
         "secondary_sector": "Education",
         "technology": "Blockchain",
         "uptake": "Unknown",
+        "cross_border": "No",
         "cross_sector": "No",
-        "type": "Self sovereign - digital identity"
+        "type": "Self sovereign - digital identity",
+        "status": "In production"
     },
     {
         "cid": 10005,
@@ -206,8 +218,10 @@
         "secondary_sector": "Communication",
         "technology": "Blockchain",
         "uptake": "Unknown",
+        "cross_border": "No",
         "cross_sector": "Yes",
-        "type": "Self sovereign - digital identity"
+        "type": "Self sovereign - digital identity",
+        "status": "In production"
     },
     {
         "cid": 10005,
@@ -236,8 +250,10 @@
         "secondary_sector": "Communication",
         "technology": "Blockchain",
         "uptake": "Unknown",
+        "cross_border": "No",
         "cross_sector": "No",
-        "type": "Disintermediation and decentralized networks"
+        "type": "Disintermediation and decentralized networks",
+        "status": "In development"
     },
     {
         "cid": 10005,
@@ -266,8 +282,10 @@
         "secondary_sector": "General public services",
         "technology": "Blockchain",
         "uptake": "Unknown",
+        "cross_border": "No",
         "cross_sector": "No",
-        "type": "Governance and voting"
+        "type": "Governance and voting",
+        "status": "In production"
     },
     {
         "cid": 10005,
@@ -296,8 +314,10 @@
         "secondary_sector": "General public services",
         "technology": "Blockchain",
         "uptake": "Unknown",
+        "cross_border": "No",
         "cross_sector": "Yes",
-        "type": "Authentication"
+        "type": "Authentication",
+        "status": "In production"
     },
     {
         "cid": 10005,
@@ -326,8 +346,10 @@
         "secondary_sector": "General public services",
         "technology": "Blockchain",
         "uptake": "Unknown",
+        "cross_border": "No",
         "cross_sector": "No",
-        "type": "Authentication"
+        "type": "Authentication",
+        "status": "In production"
     },
     {
         "cid": 10005,
@@ -356,8 +378,10 @@
         "secondary_sector": "General public services",
         "technology": "Blockchain",
         "uptake": "Unknown",
+        "cross_border": "No",
         "cross_sector": "Yes",
-        "type": "Cybersecurity"
+        "type": "Cybersecurity",
+        "status": "In production"
     },
     {
         "cid": 10005,
@@ -386,8 +410,10 @@
         "secondary_sector": "General public services",
         "technology": "Blockchain",
         "uptake": "Unknown",
+        "cross_border": "No",
         "cross_sector": "Yes",
-        "type": "Governance and voting"
+        "type": "Governance and voting",
+        "status": "In production"
     },
     {
         "cid": 10005,
@@ -416,8 +442,10 @@
         "secondary_sector": "Social protection",
         "technology": "Blockchain",
         "uptake": "Unknown",
+        "cross_border": "Yes",
         "cross_sector": "No",
-        "type": "Other"
+        "type": "Other",
+        "status": "In development"
     },
     {
         "cid": 10005,
@@ -446,8 +474,10 @@
         "secondary_sector": "Financial and fiscal affairs",
         "technology": "Blockchain",
         "uptake": "Unknown",
+        "cross_border": "Yes",
         "cross_sector": "No",
-        "type": "Other"
+        "type": "Other",
+        "status": "In development"
     },
     {
         "cid": 10005,
@@ -476,8 +506,10 @@
         "secondary_sector": "General public services",
         "technology": "Blockchain",
         "uptake": "Unknown",
+        "cross_border": "No",
         "cross_sector": "Yes",
-        "type": "Tracking of goods, supply chain, iot"
+        "type": "Tracking of goods, supply chain, iot",
+        "status": "In development"
     },
     {
         "cid": 10005,
@@ -506,8 +538,10 @@
         "secondary_sector": "Financial and fiscal affairs",
         "technology": "Blockchain",
         "uptake": "Unknown",
+        "cross_border": "No",
         "cross_sector": "No",
-        "type": "Process digitization"
+        "type": "Process digitization",
+        "status": "In development"
     },
     {
         "cid": 10005,
@@ -536,8 +570,10 @@
         "secondary_sector": "Transport",
         "technology": "Blockchain",
         "uptake": "Unknown",
+        "cross_border": "No",
         "cross_sector": "No",
-        "type": "Tracking of goods, supply chain, iot"
+        "type": "Tracking of goods, supply chain, iot",
+        "status": "In development"
     },
     {
         "cid": 10005,
@@ -566,8 +602,10 @@
         "secondary_sector": "Transport",
         "technology": "Blockchain",
         "uptake": "Unknown",
+        "cross_border": "No",
         "cross_sector": "No",
-        "type": "Tracking of goods, supply chain, iot"
+        "type": "Tracking of goods, supply chain, iot",
+        "status": "In development"
     },
     {
         "cid": 10005,
@@ -596,8 +634,10 @@
         "secondary_sector": "Transport",
         "technology": "Blockchain",
         "uptake": "Unknown",
+        "cross_border": "No",
         "cross_sector": "No",
-        "type": "Tracking of goods, supply chain, iot"
+        "type": "Tracking of goods, supply chain, iot",
+        "status": "In production"
     },
     {
         "cid": 10005,
@@ -626,8 +666,10 @@
         "secondary_sector": "General public services",
         "technology": "Blockchain",
         "uptake": "Unknown",
+        "cross_border": "No",
         "cross_sector": "Yes",
-        "type": "Self sovereign - digital identity"
+        "type": "Self sovereign - digital identity",
+        "status": "Pilot"
     },
     {
         "cid": 10005,
@@ -656,8 +698,10 @@
         "secondary_sector": "General public services",
         "technology": "Blockchain",
         "uptake": "Unknown",
+        "cross_border": "No",
         "cross_sector": "No",
-        "type": "Other"
+        "type": "Other",
+        "status": "Pilot"
     },
     {
         "cid": 10005,
@@ -686,8 +730,10 @@
         "secondary_sector": "General public services",
         "technology": "Blockchain",
         "uptake": "Unknown",
+        "cross_border": "No",
         "cross_sector": "No",
-        "type": "Tracking of goods, supply chain, iot"
+        "type": "Tracking of goods, supply chain, iot",
+        "status": "Pilot"
     },
     {
         "cid": 10005,
@@ -716,8 +762,10 @@
         "secondary_sector": "Health",
         "technology": "Blockchain",
         "uptake": "Unknown",
+        "cross_border": "No",
         "cross_sector": "No",
-        "type": "Process digitization"
+        "type": "Process digitization",
+        "status": "Pilot"
     },
     {
         "cid": 10005,
@@ -746,8 +794,10 @@
         "secondary_sector": "Health",
         "technology": "Blockchain",
         "uptake": "Unknown",
+        "cross_border": "No",
         "cross_sector": "No",
-        "type": "Auditing and logging"
+        "type": "Auditing and logging",
+        "status": "Pilot"
     },
     {
         "cid": 10005,
@@ -776,8 +826,10 @@
         "secondary_sector": "General public services",
         "technology": "Blockchain",
         "uptake": "Unknown",
+        "cross_border": "No",
         "cross_sector": "Yes",
-        "type": "Process digitization"
+        "type": "Process digitization",
+        "status": "Pilot"
     },
     {
         "cid": 10005,
@@ -806,8 +858,10 @@
         "secondary_sector": "General economic and commercial affairs",
         "technology": "Blockchain",
         "uptake": "Unknown",
+        "cross_border": "No",
         "cross_sector": "No",
-        "type": "Tracking of goods, supply chain, iot"
+        "type": "Tracking of goods, supply chain, iot",
+        "status": "Pilot"
     },
     {
         "cid": 10005,
@@ -836,8 +890,10 @@
         "secondary_sector": "Transport",
         "technology": "Blockchain",
         "uptake": "Unknown",
+        "cross_border": "No",
         "cross_sector": "No",
-        "type": "Tracking of goods, supply chain, iot"
+        "type": "Tracking of goods, supply chain, iot",
+        "status": "Pilot"
     },
     {
         "cid": 10005,
@@ -866,8 +922,10 @@
         "secondary_sector": "General public services",
         "technology": "Blockchain",
         "uptake": "Unknown",
+        "cross_border": "No",
         "cross_sector": "No",
-        "type": "Process digitization"
+        "type": "Process digitization",
+        "status": "Pilot"
     },
     {
         "cid": 10005,
@@ -896,8 +954,10 @@
         "secondary_sector": "General public services",
         "technology": "Blockchain",
         "uptake": "Unknown",
+        "cross_border": "No",
         "cross_sector": "No",
-        "type": "Process digitization"
+        "type": "Process digitization",
+        "status": "Pilot"
     },
     {
         "cid": 10005,
@@ -926,8 +986,10 @@
         "secondary_sector": "Health",
         "technology": "Blockchain",
         "uptake": "Unknown",
+        "cross_border": "No",
         "cross_sector": "No",
-        "type": "Process digitization"
+        "type": "Process digitization",
+        "status": "Pilot"
     },
     {
         "cid": 10005,
@@ -956,8 +1018,10 @@
         "secondary_sector": "General public services",
         "technology": "Blockchain",
         "uptake": "Unknown",
+        "cross_border": "No",
         "cross_sector": "No",
-        "type": "Authentication"
+        "type": "Authentication",
+        "status": "Pilot"
     },
     {
         "cid": 10005,
@@ -986,8 +1050,10 @@
         "secondary_sector": "Financial and fiscal affairs",
         "technology": "Blockchain",
         "uptake": "Unknown",
+        "cross_border": "No",
         "cross_sector": "No",
-        "type": "Disintermediation and decentralized networks"
+        "type": "Disintermediation and decentralized networks",
+        "status": "Pilot"
     },
     {
         "cid": 10005,
@@ -1016,8 +1082,10 @@
         "secondary_sector": "General public services",
         "technology": "Blockchain",
         "uptake": "Unknown",
+        "cross_border": "No",
         "cross_sector": "No",
-        "type": "Process digitization"
+        "type": "Process digitization",
+        "status": "Pilot"
     },
     {
         "cid": 10005,
@@ -1046,8 +1114,10 @@
         "secondary_sector": "Environmental protection",
         "technology": "Blockchain",
         "uptake": "Unknown",
+        "cross_border": "No",
         "cross_sector": "No",
-        "type": "Process digitization"
+        "type": "Process digitization",
+        "status": "Pilot"
     },
     {
         "cid": 10005,
@@ -1076,8 +1146,10 @@
         "secondary_sector": "General public services",
         "technology": "Blockchain",
         "uptake": "Unknown",
+        "cross_border": "No",
         "cross_sector": "Yes",
-        "type": "Self sovereign - digital identity"
+        "type": "Self sovereign - digital identity",
+        "status": "Pilot"
     },
     {
         "cid": 10005,
@@ -1106,8 +1178,10 @@
         "secondary_sector": "Social protection",
         "technology": "Blockchain",
         "uptake": "Unknown",
+        "cross_border": "No",
         "cross_sector": "No",
-        "type": "Process digitization"
+        "type": "Process digitization",
+        "status": "In development"
     },
     {
         "cid": 10005,
@@ -1136,8 +1210,10 @@
         "secondary_sector": "Transport",
         "technology": "Blockchain",
         "uptake": "Unknown",
+        "cross_border": "No",
         "cross_sector": "No",
-        "type": "Tracking of goods, supply chain, iot"
+        "type": "Tracking of goods, supply chain, iot",
+        "status": "In development"
     },
     {
         "cid": 10005,
@@ -1166,8 +1242,10 @@
         "secondary_sector": "General public services",
         "technology": "Blockchain",
         "uptake": "Unknown",
+        "cross_border": "No",
         "cross_sector": "No",
-        "type": "Process digitization"
+        "type": "Process digitization",
+        "status": "In development"
     },
     {
         "cid": 10005,
@@ -1196,8 +1274,10 @@
         "secondary_sector": "General public services",
         "technology": "Blockchain",
         "uptake": "Unknown",
+        "cross_border": "No",
         "cross_sector": "Yes",
-        "type": "Auditing and logging"
+        "type": "Auditing and logging",
+        "status": "In production"
     },
     {
         "cid": 10005,
@@ -1226,8 +1306,10 @@
         "secondary_sector": "Environmental protection",
         "technology": "Blockchain",
         "uptake": "Unknown",
+        "cross_border": "Yes",
         "cross_sector": "No",
-        "type": "Disintermediation and decentralized networks"
+        "type": "Disintermediation and decentralized networks",
+        "status": "In development"
     },
     {
         "cid": 10005,
@@ -1256,8 +1338,10 @@
         "secondary_sector": "General public services",
         "technology": "Blockchain",
         "uptake": "Unknown",
+        "cross_border": "No",
         "cross_sector": "Yes",
-        "type": "Self sovereign - digital identity"
+        "type": "Self sovereign - digital identity",
+        "status": "In development"
     },
     {
         "cid": 10005,
@@ -1286,8 +1370,10 @@
         "secondary_sector": "Financial and fiscal affairs",
         "technology": "Blockchain",
         "uptake": "Unknown",
+        "cross_border": "No",
         "cross_sector": "No",
-        "type": "Disintermediation and decentralized networks"
+        "type": "Disintermediation and decentralized networks",
+        "status": "In production"
     },
     {
         "cid": 10005,
@@ -1316,8 +1402,10 @@
         "secondary_sector": "General public services",
         "technology": "Blockchain",
         "uptake": "Unknown",
+        "cross_border": "No",
         "cross_sector": "Yes",
-        "type": "Governance and voting"
+        "type": "Governance and voting",
+        "status": "Pilot"
     },
     {
         "cid": 10005,
@@ -1346,8 +1434,10 @@
         "secondary_sector": "Financial and fiscal affairs",
         "technology": "Blockchain",
         "uptake": "Unknown",
+        "cross_border": "No",
         "cross_sector": "No",
-        "type": "Disintermediation and decentralized networks"
+        "type": "Disintermediation and decentralized networks",
+        "status": "In production"
     },
     {
         "cid": 10005,
@@ -1376,8 +1466,10 @@
         "secondary_sector": "General economic and commercial affairs",
         "technology": "Blockchain",
         "uptake": "Unknown",
+        "cross_border": "No",
         "cross_sector": "No",
-        "type": "Process digitization"
+        "type": "Process digitization",
+        "status": "In development"
     },
     {
         "cid": 10005,
@@ -1406,8 +1498,10 @@
         "secondary_sector": "General public services",
         "technology": "Blockchain",
         "uptake": "Unknown",
+        "cross_border": "No",
         "cross_sector": "Yes",
-        "type": "Process digitization"
+        "type": "Process digitization",
+        "status": "In development"
     },
     {
         "cid": 10005,
@@ -1436,8 +1530,10 @@
         "secondary_sector": "Financial and fiscal affairs",
         "technology": "Blockchain",
         "uptake": "Unknown",
+        "cross_border": "No",
         "cross_sector": "No",
-        "type": "Process digitization"
+        "type": "Process digitization",
+        "status": "In production"
     },
     {
         "cid": 10005,
@@ -1466,8 +1562,10 @@
         "secondary_sector": "Financial and fiscal affairs",
         "technology": "Blockchain",
         "uptake": "Unknown",
+        "cross_border": "No",
         "cross_sector": "Yes",
-        "type": "Process digitization"
+        "type": "Process digitization",
+        "status": "In development"
     },
     {
         "cid": 10005,
@@ -1496,7 +1594,9 @@
         "secondary_sector": "Transport",
         "technology": "Blockchain",
         "uptake": "Unknown",
+        "cross_border": "No",
         "cross_sector": "No",
-        "type": "Tracking of goods, supply chain, iot"
+        "type": "Tracking of goods, supply chain, iot",
+        "status": "Pilot"
     }
 ]

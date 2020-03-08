@@ -26,8 +26,10 @@
         "secondary_sector": "General public services",
         "technology": "Api",
         "uptake": "Unknown",
+        "cross_border": "No",
         "cross_sector": "Yes",
-        "type": "Data access and reuse"
+        "type": "Data access and reuse",
+        "status": "In production"
     },
     {
         "cid": 10006,
@@ -56,8 +58,10 @@
         "secondary_sector": "Environmental protection",
         "technology": "Api",
         "uptake": "Unknown",
+        "cross_border": "No",
         "cross_sector": "No",
-        "type": "Data access and reuse"
+        "type": "Data access and reuse",
+        "status": "In production"
     },
     {
         "cid": 10006,
@@ -86,8 +90,10 @@
         "secondary_sector": "General public services",
         "technology": "Api",
         "uptake": "Unknown",
+        "cross_border": "No",
         "cross_sector": "Yes",
-        "type": "Data access and reuse"
+        "type": "Data access and reuse",
+        "status": "In production"
     },
     {
         "cid": 10006,
@@ -116,8 +122,10 @@
         "secondary_sector": "Executive and legislative organs",
         "technology": "Api",
         "uptake": "Unknown",
+        "cross_border": "No",
         "cross_sector": "No",
-        "type": "Data access and reuse"
+        "type": "Data access and reuse",
+        "status": "In production"
     },
     {
         "cid": 10006,
@@ -146,8 +154,10 @@
         "secondary_sector": "Environmental protection",
         "technology": "Api",
         "uptake": "Unknown",
+        "cross_border": "No",
         "cross_sector": "No",
-        "type": "Data access and reuse"
+        "type": "Data access and reuse",
+        "status": "In production"
     },
     {
         "cid": 10006,
@@ -176,8 +186,10 @@
         "secondary_sector": "Environmental protection",
         "technology": "Api",
         "uptake": "Unknown",
+        "cross_border": "No",
         "cross_sector": "Yes",
-        "type": "Data access and reuse"
+        "type": "Data access and reuse",
+        "status": "In production"
     },
     {
         "cid": 10006,
@@ -206,8 +218,10 @@
         "secondary_sector": "Environmental protection",
         "technology": "Api",
         "uptake": "Unknown",
+        "cross_border": "No",
         "cross_sector": "No",
-        "type": "Data access and reuse"
+        "type": "Data access and reuse",
+        "status": "In production"
     },
     {
         "cid": 10006,
@@ -236,8 +250,10 @@
         "secondary_sector": "General public services",
         "technology": "Api",
         "uptake": "Unknown",
+        "cross_border": "No",
         "cross_sector": "Yes",
-        "type": "Data access and reuse"
+        "type": "Data access and reuse",
+        "status": "In production"
     },
     {
         "cid": 10006,
@@ -266,8 +282,10 @@
         "secondary_sector": "General public services",
         "technology": "Api",
         "uptake": "Unknown",
+        "cross_border": "No",
         "cross_sector": "No",
-        "type": "Service integration"
+        "type": "Service integration",
+        "status": "In production"
     },
     {
         "cid": 10006,
@@ -296,8 +314,10 @@
         "secondary_sector": "Basic research",
         "technology": "Api",
         "uptake": "Unknown",
+        "cross_border": "No",
         "cross_sector": "Yes",
-        "type": "Service integration"
+        "type": "Service integration",
+        "status": "In production"
     },
     {
         "cid": 10006,
@@ -326,8 +346,10 @@
         "secondary_sector": "General public services",
         "technology": "Api",
         "uptake": "Unknown",
+        "cross_border": "No",
         "cross_sector": "Yes",
-        "type": "Data access and reuse"
+        "type": "Data access and reuse",
+        "status": "In production"
     },
     {
         "cid": 10006,
@@ -356,8 +378,10 @@
         "secondary_sector": "Environmental protection",
         "technology": "Api",
         "uptake": "Unknown",
+        "cross_border": "No",
         "cross_sector": "No",
-        "type": "Data access and reuse"
+        "type": "Data access and reuse",
+        "status": "In production"
     },
     {
         "cid": 10006,
@@ -386,8 +410,10 @@
         "secondary_sector": "General public services",
         "technology": "Api",
         "uptake": "Unknown",
+        "cross_border": "No",
         "cross_sector": "Yes",
-        "type": "Data access and reuse"
+        "type": "Data access and reuse",
+        "status": "In production"
     },
     {
         "cid": 10006,
@@ -416,8 +442,10 @@
         "secondary_sector": "Environmental protection",
         "technology": "Api",
         "uptake": "Unknown",
+        "cross_border": "No",
         "cross_sector": "No",
-        "type": "Data access and reuse"
+        "type": "Data access and reuse",
+        "status": "In production"
     },
     {
         "cid": 10006,
@@ -444,8 +472,10 @@
         "secondary_sector": "General public services",
         "technology": "Api",
         "uptake": "Unknown",
+        "cross_border": "Yes",
         "cross_sector": "No",
-        "type": "Data access and reuse"
+        "type": "Data access and reuse",
+        "status": "In production"
     },
     {
         "cid": 10006,
@@ -472,8 +502,10 @@
         "secondary_sector": "Environmental protection",
         "technology": "Api",
         "uptake": "Unknown",
+        "cross_border": "Yes",
         "cross_sector": "No",
-        "type": "Data access and reuse"
+        "type": "Data access and reuse",
+        "status": "In production"
     },
     {
         "cid": 10006,
@@ -500,8 +532,10 @@
         "secondary_sector": "General public services",
         "technology": "Api",
         "uptake": "Unknown",
+        "cross_border": "No",
         "cross_sector": "Yes",
-        "type": "Data access and reuse"
+        "type": "Data access and reuse",
+        "status": "In production"
     },
     {
         "cid": 10006,
@@ -530,8 +564,10 @@
         "secondary_sector": "Environmental protection",
         "technology": "Api",
         "uptake": "Unknown",
+        "cross_border": "No",
         "cross_sector": "No",
-        "type": "Data access and reuse"
+        "type": "Data access and reuse",
+        "status": "In production"
     },
     {
         "cid": 10006,
@@ -560,8 +596,10 @@
         "secondary_sector": "Environmental protection",
         "technology": "Api",
         "uptake": "Unknown",
+        "cross_border": "No",
         "cross_sector": "No",
-        "type": "Data access and reuse"
+        "type": "Data access and reuse",
+        "status": "In production"
     },
     {
         "cid": 10006,
@@ -590,8 +628,10 @@
         "secondary_sector": "Financial and fiscal affairs",
         "technology": "Api",
         "uptake": "Unknown",
+        "cross_border": "No",
         "cross_sector": "Yes",
-        "type": "Service integration"
+        "type": "Service integration",
+        "status": "In production"
     },
     {
         "cid": 10006,
@@ -620,8 +660,10 @@
         "secondary_sector": "General public services",
         "technology": "Api",
         "uptake": "Unknown",
+        "cross_border": "No",
         "cross_sector": "No",
-        "type": "Service integration"
+        "type": "Service integration",
+        "status": "In production"
     },
     {
         "cid": 10006,
@@ -650,8 +692,10 @@
         "secondary_sector": "General public services",
         "technology": "Api",
         "uptake": "Unknown",
+        "cross_border": "No",
         "cross_sector": "Yes",
-        "type": "Data access and reuse"
+        "type": "Data access and reuse",
+        "status": "In production"
     },
     {
         "cid": 10006,
@@ -680,8 +724,10 @@
         "secondary_sector": "Environmental protection",
         "technology": "Api",
         "uptake": "Unknown",
+        "cross_border": "No",
         "cross_sector": "No",
-        "type": "Data access and reuse"
+        "type": "Data access and reuse",
+        "status": "In production"
     },
     {
         "cid": 10006,
@@ -710,8 +756,10 @@
         "secondary_sector": "Social protection",
         "technology": "Api",
         "uptake": "Unknown",
+        "cross_border": "No",
         "cross_sector": "No",
-        "type": "Data access and reuse"
+        "type": "Data access and reuse",
+        "status": "In production"
     },
     {
         "cid": 10006,
@@ -740,8 +788,10 @@
         "secondary_sector": "Financial and fiscal affairs",
         "technology": "Api",
         "uptake": "Unknown",
+        "cross_border": "No",
         "cross_sector": "No",
-        "type": "Service integration"
+        "type": "Service integration",
+        "status": "In production"
     },
     {
         "cid": 10006,
@@ -770,8 +820,10 @@
         "secondary_sector": "Social protection",
         "technology": "Api",
         "uptake": "Unknown",
+        "cross_border": "No",
         "cross_sector": "No",
-        "type": "Data access and reuse"
+        "type": "Data access and reuse",
+        "status": "In production"
     },
     {
         "cid": 10006,
@@ -800,8 +852,10 @@
         "secondary_sector": "Transport",
         "technology": "Api",
         "uptake": "Unknown",
+        "cross_border": "No",
         "cross_sector": "No",
-        "type": "Service integration"
+        "type": "Service integration",
+        "status": "In production"
     },
     {
         "cid": 10006,
@@ -830,8 +884,10 @@
         "secondary_sector": "General public services",
         "technology": "Api",
         "uptake": "Unknown",
+        "cross_border": "No",
         "cross_sector": "No",
-        "type": "Service integration"
+        "type": "Service integration",
+        "status": "In production"
     },
     {
         "cid": 10006,
@@ -860,8 +916,10 @@
         "secondary_sector": "Financial and fiscal affairs",
         "technology": "Api",
         "uptake": "Unknown",
+        "cross_border": "No",
         "cross_sector": "No",
-        "type": "Service integration"
+        "type": "Service integration",
+        "status": "In production"
     },
     {
         "cid": 10006,
@@ -890,8 +948,10 @@
         "secondary_sector": "Financial and fiscal affairs",
         "technology": "Api",
         "uptake": "Unknown",
+        "cross_border": "No",
         "cross_sector": "No",
-        "type": "Service integration"
+        "type": "Service integration",
+        "status": "In production"
     },
     {
         "cid": 10006,
@@ -920,8 +980,10 @@
         "secondary_sector": "General public services",
         "technology": "Api",
         "uptake": "Unknown",
+        "cross_border": "No",
         "cross_sector": "Yes",
-        "type": "Data access and reuse"
+        "type": "Data access and reuse",
+        "status": "In production"
     },
     {
         "cid": 10006,
@@ -950,8 +1012,10 @@
         "secondary_sector": "Environmental protection",
         "technology": "Api",
         "uptake": "Unknown",
+        "cross_border": "No",
         "cross_sector": "No",
-        "type": "Data access and reuse"
+        "type": "Data access and reuse",
+        "status": "In production"
     },
     {
         "cid": 10006,
@@ -980,8 +1044,10 @@
         "secondary_sector": "Environmental protection",
         "technology": "Api",
         "uptake": "Unknown",
+        "cross_border": "No",
         "cross_sector": "No",
-        "type": "Data access and reuse"
+        "type": "Data access and reuse",
+        "status": "In production"
     },
     {
         "cid": 10006,
@@ -1010,8 +1076,10 @@
         "secondary_sector": "Health",
         "technology": "Api",
         "uptake": "Unknown",
+        "cross_border": "No",
         "cross_sector": "Yes",
-        "type": "Service integration"
+        "type": "Service integration",
+        "status": "In production"
     },
     {
         "cid": 10006,
@@ -1040,8 +1108,10 @@
         "secondary_sector": "Environmental protection",
         "technology": "Api",
         "uptake": "Unknown",
+        "cross_border": "No",
         "cross_sector": "No",
-        "type": "Data access and reuse"
+        "type": "Data access and reuse",
+        "status": "In production"
     },
     {
         "cid": 10006,
@@ -1070,8 +1140,10 @@
         "secondary_sector": "Overall planning and statistical services",
         "technology": "Api",
         "uptake": "Unknown",
+        "cross_border": "No",
         "cross_sector": "No",
-        "type": "Data access and reuse"
+        "type": "Data access and reuse",
+        "status": "In production"
     },
     {
         "cid": 10006,
@@ -1100,8 +1172,10 @@
         "secondary_sector": "Health",
         "technology": "Api",
         "uptake": "Unknown",
+        "cross_border": "No",
         "cross_sector": "No",
-        "type": "Service integration"
+        "type": "Service integration",
+        "status": "In production"
     },
     {
         "cid": 10006,
@@ -1130,8 +1204,10 @@
         "secondary_sector": "Financial and fiscal affairs",
         "technology": "Api",
         "uptake": "Unknown",
+        "cross_border": "No",
         "cross_sector": "No",
-        "type": "Service integration"
+        "type": "Service integration",
+        "status": "In production"
     },
     {
         "cid": 10006,
@@ -1160,8 +1236,10 @@
         "secondary_sector": "Environmental protection",
         "technology": "Api",
         "uptake": "Unknown",
+        "cross_border": "No",
         "cross_sector": "No",
-        "type": "Data access and reuse"
+        "type": "Data access and reuse",
+        "status": "In production"
     },
     {
         "cid": 10006,
@@ -1188,8 +1266,10 @@
         "secondary_sector": "Environmental protection",
         "technology": "Api",
         "uptake": "Unknown",
+        "cross_border": "Yes",
         "cross_sector": "No",
-        "type": "Data access and reuse"
+        "type": "Data access and reuse",
+        "status": "In production"
     },
     {
         "cid": 10006,
@@ -1216,8 +1296,10 @@
         "secondary_sector": "Overall planning and statistical services",
         "technology": "Api",
         "uptake": "Unknown",
+        "cross_border": "Yes",
         "cross_sector": "Yes",
-        "type": "Data access and reuse"
+        "type": "Data access and reuse",
+        "status": "In production"
     },
     {
         "cid": 10006,
@@ -1244,8 +1326,10 @@
         "secondary_sector": "Overall planning and statistical services",
         "technology": "Api",
         "uptake": "Unknown",
+        "cross_border": "No",
         "cross_sector": "Yes",
-        "type": "Data access and reuse"
+        "type": "Data access and reuse",
+        "status": "In production"
     },
     {
         "cid": 10006,
@@ -1272,8 +1356,10 @@
         "secondary_sector": "General public services",
         "technology": "Api",
         "uptake": "Unknown",
+        "cross_border": "Yes",
         "cross_sector": "No",
-        "type": "Service integration"
+        "type": "Service integration",
+        "status": "In production"
     },
     {
         "cid": 10006,
@@ -1300,8 +1386,10 @@
         "secondary_sector": "Financial and fiscal affairs",
         "technology": "Api",
         "uptake": "Unknown",
+        "cross_border": "Yes",
         "cross_sector": "No",
-        "type": "Service integration"
+        "type": "Service integration",
+        "status": "In production"
     },
     {
         "cid": 10006,
@@ -1328,8 +1416,10 @@
         "secondary_sector": "Financial and fiscal affairs",
         "technology": "Api",
         "uptake": "Unknown",
+        "cross_border": "Yes",
         "cross_sector": "No",
-        "type": "Service integration"
+        "type": "Service integration",
+        "status": "In production"
     },
     {
         "cid": 10006,
@@ -1356,8 +1446,10 @@
         "secondary_sector": "Financial and fiscal affairs",
         "technology": "Api",
         "uptake": "Unknown",
+        "cross_border": "Yes",
         "cross_sector": "No",
-        "type": "Service integration"
+        "type": "Service integration",
+        "status": "In production"
     },
     {
         "cid": 10006,
@@ -1384,8 +1476,10 @@
         "secondary_sector": "General public services",
         "technology": "Api",
         "uptake": "Unknown",
+        "cross_border": "Yes",
         "cross_sector": "No",
-        "type": "Service integration"
+        "type": "Service integration",
+        "status": "In production"
     },
     {
         "cid": 10006,
@@ -1412,8 +1506,10 @@
         "secondary_sector": "General public services",
         "technology": "Api",
         "uptake": "Unknown",
+        "cross_border": "Yes",
         "cross_sector": "Yes",
-        "type": "Data access and reuse"
+        "type": "Data access and reuse",
+        "status": "In production"
     },
     {
         "cid": 10006,
@@ -1440,8 +1536,10 @@
         "secondary_sector": "Environmental protection",
         "technology": "Api",
         "uptake": "Unknown",
+        "cross_border": "Yes",
         "cross_sector": "No",
-        "type": "Data access and reuse"
+        "type": "Data access and reuse",
+        "status": "In production"
     },
     {
         "cid": 10006,
@@ -1468,8 +1566,10 @@
         "secondary_sector": "Environmental protection",
         "technology": "Api",
         "uptake": "Unknown",
+        "cross_border": "Yes",
         "cross_sector": "No",
-        "type": "Data access and reuse"
+        "type": "Data access and reuse",
+        "status": "In production"
     },
     {
         "cid": 10006,
@@ -1496,8 +1596,10 @@
         "secondary_sector": "Health",
         "technology": "Api",
         "uptake": "Unknown",
+        "cross_border": "Yes",
         "cross_sector": "No",
-        "type": "Data access and reuse"
+        "type": "Data access and reuse",
+        "status": "In production"
     },
     {
         "cid": 10006,
@@ -1524,8 +1626,10 @@
         "secondary_sector": "Executive and legislative organs",
         "technology": "Api",
         "uptake": "Unknown",
+        "cross_border": "Yes",
         "cross_sector": "No",
-        "type": "Data access and reuse"
+        "type": "Data access and reuse",
+        "status": "In production"
     },
     {
         "cid": 10006,
@@ -1552,8 +1656,10 @@
         "secondary_sector": "Executive and legislative organs",
         "technology": "Api",
         "uptake": "Unknown",
+        "cross_border": "Yes",
         "cross_sector": "No",
-        "type": "Data access and reuse"
+        "type": "Data access and reuse",
+        "status": "In production"
     },
     {
         "cid": 10006,
@@ -1580,8 +1686,10 @@
         "secondary_sector": "Overall planning and statistical services",
         "technology": "Api",
         "uptake": "Unknown",
+        "cross_border": "Yes",
         "cross_sector": "No",
-        "type": "Data access and reuse"
+        "type": "Data access and reuse",
+        "status": "In production"
     },
     {
         "cid": 10006,
@@ -1608,8 +1716,10 @@
         "secondary_sector": "General public services",
         "technology": "Api",
         "uptake": "Unknown",
+        "cross_border": "Yes",
         "cross_sector": "Yes",
-        "type": "Data access and reuse"
+        "type": "Data access and reuse",
+        "status": "In production"
     },
     {
         "cid": 10006,
@@ -1636,8 +1746,10 @@
         "secondary_sector": "Environmental protection",
         "technology": "Api",
         "uptake": "Unknown",
+        "cross_border": "Yes",
         "cross_sector": "No",
-        "type": "Data access and reuse"
+        "type": "Data access and reuse",
+        "status": "In production"
     },
     {
         "cid": 10006,
@@ -1664,8 +1776,10 @@
         "secondary_sector": "Social protection",
         "technology": "Api",
         "uptake": "Unknown",
+        "cross_border": "No",
         "cross_sector": "Yes",
-        "type": "Service integration"
+        "type": "Service integration",
+        "status": "In production"
     },
     {
         "cid": 10006,
@@ -1692,8 +1806,10 @@
         "secondary_sector": "General public services",
         "technology": "Api",
         "uptake": "Unknown",
+        "cross_border": "Yes",
         "cross_sector": "No",
-        "type": "Data access and reuse"
+        "type": "Data access and reuse",
+        "status": "In production"
     },
     {
         "cid": 10006,
@@ -1720,8 +1836,10 @@
         "secondary_sector": "Education",
         "technology": "Api",
         "uptake": "Unknown",
+        "cross_border": "Yes",
         "cross_sector": "No",
-        "type": "Data access and reuse"
+        "type": "Data access and reuse",
+        "status": "In production"
     },
     {
         "cid": 10006,
@@ -1748,8 +1866,10 @@
         "secondary_sector": "Executive and legislative organs",
         "technology": "Api",
         "uptake": "Unknown",
+        "cross_border": "Yes",
         "cross_sector": "No",
-        "type": "Data access and reuse"
+        "type": "Data access and reuse",
+        "status": "In production"
     },
     {
         "cid": 10006,
@@ -1776,8 +1896,10 @@
         "secondary_sector": "Executive and legislative organs",
         "technology": "Api",
         "uptake": "Unknown",
+        "cross_border": "Yes",
         "cross_sector": "No",
-        "type": "Data access and reuse"
+        "type": "Data access and reuse",
+        "status": "In production"
     },
     {
         "cid": 10006,
@@ -1804,8 +1926,10 @@
         "secondary_sector": "Recreation, culture and religion",
         "technology": "Api",
         "uptake": "Unknown",
+        "cross_border": "Yes",
         "cross_sector": "Yes",
-        "type": "Data access and reuse"
+        "type": "Data access and reuse",
+        "status": "In production"
     },
     {
         "cid": 10006,
@@ -1832,8 +1956,10 @@
         "secondary_sector": "Overall planning and statistical services",
         "technology": "Api",
         "uptake": "Unknown",
+        "cross_border": "Yes",
         "cross_sector": "No",
-        "type": "Data access and reuse"
+        "type": "Data access and reuse",
+        "status": "In production"
     },
     {
         "cid": 10006,
@@ -1860,8 +1986,10 @@
         "secondary_sector": "Overall planning and statistical services",
         "technology": "Api",
         "uptake": "Unknown",
+        "cross_border": "Yes",
         "cross_sector": "No",
-        "type": "Data access and reuse"
+        "type": "Data access and reuse",
+        "status": "In production"
     },
     {
         "cid": 10006,
@@ -1888,8 +2016,10 @@
         "secondary_sector": "Agriculture",
         "technology": "Api",
         "uptake": "Unknown",
+        "cross_border": "Yes",
         "cross_sector": "No",
-        "type": "Data access and reuse"
+        "type": "Data access and reuse",
+        "status": "In production"
     },
     {
         "cid": 10006,
@@ -1916,8 +2046,10 @@
         "secondary_sector": "Environmental protection",
         "technology": "Api",
         "uptake": "Unknown",
+        "cross_border": "Yes",
         "cross_sector": "No",
-        "type": "Data access and reuse"
+        "type": "Data access and reuse",
+        "status": "In production"
     },
     {
         "cid": 10006,
@@ -1944,8 +2076,10 @@
         "secondary_sector": "Agriculture",
         "technology": "Api",
         "uptake": "Unknown",
+        "cross_border": "Yes",
         "cross_sector": "No",
-        "type": "Data access and reuse"
+        "type": "Data access and reuse",
+        "status": "In production"
     },
     {
         "cid": 10006,
@@ -1972,8 +2106,10 @@
         "secondary_sector": "General public services",
         "technology": "Api",
         "uptake": "Unknown",
+        "cross_border": "No",
         "cross_sector": "Yes",
-        "type": "Data access and reuse"
+        "type": "Data access and reuse",
+        "status": "In production"
     },
     {
         "cid": 10006,
@@ -2000,8 +2136,10 @@
         "secondary_sector": "General public services",
         "technology": "Api",
         "uptake": "Unknown",
+        "cross_border": "Yes",
         "cross_sector": "No",
-        "type": "Data access and reuse"
+        "type": "Data access and reuse",
+        "status": "In production"
     },
     {
         "cid": 10006,
@@ -2028,8 +2166,10 @@
         "secondary_sector": "Executive and legislative organs",
         "technology": "Api",
         "uptake": "Unknown",
+        "cross_border": "Yes",
         "cross_sector": "No",
-        "type": "Data access and reuse"
+        "type": "Data access and reuse",
+        "status": "In production"
     },
     {
         "cid": 10006,
@@ -2056,8 +2196,10 @@
         "secondary_sector": "Executive and legislative organs",
         "technology": "Api",
         "uptake": "Unknown",
+        "cross_border": "Yes",
         "cross_sector": "No",
-        "type": "Data access and reuse"
+        "type": "Data access and reuse",
+        "status": "In production"
     },
     {
         "cid": 10006,
@@ -2084,8 +2226,10 @@
         "secondary_sector": "General public services",
         "technology": "Api",
         "uptake": "Unknown",
+        "cross_border": "Yes",
         "cross_sector": "No",
-        "type": "Data access and reuse"
+        "type": "Data access and reuse",
+        "status": "In production"
     },
     {
         "cid": 10006,
@@ -2112,8 +2256,10 @@
         "secondary_sector": "Environmental protection",
         "technology": "Api",
         "uptake": "Unknown",
+        "cross_border": "Yes",
         "cross_sector": "No",
-        "type": "Validation and benchmarking"
+        "type": "Validation and benchmarking",
+        "status": "In production"
     },
     {
         "cid": 10006,
@@ -2140,8 +2286,10 @@
         "secondary_sector": "Environmental protection",
         "technology": "Api",
         "uptake": "Unknown",
+        "cross_border": "Yes",
         "cross_sector": "No",
-        "type": "Data access and reuse"
+        "type": "Data access and reuse",
+        "status": "In production"
     },
     {
         "cid": 10006,
@@ -2170,8 +2318,10 @@
         "secondary_sector": "General public services",
         "technology": "Api",
         "uptake": "Unknown",
+        "cross_border": "No",
         "cross_sector": "Yes",
-        "type": "Data access and reuse"
+        "type": "Data access and reuse",
+        "status": "In production"
     },
     {
         "cid": 10006,
@@ -2200,8 +2350,10 @@
         "secondary_sector": "Environmental protection",
         "technology": "Api",
         "uptake": "Unknown",
+        "cross_border": "No",
         "cross_sector": "No",
-        "type": "Data access and reuse"
+        "type": "Data access and reuse",
+        "status": "In production"
     },
     {
         "cid": 10006,
@@ -2230,8 +2382,10 @@
         "secondary_sector": "Environmental protection",
         "technology": "Api",
         "uptake": "Unknown",
+        "cross_border": "No",
         "cross_sector": "No",
-        "type": "Service integration"
+        "type": "Service integration",
+        "status": "In production"
     },
     {
         "cid": 10006,
@@ -2260,8 +2414,10 @@
         "secondary_sector": "General public services",
         "technology": "Api",
         "uptake": "Unknown",
+        "cross_border": "No",
         "cross_sector": "No",
-        "type": "Service integration"
+        "type": "Service integration",
+        "status": "In production"
     },
     {
         "cid": 10006,
@@ -2290,8 +2446,10 @@
         "secondary_sector": "Transport",
         "technology": "Api",
         "uptake": "Unknown",
+        "cross_border": "No",
         "cross_sector": "No",
-        "type": "Service integration"
+        "type": "Service integration",
+        "status": "In production"
     },
     {
         "cid": 10006,
@@ -2320,8 +2478,10 @@
         "secondary_sector": "Executive and legislative organs",
         "technology": "Api",
         "uptake": "Unknown",
+        "cross_border": "No",
         "cross_sector": "No",
-        "type": "Service integration"
+        "type": "Service integration",
+        "status": "In production"
     },
     {
         "cid": 10006,
@@ -2350,8 +2510,10 @@
         "secondary_sector": "General public services",
         "technology": "Api",
         "uptake": "Unknown",
+        "cross_border": "No",
         "cross_sector": "Yes",
-        "type": "Service integration"
+        "type": "Service integration",
+        "status": "In production"
     },
     {
         "cid": 10006,
@@ -2380,8 +2542,10 @@
         "secondary_sector": "General public services",
         "technology": "Api",
         "uptake": "Unknown",
+        "cross_border": "No",
         "cross_sector": "Yes",
-        "type": "Data access and reuse"
+        "type": "Data access and reuse",
+        "status": "In production"
     },
     {
         "cid": 10006,
@@ -2410,8 +2574,10 @@
         "secondary_sector": "Social protection",
         "technology": "Api",
         "uptake": "Unknown",
+        "cross_border": "No",
         "cross_sector": "No",
-        "type": "Service integration"
+        "type": "Service integration",
+        "status": "In production"
     },
     {
         "cid": 10006,
@@ -2440,8 +2606,10 @@
         "secondary_sector": "Financial and fiscal affairs",
         "technology": "Api",
         "uptake": "Unknown",
+        "cross_border": "No",
         "cross_sector": "No",
-        "type": "Service integration"
+        "type": "Service integration",
+        "status": "In production"
     },
     {
         "cid": 10006,
@@ -2470,8 +2638,10 @@
         "secondary_sector": "Environmental protection",
         "technology": "Api",
         "uptake": "Unknown",
+        "cross_border": "No",
         "cross_sector": "No",
-        "type": "Data access and reuse"
+        "type": "Data access and reuse",
+        "status": "In production"
     },
     {
         "cid": 10006,
@@ -2500,8 +2670,10 @@
         "secondary_sector": "Financial and fiscal affairs",
         "technology": "Api",
         "uptake": "Unknown",
+        "cross_border": "No",
         "cross_sector": "No",
-        "type": "Service integration"
+        "type": "Service integration",
+        "status": "In production"
     },
     {
         "cid": 10006,
@@ -2530,8 +2702,10 @@
         "secondary_sector": "General public services",
         "technology": "Api",
         "uptake": "Unknown",
+        "cross_border": "No",
         "cross_sector": "Yes",
-        "type": "Data access and reuse"
+        "type": "Data access and reuse",
+        "status": "In production"
     },
     {
         "cid": 10006,
@@ -2560,8 +2734,10 @@
         "secondary_sector": "General public services",
         "technology": "Api",
         "uptake": "Unknown",
+        "cross_border": "No",
         "cross_sector": "No",
-        "type": "Service integration"
+        "type": "Service integration",
+        "status": "In production"
     },
     {
         "cid": 10006,
@@ -2590,8 +2766,10 @@
         "secondary_sector": "General public services",
         "technology": "Api",
         "uptake": "Unknown",
+        "cross_border": "No",
         "cross_sector": "Yes",
-        "type": "Data access and reuse"
+        "type": "Data access and reuse",
+        "status": "In production"
     },
     {
         "cid": 10006,
@@ -2620,8 +2798,10 @@
         "secondary_sector": "General public services",
         "technology": "Api",
         "uptake": "Unknown",
+        "cross_border": "No",
         "cross_sector": "Yes",
-        "type": "Data access and reuse"
+        "type": "Data access and reuse",
+        "status": "In production"
     },
     {
         "cid": 10006,
@@ -2650,8 +2830,10 @@
         "secondary_sector": "General public services",
         "technology": "Api",
         "uptake": "Unknown",
+        "cross_border": "No",
         "cross_sector": "Yes",
-        "type": "Data access and reuse"
+        "type": "Data access and reuse",
+        "status": "In production"
     },
     {
         "cid": 10006,
@@ -2680,8 +2862,10 @@
         "secondary_sector": "Overall planning and statistical services",
         "technology": "Api",
         "uptake": "Unknown",
+        "cross_border": "No",
         "cross_sector": "No",
-        "type": "Data access and reuse"
+        "type": "Data access and reuse",
+        "status": "In production"
     },
     {
         "cid": 10006,
@@ -2710,8 +2894,10 @@
         "secondary_sector": "Environmental protection",
         "technology": "Api",
         "uptake": "Unknown",
+        "cross_border": "No",
         "cross_sector": "No",
-        "type": "Data access and reuse"
+        "type": "Data access and reuse",
+        "status": "In production"
     },
     {
         "cid": 10006,
@@ -2740,8 +2926,10 @@
         "secondary_sector": "Environmental protection",
         "technology": "Api",
         "uptake": "Unknown",
+        "cross_border": "No",
         "cross_sector": "No",
-        "type": "Data access and reuse"
+        "type": "Data access and reuse",
+        "status": "In production"
     },
     {
         "cid": 10006,
@@ -2770,8 +2958,10 @@
         "secondary_sector": "General public services",
         "technology": "Api",
         "uptake": "Unknown",
+        "cross_border": "No",
         "cross_sector": "Yes",
-        "type": "Data access and reuse"
+        "type": "Data access and reuse",
+        "status": "In production"
     },
     {
         "cid": 10006,
@@ -2800,8 +2990,10 @@
         "secondary_sector": "Executive and legislative organs",
         "technology": "Api",
         "uptake": "Unknown",
+        "cross_border": "No",
         "cross_sector": "Yes",
-        "type": "Data access and reuse"
+        "type": "Data access and reuse",
+        "status": "In production"
     },
     {
         "cid": 10006,
@@ -2830,8 +3022,10 @@
         "secondary_sector": "Recreation, culture and religion",
         "technology": "Api",
         "uptake": "Unknown",
+        "cross_border": "No",
         "cross_sector": "No",
-        "type": "Data access and reuse"
+        "type": "Data access and reuse",
+        "status": "In production"
     },
     {
         "cid": 10006,
@@ -2860,8 +3054,10 @@
         "secondary_sector": "General public services",
         "technology": "Api",
         "uptake": "Unknown",
+        "cross_border": "No",
         "cross_sector": "Yes",
-        "type": "Data access and reuse"
+        "type": "Data access and reuse",
+        "status": "In production"
     },
     {
         "cid": 10006,
@@ -2890,8 +3086,10 @@
         "secondary_sector": "General public services",
         "technology": "Api",
         "uptake": "Unknown",
+        "cross_border": "No",
         "cross_sector": "No",
-        "type": "Data access and reuse"
+        "type": "Data access and reuse",
+        "status": "In production"
     },
     {
         "cid": 10006,
@@ -2920,8 +3118,10 @@
         "secondary_sector": "Environmental protection",
         "technology": "Api",
         "uptake": "Unknown",
+        "cross_border": "No",
         "cross_sector": "No",
-        "type": "Data access and reuse"
+        "type": "Data access and reuse",
+        "status": "In production"
     },
     {
         "cid": 10006,
@@ -2950,8 +3150,10 @@
         "secondary_sector": "Environmental protection",
         "technology": "Api",
         "uptake": "Unknown",
+        "cross_border": "No",
         "cross_sector": "No",
-        "type": "Data access and reuse"
+        "type": "Data access and reuse",
+        "status": "In production"
     },
     {
         "cid": 10006,
@@ -2980,8 +3182,10 @@
         "secondary_sector": "Environmental protection",
         "technology": "Api",
         "uptake": "Unknown",
+        "cross_border": "No",
         "cross_sector": "No",
-        "type": "Data access and reuse"
+        "type": "Data access and reuse",
+        "status": "In production"
     },
     {
         "cid": 10006,
@@ -3010,8 +3214,10 @@
         "secondary_sector": "Environmental protection",
         "technology": "Api",
         "uptake": "Unknown",
+        "cross_border": "No",
         "cross_sector": "No",
-        "type": "Data access and reuse"
+        "type": "Data access and reuse",
+        "status": "In production"
     },
     {
         "cid": 10006,
@@ -3040,8 +3246,10 @@
         "secondary_sector": "General public services",
         "technology": "Api",
         "uptake": "Unknown",
+        "cross_border": "No",
         "cross_sector": "Yes",
-        "type": "Data access and reuse"
+        "type": "Data access and reuse",
+        "status": "In production"
     },
     {
         "cid": 10006,
@@ -3070,8 +3278,10 @@
         "secondary_sector": "Environmental protection",
         "technology": "Api",
         "uptake": "Unknown",
+        "cross_border": "No",
         "cross_sector": "No",
-        "type": "Data access and reuse"
+        "type": "Data access and reuse",
+        "status": "In production"
     },
     {
         "cid": 10006,
@@ -3100,8 +3310,10 @@
         "secondary_sector": "Transport",
         "technology": "Api",
         "uptake": "Unknown",
+        "cross_border": "No",
         "cross_sector": "No",
-        "type": "Service integration"
+        "type": "Service integration",
+        "status": "In production"
     },
     {
         "cid": 10006,
@@ -3130,8 +3342,10 @@
         "secondary_sector": "Environmental protection",
         "technology": "Api",
         "uptake": "Unknown",
+        "cross_border": "No",
         "cross_sector": "Yes",
-        "type": "Service integration"
+        "type": "Service integration",
+        "status": "In production"
     },
     {
         "cid": 10006,
@@ -3160,8 +3374,10 @@
         "secondary_sector": "General public services",
         "technology": "Api",
         "uptake": "Unknown",
+        "cross_border": "No",
         "cross_sector": "Yes",
-        "type": "Data access and reuse"
+        "type": "Data access and reuse",
+        "status": "In production"
     },
     {
         "cid": 10006,
@@ -3190,8 +3406,10 @@
         "secondary_sector": "Environmental protection",
         "technology": "Api",
         "uptake": "Unknown",
+        "cross_border": "No",
         "cross_sector": "No",
-        "type": "Data access and reuse"
+        "type": "Data access and reuse",
+        "status": "In production"
     },
     {
         "cid": 10006,
@@ -3220,8 +3438,10 @@
         "secondary_sector": "Financial and fiscal affairs",
         "technology": "Api",
         "uptake": "Unknown",
+        "cross_border": "No",
         "cross_sector": "No",
-        "type": "Service integration"
+        "type": "Service integration",
+        "status": "In production"
     },
     {
         "cid": 10006,
@@ -3250,8 +3470,10 @@
         "secondary_sector": "Environmental protection",
         "technology": "Api",
         "uptake": "Unknown",
+        "cross_border": "No",
         "cross_sector": "No",
-        "type": "Data access and reuse"
+        "type": "Data access and reuse",
+        "status": "In production"
     },
     {
         "cid": 10006,
@@ -3280,8 +3502,10 @@
         "secondary_sector": "General public services",
         "technology": "Api",
         "uptake": "Unknown",
+        "cross_border": "No",
         "cross_sector": "Yes",
-        "type": "Data access and reuse"
+        "type": "Data access and reuse",
+        "status": "In production"
     },
     {
         "cid": 10006,
@@ -3310,8 +3534,10 @@
         "secondary_sector": "General public services",
         "technology": "Api",
         "uptake": "Unknown",
+        "cross_border": "No",
         "cross_sector": "Yes",
-        "type": "Data access and reuse"
+        "type": "Data access and reuse",
+        "status": "In production"
     },
     {
         "cid": 10006,
@@ -3340,8 +3566,10 @@
         "secondary_sector": "General public services",
         "technology": "Api",
         "uptake": "Unknown",
+        "cross_border": "No",
         "cross_sector": "Yes",
-        "type": "Service integration"
+        "type": "Service integration",
+        "status": "In production"
     },
     {
         "cid": 10006,
@@ -3370,8 +3598,10 @@
         "secondary_sector": "General public services",
         "technology": "Api",
         "uptake": "Unknown",
+        "cross_border": "No",
         "cross_sector": "Yes",
-        "type": "Data access and reuse"
+        "type": "Data access and reuse",
+        "status": "In production"
     },
     {
         "cid": 10006,
@@ -3400,8 +3630,10 @@
         "secondary_sector": "Environmental protection",
         "technology": "Api",
         "uptake": "Unknown",
+        "cross_border": "No",
         "cross_sector": "No",
-        "type": "Data access and reuse"
+        "type": "Data access and reuse",
+        "status": "In production"
     },
     {
         "cid": 10006,
@@ -3430,8 +3662,10 @@
         "secondary_sector": "Environmental protection",
         "technology": "Api",
         "uptake": "Unknown",
+        "cross_border": "No",
         "cross_sector": "No",
-        "type": "Data access and reuse"
+        "type": "Data access and reuse",
+        "status": "In production"
     },
     {
         "cid": 10006,
@@ -3458,8 +3692,10 @@
         "secondary_sector": "Environmental protection",
         "technology": "Api",
         "uptake": "Unknown",
+        "cross_border": "No",
         "cross_sector": "No",
-        "type": "Data access and reuse"
+        "type": "Data access and reuse",
+        "status": "In production"
     },
     {
         "cid": 10006,
@@ -3488,8 +3724,10 @@
         "secondary_sector": "Environmental protection",
         "technology": "Api",
         "uptake": "Unknown",
+        "cross_border": "No",
         "cross_sector": "No",
-        "type": "Data access and reuse"
+        "type": "Data access and reuse",
+        "status": "In production"
     },
     {
         "cid": 10006,
@@ -3518,8 +3756,10 @@
         "secondary_sector": "Environmental protection",
         "technology": "Api",
         "uptake": "Unknown",
+        "cross_border": "No",
         "cross_sector": "No",
-        "type": "Data access and reuse"
+        "type": "Data access and reuse",
+        "status": "In production"
     },
     {
         "cid": 10006,
@@ -3548,8 +3788,10 @@
         "secondary_sector": "Financial and fiscal affairs",
         "technology": "Api",
         "uptake": "Unknown",
+        "cross_border": "No",
         "cross_sector": "No",
-        "type": "Service integration"
+        "type": "Service integration",
+        "status": "In production"
     },
     {
         "cid": 10006,
@@ -3578,8 +3820,10 @@
         "secondary_sector": "Recreation, culture and religion",
         "technology": "Api",
         "uptake": "Unknown",
+        "cross_border": "No",
         "cross_sector": "No",
-        "type": "Data access and reuse"
+        "type": "Data access and reuse",
+        "status": "In production"
     },
     {
         "cid": 10006,
@@ -3608,8 +3852,10 @@
         "secondary_sector": "Environmental protection",
         "technology": "Api",
         "uptake": "Unknown",
+        "cross_border": "No",
         "cross_sector": "No",
-        "type": "Data access and reuse"
+        "type": "Data access and reuse",
+        "status": "In production"
     },
     {
         "cid": 10006,
@@ -3638,8 +3884,10 @@
         "secondary_sector": "General public services",
         "technology": "Api",
         "uptake": "Unknown",
+        "cross_border": "No",
         "cross_sector": "Yes",
-        "type": "Service integration"
+        "type": "Service integration",
+        "status": "In production"
     },
     {
         "cid": 10006,
@@ -3668,8 +3916,10 @@
         "secondary_sector": "General public services",
         "technology": "Api",
         "uptake": "Unknown",
+        "cross_border": "No",
         "cross_sector": "Yes",
-        "type": "Service integration"
+        "type": "Service integration",
+        "status": "In production"
     },
     {
         "cid": 10006,
@@ -3698,8 +3948,10 @@
         "secondary_sector": "General public services",
         "technology": "Api",
         "uptake": "Unknown",
+        "cross_border": "No",
         "cross_sector": "Yes",
-        "type": "Data access and reuse"
+        "type": "Data access and reuse",
+        "status": "In production"
     },
     {
         "cid": 10006,
@@ -3728,8 +3980,10 @@
         "secondary_sector": "General public services",
         "technology": "Api",
         "uptake": "Unknown",
+        "cross_border": "No",
         "cross_sector": "Yes",
-        "type": "Data access and reuse"
+        "type": "Data access and reuse",
+        "status": "In production"
     },
     {
         "cid": 10006,
@@ -3758,8 +4012,10 @@
         "secondary_sector": "Environmental protection",
         "technology": "Api",
         "uptake": "Unknown",
+        "cross_border": "No",
         "cross_sector": "No",
-        "type": "Data access and reuse"
+        "type": "Data access and reuse",
+        "status": "In production"
     },
     {
         "cid": 10006,
@@ -3788,8 +4044,10 @@
         "secondary_sector": "Recreation, culture and religion",
         "technology": "Api",
         "uptake": "Unknown",
+        "cross_border": "No",
         "cross_sector": "No",
-        "type": "Data access and reuse"
+        "type": "Data access and reuse",
+        "status": "In production"
     },
     {
         "cid": 10006,
@@ -3818,8 +4076,10 @@
         "secondary_sector": "Financial and fiscal affairs",
         "technology": "Api",
         "uptake": "Unknown",
+        "cross_border": "No",
         "cross_sector": "No",
-        "type": "Data access and reuse"
+        "type": "Data access and reuse",
+        "status": "In production"
     },
     {
         "cid": 10006,
@@ -3848,8 +4108,10 @@
         "secondary_sector": "Environmental protection",
         "technology": "Api",
         "uptake": "Unknown",
+        "cross_border": "No",
         "cross_sector": "No",
-        "type": "Service integration"
+        "type": "Service integration",
+        "status": "In production"
     },
     {
         "cid": 10006,
@@ -3878,8 +4140,10 @@
         "secondary_sector": "Transport",
         "technology": "Api",
         "uptake": "Unknown",
+        "cross_border": "No",
         "cross_sector": "No",
-        "type": "Service integration"
+        "type": "Service integration",
+        "status": "In production"
     },
     {
         "cid": 10006,
@@ -3908,8 +4172,10 @@
         "secondary_sector": "Recreation, culture and religion",
         "technology": "Api",
         "uptake": "Unknown",
+        "cross_border": "No",
         "cross_sector": "No",
-        "type": "Data access and reuse"
+        "type": "Data access and reuse",
+        "status": "In production"
     },
     {
         "cid": 10006,
@@ -3938,8 +4204,10 @@
         "secondary_sector": "Education",
         "technology": "Api",
         "uptake": "Unknown",
+        "cross_border": "No",
         "cross_sector": "No",
-        "type": "Service integration"
+        "type": "Service integration",
+        "status": "In production"
     },
     {
         "cid": 10006,
@@ -3968,8 +4236,10 @@
         "secondary_sector": "Environmental protection",
         "technology": "Api",
         "uptake": "Unknown",
+        "cross_border": "No",
         "cross_sector": "No",
-        "type": "Data access and reuse"
+        "type": "Data access and reuse",
+        "status": "In production"
     },
     {
         "cid": 10006,
@@ -3998,8 +4268,10 @@
         "secondary_sector": "Environmental protection",
         "technology": "Api",
         "uptake": "Unknown",
+        "cross_border": "No",
         "cross_sector": "No",
-        "type": "Data access and reuse"
+        "type": "Data access and reuse",
+        "status": "In production"
     },
     {
         "cid": 10006,
@@ -4028,8 +4300,10 @@
         "secondary_sector": "Financial and fiscal affairs",
         "technology": "Api",
         "uptake": "Unknown",
+        "cross_border": "No",
         "cross_sector": "No",
-        "type": "Service integration"
+        "type": "Service integration",
+        "status": "In production"
     },
     {
         "cid": 10006,
@@ -4058,8 +4332,10 @@
         "secondary_sector": "Environmental protection",
         "technology": "Api",
         "uptake": "Unknown",
+        "cross_border": "No",
         "cross_sector": "No",
-        "type": "Data access and reuse"
+        "type": "Data access and reuse",
+        "status": "In production"
     },
     {
         "cid": 10006,
@@ -4088,8 +4364,10 @@
         "secondary_sector": "Health",
         "technology": "Api",
         "uptake": "Unknown",
+        "cross_border": "No",
         "cross_sector": "No",
-        "type": "Data access and reuse"
+        "type": "Data access and reuse",
+        "status": "In production"
     },
     {
         "cid": 10006,
@@ -4118,8 +4396,10 @@
         "secondary_sector": "Environmental protection",
         "technology": "Api",
         "uptake": "Unknown",
+        "cross_border": "No",
         "cross_sector": "No",
-        "type": "Data access and reuse"
+        "type": "Data access and reuse",
+        "status": "In production"
     },
     {
         "cid": 10006,
@@ -4148,8 +4428,10 @@
         "secondary_sector": "General public services",
         "technology": "Api",
         "uptake": "Unknown",
+        "cross_border": "No",
         "cross_sector": "Yes",
-        "type": "Data access and reuse"
+        "type": "Data access and reuse",
+        "status": "In production"
     },
     {
         "cid": 10006,
@@ -4178,8 +4460,10 @@
         "secondary_sector": "Environmental protection",
         "technology": "Api",
         "uptake": "Unknown",
+        "cross_border": "No",
         "cross_sector": "No",
-        "type": "Data access and reuse"
+        "type": "Data access and reuse",
+        "status": "In production"
     },
     {
         "cid": 10006,
@@ -4208,8 +4492,10 @@
         "secondary_sector": "Environmental protection",
         "technology": "Api",
         "uptake": "Unknown",
+        "cross_border": "No",
         "cross_sector": "No",
-        "type": "Data access and reuse"
+        "type": "Data access and reuse",
+        "status": "In production"
     },
     {
         "cid": 10006,
@@ -4238,8 +4524,10 @@
         "secondary_sector": "General public services",
         "technology": "Api",
         "uptake": "Unknown",
+        "cross_border": "No",
         "cross_sector": "Yes",
-        "type": "Data access and reuse"
+        "type": "Data access and reuse",
+        "status": "In production"
     },
     {
         "cid": 10006,
@@ -4268,8 +4556,10 @@
         "secondary_sector": "General public services",
         "technology": "Api",
         "uptake": "Unknown",
+        "cross_border": "No",
         "cross_sector": "Yes",
-        "type": "Data access and reuse"
+        "type": "Data access and reuse",
+        "status": "In production"
     },
     {
         "cid": 10006,
@@ -4298,8 +4588,10 @@
         "secondary_sector": "General public services",
         "technology": "Internet of things",
         "uptake": "Unknown",
+        "cross_border": "No",
         "cross_sector": "Unknwon",
-        "type": "Smart city"
+        "type": "Smart city",
+        "status": "In production"
     },
     {
         "cid": 10006,
@@ -4328,8 +4620,10 @@
         "secondary_sector": "Overall planning and statistical services",
         "technology": "Api",
         "uptake": "Unknown",
+        "cross_border": "No",
         "cross_sector": "No",
-        "type": "Data access and reuse"
+        "type": "Data access and reuse",
+        "status": "In production"
     },
     {
         "cid": 10006,
@@ -4358,8 +4652,10 @@
         "secondary_sector": "Overall planning and statistical services",
         "technology": "Api",
         "uptake": "Unknown",
+        "cross_border": "No",
         "cross_sector": "No",
-        "type": "Data access and reuse"
+        "type": "Data access and reuse",
+        "status": "In production"
     },
     {
         "cid": 10006,
@@ -4388,8 +4684,10 @@
         "secondary_sector": "General public services",
         "technology": "Api",
         "uptake": "Unknown",
+        "cross_border": "No",
         "cross_sector": "No",
-        "type": "Service integration"
+        "type": "Service integration",
+        "status": "In production"
     },
     {
         "cid": 10006,
@@ -4418,8 +4716,10 @@
         "secondary_sector": "Transport",
         "technology": "Api",
         "uptake": "Unknown",
+        "cross_border": "No",
         "cross_sector": "No",
-        "type": "Data access and reuse"
+        "type": "Data access and reuse",
+        "status": "In production"
     },
     {
         "cid": 10006,
@@ -4448,8 +4748,10 @@
         "secondary_sector": "General public services",
         "technology": "Api",
         "uptake": "Unknown",
+        "cross_border": "No",
         "cross_sector": "Yes",
-        "type": "Data access and reuse"
+        "type": "Data access and reuse",
+        "status": "In production"
     },
     {
         "cid": 10006,
@@ -4478,8 +4780,10 @@
         "secondary_sector": "Environmental protection",
         "technology": "Api",
         "uptake": "Unknown",
+        "cross_border": "No",
         "cross_sector": "No",
-        "type": "Data access and reuse"
+        "type": "Data access and reuse",
+        "status": "In production"
     },
     {
         "cid": 10006,
@@ -4508,8 +4812,10 @@
         "secondary_sector": "Basic research",
         "technology": "Api",
         "uptake": "Unknown",
+        "cross_border": "No",
         "cross_sector": "Yes",
-        "type": "Data access and reuse"
+        "type": "Data access and reuse",
+        "status": "In production"
     },
     {
         "cid": 10006,
@@ -4538,8 +4844,10 @@
         "secondary_sector": "General public services",
         "technology": "Api",
         "uptake": "Unknown",
+        "cross_border": "No",
         "cross_sector": "Yes",
-        "type": "Data access and reuse"
+        "type": "Data access and reuse",
+        "status": "In production"
     },
     {
         "cid": 10006,
@@ -4568,8 +4876,10 @@
         "secondary_sector": "Environmental protection",
         "technology": "Api",
         "uptake": "Unknown",
+        "cross_border": "No",
         "cross_sector": "No",
-        "type": "Data access and reuse"
+        "type": "Data access and reuse",
+        "status": "In production"
     },
     {
         "cid": 10006,
@@ -4598,8 +4908,10 @@
         "secondary_sector": "Social protection",
         "technology": "Api",
         "uptake": "Unknown",
+        "cross_border": "No",
         "cross_sector": "No",
-        "type": "Data access and reuse"
+        "type": "Data access and reuse",
+        "status": "In production"
     },
     {
         "cid": 10006,
@@ -4628,8 +4940,10 @@
         "secondary_sector": "Executive and legislative organs",
         "technology": "Api",
         "uptake": "Unknown",
+        "cross_border": "No",
         "cross_sector": "No",
-        "type": "Data access and reuse"
+        "type": "Data access and reuse",
+        "status": "In production"
     },
     {
         "cid": 10006,
@@ -4658,8 +4972,10 @@
         "secondary_sector": "General public services",
         "technology": "Api",
         "uptake": "Unknown",
+        "cross_border": "No",
         "cross_sector": "Yes",
-        "type": "Data access and reuse"
+        "type": "Data access and reuse",
+        "status": "In production"
     },
     {
         "cid": 10006,
@@ -4688,8 +5004,10 @@
         "secondary_sector": "Environmental protection",
         "technology": "Api",
         "uptake": "Unknown",
+        "cross_border": "No",
         "cross_sector": "No",
-        "type": "Data access and reuse"
+        "type": "Data access and reuse",
+        "status": "In production"
     },
     {
         "cid": 10006,
@@ -4718,8 +5036,10 @@
         "secondary_sector": "General public services",
         "technology": "Api",
         "uptake": "Unknown",
+        "cross_border": "No",
         "cross_sector": "Yes",
-        "type": "Data access and reuse"
+        "type": "Data access and reuse",
+        "status": "In production"
     },
     {
         "cid": 10006,
@@ -4748,8 +5068,10 @@
         "secondary_sector": "Transport",
         "technology": "Api",
         "uptake": "Unknown",
+        "cross_border": "No",
         "cross_sector": "No",
-        "type": "Service integration"
+        "type": "Service integration",
+        "status": "In production"
     },
     {
         "cid": 10006,
@@ -4778,8 +5100,10 @@
         "secondary_sector": "General public services",
         "technology": "Api",
         "uptake": "Unknown",
+        "cross_border": "No",
         "cross_sector": "Yes",
-        "type": "Data access and reuse"
+        "type": "Data access and reuse",
+        "status": "In production"
     },
     {
         "cid": 10006,
@@ -4808,8 +5132,10 @@
         "secondary_sector": "Environmental protection",
         "technology": "Api",
         "uptake": "Unknown",
+        "cross_border": "No",
         "cross_sector": "No",
-        "type": "Service integration"
+        "type": "Service integration",
+        "status": "In production"
     },
     {
         "cid": 10006,
@@ -4838,8 +5164,10 @@
         "secondary_sector": "Communication",
         "technology": "Api",
         "uptake": "Unknown",
+        "cross_border": "No",
         "cross_sector": "No",
-        "type": "Data access and reuse"
+        "type": "Data access and reuse",
+        "status": "In production"
     },
     {
         "cid": 10006,
@@ -4868,8 +5196,10 @@
         "secondary_sector": "General public services",
         "technology": "Api",
         "uptake": "Unknown",
+        "cross_border": "No",
         "cross_sector": "Yes",
-        "type": "Data access and reuse"
+        "type": "Data access and reuse",
+        "status": "In production"
     },
     {
         "cid": 10006,
@@ -4898,8 +5228,10 @@
         "secondary_sector": "General public services",
         "technology": "Api",
         "uptake": "Unknown",
+        "cross_border": "No",
         "cross_sector": "No",
-        "type": "Data access and reuse"
+        "type": "Data access and reuse",
+        "status": "In production"
     },
     {
         "cid": 10006,
@@ -4928,8 +5260,10 @@
         "secondary_sector": "Executive and legislative organs",
         "technology": "Api",
         "uptake": "Unknown",
+        "cross_border": "No",
         "cross_sector": "No",
-        "type": "Data access and reuse"
+        "type": "Data access and reuse",
+        "status": "In production"
     },
     {
         "cid": 10006,
@@ -4958,8 +5292,10 @@
         "secondary_sector": "Environmental protection",
         "technology": "Api",
         "uptake": "Unknown",
+        "cross_border": "No",
         "cross_sector": "No",
-        "type": "Data access and reuse"
+        "type": "Data access and reuse",
+        "status": "In production"
     },
     {
         "cid": 10006,
@@ -4988,8 +5324,10 @@
         "secondary_sector": "Agriculture, forestry, fishing and hunting",
         "technology": "Api",
         "uptake": "Unknown",
+        "cross_border": "No",
         "cross_sector": "No",
-        "type": "Service integration"
+        "type": "Service integration",
+        "status": "In production"
     },
     {
         "cid": 10006,
@@ -5018,8 +5356,10 @@
         "secondary_sector": "Basic research",
         "technology": "Api",
         "uptake": "Unknown",
+        "cross_border": "No",
         "cross_sector": "Yes",
-        "type": "Data access and reuse"
+        "type": "Data access and reuse",
+        "status": "In production"
     },
     {
         "cid": 10006,
@@ -5048,8 +5388,10 @@
         "secondary_sector": "General public services",
         "technology": "Api",
         "uptake": "Unknown",
+        "cross_border": "No",
         "cross_sector": "No",
-        "type": "Service integration"
+        "type": "Service integration",
+        "status": "In production"
     },
     {
         "cid": 10006,
@@ -5078,8 +5420,10 @@
         "secondary_sector": "Environmental protection",
         "technology": "Api",
         "uptake": "Unknown",
+        "cross_border": "No",
         "cross_sector": "No",
-        "type": "Data access and reuse"
+        "type": "Data access and reuse",
+        "status": "In production"
     },
     {
         "cid": 10006,
@@ -5108,8 +5452,10 @@
         "secondary_sector": "Basic research",
         "technology": "Api",
         "uptake": "Unknown",
+        "cross_border": "No",
         "cross_sector": "Yes",
-        "type": "Data access and reuse"
+        "type": "Data access and reuse",
+        "status": "In production"
     },
     {
         "cid": 10006,
@@ -5138,8 +5484,10 @@
         "secondary_sector": "Executive and legislative organs",
         "technology": "Api",
         "uptake": "Unknown",
+        "cross_border": "No",
         "cross_sector": "No",
-        "type": "Data access and reuse"
+        "type": "Data access and reuse",
+        "status": "In production"
     },
     {
         "cid": 10006,
@@ -5168,8 +5516,10 @@
         "secondary_sector": "General public services",
         "technology": "Api",
         "uptake": "Unknown",
+        "cross_border": "No",
         "cross_sector": "No",
-        "type": "Data access and reuse"
+        "type": "Data access and reuse",
+        "status": "In production"
     },
     {
         "cid": 10006,
@@ -5198,8 +5548,10 @@
         "secondary_sector": "General public services",
         "technology": "Api",
         "uptake": "Unknown",
+        "cross_border": "No",
         "cross_sector": "No",
-        "type": "Data access and reuse"
+        "type": "Data access and reuse",
+        "status": "In production"
     },
     {
         "cid": 10006,
@@ -5228,8 +5580,10 @@
         "secondary_sector": "Recreation, culture and religion",
         "technology": "Api",
         "uptake": "Unknown",
+        "cross_border": "No",
         "cross_sector": "No",
-        "type": "Data access and reuse"
+        "type": "Data access and reuse",
+        "status": "In production"
     },
     {
         "cid": 10006,
@@ -5258,8 +5612,10 @@
         "secondary_sector": "Health",
         "technology": "Api",
         "uptake": "Unknown",
+        "cross_border": "No",
         "cross_sector": "No",
-        "type": "Service integration"
+        "type": "Service integration",
+        "status": "In production"
     },
     {
         "cid": 10006,
@@ -5288,8 +5644,10 @@
         "secondary_sector": "Transport",
         "technology": "Api",
         "uptake": "Unknown",
+        "cross_border": "No",
         "cross_sector": "No",
-        "type": "Service integration"
+        "type": "Service integration",
+        "status": "In production"
     },
     {
         "cid": 10006,
@@ -5318,8 +5676,10 @@
         "secondary_sector": "Environmental protection",
         "technology": "Api",
         "uptake": "Unknown",
+        "cross_border": "No",
         "cross_sector": "No",
-        "type": "Data access and reuse"
+        "type": "Data access and reuse",
+        "status": "In production"
     },
     {
         "cid": 10006,
@@ -5348,8 +5708,10 @@
         "secondary_sector": "Public order and safety",
         "technology": "Api",
         "uptake": "Unknown",
+        "cross_border": "No",
         "cross_sector": "No",
-        "type": "Data access and reuse"
+        "type": "Data access and reuse",
+        "status": "In production"
     },
     {
         "cid": 10006,
@@ -5378,8 +5740,10 @@
         "secondary_sector": "General public services",
         "technology": "Api",
         "uptake": "Unknown",
+        "cross_border": "No",
         "cross_sector": "Yes",
-        "type": "Data access and reuse"
+        "type": "Data access and reuse",
+        "status": "In production"
     },
     {
         "cid": 10006,
@@ -5408,7 +5772,9 @@
         "secondary_sector": "Recreation, culture and religion",
         "technology": "Api",
         "uptake": "Unknown",
+        "cross_border": "No",
         "cross_sector": "No",
-        "type": "Data access and reuse"
+        "type": "Data access and reuse",
+        "status": "In production"
     }
 ]

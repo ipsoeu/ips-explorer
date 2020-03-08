@@ -4,9 +4,6 @@
   require_once("../config/baseuri.php");
   require_once("../config/folders.php");
 
-//  $src[1] = "../src/citsci.csv";
-//  $src[1] = "../src/1-services-citsci.csv";
-
   $target_folder = $norm_folder;
 
   $baseuri = $baseuri . "service/";
@@ -113,8 +110,10 @@
     $output[$k]["secondary_sector"] = ucfirst(mb_strtolower(trim($v["secondary_sector"])));
     $output[$k]["technology"] = ucfirst(mb_strtolower(trim($v["technology"])));
     $output[$k]["uptake"] = ucfirst(mb_strtolower(trim($v["uptake"])));
+    $output[$k]["cross_border"] = ucfirst(mb_strtolower(trim($v["cross_border"])));
     $output[$k]["cross_sector"] = ucfirst(mb_strtolower(trim($v["cross_sector"])));
     $output[$k]["type"] = ucfirst(mb_strtolower(trim($v["type"])));
+    $output[$k]["status"] = ucfirst(mb_strtolower(trim($v["status"])));
 /*
     $output[$k]["unsdg"][1]  = $v["sdg1"];
     $output[$k]["unsdg"][2]  = $v["sdg2"];

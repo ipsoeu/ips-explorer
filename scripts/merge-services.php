@@ -40,8 +40,11 @@
   $field[] = "primary_sector";
   $field[] = "secondary_sector";
   $field[] = "uptake";
+  $field[] = "cross_border";
   $field[] = "cross_sector";
   $field[] = "type";
+  $field[] = "status";
+  $field[] = "active";
 
   $file = $target_folder . $filename . ".json";
   $records = json_decode(file_get_contents($file), true);
