@@ -66,10 +66,10 @@
     {
         "cid": 10002,
         "id": 20001,
-        "name": "IFT",
+        "name": "Atelier de calcul IFT",
         "url": "https:\/\/alim.agriculture.gouv.fr\/ift\/",
         "contact": "",
-        "description": "Atelier de calcul de l'Indicateur de Fr\u00e9quence de Traitements phytopharmaceutiques.",
+        "description": "Free and anonymous, the Atelier de calcul allows you to edit & certify your IFT (Indicator of Phytopharmaceutical Treatments) calculations. It offers functionalities adapted to each use: (i) I cultivate: calculate the IFT of your treatments to save them in your phyto notebook; (ii) I advise: prepare and share IFT balance sheets for farms; (iii) I check: consult the details of the calculations of certified IFTs; (iv) I develop: access the documentation of our API and consult our source codes.",
         "geoextent": "National",
         "geocoverage": [
             "France"
@@ -165,7 +165,7 @@
         "name": "BourseSCO",
         "url": "https:\/\/bourse.beta.gouv.fr\/",
         "contact": "",
-        "description": "It has never been easier to apply for a scholarship online, and without supporting documents! Thanks to Simplified Stock Exchange, users no longer have to provide supporting documents. After entering his information, he consents to the staff in charge of the establishment having access to his tax assessment, and it's over! On the management side, a simple and ergonomic tool allows you to manage the completeness of files and user communication without any recourse to paper. Everything is also archived and auditable. The productivity gains observed range from simple to triple compared to the manual and paper operating mode.",
+        "description": "It has never been easier to apply for a scholarship online, and without supporting documents! Thanks to BourseSCO, users no longer have to provide supporting documents. After entering his information, he consents to the staff in charge of the establishment having access to his tax assessment, and it's over! On the management side, a simple and ergonomic tool allows you to manage the completeness of files and user communication without any recourse to paper. Everything is also archived and auditable. The productivity gains observed range from simple to triple compared to the manual and paper operating mode.",
         "geoextent": "National",
         "geocoverage": [
             "France"
@@ -293,7 +293,7 @@
         "name": "Mes aides",
         "url": "http:\/\/mes-aides.gouv.fr\/",
         "contact": "",
-        "description": "Thanks to Mes Aides, the user can in a few clicks discover all the help to which they are entitled by describing their situation once. The OpenFisca simulator takes into account all tax and social legislation and therefore makes it possible to respond precisely to the question \"what aid am I entitled to?\" \"",
+        "description": "Thanks to Mes aides, the user can in a few clicks discover all the help to which they are entitled by describing their situation once. The OpenFisca simulator takes into account all tax and social legislation and therefore makes it possible to respond precisely to the question \"what aid am I entitled to?\" \"",
         "geoextent": "National",
         "geocoverage": [
             "France"
