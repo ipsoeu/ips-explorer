@@ -64,6 +64,38 @@
         "status": "Pilot"
     },
     {
+        "cid": 10001,
+        "id": 10003,
+        "name": "Chatbot Coronavirus",
+        "url": "https:\/\/www.openinnovation.regione.lombardia.it\/it\/b\/572\/covidregioneattivachatbotsusintomieinformazioni",
+        "contact": "",
+        "description": "Recognize the symptoms associated with Coronavirus and receive information on the correct behaviors to be adopted: this is the goal of the new tool that since March 7 the Lombardy Region has made available to everyone on its portal. It is an automatic info-chat, or Chatbot . It allows you to access a guided path which, based on the selected symptoms, leads to the choice of the most correct actions to take , based on the guidelines of the Ministry of Health and of the international bodies responsible for managing the emergency. A tool within everyone's reach, made available by the Regional Company for Innovation and Purchasing ( ARIA SpA .) Making use of the expertise ofa team of researchers, doctors and health professionals who daily provide their support to citizens through the Paginemediche.it platform  . The contents of the answers provided via Chatbot are verified by the Lombardy Region and AREU (Regional Emergency Emergency Company). The service was immediately aroused great interest, with very high access numbers : 6,800 users chose it on the institutional portal of the Lombardy Region, 1,600 users exploited it starting from the pages of their Health Record, 770 users from the portal dedicated to the Agency regional press.",
+        "geoextent": "Regional",
+        "geocoverage": [
+            "Italy"
+        ],
+        "geocoverage_codes": [
+            "IT"
+        ],
+        "lead_organisation": {
+            "name": "Regione Lombardia",
+            "category": "Governmental"
+        },
+        "lead_organisation_name": "Regione Lombardia",
+        "lead_organisation_category": "Governmental",
+        "start_date": "2020",
+        "active": "Yes",
+        "end_date": "",
+        "primary_sector": "Communication",
+        "secondary_sector": "Health",
+        "technology": "Artificial intelligence",
+        "uptake": "Large",
+        "cross_border": "No",
+        "cross_sector": "No",
+        "type": "Chatbot",
+        "status": "In production"
+    },
+    {
         "cid": 10002,
         "id": 20001,
         "name": "Atelier de calcul IFT",

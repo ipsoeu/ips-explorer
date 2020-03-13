@@ -1,5 +1,5 @@
 var prj_per_country = {
-    "Italy": 23,
+    "Italy": 24,
     "France": 21,
     "Malta": 2,
     "Sweden": 6,

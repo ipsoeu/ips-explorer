@@ -1,6 +1,7 @@
 var type = [
     "Auditing and logging",
     "Authentication",
+    "Chatbot",
     "Cybersecurity",
     "Data access and reuse",
     "Digital identity",
