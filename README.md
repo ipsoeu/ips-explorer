@@ -107,6 +107,11 @@ The value of "N" must be incremental to the ones used in the already contributed
 <td>The identifier for the service in the data source, expressed an an integer (starting from 1). In case of multiple submission of the same data source (in case there was an error, or because it has been updated), the identifier MUST NOT CHANGE across the different versions of the data source</td>
 </tr>
 <tr>
+<td><code>type</code></td>
+<td>One of the values from the <a href="https://ipsoeu.github.io/taxonomy/type/2019">IPS service types taxonomy</a></td>
+<td>The type of service/activity</td>
+</tr>
+<tr>
 <td><code>name</code></td>
 <td>free text</td>
 <td>Name of the service/activity</td>
@@ -129,16 +134,16 @@ The value of "N" must be incremental to the ones used in the already contributed
 <tr>
 <td><code>lead_organization_name</code></td>
 <td>free text</td>
-<td>Name of the lead partner. Local name, in native language.</td>
+<td>Name of the lead organisation. Local name, in native language.</td>
 </tr>
 <tr>
 <td><code>lead_organization_category</code></td>
-<td>One of these values: <code>Academic</code>, <code>Consortium</code>, <code>Governmental</code>, <code>Non-governmental</code></td>
-<td>The category of the organization who led the service</td>
+<td>One of the values from the <a href="https://ipsoeu.github.io/taxonomy/organisation-category/2019">IPS organisation categories taxonomy</a></td>
+<td>The category of the lead organisation.</td>
 </tr>
 <tr>
 <td><code>geoextent</code></td>
-<td>One of these values: <code>Global</code>, <code>Macro-regional</code>, <code>National</code>, <code>Sub-national</code>, <code>Regional</code>, <code>City</code>, <code>Neighborhood</code></td>
+<td>One of the values from the <a href="https://ipsoeu.github.io/taxonomy/geo-extent/2019">IPS geo extent taxonomy</a></td>
 <td>The spatial scale at which the service is implemented. Subnational is used as generic category for services for which the sub-national scale is not known (i.e. regional, or city, or neighborhood). All regional, city and neighborhood services are also sub-national services.</td>
 </tr>
 <tr>
@@ -163,54 +168,40 @@ The value of "N" must be incremental to the ones used in the already contributed
 </tr>
 <tr>
 <td><code>primary_sector</code></td>
-<td>One of these values: <code>Atmospheric</code>, <code>Cross-cutting</code>, <code>Freshwater</code>, <code>Marine</code>, <code>Terrestrial</code></td>
+<td>One of the values from the <a href="https://ipsoeu.github.io/ramon-ld/cofog/1999">COFOG taxonomy</a></td>
 <td>The primary sector for this service.</td>
 </tr>
 <tr>
 <td><code>secondary_sector</code></td>
-<td>One of these values: <code>Air quality</code>, <code>Animal welfare</code>, <code>Biodiversity, nature and landscapes</code>, <code>Climate</code>, <code>Cross-cutting</code>, <code>Efficient use of resources</code>, <code>Environmental health</code>, <code>Environmental risks</code>, <code>Land</code>, <code>Noise</code>, <code>Sustainable consumption and production</code>, <code>Waste</code>, <code>Water</code></td>
+<td>One of the values from the <a href="https://ipsoeu.github.io/ramon-ld/cofog/1999">COFOG taxonomy</a></td>
 <td>The secondary sector tackled by the service.</td>
 </tr>
 <tr>
-<td><code>category</code></td>
-<td>One of these values: <code>Civic science</code>, <code>Crowd-sourcing</code>, <code>DIY engineering</code>, <code>Monitoring</code>, <code>Occasional reporting</code>, <code>Passive sensing</code>, <code>Volunteer computing</code></td>
+<td><code>technology</code></td>
+<td>One of the values from the <a href="https://ipsoeu.github.io/taxonomy/technology/2019">IPS technologies taxonomy</a></td>
 <td>The primary technology used in the service.</td>
 </tr>
 <tr>
-<td><code>social_uptake</code></td>
-<td>One of these values: <code>Considerable</code>, <code>Large</code>, <code>Very large</code></td>
+<td><code>uptake</code></td>
+<td>One of the values from the <a href="https://ipsoeu.github.io/taxonomy/uptake/2019">IPS uptake taxonomy</a></td>
 <td>
-<p>The level of social uptake of the service. It basically corresponds to the index of number of participants or followers. Based on expert
-knowledge:</p>
-<dl>
-<dt>Very large</dt>
-<dd>Large number of users, tradition, excellent services with high numbers of users (above 1,000)</dd>
-<dt>Large</dt>
-<dd>Services that we would say good in review and with medium number of users (below 1,000)</dd>
-<dt>Considerable</dt>
-<dd>All others</dd>
-</dl>
+<p>The level of uptake of the service. It basically corresponds to the percentage of stakeholders using the service.</p>
 </td>
 </tr>
 <tr>
-<td><code>policy_uptake</code></td>
+<td><code>cross_sector</code></td>
 <td><code>Yes</code>|<code>No</code></td>
-<td>Whether the service results have been or have been not used for policy making</td>
+<td>Whether the service is used or can be used across sectors, or in cross-sector scenarios.</td>
 </tr>
 <tr>
-<td><code>policy_uptake_explanation</code></td>
-<td>free text</td>
-<td>Brief explanation of why there is a policy uptake or no policy uptake, and which policies are impacted and how. Especially to be filled for cases where there is a policy uptake.</td>
+<td><code>cross_border</code></td>
+<td><code>Yes</code>|<code>No</code></td>
+<td>Whether the service is used or can be used across borders, or in cross-border scenarios.</td>
 </tr>
 <tr>
-<td><code>policy_relevance</code></td>
-<td>One of these values: <code>Compliance assurance</code>, <code>Early-warning</code>, <code>Policy evaluation</code>, <code>Policy implementation or monitoring</code>, <code>Problem definition</code></td>
-<td>Main phase of the policy cycle potentially impacted by the service actions.</td>
-</tr>
-<tr>
-<td><code>sdg1</code>, ..., <code>sdg17</code></td>
-<td>One of these values: <code>0</code> (No impact), <code>1</code> (Indirect impact), <code>2</code> (Direct impact)</td>
-<td>Level of impact on each of <a href="https://sustainabledevelopment.un.org/sdgs">the 17 UN Sustainable Development Goals</a>.</td>
+<td><code>status</code></td>
+<td>One of the values from the <a href="https://ipsoeu.github.io/taxonomy/status/2019">IPS status taxonomy</a></td>
+<td>The maturity level of the service.</td>
 </tr>
 </tbody>
 </table>
