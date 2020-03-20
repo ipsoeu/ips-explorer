@@ -1,6 +1,6 @@
 # Welcome to the Innovative Public Services Explorer!
 
-The Innovative Public Services Explorer (IPS-X) is an exercise to provide an integrated view of the public services using innovative technologies, and to derive statistical data from them.
+The Innovative Public Services Explorer (IPS-X) is an exercise to provide an integrated view of the public services using emerging and disruptive technologies, and to derive statistical data from them.
 
 Service records are collected from voluntarily contributed data sources (e.g., surveys, catalogs, datasets), which are harmonised into a common data schema - nothing complicated, just a flat list of attributes, as the name and description of the service, the geographic area covered, its social and policy uptake (if any).
 
@@ -107,24 +107,14 @@ The value of "N" must be incremental to the ones used in the already contributed
 <td>The identifier for the service in the data source, expressed an an integer (starting from 1). In case of multiple submission of the same data source (in case there was an error, or because it has been updated), the identifier MUST NOT CHANGE across the different versions of the data source</td>
 </tr>
 <tr>
-<td><code>type</code></td>
-<td>One of the values from the <a href="https://ipsoeu.github.io/taxonomy/type/2019">IPS service types taxonomy</a></td>
-<td>The type of service/activity</td>
-</tr>
-<tr>
 <td><code>name</code></td>
 <td>free text</td>
 <td>Name of the service/activity</td>
 </tr>
 <tr>
-<td><code>description</code></td>
-<td>free text</td>
-<td>A brief description of the service</td>
-</tr>
-<tr>
-<td><code>contact</code></td>
-<td>email or URL</td>
-<td>A contact email / URL for the service</td>
+<td><code>type</code></td>
+<td>One of the values from the <a href="https://ipsoeu.github.io/taxonomy/type/2019">IPS service types taxonomy</a></td>
+<td>The type of service/activity</td>
 </tr>
 <tr>
 <td><code>url</code></td>
@@ -132,14 +122,14 @@ The value of "N" must be incremental to the ones used in the already contributed
 <td>The URL of the page of the service (if any). Preferably, this should be a persistent URL.</td>
 </tr>
 <tr>
-<td><code>lead_organization_name</code></td>
-<td>free text</td>
-<td>Name of the lead organisation. Local name, in native language.</td>
+<td><code>contact</code></td>
+<td>email or URL</td>
+<td>A contact email / URL for the service</td>
 </tr>
 <tr>
-<td><code>lead_organization_category</code></td>
-<td>One of the values from the <a href="https://ipsoeu.github.io/taxonomy/organisation-category/2019">IPS organisation categories taxonomy</a></td>
-<td>The category of the lead organisation.</td>
+<td><code>description</code></td>
+<td>free text</td>
+<td>A brief description of the service</td>
 </tr>
 <tr>
 <td><code>geoextent</code></td>
@@ -152,19 +142,29 @@ The value of "N" must be incremental to the ones used in the already contributed
 <td>The areas covered by the service, specified as a comma-separated list of country names. Country names MUST correspond to those defined in ISO 3166</td>
 </tr>
 <tr>
+<td><code>lead_organization_name</code></td>
+<td>free text</td>
+<td>Name of the lead organisation. Local name, in native language.</td>
+</tr>
+<tr>
+<td><code>lead_organization_category</code></td>
+<td>One of the values from the <a href="https://ipsoeu.github.io/taxonomy/organisation-category/2019">IPS organisation categories taxonomy</a></td>
+<td>The category of the lead organisation.</td>
+</tr>
+<tr>
 <td><code>start_date</code></td>
 <td>Date in the ISO 8601 format <code>YYYY-MM-DD</code> (e.g., <code>2019-03-04</code>)</td>
 <td>The start date of the service</td>
 </tr>
 <tr>
-<td><code>end_date</code></td>
-<td>Date in the ISO 8601 format <code>YYYY-MM-DD</code> (e.g., <code>2019-03-04</code>)</td>
-<td>The end date of the service</td>
-</tr>
-<tr>
 <td><code>active</code></td>
 <td><code>Yes</code>|<code>No</code></td>
 <td>Whether the service was or not still active at the moment when it was added to the data source</td>
+</tr>
+<tr>
+<td><code>end_date</code></td>
+<td>Date in the ISO 8601 format <code>YYYY-MM-DD</code> (e.g., <code>2019-03-04</code>)</td>
+<td>The end date of the service</td>
 </tr>
 <tr>
 <td><code>primary_sector</code></td>
@@ -177,18 +177,6 @@ The value of "N" must be incremental to the ones used in the already contributed
 <td>The secondary sector tackled by the service.</td>
 </tr>
 <tr>
-<td><code>technology</code></td>
-<td>One of the values from the <a href="https://ipsoeu.github.io/taxonomy/technology/2019">IPS technologies taxonomy</a></td>
-<td>The primary technology used in the service.</td>
-</tr>
-<tr>
-<td><code>uptake</code></td>
-<td>One of the values from the <a href="https://ipsoeu.github.io/taxonomy/uptake/2019">IPS uptake taxonomy</a></td>
-<td>
-<p>The level of uptake of the service. It basically corresponds to the percentage of stakeholders using the service.</p>
-</td>
-</tr>
-<tr>
 <td><code>cross_sector</code></td>
 <td><code>Yes</code>|<code>No</code></td>
 <td>Whether the service is used or can be used across sectors, or in cross-sector scenarios.</td>
@@ -199,9 +187,21 @@ The value of "N" must be incremental to the ones used in the already contributed
 <td>Whether the service is used or can be used across borders, or in cross-border scenarios.</td>
 </tr>
 <tr>
+<td><code>technology</code></td>
+<td>One of the values from the <a href="https://ipsoeu.github.io/taxonomy/technology/2019">IPS technologies taxonomy</a></td>
+<td>The primary technology used in the service.</td>
+</tr>
+<tr>
 <td><code>status</code></td>
 <td>One of the values from the <a href="https://ipsoeu.github.io/taxonomy/status/2019">IPS status taxonomy</a></td>
 <td>The maturity level of the service.</td>
+</tr>
+<tr>
+<td><code>uptake</code></td>
+<td>One of the values from the <a href="https://ipsoeu.github.io/taxonomy/uptake/2019">IPS uptake taxonomy</a></td>
+<td>
+<p>The level of uptake of the service. It basically corresponds to the percentage of stakeholders using the service.</p>
+</td>
 </tr>
 </tbody>
 </table>
