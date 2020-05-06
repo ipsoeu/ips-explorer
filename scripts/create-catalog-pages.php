@@ -162,26 +162,40 @@ $(document).ready(function() {
   "@id":"' . $baseuri . $id . '",
   "name":"' . $name . '",
   "url":"' . $url . '",
+  "sameAs":"' . $url . '",
   "description":"' . $description . '"
-';
-/*
-  $html .= '"spatialCoverage":[
+  "publisher":{"@type":"Organization","name":"' . $publisher . '"},
 ';
 
-  foreach ($geocoverage as $gk => $gc) {
-    $html .= '    {"@type":"Place","name":"' . $gc . '"}';
-    if ($gk < count($geocoverage)) {
-      $html .= ",\n";
-    }
-    else {
-      $html .= "\n";
-    }
-  }  
-  
-  $html .= "  ]";
-*/
-  $html .= '
-}
+//  var_dump($prj_geocoverage);
+//  exit;
+
+  if (count($prj_geocoverage) > 0) {
+    $html .= '  "spatialCoverage":[
+';
+    $gi = 0;
+    foreach ($prj_geocoverage as $gk => $gc) {
+      $gi++;
+      $html .= '    {"@type":"Place","name":"' . $gk . '"}';
+      if ($gi < count($prj_geocoverage)) {
+        $html .= ",\n";
+      }
+      else {
+        $html .= "\n";
+      }
+    }  
+    $html .= '  ],
+';
+  }
+
+  $html .= '  "includedInDataCatalog":{
+    "@type":"DataCatalog",
+    "name":"IPS Explorer",
+    "url":"' . SITE_URI . '"
+  }
+';
+
+  $html .= '}
 </script>
 
 </head>

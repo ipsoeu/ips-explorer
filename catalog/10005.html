@@ -48,11 +48,31 @@ $(document).ready(function() {
 {
   "@context":"http://schema.org",
   "@type":"Dataset",
-  "@id":"http://purl.org/ips-x/catalog/10005",
+  "@id":"https://w3id.org/ipsoeu/ips-explorer/catalog/10005",
   "name":"EU Blockchain Observatory and Forum - Initiatives Map",
   "url":"https://www.eublockchainforum.eu/initiative-map",
+  "sameAs":"https://www.eublockchainforum.eu/initiative-map",
   "description":"The European Union Blockchain Observatory and Forum aims to accelerate blockchain innovation and the development of the blockchain ecosystem within the EU, and so help cement Europe’s position as a global leader in this transformative new technology. The Web site includes a map of existing initiatives."
-
+  "publisher":{"@type":"Organization","name":"EU Blockchain Observatory and Forum"},
+  "spatialCoverage":[
+    {"@type":"Place","name":"Netherlands"},
+    {"@type":"Place","name":"United Kingdom"},
+    {"@type":"Place","name":"Belgium"},
+    {"@type":"Place","name":"Estonia"},
+    {"@type":"Place","name":"Spain"},
+    {"@type":"Place","name":"Switzerland"},
+    {"@type":"Place","name":"Austria"},
+    {"@type":"Place","name":"Italy"},
+    {"@type":"Place","name":"Germany"},
+    {"@type":"Place","name":"Sweden"},
+    {"@type":"Place","name":"Ukraine"},
+    {"@type":"Place","name":"Ireland"}
+  ],
+  "includedInDataCatalog":{
+    "@type":"DataCatalog",
+    "name":"IPS Explorer",
+    "url":"https://w3id.org/ipsoeu/ips-explorer/"
+  }
 }
 </script>
 
@@ -60,7 +80,7 @@ $(document).ready(function() {
 <body>
 <nav role="navigation" class="navbar navbar-default">
 <div class="container">
-<p class="navbar-header"><a class="navbar-brand" href="/ips-explorer/">IPS-X</a></p>
+<p class="navbar-header"><a title="Innovative Public Services Explorer" class="navbar-brand" href="/ips-explorer/">IPS-X</a></p>
 <ul class="nav navbar-nav collapse navbar-collapse">
 <li class=""><a href="/ips-explorer/service/">Services</a></li>
 <li class=""><a href="/ips-explorer/chart/">Gallery</a></li>

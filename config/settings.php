@@ -3,7 +3,7 @@
   require_once("../config/baseuri.php");
   require_once("../config/folders.php");
 
-  $site_logo = "ipso-logo.jpg";
+  $site_logo = $img_path . "ipso-logo.jpg";
   $site_title = "IPS-X";
   $site_subtitle = "Innovative Public Services Explorer";
   $site_description = "These pages allow you to explore innovative public services that have been collected from different sources in an integrated and harmonized way. Services can be discovered using a text-based, as well as, a graphic-based approach. We also list the contributing sources and offer the possibility to add your own service descriptions.";
@@ -20,7 +20,7 @@
    
   $section["service"]["name"] = "Services";
   $section["service"]["icon"] = "fa-group";
-  $section["service"]["descr"] = "Explore European public services making use of emerging and disruptive technologies, such as AI, DLT, IoT and APIs, and find out their distribution and scope in terms of public administration levels and sectors";
+  $section["service"]["descr"] = "Explore European public services making use of emerging and disruptive technologies, such as AI, DLT, IoT and APIs, and find out their distribution and scope in terms of public administration levels and sectors.";
   $section["service"]["url"] = $site_abs_path . "service/";
   $section["service"]["path"] = $root_abs_path . "service/";
 //  $section["service"]["data"] = $site_abs_path . $data_folder . "services";
@@ -136,7 +136,8 @@
   $nav .= '<nav role="navigation" class="navbar navbar-default">' . "\n";
   $nav .= '<div class="container">' . "\n";
 //  $nav .= '<p class="navbar-header"><a class="navbar-brand" href="' . $site_abs_path . '">About</a></p>' . "\n";
-  $nav .= '<p class="navbar-header"><a class="navbar-brand" href="' . $site_abs_path . '">' . $site_title . '</a></p>' . "\n";
+  $nav .= '<p class="navbar-header"><a title="' . $site_subtitle . '" class="navbar-brand" href="' . $site_abs_path . '">' . $site_title . '</a></p>' . "\n";
+//  $nav .= '<p class="navbar-header"><a title="' . $site_subtitle . '" class="navbar-brand" href="' . $site_abs_path . '"><img width="30" src="' . $site_logo . '"/>' . $site_title . '</a></p>' . "\n";
   $nav .= '<ul class="nav navbar-nav collapse navbar-collapse">' . "\n";
   foreach ($section as $sk => $sv) {
     $liclasses = array();

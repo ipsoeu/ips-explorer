@@ -48,11 +48,20 @@ $(document).ready(function() {
 {
   "@context":"http://schema.org",
   "@type":"Dataset",
-  "@id":"http://purl.org/ips-x/catalog/10001",
+  "@id":"https://w3id.org/ipsoeu/ips-explorer/catalog/10001",
   "name":"Open Innovation Regione Lombardia",
   "url":"https://www.openinnovation.regione.lombardia.it/",
+  "sameAs":"https://www.openinnovation.regione.lombardia.it/",
   "description":"Platform of Regione Lombardia, aimed at all actors of innovation processes in companies, research centers, public administrations, civil society and all citizens who want to play an active role in research and innovation policies."
-
+  "publisher":{"@type":"Organization","name":"Regione Lombardia"},
+  "spatialCoverage":[
+    {"@type":"Place","name":"Italy"}
+  ],
+  "includedInDataCatalog":{
+    "@type":"DataCatalog",
+    "name":"IPS Explorer",
+    "url":"https://w3id.org/ipsoeu/ips-explorer/"
+  }
 }
 </script>
 
@@ -60,7 +69,7 @@ $(document).ready(function() {
 <body>
 <nav role="navigation" class="navbar navbar-default">
 <div class="container">
-<p class="navbar-header"><a class="navbar-brand" href="/ips-explorer/">IPS-X</a></p>
+<p class="navbar-header"><a title="Innovative Public Services Explorer" class="navbar-brand" href="/ips-explorer/">IPS-X</a></p>
 <ul class="nav navbar-nav collapse navbar-collapse">
 <li class=""><a href="/ips-explorer/service/">Services</a></li>
 <li class=""><a href="/ips-explorer/chart/">Gallery</a></li>
