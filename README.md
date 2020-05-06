@@ -2,7 +2,7 @@
 
 The Innovative Public Services Explorer (IPS-X) is an exercise to provide an integrated view of the public services using emerging and disruptive technologies, and to derive statistical data from them.
 
-Service records are collected from voluntarily contributed data sources (e.g., surveys, catalogs, datasets), which are harmonised into a common data schema - nothing complicated, just a flat list of attributes, as the name and description of the service, the geographic area covered, its social and policy uptake (if any).
+Service records are collected from voluntarily contributed data sources (e.g., surveys, catalogues, datasets), which are harmonised into a common data schema - nothing complicated, just a flat list of attributes, as the name and description of the service, the geographic area covered, its social and policy uptake (if any).
 
 If you are interested in contributing, please follow the instructions outlined in the following section.
 
@@ -84,7 +84,7 @@ The value of "N" must be incremental to the ones used in the already contributed
 </tr>
 <tr>
 <td><code>c_type</code></td>
-<td><code>Desk research</code>, <code>Online survey</code></td>
+<td><code>Desk research</code>, <code>Online survey</code>, <code>Catalogue</code></td>
 <td>The way service records have been collected</td>
 </tr>
 </tbody>
