@@ -1,5 +1,6 @@
 var status = [
     "In development",
     "In production",
-    "Pilot"
+    "Pilot",
+    "Unknown"
 ]

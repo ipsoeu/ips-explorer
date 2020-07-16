@@ -1,4 +1,5 @@
 var primary_sector = [
+    "",
     "Agriculture",
     "Agriculture, forestry, fishing and hunting",
     "Basic research",

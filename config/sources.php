@@ -18,4 +18,7 @@
   $src["catalog"][6]  = "6-catalog-apis4dgov.csv";
   $src["services"][6] = "6-services-apis4dgov.csv";
 
+  $src["catalog"][7]  = "7-catalog-emerging-technologies-dg-grow.csv";
+  $src["services"][7] = "7-services-emerging-technologies-dg-grow.csv";
+  
 ?>

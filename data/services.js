@@ -8400,5 +8400,3369 @@ var services = [
         "cross_sector": "No",
         "type": "Data access and reuse",
         "status": "In production"
+    },
+    {
+        "cid": 10007,
+        "id": 70001,
+        "name": "General Services Administration Blockchain Project",
+        "url": "https:\/\/gcn.com\/articles\/2018\/11\/15\/gsa-blockchain-mas.aspx",
+        "contact": "",
+        "description": "The US General Services Administration commissioned a proof of concept in 2017 to demonstrate how blockchain could modernize federal procurement processes. Specifically, it sought to automate the review process for its FAstlane program. Smart contracts were deployed to automatically calculate the financial health score from vendors' balance sheets. The proof of concept also incorporated machine learning and robotic process automation to speed the collection and evaluation of information. Now, the organization is planning to scale up the application of these technologies to the entire 'Multiple Schedule Awards' program, of which 'FAstLane was a part.",
+        "geoextent": "National",
+        "geocoverage": [
+            "USA"
+        ],
+        "geocoverage_codes": [],
+        "lead_organisation": {
+            "name": "",
+            "category": ""
+        },
+        "lead_organisation_name": "",
+        "lead_organisation_category": "",
+        "start_date": "",
+        "active": "",
+        "end_date": "",
+        "primary_sector": "",
+        "secondary_sector": "",
+        "technology": "Blockchain",
+        "uptake": "Unknown",
+        "cross_border": "",
+        "cross_sector": "",
+        "type": "",
+        "status": "In development"
+    },
+    {
+        "cid": 10007,
+        "id": 70002,
+        "name": "Aragon General Directorate of Contracting, Blockchain Project",
+        "url": "https:\/\/www.europapress.es\/aragon\/noticia-aragon-pionera-apostar-tecnologia-blockchain-integrandose-asociacion-alastria-20180917130921.html",
+        "contact": "",
+        "description": "As part of a larger project aiming to use blockchain in order to transform public administration and the provision of public services, the  General Directorate of Contracting within the Government of Aragon has launched a project in which blockchain will be used to register the bids received for public contracts and evaluate them in an automated ways.",
+        "geoextent": "National",
+        "geocoverage": [
+            "Spain"
+        ],
+        "geocoverage_codes": [
+            "ES"
+        ],
+        "lead_organisation": {
+            "name": "",
+            "category": ""
+        },
+        "lead_organisation_name": "",
+        "lead_organisation_category": "",
+        "start_date": "",
+        "active": "",
+        "end_date": "",
+        "primary_sector": "",
+        "secondary_sector": "",
+        "technology": "Blockchain",
+        "uptake": "Unknown",
+        "cross_border": "",
+        "cross_sector": "",
+        "type": "",
+        "status": "In development"
+    },
+    {
+        "cid": 10007,
+        "id": 70003,
+        "name": "Basque Government Blockchain project",
+        "url": "https:\/\/cointelegraph.com\/news\/spanish-city-of-bilbao-launches-171k-tender-to-develop-public-blockchain-network",
+        "contact": "",
+        "description": "The city of Bilbao has launched a tender to get ideas for the implementation of blockchain in public services. The winning company would prepare a digital platform to facilitate the exchange of data between different public institutions by using blockchain and smart contracts.",
+        "geoextent": "National",
+        "geocoverage": [
+            "Spain"
+        ],
+        "geocoverage_codes": [
+            "ES"
+        ],
+        "lead_organisation": {
+            "name": "",
+            "category": ""
+        },
+        "lead_organisation_name": "",
+        "lead_organisation_category": "",
+        "start_date": "",
+        "active": "",
+        "end_date": "",
+        "primary_sector": "",
+        "secondary_sector": "",
+        "technology": "Blockchain",
+        "uptake": "Unknown",
+        "cross_border": "",
+        "cross_sector": "",
+        "type": "",
+        "status": "In development"
+    },
+    {
+        "cid": 10007,
+        "id": 70004,
+        "name": "Yeongdeungpo-gu district Proposal Evaluation System",
+        "url": "https:\/\/www.ledgerinsights.com\/seoul-district-using-blockchain-for-public-procurement\/",
+        "contact": "",
+        "description": "The district of Yeongdeungpo-gu successfully implemented a blockchain based proposal evaluation system for assessing responses to public tenders. The proposed system is intended to enhance the transparency and trustworthiness of the system. The tool will be used for all evaluations in the district in 2019 and may be expanded to other local governments depending on progress.",
+        "geoextent": "National",
+        "geocoverage": [
+            "South Korea"
+        ],
+        "geocoverage_codes": [],
+        "lead_organisation": {
+            "name": "",
+            "category": ""
+        },
+        "lead_organisation_name": "",
+        "lead_organisation_category": "",
+        "start_date": "",
+        "active": "",
+        "end_date": "",
+        "primary_sector": "",
+        "secondary_sector": "",
+        "technology": "Blockchain",
+        "uptake": "Unknown",
+        "cross_border": "",
+        "cross_sector": "",
+        "type": "",
+        "status": "Pilot"
+    },
+    {
+        "cid": 10007,
+        "id": 70005,
+        "name": "Seoul Municipal government Blockchain project",
+        "url": "https:\/\/www.coindeskkorea.com\/%EB%B0%95%EC%9B%90%EC%88%9C-%EC%84%9C%EC%9A%B8%EC%8B%9C%EC%9E%A5%EC%9D%B4-%EB%B8%94%EB%A1%9D%EC%B2%B4%EC%9D%B8-%EB%8F%84%EC%8B%9C-%EA%B3%84%ED%9A%8D%EC%9D%84-",
+        "contact": "",
+        "description": "The city plans to apply blockchain technology to power fourteen different administrative services. One of the uses cases is automated payment of subcontractors for the construction contracts ordered by the Seoul metropolitan government. The city plans to establish an electronic contract between involved parties so that subcontractors are automatically paid according to the contract.",
+        "geoextent": "National",
+        "geocoverage": [
+            "South Korea"
+        ],
+        "geocoverage_codes": [],
+        "lead_organisation": {
+            "name": "",
+            "category": ""
+        },
+        "lead_organisation_name": "",
+        "lead_organisation_category": "",
+        "start_date": "",
+        "active": "",
+        "end_date": "",
+        "primary_sector": "",
+        "secondary_sector": "",
+        "technology": "Blockchain",
+        "uptake": "Unknown",
+        "cross_border": "",
+        "cross_sector": "",
+        "type": "",
+        "status": "In development"
+    },
+    {
+        "cid": 10007,
+        "id": 70006,
+        "name": "Vnesheconombank (VEB) Blockchain project",
+        "url": "https:\/\/\u0432\u044d\u0431.\u0440\u0444\/en\/press-center\/35517\/",
+        "contact": "",
+        "description": "VEB, Russia's state-owned development bank partnered with e-procurement resource platform Roseltorg on a blockchain project that aims to build a platform for transparent electronic transactions between government departments and businesses. The platform is intended for uses including project monitoring, electronic contracting, e-contract fulfilment, and tracing supply chains. In particular it is believed that the new system will ensure improved document exchange quality and greater document confidentiality.",
+        "geoextent": "National",
+        "geocoverage": [
+            "Russia"
+        ],
+        "geocoverage_codes": [],
+        "lead_organisation": {
+            "name": "",
+            "category": ""
+        },
+        "lead_organisation_name": "",
+        "lead_organisation_category": "",
+        "start_date": "",
+        "active": "",
+        "end_date": "",
+        "primary_sector": "",
+        "secondary_sector": "",
+        "technology": "Blockchain",
+        "uptake": "Unknown",
+        "cross_border": "",
+        "cross_sector": "",
+        "type": "",
+        "status": "In development"
+    },
+    {
+        "cid": 10007,
+        "id": 70007,
+        "name": "Department of Budget and Management Blockchain Project",
+        "url": "https:\/\/govinsider.asia\/digital-gov\/exclusive-philippines-announces-plans-for-blockchain-in-budget\/",
+        "contact": "",
+        "description": "The department of Budget and Management is making use of blockchain technology in order to record stock of common and non-common supplies under the Warehousing and Inventory Management Systems (WIMS) of the Procurement Service",
+        "geoextent": "National",
+        "geocoverage": [
+            "Philippines"
+        ],
+        "geocoverage_codes": [
+            "PH"
+        ],
+        "lead_organisation": {
+            "name": "",
+            "category": ""
+        },
+        "lead_organisation_name": "",
+        "lead_organisation_category": "",
+        "start_date": "",
+        "active": "",
+        "end_date": "",
+        "primary_sector": "",
+        "secondary_sector": "",
+        "technology": "Blockchain",
+        "uptake": "Unknown",
+        "cross_border": "",
+        "cross_sector": "",
+        "type": "",
+        "status": "In development"
+    },
+    {
+        "cid": 10007,
+        "id": 70008,
+        "name": "Ministry of Public Administration Blockchain HACKMAX",
+        "url": "https:\/\/coindoo.com\/mexico-directs-first-public-tender-using-blockchain\/",
+        "contact": "",
+        "description": "Under the Blockchain HackMax initiative, the government aims to deploy the blockchain technology to track bids for public contracts in its public procurement process. Separate smart contracts will be created on the blockchain for each phase of the procurement process. Under the first contract, the buyer unit is registered (the government department which is procuring), under the second contract suppliers will register and their information stored on the blockchain. Under the third contract the information provided will be verified. The fourth contract keeps the information stored on the blockchain until the outcome of the tender, while the final contract assesses the proposals against the criteria and gives the project to the winner.",
+        "geoextent": "National",
+        "geocoverage": [
+            "Mexico"
+        ],
+        "geocoverage_codes": [
+            "MX"
+        ],
+        "lead_organisation": {
+            "name": "",
+            "category": ""
+        },
+        "lead_organisation_name": "",
+        "lead_organisation_category": "",
+        "start_date": "",
+        "active": "",
+        "end_date": "",
+        "primary_sector": "",
+        "secondary_sector": "",
+        "technology": "Blockchain",
+        "uptake": "Unknown",
+        "cross_border": "",
+        "cross_sector": "",
+        "type": "",
+        "status": "In development"
+    },
+    {
+        "cid": 10007,
+        "id": 70009,
+        "name": "Ministry of Internal Affairs and Communications Blockchain Project",
+        "url": "https:\/\/un-blockchain.org\/tag\/japan\/",
+        "contact": "",
+        "description": "Japan trialled the use of blockchain technology for processing government tenders in fiscal year 2017. The system aimed to remove the need for businesses participating in tenders to gather certain official documents such as tax payment certificates themselves and submit them. Instead the tendering agency would be able to gather the information directly over the blockchain.",
+        "geoextent": "National",
+        "geocoverage": [
+            "Japan"
+        ],
+        "geocoverage_codes": [
+            "JP"
+        ],
+        "lead_organisation": {
+            "name": "",
+            "category": ""
+        },
+        "lead_organisation_name": "",
+        "lead_organisation_category": "",
+        "start_date": "",
+        "active": "",
+        "end_date": "",
+        "primary_sector": "",
+        "secondary_sector": "",
+        "technology": "Blockchain",
+        "uptake": "Unknown",
+        "cross_border": "",
+        "cross_sector": "",
+        "type": "",
+        "status": "Pilot"
+    },
+    {
+        "cid": 10007,
+        "id": 70010,
+        "name": "ChileCompra Blockchain Project",
+        "url": "https:\/\/www.chilecompra.cl\/2018\/07\/chilecompra-inicia-proyecto-piloto-para-el-uso-de-la-herramienta-blockchain-en-compras-publicas\/",
+        "contact": "",
+        "description": "ChileCompra is collaborating with the Inter-American development Bank to test the application of blockchain technology in their public procurement system through a pilot project on the procurement platform - www.mercdopublico.cl. The blockchain technology will be used to provide a greater degree of transparency and certify that documents submitted in relation to the tendering process have not been altered.",
+        "geoextent": "National",
+        "geocoverage": [
+            "Chile"
+        ],
+        "geocoverage_codes": [
+            "CL"
+        ],
+        "lead_organisation": {
+            "name": "",
+            "category": ""
+        },
+        "lead_organisation_name": "",
+        "lead_organisation_category": "",
+        "start_date": "",
+        "active": "",
+        "end_date": "",
+        "primary_sector": "",
+        "secondary_sector": "",
+        "technology": "Blockchain",
+        "uptake": "Unknown",
+        "cross_border": "",
+        "cross_sector": "",
+        "type": "",
+        "status": "Pilot"
+    },
+    {
+        "cid": 10007,
+        "id": 70011,
+        "name": "National Research Council of Canada Blockchain Project",
+        "url": "https:\/\/www.nrc-cnrc.gc.ca\/eng\/stories\/2018\/blockchains.html",
+        "contact": "",
+        "description": "The National Research Council has conducted a trial of public blockchain technology (on Ethereum) for the transparent administration of government contracts. Under the pilot system, information on new and amended contribution agreements with firms is published on the blockchain in real time.",
+        "geoextent": "National",
+        "geocoverage": [
+            "Canada"
+        ],
+        "geocoverage_codes": [
+            "CA"
+        ],
+        "lead_organisation": {
+            "name": "",
+            "category": ""
+        },
+        "lead_organisation_name": "",
+        "lead_organisation_category": "",
+        "start_date": "",
+        "active": "",
+        "end_date": "",
+        "primary_sector": "",
+        "secondary_sector": "",
+        "technology": "Blockchain",
+        "uptake": "Unknown",
+        "cross_border": "",
+        "cross_sector": "",
+        "type": "",
+        "status": "Pilot"
+    },
+    {
+        "cid": 10007,
+        "id": 70012,
+        "name": "Public Services and Procurement Canada Blockchain-enabled Supplier Registration Information",
+        "url": "https:\/\/ec.europa.eu\/docsroom\/documents\/32211",
+        "contact": "",
+        "description": "The project stores information on suppliers on a blockchain. The information comes from or is validated by authoritative sources. Certain information that suppliers provide are initially self-declared (e.g. aboriginal status). A request of proof can then be sent via the block-chain to whichever government department holds the relevant authoritative records. The idea is to eventually store this information in a \"business wallet\" on the blockchain. However, this hasn't been rolled out yet. A partner project is also ongoing in the Province of British Colombia, with similar functionalities. These two blockchains are linked so that Public services and procurement Canada can use the other blockchain as a map of who holds authoritative information on different (procurement related) issues in British Colombia. Data is not transferred across the two blockchains, however.",
+        "geoextent": "National",
+        "geocoverage": [
+            "Canada"
+        ],
+        "geocoverage_codes": [
+            "CA"
+        ],
+        "lead_organisation": {
+            "name": "",
+            "category": ""
+        },
+        "lead_organisation_name": "",
+        "lead_organisation_category": "",
+        "start_date": "",
+        "active": "",
+        "end_date": "",
+        "primary_sector": "",
+        "secondary_sector": "",
+        "technology": "Blockchain",
+        "uptake": "Unknown",
+        "cross_border": "",
+        "cross_sector": "",
+        "type": "",
+        "status": "Pilot"
+    },
+    {
+        "cid": 10007,
+        "id": 70013,
+        "name": "V-ICT-OR Blockchain Project",
+        "url": "https:\/\/www.vlerick.com\/~\/media\/corporate-marketing\/our-expertise\/pdf\/20170927BarometerInnovativePublicProcurementpdf.pdf",
+        "contact": "",
+        "description": "V-ICT-OR (the membership organization for those involved in ICT and information management at Flemish local governments) teamed up with Digipolis to launch a challenge for blockchain solutions for procurement. The project was used as a way to become acquainted with a new way of organising the procurement process. It was successfully implemented and the solution is currently being programmed.",
+        "geoextent": "National",
+        "geocoverage": [
+            "Belgium"
+        ],
+        "geocoverage_codes": [
+            "BE"
+        ],
+        "lead_organisation": {
+            "name": "",
+            "category": ""
+        },
+        "lead_organisation_name": "",
+        "lead_organisation_category": "",
+        "start_date": "",
+        "active": "",
+        "end_date": "",
+        "primary_sector": "",
+        "secondary_sector": "",
+        "technology": "Blockchain",
+        "uptake": "Unknown",
+        "cross_border": "",
+        "cross_sector": "",
+        "type": "",
+        "status": "In development"
+    },
+    {
+        "cid": 10007,
+        "id": 70014,
+        "name": "Public Procurement Advisory Unit Blockchain Project",
+        "url": "http:\/\/chrisholmes.co.uk\/wp-content\/uploads\/2017\/11\/Distributed-Ledger-Technologies-for-Public-Good_leadership-collaboration-and-innovation.pdf",
+        "contact": "",
+        "description": "A House of Lords report, highlighted the transformational impact that distributed ledger technology could have on public services - noting public procurement as one of the areas that could be transformed. According to the report, distributed ledger technology has the potential to provide greater visibility and understanding of the supply market, and enable moves towards a more distributed model for public sector buying. The report also notes the potential of smart contracts to enable a dynamic public procurement model.",
+        "geoextent": "National",
+        "geocoverage": [
+            "United Kingdom"
+        ],
+        "geocoverage_codes": [
+            "GB"
+        ],
+        "lead_organisation": {
+            "name": "",
+            "category": ""
+        },
+        "lead_organisation_name": "",
+        "lead_organisation_category": "",
+        "start_date": "",
+        "active": "",
+        "end_date": "",
+        "primary_sector": "",
+        "secondary_sector": "",
+        "technology": "Blockchain",
+        "uptake": "Unknown",
+        "cross_border": "",
+        "cross_sector": "",
+        "type": "",
+        "status": "In development"
+    },
+    {
+        "cid": 10007,
+        "id": 70015,
+        "name": "Federal Government of UAE Blockchain Project",
+        "url": "https:\/\/www.opengovasia.com\/uae-government-launches-blockchain-strategy-2021\/",
+        "contact": "",
+        "description": "The United Arab Emirates launched a blockchain strategy in 2018 that has set an aim to conduct 50% of all transactions at the federal level using blockchain technology by 2021. This comes after Dubai had launched a similar strategy in the context of its smart city initiative few years ago. A major way in which blockchain technology is estimated to save costs is through reducing dependence on document-based transactions. As procurement is one of the major functions of government departments, and also a document-intensive process, applications for the technology in procurement may be identified.",
+        "geoextent": "National",
+        "geocoverage": [
+            "United Arab Emirates"
+        ],
+        "geocoverage_codes": [
+            "AE"
+        ],
+        "lead_organisation": {
+            "name": "",
+            "category": ""
+        },
+        "lead_organisation_name": "",
+        "lead_organisation_category": "",
+        "start_date": "",
+        "active": "",
+        "end_date": "",
+        "primary_sector": "",
+        "secondary_sector": "",
+        "technology": "Blockchain",
+        "uptake": "Unknown",
+        "cross_border": "",
+        "cross_sector": "",
+        "type": "",
+        "status": "In development"
+    },
+    {
+        "cid": 10007,
+        "id": 70016,
+        "name": "Government of Austria Blockchain Project",
+        "url": "https:\/\/www.coindesk.com\/austrian-government-backs-new-blockchain-research-institute",
+        "contact": "",
+        "description": "The Austrian government is supporting new research centres for blockchain. In a document outlining a digital roadmap for 2025, contracts process is identified as one of the potential uses of blockchain technology.",
+        "geoextent": "National",
+        "geocoverage": [
+            "Austria"
+        ],
+        "geocoverage_codes": [
+            "AT"
+        ],
+        "lead_organisation": {
+            "name": "",
+            "category": ""
+        },
+        "lead_organisation_name": "",
+        "lead_organisation_category": "",
+        "start_date": "",
+        "active": "",
+        "end_date": "",
+        "primary_sector": "",
+        "secondary_sector": "",
+        "technology": "Blockchain",
+        "uptake": "Unknown",
+        "cross_border": "",
+        "cross_sector": "",
+        "type": "",
+        "status": "In development"
+    },
+    {
+        "cid": 10007,
+        "id": 70017,
+        "name": "Southern European Countries Ministerial Declaration on Distributed Ledger Technologies",
+        "url": "https:\/\/www.coindesk.com\/7-southern-eu-nations-unite-to-take-lead-on-blockchain-adoption",
+        "contact": "",
+        "description": "Seven EU member nations from South Europe signed a joint declaration to promote the adoption of blockchain in the region. The major thrust is on making government services more efficient and transparent. This could mean further applications to public procurement as well. The countries are France, Italy, Spain, Malta, Cyprus, Portugal and Spain.",
+        "geoextent": "International",
+        "geocoverage": [
+            "Community"
+        ],
+        "geocoverage_codes": [],
+        "lead_organisation": {
+            "name": "",
+            "category": ""
+        },
+        "lead_organisation_name": "",
+        "lead_organisation_category": "",
+        "start_date": "",
+        "active": "",
+        "end_date": "",
+        "primary_sector": "",
+        "secondary_sector": "",
+        "technology": "Blockchain",
+        "uptake": "Unknown",
+        "cross_border": "",
+        "cross_sector": "",
+        "type": "",
+        "status": "In development"
+    },
+    {
+        "cid": 10007,
+        "id": 70018,
+        "name": "Asian Development Bank, Global eGP Architecture using Blockchain Technology",
+        "url": "https:\/\/www.adb.org\/projects\/documents\/reg-47192-001-tacr-3",
+        "contact": "",
+        "description": "In a technical report, consultants for the Asian Development Bank described the main features of a plan to create a global eGovernment Procurement Architecture that would interlink and bring together relevant data from all of the eGovernment Procurement systems from around the world. The primary aims of this architecture would be to provide: a de-duplicated Global database of suppliers; and an authenticated, global online repository of work experience certificates.",
+        "geoextent": "International",
+        "geocoverage": [
+            "Community"
+        ],
+        "geocoverage_codes": [],
+        "lead_organisation": {
+            "name": "",
+            "category": ""
+        },
+        "lead_organisation_name": "",
+        "lead_organisation_category": "",
+        "start_date": "",
+        "active": "",
+        "end_date": "",
+        "primary_sector": "",
+        "secondary_sector": "",
+        "technology": "Blockchain",
+        "uptake": "Unknown",
+        "cross_border": "",
+        "cross_sector": "",
+        "type": "",
+        "status": "In development"
+    },
+    {
+        "cid": 10007,
+        "id": 70019,
+        "name": "NATO Communications and Information  Agency Blockchain Project",
+        "url": "https:\/\/www.coindesk.com\/nato-innovation-contest-seeks-military-blockchain-applications",
+        "contact": "",
+        "description": "NATO has been looking into blockchain\u2019s use cases in regards to military logistics and procurement, and are also studying how it could mesh together with other cutting-edge concepts like the IoT.",
+        "geoextent": "International",
+        "geocoverage": [
+            "Community"
+        ],
+        "geocoverage_codes": [],
+        "lead_organisation": {
+            "name": "",
+            "category": ""
+        },
+        "lead_organisation_name": "",
+        "lead_organisation_category": "",
+        "start_date": "",
+        "active": "",
+        "end_date": "",
+        "primary_sector": "",
+        "secondary_sector": "",
+        "technology": "Blockchain",
+        "uptake": "Unknown",
+        "cross_border": "",
+        "cross_sector": "",
+        "type": "",
+        "status": "In development"
+    },
+    {
+        "cid": 10007,
+        "id": 70020,
+        "name": "United Nations Office for Project Services Blockchain Project",
+        "url": "https:\/\/www.unops.org\/news-and-stories\/news\/unops-and-iota-collaborate-to-bring-transparency-and-efficiency-to-un-work",
+        "contact": "",
+        "description": "UNOPS has partnered with IOTA to explore how IOTA's innovative technology - an open-source distributed ledger specifically for application to the internet of things - can increase the efficiency of UNOPS operations, procurement being one of them. IOTA\u2019s distributed ledger can provide a greater level of efficiency in the management and tracking of UN documents, supply chains and transactional payments in real-time.",
+        "geoextent": "International",
+        "geocoverage": [
+            "Community"
+        ],
+        "geocoverage_codes": [],
+        "lead_organisation": {
+            "name": "",
+            "category": ""
+        },
+        "lead_organisation_name": "",
+        "lead_organisation_category": "",
+        "start_date": "",
+        "active": "",
+        "end_date": "",
+        "primary_sector": "",
+        "secondary_sector": "",
+        "technology": "Blockchain",
+        "uptake": "Unknown",
+        "cross_border": "",
+        "cross_sector": "",
+        "type": "",
+        "status": "In development"
+    },
+    {
+        "cid": 10007,
+        "id": 70021,
+        "name": "Gabrovo Municipality Blockchain Proof of Concept",
+        "url": "",
+        "contact": "",
+        "description": "Under the proof of concept developed for the Bulgarian municipality, a blockchain was developed that would serve as a sort of marketplace for a cluster of municipalities (each municipality being too small to develop its procurement function to a top level individually). Each municipality would be able to launch requests for tenders in the form of a smart contract. Potential suppliers can respond with their tenders (probably also in the form of a smart contract). Under this system, an automatic matching would be done between the requirements of the request for tender and the supplier's offer. The qualification\/disqualification process can be automated (and the buyer will not be able to see the price offer if the supplier is disqualified). The evaluation process could also be automated. The system also provides a way to bring transparency to the procurement process.",
+        "geoextent": "National",
+        "geocoverage": [
+            "Bulgaria"
+        ],
+        "geocoverage_codes": [
+            "BG"
+        ],
+        "lead_organisation": {
+            "name": "",
+            "category": ""
+        },
+        "lead_organisation_name": "",
+        "lead_organisation_category": "",
+        "start_date": "",
+        "active": "",
+        "end_date": "",
+        "primary_sector": "",
+        "secondary_sector": "",
+        "technology": "Blockchain",
+        "uptake": "Unknown",
+        "cross_border": "",
+        "cross_sector": "",
+        "type": "",
+        "status": "In development"
+    },
+    {
+        "cid": 10007,
+        "id": 70022,
+        "name": "Digipolis Antwerp, Smart procurement tool",
+        "url": "http:\/\/www.innovatieveoverheidsopdrachten.be\/en\/projects\/public-spatial-planning-projects-augmented-and-virtual-reality",
+        "contact": "",
+        "description": "Digipolis, the IT agency for Antwerp, is developing a blockchain-based application together with its partner for the project, BallistiX, which will allow for the publication of a quotation request and submission and opening of quotations. It is believed that the use of blockchain will guarantee the reliability of each step of the procurement process, as they will be recorded in a transparent manner.",
+        "geoextent": "National",
+        "geocoverage": [
+            "Belgium"
+        ],
+        "geocoverage_codes": [
+            "BE"
+        ],
+        "lead_organisation": {
+            "name": "",
+            "category": ""
+        },
+        "lead_organisation_name": "",
+        "lead_organisation_category": "",
+        "start_date": "",
+        "active": "",
+        "end_date": "",
+        "primary_sector": "",
+        "secondary_sector": "",
+        "technology": "Blockchain",
+        "uptake": "Unknown",
+        "cross_border": "",
+        "cross_sector": "",
+        "type": "",
+        "status": "In development"
+    },
+    {
+        "cid": 10007,
+        "id": 70023,
+        "name": "Malta Information Technology Agency (MITA),  Smart Public Contracts",
+        "url": "",
+        "contact": "",
+        "description": "Under the project, MITA and the University of Malta are collaborating to develop a first prototype of a smart contract with the aim of turring their public procurement contracts into smart contracts. The project will develop a smart contract which will automatically record events on the blockchain, a centralised database to record other events not on the blockchain, and a centralised web application to provide an interface with the smart contract and the centralised database.",
+        "geoextent": "National",
+        "geocoverage": [
+            "Malta"
+        ],
+        "geocoverage_codes": [
+            "MT"
+        ],
+        "lead_organisation": {
+            "name": "",
+            "category": ""
+        },
+        "lead_organisation_name": "",
+        "lead_organisation_category": "",
+        "start_date": "",
+        "active": "",
+        "end_date": "",
+        "primary_sector": "",
+        "secondary_sector": "",
+        "technology": "Blockchain",
+        "uptake": "Unknown",
+        "cross_border": "",
+        "cross_sector": "",
+        "type": "",
+        "status": "In development"
+    },
+    {
+        "cid": 10007,
+        "id": 70024,
+        "name": "State of New York, Strategic Sourcing",
+        "url": "https:\/\/datasmart.ash.harvard.edu\/news\/article\/ten-great-ways-data-can-make-government-better-1041",
+        "contact": "",
+        "description": "The State of New York analyses data about its purchases and uses the insights from the data to increase volume from fewer suppliers to enable discounts. This strategy, known as strategic sourcing, coupled with procurement process efficiencies, saved the state $780 million over five years on purchases across 47 different categories. Examples of areas where strategic sourcing is beneficial to the state include office supplies, IT hardware and software, telecommunications, facilities, fleet and vehicle purchases and maintenance, advertising, travel, and medical products.",
+        "geoextent": "National",
+        "geocoverage": [
+            "USA"
+        ],
+        "geocoverage_codes": [],
+        "lead_organisation": {
+            "name": "",
+            "category": ""
+        },
+        "lead_organisation_name": "",
+        "lead_organisation_category": "",
+        "start_date": "",
+        "active": "",
+        "end_date": "",
+        "primary_sector": "",
+        "secondary_sector": "",
+        "technology": "Data analytics",
+        "uptake": "Unknown",
+        "cross_border": "",
+        "cross_sector": "",
+        "type": "",
+        "status": "In production"
+    },
+    {
+        "cid": 10007,
+        "id": 70025,
+        "name": "Public Procurement Authority, Big data project",
+        "url": "http:\/\/www.mju.gov.si\/en\/media_room\/news\/8631\/",
+        "contact": "",
+        "description": "In 2013, Turkey's Public Procurement Authority added a business intelligence module to the Electronic Public Procurement Platform to gather statistical data, and improve processes through data mining.",
+        "geoextent": "National",
+        "geocoverage": [
+            "Turkey"
+        ],
+        "geocoverage_codes": [
+            "TR"
+        ],
+        "lead_organisation": {
+            "name": "",
+            "category": ""
+        },
+        "lead_organisation_name": "",
+        "lead_organisation_category": "",
+        "start_date": "",
+        "active": "",
+        "end_date": "",
+        "primary_sector": "",
+        "secondary_sector": "",
+        "technology": "Data analytics",
+        "uptake": "Unknown",
+        "cross_border": "",
+        "cross_sector": "",
+        "type": "",
+        "status": "In production"
+    },
+    {
+        "cid": 10007,
+        "id": 70026,
+        "name": "Ministry of Public Administration, Big data project",
+        "url": "http:\/\/www.mju.gov.si\/en\/media_room\/news\/8631\/",
+        "contact": "",
+        "description": "The ministry collaborated with EMC Dell to implement a first pilot project exploring the opportunities of using big data to drive a data-driven public administration. Data on human resources, finance and public procurement was combined with external data sources. The results of the analysis showed that there was considerable potential for lowering costs related to public procurement.",
+        "geoextent": "National",
+        "geocoverage": [
+            "Slovenia"
+        ],
+        "geocoverage_codes": [
+            "SI"
+        ],
+        "lead_organisation": {
+            "name": "",
+            "category": ""
+        },
+        "lead_organisation_name": "",
+        "lead_organisation_category": "",
+        "start_date": "",
+        "active": "",
+        "end_date": "",
+        "primary_sector": "",
+        "secondary_sector": "",
+        "technology": "Data analytics",
+        "uptake": "Unknown",
+        "cross_border": "",
+        "cross_sector": "",
+        "type": "",
+        "status": "Pilot"
+    },
+    {
+        "cid": 10007,
+        "id": 70027,
+        "name": "Procurement Monitoring Bureau, ZoomChart",
+        "url": "https:\/\/zoomcharts.wordpress.com\/2015\/03\/09\/zoomcharts-on-the-procurement-monitoring-bureau-of-latvia-website\/",
+        "contact": "",
+        "description": "The Procurement Monitoring Bureau of Latvia has integrated the ZoomChart software to provide a functional and visually stimulating information on procurement activities.",
+        "geoextent": "National",
+        "geocoverage": [
+            "Latvia"
+        ],
+        "geocoverage_codes": [
+            "LV"
+        ],
+        "lead_organisation": {
+            "name": "",
+            "category": ""
+        },
+        "lead_organisation_name": "",
+        "lead_organisation_category": "",
+        "start_date": "",
+        "active": "",
+        "end_date": "",
+        "primary_sector": "",
+        "secondary_sector": "",
+        "technology": "Data analytics",
+        "uptake": "Unknown",
+        "cross_border": "",
+        "cross_sector": "",
+        "type": "",
+        "status": "In production"
+    },
+    {
+        "cid": 10007,
+        "id": 70028,
+        "name": "Colombia Compra Eficiente, SECOP II",
+        "url": "https:\/\/www.colombiacompra.gov.co\/sites\/cce_public\/files\/cce_documentos\/the_review_of_the_colombian_public_procurement_system.pdf",
+        "contact": "",
+        "description": "Colombia's e-procurement platform, SECOP II provides business intelligence functionalities, for example providing aggregate date on numbers, duration and amounts of contract per product or service.",
+        "geoextent": "National",
+        "geocoverage": [
+            "Colombia"
+        ],
+        "geocoverage_codes": [
+            "CO"
+        ],
+        "lead_organisation": {
+            "name": "",
+            "category": ""
+        },
+        "lead_organisation_name": "",
+        "lead_organisation_category": "",
+        "start_date": "",
+        "active": "",
+        "end_date": "",
+        "primary_sector": "",
+        "secondary_sector": "",
+        "technology": "Data analytics",
+        "uptake": "Unknown",
+        "cross_border": "",
+        "cross_sector": "",
+        "type": "",
+        "status": "In production"
+    },
+    {
+        "cid": 10007,
+        "id": 70029,
+        "name": "Public Services and Procurement Canada, Big data project",
+        "url": "https:\/\/economictimes.indiatimes.com\/tech\/ites\/infosys-bags-cad-80-3-million-deal-from-public-services-and-procurement-canada\/articleshow\/65938455.cms",
+        "contact": "",
+        "description": "The agency has partnered with Infosys, EY and SAP to modernize and automate the procurement process. The firms will implement and manage a SAP based procurement solution which will run on cloud. The digital portal will leverage data to provide real-time analytical insights.",
+        "geoextent": "National",
+        "geocoverage": [
+            "Canada"
+        ],
+        "geocoverage_codes": [
+            "CA"
+        ],
+        "lead_organisation": {
+            "name": "",
+            "category": ""
+        },
+        "lead_organisation_name": "",
+        "lead_organisation_category": "",
+        "start_date": "",
+        "active": "",
+        "end_date": "",
+        "primary_sector": "",
+        "secondary_sector": "",
+        "technology": "Data analytics",
+        "uptake": "Unknown",
+        "cross_border": "",
+        "cross_sector": "",
+        "type": "",
+        "status": "In development"
+    },
+    {
+        "cid": 10007,
+        "id": 70030,
+        "name": "Public Services and Procurement Canada, OCDS project,",
+        "url": "",
+        "contact": "",
+        "description": "Buyandsell Canada plan to investigate how the open contracting data standard could be used to link data end-to-end along the public procurement process. Currently requisition data exists, but it is stored in a separate financial dataset managed by a different entity. Using historical data on 300-500 companies, the team will investigate the benefit of linking this data and demonstrate what information can be gathered by doing so.",
+        "geoextent": "National",
+        "geocoverage": [
+            "Canada"
+        ],
+        "geocoverage_codes": [
+            "CA"
+        ],
+        "lead_organisation": {
+            "name": "",
+            "category": ""
+        },
+        "lead_organisation_name": "",
+        "lead_organisation_category": "",
+        "start_date": "",
+        "active": "",
+        "end_date": "",
+        "primary_sector": "",
+        "secondary_sector": "",
+        "technology": "Data analytics",
+        "uptake": "Unknown",
+        "cross_border": "",
+        "cross_sector": "",
+        "type": "",
+        "status": "In development"
+    },
+    {
+        "cid": 10007,
+        "id": 70031,
+        "name": "Ministry of Planning, Development and Management, Big data project",
+        "url": "https:\/\/www.qlik.com\/us\/company\/press-room\/press-releases\/0712-brazilian-ministry-of-planning-ensures-more-transparency-with-qlik",
+        "contact": "",
+        "description": "Under this project, a price dashboard was created that helps government officials track, analyse and visualize the prices at which the federal government has bought materials and services since 2015. This information is used to reduce the risk of government agencies overpaying and is also provided to citizens to ensure total transparency.",
+        "geoextent": "National",
+        "geocoverage": [
+            "Brazil"
+        ],
+        "geocoverage_codes": [
+            "BR"
+        ],
+        "lead_organisation": {
+            "name": "",
+            "category": ""
+        },
+        "lead_organisation_name": "",
+        "lead_organisation_category": "",
+        "start_date": "",
+        "active": "",
+        "end_date": "",
+        "primary_sector": "",
+        "secondary_sector": "",
+        "technology": "Data analytics",
+        "uptake": "Unknown",
+        "cross_border": "",
+        "cross_sector": "",
+        "type": "",
+        "status": "In production"
+    },
+    {
+        "cid": 10007,
+        "id": 70032,
+        "name": "Flemish Department of Mobility and Public Works, e-Delta",
+        "url": "",
+        "contact": "",
+        "description": "e-Delta is a modern contract management system that supports the purchasing government in the administrative process of creating and managing procurement contracts. It interfaces with a wide variety of other systems and applications and makes it possible to reuse previous data, take into account the historical performance of historical performance of companies and easily generate reports.",
+        "geoextent": "National",
+        "geocoverage": [
+            "Belgium"
+        ],
+        "geocoverage_codes": [
+            "BE"
+        ],
+        "lead_organisation": {
+            "name": "",
+            "category": ""
+        },
+        "lead_organisation_name": "",
+        "lead_organisation_category": "",
+        "start_date": "",
+        "active": "",
+        "end_date": "",
+        "primary_sector": "",
+        "secondary_sector": "",
+        "technology": "Data analytics",
+        "uptake": "Unknown",
+        "cross_border": "",
+        "cross_sector": "",
+        "type": "",
+        "status": "In production"
+    },
+    {
+        "cid": 10007,
+        "id": 70033,
+        "name": "Department of Mobility & Public Works, Medium for Economic Data, Information and Applications on Public Procurement (MEDIAAN)",
+        "url": "https:\/\/www.vlerick.com\/~\/media\/corporate-marketing\/our-expertise\/pdf\/20170927BarometerInnovativePublicProcurement.pdf",
+        "contact": "",
+        "description": "MEDIAAN is an online platform that gathers a wide array of applications, databases, and other instruments related to pricing of public procurement contracts and cost engineering aspects with regard to infrastructure projects. It uses historical data from past tenders to provide the purchasing government support for pricing analysis, pricing assessment, and pricing review. The user can get analysis on various parameters - quantity, time, award procedure etc.",
+        "geoextent": "National",
+        "geocoverage": [
+            "Belgium"
+        ],
+        "geocoverage_codes": [
+            "BE"
+        ],
+        "lead_organisation": {
+            "name": "",
+            "category": ""
+        },
+        "lead_organisation_name": "",
+        "lead_organisation_category": "",
+        "start_date": "",
+        "active": "",
+        "end_date": "",
+        "primary_sector": "",
+        "secondary_sector": "",
+        "technology": "Data analytics",
+        "uptake": "Unknown",
+        "cross_border": "",
+        "cross_sector": "",
+        "type": "",
+        "status": "In production"
+    },
+    {
+        "cid": 10007,
+        "id": 70034,
+        "name": "Agjencia Erokurimit Publik, Business intelligence project",
+        "url": "http:\/\/www.app.gov.al\/GetData\/DownloadDoc?documentId=d782105f-29d1-42a6-af38-649d90be2179",
+        "contact": "",
+        "description": "Albania's public procurement agency undertook a project to augment the functionalities of its electronic procurement portal. As part of this, they developed a 'business intelligence' system for complex reporting and analysis. Other initiatives included an archiving system for completed procedures, automation of inventory and realization records etc.",
+        "geoextent": "National",
+        "geocoverage": [
+            "Albania"
+        ],
+        "geocoverage_codes": [
+            "AL"
+        ],
+        "lead_organisation": {
+            "name": "",
+            "category": ""
+        },
+        "lead_organisation_name": "",
+        "lead_organisation_category": "",
+        "start_date": "",
+        "active": "",
+        "end_date": "",
+        "primary_sector": "",
+        "secondary_sector": "",
+        "technology": "Data analytics",
+        "uptake": "Unknown",
+        "cross_border": "",
+        "cross_sector": "",
+        "type": "",
+        "status": "In production"
+    },
+    {
+        "cid": 10007,
+        "id": 70035,
+        "name": "IT Directorate, Ministry of Public Administration, SKRINJA 2.0",
+        "url": "http:\/\/www.mju.gov.si\/en\/areas_of_work\/information_and_communications_technology\/",
+        "contact": "",
+        "description": "The ICT department of the Ministry of Public Administration is planning to implement a data warehouse and business intelligence system that shall be configured as a horizontal service on Government Computer Cloud till 2022 to promote data-driven decision making in public administration. The Ministry also handles the procurement activities of the country and therefore there is a prospect of utilizing the system in the procurement procedures as well.",
+        "geoextent": "National",
+        "geocoverage": [
+            "Slovenia"
+        ],
+        "geocoverage_codes": [
+            "SI"
+        ],
+        "lead_organisation": {
+            "name": "",
+            "category": ""
+        },
+        "lead_organisation_name": "",
+        "lead_organisation_category": "",
+        "start_date": "",
+        "active": "",
+        "end_date": "",
+        "primary_sector": "",
+        "secondary_sector": "",
+        "technology": "Data analytics",
+        "uptake": "Unknown",
+        "cross_border": "",
+        "cross_sector": "",
+        "type": "",
+        "status": "In development"
+    },
+    {
+        "cid": 10007,
+        "id": 70036,
+        "name": "US Treasury, Data Lab,",
+        "url": "https:\/\/datalab.usaspending.gov\/index.html",
+        "contact": "",
+        "description": "The Data Lab is an analytics portal using the data on government spending posted on the USAspending.gov site. It provides visibility on activities, contracts, and grants across all agencies. The function allows visualisation of grant spending, and the production of spending maps. Data is published in an open data format.",
+        "geoextent": "National",
+        "geocoverage": [
+            "USA"
+        ],
+        "geocoverage_codes": [],
+        "lead_organisation": {
+            "name": "",
+            "category": ""
+        },
+        "lead_organisation_name": "",
+        "lead_organisation_category": "",
+        "start_date": "",
+        "active": "",
+        "end_date": "",
+        "primary_sector": "",
+        "secondary_sector": "",
+        "technology": "Data analytics",
+        "uptake": "Unknown",
+        "cross_border": "",
+        "cross_sector": "",
+        "type": "",
+        "status": "In production"
+    },
+    {
+        "cid": 10007,
+        "id": 70037,
+        "name": "Digiwhist",
+        "url": "http:\/\/digiwhist.eu\/about-digiwhist\/",
+        "contact": "",
+        "description": "This H2020 funded project focussed on the systematic collection, structuring, analysis, and broad dissemination of information on public procurement. It made use of big data analytics to detect potential conflicts of interest in the system of public procurement and to identify system vulnerabilities",
+        "geoextent": "International",
+        "geocoverage": [
+            "European Union"
+        ],
+        "geocoverage_codes": [],
+        "lead_organisation": {
+            "name": "",
+            "category": ""
+        },
+        "lead_organisation_name": "",
+        "lead_organisation_category": "",
+        "start_date": "",
+        "active": "",
+        "end_date": "",
+        "primary_sector": "",
+        "secondary_sector": "",
+        "technology": "Data analytics",
+        "uptake": "Unknown",
+        "cross_border": "",
+        "cross_sector": "",
+        "type": "",
+        "status": "In production"
+    },
+    {
+        "cid": 10007,
+        "id": 70038,
+        "name": "Red flags",
+        "url": "http:\/\/redflags.eu\/",
+        "contact": "",
+        "description": "The European Commission funded project provides an interactive tool that allows for the monitoring of procurement processes. It automatically checks procurement documents and flags risky procurement documents using a special algorithm. Users can subscribe to receive alerts if risky procurements are published in their field of interest.",
+        "geoextent": "International",
+        "geocoverage": [
+            "European Union"
+        ],
+        "geocoverage_codes": [],
+        "lead_organisation": {
+            "name": "",
+            "category": ""
+        },
+        "lead_organisation_name": "",
+        "lead_organisation_category": "",
+        "start_date": "",
+        "active": "",
+        "end_date": "",
+        "primary_sector": "",
+        "secondary_sector": "",
+        "technology": "Data analytics",
+        "uptake": "Unknown",
+        "cross_border": "",
+        "cross_sector": "",
+        "type": "",
+        "status": "In production"
+    },
+    {
+        "cid": 10007,
+        "id": 70039,
+        "name": "Trade Assurance Program",
+        "url": "https:\/\/www.pymnts.com\/news\/b2b-payments\/2015\/alibaba-gives-procurement-officials-piece-of-mind\/",
+        "contact": "",
+        "description": "The Chinese government is cooperating with the e-Commerce platform provider, Alibaba. Procurement officials are able to buy from Chinese suppliers through Alibaba's B2B e-commerce platform under its Trade Assurance Program. Alibaba vets and evaluates the millions of buyers and suppliers using its platform to connect. When a supplier is evaluated, Alibaba guarantees to buyers that purchases will be delivered on time and will uphold the standard upon which the buyer and supplier agreed.",
+        "geoextent": "National",
+        "geocoverage": [
+            "China"
+        ],
+        "geocoverage_codes": [
+            "CN"
+        ],
+        "lead_organisation": {
+            "name": "",
+            "category": ""
+        },
+        "lead_organisation_name": "",
+        "lead_organisation_category": "",
+        "start_date": "",
+        "active": "",
+        "end_date": "",
+        "primary_sector": "",
+        "secondary_sector": "",
+        "technology": "Data analytics",
+        "uptake": "Unknown",
+        "cross_border": "",
+        "cross_sector": "",
+        "type": "",
+        "status": "In production"
+    },
+    {
+        "cid": 10007,
+        "id": 70040,
+        "name": "Ministry of Finance, eProcurement system",
+        "url": "https:\/\/e-gp.adb.org\/wp-content\/uploads\/2018\/10\/Session-2A-Armenia-by-Sergy-Shahnazavryan_.pdf",
+        "contact": "",
+        "description": "Within the Armenian eProcurement system there is a Business Intelligence instrument which is used for analysis, monitoring and control purposes. Among the information summarised using this tool is the number of complete procedures, share of complete procedures and value of these procedures. It allows a breakdown of competitive and non-competitive procedures and visualisation of the data.",
+        "geoextent": "National",
+        "geocoverage": [
+            "Armenia"
+        ],
+        "geocoverage_codes": [
+            "AM"
+        ],
+        "lead_organisation": {
+            "name": "",
+            "category": ""
+        },
+        "lead_organisation_name": "",
+        "lead_organisation_category": "",
+        "start_date": "",
+        "active": "",
+        "end_date": "",
+        "primary_sector": "",
+        "secondary_sector": "",
+        "technology": "Data analytics",
+        "uptake": "Unknown",
+        "cross_border": "",
+        "cross_sector": "",
+        "type": "",
+        "status": "In production"
+    },
+    {
+        "cid": 10007,
+        "id": 70041,
+        "name": "State procurement agency, Open data approach,",
+        "url": "https:\/\/e-gp.adb.org\/repository\/georgia-eprocurement-system-innovative-e-procedures-and-cutting-edge-e-services\/",
+        "contact": "",
+        "description": "The Georgian state procurement agency is pursuing an open data approach for its public procurement data. As part of this it has implemented a data visualisation system allowing it greater visibility on issues such as number of announced tenders, types of suppliers and most active suppliers, and number of disputes.",
+        "geoextent": "National",
+        "geocoverage": [
+            "Georgia"
+        ],
+        "geocoverage_codes": [
+            "GE"
+        ],
+        "lead_organisation": {
+            "name": "",
+            "category": ""
+        },
+        "lead_organisation_name": "",
+        "lead_organisation_category": "",
+        "start_date": "",
+        "active": "",
+        "end_date": "",
+        "primary_sector": "",
+        "secondary_sector": "",
+        "technology": "Data analytics",
+        "uptake": "Unknown",
+        "cross_border": "",
+        "cross_sector": "",
+        "type": "",
+        "status": "In production"
+    },
+    {
+        "cid": 10007,
+        "id": 70042,
+        "name": "Korean Public Procurement Service, Public Procurement Data System,",
+        "url": "https:\/\/www.oecd-ilibrary.org\/governance\/the-korean-public-procurement-service_9789264249431-en",
+        "contact": "",
+        "description": "The system links data from the national e-procurement system - KONEPS- as well as 23 other electronic procurement platforms for specific procuring entities. Reports are prepared on the basis of the data collected on the government bodies, companies and projects. This data is also presented in infographics. The KONEPS statistics module can for example provide insights into things such as the use of various contract types, proportion of central vs independent contracts and progress towards social objective goals.",
+        "geoextent": "National",
+        "geocoverage": [
+            "South Korea"
+        ],
+        "geocoverage_codes": [],
+        "lead_organisation": {
+            "name": "",
+            "category": ""
+        },
+        "lead_organisation_name": "",
+        "lead_organisation_category": "",
+        "start_date": "",
+        "active": "",
+        "end_date": "",
+        "primary_sector": "",
+        "secondary_sector": "",
+        "technology": "Data analytics",
+        "uptake": "Unknown",
+        "cross_border": "",
+        "cross_sector": "",
+        "type": "",
+        "status": "In production"
+    },
+    {
+        "cid": 10007,
+        "id": 70043,
+        "name": "Bid-rigging Indicator Analysis System (BRIAS), Korean Public Procurement Service",
+        "url": "https:\/\/www.oecd.org\/governance\/procurement\/toolbox\/search\/korea-bid-rigging-indicator-analysis-system-brias.pdf",
+        "contact": "",
+        "description": "The Korean Fair Trade Commission (FTC) developed the Bid-rigging Indicator Analysis System back in 2006 drawing data directly from the Korean eProcurement system (KONEPS), for example on bidding price, and number of competitors, to generate a bid-rigging score. Cases that score above a certain threshold are flagged for further investigation. BRIAS collects information from KONEPS on a daily basis. In 2012, BRIAS was run on about 20 000 cases, flagging 200 of them for further investigation. However, only 3 of the cases initially flagged by BRIAS led to findings of guilt.",
+        "geoextent": "National",
+        "geocoverage": [
+            "South Korea"
+        ],
+        "geocoverage_codes": [],
+        "lead_organisation": {
+            "name": "",
+            "category": ""
+        },
+        "lead_organisation_name": "",
+        "lead_organisation_category": "",
+        "start_date": "",
+        "active": "",
+        "end_date": "",
+        "primary_sector": "",
+        "secondary_sector": "",
+        "technology": "Data analytics",
+        "uptake": "Unknown",
+        "cross_border": "",
+        "cross_sector": "",
+        "type": "",
+        "status": "In production"
+    },
+    {
+        "cid": 10007,
+        "id": 70044,
+        "name": "Agency for Public Management and eGovernment, Digital procurement program",
+        "url": "",
+        "contact": "",
+        "description": "Under the program, the agency is first working on capturing all the data from transactions between suppliers and public buyers. Their plan for doing this involves setting up a system whereby invoices are automatically sent over the Peppol network to both the consumer and to DIFI, which stores them in a single database. The first step is to test this concept, through a first pilot due this year. The idea is that eventually this data can be used to help automate various parts of the procurement process. One initial hypotheses on how this could be done is automated categorisation of the product types that are being procured. It is thought that the data could also be used to provide input into the state budget.",
+        "geoextent": "National",
+        "geocoverage": [
+            "Norway"
+        ],
+        "geocoverage_codes": [
+            "NO"
+        ],
+        "lead_organisation": {
+            "name": "",
+            "category": ""
+        },
+        "lead_organisation_name": "",
+        "lead_organisation_category": "",
+        "start_date": "",
+        "active": "",
+        "end_date": "",
+        "primary_sector": "",
+        "secondary_sector": "",
+        "technology": "Data analytics",
+        "uptake": "Unknown",
+        "cross_border": "",
+        "cross_sector": "",
+        "type": "",
+        "status": "In development"
+    },
+    {
+        "cid": 10007,
+        "id": 70045,
+        "name": "Federal Audit Court (TCU), Labcontas project",
+        "url": "https:\/\/panoramapublico.com\/2018\/03\/26\/big-data-e-gestao-publica\/",
+        "contact": "",
+        "description": "Under the Labcontas project (Laboratory of Information and Control), the Federal Audit Court - TCU, has brought together 96 databases, enabling the cross-checking and verification of information from a number of sources, and enabling uses such as the detection of fraud. ALICE, MONICA and SOFIA, are three automated tools that have been developed using the data from Labcontas. \n\n\nALICE performs a daily analysis of all bids from federal agencies. Each day, the results of its analysis are sent to TCU auditors by email, with the system flagging any abnormalities about the bids, for example requiring participants to obtain certificates that the TCU does not consider to be prerequisites.\n\nMeanwhile, MONICA is a panel providing the visualisation of public purchasing data, such as the suppliers that are most contracted and the types of service most used. Finally SOFIA is a tool that analyses the reports developed by auditors. It points out errors and suggests correlations and reference sources.",
+        "geoextent": "National",
+        "geocoverage": [
+            "Brazil"
+        ],
+        "geocoverage_codes": [
+            "BR"
+        ],
+        "lead_organisation": {
+            "name": "",
+            "category": ""
+        },
+        "lead_organisation_name": "",
+        "lead_organisation_category": "",
+        "start_date": "",
+        "active": "",
+        "end_date": "",
+        "primary_sector": "",
+        "secondary_sector": "",
+        "technology": "Data analytics",
+        "uptake": "Unknown",
+        "cross_border": "",
+        "cross_sector": "",
+        "type": "",
+        "status": "In production"
+    },
+    {
+        "cid": 10007,
+        "id": 70046,
+        "name": "Ministry of Antimonopoly Regulation and Trade, Public Procurement Reporting Module",
+        "url": "",
+        "contact": "",
+        "description": "Together with the EBRD, the Government of Belarus has developed business intelligence approach linked to its eProcurement platform to transform raw data into meaningful and useful information. Key performance indicators were developed and implemented to show trends, with results displayed graphically in an easy to understand fashion. Reports are produced on compliance and performance.",
+        "geoextent": "National",
+        "geocoverage": [
+            "Belarus"
+        ],
+        "geocoverage_codes": [
+            "BY"
+        ],
+        "lead_organisation": {
+            "name": "",
+            "category": ""
+        },
+        "lead_organisation_name": "",
+        "lead_organisation_category": "",
+        "start_date": "",
+        "active": "",
+        "end_date": "",
+        "primary_sector": "",
+        "secondary_sector": "",
+        "technology": "Data analytics",
+        "uptake": "Unknown",
+        "cross_border": "",
+        "cross_sector": "",
+        "type": "",
+        "status": "In production"
+    },
+    {
+        "cid": 10007,
+        "id": 70047,
+        "name": "Consip, Open data platform",
+        "url": "",
+        "contact": "",
+        "description": "Consip wanted to publish data on all public tenders so that stakeholders can examine and analyse the data themselves. In order to do this they have set up an open data platform which runs on the open source ckan cloud infrastructure platform.",
+        "geoextent": "National",
+        "geocoverage": [
+            "Italy"
+        ],
+        "geocoverage_codes": [
+            "IT"
+        ],
+        "lead_organisation": {
+            "name": "",
+            "category": ""
+        },
+        "lead_organisation_name": "",
+        "lead_organisation_category": "",
+        "start_date": "",
+        "active": "",
+        "end_date": "",
+        "primary_sector": "",
+        "secondary_sector": "",
+        "technology": "Data analytics",
+        "uptake": "Unknown",
+        "cross_border": "",
+        "cross_sector": "",
+        "type": "",
+        "status": "In production"
+    },
+    {
+        "cid": 10007,
+        "id": 70048,
+        "name": "Department of Health and Human Services, HHS Accelerate",
+        "url": "https:\/\/washingtontechnology.com\/articles\/2018\/07\/26\/hhs-blockchain.aspx",
+        "contact": "",
+        "description": "The Department of Human and Health Services has developed a blockchain and AI based system that gives acquisition teams detailed, real-time information on pricing and terms and conditions from across HHS for 10 categories of purchases. The system pulls data from five contract-writing systems (providing information on about 100 000 contracts and nearly 25 billion dollars in annual spend). The information is used to help agencies make strategic decisions about the sourcing of goods\/services. The project uses a machine learning based algorithm to provide real-time pricing insights on the basis of this data. The Department has received an 'Authority to Operate' for the system in December.",
+        "geoextent": "National",
+        "geocoverage": [
+            "USA"
+        ],
+        "geocoverage_codes": [],
+        "lead_organisation": {
+            "name": "",
+            "category": ""
+        },
+        "lead_organisation_name": "",
+        "lead_organisation_category": "",
+        "start_date": "",
+        "active": "",
+        "end_date": "",
+        "primary_sector": "",
+        "secondary_sector": "",
+        "technology": "Artificial intelligence",
+        "uptake": "Unknown",
+        "cross_border": "",
+        "cross_sector": "",
+        "type": "",
+        "status": "In development"
+    },
+    {
+        "cid": 10007,
+        "id": 70049,
+        "name": "Department of Health and Human Services, HHS Buy Smarter",
+        "url": "https:\/\/www.hhs.gov\/sites\/default\/files\/hhs-buysmarter-journey.pdf",
+        "contact": "",
+        "description": "The Buy smarter project uses AI technology to analyse departmental requirements based on spending data from right across HHS. This analysis is used to identify overlapping requirements across agencies within HHS and on this basis consolidate contract vehicles. This produces considerable cost savings. Buy Smarter draws on the HHS Accelerate blockchain project which links the different data sets in order to access the data it needs. \n\nThe overarching Buy Smarter project aims not just at tweaking existing acquisition processes but at structural transformation of how HHS agencies acquire their goods and services together.",
+        "geoextent": "National",
+        "geocoverage": [
+            "USA"
+        ],
+        "geocoverage_codes": [],
+        "lead_organisation": {
+            "name": "",
+            "category": ""
+        },
+        "lead_organisation_name": "",
+        "lead_organisation_category": "",
+        "start_date": "",
+        "active": "",
+        "end_date": "",
+        "primary_sector": "",
+        "secondary_sector": "",
+        "technology": "Artificial intelligence",
+        "uptake": "Unknown",
+        "cross_border": "",
+        "cross_sector": "",
+        "type": "",
+        "status": "In development"
+    },
+    {
+        "cid": 10007,
+        "id": 70050,
+        "name": "San Francisco City Government, PAIGE",
+        "url": "https:\/\/statescoop.com\/san-francisco-procurement-chatbot\/",
+        "contact": "",
+        "description": "The Procurement Answers and Information Guided Experience (PAIGE) is a digital assistant to solve queries of the internal workforce of the San Francisco government agencies related to IT procurement procedures. PAIGE can currently answer about 1000 questions, and has about 400 answers it can deploy. The project draws about machine learning and natural language processing techniques.",
+        "geoextent": "National",
+        "geocoverage": [
+            "USA"
+        ],
+        "geocoverage_codes": [],
+        "lead_organisation": {
+            "name": "",
+            "category": ""
+        },
+        "lead_organisation_name": "",
+        "lead_organisation_category": "",
+        "start_date": "",
+        "active": "",
+        "end_date": "",
+        "primary_sector": "",
+        "secondary_sector": "",
+        "technology": "Artificial intelligence",
+        "uptake": "Unknown",
+        "cross_border": "",
+        "cross_sector": "",
+        "type": "",
+        "status": "In development"
+    },
+    {
+        "cid": 10007,
+        "id": 70051,
+        "name": "El Paso City Government, ASK LAURA",
+        "url": "http:\/\/www.govtech.com\/dc\/Meet-El-Pasos-Chatbot-Ask-Laura-Shes-a-Real-Game-Changer.html",
+        "contact": "",
+        "description": "The public procurement portal of the El Paso city has an AI enabled chatbot to answer customer-service type queries relating to the procurement process. The chatbot, \"Ask Laura\", is able to field questions such as how to register as a vendor; how to do business with special programs, and where to find bids. Users are able to type in questions, while the chatbot can respond via voice and also appears on the screen with the avatar of a woman.",
+        "geoextent": "National",
+        "geocoverage": [
+            "USA"
+        ],
+        "geocoverage_codes": [],
+        "lead_organisation": {
+            "name": "",
+            "category": ""
+        },
+        "lead_organisation_name": "",
+        "lead_organisation_category": "",
+        "start_date": "",
+        "active": "",
+        "end_date": "",
+        "primary_sector": "",
+        "secondary_sector": "",
+        "technology": "Artificial intelligence",
+        "uptake": "Unknown",
+        "cross_border": "",
+        "cross_sector": "",
+        "type": "",
+        "status": "In production"
+    },
+    {
+        "cid": 10007,
+        "id": 70052,
+        "name": "US Air Force, AI Project",
+        "url": "https:\/\/www.rt.com\/usa\/336177-usaf-watson-computer-procurement\/",
+        "contact": "",
+        "description": "In collaboration with IBM, the AI powered system aims to help government vendors bid for military contracts by helping them navigate through the complex Federal Acquisition Regulations. The machine will first be fed all the relevant documents and regulations. Human \"trainers\" will then ask it questions on the procurement process to help it develop its understanding.",
+        "geoextent": "National",
+        "geocoverage": [
+            "USA"
+        ],
+        "geocoverage_codes": [],
+        "lead_organisation": {
+            "name": "",
+            "category": ""
+        },
+        "lead_organisation_name": "",
+        "lead_organisation_category": "",
+        "start_date": "",
+        "active": "",
+        "end_date": "",
+        "primary_sector": "",
+        "secondary_sector": "",
+        "technology": "Artificial intelligence",
+        "uptake": "Unknown",
+        "cross_border": "",
+        "cross_sector": "",
+        "type": "",
+        "status": "Pilot"
+    },
+    {
+        "cid": 10007,
+        "id": 70053,
+        "name": "Performance Information Procurement System (PIPS)",
+        "url": "https:\/\/pbsrg.com\/best-value-approach\/",
+        "contact": "",
+        "description": "The Performance Information Procurement System (PIPS) was developed as a way of reducing bias in the procurement process, an issue which was thought to be responsible for overrun budgets. The system was designed to help reach procurement decisions on an objective basis. The system was tested on the procurement of the $2.96 million Bridgerland Academic Training Center (ATC). The test was reported as highly successful, resulting in one of the most successful construction projects procured in Utah (on time, on budget and high quality).",
+        "geoextent": "National",
+        "geocoverage": [
+            "USA"
+        ],
+        "geocoverage_codes": [],
+        "lead_organisation": {
+            "name": "",
+            "category": ""
+        },
+        "lead_organisation_name": "",
+        "lead_organisation_category": "",
+        "start_date": "",
+        "active": "",
+        "end_date": "",
+        "primary_sector": "",
+        "secondary_sector": "",
+        "technology": "Artificial intelligence",
+        "uptake": "Unknown",
+        "cross_border": "",
+        "cross_sector": "",
+        "type": "",
+        "status": "In production"
+    },
+    {
+        "cid": 10007,
+        "id": 70054,
+        "name": "ProZorro, Risk indicators",
+        "url": "https:\/\/oecd-opsi.org\/innovations\/eprocurement-system-prozorro\/",
+        "contact": "",
+        "description": "ProZorro is a hybrid electronic government e-procurement system created as the result of a partnership between business, government and the civil society in Ukraine. The system is an open source solution that makes use of the open contracting data standard. It works under the principle \"everyone can see everything\". The monitoring tools developed enable analysis of public procurement, with information displayed about each tender, buyer and government authority. The system monitors risks of corruption in real time, using algorithms to flag high risk cases based on risk indicators. An automated risk-indicator engine scans all active electronic tenders for non-compliance and irregularities. Risky transactions are selected for further monitoring.",
+        "geoextent": "National",
+        "geocoverage": [
+            "Ukraine"
+        ],
+        "geocoverage_codes": [
+            "UA"
+        ],
+        "lead_organisation": {
+            "name": "",
+            "category": ""
+        },
+        "lead_organisation_name": "",
+        "lead_organisation_category": "",
+        "start_date": "",
+        "active": "",
+        "end_date": "",
+        "primary_sector": "",
+        "secondary_sector": "",
+        "technology": "Data analytics",
+        "uptake": "Unknown",
+        "cross_border": "",
+        "cross_sector": "",
+        "type": "",
+        "status": "In development"
+    },
+    {
+        "cid": 10007,
+        "id": 70055,
+        "name": "ProZorro, Bid prediction",
+        "url": "https:\/\/ocdsanalytics.com\/ua\/prozorro\/ai\/docs\/",
+        "contact": "",
+        "description": "The ProZorro team is using artificial intelligence and machine learning in its work with the aim of developing a model that would predict the likelihood of a tender happening and being succesful. Another tool is able to predict the probability that a particular tender participant will leave the platform before completing the tender.",
+        "geoextent": "National",
+        "geocoverage": [
+            "Ukraine"
+        ],
+        "geocoverage_codes": [
+            "UA"
+        ],
+        "lead_organisation": {
+            "name": "",
+            "category": ""
+        },
+        "lead_organisation_name": "",
+        "lead_organisation_category": "",
+        "start_date": "",
+        "active": "",
+        "end_date": "",
+        "primary_sector": "",
+        "secondary_sector": "",
+        "technology": "Artificial intelligence",
+        "uptake": "Unknown",
+        "cross_border": "",
+        "cross_sector": "",
+        "type": "",
+        "status": "Pilot"
+    },
+    {
+        "cid": 10007,
+        "id": 70056,
+        "name": "ProZorro, Supplier profiling",
+        "url": "",
+        "contact": "",
+        "description": "Together with the uData School, Prozorro has developed a tool that clusters suppliers according to their history on the ProZorro platform. This analysis can reveal unobvious connections between them or with  public\ncompanies, potential fraud and hidden trends",
+        "geoextent": "National",
+        "geocoverage": [
+            "Ukraine"
+        ],
+        "geocoverage_codes": [
+            "UA"
+        ],
+        "lead_organisation": {
+            "name": "",
+            "category": ""
+        },
+        "lead_organisation_name": "",
+        "lead_organisation_category": "",
+        "start_date": "",
+        "active": "",
+        "end_date": "",
+        "primary_sector": "",
+        "secondary_sector": "",
+        "technology": "Artificial intelligence",
+        "uptake": "Unknown",
+        "cross_border": "",
+        "cross_sector": "",
+        "type": "",
+        "status": "Pilot"
+    },
+    {
+        "cid": 10007,
+        "id": 70057,
+        "name": "ProZorro, CPV Prediction",
+        "url": "https:\/\/ocdsanalytics.com\/ua\/prozorro\/ai\/docs\/examples\/",
+        "contact": "",
+        "description": "Prozorro has developed an AI tool that can predict the correct CPV codes and unit of measurement. The tool has not yet been implemented. It aims to make the platforms that provide the user-interface for organisations using the Prozorro data easier to use, reducing mis-classifications and errors;",
+        "geoextent": "National",
+        "geocoverage": [
+            "Ukraine"
+        ],
+        "geocoverage_codes": [
+            "UA"
+        ],
+        "lead_organisation": {
+            "name": "",
+            "category": ""
+        },
+        "lead_organisation_name": "",
+        "lead_organisation_category": "",
+        "start_date": "",
+        "active": "",
+        "end_date": "",
+        "primary_sector": "",
+        "secondary_sector": "",
+        "technology": "Artificial intelligence",
+        "uptake": "Unknown",
+        "cross_border": "",
+        "cross_sector": "",
+        "type": "",
+        "status": "In development"
+    },
+    {
+        "cid": 10007,
+        "id": 70058,
+        "name": "DoZorro AI tool",
+        "url": "https:\/\/ti-ukraine.org\/en\/news\/dozorro-artificial-intelligence-to-find-violations-in-prozorro-how-it-works\/",
+        "contact": "",
+        "description": "The monitoring portal DoZorro is a platform where each participant in the system (supplier, customer, controlling authority, citizen) can provide feedback to the government customer or supplier. The new version of the platform provides software, which through its AI capabilities, is able to identify tenders with a high risk of corruption. The results of the beta test of this system were that 26% more tenders with unfounded selection of the winner were identified, 37% more tenders with groundless disqualification, and 298% more with participants\u2019 conspiracy. The system is intended to complement and support the work done by experts - making their work more efficient.",
+        "geoextent": "National",
+        "geocoverage": [
+            "Ukraine"
+        ],
+        "geocoverage_codes": [
+            "UA"
+        ],
+        "lead_organisation": {
+            "name": "",
+            "category": ""
+        },
+        "lead_organisation_name": "",
+        "lead_organisation_category": "",
+        "start_date": "",
+        "active": "",
+        "end_date": "",
+        "primary_sector": "",
+        "secondary_sector": "",
+        "technology": "Artificial intelligence",
+        "uptake": "Unknown",
+        "cross_border": "",
+        "cross_sector": "",
+        "type": "",
+        "status": "In production"
+    },
+    {
+        "cid": 10007,
+        "id": 70059,
+        "name": "vTaiwan survey tool",
+        "url": "https:\/\/govinsider.asia\/innovation\/taiwan-pdis-shuyang-lin-audrey-tang\/",
+        "contact": "",
+        "description": "vTaiwan uses artificial intelligence to crowdsource opinions and draw consensus during deliberations. A tool called Pol.is is used to survey participants, and using AI capabilities a map is generated of the participants, clustering together people with similar opinions. This allows users to see where there is division and consensus among thousands of distinct comments. This application and approach has been applied to Taiwan's digital service procurement. In the past there was a rigid system, with every small design change needing to go through a tender.  A co-creation process with citizens has led to the creation of a much more agile and responsive with shortened procurement cycles.",
+        "geoextent": "National",
+        "geocoverage": [
+            "Taiwan"
+        ],
+        "geocoverage_codes": [
+            "TW"
+        ],
+        "lead_organisation": {
+            "name": "",
+            "category": ""
+        },
+        "lead_organisation_name": "",
+        "lead_organisation_category": "",
+        "start_date": "",
+        "active": "",
+        "end_date": "",
+        "primary_sector": "",
+        "secondary_sector": "",
+        "technology": "Artificial intelligence",
+        "uptake": "Unknown",
+        "cross_border": "",
+        "cross_sector": "",
+        "type": "",
+        "status": "In development"
+    },
+    {
+        "cid": 10007,
+        "id": 70060,
+        "name": "Kommers (KAI) semantics check tool",
+        "url": "https:\/\/www.reusecompany.com\/news\/516-a-successful-swedish-procurement-conference-2019",
+        "contact": "",
+        "description": "An AI assistant is being integrated into the Primonas Kommers e-procurement platform. This tool can do a semantics check on requirements and other text in the procurement material which will decrease the risk of bidders misunderstanding the tender material and hence reduce the bidder risk. Kommers has public sector (as well as private sector) clients that will be able to access this functionality.",
+        "geoextent": "National",
+        "geocoverage": [
+            "Sweden"
+        ],
+        "geocoverage_codes": [
+            "SE"
+        ],
+        "lead_organisation": {
+            "name": "",
+            "category": ""
+        },
+        "lead_organisation_name": "",
+        "lead_organisation_category": "",
+        "start_date": "",
+        "active": "",
+        "end_date": "",
+        "primary_sector": "",
+        "secondary_sector": "",
+        "technology": "Artificial intelligence",
+        "uptake": "Unknown",
+        "cross_border": "",
+        "cross_sector": "",
+        "type": "",
+        "status": "In development"
+    },
+    {
+        "cid": 10007,
+        "id": 70061,
+        "name": "Agency for Science, Technology and Research, AI tool",
+        "url": "https:\/\/govinsider.asia\/security\/exclusive-singapore-trialling-ai-to-predict-procurement-fraud\/",
+        "contact": "",
+        "description": "Agency for Science, Technology and Research has built an AI tool to identify and prevent possible corruption. The AI algorithms analyse HR and finance data, procurement requests, tender approvals and workflows to pick up patterns. It also looks at non-financial data, including details such as the names of government employees\u2019 family members and vendor employees.",
+        "geoextent": "National",
+        "geocoverage": [
+            "Singapore"
+        ],
+        "geocoverage_codes": [],
+        "lead_organisation": {
+            "name": "",
+            "category": ""
+        },
+        "lead_organisation_name": "",
+        "lead_organisation_category": "",
+        "start_date": "",
+        "active": "",
+        "end_date": "",
+        "primary_sector": "",
+        "secondary_sector": "",
+        "technology": "Artificial intelligence",
+        "uptake": "Unknown",
+        "cross_border": "",
+        "cross_sector": "",
+        "type": "",
+        "status": "In production"
+    },
+    {
+        "cid": 10007,
+        "id": 70062,
+        "name": "ANAC, Machine learning tool,",
+        "url": "https:\/\/www.slideshare.net\/FabianaLanotte\/machine-learning-on-public-procurement-open-data-anac-case-study",
+        "contact": "",
+        "description": "The tool uses machine learning to identify hidden relationships between public administrations and private companies using unstructured information (such as public procurement titles) from the open data on public procurement.",
+        "geoextent": "National",
+        "geocoverage": [
+            "Italy"
+        ],
+        "geocoverage_codes": [
+            "IT"
+        ],
+        "lead_organisation": {
+            "name": "",
+            "category": ""
+        },
+        "lead_organisation_name": "",
+        "lead_organisation_category": "",
+        "start_date": "",
+        "active": "",
+        "end_date": "",
+        "primary_sector": "",
+        "secondary_sector": "",
+        "technology": "Artificial intelligence",
+        "uptake": "Unknown",
+        "cross_border": "",
+        "cross_sector": "",
+        "type": "",
+        "status": "In production"
+    },
+    {
+        "cid": 10007,
+        "id": 70063,
+        "name": "State Treasury eInvoicing plans",
+        "url": "https:\/\/ec.europa.eu\/cefdigital\/wiki\/display\/CEFDIGITAL\/2018\/06\/13\/Finland+is+using+AI+in+attempt+to+achieve+one-hundred+per+cent+eInvoicing",
+        "contact": "",
+        "description": "The State Treasury of Finland plans to automate eInvoice processing by utilising AI and robotics. It is believed that AI tools could analyse an invoice within seconds to find the necessary information such as an agreement number and amount. Currently, Finland has identified the most significant challenge to be that IT companies and other operators need to be aware of what data needs to be in the correct place to achieve ultimate automation goals.",
+        "geoextent": "National",
+        "geocoverage": [
+            "Finland"
+        ],
+        "geocoverage_codes": [
+            "FI"
+        ],
+        "lead_organisation": {
+            "name": "",
+            "category": ""
+        },
+        "lead_organisation_name": "",
+        "lead_organisation_category": "",
+        "start_date": "",
+        "active": "",
+        "end_date": "",
+        "primary_sector": "",
+        "secondary_sector": "",
+        "technology": "Artificial intelligence",
+        "uptake": "Unknown",
+        "cross_border": "",
+        "cross_sector": "",
+        "type": "",
+        "status": "In development"
+    },
+    {
+        "cid": 10007,
+        "id": 70064,
+        "name": "Public Services and Procurement Canada,  Language quality tool",
+        "url": "",
+        "contact": "",
+        "description": "Buyandsell Canada are required to publish all of their requests for tenders in both French and English. However, often mistakes appear in the translations. They are currently looking for a machine language solution (in the natural language processing area) which would monitor the tenders that are put up and flag whether, the title and content is provided in both languages, the syntactic structure is correct, and the semantic meaning is retained from one language to the other.",
+        "geoextent": "National",
+        "geocoverage": [
+            "Canada"
+        ],
+        "geocoverage_codes": [
+            "CA"
+        ],
+        "lead_organisation": {
+            "name": "",
+            "category": ""
+        },
+        "lead_organisation_name": "",
+        "lead_organisation_category": "",
+        "start_date": "",
+        "active": "",
+        "end_date": "",
+        "primary_sector": "",
+        "secondary_sector": "",
+        "technology": "Artificial intelligence",
+        "uptake": "Unknown",
+        "cross_border": "",
+        "cross_sector": "",
+        "type": "",
+        "status": "In development"
+    },
+    {
+        "cid": 10007,
+        "id": 70065,
+        "name": "NSW Data Analytics Center, CAITY",
+        "url": "https:\/\/news.microsoft.com\/en-au\/features\/nsw-government-signs-agreement-with-microsoft-to-globalise-data-science-capability\/",
+        "contact": "",
+        "description": "The agency partnered with Microsoft to develop a machine learning tool to track its annual procurement budget. In the initial proof of concept, a machine learning neural network will be built to categorise how the NSW Government\u2019s $30 billion annual procurement budget is allocated each year. The Government wants to first validate what it is spending its money on and confirm whether it is getting value for money. \n\nNSW Procurement scaled up the tool and is now using it in the course of its operations.",
+        "geoextent": "National",
+        "geocoverage": [
+            "Australia"
+        ],
+        "geocoverage_codes": [
+            "AU"
+        ],
+        "lead_organisation": {
+            "name": "",
+            "category": ""
+        },
+        "lead_organisation_name": "",
+        "lead_organisation_category": "",
+        "start_date": "",
+        "active": "",
+        "end_date": "",
+        "primary_sector": "",
+        "secondary_sector": "",
+        "technology": "Artificial intelligence",
+        "uptake": "Unknown",
+        "cross_border": "",
+        "cross_sector": "",
+        "type": "",
+        "status": "Pilot"
+    },
+    {
+        "cid": 10007,
+        "id": 70066,
+        "name": "Digital Transformation Agency, AI Project",
+        "url": "https:\/\/www.smartcompany.com.au\/technology\/emerging-technology\/australian-government-ibm-1-billion-deal-blockchain-ai\/",
+        "contact": "",
+        "description": "The Australian government has signed a whole-of-government service agreement with IBM to accelerate the uptake of blockchain, artificial intelligence, and quantum computing in the public sector. This will provide access to IBM's AI and cloud technology to all federal departments. A major focus area is enhancing cyber-security of federal organizations. Though it is currently not clear what all functions these technologies will be applied to, solutions for procurement could be within scope.",
+        "geoextent": "National",
+        "geocoverage": [
+            "Australia"
+        ],
+        "geocoverage_codes": [
+            "AU"
+        ],
+        "lead_organisation": {
+            "name": "",
+            "category": ""
+        },
+        "lead_organisation_name": "",
+        "lead_organisation_category": "",
+        "start_date": "",
+        "active": "",
+        "end_date": "",
+        "primary_sector": "",
+        "secondary_sector": "",
+        "technology": "Artificial intelligence",
+        "uptake": "Unknown",
+        "cross_border": "",
+        "cross_sector": "",
+        "type": "",
+        "status": "In development"
+    },
+    {
+        "cid": 10007,
+        "id": 70067,
+        "name": "Nordic Council of Ministers, AI declaration",
+        "url": "https:\/\/www.regeringen.se\/49a602\/globalassets\/regeringen\/dokument\/naringsdepartementet\/20180514_nmr_deklaration-slutlig-webb.pdf",
+        "contact": "",
+        "description": "AI is major policy focus of the Nordic-Baltic Region, which has signed in May 2018 a joint declaration to develop, promote, and remove barriers to the use of AI in both the private and public sphere. As such, one of the goal is to \u201cenable more authorities, companies and organizations to use AI\u201d. A number of initiatives concerning the usage of AI in public procurement can be expected to arise from the Nordic Region. The countries include Sweden, Estonia, Faeroe Islands, Finland, Iceland, Latvia, Lithuania, Norway, Aland Islands.",
+        "geoextent": "International",
+        "geocoverage": [
+            "Community"
+        ],
+        "geocoverage_codes": [],
+        "lead_organisation": {
+            "name": "",
+            "category": ""
+        },
+        "lead_organisation_name": "",
+        "lead_organisation_category": "",
+        "start_date": "",
+        "active": "",
+        "end_date": "",
+        "primary_sector": "",
+        "secondary_sector": "",
+        "technology": "Artificial intelligence",
+        "uptake": "Unknown",
+        "cross_border": "",
+        "cross_sector": "",
+        "type": "",
+        "status": "In development"
+    },
+    {
+        "cid": 10007,
+        "id": 70068,
+        "name": "YPO, Procurement Information Provider",
+        "url": "https:\/\/www.ukauthority.com\/articles\/ypo-launches-procurement-chatbot\/",
+        "contact": "",
+        "description": "YPO has introduced a chatbot - the Procurement Information Provider (PIP) to help public sector buyers navigate their way through YPO's services and discover the frameworks on offer. The chatbot can provide information from other areas of the website and direct users to relevant procurement teams.",
+        "geoextent": "National",
+        "geocoverage": [
+            "United Kingdom"
+        ],
+        "geocoverage_codes": [
+            "GB"
+        ],
+        "lead_organisation": {
+            "name": "",
+            "category": ""
+        },
+        "lead_organisation_name": "",
+        "lead_organisation_category": "",
+        "start_date": "",
+        "active": "",
+        "end_date": "",
+        "primary_sector": "",
+        "secondary_sector": "",
+        "technology": "Artificial intelligence",
+        "uptake": "Unknown",
+        "cross_border": "",
+        "cross_sector": "",
+        "type": "",
+        "status": "In production"
+    },
+    {
+        "cid": 10007,
+        "id": 70069,
+        "name": "World Bank, Global public procurement database",
+        "url": "",
+        "contact": "",
+        "description": "The project team considered options on how to create a publicly available online database of information on country public procurement systems, including country eProcurement implementations, across the world. One of their key findings was that the design of the system to make use of artificial intelligence capabilities such as natural language processing (NPL) combined with machine learning could significantly reduce the Level of Effort (LoE) associated with data collection from public procurement agency annual reports and other country-specific documentation. On the other hand, they found that there would be little advantage to deploying the system over a blockchain database compared to a traditional centralised database.",
+        "geoextent": "International",
+        "geocoverage": [
+            "Community"
+        ],
+        "geocoverage_codes": [],
+        "lead_organisation": {
+            "name": "",
+            "category": ""
+        },
+        "lead_organisation_name": "",
+        "lead_organisation_category": "",
+        "start_date": "",
+        "active": "",
+        "end_date": "",
+        "primary_sector": "",
+        "secondary_sector": "",
+        "technology": "Artificial intelligence",
+        "uptake": "Unknown",
+        "cross_border": "",
+        "cross_sector": "",
+        "type": "",
+        "status": "In development"
+    },
+    {
+        "cid": 10007,
+        "id": 70070,
+        "name": "World Bank, AI integrity tool",
+        "url": "http:\/\/blogs.worldbank.org\/governance\/can-artificial-intelligence-stop-corruption-its-tracks",
+        "contact": "",
+        "description": "Working with Microsoft, the World Bank used AI technology to analyse world bank procurement data and detect patterns that hint at corrupt behaviour. They are looking at how this data could be complemented by other datasets in order to detect and mitigate corruption risks.",
+        "geoextent": "International",
+        "geocoverage": [
+            "Community"
+        ],
+        "geocoverage_codes": [],
+        "lead_organisation": {
+            "name": "",
+            "category": ""
+        },
+        "lead_organisation_name": "",
+        "lead_organisation_category": "",
+        "start_date": "",
+        "active": "",
+        "end_date": "",
+        "primary_sector": "",
+        "secondary_sector": "",
+        "technology": "Artificial intelligence",
+        "uptake": "Unknown",
+        "cross_border": "",
+        "cross_sector": "",
+        "type": "",
+        "status": "Pilot"
+    },
+    {
+        "cid": 10007,
+        "id": 70071,
+        "name": "Hansel Oy, Explore state spending",
+        "url": "https:\/\/tutkihankintoja.fi\/?lang=en",
+        "contact": "",
+        "description": "The \u201cexplore state spending\u201d website (https:\/\/tutkihankintoja.fi\/?lang=en) allows citizens and companies to explore data on government spending. Users can search according to different types of procurement spending (e.g. ICT procurement, administrative services, machinery, equipment and transport equipment, etc). AI technology is used in order to categorise the procurement spending. Other forms of analysis using AI technologies are also done on the data for the benefit just of procurement authorities.",
+        "geoextent": "National",
+        "geocoverage": [
+            "Finland"
+        ],
+        "geocoverage_codes": [
+            "FI"
+        ],
+        "lead_organisation": {
+            "name": "",
+            "category": ""
+        },
+        "lead_organisation_name": "",
+        "lead_organisation_category": "",
+        "start_date": "",
+        "active": "",
+        "end_date": "",
+        "primary_sector": "",
+        "secondary_sector": "",
+        "technology": "Artificial intelligence",
+        "uptake": "Unknown",
+        "cross_border": "",
+        "cross_sector": "",
+        "type": "",
+        "status": "In production"
+    },
+    {
+        "cid": 10007,
+        "id": 70072,
+        "name": "Predicting Public Corruption with Neural Networks",
+        "url": "https:\/\/www.researchgate.net\/publication\/321222117_Predicting_Public_Corruption_with_Neural_Networks_An_Analysis_of_Spanish_Provinces",
+        "contact": "",
+        "description": "This research project used a neural network approach to predict public corruption based on economic and political factors, using data on actual cases of corruption. The model is applied to Spanish provinces in which actual cases of corruption were reported by the media or went to court between 2000 and 2012. The model finds that the taxation of real estate, economic growth, the increase in real estate prices, the growing number of deposit institutions and nonfinancial firms, and the same political party remaining in power for long periods seem to induce public corruption",
+        "geoextent": "National",
+        "geocoverage": [
+            "Spain"
+        ],
+        "geocoverage_codes": [
+            "ES"
+        ],
+        "lead_organisation": {
+            "name": "",
+            "category": ""
+        },
+        "lead_organisation_name": "",
+        "lead_organisation_category": "",
+        "start_date": "",
+        "active": "",
+        "end_date": "",
+        "primary_sector": "",
+        "secondary_sector": "",
+        "technology": "Artificial intelligence",
+        "uptake": "Unknown",
+        "cross_border": "",
+        "cross_sector": "",
+        "type": "",
+        "status": "In production"
+    },
+    {
+        "cid": 10007,
+        "id": 70073,
+        "name": "National Agency for the Digital Agenda of Romania (AADR), Chatbot project",
+        "url": "",
+        "contact": "",
+        "description": "The AADR is reportedly developing a chatbot to help navigate public procurement processes.",
+        "geoextent": "National",
+        "geocoverage": [
+            "Romania"
+        ],
+        "geocoverage_codes": [
+            "RO"
+        ],
+        "lead_organisation": {
+            "name": "",
+            "category": ""
+        },
+        "lead_organisation_name": "",
+        "lead_organisation_category": "",
+        "start_date": "",
+        "active": "",
+        "end_date": "",
+        "primary_sector": "",
+        "secondary_sector": "",
+        "technology": "Artificial intelligence",
+        "uptake": "Unknown",
+        "cross_border": "",
+        "cross_sector": "",
+        "type": "",
+        "status": "In development"
+    },
+    {
+        "cid": 10007,
+        "id": 70074,
+        "name": "Consip, Mepa watch",
+        "url": "",
+        "contact": "",
+        "description": "The project aims to gain a better understanding of what is happening on the Consip platform and catalogue. It observes behaviours by users and uses these observations to make recommendations on training, improvements to the catalogue, propose new ways to interact, identify collusion etc. To do this, Consip are making use of IBM\u2019s Watson technology. They make use of its natural language and image detection abilities in order to detect aspects such as whether the correct information is being put on their system (e.g. correct codes for products). It can also conduct an ex-post analysis in order to understand the behaviour of users. The project is still at an early phase, so there no results yet. A pilot phase should begin in Q3 2019.",
+        "geoextent": "National",
+        "geocoverage": [
+            "Italy"
+        ],
+        "geocoverage_codes": [
+            "IT"
+        ],
+        "lead_organisation": {
+            "name": "",
+            "category": ""
+        },
+        "lead_organisation_name": "",
+        "lead_organisation_category": "",
+        "start_date": "",
+        "active": "",
+        "end_date": "",
+        "primary_sector": "",
+        "secondary_sector": "",
+        "technology": "Artificial intelligence",
+        "uptake": "Unknown",
+        "cross_border": "",
+        "cross_sector": "",
+        "type": "",
+        "status": "In development"
+    },
+    {
+        "cid": 10007,
+        "id": 70075,
+        "name": "Consip, Sentiment analysis of buyers and suppliers",
+        "url": "",
+        "contact": "",
+        "description": "In part because the Consip platform is a mandatory platform for buyers, it is very important that they have information on how their users view them. In order to get this information, they are experimenting with AI capabilities to understand the reactions of their users to new tenders etc using a variety of data sources.\n\nThey are making use of a machine learning platform enabling sentiment analysis of buyers and suppliers regarding the Consip platform. During the pilot phase data from twitter (as the data is open) is collected and analysed to provide quick feedback on how users react to new tenders etc. The system gives a positive, neutral or negative categorisation to the different sentiments expressed in the relevant tweets. The pilot is due to end in Summer 2018, with first results by the end of July. A decision on whether to scale up the pilot will be taken by September.  This could involve using a range of additional data sources (facebook, linked-in etc)",
+        "geoextent": "National",
+        "geocoverage": [
+            "Italy"
+        ],
+        "geocoverage_codes": [
+            "IT"
+        ],
+        "lead_organisation": {
+            "name": "",
+            "category": ""
+        },
+        "lead_organisation_name": "",
+        "lead_organisation_category": "",
+        "start_date": "",
+        "active": "",
+        "end_date": "",
+        "primary_sector": "",
+        "secondary_sector": "",
+        "technology": "Artificial intelligence",
+        "uptake": "Unknown",
+        "cross_border": "",
+        "cross_sector": "",
+        "type": "",
+        "status": "Pilot"
+    },
+    {
+        "cid": 10007,
+        "id": 70076,
+        "name": "GSA, RPA Project",
+        "url": "https:\/\/federalnewsnetwork.com\/technology-main\/2018\/03\/how-gsa-turned-an-automation-project-into-a-acquisition-time-saver\/",
+        "contact": "",
+        "description": "General Services Administration trialled RPA tools to ensure that employees were not spending time on tasks that could be better performed by robots. The tasks included pulling information on vendors, including checking whether they were eligible to do business with the government, determining their offerings and using this information to populate a pre-negotiation memo.",
+        "geoextent": "National",
+        "geocoverage": [
+            "USA"
+        ],
+        "geocoverage_codes": [],
+        "lead_organisation": {
+            "name": "",
+            "category": ""
+        },
+        "lead_organisation_name": "",
+        "lead_organisation_category": "",
+        "start_date": "",
+        "active": "",
+        "end_date": "",
+        "primary_sector": "",
+        "secondary_sector": "",
+        "technology": "Artificial intelligence",
+        "uptake": "Unknown",
+        "cross_border": "",
+        "cross_sector": "",
+        "type": "",
+        "status": "Pilot"
+    },
+    {
+        "cid": 10007,
+        "id": 70077,
+        "name": "Hansel Oy, eNest solution",
+        "url": "https:\/\/www.handi.fi\/projektit\/procurement-data\/?lang=en;",
+        "contact": "",
+        "description": "Under the new eNest solution, verification of information provided by suppliers against official records will be done automatically during the tendering process. The system will use the European Single Procurement Document as a standard, which will mean that service providers do not need to attach official records to tenders.",
+        "geoextent": "National",
+        "geocoverage": [
+            "Finland"
+        ],
+        "geocoverage_codes": [
+            "FI"
+        ],
+        "lead_organisation": {
+            "name": "",
+            "category": ""
+        },
+        "lead_organisation_name": "",
+        "lead_organisation_category": "",
+        "start_date": "",
+        "active": "",
+        "end_date": "",
+        "primary_sector": "",
+        "secondary_sector": "",
+        "technology": "Artificial intelligence",
+        "uptake": "Unknown",
+        "cross_border": "",
+        "cross_sector": "",
+        "type": "",
+        "status": "In development"
+    },
+    {
+        "cid": 10007,
+        "id": 70078,
+        "name": "Palkeet, RPA Project",
+        "url": "https:\/\/www.norian.eu\/palkeet-expand-highly-successful-software-robotics-cooperation-norian\/",
+        "contact": "",
+        "description": "The Finnish Government Shared Services Centre for Finance and HR (Palkeet) have delivered a project aimed at automating business processes with software robotics. Tasks that have been automated include purchase invoice validation and supplier register maintenance etc. This was the first major Robotic Process Automation (RPA) implementation in Finnish public sector. The project is part of a wider digitalization initiative by the Finnish government.",
+        "geoextent": "National",
+        "geocoverage": [
+            "Finland"
+        ],
+        "geocoverage_codes": [
+            "FI"
+        ],
+        "lead_organisation": {
+            "name": "",
+            "category": ""
+        },
+        "lead_organisation_name": "",
+        "lead_organisation_category": "",
+        "start_date": "",
+        "active": "",
+        "end_date": "",
+        "primary_sector": "",
+        "secondary_sector": "",
+        "technology": "Artificial intelligence",
+        "uptake": "Unknown",
+        "cross_border": "",
+        "cross_sector": "",
+        "type": "",
+        "status": "In development"
+    },
+    {
+        "cid": 10007,
+        "id": 70079,
+        "name": "Ministry of Finance, mTender",
+        "url": "",
+        "contact": "",
+        "description": "With support from the EBRD, the Moldovan Government developed an open source electronic procurement system for electronic open tender, reverse auctions, aggregated procurement planning and online framework agreements. The system makes use of the open contracting data standard. It provides a fully digitised procurement planning tool, which reportedly automates (using robotic process automation) tracking of execution of contracts.",
+        "geoextent": "National",
+        "geocoverage": [
+            "Moldova"
+        ],
+        "geocoverage_codes": [
+            "MD"
+        ],
+        "lead_organisation": {
+            "name": "",
+            "category": ""
+        },
+        "lead_organisation_name": "",
+        "lead_organisation_category": "",
+        "start_date": "",
+        "active": "",
+        "end_date": "",
+        "primary_sector": "",
+        "secondary_sector": "",
+        "technology": "Artificial intelligence",
+        "uptake": "Unknown",
+        "cross_border": "",
+        "cross_sector": "",
+        "type": "",
+        "status": "In production"
+    },
+    {
+        "cid": 10007,
+        "id": 70080,
+        "name": "Department of Defense, IoT Asset Tracking",
+        "url": "https:\/\/ec.europa.eu\/cefdigital\/wiki\/display\/CEFDIGITAL\/2018\/06\/13\/Finland+is+using+AI+in+attempt+to+achieve+one-hundred+per+cent+eInvoicing",
+        "contact": "",
+        "description": "Two new devices with active RFID transponders and interrogators available for use by the US Department of Defense (DoD), NATO, and Federal Government agencies. Sensors pinpoint the location of vehicles, weapons, heavy equipment, technical tools and supplies from moment to moment and can provide streaming real-team data on the count, location and condition of these assets.",
+        "geoextent": "National",
+        "geocoverage": [
+            "USA"
+        ],
+        "geocoverage_codes": [],
+        "lead_organisation": {
+            "name": "",
+            "category": ""
+        },
+        "lead_organisation_name": "",
+        "lead_organisation_category": "",
+        "start_date": "",
+        "active": "",
+        "end_date": "",
+        "primary_sector": "",
+        "secondary_sector": "",
+        "technology": "Internet of things",
+        "uptake": "Unknown",
+        "cross_border": "",
+        "cross_sector": "",
+        "type": "",
+        "status": "In development"
+    },
+    {
+        "cid": 10007,
+        "id": 70081,
+        "name": "Department of Defense, 3D Printing",
+        "url": "https:\/\/gcn.com\/Articles\/2017\/05\/15\/DOD-blockchain-3D-printing.aspx",
+        "contact": "",
+        "description": "The Department of Defense has been experimenting with 3D printing to allow soldiers in combat zones to repair damaged parts of aircrafts and ground vehicles. To solve the issue of intellectual property rights of the vendor being violated, it has been proposed to incorporate blockchain in the 3D printing process, that would securely log every part produced in a combat zone, and the Department could pay the vendor accordingly. 3D printing would also help the forces streamline supply chains by making the parts where they are needed.",
+        "geoextent": "National",
+        "geocoverage": [
+            "USA"
+        ],
+        "geocoverage_codes": [],
+        "lead_organisation": {
+            "name": "",
+            "category": ""
+        },
+        "lead_organisation_name": "",
+        "lead_organisation_category": "",
+        "start_date": "",
+        "active": "",
+        "end_date": "",
+        "primary_sector": "",
+        "secondary_sector": "",
+        "technology": "Artificial intelligence",
+        "uptake": "Unknown",
+        "cross_border": "",
+        "cross_sector": "",
+        "type": "",
+        "status": "In development"
+    },
+    {
+        "cid": 10007,
+        "id": 70082,
+        "name": "Deutsche Bahn, 3D Printing",
+        "url": "https:\/\/www.deutschebahn.com\/en\/Digitalization\/DB_Digital\/productworld\/3dprint-1214672",
+        "contact": "",
+        "description": "At the end of 2015, Deutsche Bahn made use of its first 3D printed part - a coat hook. Since then, DB has printed more than 4,500 spare parts and other products. By the end of 2018, 15,000 were expected to have been produced. It prints spare parts for older vehicles or systems in the infrastructure sector, which are no longer or only with difficulty deliverable. These include, for example, ventilation grilles, headrests, coat hooks or cable boxes.",
+        "geoextent": "National",
+        "geocoverage": [
+            "Germany"
+        ],
+        "geocoverage_codes": [
+            "DE"
+        ],
+        "lead_organisation": {
+            "name": "",
+            "category": ""
+        },
+        "lead_organisation_name": "",
+        "lead_organisation_category": "",
+        "start_date": "",
+        "active": "",
+        "end_date": "",
+        "primary_sector": "",
+        "secondary_sector": "",
+        "technology": "Artificial intelligence",
+        "uptake": "Unknown",
+        "cross_border": "",
+        "cross_sector": "",
+        "type": "",
+        "status": "In development"
+    },
+    {
+        "cid": 10007,
+        "id": 70083,
+        "name": "Nederlandse Sporten, 3D Printing",
+        "url": "https:\/\/nieuws.ns.nl\/ns-zet-stap-in-de-wereld-van-3d-printen\/",
+        "contact": "",
+        "description": "The partnership has actually been in place for several months. It initially allowed Dutch Railways to learn about and experiment with the possibilities of 3D printing and the quality of the parts that it could produce. The railway system selected and re-engineered a few parts, which were then 3D printed by DiManEx to the specifications provided by Dutch Railways. Mandatory quality control tests were then performed, and the approved part was then used in trains.",
+        "geoextent": "National",
+        "geocoverage": [
+            "Netherlands"
+        ],
+        "geocoverage_codes": [
+            "NL"
+        ],
+        "lead_organisation": {
+            "name": "",
+            "category": ""
+        },
+        "lead_organisation_name": "",
+        "lead_organisation_category": "",
+        "start_date": "",
+        "active": "",
+        "end_date": "",
+        "primary_sector": "",
+        "secondary_sector": "",
+        "technology": "Artificial intelligence",
+        "uptake": "Unknown",
+        "cross_border": "",
+        "cross_sector": "",
+        "type": "",
+        "status": "In development"
+    },
+    {
+        "cid": 10007,
+        "id": 70084,
+        "name": "Material Stock Logistic Command of the Dutch Army, 3D Printing roadmap",
+        "url": "https:\/\/www.dimanex.com\/2018\/05\/14\/dutch-army-starts-cooperation-with-dimanex-to-solve-spare-part-supply-challenges-with-an-end-to-end-service-for-3d-manufacturing\/",
+        "contact": "",
+        "description": "Additive Manufacturing (AM), also known as \u201c3D printing,\u201d is a technology that has advanced considerably in recent years. The Dutch Ministry of Defense has been experimenting with the technology for some time. Their ambition is to embed AM into their operations in a streamlined manner. In order to do so, the army\u2019s Material Stock Logistic Command (MatLogCo) has recently presented a roadmap for implementation. A new AM Center will be created within this command division to foster capacity and knowledge building, aiming to cover the institution\u2019s needs in the field of AM.",
+        "geoextent": "National",
+        "geocoverage": [
+            "Netherlands"
+        ],
+        "geocoverage_codes": [
+            "NL"
+        ],
+        "lead_organisation": {
+            "name": "",
+            "category": ""
+        },
+        "lead_organisation_name": "",
+        "lead_organisation_category": "",
+        "start_date": "",
+        "active": "",
+        "end_date": "",
+        "primary_sector": "",
+        "secondary_sector": "",
+        "technology": "Artificial intelligence",
+        "uptake": "Unknown",
+        "cross_border": "",
+        "cross_sector": "",
+        "type": "",
+        "status": "In development"
+    },
+    {
+        "cid": 10007,
+        "id": 70085,
+        "name": "Agency for Nature and Forestry (ANB) and Department for Mobility and Public Works (MOW), Public spatial planning projects",
+        "url": "http:\/\/www.innovatieveoverheidsopdrachten.be\/en\/projects\/public-spatial-planning-projects-augmented-and-virtual-reality",
+        "contact": "",
+        "description": "The agencies are looking into how AR\/VR could be used to visualise \"Large-scale road works, urban development projects, landscape preservation or nature development project\". These technologies would be used to enable citizens to experience the project in a virtual way. The feedback from citizens from this experience would be \u201ccollected and lead to useful input and timely adjustments\u201d.",
+        "geoextent": "National",
+        "geocoverage": [
+            "Belgium"
+        ],
+        "geocoverage_codes": [
+            "BE"
+        ],
+        "lead_organisation": {
+            "name": "",
+            "category": ""
+        },
+        "lead_organisation_name": "",
+        "lead_organisation_category": "",
+        "start_date": "",
+        "active": "",
+        "end_date": "",
+        "primary_sector": "",
+        "secondary_sector": "",
+        "technology": "Artificial intelligence",
+        "uptake": "Unknown",
+        "cross_border": "",
+        "cross_sector": "",
+        "type": "",
+        "status": "In development"
+    },
+    {
+        "cid": 10007,
+        "id": 70086,
+        "name": "Helsinki city council, Urban planning project",
+        "url": "https:\/\/vttblog.com\/2018\/01\/08\/augmented-reality-urban-data-and-the-related-opportunities\/",
+        "contact": "",
+        "description": "VTT Technical Research Centre in Finland, has developed mobile AR tools which allow city planners to see the buildings that they are providing or declining approval for. These tools have been used by Helsinki city council planners when assessing the development of several buildings within the city, including a tower and a hotel.",
+        "geoextent": "National",
+        "geocoverage": [
+            "Finland"
+        ],
+        "geocoverage_codes": [
+            "FI"
+        ],
+        "lead_organisation": {
+            "name": "",
+            "category": ""
+        },
+        "lead_organisation_name": "",
+        "lead_organisation_category": "",
+        "start_date": "",
+        "active": "",
+        "end_date": "",
+        "primary_sector": "",
+        "secondary_sector": "",
+        "technology": "Artificial intelligence",
+        "uptake": "Unknown",
+        "cross_border": "",
+        "cross_sector": "",
+        "type": "",
+        "status": "In production"
+    },
+    {
+        "cid": 10007,
+        "id": 70087,
+        "name": "Digibygg project",
+        "url": "http:\/\/www.bygg.no\/article\/1381510?image=dp-image121202-1381521",
+        "contact": "",
+        "description": "The Digibygg project is a pilot project for testing the use of a number of different digital tools for construction. As part of this project a utility station and 24-hour rest room was constucted in a project that was described as the \"most digital building project of all time\". One of the digital technologies tested was the use of VR and AR in order to visualise the building.",
+        "geoextent": "National",
+        "geocoverage": [
+            "Norway"
+        ],
+        "geocoverage_codes": [
+            "NO"
+        ],
+        "lead_organisation": {
+            "name": "",
+            "category": ""
+        },
+        "lead_organisation_name": "",
+        "lead_organisation_category": "",
+        "start_date": "",
+        "active": "",
+        "end_date": "",
+        "primary_sector": "",
+        "secondary_sector": "",
+        "technology": "Artificial intelligence",
+        "uptake": "Unknown",
+        "cross_border": "",
+        "cross_sector": "",
+        "type": "",
+        "status": "Pilot"
+    },
+    {
+        "cid": 10007,
+        "id": 70088,
+        "name": "Imerso pilot project",
+        "url": "https:\/\/www.dn.no\/morgendagens-naringsliv\/imerso\/statsbygg\/sarah-muller\/hun-sjekket-hver-millimeter-av-12000-kvadratmeter-pa-en-dag\/2-1-428362",
+        "contact": "",
+        "description": "This project with Imerso involves the use of digital models to ensure that the building being constructud matches the initial plans. The project makes use of laser scanners to check the conformity of the building. Statsbygg believe that this technology can produce savings \"in the hundred million\" as it can prevent snowballing errors in construction.",
+        "geoextent": "National",
+        "geocoverage": [
+            "Norway"
+        ],
+        "geocoverage_codes": [
+            "NO"
+        ],
+        "lead_organisation": {
+            "name": "",
+            "category": ""
+        },
+        "lead_organisation_name": "",
+        "lead_organisation_category": "",
+        "start_date": "",
+        "active": "",
+        "end_date": "",
+        "primary_sector": "",
+        "secondary_sector": "",
+        "technology": "Artificial intelligence",
+        "uptake": "Unknown",
+        "cross_border": "",
+        "cross_sector": "",
+        "type": "",
+        "status": "Pilot"
+    },
+    {
+        "cid": 10007,
+        "id": 70089,
+        "name": "Department of Budget and Management, Project DIME",
+        "url": "https:\/\/govinsider.asia\/innovation\/women-in-govtech-2018-lilia-guillermo-the-chief-information-officer-of-the-department-of-budget-and-management\/",
+        "contact": "",
+        "description": "Under Project DIME (Digital Imaging for Monitoring and Evaluation), the department is using technologies including drones, LIDAR, and satellites, as well as geo-tagging applications to monitor project progress against fund utilisation for selected high value government projects developing physical infrastructure. In 2018, 75 projects are being monitored under the programme.",
+        "geoextent": "National",
+        "geocoverage": [
+            "Philippines"
+        ],
+        "geocoverage_codes": [
+            "PH"
+        ],
+        "lead_organisation": {
+            "name": "",
+            "category": ""
+        },
+        "lead_organisation_name": "",
+        "lead_organisation_category": "",
+        "start_date": "",
+        "active": "",
+        "end_date": "",
+        "primary_sector": "",
+        "secondary_sector": "",
+        "technology": "Artificial intelligence",
+        "uptake": "Unknown",
+        "cross_border": "",
+        "cross_sector": "",
+        "type": "",
+        "status": "In development"
+    },
+    {
+        "cid": 10007,
+        "id": 70090,
+        "name": "Digibygg, Digitised construction project",
+        "url": "http:\/\/www.bygg.no\/article\/1381510?image=dp-image121202-1381521",
+        "contact": "",
+        "description": "The Digibygg project is a pilot project for testing the use of a number of different digital tools for construction. As part of this project a utility station and 24-hour rest room was constucted in a project that was described as the \"most digital building project of all time\". One of the digital technologies tested was the use of VR and AR in order to visualise the building.",
+        "geoextent": "National",
+        "geocoverage": [
+            "Norway"
+        ],
+        "geocoverage_codes": [
+            "NO"
+        ],
+        "lead_organisation": {
+            "name": "",
+            "category": ""
+        },
+        "lead_organisation_name": "",
+        "lead_organisation_category": "",
+        "start_date": "",
+        "active": "",
+        "end_date": "",
+        "primary_sector": "",
+        "secondary_sector": "",
+        "technology": "Artificial intelligence",
+        "uptake": "Unknown",
+        "cross_border": "",
+        "cross_sector": "",
+        "type": "",
+        "status": "Pilot"
+    },
+    {
+        "cid": 10007,
+        "id": 70091,
+        "name": "Statsbygg, Imerso pilot project",
+        "url": "https:\/\/www.dn.no\/morgendagens-naringsliv\/imerso\/statsbygg\/sarah-muller\/hun-sjekket-hver-millimeter-av-12000-kvadratmeter-pa-en-dag\/2-1-428362",
+        "contact": "",
+        "description": "This project with Imerso involves the use of digital models to ensure that the building being constructed matches the initial plans. The project makes use of laser scanners to check the conformity of the building. Statsbygg believe that this technology can produce savings \"in the hundred million\" as it can prevent snowballing errors in construction.",
+        "geoextent": "National",
+        "geocoverage": [
+            "Norway"
+        ],
+        "geocoverage_codes": [
+            "NO"
+        ],
+        "lead_organisation": {
+            "name": "",
+            "category": ""
+        },
+        "lead_organisation_name": "",
+        "lead_organisation_category": "",
+        "start_date": "",
+        "active": "",
+        "end_date": "",
+        "primary_sector": "",
+        "secondary_sector": "",
+        "technology": "Artificial intelligence",
+        "uptake": "Unknown",
+        "cross_border": "",
+        "cross_sector": "",
+        "type": "",
+        "status": "Pilot"
+    },
+    {
+        "cid": 10007,
+        "id": 70092,
+        "name": "Portuguese Institute of Oncology of Lisbon, Purchasing management Platform",
+        "url": "",
+        "contact": "",
+        "description": "The projects aims to modernise procurement using robotic process automation and blockchain. Tasks to be automated using robotic proces automation include request approval, compilation of documents, and approval of suppliers. Using blockchain, the project seeks to make procurement more secure and increase the traceability of information.",
+        "geoextent": "National",
+        "geocoverage": [
+            "Portugal"
+        ],
+        "geocoverage_codes": [
+            "PT"
+        ],
+        "lead_organisation": {
+            "name": "",
+            "category": ""
+        },
+        "lead_organisation_name": "",
+        "lead_organisation_category": "",
+        "start_date": "",
+        "active": "",
+        "end_date": "",
+        "primary_sector": "",
+        "secondary_sector": "",
+        "technology": "Artificial intelligence",
+        "uptake": "Unknown",
+        "cross_border": "",
+        "cross_sector": "",
+        "type": "",
+        "status": "In development"
+    },
+    {
+        "cid": 10007,
+        "id": 70093,
+        "name": "Comptroller General of the Republic of Costa Rica, Blockchain project",
+        "url": "",
+        "contact": "",
+        "description": "The government agency is considering updating the their existing Electronic Public Procurement Integrated System (SICOP) to include blockchain technology. Blockchain is to be used to \"increase the security and control of public procurement processes\" in the \"pre-control functions (pre-bid stage and bankruptcy)\". The new technology would also \"facilitate the audit tasks that it carries out as part of its subsequent controls, by being able to review with certainty the chains of information that could be applied in all or parts of the public contracts of the State Administrations.\"",
+        "geoextent": "National",
+        "geocoverage": [
+            "Costa Rica"
+        ],
+        "geocoverage_codes": [
+            "CR"
+        ],
+        "lead_organisation": {
+            "name": "",
+            "category": ""
+        },
+        "lead_organisation_name": "",
+        "lead_organisation_category": "",
+        "start_date": "",
+        "active": "",
+        "end_date": "",
+        "primary_sector": "",
+        "secondary_sector": "",
+        "technology": "Blockchain",
+        "uptake": "Unknown",
+        "cross_border": "",
+        "cross_sector": "",
+        "type": "",
+        "status": "In development"
+    },
+    {
+        "cid": 10007,
+        "id": 70094,
+        "name": "Competition and Markets Authority, Cartel screening tool",
+        "url": "https:\/\/www.gov.uk\/government\/publications\/screening-for-cartels-tool-for-procurers",
+        "contact": "",
+        "description": "The Competition and Markets Authority has produced a free tool to help spot unusual bidder behaviour and pricing patterns identified in past cartels. It will indicate which, if any, of your procurement exercises show any signs of bid-rigging.",
+        "geoextent": "National",
+        "geocoverage": [
+            "UK"
+        ],
+        "geocoverage_codes": [],
+        "lead_organisation": {
+            "name": "",
+            "category": ""
+        },
+        "lead_organisation_name": "",
+        "lead_organisation_category": "",
+        "start_date": "",
+        "active": "",
+        "end_date": "",
+        "primary_sector": "",
+        "secondary_sector": "",
+        "technology": "Data analytics",
+        "uptake": "Unknown",
+        "cross_border": "",
+        "cross_sector": "",
+        "type": "",
+        "status": "In production"
+    },
+    {
+        "cid": 10007,
+        "id": 70095,
+        "name": "Internal Revenue Service",
+        "url": "",
+        "contact": "",
+        "description": "The IRS is reportedly making use of RPA to automate some aspects of procurement",
+        "geoextent": "National",
+        "geocoverage": [
+            "USA"
+        ],
+        "geocoverage_codes": [],
+        "lead_organisation": {
+            "name": "",
+            "category": ""
+        },
+        "lead_organisation_name": "",
+        "lead_organisation_category": "",
+        "start_date": "",
+        "active": "",
+        "end_date": "",
+        "primary_sector": "",
+        "secondary_sector": "",
+        "technology": "Artificial intelligence",
+        "uptake": "Unknown",
+        "cross_border": "",
+        "cross_sector": "",
+        "type": "",
+        "status": "Pilot"
+    },
+    {
+        "cid": 10007,
+        "id": 70096,
+        "name": "Korean Public Procurement Service, Product Management System",
+        "url": "https:\/\/www.pps.go.kr\/bbs\/selectBoard.do?boardSeqNo=25&pageIndex=1&boardId=ENG005",
+        "contact": "",
+        "description": "The Public procurement service has upgraded their product management system with AI technology. The new system uses \"deep learning\" capabilities to predict the quanitites of products needed for the next year's purchase.",
+        "geoextent": "National",
+        "geocoverage": [
+            "South Korea"
+        ],
+        "geocoverage_codes": [],
+        "lead_organisation": {
+            "name": "",
+            "category": ""
+        },
+        "lead_organisation_name": "",
+        "lead_organisation_category": "",
+        "start_date": "",
+        "active": "",
+        "end_date": "",
+        "primary_sector": "",
+        "secondary_sector": "",
+        "technology": "Artificial intelligence",
+        "uptake": "Unknown",
+        "cross_border": "",
+        "cross_sector": "",
+        "type": "",
+        "status": "In production"
+    },
+    {
+        "cid": 10007,
+        "id": 70097,
+        "name": "European Blockchain Partnership - \nConsultation for new use cases for EBSI",
+        "url": "https:\/\/www.blockchaineconomia.es\/aragon-contratacion-blockchain\/",
+        "contact": "",
+        "description": "This use case scope is the adoption of blockchain to improve the public procurement. The main objective is to enable the registration of an offer in a distributed ledger network; i.e. using it as an electronic mean of submission of tenders, mandatory according with art. 22 Directive 2014\/24\/EU. As additional objective, it aims to improve the transparency of the public procurement process and ease (automate when possible) the awarding process.",
+        "geoextent": "National",
+        "geocoverage": [
+            "Spain"
+        ],
+        "geocoverage_codes": [
+            "ES"
+        ],
+        "lead_organisation": {
+            "name": "",
+            "category": ""
+        },
+        "lead_organisation_name": "",
+        "lead_organisation_category": "",
+        "start_date": "",
+        "active": "",
+        "end_date": "",
+        "primary_sector": "",
+        "secondary_sector": "",
+        "technology": "Blockchain",
+        "uptake": "Unknown",
+        "cross_border": "",
+        "cross_sector": "",
+        "type": "",
+        "status": "In development"
+    },
+    {
+        "cid": 10007,
+        "id": 70098,
+        "name": "Provide consultancy services on Blockchain technology",
+        "url": "https:\/\/ted.europa.eu\/udl?uri=TED:NOTICE:413421-2019:TEXT:EN:HTML",
+        "contact": "",
+        "description": "Provide consultancy services on Blockchain technology",
+        "geoextent": "National",
+        "geocoverage": [
+            "Portugal"
+        ],
+        "geocoverage_codes": [
+            "PT"
+        ],
+        "lead_organisation": {
+            "name": "",
+            "category": ""
+        },
+        "lead_organisation_name": "",
+        "lead_organisation_category": "",
+        "start_date": "",
+        "active": "",
+        "end_date": "",
+        "primary_sector": "",
+        "secondary_sector": "",
+        "technology": "Blockchain",
+        "uptake": "Unknown",
+        "cross_border": "",
+        "cross_sector": "",
+        "type": "",
+        "status": "Unknown"
+    },
+    {
+        "cid": 10007,
+        "id": 70099,
+        "name": "Provision of artificial intelligence consulting services",
+        "url": "https:\/\/ted.europa.eu\/udl?uri=TED:NOTICE:486993-2019:TEXT:EN:HTML&tabId=0",
+        "contact": "",
+        "description": "Provision of artificial intelligence consulting services",
+        "geoextent": "National",
+        "geocoverage": [
+            "Portugal"
+        ],
+        "geocoverage_codes": [
+            "PT"
+        ],
+        "lead_organisation": {
+            "name": "",
+            "category": ""
+        },
+        "lead_organisation_name": "",
+        "lead_organisation_category": "",
+        "start_date": "",
+        "active": "",
+        "end_date": "",
+        "primary_sector": "",
+        "secondary_sector": "",
+        "technology": "Artificial intelligence",
+        "uptake": "Unknown",
+        "cross_border": "",
+        "cross_sector": "",
+        "type": "",
+        "status": "Unknown"
+    },
+    {
+        "cid": 10007,
+        "id": 70100,
+        "name": "Acquisition of the provision of services using IOT",
+        "url": "https:\/\/dre.pt\/application\/file\/124976793",
+        "contact": "",
+        "description": "Acquisition of the provision of services for the provision, management of collection, cleaning and maintenance of used food oil deposition equipment from the domestic sector, with interaction by IOT system, in the modality continuous supply.",
+        "geoextent": "National",
+        "geocoverage": [
+            "Portugal"
+        ],
+        "geocoverage_codes": [
+            "PT"
+        ],
+        "lead_organisation": {
+            "name": "",
+            "category": ""
+        },
+        "lead_organisation_name": "",
+        "lead_organisation_category": "",
+        "start_date": "",
+        "active": "",
+        "end_date": "",
+        "primary_sector": "",
+        "secondary_sector": "",
+        "technology": "Internet of things",
+        "uptake": "Unknown",
+        "cross_border": "",
+        "cross_sector": "",
+        "type": "",
+        "status": "Unknown"
+    },
+    {
+        "cid": 10007,
+        "id": 70101,
+        "name": "Estonian Blockchain Technology",
+        "url": "https:\/\/toolbox.estonia.ee\/media\/1921",
+        "contact": "",
+        "description": "2017 \u2013 data embassy in Luxembourg was established. Data Embassy is an extension in the cloud of the Estonian government, which means the state owns server resources outside its territorial boundaries. This is an innovative concept for handling state information, since states usually store their information within their physical boundaries. Data Embassy resources are under Estonian state control. They are secured against cyberattacks or crisis situations with Blockchain technology and are capable of not only providing data backups, but also operating the most critical services.",
+        "geoextent": "National",
+        "geocoverage": [
+            "Estonia"
+        ],
+        "geocoverage_codes": [
+            "EE"
+        ],
+        "lead_organisation": {
+            "name": "",
+            "category": ""
+        },
+        "lead_organisation_name": "",
+        "lead_organisation_category": "",
+        "start_date": "",
+        "active": "",
+        "end_date": "",
+        "primary_sector": "",
+        "secondary_sector": "",
+        "technology": "Blockchain",
+        "uptake": "Unknown",
+        "cross_border": "",
+        "cross_sector": "",
+        "type": "",
+        "status": "Unknown"
+    },
+    {
+        "cid": 10007,
+        "id": 70102,
+        "name": "SUVE",
+        "url": "https:\/\/www.valitsus.ee\/en\/news\/chatbot-will-help-you-find-answers-your-questions-about-crisis",
+        "contact": "",
+        "description": "The websites of several government agencies now have Suve, an automated chatbot which provides answers to frequently asked questions about the emergency situation and the coronavirus. The chatbot provides answers to questions in Estonian and English and uses information from the official sources of government agencies.",
+        "geoextent": "National",
+        "geocoverage": [
+            "Estonia"
+        ],
+        "geocoverage_codes": [
+            "EE"
+        ],
+        "lead_organisation": {
+            "name": "",
+            "category": ""
+        },
+        "lead_organisation_name": "",
+        "lead_organisation_category": "",
+        "start_date": "",
+        "active": "",
+        "end_date": "",
+        "primary_sector": "",
+        "secondary_sector": "",
+        "technology": "Artificial intelligence",
+        "uptake": "Unknown",
+        "cross_border": "",
+        "cross_sector": "",
+        "type": "",
+        "status": "Unknown"
+    },
+    {
+        "cid": 10007,
+        "id": 70103,
+        "name": "Kratid",
+        "url": "https:\/\/www.kratid.ee\/in-English",
+        "contact": "",
+        "description": "The Information System Authority of Estonia is using machine learning for detecting anomalies and incidents on the traffic of the Estonian data exchange layer \u2013 X-Road. \nPredictive analytics is used to decide where to send the police for traffic regulation. The system is well used in cities; however the algorithm does not yet work well in rural areas. \nThe Estonian Unemployment Insurance Fund matches job seekers with open positions using AI. It helps job seekers get matched with the right job. The current job matching algorithm is developed further with job seeker profiling algorithm. \nEstonian Agricultural Registers and Information Board is using machine learning to detect land mowing. Satellite images are analysed to detect whether agricultural land has been mowed. This is necessary as mowing land is one of the requirements for receiving government grants. Before satellite image analysis this work was carried out manually using on-spot control. \nIn line with the Digital Agenda 2020 for Estonia, the government encourages the use of AI applications and test projects. The aim is to have at least 50 use cases in public sector by 2020. Interestingly, Estonia has also launched a task force to collect ideas from the general public on how to best make use of AI for the development of Estonia\u2019s economy and state.",
+        "geoextent": "National",
+        "geocoverage": [
+            "Estonia"
+        ],
+        "geocoverage_codes": [
+            "EE"
+        ],
+        "lead_organisation": {
+            "name": "",
+            "category": ""
+        },
+        "lead_organisation_name": "",
+        "lead_organisation_category": "",
+        "start_date": "",
+        "active": "",
+        "end_date": "",
+        "primary_sector": "",
+        "secondary_sector": "",
+        "technology": "Artificial intelligence",
+        "uptake": "Unknown",
+        "cross_border": "",
+        "cross_sector": "",
+        "type": "",
+        "status": "Unknown"
+    },
+    {
+        "cid": 10007,
+        "id": 70104,
+        "name": "VR Estonia",
+        "url": "https:\/\/vrestonia.ee\/",
+        "contact": "",
+        "description": "VR Estonia introduces the Estonian e-state and local business environment with twelve different 360-degree virtual reality videos. The topics include digital identity, e-residency, business environment, cyber security and the future of the e-state.",
+        "geoextent": "National",
+        "geocoverage": [
+            "Estonia"
+        ],
+        "geocoverage_codes": [
+            "EE"
+        ],
+        "lead_organisation": {
+            "name": "",
+            "category": ""
+        },
+        "lead_organisation_name": "",
+        "lead_organisation_category": "",
+        "start_date": "",
+        "active": "",
+        "end_date": "",
+        "primary_sector": "",
+        "secondary_sector": "",
+        "technology": "Artificial intelligence",
+        "uptake": "Unknown",
+        "cross_border": "",
+        "cross_sector": "",
+        "type": "",
+        "status": "Unknown"
+    },
+    {
+        "cid": 10007,
+        "id": 70105,
+        "name": "Skrinja 2.0",
+        "url": "https:\/\/2tm.si\/the-b2-college-takes-part-in-the-skrinja-2-0-project\/?lang=en",
+        "contact": "",
+        "description": "The project will result in the creation of an information platform as a service for other bodies of state administration. Business intelligence will provide users with quality information for making optimal decisions. It is also planned to create a Professional Support Centre, in which special attention will be paid to strict adherence to data protection standards and rules.",
+        "geoextent": "National",
+        "geocoverage": [
+            "Slovenia"
+        ],
+        "geocoverage_codes": [
+            "SI"
+        ],
+        "lead_organisation": {
+            "name": "",
+            "category": ""
+        },
+        "lead_organisation_name": "",
+        "lead_organisation_category": "",
+        "start_date": "",
+        "active": "",
+        "end_date": "",
+        "primary_sector": "",
+        "secondary_sector": "",
+        "technology": "Data analytics",
+        "uptake": "Unknown",
+        "cross_border": "",
+        "cross_sector": "",
+        "type": "",
+        "status": "In development"
+    },
+    {
+        "cid": 10007,
+        "id": 70106,
+        "name": "PIANOo",
+        "url": "https:\/\/www.tenderned.nl\/cms\/nieuws\/pianoo-maakt-wekelijks-analyse-aanbestedingen",
+        "contact": "",
+        "description": "PIANOo makes weekly analysis of tenders\nSee the impact of the corona crisis on ongoing and new tenders\n\nPIANOo maps out weekly tender behaviour globally on the basis of announcements on TenderNed. What happens to new, modified and cancelled tenders? PIANOo focuses on European tenders (over 85% of the published contracts).",
+        "geoextent": "National",
+        "geocoverage": [
+            "Netherlands"
+        ],
+        "geocoverage_codes": [
+            "NL"
+        ],
+        "lead_organisation": {
+            "name": "",
+            "category": ""
+        },
+        "lead_organisation_name": "",
+        "lead_organisation_category": "",
+        "start_date": "",
+        "active": "",
+        "end_date": "",
+        "primary_sector": "",
+        "secondary_sector": "",
+        "technology": "Data analytics",
+        "uptake": "Unknown",
+        "cross_border": "",
+        "cross_sector": "",
+        "type": "",
+        "status": "In production"
+    },
+    {
+        "cid": 10007,
+        "id": 70107,
+        "name": "Commercio.network",
+        "url": "https:\/\/commercio.network\/",
+        "contact": "",
+        "description": "Exchange and sign documents on the first eIDAS compliant blockchain in Europe.",
+        "geoextent": "National",
+        "geocoverage": [
+            "Italy"
+        ],
+        "geocoverage_codes": [
+            "IT"
+        ],
+        "lead_organisation": {
+            "name": "",
+            "category": ""
+        },
+        "lead_organisation_name": "",
+        "lead_organisation_category": "",
+        "start_date": "",
+        "active": "",
+        "end_date": "",
+        "primary_sector": "",
+        "secondary_sector": "",
+        "technology": "Blockchain",
+        "uptake": "Unknown",
+        "cross_border": "",
+        "cross_sector": "",
+        "type": "",
+        "status": "Unknown"
     }
 ]
