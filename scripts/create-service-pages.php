@@ -127,7 +127,7 @@ $(document).ready(function() {
 ';  
   $html .= '<script type="application/ld+json">
 {
-  "@context":"http://schema.org",
+  "@context":"http://schema.org/",
   "@type":"Service",
   "@id":"' . $baseuri . $id . '",
   "name":"' . $name . '",

@@ -1,5 +1,7 @@
 <?php
 
-  $baseuri = "http://purl.org/ips-x/";
+  define("SITE_URI", "https://w3id.org/ipsoeu/ips-explorer/");
+
+  $baseuri = SITE_URI;
 
 ?>

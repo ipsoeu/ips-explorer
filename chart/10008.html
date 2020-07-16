@@ -39,7 +39,7 @@ $(document).ready(function () {
 <body>
 <nav role="navigation" class="navbar navbar-default">
 <div class="container">
-<p class="navbar-header"><a class="navbar-brand" href="/ips-explorer/">IPS-X</a></p>
+<p class="navbar-header"><a title="Innovative Public Services Explorer" class="navbar-brand" href="/ips-explorer/">IPS-X</a></p>
 <ul class="nav navbar-nav collapse navbar-collapse">
 <li class=""><a href="/ips-explorer/service/">Services</a></li>
 <li class="active"><a href="/ips-explorer/chart/">Gallery</a></li>
@@ -50,5 +50,5 @@ $(document).ready(function () {
 </ul>
 </div>
 </nav>
-<perspective-viewer view="sunburst" row-pivots='["type", "uptake"]' sort='[["id", "asc"]]' columns='["id", "start_date"]' id="chart-10008"></perspective-viewer></body>
+<perspective-viewer view="sunburst" row-pivots='["type", "uptake"]' sort='[["id", "asc"]]' columns='["id", "geocoverage"]' aggregates='{"id": "distinct count"}' id="chart-10008"></perspective-viewer></body>
 </html>

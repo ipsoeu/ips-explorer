@@ -3,7 +3,7 @@
   require_once("../config/baseuri.php");
   require_once("../config/folders.php");
 
-  $site_logo = "ipso-logo.jpg";
+  $site_logo = $img_path . "ipso-logo.jpg";
   $site_title = "IPS-X";
   $site_subtitle = "Innovative Public Services Explorer";
   $site_description = "These pages allow you to explore innovative public services that have been collected from different sources in an integrated and harmonized way. Services can be discovered using a text-based, as well as, a graphic-based approach. We also list the contributing sources and offer the possibility to add your own service descriptions.";
@@ -20,7 +20,7 @@
    
   $section["service"]["name"] = "Services";
   $section["service"]["icon"] = "fa-group";
-  $section["service"]["descr"] = "Explore European public services making use of emerging and disruptive technologies, such as AI, DLT, IoT and APIs, and find out their distribution and scope in terms of public administration levels and sectors";
+  $section["service"]["descr"] = "Explore European public services making use of emerging and disruptive technologies, such as AI, DLT, IoT and APIs, and find out their distribution and scope in terms of public administration levels and sectors.";
   $section["service"]["url"] = $site_abs_path . "service/";
   $section["service"]["path"] = $root_abs_path . "service/";
 //  $section["service"]["data"] = $site_abs_path . $data_folder . "services";
@@ -73,7 +73,7 @@
 //  $subsection["chart"]["10003"]["path"] = $root_abs_path . "chart/10003.html";
 //  $subsection["chart"]["10003"]["data"] = $site_abs_path . $data_folder . "services";
   $subsection["chart"]["10003"]["data"] = $data_path . "services";
-  $subsection["chart"]["10003"]["graph"] = '<perspective-viewer view="treemap" row-pivots=\'["lead_organisation_category"]\' columns=\'["id", "name"]\' id="chart-10003"></perspective-viewer>';
+  $subsection["chart"]["10003"]["graph"] = '<perspective-viewer view="treemap" row-pivots=\'["lead_organisation_category"]\' columns=\'["id", "name"]\' aggregates=\'{"id": "distinct count"}\' id="chart-10003"></perspective-viewer>';
   $subsection["chart"]["10003"]["lib"] = 'perspective';
   
   $subsection["chart"]["10004"]["name"] = "Primary sector vs. secondary sector";
@@ -83,7 +83,7 @@
 //  $subsection["chart"]["10004"]["path"] = $root_abs_path . "chart/10004.html";
 //  $subsection["chart"]["10004"]["data"] = $site_abs_path . $data_folder . "services";
   $subsection["chart"]["10004"]["data"] = $data_path . "services";
-  $subsection["chart"]["10004"]["graph"] = '<perspective-viewer view="sunburst" row-pivots=\'["primary_sector", "secondary_sector"]\' sort=\'[["id", "asc"]]\' columns=\'["id", "geocoverage"]\' id="chart-10004"></perspective-viewer>';
+  $subsection["chart"]["10004"]["graph"] = '<perspective-viewer view="sunburst" row-pivots=\'["primary_sector", "secondary_sector"]\' sort=\'[["id", "asc"]]\' columns=\'["id", "geocoverage"]\' aggregates=\'{"id": "distinct count"}\' id="chart-10004"></perspective-viewer>';
   $subsection["chart"]["10004"]["lib"] = 'perspective';
   
   $subsection["chart"]["10005"]["name"] = "Service type vs. technology";
@@ -93,7 +93,7 @@
 //  $subsection["chart"]["10005"]["path"] = $root_abs_path . "chart/10005.html";
 //  $subsection["chart"]["10005"]["data"] = $site_abs_path . $data_folder . "services";
   $subsection["chart"]["10005"]["data"] = $data_path . "services";
-  $subsection["chart"]["10005"]["graph"] = '<perspective-viewer view="sunburst" row-pivots=\'["type", "technology"]\' sort=\'[["id", "asc"]]\' columns=\'["id", "geocoverage"]\' id="chart-10005"></perspective-viewer>';
+  $subsection["chart"]["10005"]["graph"] = '<perspective-viewer view="sunburst" row-pivots=\'["type", "technology"]\' sort=\'[["id", "asc"]]\' columns=\'["id", "geocoverage"]\' aggregates=\'{"id": "distinct count"}\' id="chart-10005"></perspective-viewer>';
   $subsection["chart"]["10005"]["lib"] = 'perspective';
   
   $subsection["chart"]["10006"]["name"] = "Cross-sector applicability vs. technology";
@@ -103,7 +103,7 @@
 //  $subsection["chart"]["10006"]["path"] = $root_abs_path . "chart/10006.html";
 //  $subsection["chart"]["10006"]["data"] = $site_abs_path . $data_folder . "services";
   $subsection["chart"]["10006"]["data"] = $data_path . "services";
-  $subsection["chart"]["10006"]["graph"] = '<perspective-viewer view="x_bar" row-pivots=\'["cross_sector", "technology"]\' sort=\'[["id", "asc"]]\' columns=\'["id"]\' id="chart-10006"></perspective-viewer>';
+  $subsection["chart"]["10006"]["graph"] = '<perspective-viewer view="x_bar" row-pivots=\'["cross_sector", "technology"]\' sort=\'[["id", "asc"]]\' columns=\'["id"]\' aggregates=\'{"id": "distinct count"}\' id="chart-10006"></perspective-viewer>';
   $subsection["chart"]["10006"]["lib"] = 'perspective';
   
   $subsection["chart"]["10007"]["name"] = "Uptake vs. organisation category";
@@ -113,7 +113,7 @@
 //  $subsection["chart"]["10007"]["path"] = $root_abs_path . "chart/10007.html";
 //  $subsection["chart"]["10007"]["data"] = $site_abs_path . $data_folder . "services";
   $subsection["chart"]["10007"]["data"] = $data_path . "services";
-  $subsection["chart"]["10007"]["graph"] = '<perspective-viewer view="x_bar" row-pivots=\'["uptake", "lead_organisation_category"]\' sort=\'[["id", "asc"]]\' columns=\'["id"]\' id="chart-10007"></perspective-viewer>';
+  $subsection["chart"]["10007"]["graph"] = '<perspective-viewer view="x_bar" row-pivots=\'["uptake", "lead_organisation_category"]\' sort=\'[["id", "asc"]]\' columns=\'["id"]\' aggregates=\'{"id": "distinct count"}\' id="chart-10007"></perspective-viewer>';
   $subsection["chart"]["10007"]["lib"] = 'perspective';
   
   $subsection["chart"]["10008"]["name"] = "Technology vs. uptake";
@@ -123,7 +123,7 @@
 //  $subsection["chart"]["10008"]["path"] = $root_abs_path . "chart/10008.html";
 //  $subsection["chart"]["10008"]["data"] = $site_abs_path . $data_folder . "services";
   $subsection["chart"]["10008"]["data"] = $data_path . "services";
-  $subsection["chart"]["10008"]["graph"] = '<perspective-viewer view="sunburst" row-pivots=\'["type", "uptake"]\' sort=\'[["id", "asc"]]\' columns=\'["id", "start_date"]\' id="chart-10008"></perspective-viewer>';
+  $subsection["chart"]["10008"]["graph"] = '<perspective-viewer view="sunburst" row-pivots=\'["type", "uptake"]\' sort=\'[["id", "asc"]]\' columns=\'["id", "geocoverage"]\' aggregates=\'{"id": "distinct count"}\' id="chart-10008"></perspective-viewer>';
   $subsection["chart"]["10008"]["lib"] = 'perspective';
 
   foreach ($subsection["chart"] as $ssk => $ssv) {
@@ -136,7 +136,8 @@
   $nav .= '<nav role="navigation" class="navbar navbar-default">' . "\n";
   $nav .= '<div class="container">' . "\n";
 //  $nav .= '<p class="navbar-header"><a class="navbar-brand" href="' . $site_abs_path . '">About</a></p>' . "\n";
-  $nav .= '<p class="navbar-header"><a class="navbar-brand" href="' . $site_abs_path . '">' . $site_title . '</a></p>' . "\n";
+  $nav .= '<p class="navbar-header"><a title="' . $site_subtitle . '" class="navbar-brand" href="' . $site_abs_path . '">' . $site_title . '</a></p>' . "\n";
+//  $nav .= '<p class="navbar-header"><a title="' . $site_subtitle . '" class="navbar-brand" href="' . $site_abs_path . '"><img width="30" src="' . $site_logo . '"/>' . $site_title . '</a></p>' . "\n";
   $nav .= '<ul class="nav navbar-nav collapse navbar-collapse">' . "\n";
   foreach ($section as $sk => $sv) {
     $liclasses = array();

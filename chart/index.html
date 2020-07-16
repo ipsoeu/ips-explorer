@@ -66,7 +66,7 @@ $(document).ready(function () {
 <body>
 <nav role="navigation" class="navbar navbar-default">
 <div class="container">
-<p class="navbar-header"><a class="navbar-brand" href="/ips-explorer/">IPS-X</a></p>
+<p class="navbar-header"><a title="Innovative Public Services Explorer" class="navbar-brand" href="/ips-explorer/">IPS-X</a></p>
 <ul class="nav navbar-nav collapse navbar-collapse">
 <li class=""><a href="/ips-explorer/service/">Services</a></li>
 <li class="active"><a href="/ips-explorer/chart/">Gallery</a></li>
@@ -110,7 +110,7 @@ $(document).ready(function () {
 </div>
 <div class="col-sm-6 col-md-6 block-link" href="/ips-explorer/chart/10003.html">
 <div class="thumbnail">
-<perspective-viewer view="treemap" row-pivots='["lead_organisation_category"]' columns='["id", "name"]' id="chart-10003"></perspective-viewer>
+<perspective-viewer view="treemap" row-pivots='["lead_organisation_category"]' columns='["id", "name"]' aggregates='{"id": "distinct count"}' id="chart-10003"></perspective-viewer>
 <div class="caption">
 <h3>Organisation category</h3>
 <p>Distribution of type of organisation responsible for the collected public services.</p>
@@ -120,7 +120,7 @@ $(document).ready(function () {
 </div>
 <div class="col-sm-6 col-md-6 block-link" href="/ips-explorer/chart/10004.html">
 <div class="thumbnail">
-<perspective-viewer view="sunburst" row-pivots='["primary_sector", "secondary_sector"]' sort='[["id", "asc"]]' columns='["id", "geocoverage"]' id="chart-10004"></perspective-viewer>
+<perspective-viewer view="sunburst" row-pivots='["primary_sector", "secondary_sector"]' sort='[["id", "asc"]]' columns='["id", "geocoverage"]' aggregates='{"id": "distinct count"}' id="chart-10004"></perspective-viewer>
 <div class="caption">
 <h3>Primary sector vs. secondary sector</h3>
 <p>Joint visual representation of the primary sector and the secondary sector of the collected public services.</p>
@@ -130,7 +130,7 @@ $(document).ready(function () {
 </div>
 <div class="col-sm-6 col-md-6 block-link" href="/ips-explorer/chart/10005.html">
 <div class="thumbnail">
-<perspective-viewer view="sunburst" row-pivots='["type", "technology"]' sort='[["id", "asc"]]' columns='["id", "geocoverage"]' id="chart-10005"></perspective-viewer>
+<perspective-viewer view="sunburst" row-pivots='["type", "technology"]' sort='[["id", "asc"]]' columns='["id", "geocoverage"]' aggregates='{"id": "distinct count"}' id="chart-10005"></perspective-viewer>
 <div class="caption">
 <h3>Service type vs. technology</h3>
 <p>Joint visual representation of the public service type and the used technologies.</p>
@@ -140,7 +140,7 @@ $(document).ready(function () {
 </div>
 <div class="col-sm-6 col-md-6 block-link" href="/ips-explorer/chart/10006.html">
 <div class="thumbnail">
-<perspective-viewer view="x_bar" row-pivots='["cross_sector", "technology"]' sort='[["id", "asc"]]' columns='["id"]' id="chart-10006"></perspective-viewer>
+<perspective-viewer view="x_bar" row-pivots='["cross_sector", "technology"]' sort='[["id", "asc"]]' columns='["id"]' aggregates='{"id": "distinct count"}' id="chart-10006"></perspective-viewer>
 <div class="caption">
 <h3>Cross-sector applicability vs. technology</h3>
 <p>Joint visual representation of the public service applicability in cross-sector scenarios and the used technologies.</p>
@@ -150,7 +150,7 @@ $(document).ready(function () {
 </div>
 <div class="col-sm-6 col-md-6 block-link" href="/ips-explorer/chart/10007.html">
 <div class="thumbnail">
-<perspective-viewer view="x_bar" row-pivots='["uptake", "lead_organisation_category"]' sort='[["id", "asc"]]' columns='["id"]' id="chart-10007"></perspective-viewer>
+<perspective-viewer view="x_bar" row-pivots='["uptake", "lead_organisation_category"]' sort='[["id", "asc"]]' columns='["id"]' aggregates='{"id": "distinct count"}' id="chart-10007"></perspective-viewer>
 <div class="caption">
 <h3>Uptake vs. organisation category</h3>
 <p>Joint visual representation of the public service uptake and the responsible organisation category.</p>
@@ -160,7 +160,7 @@ $(document).ready(function () {
 </div>
 <div class="col-sm-6 col-md-6 block-link" href="/ips-explorer/chart/10008.html">
 <div class="thumbnail">
-<perspective-viewer view="sunburst" row-pivots='["type", "uptake"]' sort='[["id", "asc"]]' columns='["id", "start_date"]' id="chart-10008"></perspective-viewer>
+<perspective-viewer view="sunburst" row-pivots='["type", "uptake"]' sort='[["id", "asc"]]' columns='["id", "geocoverage"]' aggregates='{"id": "distinct count"}' id="chart-10008"></perspective-viewer>
 <div class="caption">
 <h3>Technology vs. uptake</h3>
 <p>Joint visual representation of the public service technology and its social uptake.</p>
