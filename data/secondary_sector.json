@@ -1,10 +1,10 @@
 [
-    "",
     "Agriculture",
     "Agriculture, forestry, fishing and hunting",
     "Basic research",
     "Communication",
     "Education",
+    "Enterprise registration",
     "Environmental protection",
     "Executive and legislative organs",
     "Financial and fiscal affairs",
@@ -12,9 +12,15 @@
     "General public services",
     "Health",
     "Overall planning and statistical services",
+    "Procurement",
     "Public order and safety",
     "Recreation, culture and religion",
+    "Recruitment",
+    "Risk assessment",
+    "Social assistance",
     "Social protection",
+    "Taxation",
     "Transport",
+    "Unemployment",
     "Waste management"
 ]

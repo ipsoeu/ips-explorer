@@ -1,5 +1,4 @@
 var active = [
-    "",
     "No",
     "Yes"
 ]

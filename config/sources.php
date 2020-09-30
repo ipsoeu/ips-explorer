@@ -21,4 +21,10 @@
   $src["catalog"][7]  = "7-catalog-emerging-technologies-dg-grow.csv";
   $src["services"][7] = "7-services-emerging-technologies-dg-grow.csv";
   
+  $src["catalog"][8]  = "8-catalog-ai-robotics-vs-covid-19.csv";
+  $src["services"][8] = "8-services-ai-robotics-vs-covid-19.csv";
+  
+  $src["catalog"][9]  = "9-catalog-ai-watch-t6-jrc120399.csv";
+  $src["services"][9] = "9-services-ai-watch-t6-jrc120399.csv";
+  
 ?>
