@@ -9,8 +9,8 @@
   $src["catalog"][3]  = "3-catalog-developers-italia.csv";
   $src["services"][3] = "3-services-developers-italia.csv";
 
-  $src["catalog"][4]  = "4-catalog-jrc115049.csv";
-  $src["services"][4] = "4-services-jrc115049.csv";
+  $src["catalog"][4]  = "4-catalog-blockchain-for-digital-government-jrc115049.csv";
+  $src["services"][4] = "4-services-blockchain-for-digital-government-jrc115049.csv";
 
   $src["catalog"][5]  = "5-catalog-eublockchainforum-20200224.csv";
   $src["services"][5] = "5-services-eublockchainforum-20200224.csv";
