@@ -10120,7 +10120,7 @@ var services = [
         "uptake": "Considerable",
         "cross_border": "No",
         "cross_sector": "Yes",
-        "type": "",
+        "type": "Other",
         "status": "In production"
     },
     {

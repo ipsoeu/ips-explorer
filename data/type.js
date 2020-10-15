@@ -1,5 +1,4 @@
 var type = [
-    "",
     "Auditing and logging",
     "Authentication",
     "Chatbot",
