@@ -6,6 +6,7 @@
         "c_contact": "mailto:contact@api.gouv.fr",
         "c_description": "Catalogue of APIs used by the French public administration. The catalogue includes also the list public services using such APIs.",
         "c_publisher": "DINUM",
+        "c_country": "France",
         "c_type": "Catalogue"
     }
 ]

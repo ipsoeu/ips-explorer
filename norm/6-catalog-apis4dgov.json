@@ -6,6 +6,7 @@
         "c_contact": "mailto:jrc-apis4dgov@ec.europa.eu",
         "c_description": "This list contains the government API cases collected, cleaned and analysed in the APIs4DGov study \"Web API landscape: relevant general purpose ICT standards, technical specifications and terms\".",
         "c_publisher": "European Commission, Joint Research Centre (JRC)",
+        "c_country": "European Union",
         "c_type": "Desk research"
     }
 ]

@@ -39,9 +39,6 @@
 <script type="text/javascript" src="<?php echo $site_abs_path; ?>js/common.js"></script>
 <script src="<?php echo $section[$sec]["data"]; ?>.js" type="text/javascript"></script>
 <script src="<?php echo $site_abs_path; ?>js/catalogs.js" type="text/javascript"></script>
-<style>
-  .panel-footer {font-size:.8em;}
-</style>
 </head>
 <body>
 <?php echo $nav; ?>
@@ -133,7 +130,7 @@
             <p><%= c_description %></p>
           </div>
           <div class="panel-footer">
-            <p>
+            <p><%= c_publisher %>, <%= c_country %></p>
           </div>
         </div>
       </div>
@@ -165,6 +162,6 @@
           </label>
         </div>
       </script>
--->      
+-->
     </body>
   </html>

@@ -275,3 +275,5 @@ select:focus, textarea:focus, input:focus{
 .icon-pr {border-color:#000099;background-color:#0000ff;color:#ffffff;}
 .icon-pu {border-color:#000099;background-color:#0000ff;color:#ffffff;}
 
+.panel-footer {font-size:.8em;}
+

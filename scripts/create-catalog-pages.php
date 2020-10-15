@@ -37,6 +37,7 @@
     $contact = $v["c_contact"];
     $description = $v["c_description"];
     $publisher = $v["c_publisher"];
+    $country = $v["c_country"];
     $type = $v["c_type"];
 //    $geoextent = $v["geoextent"];
 //    $geocoverage = $v["geocoverage_dirty"];
@@ -132,7 +133,6 @@
 <script type="text/javascript" src="https://cdn.datatables.net/buttons/1.5.1/js/buttons.print.min.js"></script>
 <script type="text/javascript" src="https://cdn.datatables.net/select/1.2.7/js/dataTables.select.min.js"></script>
 <script type="text/javascript" src="https://cdn.datatables.net/buttons/1.5.2/js/buttons.colVis.min.js"></script>
-
 <script type="text/javascript" src="' . $site_abs_path . 'js/common.js"></script> 
 ';
 
@@ -249,7 +249,7 @@ $(document).ready(function() {
 </aside>
 <section class="col-md-9">
 <h2>' . $name . '</h2>
-<address class="small">Publisher: ' . $publisher . '</address>
+<address class="small">Publisher: ' . $publisher . ', ' . $country . '</address>
 <p>' . $description . '</p>
 ';
   $html .= '<section>

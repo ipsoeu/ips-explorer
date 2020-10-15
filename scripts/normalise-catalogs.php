@@ -91,6 +91,7 @@
     }
     $output[$k]["c_description"] = trim($v["c_description"]);
     $output[$k]["c_publisher"] = trim($v["c_publisher"]);
+    $output[$k]["c_country"] = trim($v["c_country"]);
     $output[$k]["c_type"] = trim($v["c_type"]);
 //    $output[$k]["geoextent"] = trim($v["geoextent"]);
 //    $output[$k]["geocoverage"] = $v["geocoverage_dirty"];
