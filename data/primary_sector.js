@@ -3,6 +3,7 @@ var primary_sector = [
     "Agriculture, forestry, fishing and hunting",
     "Basic research",
     "Communication",
+    "Cultural services",
     "Economic affairs",
     "Education",
     "Environmental protection",

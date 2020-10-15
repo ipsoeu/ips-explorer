@@ -9994,5 +9994,293 @@ var services = [
         "cross_sector": "No",
         "type": "Predictive policing",
         "status": "In production"
+    },
+    {
+        "cid": 10010,
+        "id": 100001,
+        "name": "Covid-bot",
+        "url": "https:\/\/joinup.ec.europa.eu\/collection\/open-source-observatory-osor\/news\/covid-19-auto-diagnosis-bot",
+        "contact": "",
+        "description": "On 20 March 2020, the Pasteur Institute, Greater Paris University Hospitals (AP-HP) and the chatbot start-up Clevy, released the so-called Covid-bot, an open source COVID-19 auto-diagnosis chatbot. The Covid-bot allows respondents to assess their risk of COVID-19 contamination by filling a questionnaire.",
+        "geoextent": "National",
+        "geocoverage": [
+            "France"
+        ],
+        "geocoverage_codes": [
+            "FR"
+        ],
+        "lead_organisation": {
+            "name": "Pasteur Institute",
+            "category": "Private"
+        },
+        "lead_organisation_name": "Pasteur Institute",
+        "lead_organisation_category": "Private",
+        "start_date": "2020",
+        "active": "Yes",
+        "end_date": "",
+        "primary_sector": "Health",
+        "secondary_sector": "Communication",
+        "technology": "Artificial intelligence",
+        "uptake": "Unkonwn",
+        "cross_border": "No",
+        "cross_sector": "No",
+        "type": "Chatbot",
+        "status": "In production"
+    },
+    {
+        "cid": 10011,
+        "id": 110001,
+        "name": "Automated parking control",
+        "url": "https:\/\/algoritmeregister.amsterdam.nl\/en\/automated-parking-control\/",
+        "contact": "",
+        "description": "In Amsterdam, the number of cars allowed to park in the city is limited, keeping the city liveable and accessible. The municipality checks whether a parked car has the right to be parked, for example, because parking fees have been paid via a parking meter or app, or because the owner has a parking permit. Enforcement is done with the help of scan cars equpiped with camera\u2019s, automating the process of license plate identification and background checks with specific scanning equipment and AI-based identification service. The service is currently in use for more than 150,000 street parking spaces in the City of Amsterdam.",
+        "geoextent": "Local",
+        "geocoverage": [
+            "Netherlands"
+        ],
+        "geocoverage_codes": [
+            "NL"
+        ],
+        "lead_organisation": {
+            "name": "Amsterdam Parking Services",
+            "category": "Governmental"
+        },
+        "lead_organisation_name": "Amsterdam Parking Services",
+        "lead_organisation_category": "Governmental",
+        "start_date": "Unknown",
+        "active": "Yes",
+        "end_date": "",
+        "primary_sector": "Transport",
+        "secondary_sector": "Parking",
+        "technology": "Artificial intelligence",
+        "uptake": "High",
+        "cross_border": "No",
+        "cross_sector": "No",
+        "type": "Infringement detection",
+        "status": "In production"
+    },
+    {
+        "cid": 10011,
+        "id": 110002,
+        "name": "Holiday rental housing fraud risk",
+        "url": "https:\/\/algoritmeregister.amsterdam.nl\/en\/holiday-rental-housing-fraud-risk\/",
+        "contact": "",
+        "description": "Amsterdam has limited living space; both for citizens and visitors. If a citizen wants to rent out their home or houseboat to tourists, they need to meet certain requirements. For example, they can do so for a maximum of 30 nights per year and a maximum of 4 people at a time. They must also report it to the municipality. Not everyone adheres to those conditions. The municipality sometimes receives reports, for instance from neighbours or rental platforms, who suspect that a home has been rented out without meeting those requirements. If such a report is filed, employees of the department of Surveillance & Enforcement can start an investigation. From 1 July 2020, a pilot will be carried out for six months with an algorithm that supports the employees of the department of Surveillance & Enforcement in their investigation of the reports made concerning possible illegal holiday rentals. The algorithm helps prioritize the reports so that the limited enforcement capacity can be used efficiently and effectively. By analyzing the data of related housing fraud cases of the past 5 years, it calculates the probability of an illegal holiday rental situation on the reported address.",
+        "geoextent": "Local",
+        "geocoverage": [
+            "Netherlands"
+        ],
+        "geocoverage_codes": [
+            "NL"
+        ],
+        "lead_organisation": {
+            "name": "Housing Department, Surveillance & Enforcement",
+            "category": "Governmental"
+        },
+        "lead_organisation_name": "Housing Department, Surveillance & Enforcement",
+        "lead_organisation_category": "Governmental",
+        "start_date": "2020",
+        "active": "Yes",
+        "end_date": "",
+        "primary_sector": "Financial and fiscal affairs",
+        "secondary_sector": "House rental",
+        "technology": "Artificial intelligence",
+        "uptake": "Unknown",
+        "cross_border": "No",
+        "cross_sector": "No",
+        "type": "Fraud detection",
+        "status": "Pilot"
+    },
+    {
+        "cid": 10011,
+        "id": 110003,
+        "name": "Reporting issues in public space",
+        "url": "https:\/\/algoritmeregister.amsterdam.nl\/en\/reporting-issues-in-public-space\/",
+        "contact": "",
+        "description": "When someone encounters rubbish or a maintenance issue on the street or in a park, they can report this to the municipality via an online reporting system. A dangerous traffic situation or disturbance from people or cafe\u2019s can also be reported. This system used to be a collection of drop-down menus, from which the user would pick the category that best suited their report. The department responsible for a certain category would then take care of the report. However, as the municipality is a complex organisation, there are countless categories. Many times the wrong category would be chosen, resulting in delays. Now, an algorithm recognizes certain keywords, for example, \u2018waste\u2019 and \u2018sidewalk\u2019. From these keywords, it determines which category it belongs to, and ultimately, which department within the municipality should examine the case. As a result, there are fewer administrative steps for the person reporting on the issue. Also, the report can be processed much faster, because it arrives at the right department more quickly.",
+        "geoextent": "Local",
+        "geocoverage": [
+            "Netherlands"
+        ],
+        "geocoverage_codes": [
+            "NL"
+        ],
+        "lead_organisation": {
+            "name": "Research, Information & Statistics (OIS)",
+            "category": "Governmental"
+        },
+        "lead_organisation_name": "Research, Information & Statistics (OIS)",
+        "lead_organisation_category": "Governmental",
+        "start_date": "Unknown",
+        "active": "Yes",
+        "end_date": "",
+        "primary_sector": "General public services",
+        "secondary_sector": "Complaint management",
+        "technology": "Artificial intelligence",
+        "uptake": "Considerable",
+        "cross_border": "No",
+        "cross_sector": "Yes",
+        "type": "",
+        "status": "In production"
+    },
+    {
+        "cid": 10012,
+        "id": 120001,
+        "name": "Parking chatbot",
+        "url": "https:\/\/ai.hel.fi\/en\/parking-chatbot\/",
+        "contact": "",
+        "description": "The parking chatbot is a customer service channel of city\u2019s parking services. Service provides automated answers to the parking-related questions of city residents and visitors. The service is available at the city parking website of Helsinki. The service aims to improve the availability and the user experience of digital parking support services and to increase the interactivity of the parking self-service. The service speeds up finding the right information to customer\u2019s specific questions in comparison to searching the information from the websites. The service is also a means to explore and try out the potential of new technologies in parking services. The service utilises natural language analysis to identify customer\u2019s topic of interest-based on the search terms or phrases entered to the service. The service responds based on the trained rule-based discussion paths, and the open data connected to it, in accordance with the customer\u2019s interest and consents to location information.",
+        "geoextent": "Local",
+        "geocoverage": [
+            "Finland"
+        ],
+        "geocoverage_codes": [
+            "FI"
+        ],
+        "lead_organisation": {
+            "name": "Urban Environment Division",
+            "category": "Governmental"
+        },
+        "lead_organisation_name": "Urban Environment Division",
+        "lead_organisation_category": "Governmental",
+        "start_date": "Unknown",
+        "active": "Yes",
+        "end_date": "",
+        "primary_sector": "Transport",
+        "secondary_sector": "Parking",
+        "technology": "Artificial intelligence",
+        "uptake": "Considerable",
+        "cross_border": "No",
+        "cross_sector": "No",
+        "type": "Chatbot",
+        "status": "In production"
+    },
+    {
+        "cid": 10012,
+        "id": 120002,
+        "name": "Maternity clinic chatbot NeRo",
+        "url": "https:\/\/ai.hel.fi\/en\/maternity-clinic-chatbot-nero\/",
+        "contact": "",
+        "description": "The chatbot answers the clients of the Helsinki counselling centres\u2019 questions without queuing at all times of the day. In addition to problems related to the child\u2019s growth or development and pregnancy, the customers can also ask questions about dental care, speech development, and nutrition. Service can also connect the client to the nurse as needed, and the client can also tell the chatbot of their willingness to talk to the nurse. The service is intended for customers of the City of Helsinki\u2019s maternity and child health clinic. The service operates on a rule-based logic based on question-answer pairs and discussion dialogues defined by the clinic\u2019s experts. The service operates as part of the clinic\u2019s chat customer service and extends the service\u2019s availability to 24 hours a day. The service also enables the counselling centre to react faster, to inform proactively, and to develop operations to current issues of concern to customers based on discussion analytics. The service increases efficiency by enabling the automated collection of preliminary data and the automation of frequently asked questions.",
+        "geoextent": "Local",
+        "geocoverage": [
+            "Finland"
+        ],
+        "geocoverage_codes": [
+            "FI"
+        ],
+        "lead_organisation": {
+            "name": "Counseling and family work",
+            "category": "Governmental"
+        },
+        "lead_organisation_name": "Counseling and family work",
+        "lead_organisation_category": "Governmental",
+        "start_date": "Unknown",
+        "active": "Yes",
+        "end_date": "",
+        "primary_sector": "Health",
+        "secondary_sector": "Communication",
+        "technology": "Artificial intelligence",
+        "uptake": "Considerable",
+        "cross_border": "No",
+        "cross_sector": "No",
+        "type": "Chatbot",
+        "status": "In production"
+    },
+    {
+        "cid": 10012,
+        "id": 120003,
+        "name": "Health center chatbot",
+        "url": "https:\/\/ai.hel.fi\/en\/health-center-chatbot\/",
+        "contact": "",
+        "description": "The chatbot provides health and illness-related advice easily without queuing. Chatbot directs the users to the right digital health services and advises on questions related to dental, mental health, substance abuse and social services. The service answers the most frequently asked questions and direct to the sources of reliable information based on users\u2019 needs. The chatbot is integrated with other digital services of health centres. Through it, customers may be directed to, for example, the city\u2019s digital services, Omaolo, Omakanta or social counselling chat. The service enables transactions around the clock anonymously and securely. All health centers use the service in Helsinki, and it covers all services of the health centers. The clinical guidance of the service is based on national practices of evidence-based treatments, the Current Care guidelines and the emergency care evaluation criteria. The service utilises natural language processing based artificial intelligence to analyse the searches entered by the customer and to identify the intended service need, as well as to find the respective instructions. The service expands the accessibility of health center services by enabling remote transactions around the clock. The service enhances the customer experience of digital services for health centers by providing a single channel for all digital services. The service streamlines the service production of health centers by automating the service on the frequently asked questions and by the automated collection of background information. The service also has positive effects on harmonising the quality of the service and on improving the employee experience of counselling services.",
+        "geoextent": "Local",
+        "geocoverage": [
+            "Finland"
+        ],
+        "geocoverage_codes": [
+            "FI"
+        ],
+        "lead_organisation": {
+            "name": "Helsinki City Hospital",
+            "category": "Governmental"
+        },
+        "lead_organisation_name": "Helsinki City Hospital",
+        "lead_organisation_category": "Governmental",
+        "start_date": "Unknown",
+        "active": "Yes",
+        "end_date": "",
+        "primary_sector": "Health",
+        "secondary_sector": "Communication",
+        "technology": "Artificial intelligence",
+        "uptake": "Considerable",
+        "cross_border": "No",
+        "cross_sector": "No",
+        "type": "Chatbot",
+        "status": "In production"
+    },
+    {
+        "cid": 10012,
+        "id": 120004,
+        "name": "Oodi\u2019s book recommendation service Obotti",
+        "url": "https:\/\/ai.hel.fi\/en\/oodis-book-recommendation-service-obotti\/",
+        "contact": "",
+        "description": "Obotti is Central Library Oodi\u2019s recommendation chatbot. The service recommends books from Oodi\u2019s selection according to the customer\u2019s interest and feedback. The service is aimed at all Central Library Oodi\u2019s customers and can be downloaded as a mobile application for Android and IoS devices. The service recommends books to the customer based on contextual analysis that the customer would not otherwise find. The purpose of the service is to present the material available in Oodi library to customers interestingly and to make it easier for customers to find interesting and new material. The recommended materials are freely available in the selections of the Central Library Oodi at the time of the recommendation. The service is divided thematically into six chatbots, each recommending content according to their theme. You can ask the service for recommendations using ready-made answer options, or in free search terms in the form of text or speech. The service utilises contextual analysis of natural language to determine the customer\u2019s interests, as well as to produce corresponding book recommendations.",
+        "geoextent": "Local",
+        "geocoverage": [
+            "Finland"
+        ],
+        "geocoverage_codes": [
+            "FI"
+        ],
+        "lead_organisation": {
+            "name": "Helsinki Central Library Oodi",
+            "category": "Governmental"
+        },
+        "lead_organisation_name": "Helsinki Central Library Oodi",
+        "lead_organisation_category": "Governmental",
+        "start_date": "Unknown",
+        "active": "Yes",
+        "end_date": "",
+        "primary_sector": "Cultural services",
+        "secondary_sector": "Communication",
+        "technology": "Artificial intelligence",
+        "uptake": "Considerable",
+        "cross_border": "No",
+        "cross_sector": "No",
+        "type": "Chatbot",
+        "status": "In production"
+    },
+    {
+        "cid": 10012,
+        "id": 120005,
+        "name": "Intelligent material management system",
+        "url": "https:\/\/ai.hel.fi\/en\/intelligent-material-management-system\/",
+        "contact": "",
+        "description": "IMMS (Intelligent Material Management System) is an intelligent material management system for the entire library collection. The City Library\u2019s collection contains approximately 1.8 million items. An intelligent material management system was acquired while the city library moved away from library-specific collections to one shared collection. With the change, the library wanted to enable moving the material freely between different libraries. The system was introduced in May 2019, after which it has been in use but still in the deployment phase. The system has made it possible to reach a situation where the majority of the collection now floats, i.e. moves freely between libraries. With the floating material, customers can influence the offering of each library with their own activities. Returns influence the offerings of libraries. Library experts can modify system configurations based on reports and observations. The aim is to distribute the new material equally so that no library is in an unequal position based on its size. Thus the customers of different libraries can be served in an equal manner. The service enables tracking and tracing of the item movements. The material can be located in real-time using RFID tags attached to the material. The material to be borrowed from the Helsinki City Library was labelled with RFID tags before the system was introduced. RFID tags are also used in transport units, check-out machines sorting points, and in special shelf identification. The library system is not intended for logistical tracking of material, and therefore this new system effectively complements the data obtained on the movement of items. Library experts can control the flow of material between libraries with parameters and rules supported by the system. These control the filling level of library shelves in a way that allows the better presentation of materials to customers. The material hotel created during the introduction of the intelligent material management system balances, for example, seasonal overflows and shelf overflow during library renovations. Guests do not have physical access to the material hotel, but the material can be booked. The material hotel is located in the Pasila library building, close to the city library\u2019s central sorter. Furthermore, the system also makes it possible to reduce manual logistics. The material can be processed, for example, by moving the reservations box by box, when this was previously done on an item by item basis. Improving the handling of reservations is necessary as the number of reservations has risen sharply in recent years. Improving the efficiency of processing also enables staff to allocate working hours from logistics to other library work. The service includes a mobile application used by library staff. With the help of the mobile application, the material can be transferred to the central sorter or to the library shelves, either box at a time or, if necessary, item at a time. It also allows staff to see item, shelf, or transport unit-specific information (current information, as well as the previous movements).The Danish Lyngsoe Systems have built the system in collaboration with Danish public libraries. The system only processes material data and not handle the personal data of customers at all.",
+        "geoextent": "Local",
+        "geocoverage": [
+            "Finland"
+        ],
+        "geocoverage_codes": [
+            "FI"
+        ],
+        "lead_organisation": {
+            "name": "Helsinki City Library",
+            "category": "Governmental"
+        },
+        "lead_organisation_name": "Helsinki City Library",
+        "lead_organisation_category": "Governmental",
+        "start_date": "2019",
+        "active": "Yes",
+        "end_date": "",
+        "primary_sector": "Cultural services",
+        "secondary_sector": "Cultural services",
+        "technology": "Artificial intelligence",
+        "uptake": "Considerable",
+        "cross_border": "No",
+        "cross_sector": "No",
+        "type": "Efficient flow management",
+        "status": "In production"
     }
 ]

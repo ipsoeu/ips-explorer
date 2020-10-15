@@ -1,4 +1,5 @@
 var type = [
+    "",
     "Auditing and logging",
     "Authentication",
     "Chatbot",
@@ -6,8 +7,10 @@ var type = [
     "Data access and reuse",
     "Digital identity",
     "Disintermediation and decentralized networks",
+    "Efficient flow management",
     "Fraud detection",
     "Governance and voting",
+    "Infringement detection",
     "Other",
     "Payments and international transactions",
     "Predictive policing",

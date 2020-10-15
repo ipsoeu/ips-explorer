@@ -27,4 +27,13 @@
   $src["catalog"][9]  = "9-catalog-ai-watch-t6-jrc120399.csv";
   $src["services"][9] = "9-services-ai-watch-t6-jrc120399.csv";
   
+  $src["catalog"][10]  = "10-catalog-digital-response-to-covid-19-joinup.csv";
+  $src["services"][10] = "10-services-digital-response-to-covid-19-joinup.csv";
+  
+  $src["catalog"][11]  = "11-catalog-amsterdam-algorithm-register.csv";
+  $src["services"][11] = "11-services-amsterdam-algorithm-register.csv";
+  
+  $src["catalog"][12]  = "12-catalog-helsinki-ai-register.csv";
+  $src["services"][12] = "12-services-helsinki-ai-register.csv";
+  
 ?>
