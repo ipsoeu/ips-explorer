@@ -4,7 +4,5 @@ var uptake = [
     "Large",
     "Small",
     "Unknown",
-    "Unknwon",
-    "Unkonwn",
     "Very large"
 ]

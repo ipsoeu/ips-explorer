@@ -1,5 +1,5 @@
 var cross_sector = [
     "No",
-    "Unknwon",
+    "Unknown",
     "Yes"
 ]
