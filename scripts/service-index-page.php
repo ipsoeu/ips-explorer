@@ -132,7 +132,7 @@
         </div>
         <div class="well">
             <fieldset id="secondary_sector_criteria">
-                <legend>Secondary sector</legend>
+                <legend>Activity</legend>
                 <div class="checkbox">
                   <label>
                     <input type="checkbox" value="All" id="all_secondary_sector">
@@ -300,7 +300,7 @@
             <p>
               <span class="icon icon-ca" title="Technology">IT</span> <%= technology %> 
               <span class="icon icon-ed" title="Primary sector">PS</span> <%= primary_sector %> 
-              <span class="icon icon-ef" title="Secondary sector">SS</span> <%= secondary_sector %> 
+              <span class="icon icon-ef" title="Activity">AC</span> <%= secondary_sector %> 
               <span class="icon icon-su" title="Uptake">UP</span> <%= uptake %>
               <span class="icon icon-pr" title="Type">TY</span> <%= type %> 
               <span class="icon icon-pu" title="Cross-sector">CS</span> <%= cross_sector %> 

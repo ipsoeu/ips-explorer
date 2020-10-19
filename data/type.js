@@ -1,4 +1,5 @@
 var type = [
+    "3d printing",
     "Auditing and logging",
     "Authentication",
     "Chatbot",
@@ -6,17 +7,15 @@ var type = [
     "Data access and reuse",
     "Digital identity",
     "Disintermediation and decentralized networks",
-    "Efficient flow management",
-    "Fraud detection",
     "Governance and voting",
-    "Infringement detection",
     "Other",
     "Payments and international transactions",
-    "Predictive policing",
-    "Process digitization",
+    "Process automation",
+    "Process digitisation",
     "Self sovereign - digital identity",
     "Service integration",
     "Smart city",
     "Tracking of goods, supply chain, iot",
-    "Validation and benchmarking"
+    "Validation and benchmarking",
+    "Virtual models"
 ]

@@ -23,12 +23,12 @@
         "active": "Yes",
         "end_date": "",
         "primary_sector": "Agriculture, forestry, fishing and hunting",
-        "secondary_sector": "Health",
+        "secondary_sector": "Certification",
         "technology": "Api",
         "uptake": "Unknown",
         "cross_border": "No",
         "cross_sector": "Yes",
-        "type": "Process digitization",
+        "type": "Process digitisation",
         "status": "In production"
     },
     {
@@ -54,13 +54,13 @@
         "start_date": "",
         "active": "Yes",
         "end_date": "",
-        "primary_sector": "Agriculture, forestry, fishing and hunting",
-        "secondary_sector": "Education",
+        "primary_sector": "Education",
+        "secondary_sector": "Registration",
         "technology": "Api",
         "uptake": "Unknown",
         "cross_border": "No",
         "cross_sector": "Yes",
-        "type": "Process digitization",
+        "type": "Process digitisation",
         "status": "In production"
     },
     {
@@ -86,13 +86,13 @@
         "start_date": "",
         "active": "Yes",
         "end_date": "",
-        "primary_sector": "Agriculture, forestry, fishing and hunting",
-        "secondary_sector": "Education",
+        "primary_sector": "Education",
+        "secondary_sector": "Information",
         "technology": "Api",
         "uptake": "Unknown",
         "cross_border": "No",
         "cross_sector": "Yes",
-        "type": "Process digitization",
+        "type": "Process digitisation",
         "status": "In production"
     },
     {
@@ -119,12 +119,12 @@
         "active": "No",
         "end_date": "",
         "primary_sector": "Education",
-        "secondary_sector": "Social protection",
+        "secondary_sector": "Financial support",
         "technology": "Api",
         "uptake": "Unknown",
         "cross_border": "No",
         "cross_sector": "Yes",
-        "type": "Process digitization",
+        "type": "Process digitisation",
         "status": "In production"
     },
     {
@@ -151,12 +151,12 @@
         "active": "Yes",
         "end_date": "",
         "primary_sector": "Executive and legislative organs, financial and fiscal affairs, external affairs",
-        "secondary_sector": "Financial and fiscal affairs",
+        "secondary_sector": "Financial support",
         "technology": "Api",
         "uptake": "Unknown",
         "cross_border": "No",
         "cross_sector": "No",
-        "type": "Process digitization",
+        "type": "Process digitisation",
         "status": "In production"
     },
     {
@@ -165,7 +165,7 @@
         "name": "demarches-simplifiees.fr",
         "url": "https:\/\/www.demarches-simplifiees.fr\/",
         "contact": "",
-        "description": "demarches-simplifiees.fr is an entirely online application which allows all organizations providing public service missions to create procedures in a matter of minutes and manage user requests on a dedicated platform.",
+        "description": "demarches-simplifiees.fr is an entirely online application which allows all organisations providing public service missions to create procedures in a matter of minutes and manage user requests on a dedicated platform.",
         "geoextent": "National",
         "geocoverage": [
             "France"
@@ -183,12 +183,12 @@
         "active": "Yes",
         "end_date": "",
         "primary_sector": "General public services",
-        "secondary_sector": "General public services",
+        "secondary_sector": "Procedures",
         "technology": "Api",
         "uptake": "Unknown",
         "cross_border": "No",
         "cross_sector": "No",
-        "type": "Process digitization",
+        "type": "Process digitisation",
         "status": "In production"
     },
     {
@@ -215,12 +215,12 @@
         "active": "Yes",
         "end_date": "",
         "primary_sector": "Education",
-        "secondary_sector": "Social protection",
+        "secondary_sector": "Financial support",
         "technology": "Api",
         "uptake": "Unknown",
         "cross_border": "No",
         "cross_sector": "Yes",
-        "type": "Process digitization",
+        "type": "Process digitisation",
         "status": "In production"
     },
     {
@@ -247,12 +247,12 @@
         "active": "Yes",
         "end_date": "",
         "primary_sector": "Communication",
-        "secondary_sector": "Social protection",
+        "secondary_sector": "Financial support",
         "technology": "Api",
         "uptake": "Unknown",
         "cross_border": "No",
         "cross_sector": "No",
-        "type": "Process digitization",
+        "type": "Process digitisation",
         "status": "In production"
     },
     {
@@ -279,12 +279,12 @@
         "active": "Yes",
         "end_date": "",
         "primary_sector": "Executive and legislative organs, financial and fiscal affairs, external affairs",
-        "secondary_sector": "Financial and fiscal affairs",
+        "secondary_sector": "Procurement",
         "technology": "Api",
         "uptake": "Unknown",
         "cross_border": "No",
         "cross_sector": "No",
-        "type": "Process digitization",
+        "type": "Process digitisation",
         "status": "In production"
     },
     {
@@ -310,13 +310,13 @@
         "start_date": "",
         "active": "Yes",
         "end_date": "",
-        "primary_sector": "Communication",
+        "primary_sector": "Waste management",
         "secondary_sector": "Waste management",
         "technology": "Api",
         "uptake": "Unknown",
         "cross_border": "No",
         "cross_sector": "No",
-        "type": "Process digitization",
+        "type": "Process digitisation",
         "status": "In production"
     },
     {
@@ -342,13 +342,13 @@
         "start_date": "",
         "active": "Yes",
         "end_date": "",
-        "primary_sector": "Communication",
-        "secondary_sector": "Transport",
+        "primary_sector": "Transport",
+        "secondary_sector": "Information",
         "technology": "Api",
         "uptake": "Unknown",
         "cross_border": "No",
         "cross_sector": "No",
-        "type": "Process digitization",
+        "type": "Process digitisation",
         "status": "In production"
     },
     {
@@ -374,13 +374,13 @@
         "start_date": "",
         "active": "Yes",
         "end_date": "",
-        "primary_sector": "Communication",
-        "secondary_sector": "Financial and fiscal affairs",
+        "primary_sector": "Financial and fiscal affairs",
+        "secondary_sector": "Information",
         "technology": "Api",
         "uptake": "Unknown",
         "cross_border": "No",
         "cross_sector": "No",
-        "type": "Process digitization",
+        "type": "Process digitisation",
         "status": "In production"
     },
     {
@@ -406,13 +406,13 @@
         "start_date": "",
         "active": "Yes",
         "end_date": "",
-        "primary_sector": "Communication",
-        "secondary_sector": "Transport",
+        "primary_sector": "Transport",
+        "secondary_sector": "Information",
         "technology": "Api",
         "uptake": "Unknown",
         "cross_border": "No",
         "cross_sector": "No",
-        "type": "Process digitization",
+        "type": "Process digitisation",
         "status": "In production"
     }
 ]

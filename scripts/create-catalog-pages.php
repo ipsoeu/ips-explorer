@@ -234,7 +234,7 @@ $(document).ready(function() {
 <p>' . join(", ", $geocoverage) . '</p>
 <p><strong>Primary sector</strong></p>
 <p>' . $primary_sector . '</p>
-<p><strong>Secondary sector</strong></p>
+<p><strong>Activity</strong></p>
 <p>' . $secondary_sector . '</p>
 <p><strong>Uptake</strong></p>
 <p>' . $uptake . '</p>

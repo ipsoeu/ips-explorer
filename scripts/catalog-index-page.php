@@ -143,7 +143,7 @@
               <dd><%= geoextent %></dd>
               <dt>Primary sector</dt>
               <dd><%= primary_sector %></dd>
-              <dt>Secondary sector</dt>
+              <dt>Activity</dt>
               <dd><%= secondary_sector %></dd>
             </dl>
 -->

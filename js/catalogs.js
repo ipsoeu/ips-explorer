@@ -61,7 +61,7 @@ function initSliders(){
 
   $('#publisher_criteria :checkbox').prop('checked', true);
   $('#all_publisher').on('click', function(){
-    $('#category_publisher :checkbox').prop('checked', $(this).is(':checked'));
+    $('#publisher_criteria :checkbox').prop('checked', $(this).is(':checked'));
   });
   $('#type_criteria :checkbox').prop('checked', true);
   $('#all_type').on('click', function(){
