@@ -6,13 +6,34 @@
   $site_logo = $img_path . "ipso-logo.jpg";
   $site_title = "IPS-X";
   $site_subtitle = "Innovative Public Services Explorer";
-  $site_description = "These pages allow you to explore innovative public services that have been collected from different sources in an integrated and harmonized way. Services can be discovered using a text-based, as well as, a graphic-based approach. We also list the contributing sources and offer the possibility to add your own service descriptions.";
+  $site_description = "These pages allow you to explore innovative public services that have been collected from different sources in an integrated and harmonised way. Services can be discovered using a text-based, as well as, a graphic-based approach. We also list the contributing sources and offer the possibility to add your own service descriptions.";
 
   $twitter = "";
   $github = "https://github.com/ipsoeu/ips-explorer/";
+  $contribute = "https://github.com/ipsoeu/ips-explorer/";
+ $feedback = "https://github.com/ipsoeu/ips-explorer/issues/";
+  $survey = "https://ec.europa.eu/eusurvey/runner/isa2-ips-survey-review";
 
   $footer = '<p></p>';
 
+  $headline["welcome"]["name"] = "Welcome to " . $site_title . "!";
+  $headline["welcome"]["icon"] = "";
+  $headline["welcome"]["descr"] = "The Innovative Public Services Explorer is an exercise to provide an integrated view of public services using emerging and disruptive technologies.";
+  $headline["welcome"]["url"] = $site_abs_path . "service/";
+  $headline["welcome"]["url_caption"] = "Explore";
+  
+  $headline["contribute"]["name"] = "Contribute";
+  $headline["contribute"]["icon"] = "";
+  $headline["contribute"]["descr"] = "If you are aware of any project, service, or initiative that is not listed here, please let us know. We will be happy to add them to the catalogue.";
+  $headline["contribute"]["url"] = $contribute;
+  $headline["contribute"]["url_caption"] = "How to contribute";
+  
+  $headline["survey"]["name"] = "IPS survey";
+  $headline["survey"]["icon"] = "";
+  $headline["survey"]["descr"] = "If you are involved in the provision of public services using emerging technologies, please consider filling in our survey.";
+  $headline["survey"]["url"] = $survey;
+  $headline["survey"]["url_caption"] = "Start the survey";
+  
 // Web site sections. Used to generated the navbar and the titles used in the different pages.
 
 //  $section["about"]["name"] = "About";
@@ -168,8 +189,19 @@
   if ($twitter != "") {
     $nav .= '<li><a target="_blank" href="' . $twitter . '" title="Twitter"><i class="fa fa-twitter"></i></a></li>' . "\n";
   }
+/*  
   if ($github != "") {
     $nav .= '<li><a target="_blank" href="' . $github . '" title="GitHub"><i class="fa fa-github"></i> About ' . $site_title . '</a></li>' . "\n";
+  }
+*/  
+  if ($feedback != "") {
+    $nav .= '<li><a target="_blank" href="' . $feedback . '" title="Send us your feedback."><i class="fa fa-comment"></i> Feedback</a></li>' . "\n";
+  }
+  if ($contribute != "") {
+    $nav .= '<li><a target="_blank" href="' . $contribute . '" title="Report projects, services, initiatives you are aware of."><i class="fa fa-github"></i> Contribute</a></li>' . "\n";
+  }
+  if ($contribute != "") {
+    $nav .= '<li><a target="_blank" href="' . $survey . '" title="Fill in the IPS survey."><i class="fa fa-edit"></i> IPS Survey</a></li>' . "\n";
   }
   $nav .= '</ul>' . "\n";
   $nav .= '</div>' . "\n";

@@ -28,3 +28,40 @@ svg {background-color: #27456b;}
 .unsdg-direct, .unsdg-indirect {padding:4px;font-weight:bold;text-align:center;cursor:help;}
 .unsdg-direct {background-color:#0000ff;color:#ffffff;}
 .unsdg-indirect {background-color:#ffff00;}
+
+
+/* Carousel base class */
+.carousel {
+  min-width: 100%;
+  height: 300px;
+  margin-top: -21px;
+  margin-bottom: 0px;
+}
+.carousel-caption {
+   z-index: 10; /* Since positioning the image, we need to help out the caption */
+}
+
+/* Declare heights because of positioning of img element */
+.carousel .item {
+  height: 300px;
+  background-color: #49678d;
+}
+.carousel .item h1 {
+  font-size:63px;
+}
+.carousel .item p {
+  font-size:21px;
+}
+.thumbnail{
+background-color:#27456b;
+color:#ffffff;
+}
+.thumbnail .img .fa,
+.thumbnail .caption,
+.thumbnail .caption h3 {
+color:#fff;
+}
+a > .thumbnail{
+opacity:1;
+}
+
