@@ -6,6 +6,7 @@ var geocoverage = [
     "Community",
     "Croatia",
     "Cyprus",
+    "Czech Republic",
     "Czechia",
     "Denmark",
     "Estonia",

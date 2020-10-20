@@ -1271,7 +1271,7 @@ var services = [
         "active": "No",
         "end_date": "",
         "primary_sector": "General public services",
-        "secondary_sector": "General public services",
+        "secondary_sector": "Asset management",
         "technology": "Blockchain",
         "uptake": "Unknown",
         "cross_border": "No",
@@ -10281,6 +10281,772 @@ var services = [
         "cross_border": "No",
         "cross_sector": "No",
         "type": "Process automation",
+        "status": "In production"
+    },
+    {
+        "cid": 10013,
+        "id": 130001,
+        "name": "BonnBot",
+        "url": "https:\/\/govbot.bonn.de\/",
+        "contact": "",
+        "description": "Chatbot Bonn is a chatbot that specializes in urban affairs: Be it searching for applications and forms, questions about opening times and responsibilities, or making an appointment. The chatbot has an answer for everything. Step by step, the user is guided through an application in a dialogue format and can ask questions or view additional explanatory information at any time.",
+        "geoextent": "Local",
+        "geocoverage": [
+            "Germany"
+        ],
+        "geocoverage_codes": [
+            "DE"
+        ],
+        "lead_organisation": {
+            "name": "City of Bonn",
+            "category": "Governmental"
+        },
+        "lead_organisation_name": "City of Bonn",
+        "lead_organisation_category": "Governmental",
+        "start_date": "2019",
+        "active": "Yes",
+        "end_date": "",
+        "primary_sector": "General public services",
+        "secondary_sector": "Information",
+        "technology": "Artificial intelligence",
+        "uptake": "Unknown",
+        "cross_border": "No",
+        "cross_sector": "Yes",
+        "type": "Chatbot",
+        "status": "In production"
+    },
+    {
+        "cid": 10013,
+        "id": 130002,
+        "name": "Kamu",
+        "url": "http:\/\/startingupsmoothly.fi\/",
+        "contact": "",
+        "description": "The Kamu chatbot helps you with residence permits to live in Finland. Together with PatRek and Verobot, Kamu is one of the chatbots develped in the framework of Starting up Smoothly, a collaboration between the Finnish Immigration Service (Migri), the Finnish Tax Administration (Vero) and the Finnish Patent and Registration Office (PRH). The goal of this collaboration was to pilot a chatbot network, where three independent chatbots are interconnected through an intelligent layer.",
+        "geoextent": "National",
+        "geocoverage": [
+            "Finland"
+        ],
+        "geocoverage_codes": [
+            "FI"
+        ],
+        "lead_organisation": {
+            "name": "Finnish Immigration Service",
+            "category": "Governmental"
+        },
+        "lead_organisation_name": "Finnish Immigration Service",
+        "lead_organisation_category": "Governmental",
+        "start_date": "2018",
+        "active": "Yes",
+        "end_date": "",
+        "primary_sector": "Social protection",
+        "secondary_sector": "Information",
+        "technology": "Artificial intelligence",
+        "uptake": "Unknown",
+        "cross_border": "No",
+        "cross_sector": "No",
+        "type": "Chatbot",
+        "status": "In production"
+    },
+    {
+        "cid": 10013,
+        "id": 130003,
+        "name": "Noa",
+        "url": "https:\/\/french-tech-central.com\/",
+        "contact": "",
+        "description": "The Noa chatbot (Nous orienter dans l\u2019Administration) was desined to facilitate your administrative procedures. It is a project led by the prefecture of the \u00cele-de-France region, with around ten administrations, supported by the Investments for the Future program and the French Tech mission.",
+        "geoextent": "Regional",
+        "geocoverage": [
+            "France"
+        ],
+        "geocoverage_codes": [
+            "FR"
+        ],
+        "lead_organisation": {
+            "name": "Prefecture de l'Ile de France",
+            "category": "Governmental"
+        },
+        "lead_organisation_name": "Prefecture de l'Ile de France",
+        "lead_organisation_category": "Governmental",
+        "start_date": "2019",
+        "active": "Yes",
+        "end_date": "",
+        "primary_sector": "General economic and commercial affairs",
+        "secondary_sector": "Information",
+        "technology": "Artificial intelligence",
+        "uptake": "Unknown",
+        "cross_border": "No",
+        "cross_sector": "No",
+        "type": "Chatbot",
+        "status": "In production"
+    },
+    {
+        "cid": 10013,
+        "id": 130004,
+        "name": "PatRek",
+        "url": "http:\/\/startingupsmoothly.fi\/",
+        "contact": "",
+        "description": "The PatRek chatbot advises you how to set up your company in Finland. Together with Kamu and VeroBot, PatRek is one of the chatbots develped in the framework of Starting up Smoothly, a collaboration between the Finnish Immigration Service (Migri), the Finnish Tax Administration (Vero) and the Finnish Patent and Registration Office (PRH). The goal of this collaboration was to pilot a chatbot network, where three independent chatbots are interconnected through an intelligent layer.",
+        "geoextent": "National",
+        "geocoverage": [
+            "Finland"
+        ],
+        "geocoverage_codes": [
+            "FI"
+        ],
+        "lead_organisation": {
+            "name": "Finnish Patent and Registration Office",
+            "category": "Governmental"
+        },
+        "lead_organisation_name": "Finnish Patent and Registration Office",
+        "lead_organisation_category": "Governmental",
+        "start_date": "2018",
+        "active": "Yes",
+        "end_date": "",
+        "primary_sector": "General economic and commercial affairs",
+        "secondary_sector": "Information",
+        "technology": "Artificial intelligence",
+        "uptake": "Unknown",
+        "cross_border": "No",
+        "cross_sector": "No",
+        "type": "Chatbot",
+        "status": "In production"
+    },
+    {
+        "cid": 10013,
+        "id": 130005,
+        "name": "Sigma",
+        "url": "https:\/\/eportugal.gov.pt\/",
+        "contact": "",
+        "description": "Sigma is the chatbot of the ePortugal portal, which allows quick clarification of doubts, serving as a support to navigation, and which can also be found on Facebook. With the help of Sigma, you can, for example, perform the change of address service.",
+        "geoextent": "National",
+        "geocoverage": [
+            "Portugal"
+        ],
+        "geocoverage_codes": [
+            "PT"
+        ],
+        "lead_organisation": {
+            "name": "Agency for Administrative Modernisation",
+            "category": "Governmental"
+        },
+        "lead_organisation_name": "Agency for Administrative Modernisation",
+        "lead_organisation_category": "Governmental",
+        "start_date": "2019",
+        "active": "Yes",
+        "end_date": "",
+        "primary_sector": "General public services",
+        "secondary_sector": "Information",
+        "technology": "Artificial intelligence",
+        "uptake": "Unknown",
+        "cross_border": "No",
+        "cross_sector": "No",
+        "type": "Chatbot",
+        "status": "In production"
+    },
+    {
+        "cid": 10013,
+        "id": 130006,
+        "name": "Travelbot",
+        "url": "https:\/\/www.facebook.com\/tfltravelbot\/",
+        "contact": "",
+        "description": "Transport for London (TfL) has launched the next generation in customer service technology with its first ever 'TravelBot'. The new social media tool, which is powered by artificial intelligence, can \"chat\" with customers using Messenger and instantly tell them when their bus is due to arrive, provide service updates and Tube maps. The TravelBot can also link direct to a customer service agent, making customer service queries easier than ever.",
+        "geoextent": "Local",
+        "geocoverage": [
+            "United Kingdom"
+        ],
+        "geocoverage_codes": [
+            "GB"
+        ],
+        "lead_organisation": {
+            "name": "Transport for London",
+            "category": "Governmental"
+        },
+        "lead_organisation_name": "Transport for London",
+        "lead_organisation_category": "Governmental",
+        "start_date": "2019",
+        "active": "Yes",
+        "end_date": "",
+        "primary_sector": "Transport",
+        "secondary_sector": "Information",
+        "technology": "Artificial intelligence",
+        "uptake": "Unknown",
+        "cross_border": "No",
+        "cross_sector": "No",
+        "type": "Chatbot",
+        "status": "In production"
+    },
+    {
+        "cid": 10013,
+        "id": 130007,
+        "name": "VeroBot",
+        "url": "http:\/\/startingupsmoothly.fi\/",
+        "contact": "",
+        "description": "The VeroBot chatbot tells you about business and work-related taxes in Finland. Together with Kamu and PatRek, VeroBot is one of the chatbots develped in the framework of Starting up Smoothly, a collaboration between the Finnish Immigration Service (Migri), the Finnish Tax Administration (Vero) and the Finnish Patent and Registration Office (PRH). The goal of this collaboration was to pilot a chatbot network, where three independent chatbots are interconnected through an intelligent layer.",
+        "geoextent": "National",
+        "geocoverage": [
+            "Finland"
+        ],
+        "geocoverage_codes": [
+            "FI"
+        ],
+        "lead_organisation": {
+            "name": "Finnish Tax Administration",
+            "category": "Governmental"
+        },
+        "lead_organisation_name": "Finnish Tax Administration",
+        "lead_organisation_category": "Governmental",
+        "start_date": "2018",
+        "active": "Yes",
+        "end_date": "",
+        "primary_sector": "Financial and fiscal affairs",
+        "secondary_sector": "Information",
+        "technology": "Artificial intelligence",
+        "uptake": "Unknown",
+        "cross_border": "No",
+        "cross_sector": "No",
+        "type": "Chatbot",
+        "status": "In production"
+    },
+    {
+        "cid": 10013,
+        "id": 130008,
+        "name": "Bobbi",
+        "url": "https:\/\/service.berlin.de\/chatbot\/chatbot-bobbi-606279.php",
+        "contact": "",
+        "description": "As part of the  IDBB sub- project Virtual Citizen Assistant, the D115 call center employees of the State of Berlin are to be relieved of citizen-authority interaction and at the same time the provision of information for citizens is to be improved. This can be achieved either by automating the telephony itself (optimization of a channel) or by adding additional communication channels to telephony (multi-channel approach, hybrid approach). While personal contact with an employee is usually necessary for specific problem solving, the simple provision of information and forwarding of information can also be implemented via other, more automated, channels. We follow the suggestions for action recommended in the study \u201cUniform telephone numbers for authorities in the European Union\u201d (IfG.CC, 2010) and formulate the project objective to increase the accessibility of D115 and to create expanded and combined access channels to information from authorities. In addition, the citizen assistant should use and promote the increasing digitalization of services of the Berlin administration. For this purpose, interfaces to services are integrated or created. As a result, the citizens will have convenient online access to the services of the Berlin administration.",
+        "geoextent": "Local",
+        "geocoverage": [
+            "Germany"
+        ],
+        "geocoverage_codes": [
+            "DE"
+        ],
+        "lead_organisation": {
+            "name": "City of Berlin",
+            "category": "Governmental"
+        },
+        "lead_organisation_name": "City of Berlin",
+        "lead_organisation_category": "Governmental",
+        "start_date": "2019",
+        "active": "Yes",
+        "end_date": "",
+        "primary_sector": "General public services",
+        "secondary_sector": "Information",
+        "technology": "Artificial intelligence",
+        "uptake": "Unknown",
+        "cross_border": "No",
+        "cross_sector": "Yes",
+        "type": "Chatbot",
+        "status": "In production"
+    },
+    {
+        "cid": 10014,
+        "id": 140001,
+        "name": "Stopp Corona App",
+        "url": "https:\/\/www.austria.info\/en\/service-and-facts\/coronavirus-information\/app",
+        "contact": "",
+        "description": "Austria\u2019s official contact tracing app automatically records any and all contacts while adhering to strict data protection guidelines. As soon as a user reports an infection, all contacts are automatically notified. Powered by the latest COVID-19 contact tracing technology for iOS and Android, the app is available in German and English.",
+        "geoextent": "National",
+        "geocoverage": [
+            "Austria"
+        ],
+        "geocoverage_codes": [
+            "AT"
+        ],
+        "lead_organisation": {
+            "name": "Austrian Red Cross",
+            "category": "Private"
+        },
+        "lead_organisation_name": "Austrian Red Cross",
+        "lead_organisation_category": "Private",
+        "start_date": "2020",
+        "active": "Yes",
+        "end_date": "",
+        "primary_sector": "Health",
+        "secondary_sector": "Information",
+        "technology": "Internet of things",
+        "uptake": "Unknown",
+        "cross_border": "No",
+        "cross_sector": "No",
+        "type": "Contact tracing",
+        "status": "In production"
+    },
+    {
+        "cid": 10014,
+        "id": 140002,
+        "name": "Coronalert",
+        "url": "https:\/\/coronalert.be\/en\/",
+        "contact": "",
+        "description": "The app helps us to protect each other and slow down the spread of the coronavirus (COVID-19). The Coronalert app uses technology to speed up contact detection in Belgium.",
+        "geoextent": "National",
+        "geocoverage": [
+            "Belgium"
+        ],
+        "geocoverage_codes": [
+            "BE"
+        ],
+        "lead_organisation": {
+            "name": "SCIENSANO",
+            "category": "Governmental"
+        },
+        "lead_organisation_name": "SCIENSANO",
+        "lead_organisation_category": "Governmental",
+        "start_date": "2020",
+        "active": "Yes",
+        "end_date": "",
+        "primary_sector": "Health",
+        "secondary_sector": "Information",
+        "technology": "Internet of things",
+        "uptake": "Unknown",
+        "cross_border": "No",
+        "cross_sector": "No",
+        "type": "Contact tracing",
+        "status": "In production"
+    },
+    {
+        "cid": 10014,
+        "id": 140003,
+        "name": "Stop COVID-19",
+        "url": "https:\/\/www.koronavirus.hr\/stop-covid-19-723\/723",
+        "contact": "",
+        "description": "Stop COVID-19 is an application that serves to simply warn citizens that they may have found themselves in epidemiologically risky contact. It will help you make the right decision if you develop symptoms: you will be able to give the epidemiologist accurate and clear information about the exposure. If you have no symptoms, and the application warns you that you have been in epidemiologically risky contact, you can pay more attention to hygiene and physical distance.",
+        "geoextent": "National",
+        "geocoverage": [
+            "Croatia"
+        ],
+        "geocoverage_codes": [
+            "HR"
+        ],
+        "lead_organisation": {
+            "name": "Ministry of Health",
+            "category": "Governmental"
+        },
+        "lead_organisation_name": "Ministry of Health",
+        "lead_organisation_category": "Governmental",
+        "start_date": "2020",
+        "active": "Yes",
+        "end_date": "",
+        "primary_sector": "Health",
+        "secondary_sector": "Information",
+        "technology": "Internet of things",
+        "uptake": "Unknown",
+        "cross_border": "No",
+        "cross_sector": "No",
+        "type": "Contact tracing",
+        "status": "In production"
+    },
+    {
+        "cid": 10014,
+        "id": 140004,
+        "name": "eRou\u0161ka",
+        "url": "https:\/\/erouska.cz\/",
+        "contact": "",
+        "description": "With the eRou\u0161ka application, you will help stop the spread of COVID-19. It allows users to be alerted in a timely and anonymous manner to a risky encounter with an infected person. The application maximally protects your privacy, does not know your personal data or location.",
+        "geoextent": "National",
+        "geocoverage": [
+            "Czech Republic"
+        ],
+        "geocoverage_codes": [],
+        "lead_organisation": {
+            "name": "Ministry of Health",
+            "category": "Governmental"
+        },
+        "lead_organisation_name": "Ministry of Health",
+        "lead_organisation_category": "Governmental",
+        "start_date": "2020",
+        "active": "Yes",
+        "end_date": "",
+        "primary_sector": "Health",
+        "secondary_sector": "Information",
+        "technology": "Internet of things",
+        "uptake": "Unknown",
+        "cross_border": "No",
+        "cross_sector": "No",
+        "type": "Contact tracing",
+        "status": "In production"
+    },
+    {
+        "cid": 10014,
+        "id": 140005,
+        "name": "Smitte | stop",
+        "url": "https:\/\/smittestop.dk\/",
+        "contact": "",
+        "description": "The app smitte | stop is a digital tool that gives us all the opportunity to help prevent COVID-19 from spreading while Denmark reopens. In the app, you can easily notify people you have been close to if you are tested positive for new coronavirus, and thus the app can help to slow down infection chains. The app is a digital supplement to other initiatives aimed at controlling the spread of infection in society, such as isolation of the sick, general advice on hygiene and distance as well as other contact tracing.",
+        "geoextent": "National",
+        "geocoverage": [
+            "Denmark"
+        ],
+        "geocoverage_codes": [
+            "DK"
+        ],
+        "lead_organisation": {
+            "name": "Ministry of Health and the Elderly",
+            "category": "Governmental"
+        },
+        "lead_organisation_name": "Ministry of Health and the Elderly",
+        "lead_organisation_category": "Governmental",
+        "start_date": "2020",
+        "active": "Yes",
+        "end_date": "",
+        "primary_sector": "Health",
+        "secondary_sector": "Information",
+        "technology": "Internet of things",
+        "uptake": "Unknown",
+        "cross_border": "No",
+        "cross_sector": "No",
+        "type": "Contact tracing",
+        "status": "In production"
+    },
+    {
+        "cid": 10014,
+        "id": 140006,
+        "name": "Koronavilkku",
+        "url": "https:\/\/koronavilkku.fi\/",
+        "contact": "",
+        "description": "Koronavikku is an application produced by the Department of Health and Welfare that allows you to get information if you are exposed to a coronavirus according to the application's assessment. If you are found infected, you can report it anonymously. In the app, your privacy is strongly protected.",
+        "geoextent": "National",
+        "geocoverage": [
+            "Finland"
+        ],
+        "geocoverage_codes": [
+            "FI"
+        ],
+        "lead_organisation": {
+            "name": "Department of Health and Welfare",
+            "category": "Governmental"
+        },
+        "lead_organisation_name": "Department of Health and Welfare",
+        "lead_organisation_category": "Governmental",
+        "start_date": "2020",
+        "active": "Yes",
+        "end_date": "",
+        "primary_sector": "Health",
+        "secondary_sector": "Information",
+        "technology": "Internet of things",
+        "uptake": "Unknown",
+        "cross_border": "No",
+        "cross_sector": "No",
+        "type": "Contact tracing",
+        "status": "In production"
+    },
+    {
+        "cid": 10014,
+        "id": 140007,
+        "name": "StopCovid",
+        "url": "https:\/\/www.economie.gouv.fr\/stopcovid",
+        "contact": "",
+        "description": "StopCovid is an application that is part of the Government's overall deconfinement plan in the context of the Covid-19 epidemic. Objectives: protect yourself, protect others, and support the efforts of caregivers and the health system to stop the chains of contamination as quickly as possible and avoid a second wave of the Covid-19 epidemic. On Wednesday, May 27, the National Assembly and the Senate voted in favor of the deployment of StopCovid.",
+        "geoextent": "National",
+        "geocoverage": [
+            "France"
+        ],
+        "geocoverage_codes": [
+            "FR"
+        ],
+        "lead_organisation": {
+            "name": "French Government",
+            "category": "Governmental"
+        },
+        "lead_organisation_name": "French Government",
+        "lead_organisation_category": "Governmental",
+        "start_date": "2020",
+        "active": "Yes",
+        "end_date": "",
+        "primary_sector": "Health",
+        "secondary_sector": "Information",
+        "technology": "Internet of things",
+        "uptake": "Unknown",
+        "cross_border": "No",
+        "cross_sector": "No",
+        "type": "Contact tracing",
+        "status": "In production"
+    },
+    {
+        "cid": 10014,
+        "id": 140008,
+        "name": "Corna-Warn-App",
+        "url": "https:\/\/www.bundesregierung.de\/breg-de\/themen\/corona-warn-app\/corona-warn-app-englisch",
+        "contact": "",
+        "description": "The Corona-Warn-App helps us to determine whether we have had any contact with an infected person which could result in a risk of catching the virus. This way, we can interrupt chains of infection more quickly. The app is a service by the Federal Government. Download and use of the app are entirely voluntary.",
+        "geoextent": "National",
+        "geocoverage": [
+            "Germany"
+        ],
+        "geocoverage_codes": [
+            "DE"
+        ],
+        "lead_organisation": {
+            "name": "German Government",
+            "category": "Governmental"
+        },
+        "lead_organisation_name": "German Government",
+        "lead_organisation_category": "Governmental",
+        "start_date": "2020",
+        "active": "Yes",
+        "end_date": "",
+        "primary_sector": "Health",
+        "secondary_sector": "Information",
+        "technology": "Internet of things",
+        "uptake": "Unknown",
+        "cross_border": "Yes",
+        "cross_sector": "No",
+        "type": "Contact tracing",
+        "status": "In production"
+    },
+    {
+        "cid": 10014,
+        "id": 140009,
+        "name": "VirusRadar",
+        "url": "https:\/\/virusradar.hu\/",
+        "contact": "",
+        "description": "The Virus Radar is a mobile application which is the basis of the best international examples have been developed to protect against the coronavirus. The app can be used to examine contact with proven infected people by measuring the distance of mobile devices using Bluetooth. The Virus Radar helps the work of epidemiologists contact research. By using the phone numbers of users who also run VirusRadar , professionals can access those the infected person has encountered in the past 14 days, potentially infecting them.",
+        "geoextent": "National",
+        "geocoverage": [
+            "Hungary"
+        ],
+        "geocoverage_codes": [
+            "HU"
+        ],
+        "lead_organisation": {
+            "name": "Ministry of Innovation and Technology",
+            "category": "Governmental"
+        },
+        "lead_organisation_name": "Ministry of Innovation and Technology",
+        "lead_organisation_category": "Governmental",
+        "start_date": "2020",
+        "active": "Yes",
+        "end_date": "",
+        "primary_sector": "Health",
+        "secondary_sector": "Information",
+        "technology": "Internet of things",
+        "uptake": "Unknown",
+        "cross_border": "No",
+        "cross_sector": "No",
+        "type": "Contact tracing",
+        "status": "In production"
+    },
+    {
+        "cid": 10014,
+        "id": 140010,
+        "name": "COVID Tracker",
+        "url": "https:\/\/covidtracker.gov.ie\/",
+        "contact": "",
+        "description": "COVID Tracker is a free app for your mobile phone. It will help us to protect each other and slow the spread of coronavirus (COVID-19) in Ireland. Using the COVID Tracker app along with the existing public health measures will help us all stay safe when we meet up, socialise, work or travel.",
+        "geoextent": "National",
+        "geocoverage": [
+            "Ireland"
+        ],
+        "geocoverage_codes": [
+            "IE"
+        ],
+        "lead_organisation": {
+            "name": "Government of Ireland",
+            "category": "Governmental"
+        },
+        "lead_organisation_name": "Government of Ireland",
+        "lead_organisation_category": "Governmental",
+        "start_date": "2020",
+        "active": "Yes",
+        "end_date": "",
+        "primary_sector": "Health",
+        "secondary_sector": "Information",
+        "technology": "Internet of things",
+        "uptake": "Unknown",
+        "cross_border": "Yes",
+        "cross_sector": "No",
+        "type": "Contact tracing",
+        "status": "In production"
+    },
+    {
+        "cid": 10014,
+        "id": 140011,
+        "name": "Immuni",
+        "url": "https:\/\/www.immuni.italia.it\/",
+        "contact": "",
+        "description": "Immuni is an app created to help us fight epidemics, starting with COVID-19. The app has a contact tracing feature. When users discover they have tested positive for the virus, Immuni allows them to anonymously alert people they have been in close contact with and who may also have been infected. By being informed promptly (potentially even before developing symptoms of the virus), these people can contact their general practitioner to discuss their situation. Doing so can prevent them from infecting others, helping to reduce the spread of the virus.",
+        "geoextent": "National",
+        "geocoverage": [
+            "Italy"
+        ],
+        "geocoverage_codes": [
+            "IT"
+        ],
+        "lead_organisation": {
+            "name": "Presidenza del Consiglio dei Ministri",
+            "category": "Governmental"
+        },
+        "lead_organisation_name": "Presidenza del Consiglio dei Ministri",
+        "lead_organisation_category": "Governmental",
+        "start_date": "2020",
+        "active": "Yes",
+        "end_date": "",
+        "primary_sector": "Health",
+        "secondary_sector": "Information",
+        "technology": "Internet of things",
+        "uptake": "Large",
+        "cross_border": "Yes",
+        "cross_sector": "No",
+        "type": "Contact tracing",
+        "status": "In production"
+    },
+    {
+        "cid": 10014,
+        "id": 140012,
+        "name": "Apturi Covid",
+        "url": "https:\/\/www.apturicovid.lv\/#en",
+        "contact": "",
+        "description": "The app is a solution that helps limit the spread of coronavirus in Latvia and find out faster if you have been exposed to COVID-19. This app enables you to make the decision to self-isolate faster to help keep your friends, family and the general public safe, as well as monitor symptoms and seek help faster if needed.",
+        "geoextent": "National",
+        "geocoverage": [
+            "Latvia"
+        ],
+        "geocoverage_codes": [
+            "LV"
+        ],
+        "lead_organisation": {
+            "name": "Ministry of Health and Centre for Disease Prevention and Control",
+            "category": "Governmental"
+        },
+        "lead_organisation_name": "Ministry of Health and Centre for Disease Prevention and Control",
+        "lead_organisation_category": "Governmental",
+        "start_date": "2020",
+        "active": "Yes",
+        "end_date": "",
+        "primary_sector": "Health",
+        "secondary_sector": "Information",
+        "technology": "Internet of things",
+        "uptake": "Unknown",
+        "cross_border": "No",
+        "cross_sector": "No",
+        "type": "Contact tracing",
+        "status": "In production"
+    },
+    {
+        "cid": 10014,
+        "id": 140013,
+        "name": "ProteGO Safe",
+        "url": "https:\/\/www.gov.pl\/web\/protegosafe",
+        "contact": "",
+        "description": "STOP COVID - ProteGO Safe is an application that will help us overcome the most severe restrictions related to a pandemic. The more of us use it, the faster and more effectively we will reduce the pace and extent of the spread of the coronavirus. It is also professional help for both healthy and infected people.",
+        "geoextent": "National",
+        "geocoverage": [
+            "Poland"
+        ],
+        "geocoverage_codes": [
+            "PL"
+        ],
+        "lead_organisation": {
+            "name": "Government of Poland",
+            "category": "Governmental"
+        },
+        "lead_organisation_name": "Government of Poland",
+        "lead_organisation_category": "Governmental",
+        "start_date": "2020",
+        "active": "Yes",
+        "end_date": "",
+        "primary_sector": "Health",
+        "secondary_sector": "Information",
+        "technology": "Internet of things",
+        "uptake": "Unknown",
+        "cross_border": "No",
+        "cross_sector": "No",
+        "type": "Contact tracing",
+        "status": "In production"
+    },
+    {
+        "cid": 10014,
+        "id": 140014,
+        "name": "StayAway COVID",
+        "url": "https:\/\/stayawaycovid.pt\/landing-page\/",
+        "contact": "",
+        "description": "STAYAWAY COVID is an application that runs on iOS and Android mobile phones and is intended to support the country in its efforts to screen for COVID-19. By monitoring your most recent contacts, the app allows you to know, simply and safely, whether you have been exposed to the disease. The STAYAWAY COVID app is entirely voluntary and free and at no time requires access to your identity or personal data.",
+        "geoextent": "National",
+        "geocoverage": [
+            "Portugal"
+        ],
+        "geocoverage_codes": [
+            "PT"
+        ],
+        "lead_organisation": {
+            "name": "INESC TEC",
+            "category": "Private"
+        },
+        "lead_organisation_name": "INESC TEC",
+        "lead_organisation_category": "Private",
+        "start_date": "2020",
+        "active": "Yes",
+        "end_date": "",
+        "primary_sector": "Health",
+        "secondary_sector": "Information",
+        "technology": "Internet of things",
+        "uptake": "Unknown",
+        "cross_border": "No",
+        "cross_sector": "No",
+        "type": "Contact tracing",
+        "status": "In production"
+    },
+    {
+        "cid": 10014,
+        "id": 140015,
+        "name": "#OstaniZdrav",
+        "url": "https:\/\/www.gov.si\/en\/topics\/coronavirus-disease-covid-19\/the-ostanizdrav-mobile-application\/",
+        "contact": "",
+        "description": "The mobile application for protecting public health and lives, #OstaniZdrav (#StayHealthy), is a tool that informs you if you have been in contact with an infected person. With its use and the observance of recommendations, each person contributes their share to restricting the spread of the virus and the protection of our own health, the health of our loved ones and that of society as a whole.",
+        "geoextent": "National",
+        "geocoverage": [
+            "Slovenia"
+        ],
+        "geocoverage_codes": [
+            "SI"
+        ],
+        "lead_organisation": {
+            "name": "Government of Slovenia",
+            "category": "Governmental"
+        },
+        "lead_organisation_name": "Government of Slovenia",
+        "lead_organisation_category": "Governmental",
+        "start_date": "2020",
+        "active": "Yes",
+        "end_date": "",
+        "primary_sector": "Health",
+        "secondary_sector": "Information",
+        "technology": "Internet of things",
+        "uptake": "Unknown",
+        "cross_border": "No",
+        "cross_sector": "No",
+        "type": "Contact tracing",
+        "status": "In production"
+    },
+    {
+        "cid": 10014,
+        "id": 140016,
+        "name": "Radar Covid",
+        "url": "https:\/\/radarcovid.gob.es\/",
+        "contact": "",
+        "description": "Official application of the Government of Spain for COVID-19 contact tracing.",
+        "geoextent": "National",
+        "geocoverage": [
+            "Spain"
+        ],
+        "geocoverage_codes": [
+            "ES"
+        ],
+        "lead_organisation": {
+            "name": "Spanish Government",
+            "category": "Governmental"
+        },
+        "lead_organisation_name": "Spanish Government",
+        "lead_organisation_category": "Governmental",
+        "start_date": "2020",
+        "active": "Yes",
+        "end_date": "",
+        "primary_sector": "Health",
+        "secondary_sector": "Information",
+        "technology": "Internet of things",
+        "uptake": "Unknown",
+        "cross_border": "No",
+        "cross_sector": "No",
+        "type": "Contact tracing",
         "status": "In production"
     }
 ]

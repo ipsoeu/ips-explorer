@@ -36,4 +36,10 @@
   $src["catalog"][12]  = "12-catalog-helsinki-ai-register.csv";
   $src["services"][12] = "12-services-helsinki-ai-register.csv";
   
+  $src["catalog"][13]  = "13-catalog-chatbots-architecture-joinup.csv";
+  $src["services"][13] = "13-services-chatbots-architecture-joinup.csv";
+  
+  $src["catalog"][14]  = "14-catalog-covid-mobile-contact-tracing-apps.csv";
+  $src["services"][14] = "14-services-covid-mobile-contact-tracing-apps.csv";
+  
 ?>

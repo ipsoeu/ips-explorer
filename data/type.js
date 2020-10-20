@@ -3,6 +3,7 @@ var type = [
     "Auditing and logging",
     "Authentication",
     "Chatbot",
+    "Contact tracing",
     "Cybersecurity",
     "Data access and reuse",
     "Digital identity",

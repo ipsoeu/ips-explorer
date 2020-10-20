@@ -5,7 +5,6 @@ var secondary_sector = [
     "Data access",
     "Feedback",
     "Financial support",
-    "General public services",
     "Immigration",
     "Information",
     "Law enforcement",

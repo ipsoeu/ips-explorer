@@ -118,5 +118,25 @@ var catalogs = [
         "c_publisher": "City of Helsinki",
         "c_country": "Finland",
         "c_type": "Catalogue"
+    },
+    {
+        "c_id": 10013,
+        "c_name": "Joinup - Architecture for public services chatbots",
+        "c_url": "https:\/\/joinup.ec.europa.eu\/sites\/default\/files\/news\/2019-09\/ISA2_Architecture%20for%20public%20service%20chatbots_0.pdf",
+        "c_contact": "",
+        "c_description": "To facilitate the access of citizens and business to public services, a large number of e-catalogues and e-Government portals have been implemented throughout Europe. In many cases the development of these catalogues has not been harmonised. This makes it difficult for public administrations, citizens and businesses to have an integrated view on life events, business events and the public services provided within a specific country or region. In this context, this document aims to identify how public administrations can best provide public services via chatbots.",
+        "c_publisher": "European Commission",
+        "c_country": "European Union",
+        "c_type": "Desk research"
+    },
+    {
+        "c_id": 10014,
+        "c_name": "Mobile contact tracing apps in EU Member States",
+        "c_url": "https:\/\/ec.europa.eu\/info\/live-work-travel-eu\/health\/coronavirus-response\/travel-during-coronavirus-pandemic\/mobile-contact-tracing-apps-eu-member-states_en",
+        "c_contact": "",
+        "c_description": "Contact tracing and warning apps can be voluntarily installed and used to warn users if they have been in the proximity of a person who is reported to have been tested positive for coronavirus. In the case of an alert, the app may provide relevant information from health authorities, such as advice to get tested or to self-isolate, and who to contact. Mobile contact tracing apps can help speed up traditional contact tracing and save precious hours of work for public health staff tracing the chain of infection.",
+        "c_publisher": "European Commission",
+        "c_country": "European Union",
+        "c_type": "Catalogue"
     }
 ]
