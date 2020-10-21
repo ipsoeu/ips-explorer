@@ -47,6 +47,7 @@
     <script src="https://eloquentstudio.github.io/filter.js/filter.min.js" type="text/javascript"></script>
     <script src="<?php echo $site_abs_path; ?>js/jvectormap.com/js/jquery-jvectormap-2.0.3.min.js"></script>
     <script src="<?php echo $site_abs_path; ?>js/jvectormap.com/js/jquery-jvectormap-europe-mill-en.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="<?php echo $site_abs_path; ?>js/common.js"></script>
     <script src="<?php echo $section[$sec]["data"] ; ?>.js" type="text/javascript"></script>
     <script src="<?php echo $site_abs_path; ?>js/services-map.js" type="text/javascript"></script>
@@ -73,9 +74,15 @@
           <span class="glyphicon glyphicon-search search-icon"></span>
         </div>
         <br>
-        <div class="well">
-            <fieldset id="technology_criteria">
-                <legend>Technologies</legend>
+        <div id="facets" role="tablist" aria-multiselectable="true">
+            <fieldset id="technology_criteria" class="panel panel-default">
+            <div class="panel-heading" role="tab" id="technology_criteria_heading">
+	    <legend role="button" class="panel-title" data-toggle="collapse" data-target="#technology_criteria_list" aria-expanded="true" aria-controls="technology_criteria_list">
+              Technologies
+            </legend>
+	    </div>
+            <div id="technology_criteria_list" class="panel-collapse collapse in" role="tabpanel" aria-labelled-by="technology_criteria_heading">
+            <div class="panel-body">
                 <div class="checkbox">
                   <label>
                     <input type="checkbox" value="All" id="all_technology">
@@ -90,11 +97,21 @@
               </label>
             </div>
 <?php } ?>            
+            </div>
+            </div>
             </fieldset>
+<!--
         </div>
         <div class="well">
-            <fieldset id="geoextent_criteria">
-                <legend>Geographic extent</legend>
+-->
+            <fieldset id="geoextent_criteria" class="panel panel-default">
+            <div class="panel-heading" role="tab" id="geoextent_criteria_heading">
+	    <legend role="button" class="panel-title" data-toggle="collapse" data-target="#geoextent_criteria_list" aria-expanded="false" aria-controls="geoextent_criteria_list">
+              Geographic extent
+            </legend>
+	    </div>
+            <div id="geoextent_criteria_list" class="panel-collapse collapse" role="tabpanel" aria-labelled-by="geoextent_criteria_heading">
+            <div class="panel-body">
                 <div class="checkbox">
                   <label>
                     <input type="checkbox" value="All" id="all_geoextent">
@@ -109,11 +126,21 @@
               </label>
             </div>
 <?php } ?>            
+            </div>
+            </div>
             </fieldset>
+<!--
         </div>
         <div class="well">
-            <fieldset id="primary_sector_criteria">
-                <legend>Primary sector</legend>
+-->
+            <fieldset id="primary_sector_criteria" class="panel panel-default">
+            <div class="panel-heading" role="tab" id="primary_sector_criteria_heading">
+	    <legend role="button" class="panel-title" data-toggle="collapse" data-target="#primary_sector_criteria_list" aria-expanded="false" aria-controls="primary_sector_criteria_list">
+              Primary sector
+            </legend>
+	    </div>
+            <div id="primary_sector_criteria_list" class="panel-collapse collapse" role="tabpanel" aria-labelled-by="primary_sector_criteria_heading">
+            <div class="panel-body">
                 <div class="checkbox">
                   <label>
                     <input type="checkbox" value="All" id="all_primary_sector">
@@ -128,11 +155,21 @@
               </label>
             </div>
 <?php } ?>            
+            </div>
+            </div>
             </fieldset>
+<!--
         </div>
         <div class="well">
-            <fieldset id="secondary_sector_criteria">
-                <legend>Activity</legend>
+-->
+            <fieldset id="secondary_sector_criteria" class="panel panel-default">
+            <div class="panel-heading" role="tab" id="secondary_sector_criteria_heading">
+	    <legend role="button" class="panel-title" data-toggle="collapse" data-target="#secondary_sector_criteria_list" aria-expanded="false" aria-controls="secondary_sector_criteria_list">
+              Activity
+            </legend>
+	    </div>
+            <div id="secondary_sector_criteria_list" class="panel-collapse collapse" role="tabpanel" aria-labelled-by="secondary_sector_criteria_heading">
+            <div class="panel-body">
                 <div class="checkbox">
                   <label>
                     <input type="checkbox" value="All" id="all_secondary_sector">
@@ -147,11 +184,21 @@
               </label>
             </div>
 <?php } ?>            
+            </div>
+            </div>
             </fieldset>
+<!--
         </div>
         <div class="well">
-            <fieldset id="uptake_criteria">
-                <legend>Uptake</legend>
+-->
+            <fieldset id="uptake_criteria" class="panel panel-default">
+            <div class="panel-heading" role="tab" id="uptake_criteria_heading">
+	    <legend role="button" class="panel-title" data-toggle="collapse" data-target="#uptake_criteria_list" aria-expanded="false" aria-controls="uptake_criteria_list">
+              Uptake
+            </legend>
+	    </div>
+            <div id="uptake_criteria_list" class="panel-collapse collapse" role="tabpanel" aria-labelled-by="uptake_criteria_heading">
+            <div class="panel-body">
                 <div class="checkbox">
                   <label>
                     <input type="checkbox" value="All" id="all_uptake">
@@ -166,11 +213,21 @@
               </label>
             </div>
 <?php } ?>            
+            </div>
+            </div>
             </fieldset>
+<!--
         </div>
         <div class="well">
-            <fieldset id="cross_border_criteria">
-                <legend>Cross-border</legend>
+-->
+            <fieldset id="cross_border_criteria" class="panel panel-default">
+            <div class="panel-heading" role="tab" id="cross_border_criteria_heading">
+	    <legend role="button" class="panel-title" data-toggle="collapse" data-target="#cross_border_criteria_list" aria-expanded="false" aria-controls="cross_border_criteria_list">
+              Cross-border
+            </legend>
+	    </div>
+            <div id="cross_border_criteria_list" class="panel-collapse collapse" role="tabpanel" aria-labelled-by="cross_border_criteria_heading">
+            <div class="panel-body">
                 <div class="checkbox">
                   <label>
                     <input type="checkbox" value="All" id="all_cross_border">
@@ -185,11 +242,21 @@
               </label>
             </div>
 <?php } ?>            
+            </div>
+            </div>
             </fieldset>
+<!--
         </div>
         <div class="well">
-            <fieldset id="cross_sector_criteria">
-                <legend>Cross-sector</legend>
+-->
+            <fieldset id="cross_sector_criteria" class="panel panel-default">
+            <div class="panel-heading" role="tab" id="cross_sector_criteria_heading">
+	    <legend role="button" class="panel-title" data-toggle="collapse" data-target="#cross_sector_criteria_list" aria-expanded="false" aria-controls="cross_sector_criteria_list">
+              Cross-sector
+            </legend>
+	    </div>
+            <div id="cross_sector_criteria_list" class="panel-collapse collapse" role="tabpanel" aria-labelled-by="cross_sector_criteria_heading">
+            <div class="panel-body">
                 <div class="checkbox">
                   <label>
                     <input type="checkbox" value="All" id="all_cross_sector">
@@ -204,11 +271,21 @@
               </label>
             </div>
 <?php } ?>            
+            </div>
+            </div>
             </fieldset>
+<!--
         </div>
         <div class="well">
-            <fieldset id="type_criteria">
-                <legend>Type</legend>
+-->
+            <fieldset id="type_criteria" class="panel panel-default">
+            <div class="panel-heading" role="tab" id="type_criteria_heading">
+	    <legend role="button" class="panel-title" data-toggle="collapse" data-target="#type_criteria_list" aria-expanded="false" aria-controls="type_criteria_list">
+              Service Type
+            </legend>
+	    </div>
+            <div id="type_criteria_list" class="panel-collapse collapse" role="tabpanel" aria-labelled-by="type_criteria_heading">
+            <div class="panel-body">
                 <div class="checkbox">
                   <label>
                     <input type="checkbox" value="All" id="all_type">
@@ -223,11 +300,21 @@
               </label>
             </div>
 <?php } ?>            
+            </div>
+            </div>
             </fieldset>
+<!--
         </div>
         <div class="well">
-            <fieldset id="status_criteria">
-                <legend>Status</legend>
+-->
+            <fieldset id="status_criteria" class="panel panel-default">
+            <div class="panel-heading" role="tab" id="status_criteria_heading">
+	    <legend role="button" class="panel-title" data-toggle="collapse" data-target="#status_criteria_list" aria-expanded="false" aria-controls="status_criteria_list">
+              Status
+            </legend>
+	    </div>
+            <div id="status_criteria_list" class="panel-collapse collapse" role="tabpanel" aria-labelled-by="type_criteria_heading">
+            <div class="panel-body">
                 <div class="checkbox">
                   <label>
                     <input type="checkbox" value="All" id="all_status">
@@ -242,11 +329,21 @@
               </label>
             </div>
 <?php } ?>            
+            </div>
+            </div>
             </fieldset>
+<!--
         </div>
         <div class="well">
-            <fieldset id="active_criteria">
-                <legend>Active</legend>
+-->
+            <fieldset id="active_criteria" class="panel panel-default">
+            <div class="panel-heading" role="tab" id="active_criteria_heading">
+	    <legend role="button" class="panel-title" data-toggle="collapse" data-target="#active_criteria_list" aria-expanded="false" aria-controls="active_criteria_list">
+              Active
+            </legend>
+	    </div>
+            <div id="active_criteria_list" class="panel-collapse collapse" role="tabpanel" aria-labelled-by="type_criteria_heading">
+            <div class="panel-body">
                 <div class="checkbox">
                   <label>
                     <input type="checkbox" value="All" id="all_active">

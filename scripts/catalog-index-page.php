@@ -36,6 +36,7 @@
 <script src="https://eloquentstudio.github.io/filter.js/assets/js/jquery-1.11.3.min.js" type="text/javascript"></script>
 <script src="https://eloquentstudio.github.io/filter.js/assets/js/jquery-ui-1.10.2.custom.min.js" type="text/javascript"></script>
 <script src="https://eloquentstudio.github.io/filter.js/filter.min.js" type="text/javascript"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <script type="text/javascript" src="<?php echo $site_abs_path; ?>js/common.js"></script>
 <script src="<?php echo $section[$sec]["data"]; ?>.js" type="text/javascript"></script>
 <script src="<?php echo $site_abs_path; ?>js/catalogs.js" type="text/javascript"></script>
@@ -61,9 +62,15 @@
           <span class="glyphicon glyphicon-search search-icon"></span>
         </div>
         <br>
-        <div class="well">
-          <fieldset id="publisher_criteria">
-            <legend>Publisher</legend>
+        <div id="facets" role="tablist" aria-multiselectable="true">
+	  <fieldset id="publisher_criteria" class="panel panel-default">
+            <div class="panel-heading" role="tab" id="publisher_criteria_heading">
+	    <legend role="button" class="panel-title" data-toggle="collapse" data-target="#publisher_criteria_list" aria-expanded="true" aria-controls="publisher_criteria_list">
+              Publisher
+            </legend>
+	    </div>
+            <div id="publisher_criteria_list" class="panel-collapse collapse in" role="tabpanel" aria-labelled-by="publisher_criteria_heading">
+            <div class="panel-body">
             <div class="checkbox">
               <label>
                 <input type="checkbox" value="All" id="all_publisher">
@@ -78,11 +85,22 @@
               </label>
             </div>
 <?php } ?>            
+            </div>
+            </div>
           </fieldset>
+	</div>
+<!--
         </div>
-        <div class="well">
-          <fieldset id="type_criteria">
-            <legend>Type</legend>
+	<div class="well">
+-->
+          <fieldset id="type_criteria" class="panel panel-default">
+            <div class="panel-heading" role="tab" id="type_criteria_heading">
+	    <legend role="button" class="panel-title" data-toggle="collapse" data-target="#type_criteria_list" aria-expanded="true" aria-controls="type_criteria_list">
+              Type
+            </legend>
+            </div>
+            <div id="type_criteria_list" class="panel-collapse collapse in" role="tabpanel" aria-labelled-by="type_criteria_heading">
+            <div class="panel-body">
             <div class="checkbox">
               <label>
                 <input type="checkbox" value="All" id="all_type">
@@ -97,6 +115,8 @@
               </label>
             </div>
 <?php } ?>            
+            </div>
+            </div>
           </fieldset>
         </div>
     </aside>

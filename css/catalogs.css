@@ -75,8 +75,19 @@ select:focus, textarea:focus, input:focus{
 .sidebar legend{
 /*  font-size: 18px; */
 /*  font-weight: 300*/
-  font-size: 1.2em; 
-  font-weight: bold
+/*  font-size: 1.2em; */
+/*  font-weight: bold */
+  border-bottom:none; 
+}
+
+.sidebar legend::before{
+  content:"\f107";
+  font-family:"FontAwesome";
+}
+
+.sidebar legend[aria-expanded="true"]::before{
+  content:"\f106";
+  font-family:"FontAwesome";
 }
 
 .criteria{

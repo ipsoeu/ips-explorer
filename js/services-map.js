@@ -176,7 +176,7 @@ $(document).ready(function () {
       container: '#pagination',
       visiblePages: 5,
       perPage: {
-        values: [20, 50],
+        values: [10, 20, 50],
         container: '#per_page'
       },
     }
