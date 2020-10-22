@@ -97,9 +97,9 @@
   $subsection["chart"]["10003"]["graph"] = '<perspective-viewer view="treemap" row-pivots=\'["lead_organisation_category"]\' columns=\'["id", "name"]\' aggregates=\'{"id": "distinct count"}\' id="chart-10003"></perspective-viewer>';
   $subsection["chart"]["10003"]["lib"] = 'perspective';
   
-  $subsection["chart"]["10004"]["name"] = "Primary sector vs. secondary sector";
+  $subsection["chart"]["10004"]["name"] = "Primary sector vs. activity";
   $subsection["chart"]["10004"]["icon"] = "fa-area-chart";
-  $subsection["chart"]["10004"]["descr"] = "Joint visual representation of the primary sector and the secondary sector of the collected public services.";
+  $subsection["chart"]["10004"]["descr"] = "Joint visual representation of the primary sector and the activity of the collected public services.";
 //  $subsection["chart"]["10004"]["url"] = $site_abs_path . "chart/10004.html";
 //  $subsection["chart"]["10004"]["path"] = $root_abs_path . "chart/10004.html";
 //  $subsection["chart"]["10004"]["data"] = $site_abs_path . $data_folder . "services";
