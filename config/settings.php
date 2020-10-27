@@ -86,15 +86,15 @@
   $subsection["chart"]["10002"]["graph"] = '<perspective-viewer view="treemap" row-pivots=\'["primary_sector"]\' sort=\'[["id", "asc"]]\' columns=\'["id", "geocoverage"]\' aggregates=\'{"id": "distinct count"}\' id="chart-10002"></perspective-viewer>';
   $subsection["chart"]["10002"]["lib"] = 'perspective';
   
-  $subsection["chart"]["10003"]["name"] = "Organisation category";
+  $subsection["chart"]["10003"]["name"] = "Activity";
   $subsection["chart"]["10003"]["icon"] = "fa-area-chart";
-//  $subsection["chart"]["10003"]["descr"] = "Type of organisation responsible for the public service. Hovering the mouse on an organisation category, a tooltip shows the number of public services with organisations that belong in this category.";
-  $subsection["chart"]["10003"]["descr"] = "Distribution of type of organisation responsible for the collected public services.";
+//  $subsection["chart"]["10003"]["descr"] = "Main activity addressed by public services. Hovering the mouse on an activity, a tooltip shows the number of public services addressing this activity.";
+  $subsection["chart"]["10003"]["descr"] = "Distribution of activities for the collected public services.";
 //  $subsection["chart"]["10003"]["url"] = $site_abs_path . "chart/10003.html";
 //  $subsection["chart"]["10003"]["path"] = $root_abs_path . "chart/10003.html";
 //  $subsection["chart"]["10003"]["data"] = $site_abs_path . $data_folder . "services";
   $subsection["chart"]["10003"]["data"] = $data_path . "services";
-  $subsection["chart"]["10003"]["graph"] = '<perspective-viewer view="treemap" row-pivots=\'["lead_organisation_category"]\' columns=\'["id", "name"]\' aggregates=\'{"id": "distinct count"}\' id="chart-10003"></perspective-viewer>';
+  $subsection["chart"]["10003"]["graph"] = '<perspective-viewer view="treemap" row-pivots=\'["secondary_sector"]\' columns=\'["id", "name"]\' aggregates=\'{"id": "distinct count"}\' id="chart-10003"></perspective-viewer>';
   $subsection["chart"]["10003"]["lib"] = 'perspective';
   
   $subsection["chart"]["10004"]["name"] = "Primary sector vs. activity";
