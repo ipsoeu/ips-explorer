@@ -1,7 +1,7 @@
 [
     {
         "cid": 10005,
-        "id": 51261,
+        "id": 50001,
         "name": "Blockchain pilot - Open Data notarization & change protocol",
         "url": "https:\/\/open.wien.gv.at\/site\/blockchain\/",
         "contact": "",
@@ -33,7 +33,7 @@
     },
     {
         "cid": 10005,
-        "id": 51262,
+        "id": 50002,
         "name": "Blockchain pilot - Digital food voucher",
         "url": "https:\/\/open.wien.gv.at\/site\/2-blockchain-pilot-der-stadt-wien-digitale-essensmarke\/",
         "contact": "",
@@ -65,7 +65,7 @@
     },
     {
         "cid": 10005,
-        "id": 52326,
+        "id": 50003,
         "name": "Austrian Federal Government's Finance Agency, Oesterreichische Kontrollbank",
         "url": "https:\/\/www.coindesk.com\/austrian-government-to-notarize-1-3-billion-bond-auction-using-ethereum\/",
         "contact": "",
@@ -97,7 +97,7 @@
     },
     {
         "cid": 10005,
-        "id": 51412,
+        "id": 50004,
         "name": "BeSure - Demonstrability Service",
         "url": "https:\/\/medium.com\/@cryptovnet\/besure-a-realistic-blockchain-case-for-the-belgian-government-c5b8c62dff38",
         "contact": "",
@@ -129,7 +129,7 @@
     },
     {
         "cid": 10005,
-        "id": 51438,
+        "id": 50005,
         "name": "FlowBikes",
         "url": "https:\/\/flowbikes.io\/",
         "contact": "",
@@ -161,7 +161,7 @@
     },
     {
         "cid": 10005,
-        "id": 51544,
+        "id": 50006,
         "name": "A digital talent profile for maximum development",
         "url": "https:\/\/antwerpen.digipolis.be\/en\/blog\/Blockchain-projects-in-Antwerp",
         "contact": "",
@@ -174,10 +174,10 @@
             "BE"
         ],
         "lead_organisation": {
-            "name": "City of Antwerp",
+            "name": "Digipolis",
             "category": "Governmental"
         },
-        "lead_organisation_name": "City of Antwerp",
+        "lead_organisation_name": "Digipolis",
         "lead_organisation_category": "Governmental",
         "start_date": "2018",
         "active": "Yes",
@@ -193,7 +193,7 @@
     },
     {
         "cid": 10005,
-        "id": 51545,
+        "id": 50007,
         "name": "Privacy engine Antwerp City Platform as a Service",
         "url": "https:\/\/antwerpen.digipolis.be\/en\/blog\/Blockchain-projects-in-Antwerp",
         "contact": "",
@@ -206,10 +206,10 @@
             "BE"
         ],
         "lead_organisation": {
-            "name": "Digipolis Antwerpen",
+            "name": "Digipolis",
             "category": "Governmental"
         },
-        "lead_organisation_name": "Digipolis Antwerpen",
+        "lead_organisation_name": "Digipolis",
         "lead_organisation_category": "Governmental",
         "start_date": "2018",
         "active": "Yes",
@@ -225,39 +225,7 @@
     },
     {
         "cid": 10005,
-        "id": 51546,
-        "name": "Smart Procurement tool: innovative purchasing procedure supported by blockchain",
-        "url": "https:\/\/antwerpen.digipolis.be",
-        "contact": "",
-        "description": "We are striving to optimally frame our innovative purchasing procedure. Therefore we are developing a blockchain-based application which will allow for a simple publication of a quotation request and and submission and opening of quotations.We would like to support our innovative buy from startups procurement process with an intuitive and future-proof tool.",
-        "geoextent": "Local",
-        "geocoverage": [
-            "Belgium"
-        ],
-        "geocoverage_codes": [
-            "BE"
-        ],
-        "lead_organisation": {
-            "name": "Digipolis Antwerpen",
-            "category": "Governmental"
-        },
-        "lead_organisation_name": "Digipolis Antwerpen",
-        "lead_organisation_category": "Governmental",
-        "start_date": "2018",
-        "active": "Yes",
-        "end_date": "",
-        "primary_sector": "Financial and fiscal affairs",
-        "secondary_sector": "Procurement",
-        "technology": "Blockchain",
-        "uptake": "Unknown",
-        "cross_border": "No",
-        "cross_sector": "No",
-        "type": "Disintermediation and decentralized networks",
-        "status": "In development"
-    },
-    {
-        "cid": 10005,
-        "id": 50785,
+        "id": 50008,
         "name": "i-Voting",
         "url": "https:\/\/e-estonia.com\/solutions\/e-governance\/",
         "contact": "",
@@ -270,10 +238,10 @@
             "EE"
         ],
         "lead_organisation": {
-            "name": "E-Estonia E-Governance",
+            "name": "E-Estonia",
             "category": "Governmental"
         },
-        "lead_organisation_name": "E-Estonia E-Governance",
+        "lead_organisation_name": "E-Estonia",
         "lead_organisation_category": "Governmental",
         "start_date": "",
         "active": "Yes",
@@ -289,7 +257,7 @@
     },
     {
         "cid": 10005,
-        "id": 50786,
+        "id": 50009,
         "name": "X-Road Interoperability Services",
         "url": "https:\/\/e-estonia.com\/solutions\/security-and-safety\/",
         "contact": "",
@@ -321,7 +289,7 @@
     },
     {
         "cid": 10005,
-        "id": 50787,
+        "id": 50010,
         "name": "Health Records",
         "url": "https:\/\/e-estonia.com\/solutions\/healthcare\/",
         "contact": "",
@@ -353,7 +321,7 @@
     },
     {
         "cid": 10005,
-        "id": 50797,
+        "id": 50011,
         "name": "Blockchain-based Keyless Signature Infrastructure (KSI)",
         "url": "https:\/\/e-estonia.com\/solutions\/security-and-safety\/",
         "contact": "",
@@ -385,7 +353,7 @@
     },
     {
         "cid": 10005,
-        "id": 50866,
+        "id": 50012,
         "name": "GIZ Blockchain Lab",
         "url": "http:\/\/www.giz.de\/blockchain",
         "contact": "",
@@ -417,7 +385,7 @@
     },
     {
         "cid": 10005,
-        "id": 51265,
+        "id": 50013,
         "name": "Blockchain as Digital Enabler for the European Federalism in the Asylum Context",
         "url": "http:\/\/www.bamf.de\/DE\/DasBAMF\/BAMFdigital\/Blockchain\/blockchain-node.html",
         "contact": "",
@@ -449,7 +417,7 @@
     },
     {
         "cid": 10005,
-        "id": 51268,
+        "id": 50014,
         "name": "Blockchain & Virtual Currencies Working Group",
         "url": "http:\/\/www.finance.gov.ie\/what-we-do\/shareholding-financial-advisory\/virtual-currencies-blockchain-technology\/",
         "contact": "",
@@ -481,7 +449,7 @@
     },
     {
         "cid": 10005,
-        "id": 50849,
+        "id": 50015,
         "name": "Securing the Internet of Things",
         "url": "https:\/\/www.fnlondon.com\/articles\/isle-of-man-government-on-blockchain-iot-quest-20160808",
         "contact": "",
@@ -513,7 +481,7 @@
     },
     {
         "cid": 10005,
-        "id": 50850,
+        "id": 50016,
         "name": "Digital Currency Business Register",
         "url": "https:\/\/www.whereyoucan.com\/Blog\/Isle-of-Man-Blockchain-cluster-expansion.aspx",
         "contact": "",
@@ -545,7 +513,7 @@
     },
     {
         "cid": 10005,
-        "id": 52330,
+        "id": 50017,
         "name": "New solutions for the traceability of Italian food products",
         "url": "https:\/\/vigneviniequalita.edagricole.it\/mercato\/accordo-csqa-poligrafico-nuove-soluzioni-per-la-tracciabilita-dei-prodotti-agroalimentari-italiani\/",
         "contact": "",
@@ -577,7 +545,7 @@
     },
     {
         "cid": 10005,
-        "id": 52343,
+        "id": 50018,
         "name": "DOGANA 4.0",
         "url": "https:\/\/www.logisticamanagement.it\/it\/articles\/20180628\/blockchain_alcuni_casi_duso_presentati_a_milano",
         "contact": "",
@@ -609,7 +577,7 @@
     },
     {
         "cid": 10005,
-        "id": 52349,
+        "id": 50019,
         "name": "Food fraud and falsification of Made in Italy",
         "url": "https:\/\/www.corrierecomunicazioni.it\/digital-economy\/blockchain-contro-le-frodi-alimentari-best-case-enology-in-un-tag-nfc-tutta-la-storia-di-una-bottiglia\/",
         "contact": "",
@@ -641,7 +609,7 @@
     },
     {
         "cid": 10005,
-        "id": 50799,
+        "id": 50020,
         "name": "Decentralised Digital Identity Pilot",
         "url": "https:\/\/media.wix.com\/ugd\/df1122_3de6de424d3b4f618af9e768e12d0ca0.pdf",
         "contact": "",
@@ -673,7 +641,7 @@
     },
     {
         "cid": 10005,
-        "id": 50800,
+        "id": 50021,
         "name": "Execution of a judicial decision of juvenile court",
         "url": "https:\/\/media.wix.com\/ugd\/df1122_3de6de424d3b4f618af9e768e12d0ca0.pdf",
         "contact": "",
@@ -705,7 +673,7 @@
     },
     {
         "cid": 10005,
-        "id": 50802,
+        "id": 50022,
         "name": "Toxic Waste Transport",
         "url": "https:\/\/media.wix.com\/ugd\/df1122_3de6de424d3b4f618af9e768e12d0ca0.pdf",
         "contact": "",
@@ -727,7 +695,7 @@
         "active": "No",
         "end_date": "",
         "primary_sector": "General public services",
-        "secondary_sector": "Asset management",
+        "secondary_sector": "General public services",
         "technology": "Blockchain",
         "uptake": "Unknown",
         "cross_border": "No",
@@ -737,7 +705,7 @@
     },
     {
         "cid": 10005,
-        "id": 50803,
+        "id": 50023,
         "name": "Public Healthcare Benefits Subsidy",
         "url": "https:\/\/media.wix.com\/ugd\/df1122_3de6de424d3b4f618af9e768e12d0ca0.pdf",
         "contact": "",
@@ -769,7 +737,7 @@
     },
     {
         "cid": 10005,
-        "id": 50804,
+        "id": 50024,
         "name": "Healthcare Process Authorization",
         "url": "https:\/\/media.wix.com\/ugd\/df1122_3de6de424d3b4f618af9e768e12d0ca0.pdf",
         "contact": "",
@@ -801,7 +769,7 @@
     },
     {
         "cid": 10005,
-        "id": 50806,
+        "id": 50025,
         "name": "FlashCompany",
         "url": "https:\/\/media.wix.com\/ugd\/df1122_3de6de424d3b4f618af9e768e12d0ca0.pdf",
         "contact": "",
@@ -833,7 +801,7 @@
     },
     {
         "cid": 10005,
-        "id": 50808,
+        "id": 50026,
         "name": "Blockchain-based Land Registry",
         "url": "https:\/\/media.wix.com\/ugd\/df1122_3de6de424d3b4f618af9e768e12d0ca0.pdf",
         "contact": "",
@@ -865,7 +833,7 @@
     },
     {
         "cid": 10005,
-        "id": 50812,
+        "id": 50027,
         "name": "Truck Driver Tracking",
         "url": "https:\/\/media.wix.com\/ugd\/df1122_3de6de424d3b4f618af9e768e12d0ca0.pdf",
         "contact": "",
@@ -897,7 +865,7 @@
     },
     {
         "cid": 10005,
-        "id": 50813,
+        "id": 50028,
         "name": "Financing New School Buildings",
         "url": "https:\/\/media.wix.com\/ugd\/df1122_3de6de424d3b4f618af9e768e12d0ca0.pdf",
         "contact": "",
@@ -929,7 +897,7 @@
     },
     {
         "cid": 10005,
-        "id": 50814,
+        "id": 50029,
         "name": "Electric Vehicle Subsidy Registry",
         "url": "https:\/\/media.wix.com\/ugd\/df1122_3de6de424d3b4f618af9e768e12d0ca0.pdf",
         "contact": "",
@@ -961,7 +929,7 @@
     },
     {
         "cid": 10005,
-        "id": 50815,
+        "id": 50030,
         "name": "Medical Instrument Registration",
         "url": "https:\/\/media.wix.com\/ugd\/df1122_3de6de424d3b4f618af9e768e12d0ca0.pdf",
         "contact": "",
@@ -993,7 +961,7 @@
     },
     {
         "cid": 10005,
-        "id": 50816,
+        "id": 50031,
         "name": "Employment and Identity Fraud",
         "url": "https:\/\/media.wix.com\/ugd\/df1122_3de6de424d3b4f618af9e768e12d0ca0.pdf",
         "contact": "",
@@ -1025,7 +993,7 @@
     },
     {
         "cid": 10005,
-        "id": 50817,
+        "id": 50032,
         "name": "Multi-stakeholder Financial Arrangements",
         "url": "https:\/\/media.wix.com\/ugd\/df1122_3de6de424d3b4f618af9e768e12d0ca0.pdf",
         "contact": "",
@@ -1057,7 +1025,7 @@
     },
     {
         "cid": 10005,
-        "id": 50824,
+        "id": 50033,
         "name": "Large Event Permitting",
         "url": "https:\/\/media.wix.com\/ugd\/df1122_3de6de424d3b4f618af9e768e12d0ca0.pdf",
         "contact": "",
@@ -1089,7 +1057,7 @@
     },
     {
         "cid": 10005,
-        "id": 50825,
+        "id": 50034,
         "name": "Waste Sector Data Sharing",
         "url": "https:\/\/media.wix.com\/ugd\/df1122_3de6de424d3b4f618af9e768e12d0ca0.pdf",
         "contact": "",
@@ -1121,7 +1089,7 @@
     },
     {
         "cid": 10005,
-        "id": 50826,
+        "id": 50035,
         "name": "Blockchain-based Digital Identity: Do-it-Yourself Marriage",
         "url": "https:\/\/media.wix.com\/ugd\/df1122_3de6de424d3b4f618af9e768e12d0ca0.pdf",
         "contact": "",
@@ -1153,7 +1121,7 @@
     },
     {
         "cid": 10005,
-        "id": 50827,
+        "id": 50036,
         "name": "Aid Subsidy Collection",
         "url": "https:\/\/www.zuidhorn.nl\/bestuur-en-organisatie\/nieuws_3800\/item\/innovatieve-uitvoering-kindpakket-met-belangrijke-eerste-stap-blockchain-technologie_6490.html",
         "contact": "",
@@ -1185,7 +1153,7 @@
     },
     {
         "cid": 10005,
-        "id": 50774,
+        "id": 50037,
         "name": "IoT & Blockchain Lab",
         "url": "http:\/\/www.itainnova.es",
         "contact": "",
@@ -1217,7 +1185,7 @@
     },
     {
         "cid": 10005,
-        "id": 51769,
+        "id": 50038,
         "name": "TrustForWills",
         "url": "https:\/\/www.atsistemas.com",
         "contact": "",
@@ -1249,7 +1217,7 @@
     },
     {
         "cid": 10005,
-        "id": 52118,
+        "id": 50039,
         "name": "Distributed Open Data Portal",
         "url": "https:\/\/dadesobertes.valls.cat\/",
         "contact": "",
@@ -1281,7 +1249,7 @@
     },
     {
         "cid": 10005,
-        "id": 50834,
+        "id": 50040,
         "name": "Decentralized Energy Trading Marketplace",
         "url": "http:\/\/news.vattenfall.com\/en\/article\/forefront-field-trial-blockchain-technology",
         "contact": "",
@@ -1313,7 +1281,7 @@
     },
     {
         "cid": 10005,
-        "id": 51093,
+        "id": 50041,
         "name": "e-Government Pilot Project",
         "url": "http:\/\/www.tcbe.ch\/news\/focus-2017\/blockchain-technologie.html",
         "contact": "",
@@ -1345,7 +1313,7 @@
     },
     {
         "cid": 10005,
-        "id": 51094,
+        "id": 50042,
         "name": "Swiss Cryptovalley",
         "url": "https:\/\/cryptovalley.swiss\/",
         "contact": "",
@@ -1377,7 +1345,7 @@
     },
     {
         "cid": 10005,
-        "id": 52318,
+        "id": 50043,
         "name": "City of Zug Blockchain Voting Trial",
         "url": "https:\/\/www.coindesk.com\/crypto-valley-declares-blockchain-voting-trial-a-success",
         "contact": "",
@@ -1409,7 +1377,7 @@
     },
     {
         "cid": 10005,
-        "id": 51099,
+        "id": 50044,
         "name": "e-Auction 3.0",
         "url": "http:\/\/govsale.com.ua\/#\/?_k=lo64u5",
         "contact": "",
@@ -1441,7 +1409,7 @@
     },
     {
         "cid": 10005,
-        "id": 50836,
+        "id": 50045,
         "name": "Project Maison",
         "url": "https:\/\/www.fca.org.uk\/firms\/regtech\/our-work-programme",
         "contact": "",
@@ -1473,7 +1441,7 @@
     },
     {
         "cid": 10005,
-        "id": 50837,
+        "id": 50046,
         "name": "GovCoin Proof of Concept",
         "url": "http:\/\/www.cityam.com\/245128\/government-has-quietly-been-testing-blockchain-technology",
         "contact": "",
@@ -1505,7 +1473,7 @@
     },
     {
         "cid": 10005,
-        "id": 50839,
+        "id": 50047,
         "name": "RMG\u00ae The New Digital Gold Standard",
         "url": "http:\/\/www.royalmint.com\/rmg",
         "contact": "",
@@ -1537,7 +1505,7 @@
     },
     {
         "cid": 10005,
-        "id": 50846,
+        "id": 50048,
         "name": "Distributed Ledger-based Gross Settlement System",
         "url": "https:\/\/www.bankofengland.co.uk\/research\/fintech\/proof-of-concept",
         "contact": "",
@@ -1569,7 +1537,7 @@
     },
     {
         "cid": 10005,
-        "id": 52353,
+        "id": 50049,
         "name": "Food Standards Agency",
         "url": "https:\/\/www.coindesk.com\/uk-food-watchdog-trials-blockchain-meat-inspection\/",
         "contact": "",

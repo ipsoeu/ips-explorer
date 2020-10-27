@@ -163,7 +163,7 @@
         "cid": 10007,
         "id": 70006,
         "name": "Digipolis Antwerp, Smart procurement tool",
-        "url": "http:\/\/www.innovatieveoverheidsopdrachten.be\/en\/projects\/public-spatial-planning-projects-augmented-and-virtual-reality",
+        "url": "https:\/\/antwerpen.digipolis.be\/en\/blog\/Blockchain-projects-in-Antwerp",
         "contact": "",
         "description": "Digipolis, the IT agency for Antwerp, is developing a blockchain-based application together with its partner for the project, BallistiX, which will allow for the publication of a quotation request and submission and opening of quotations. It is believed that the use of blockchain will guarantee the reliability of each step of the procurement process, as they will be recorded in a transparent manner.",
         "geoextent": "National",
@@ -188,7 +188,7 @@
         "uptake": "Unknown",
         "cross_border": "Unknown",
         "cross_sector": "Yes",
-        "type": "Other",
+        "type": "Disintermediation and decentralized networks",
         "status": "In development"
     },
     {

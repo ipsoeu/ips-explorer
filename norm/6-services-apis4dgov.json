@@ -3860,10 +3860,10 @@
     {
         "cid": 10006,
         "id": 60124,
-        "name": "Amsterdam CitySDK platform",
-        "url": "http:\/\/citysdk.waag.org\/data\/",
+        "name": "City Dashboard Amsterdam",
+        "url": "http:\/\/citydashboard.org\/amsterdam\/",
         "contact": "",
-        "description": "Amsterdam CitySDK platform",
+        "description": "The City Dashboard Amsterdam has been developed as part of the City Service Development Kit and the Open Data Exchange projects, to make existing Amsterdam data sets available in realtime.",
         "geoextent": "Local",
         "geocoverage": [
             "Netherlands"
@@ -3892,22 +3892,22 @@
     {
         "cid": 10006,
         "id": 60125,
-        "name": "Antwerp CityPlatform",
-        "url": "https:\/\/acpaas.digipolis.be\/nl\/home",
+        "name": "Antwerp City Platform as a Service (ACPaaS)",
+        "url": "https:\/\/acpaas.digipolis.be\/",
         "contact": "",
-        "description": "Antwerp CityPlatform",
+        "description": "ACPaaS, a project by Digipolis and the City of Antwerp, is a hi-tech platform supporting all IT solutions of the City of Antwerp. ACPaaS is a collection of ready-to-use, reusable blocks of software or engines, such as notifications, profile management, payment and workflow. There are around sixty in total. These can be combined in many different ways and integrated with each other to form new IT solutions. In practice, they are used in more than 100 applications and systems and many more are on the way. Furthermore, new technologies, such as Internet of Things, blockchain and artificial intelligence are part of the platform.",
         "geoextent": "Local",
         "geocoverage": [
-            "Netherlands"
+            "Belgium"
         ],
         "geocoverage_codes": [
-            "NL"
+            "BE"
         ],
         "lead_organisation": {
-            "name": "City of Antwerp Consortium",
+            "name": "Digipolis",
             "category": "Governmental"
         },
-        "lead_organisation_name": "City of Antwerp Consortium",
+        "lead_organisation_name": "Digipolis",
         "lead_organisation_category": "Governmental",
         "start_date": "",
         "active": "Yes",

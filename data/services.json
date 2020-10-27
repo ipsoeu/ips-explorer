@@ -1025,1063 +1025,7 @@
     },
     {
         "cid": 10005,
-        "id": 50774,
-        "name": "IoT & Blockchain Lab",
-        "url": "http:\/\/www.itainnova.es",
-        "contact": "",
-        "description": "The IoT & Blockchain Lab is a innovation ecosystem in which companies, people in training, entrepreneurs and ITAINNOVA staff work together in the development of new systems and products with IoT&Blockchain and Data Analytics for Supply Chain, Transport and Industry. The objective of the lab is to generate an innovation ecosystem in which companies, people in training, entrepreneurs and ITAINNOVA staff work together in the development of new systems and products that generate high value for our society through the IoT, Blockchain and Data Analytics.",
-        "geoextent": "Regional",
-        "geocoverage": [
-            "Spain"
-        ],
-        "geocoverage_codes": [
-            "ES"
-        ],
-        "lead_organisation": {
-            "name": "Aragon Government",
-            "category": "Governmental"
-        },
-        "lead_organisation_name": "Aragon Government",
-        "lead_organisation_category": "Governmental",
-        "start_date": "2018",
-        "active": "Yes",
-        "end_date": "",
-        "primary_sector": "Transport",
-        "secondary_sector": "Other",
-        "technology": "Blockchain",
-        "uptake": "Unknown",
-        "cross_border": "No",
-        "cross_sector": "No",
-        "type": "Tracking of goods, supply chain, iot",
-        "status": "In development"
-    },
-    {
-        "cid": 10005,
-        "id": 50785,
-        "name": "i-Voting",
-        "url": "https:\/\/e-estonia.com\/solutions\/e-governance\/",
-        "contact": "",
-        "description": "i-Voting is a unique solution that simply and conveniently helps to engage people in the governance process. In 2005, Estonia became the first country in the world to hold nation-wide elections using this method, and in 2007, it made headlines as the first country to use i-Voting in parliamentary elections. Internet voting, or i-Voting, is a system that allows voters to cast their ballots from any internet-connected computer anywhere in the world. Completely unrelated to the electronic voting systems used elsewhere, which involve costly and problematic machinery, the Estonian solution is simple, elegant and secure. During a designated pre-voting period, the voter logs onto the system using an ID-card or Mobile-ID, and casts a ballot. The voter\u2019s identity is removed from the ballot before it reaches the National Electoral Commission for counting, thereby ensuring anonymity. With any method of remote voting, including traditional postal ballots, the possibility of votes being forced or bought is a concern. Estonia\u2019s solution was to allow voters to log on and vote as many times as they want during the pre-voting period. Since each vote cancels the last, a voter always has the option of changing his or her vote later. In the case of i-Voting, the cumulative time saved in the last Estonian elections was 11,000 working days.",
-        "geoextent": "National",
-        "geocoverage": [
-            "Estonia"
-        ],
-        "geocoverage_codes": [
-            "EE"
-        ],
-        "lead_organisation": {
-            "name": "E-Estonia E-Governance",
-            "category": "Governmental"
-        },
-        "lead_organisation_name": "E-Estonia E-Governance",
-        "lead_organisation_category": "Governmental",
-        "start_date": "",
-        "active": "Yes",
-        "end_date": "",
-        "primary_sector": "General public services",
-        "secondary_sector": "Control and monitoring",
-        "technology": "Blockchain",
-        "uptake": "Unknown",
-        "cross_border": "No",
-        "cross_sector": "No",
-        "type": "Governance and voting",
-        "status": "In production"
-    },
-    {
-        "cid": 10005,
-        "id": 50786,
-        "name": "X-Road Interoperability Services",
-        "url": "https:\/\/e-estonia.com\/solutions\/security-and-safety\/",
-        "contact": "",
-        "description": "X-Road is the backbone of e-Estonia. Invisible yet crucial, it allows the nation\u2019s various public and private sector e-Service databases to link up and function in harmony. Estonia\u2019s e-solution environment includes a full range of services for the general public, and since each service has its own databases they all use X-Road. To ensure secure transfers, all outgoing data from X-Road is digitally signed and encrypted, and all incoming data is authenticated and logged. Originally X-Road was simply used to send queries to different databases. Now it has developed into a tool that can also write to multiple databases, transmit large data sets and perform searches across several databases simultaneously. X-Road was designed with growth in mind, so it can be scaled up as new e-services and new platforms come online.",
-        "geoextent": "National",
-        "geocoverage": [
-            "Estonia"
-        ],
-        "geocoverage_codes": [
-            "EE"
-        ],
-        "lead_organisation": {
-            "name": "E-Estonia",
-            "category": "Governmental"
-        },
-        "lead_organisation_name": "E-Estonia",
-        "lead_organisation_category": "Governmental",
-        "start_date": "",
-        "active": "Yes",
-        "end_date": "",
-        "primary_sector": "General public services",
-        "secondary_sector": "Service integration",
-        "technology": "Blockchain",
-        "uptake": "Unknown",
-        "cross_border": "No",
-        "cross_sector": "Yes",
-        "type": "Authentication",
-        "status": "In production"
-    },
-    {
-        "cid": 10005,
-        "id": 50787,
-        "name": "Health Records",
-        "url": "https:\/\/e-estonia.com\/solutions\/healthcare\/",
-        "contact": "",
-        "description": "Data security startup Guardtime has announced a partnership with the Estonian eHealth Foundation that will see it deploy a blockchain-based system to secure over 1 million patient healthcare records. Under the deal, the foundation will integrate Guardtime's keyless signature infrastructure (KSI) blockchain into the foundation's Oracle database engine to provide \"real-time visibility\" into the state of patient records.",
-        "geoextent": "National",
-        "geocoverage": [
-            "Estonia"
-        ],
-        "geocoverage_codes": [
-            "EE"
-        ],
-        "lead_organisation": {
-            "name": "E-Estonia",
-            "category": "Governmental"
-        },
-        "lead_organisation_name": "E-Estonia",
-        "lead_organisation_category": "Governmental",
-        "start_date": "",
-        "active": "Yes",
-        "end_date": "",
-        "primary_sector": "Health",
-        "secondary_sector": "Control and monitoring",
-        "technology": "Blockchain",
-        "uptake": "Unknown",
-        "cross_border": "No",
-        "cross_sector": "No",
-        "type": "Authentication",
-        "status": "In production"
-    },
-    {
-        "cid": 10005,
-        "id": 50797,
-        "name": "Blockchain-based Keyless Signature Infrastructure (KSI)",
-        "url": "https:\/\/e-estonia.com\/solutions\/security-and-safety\/",
-        "contact": "",
-        "description": "KSI is a blockchain technology designed in Estonia and used globally to make sure networks, systems and data are free of compromise, all while retaining 100% data privacy. A blockchain is a distributed public ledger \u2013 a database with a set of pre-defined rules for how the ledger is appended by the distributed consensus of the participants in the system. Due to its widely witnessed property, blockchain technology makes it also impossible to change the data already on the blockchain. With KSI Blockchain deployed in Estonian government networks, history cannot be rewritten by anybody and the authenticity of the electronic data can be mathematically proven. It means that no-one \u2013 not hackers, not system administrators, and not even government itself \u2013 can manipulate the data and get away with that.",
-        "geoextent": "National",
-        "geocoverage": [
-            "Estonia"
-        ],
-        "geocoverage_codes": [
-            "EE"
-        ],
-        "lead_organisation": {
-            "name": "E-Estonia",
-            "category": "Governmental"
-        },
-        "lead_organisation_name": "E-Estonia",
-        "lead_organisation_category": "Governmental",
-        "start_date": "",
-        "active": "Yes",
-        "end_date": "",
-        "primary_sector": "General public services",
-        "secondary_sector": "Certification",
-        "technology": "Blockchain",
-        "uptake": "Unknown",
-        "cross_border": "No",
-        "cross_sector": "Yes",
-        "type": "Cybersecurity",
-        "status": "In production"
-    },
-    {
-        "cid": 10005,
-        "id": 50799,
-        "name": "Decentralised Digital Identity Pilot",
-        "url": "https:\/\/media.wix.com\/ugd\/df1122_3de6de424d3b4f618af9e768e12d0ca0.pdf",
-        "contact": "",
-        "description": "The project team conducted research into the potential powerful combination of digital identity and Blockchain. Since (digital) identity is a broader and complex topic, the scope of the project was brought back to 4 user stories, one of them being age control while purchasing specific goods, such as cigarettes or alcohol. A particular advantage of Blockchain in relation to digital identity could be that it becomes easier to share specific information only in a specific context. Furthermore, each citizen would have control over which data he would share with whom (for obvious reasons, the exceptions can be made for governmental organisations). Going back to the age control, the owner of a shop only needs to know that the person in front of him is older than 18 years old, but currently (has to) ask for a document containing more data.",
-        "geoextent": "National",
-        "geocoverage": [
-            "Netherlands"
-        ],
-        "geocoverage_codes": [
-            "NL"
-        ],
-        "lead_organisation": {
-            "name": "Ministry of Interior Affairs",
-            "category": "Governmental"
-        },
-        "lead_organisation_name": "Ministry of Interior Affairs",
-        "lead_organisation_category": "Governmental",
-        "start_date": "2016",
-        "active": "No",
-        "end_date": "",
-        "primary_sector": "General public services",
-        "secondary_sector": "Control and monitoring",
-        "technology": "Blockchain",
-        "uptake": "Unknown",
-        "cross_border": "No",
-        "cross_sector": "Yes",
-        "type": "Self sovereign - digital identity",
-        "status": "Pilot"
-    },
-    {
-        "cid": 10005,
-        "id": 50800,
-        "name": "Execution of a judicial decision of juvenile court",
-        "url": "https:\/\/media.wix.com\/ugd\/df1122_3de6de424d3b4f618af9e768e12d0ca0.pdf",
-        "contact": "",
-        "description": "In The Netherlands, minors can get a so-called HALT sentence for committing (minor) crimes. This sentence means that the minor has to do labour. When the work gets completed, the minor no longer has criminal record. The project team looked into the possibilities to use Blockchain for the registration of labour that has been completed. Blockchain would be an interesting technology for such a log, but important legal questions need to be resolved. For example, would it be legally allowed to store information on a Blockchain permanently if the point of getting a HALT sentence is that the minor can continue his life without a criminal record?",
-        "geoextent": "National",
-        "geocoverage": [
-            "Netherlands"
-        ],
-        "geocoverage_codes": [
-            "NL"
-        ],
-        "lead_organisation": {
-            "name": "Ministry of Justice",
-            "category": "Governmental"
-        },
-        "lead_organisation_name": "Ministry of Justice",
-        "lead_organisation_category": "Governmental",
-        "start_date": "2016",
-        "active": "No",
-        "end_date": "",
-        "primary_sector": "General public services",
-        "secondary_sector": "Registration",
-        "technology": "Blockchain",
-        "uptake": "Unknown",
-        "cross_border": "No",
-        "cross_sector": "No",
-        "type": "Other",
-        "status": "Pilot"
-    },
-    {
-        "cid": 10005,
-        "id": 50802,
-        "name": "Toxic Waste Transport",
-        "url": "https:\/\/media.wix.com\/ugd\/df1122_3de6de424d3b4f618af9e768e12d0ca0.pdf",
-        "contact": "",
-        "description": "Transporting toxic waste from the Netherlands to another EU State in order for it to get disposed is a complex process that involves multiple stakeholders: the Human Environment and Transport Inspectorate (HETI), its foreign counterpart, the company that wants to dispose waste, a transport company and the company that will take care of the disposal. Currently, this is a paper-intensive process that requires all parties to have their own administration. During their pilot project, the HETI rethought the entire process. All notifications during this logistical process would go through different applications; approval for a transport could be automated based on a smart contract on the Blockchain.",
-        "geoextent": "National",
-        "geocoverage": [
-            "Netherlands"
-        ],
-        "geocoverage_codes": [
-            "NL"
-        ],
-        "lead_organisation": {
-            "name": "Human Environment and Transport Inspectorate",
-            "category": "Governmental"
-        },
-        "lead_organisation_name": "Human Environment and Transport Inspectorate",
-        "lead_organisation_category": "Governmental",
-        "start_date": "2016",
-        "active": "No",
-        "end_date": "",
-        "primary_sector": "General public services",
-        "secondary_sector": "Asset management",
-        "technology": "Blockchain",
-        "uptake": "Unknown",
-        "cross_border": "No",
-        "cross_sector": "No",
-        "type": "Tracking of goods, supply chain, iot",
-        "status": "Pilot"
-    },
-    {
-        "cid": 10005,
-        "id": 50803,
-        "name": "Public Healthcare Benefits Subsidy",
-        "url": "https:\/\/media.wix.com\/ugd\/df1122_3de6de424d3b4f618af9e768e12d0ca0.pdf",
-        "contact": "",
-        "description": "Created a blockchain process to make the financial and administrative process for subsidized public healthcare services more efficient.",
-        "geoextent": "National",
-        "geocoverage": [
-            "Netherlands"
-        ],
-        "geocoverage_codes": [
-            "NL"
-        ],
-        "lead_organisation": {
-            "name": "CAK",
-            "category": "Governmental"
-        },
-        "lead_organisation_name": "CAK",
-        "lead_organisation_category": "Governmental",
-        "start_date": "2016",
-        "active": "No",
-        "end_date": "",
-        "primary_sector": "Health",
-        "secondary_sector": "Financial support",
-        "technology": "Blockchain",
-        "uptake": "Unknown",
-        "cross_border": "No",
-        "cross_sector": "No",
-        "type": "Process digitisation",
-        "status": "Pilot"
-    },
-    {
-        "cid": 10005,
-        "id": 50804,
-        "name": "Healthcare Process Authorization",
-        "url": "https:\/\/media.wix.com\/ugd\/df1122_3de6de424d3b4f618af9e768e12d0ca0.pdf",
-        "contact": "",
-        "description": "The Healthcare Institute focused on authorisations in the healthcare process. The pilot project evolved around a fictional elderly person, who required care from different healthcare providers. Who can make arrangements when this person ends up in a (temporary) emergency situation currently is arranged in an informal way or at best registered in a notebook. Healthcare providers don\u2019t always know each other or aren\u2019t aware of specific arrangements. The Healthcare Institute sees Blockchain as a technology that can create a clear overview of authorisations in the healthcare process. It has developed a prototype on Ethereum, which allows involved healthcare providers to get real time information on a need to know basis about their client\/ patient. The client\/patient has more control over his data and can determine - via an application - which professional can get access to additional information.",
-        "geoextent": "National",
-        "geocoverage": [
-            "Netherlands"
-        ],
-        "geocoverage_codes": [
-            "NL"
-        ],
-        "lead_organisation": {
-            "name": "Healthcare Institute",
-            "category": "Governmental"
-        },
-        "lead_organisation_name": "Healthcare Institute",
-        "lead_organisation_category": "Governmental",
-        "start_date": "2016",
-        "active": "No",
-        "end_date": "",
-        "primary_sector": "Health",
-        "secondary_sector": "Control and monitoring",
-        "technology": "Blockchain",
-        "uptake": "Unknown",
-        "cross_border": "No",
-        "cross_sector": "No",
-        "type": "Auditing and logging",
-        "status": "Pilot"
-    },
-    {
-        "cid": 10005,
-        "id": 50806,
-        "name": "FlashCompany",
-        "url": "https:\/\/media.wix.com\/ugd\/df1122_3de6de424d3b4f618af9e768e12d0ca0.pdf",
-        "contact": "",
-        "description": "Establishing a temporary foundation in order to collect money for a good cause is a time consuming administrative process. The Chamber looked into the possible benefits of establishing a temporary organisation (FlashCompany) on the Blockchain. It found out that for the registration process (online), opening a bank account (can be linked automatically) and selecting conditions for establishing and ending the temporary organisation, Blockchain would be a viable solution. In addition, using smart contracts for donations (\u201cIf this video has 1000 views, I will donate 100 Euro\u201d) could be interesting.",
-        "geoextent": "National",
-        "geocoverage": [
-            "Netherlands"
-        ],
-        "geocoverage_codes": [
-            "NL"
-        ],
-        "lead_organisation": {
-            "name": "Chamber of Commerce",
-            "category": "Governmental"
-        },
-        "lead_organisation_name": "Chamber of Commerce",
-        "lead_organisation_category": "Governmental",
-        "start_date": "2016",
-        "active": "No",
-        "end_date": "",
-        "primary_sector": "General public services",
-        "secondary_sector": "Registration",
-        "technology": "Blockchain",
-        "uptake": "Unknown",
-        "cross_border": "No",
-        "cross_sector": "Yes",
-        "type": "Process digitisation",
-        "status": "Pilot"
-    },
-    {
-        "cid": 10005,
-        "id": 50808,
-        "name": "Blockchain-based Land Registry",
-        "url": "https:\/\/media.wix.com\/ugd\/df1122_3de6de424d3b4f618af9e768e12d0ca0.pdf",
-        "contact": "",
-        "description": "In this second round of blockchain pilots with the government, we looked at and co-designed with a pilot from the municipality of Eindhoven. The Department does not only register ownership of real estate, but also registers and provides geo-information data. Sometimes the data is used in the wrong context, or an outdated set is accidentally used. By applying the blockchain, the Kadaster can immediately specify the most up-to-date dataset by means of a timestamp. It can then be used when filling in a form for environmental law requirements as well as other use cases. All participants can then establish that the data is up-to-date and correct. Providing these open data sets within the blockchain is not a very complicated process, but is therefore suitable to use to build a first blockchain prototype. The Kadaster is also researching work from other countries that are already experimenting with the blockchain and is looking to apply certain elements in the Netherlands.",
-        "geoextent": "National",
-        "geocoverage": [
-            "Netherlands"
-        ],
-        "geocoverage_codes": [
-            "NL"
-        ],
-        "lead_organisation": {
-            "name": "Kadaster Gemeente Eindhoven",
-            "category": "Governmental"
-        },
-        "lead_organisation_name": "Kadaster Gemeente Eindhoven",
-        "lead_organisation_category": "Governmental",
-        "start_date": "2016",
-        "active": "No",
-        "end_date": "",
-        "primary_sector": "General economic and commercial affairs",
-        "secondary_sector": "Registration",
-        "technology": "Blockchain",
-        "uptake": "Unknown",
-        "cross_border": "No",
-        "cross_sector": "No",
-        "type": "Tracking of goods, supply chain, iot",
-        "status": "Pilot"
-    },
-    {
-        "cid": 10005,
-        "id": 50812,
-        "name": "Truck Driver Tracking",
-        "url": "https:\/\/media.wix.com\/ugd\/df1122_3de6de424d3b4f618af9e768e12d0ca0.pdf",
-        "contact": "",
-        "description": "Developed a blockchain-based system for the tracking of working and resting hours of truck drivers.",
-        "geoextent": "National",
-        "geocoverage": [
-            "Netherlands"
-        ],
-        "geocoverage_codes": [
-            "NL"
-        ],
-        "lead_organisation": {
-            "name": "Human Environment and Transport Inspectorate",
-            "category": "Governmental"
-        },
-        "lead_organisation_name": "Human Environment and Transport Inspectorate",
-        "lead_organisation_category": "Governmental",
-        "start_date": "2016",
-        "active": "No",
-        "end_date": "",
-        "primary_sector": "Transport",
-        "secondary_sector": "Control and monitoring",
-        "technology": "Blockchain",
-        "uptake": "Unknown",
-        "cross_border": "No",
-        "cross_sector": "No",
-        "type": "Tracking of goods, supply chain, iot",
-        "status": "Pilot"
-    },
-    {
-        "cid": 10005,
-        "id": 50813,
-        "name": "Financing New School Buildings",
-        "url": "https:\/\/media.wix.com\/ugd\/df1122_3de6de424d3b4f618af9e768e12d0ca0.pdf",
-        "contact": "",
-        "description": "Built a prototype on Ethereum in collaboration with ING to improve the process of financing the development of new school buildings. This administrative and financial process involves multiple governmental organisations.",
-        "geoextent": "National",
-        "geocoverage": [
-            "Netherlands"
-        ],
-        "geocoverage_codes": [
-            "NL"
-        ],
-        "lead_organisation": {
-            "name": "Ministry of Finance",
-            "category": "Governmental"
-        },
-        "lead_organisation_name": "Ministry of Finance",
-        "lead_organisation_category": "Governmental",
-        "start_date": "2016",
-        "active": "No",
-        "end_date": "",
-        "primary_sector": "General public services",
-        "secondary_sector": "Financial support",
-        "technology": "Blockchain",
-        "uptake": "Unknown",
-        "cross_border": "No",
-        "cross_sector": "No",
-        "type": "Process digitisation",
-        "status": "Pilot"
-    },
-    {
-        "cid": 10005,
-        "id": 50814,
-        "name": "Electric Vehicle Subsidy Registry",
-        "url": "https:\/\/media.wix.com\/ugd\/df1122_3de6de424d3b4f618af9e768e12d0ca0.pdf",
-        "contact": "",
-        "description": "Develop a significantly improved (and highly automated) regulation for subsidies on electric vehicles.",
-        "geoextent": "Local",
-        "geocoverage": [
-            "Netherlands"
-        ],
-        "geocoverage_codes": [
-            "NL"
-        ],
-        "lead_organisation": {
-            "name": "City of the Hague",
-            "category": "Governmental"
-        },
-        "lead_organisation_name": "City of the Hague",
-        "lead_organisation_category": "Governmental",
-        "start_date": "2016",
-        "active": "No",
-        "end_date": "",
-        "primary_sector": "General public services",
-        "secondary_sector": "Financial support",
-        "technology": "Blockchain",
-        "uptake": "Unknown",
-        "cross_border": "No",
-        "cross_sector": "No",
-        "type": "Process digitisation",
-        "status": "Pilot"
-    },
-    {
-        "cid": 10005,
-        "id": 50815,
-        "name": "Medical Instrument Registration",
-        "url": "https:\/\/media.wix.com\/ugd\/df1122_3de6de424d3b4f618af9e768e12d0ca0.pdf",
-        "contact": "",
-        "description": "The CIBG manages, records and provides information for the government. Especially in the field of health care. One of the most well-known registers of the CIBG is probably the BIG registry where medical professionals are registered. But there are still more data that fall under the management of the CIBG. This registration has been largely digitized and the CIBG could therefore call you an ICT-driven organization. Does the blockchain still have added value?",
-        "geoextent": "National",
-        "geocoverage": [
-            "Netherlands"
-        ],
-        "geocoverage_codes": [
-            "NL"
-        ],
-        "lead_organisation": {
-            "name": "CIBG",
-            "category": "Governmental"
-        },
-        "lead_organisation_name": "CIBG",
-        "lead_organisation_category": "Governmental",
-        "start_date": "2016",
-        "active": "No",
-        "end_date": "",
-        "primary_sector": "Health",
-        "secondary_sector": "Registration",
-        "technology": "Blockchain",
-        "uptake": "Unknown",
-        "cross_border": "No",
-        "cross_sector": "No",
-        "type": "Process digitisation",
-        "status": "Pilot"
-    },
-    {
-        "cid": 10005,
-        "id": 50816,
-        "name": "Employment and Identity Fraud",
-        "url": "https:\/\/media.wix.com\/ugd\/df1122_3de6de424d3b4f618af9e768e12d0ca0.pdf",
-        "contact": "",
-        "description": "Created a use case for the improvement of data sharing with several other governmental organizations in order to improve detection of fraud, exploitation and organized crime within the chain of work and income.",
-        "geoextent": "National",
-        "geocoverage": [
-            "Netherlands"
-        ],
-        "geocoverage_codes": [
-            "NL"
-        ],
-        "lead_organisation": {
-            "name": "The Inspectorate of the Ministry of Employment",
-            "category": "Governmental"
-        },
-        "lead_organisation_name": "The Inspectorate of the Ministry of Employment",
-        "lead_organisation_category": "Governmental",
-        "start_date": "2016",
-        "active": "No",
-        "end_date": "",
-        "primary_sector": "General public services",
-        "secondary_sector": "Control and monitoring",
-        "technology": "Blockchain",
-        "uptake": "Unknown",
-        "cross_border": "No",
-        "cross_sector": "No",
-        "type": "Authentication",
-        "status": "Pilot"
-    },
-    {
-        "cid": 10005,
-        "id": 50817,
-        "name": "Multi-stakeholder Financial Arrangements",
-        "url": "https:\/\/media.wix.com\/ugd\/df1122_3de6de424d3b4f618af9e768e12d0ca0.pdf",
-        "contact": "",
-        "description": "Developed a use case for the improvement of financial arrangements that involved multiple stakeholders.",
-        "geoextent": "National",
-        "geocoverage": [
-            "Netherlands"
-        ],
-        "geocoverage_codes": [
-            "NL"
-        ],
-        "lead_organisation": {
-            "name": "Ministry of Foreign Affairs",
-            "category": "Governmental"
-        },
-        "lead_organisation_name": "Ministry of Foreign Affairs",
-        "lead_organisation_category": "Governmental",
-        "start_date": "2016",
-        "active": "No",
-        "end_date": "",
-        "primary_sector": "Financial and fiscal affairs",
-        "secondary_sector": "Other",
-        "technology": "Blockchain",
-        "uptake": "Unknown",
-        "cross_border": "No",
-        "cross_sector": "No",
-        "type": "Disintermediation and decentralized networks",
-        "status": "Pilot"
-    },
-    {
-        "cid": 10005,
-        "id": 50824,
-        "name": "Large Event Permitting",
-        "url": "https:\/\/media.wix.com\/ugd\/df1122_3de6de424d3b4f618af9e768e12d0ca0.pdf",
-        "contact": "",
-        "description": "The municipalities of Barendrecht, Albrandswaard and Ridderkerk's BAR Organization looked into ways in which they could apply blockchain to various permitting processes such as street parties. The BAR organization looked at small-scale events where someone applies for a license for a street party. Currently, the permit application is submitted to the municipality, but must be checked by several authorities, such as the fire department or police to approve or deny the permit based on feasibility. All these control moments and advice are again collected by the municipality and then it is checked whether the event permit can be issued. With the pilot team and experts, the BAR organization tried to model this process on the blockchain automating standard procedures with smart contracts. An additional advantage is that all involved agencies are now also immediately aware of each other's advice and any objections, without intervention of the municipality. Both matters mean a huge reduction in the burden on the work within the municipality. Everything can be done faster and the procedure becomes less vulnerable because a large part of the communication is no longer necessary.",
-        "geoextent": "Local",
-        "geocoverage": [
-            "Netherlands"
-        ],
-        "geocoverage_codes": [
-            "NL"
-        ],
-        "lead_organisation": {
-            "name": "BAR Organization Gemeente Barendrecht Gemeente Albrandswaard Gemeente Ridderkerk",
-            "category": "Governmental"
-        },
-        "lead_organisation_name": "BAR Organization Gemeente Barendrecht Gemeente Albrandswaard Gemeente Ridderkerk",
-        "lead_organisation_category": "Governmental",
-        "start_date": "2016",
-        "active": "No",
-        "end_date": "",
-        "primary_sector": "General public services",
-        "secondary_sector": "Control and monitoring",
-        "technology": "Blockchain",
-        "uptake": "Unknown",
-        "cross_border": "No",
-        "cross_sector": "No",
-        "type": "Process digitisation",
-        "status": "Pilot"
-    },
-    {
-        "cid": 10005,
-        "id": 50825,
-        "name": "Waste Sector Data Sharing",
-        "url": "https:\/\/media.wix.com\/ugd\/df1122_3de6de424d3b4f618af9e768e12d0ca0.pdf",
-        "contact": "",
-        "description": "The city of Utrecht is piloting blockchain for 'waste processing'. The city believes apparent that organisation of the waste processing in the blockchain could bring many benefits. Specifically, the way in which waste weight per empty container is registered. In the pilot, the waste weight data is linked to that of the transporters, intermediaries and final processors, and organized via the blockchain. All these parties keep their own administration. Blockchain can contribute to a joint administration that provides absolute certainty about the integrity of the data. Another big advantage is that a number of control moments are automatically controlled via smart contracts. At the same time, we have insight into the entire process from waste container to final processor.",
-        "geoextent": "Local",
-        "geocoverage": [
-            "Netherlands"
-        ],
-        "geocoverage_codes": [
-            "NL"
-        ],
-        "lead_organisation": {
-            "name": "Gemeente Utrecht",
-            "category": "Governmental"
-        },
-        "lead_organisation_name": "Gemeente Utrecht",
-        "lead_organisation_category": "Governmental",
-        "start_date": "2016",
-        "active": "No",
-        "end_date": "",
-        "primary_sector": "Waste management",
-        "secondary_sector": "Control and monitoring",
-        "technology": "Blockchain",
-        "uptake": "Unknown",
-        "cross_border": "No",
-        "cross_sector": "No",
-        "type": "Process digitisation",
-        "status": "Pilot"
-    },
-    {
-        "cid": 10005,
-        "id": 50826,
-        "name": "Blockchain-based Digital Identity: Do-it-Yourself Marriage",
-        "url": "https:\/\/media.wix.com\/ugd\/df1122_3de6de424d3b4f618af9e768e12d0ca0.pdf",
-        "contact": "",
-        "description": "Rijksdienst voor Identiteitsgegevens (RvIG) is investigating how digital identity can be implemented on blockchains for Dutch citizens According to RvIG, a reliable, easy-to-use digital identity is a prerequisite for being able to participate in the blockchain. There are still many questions open about the concept of digital identity. RvIG recently organized an internal blockchain workshop. One of the most appealing examples of 'identity in the blockchain' that came up was the do-it-yourself marriage. For the conclusion of a marriage, three parties are now needed: the two partners who decide to marry and the registrar of the civil registry who closes the marriage. The civil registrar's role is that of the 'third party that creates trust and can conclude the agreement after checking.' The nature of the blockchain means that this 'third party' is in some cases superfluous. In theory, this could also apply to a marriage: via the blockchain, the identity and intention of the two partners can be checked and verified via smart contracts and the decentralized databases. The marriage could thus be completed via the blockchain.",
-        "geoextent": "National",
-        "geocoverage": [
-            "Netherlands"
-        ],
-        "geocoverage_codes": [
-            "NL"
-        ],
-        "lead_organisation": {
-            "name": "Rijksdienst voor Identiteitsgegevens (RvIG) Gemeente Zaanstad",
-            "category": "Governmental"
-        },
-        "lead_organisation_name": "Rijksdienst voor Identiteitsgegevens (RvIG) Gemeente Zaanstad",
-        "lead_organisation_category": "Governmental",
-        "start_date": "2016",
-        "active": "No",
-        "end_date": "",
-        "primary_sector": "General public services",
-        "secondary_sector": "Service integration",
-        "technology": "Blockchain",
-        "uptake": "Unknown",
-        "cross_border": "No",
-        "cross_sector": "Yes",
-        "type": "Self sovereign - digital identity",
-        "status": "Pilot"
-    },
-    {
-        "cid": 10005,
-        "id": 50827,
-        "name": "Aid Subsidy Collection",
-        "url": "https:\/\/www.zuidhorn.nl\/bestuur-en-organisatie\/nieuws_3800\/item\/innovatieve-uitvoering-kindpakket-met-belangrijke-eerste-stap-blockchain-technologie_6490.html",
-        "contact": "",
-        "description": "The municipality of Zuidhorn has found a unique and innovative way to implement the Kindpakket subsidies via blockchain technology. The Child Package is a budget for children of parents with a minimum income. In the municipality of Zuidhorn about 150 children are eligible for the program. This money is used by the municipality for disadvantaged children, giving them the opportunity to participate in social activities, in sports and cultural activities at school. The municipality carries out this national assignment with local entrepreneurs and associations. Within the city, two students have been engaged in research into the possible applications of blockchain in municipal services. They have designed the implementation of the Kindpakket in a new and very user-friendly way with blockchain. The recipient of the Kindpakket can take out the purchase in a simple administrative and financial manner. The 'customer' pays, for example buying a bicycle, with a specific code and the entrepreneur gets the money directly into his account with no intervention from the municipality.",
-        "geoextent": "Local",
-        "geocoverage": [
-            "Netherlands"
-        ],
-        "geocoverage_codes": [
-            "NL"
-        ],
-        "lead_organisation": {
-            "name": "Gemeente Zuidhorn",
-            "category": "Governmental"
-        },
-        "lead_organisation_name": "Gemeente Zuidhorn",
-        "lead_organisation_category": "Governmental",
-        "start_date": "2016",
-        "active": "Yes",
-        "end_date": "",
-        "primary_sector": "Social protection",
-        "secondary_sector": "Financial support",
-        "technology": "Blockchain",
-        "uptake": "Unknown",
-        "cross_border": "No",
-        "cross_sector": "No",
-        "type": "Process digitisation",
-        "status": "In development"
-    },
-    {
-        "cid": 10005,
-        "id": 50834,
-        "name": "Decentralized Energy Trading Marketplace",
-        "url": "http:\/\/news.vattenfall.com\/en\/article\/forefront-field-trial-blockchain-technology",
-        "contact": "",
-        "description": "Swedish state-owned energy company Vattenfall is to collaborate with 22 other European energy trading firms to launch a blockchain-based pilot. Should the project prove successful it would become the world\u2019s first blockchain-based trading system for wholesale energy. Vattenfall\u2019s Business Area Markets division will conduct the pilot in order to deepen its understanding of the technology and conclude whether or not such a decentralised solution could match its existing trading platforms while simultaneously reducing cost. The trial will be managed by Hamburg-based B2B solutions provider Ponton, which will provide software that facilitates encrypted sending and receipt of orders through a decentralised order book. The trading is all managed on a peer-to-peer basis, removing the need for a central marketplace that is operated by a third party exchange or broker.",
-        "geoextent": "International",
-        "geocoverage": [
-            "Sweden"
-        ],
-        "geocoverage_codes": [
-            "SE"
-        ],
-        "lead_organisation": {
-            "name": "Vattenfall - Business Area Markets",
-            "category": "Governmental"
-        },
-        "lead_organisation_name": "Vattenfall - Business Area Markets",
-        "lead_organisation_category": "Governmental",
-        "start_date": "2016",
-        "active": "Yes",
-        "end_date": "",
-        "primary_sector": "Fuel and energy",
-        "secondary_sector": "Other",
-        "technology": "Blockchain",
-        "uptake": "Unknown",
-        "cross_border": "Yes",
-        "cross_sector": "No",
-        "type": "Disintermediation and decentralized networks",
-        "status": "In development"
-    },
-    {
-        "cid": 10005,
-        "id": 50836,
-        "name": "Project Maison",
-        "url": "https:\/\/www.fca.org.uk\/firms\/regtech\/our-work-programme",
-        "contact": "",
-        "description": "R3 CEV has partnered with Britain\u2019s financial watchdog and two large banks to develop a blockchain-based application to improve the regulatory reporting of mortgage transactions. R3 said on Tuesday that it had developed a prototype of the system together with the Financial Conduct Authority, the Royal Bank of Scotland Group and another global bank which did not wish to be named. The system, which was built using R3\u2019s blockchain called Corda, enables banks to generate automated delivery receipts for the regulator each time a mortgage is booked. The organizations hope that it can reduce the cost of the process and the risk of error. The FCA prototype \u201ccan give the regulator a new tool capable of overseeing mortgage activity much more quickly and efficiently than before whilst greatly reducing data inconsistencies,\u201d Richard Crook, head of emerging technology at RBS, said in a statement.",
-        "geoextent": "National",
-        "geocoverage": [
-            "United Kingdom"
-        ],
-        "geocoverage_codes": [
-            "GB"
-        ],
-        "lead_organisation": {
-            "name": "Financial Conduct Authority (FCA)",
-            "category": "Governmental"
-        },
-        "lead_organisation_name": "Financial Conduct Authority (FCA)",
-        "lead_organisation_category": "Governmental",
-        "start_date": "2017",
-        "active": "Yes",
-        "end_date": "",
-        "primary_sector": "Financial and fiscal affairs",
-        "secondary_sector": "Control and monitoring",
-        "technology": "Blockchain",
-        "uptake": "Unknown",
-        "cross_border": "No",
-        "cross_sector": "No",
-        "type": "Process digitisation",
-        "status": "In development"
-    },
-    {
-        "cid": 10005,
-        "id": 50837,
-        "name": "GovCoin Proof of Concept",
-        "url": "http:\/\/www.cityam.com\/245128\/government-has-quietly-been-testing-blockchain-technology",
-        "contact": "",
-        "description": "Novel payment models will enable HM Treasury (HMT) and the Department for Work and Pensions (DWP) to distribute welfare support more efficiently and improve policy delivery. By applying DLTs in the registration and payment processes for government grants and benefits, DWP will be better equipped to: (1) Prevent financial losses through fraud and error, (2) Support the most vulnerable citizens by offering them the benefits of full financial inclusion, (3) Support the achievement of the government\u2019s wider policy objectives, especially getting people out of poverty in a sustainable way and (4) Offer good value for money and place public expenditure on a sustainable footing. A large number of welfare claimants are un- or under-banked and face barriers to greater financial inclusion such as credit checks, access to traditional financial products, and the costs of unauthorised transactions. DLTs offer a cheap and supportive means of getting these claimants into the benefits system. Digital identities could be confirmed through distributed ledgers running on securely-encoded devices \u2014 or even through software on a mobile device \u2014 which would allow end-users to receive benefits directly, at reduced transaction costs to banks or local authorities. This may allow them to become more fully included in the financial system through a secure distribution point that is more reliable than a bank account. Such a solution could also be linked with other systems to reduce the level of fraud and official error in the delivery of benefits, as identities would be more difficult to forge. Such activities may help to achieve one of the DWP\u2019s principal policy objectives: to lift people sustainably out of the cycle of poverty and state dependence. Through the innovative application of such technologies, it would be possible \u2014 with agreement from the benefit claimant in question \u2014 to set rules at both the recipient and merchant ends of welfare transactions. This may present the opportunity for ministers to consider options for achieving better policy outcomes from the distribution of welfare support by agreeing or setting rules around the use of benefits.",
-        "geoextent": "National",
-        "geocoverage": [
-            "United Kingdom"
-        ],
-        "geocoverage_codes": [
-            "GB"
-        ],
-        "lead_organisation": {
-            "name": "Department of Work and Pensions",
-            "category": "Governmental"
-        },
-        "lead_organisation_name": "Department of Work and Pensions",
-        "lead_organisation_category": "Governmental",
-        "start_date": "2016",
-        "active": "Yes",
-        "end_date": "",
-        "primary_sector": "Social protection",
-        "secondary_sector": "Financial support",
-        "technology": "Blockchain",
-        "uptake": "Unknown",
-        "cross_border": "No",
-        "cross_sector": "Yes",
-        "type": "Process digitisation",
-        "status": "In development"
-    },
-    {
-        "cid": 10005,
-        "id": 50839,
-        "name": "RMG\u00ae The New Digital Gold Standard",
-        "url": "http:\/\/www.royalmint.com\/rmg",
-        "contact": "",
-        "description": "The Royal Mint, the world's leading export mint, and CME Group, the world's leading and most diverse derivatives marketplace, announced a collaboration to transform the way that market participants can trade gold. The Royal Mint, a 1,000-year-old institution owned by HM Treasury, has partnered with CME Group to build and launch a digitised gold offering called Royal Mint Gold (RMG). RMG will change the way traders and investors trade, execute and settle gold. The innovative new product will see The Royal Mint issue RMG as a digital record of ownership for gold stored at its highly-secure on-site bullion vault storage facility. CME Group will develop, implement and operate the product\u2019s digital trading platform. Taken together, this new service will provide an easier, cost-effective and cryptographically secure alternative to buying, holding and trading spot gold.",
-        "geoextent": "National",
-        "geocoverage": [
-            "United Kingdom"
-        ],
-        "geocoverage_codes": [
-            "GB"
-        ],
-        "lead_organisation": {
-            "name": "The Royal Mint",
-            "category": "Governmental"
-        },
-        "lead_organisation_name": "The Royal Mint",
-        "lead_organisation_category": "Governmental",
-        "start_date": "2018",
-        "active": "Yes",
-        "end_date": "",
-        "primary_sector": "Financial and fiscal affairs",
-        "secondary_sector": "Other",
-        "technology": "Blockchain",
-        "uptake": "Unknown",
-        "cross_border": "No",
-        "cross_sector": "No",
-        "type": "Process digitisation",
-        "status": "In production"
-    },
-    {
-        "cid": 10005,
-        "id": 50846,
-        "name": "Distributed Ledger-based Gross Settlement System",
-        "url": "https:\/\/www.bankofengland.co.uk\/research\/fintech\/proof-of-concept",
-        "contact": "",
-        "description": "The Bank of England wants to open its interbank settlement service to blockchain technologies as part of a major revamp of the system. The bank is not suggesting that U.K. banks should begin processing bitcoin payments as a matter of routine. However, it does want the replacement for its aging real-time gross settlement (RTGS) system to be ready for whatever the industry is likely to throw at it when it goes into service in 2020. It identified five key strategic drivers for the new RTGS system in a consultation document, \"A new RTGS service for the U.K.: safeguarding stability, enabling innovation\". Among them, it lists the need to interface with new technologies such as distributed ledgers. These are often referred to as blockchains, and include systems such as bitcoin and Ethereum. In the bank's view, these systems -- and, indeed, the entire concept of distributed ledgers -- are still in their infancy, but if they achieve critical mass, it wants to be ready for them.",
-        "geoextent": "National",
-        "geocoverage": [
-            "United Kingdom"
-        ],
-        "geocoverage_codes": [
-            "GB"
-        ],
-        "lead_organisation": {
-            "name": "Bank of England",
-            "category": "Governmental"
-        },
-        "lead_organisation_name": "Bank of England",
-        "lead_organisation_category": "Governmental",
-        "start_date": "2017",
-        "active": "Yes",
-        "end_date": "",
-        "primary_sector": "Financial and fiscal affairs",
-        "secondary_sector": "Other",
-        "technology": "Blockchain",
-        "uptake": "Unknown",
-        "cross_border": "No",
-        "cross_sector": "Yes",
-        "type": "Process digitisation",
-        "status": "In development"
-    },
-    {
-        "cid": 10005,
-        "id": 50849,
-        "name": "Securing the Internet of Things",
-        "url": "https:\/\/www.fnlondon.com\/articles\/isle-of-man-government-on-blockchain-iot-quest-20160808",
-        "contact": "",
-        "description": "The Isle of Man partnered with the startup Credits, a blockchain infrastructure provider, to secure IoT technology. The collaborative effort plans on using a distributed ledger to enhance new IoT applications and devices. Credits claims its services enable a broad range of scalable and interoperable applications. The idea behind [the experiment] is that internet of things has a promise of assigning a unique, non-forgeable identity to physical items and what the blockchain provides is the way of managing and maintaining an identity.",
-        "geoextent": "Regional",
-        "geocoverage": [
-            "United Kingdom"
-        ],
-        "geocoverage_codes": [
-            "GB"
-        ],
-        "lead_organisation": {
-            "name": "Isle of Man",
-            "category": "Governmental"
-        },
-        "lead_organisation_name": "Isle of Man",
-        "lead_organisation_category": "Governmental",
-        "start_date": "2016",
-        "active": "Yes",
-        "end_date": "",
-        "primary_sector": "General public services",
-        "secondary_sector": "Control and monitoring",
-        "technology": "Blockchain",
-        "uptake": "Unknown",
-        "cross_border": "No",
-        "cross_sector": "Yes",
-        "type": "Tracking of goods, supply chain, iot",
-        "status": "In development"
-    },
-    {
-        "cid": 10005,
-        "id": 50850,
-        "name": "Digital Currency Business Register",
-        "url": "https:\/\/www.whereyoucan.com\/Blog\/Isle-of-Man-Blockchain-cluster-expansion.aspx",
-        "contact": "",
-        "description": "The Isle of Man Government's Department of Economic Development will create a stand-alone register of Island-based digital currency businesses using the protocol of this local Blockchain service. The Department of Economic Development sought to take a small sub-set of company data \u2013 namely the digital currency companies themselves \u2013 and secure this using the Blockchain. This is a proof of concept initiative and is not intended to be an alternative for any formal register or directory that the Isle of Man\u2019s Financial Supervision Commission may introduce in the future.",
-        "geoextent": "Regional",
-        "geocoverage": [
-            "United Kingdom"
-        ],
-        "geocoverage_codes": [
-            "GB"
-        ],
-        "lead_organisation": {
-            "name": "Isle of Man",
-            "category": "Governmental"
-        },
-        "lead_organisation_name": "Isle of Man",
-        "lead_organisation_category": "Governmental",
-        "start_date": "2015",
-        "active": "Yes",
-        "end_date": "",
-        "primary_sector": "Financial and fiscal affairs",
-        "secondary_sector": "Registration",
-        "technology": "Blockchain",
-        "uptake": "Unknown",
-        "cross_border": "No",
-        "cross_sector": "No",
-        "type": "Process digitisation",
-        "status": "In development"
-    },
-    {
-        "cid": 10005,
-        "id": 50866,
-        "name": "GIZ Blockchain Lab",
-        "url": "http:\/\/www.giz.de\/blockchain",
-        "contact": "",
-        "description": "Developing blockchain governance models in the context of the 2030 Agenda for Sustainable Development, the Lab engages the start-up ecosystem, governmental institutions, academia, and the business sector to identify and implement the most promising blockchain use cases for social good. Drive forward the maturity of decentralised governance models for a better world.",
-        "geoextent": "National",
-        "geocoverage": [
-            "Germany"
-        ],
-        "geocoverage_codes": [
-            "DE"
-        ],
-        "lead_organisation": {
-            "name": "Deutsche Gesellschaft f\u00fcr Internationale Zusammenarbeit (GIZ) GmbH",
-            "category": "Private"
-        },
-        "lead_organisation_name": "Deutsche Gesellschaft f\u00fcr Internationale Zusammenarbeit (GIZ) GmbH",
-        "lead_organisation_category": "Private",
-        "start_date": "2018",
-        "active": "Yes",
-        "end_date": "",
-        "primary_sector": "General public services",
-        "secondary_sector": "Other",
-        "technology": "Blockchain",
-        "uptake": "Unknown",
-        "cross_border": "No",
-        "cross_sector": "Yes",
-        "type": "Governance and voting",
-        "status": "In production"
-    },
-    {
-        "cid": 10005,
-        "id": 51093,
-        "name": "e-Government Pilot Project",
-        "url": "http:\/\/www.tcbe.ch\/news\/focus-2017\/blockchain-technologie.html",
-        "contact": "",
-        "description": "Procivis, a specialist provider of electronic government services, the startup will supply the Canton of Schaffhausen with an electronic Citizen-ID based on a mobile app, which will be available to citizens free of charge. The Citizen-ID is planned to be launched later this year as a pilot project. The collaboration with the Canton of Schaffhausen marks Procivis\u2019s first Swiss client win after having launched the beta version of its e-government platform, called \u201ceID+\u201d, two months ago. The Procivis solution will function as the technical backbone for identity-related online services, which form part of Schaffhausen\u2019s citizen portal. Citizens of the canton will get access to their official, electronic Citizen-ID through a mobile application, which allows them to log on to the citizen portal and use the available government services, such as residents\u2019 registration office or tax services.",
-        "geoextent": "Regional",
-        "geocoverage": [
-            "Switzerland"
-        ],
-        "geocoverage_codes": [
-            "CH"
-        ],
-        "lead_organisation": {
-            "name": "Canton of Schaffhausen",
-            "category": "Governmental"
-        },
-        "lead_organisation_name": "Canton of Schaffhausen",
-        "lead_organisation_category": "Governmental",
-        "start_date": "2017",
-        "active": "Yes",
-        "end_date": "",
-        "primary_sector": "General public services",
-        "secondary_sector": "Control and monitoring",
-        "technology": "Blockchain",
-        "uptake": "Unknown",
-        "cross_border": "No",
-        "cross_sector": "Yes",
-        "type": "Self sovereign - digital identity",
-        "status": "In development"
-    },
-    {
-        "cid": 10005,
-        "id": 51094,
-        "name": "Swiss Cryptovalley",
-        "url": "https:\/\/cryptovalley.swiss\/",
-        "contact": "",
-        "description": "On March 1, 2017, the Crypto Valley Association (CVA) launched in Zug, Switzerland with the goal of accelerating the development, deployment, and funding of blockchain technology. The CVA is a government-backed institution focused on blockchain innovation and is comprised of several major blue chip members, disruptive startups, and globally recognized leaders. The association has set up headquarters in the canton of Zug, a region of Switzerland known as \u201cCrypto Valley.\u201d Led by fintech and blockchain influencer Oliver Bussmann, the CVA launch members include Ethereum-based ConsenSys, Lucerne University of Applied Sciences and Arts, Luxoft, PricewaterhouseCoopers, Thomson Reuters, and UBS. The CVA will support startups and established enterprises through policy recommendations, implementing research projects, and organizing conferences, hackathons, and other blockchain-based events. Taking advantage of the country\u2019s environment of free speech and data privacy, the CVA seeks to foster innovation within the world\u2019s leading blockchain and cryptographic ecosystem to pioneer digital technologies within Switzerland as well as internationally.",
-        "geoextent": "International",
-        "geocoverage": [
-            "Switzerland"
-        ],
-        "geocoverage_codes": [
-            "CH"
-        ],
-        "lead_organisation": {
-            "name": "Swiss Federal Government",
-            "category": "Governmental"
-        },
-        "lead_organisation_name": "Swiss Federal Government",
-        "lead_organisation_category": "Governmental",
-        "start_date": "2017",
-        "active": "Yes",
-        "end_date": "",
-        "primary_sector": "Financial and fiscal affairs",
-        "secondary_sector": "Other",
-        "technology": "Blockchain",
-        "uptake": "Unknown",
-        "cross_border": "No",
-        "cross_sector": "No",
-        "type": "Disintermediation and decentralized networks",
-        "status": "In production"
-    },
-    {
-        "cid": 10005,
-        "id": 51099,
-        "name": "e-Auction 3.0",
-        "url": "http:\/\/govsale.com.ua\/#\/?_k=lo64u5",
-        "contact": "",
-        "description": "In October 2015 Innovations and Development Foundation began working on a next generation of decentralised, blockchain E-auction system. The platform is built for supporting non-corrupt, transparent privatisation process of state and regional property, land and enterprises. The first phase of the project was launched in February 2016.The strategy for improving the state property privatisation and lease process is based on the emerging, innovative models, that apply transformational changes to components which are relevant for Ukraine. Models offer the latest technological solutions, such as complete decentralisation\/distribution based on blockchain and transparency for easy monitoring through API.",
-        "geoextent": "National",
-        "geocoverage": [
-            "Ukraine"
-        ],
-        "geocoverage_codes": [
-            "UA"
-        ],
-        "lead_organisation": {
-            "name": "Ministry of Finance",
-            "category": "Governmental"
-        },
-        "lead_organisation_name": "Ministry of Finance",
-        "lead_organisation_category": "Governmental",
-        "start_date": "2015",
-        "active": "Yes",
-        "end_date": "",
-        "primary_sector": "Financial and fiscal affairs",
-        "secondary_sector": "Control and monitoring",
-        "technology": "Blockchain",
-        "uptake": "Unknown",
-        "cross_border": "No",
-        "cross_sector": "No",
-        "type": "Disintermediation and decentralized networks",
-        "status": "In production"
-    },
-    {
-        "cid": 10005,
-        "id": 51261,
+        "id": 50001,
         "name": "Blockchain pilot - Open Data notarization & change protocol",
         "url": "https:\/\/open.wien.gv.at\/site\/blockchain\/",
         "contact": "",
@@ -2113,7 +1057,7 @@
     },
     {
         "cid": 10005,
-        "id": 51262,
+        "id": 50002,
         "name": "Blockchain pilot - Digital food voucher",
         "url": "https:\/\/open.wien.gv.at\/site\/2-blockchain-pilot-der-stadt-wien-digitale-essensmarke\/",
         "contact": "",
@@ -2145,327 +1089,7 @@
     },
     {
         "cid": 10005,
-        "id": 51265,
-        "name": "Blockchain as Digital Enabler for the European Federalism in the Asylum Context",
-        "url": "http:\/\/www.bamf.de\/DE\/DasBAMF\/BAMFdigital\/Blockchain\/blockchain-node.html",
-        "contact": "",
-        "description": "Together with the German Federal office for Migration and Refugees, the Fraunhofer FIT and technology partners aim to migrate the current German asylum process on a blockchain-based system. This would help the participating nations to reduce the duration and error-rate of the European asylum process. Blockchain allows for cross-organizational refugee management. We deploy the process logic of participating organizations on the blockchain to fasten up and raise the integrity of each asylum process in Europe. BLC thus affords the establishment of a federal, national-agnostic ecosystem for the EU.",
-        "geoextent": "National",
-        "geocoverage": [
-            "Germany"
-        ],
-        "geocoverage_codes": [
-            "DE"
-        ],
-        "lead_organisation": {
-            "name": "Federal office for Migration and Refugees",
-            "category": "Governmental"
-        },
-        "lead_organisation_name": "Federal office for Migration and Refugees",
-        "lead_organisation_category": "Governmental",
-        "start_date": "",
-        "active": "Yes",
-        "end_date": "",
-        "primary_sector": "Social protection",
-        "secondary_sector": "Immigration",
-        "technology": "Blockchain",
-        "uptake": "Unknown",
-        "cross_border": "Yes",
-        "cross_sector": "No",
-        "type": "Other",
-        "status": "In development"
-    },
-    {
-        "cid": 10005,
-        "id": 51268,
-        "name": "Blockchain & Virtual Currencies Working Group",
-        "url": "http:\/\/www.finance.gov.ie\/what-we-do\/shareholding-financial-advisory\/virtual-currencies-blockchain-technology\/",
-        "contact": "",
-        "description": "Ireland's Minister for Finance and Public Expenditure & Reform, Paschal Donohoe T.D announced the creation of an internal working group to monitor further developments in the areas of virtual currencies and blockchain technology. To provide clarity to consumers, investors and businesses on matters pertaining to blockchain and virtual currencies in Ireland.",
-        "geoextent": "National",
-        "geocoverage": [
-            "Ireland"
-        ],
-        "geocoverage_codes": [
-            "IE"
-        ],
-        "lead_organisation": {
-            "name": "Ministry for Finance and Public Expenditure & Reform",
-            "category": "Governmental"
-        },
-        "lead_organisation_name": "Ministry for Finance and Public Expenditure & Reform",
-        "lead_organisation_category": "Governmental",
-        "start_date": "",
-        "active": "Yes",
-        "end_date": "",
-        "primary_sector": "Financial and fiscal affairs",
-        "secondary_sector": "Other",
-        "technology": "Blockchain",
-        "uptake": "Unknown",
-        "cross_border": "Yes",
-        "cross_sector": "No",
-        "type": "Other",
-        "status": "In development"
-    },
-    {
-        "cid": 10005,
-        "id": 51412,
-        "name": "BeSure - Demonstrability Service",
-        "url": "https:\/\/medium.com\/@cryptovnet\/besure-a-realistic-blockchain-case-for-the-belgian-government-c5b8c62dff38",
-        "contact": "",
-        "description": "An analysis and PoC have been made for a demonstrability service. It generates long-term proofs that a digital document has been sent and that it has been received, without relying on central parties. Strong security & privacy requirements were paramount. Offering strong evidence with legal value that certain actions happened or did not happen.",
-        "geoextent": "National",
-        "geocoverage": [
-            "Belgium"
-        ],
-        "geocoverage_codes": [
-            "BE"
-        ],
-        "lead_organisation": {
-            "name": "Smals Research",
-            "category": "Governmental"
-        },
-        "lead_organisation_name": "Smals Research",
-        "lead_organisation_category": "Governmental",
-        "start_date": "2018",
-        "active": "Yes",
-        "end_date": "",
-        "primary_sector": "General public services",
-        "secondary_sector": "Certification",
-        "technology": "Blockchain",
-        "uptake": "Unknown",
-        "cross_border": "No",
-        "cross_sector": "Yes",
-        "type": "Other",
-        "status": "In development"
-    },
-    {
-        "cid": 10005,
-        "id": 51438,
-        "name": "FlowBikes",
-        "url": "https:\/\/flowbikes.io\/",
-        "contact": "",
-        "description": "Rewarding children who go to school by foot\/bike with tokens that are usable at the local fair or shops. Collaboration between local governement, school and Belfius Bank.Create a safer school environment Guide children over the safest roads to school.",
-        "geoextent": "National",
-        "geocoverage": [
-            "Belgium"
-        ],
-        "geocoverage_codes": [
-            "BE"
-        ],
-        "lead_organisation": {
-            "name": "Belfius Bank & Insurance",
-            "category": "Private"
-        },
-        "lead_organisation_name": "Belfius Bank & Insurance",
-        "lead_organisation_category": "Private",
-        "start_date": "2018",
-        "active": "Yes",
-        "end_date": "",
-        "primary_sector": "Social protection",
-        "secondary_sector": "Financial support",
-        "technology": "Blockchain",
-        "uptake": "Unknown",
-        "cross_border": "No",
-        "cross_sector": "No",
-        "type": "Other",
-        "status": "In production"
-    },
-    {
-        "cid": 10005,
-        "id": 51544,
-        "name": "A digital talent profile for maximum development",
-        "url": "https:\/\/antwerpen.digipolis.be\/en\/blog\/Blockchain-projects-in-Antwerp",
-        "contact": "",
-        "description": "The city of Antwerp is using the digital talent profile using blockchain to collect all the children\u2019s talents and passions. Children can therefore make their own decisions as to who they would like to share which talents with and for how long. The digital talent profile will be implemented in a number of schools in Antwerp within the context of A\u2019REA 2020. A\u2019REA 2020\u2019s global ambition is for children to be able to progress onto a professional career, based on their talents and passions.",
-        "geoextent": "Local",
-        "geocoverage": [
-            "Belgium"
-        ],
-        "geocoverage_codes": [
-            "BE"
-        ],
-        "lead_organisation": {
-            "name": "City of Antwerp",
-            "category": "Governmental"
-        },
-        "lead_organisation_name": "City of Antwerp",
-        "lead_organisation_category": "Governmental",
-        "start_date": "2018",
-        "active": "Yes",
-        "end_date": "",
-        "primary_sector": "Education",
-        "secondary_sector": "Certification",
-        "technology": "Blockchain",
-        "uptake": "Unknown",
-        "cross_border": "No",
-        "cross_sector": "No",
-        "type": "Self sovereign - digital identity",
-        "status": "In production"
-    },
-    {
-        "cid": 10005,
-        "id": 51545,
-        "name": "Privacy engine Antwerp City Platform as a Service",
-        "url": "https:\/\/antwerpen.digipolis.be\/en\/blog\/Blockchain-projects-in-Antwerp",
-        "contact": "",
-        "description": "This ACPaaS Privacy engine uses blockchain technology. It\u2019s an innovative concept, whereby the engine functions as a gateway or middleware and subsequently protects all privacy-sensitive services and data.The Privacy engine ensures all privacy rules are respected and that applications satisfy the GDPR regulations. If a citizen grants his permission (i.e. consent), blockchain will guarantee the unaltered and irrefutable consent for the use of this data until the citizen withdraws his consent.",
-        "geoextent": "Local",
-        "geocoverage": [
-            "Belgium"
-        ],
-        "geocoverage_codes": [
-            "BE"
-        ],
-        "lead_organisation": {
-            "name": "Digipolis Antwerpen",
-            "category": "Governmental"
-        },
-        "lead_organisation_name": "Digipolis Antwerpen",
-        "lead_organisation_category": "Governmental",
-        "start_date": "2018",
-        "active": "Yes",
-        "end_date": "",
-        "primary_sector": "General public services",
-        "secondary_sector": "Certification",
-        "technology": "Blockchain",
-        "uptake": "Unknown",
-        "cross_border": "No",
-        "cross_sector": "Yes",
-        "type": "Self sovereign - digital identity",
-        "status": "In production"
-    },
-    {
-        "cid": 10005,
-        "id": 51546,
-        "name": "Smart Procurement tool: innovative purchasing procedure supported by blockchain",
-        "url": "https:\/\/antwerpen.digipolis.be",
-        "contact": "",
-        "description": "We are striving to optimally frame our innovative purchasing procedure. Therefore we are developing a blockchain-based application which will allow for a simple publication of a quotation request and and submission and opening of quotations.We would like to support our innovative buy from startups procurement process with an intuitive and future-proof tool.",
-        "geoextent": "Local",
-        "geocoverage": [
-            "Belgium"
-        ],
-        "geocoverage_codes": [
-            "BE"
-        ],
-        "lead_organisation": {
-            "name": "Digipolis Antwerpen",
-            "category": "Governmental"
-        },
-        "lead_organisation_name": "Digipolis Antwerpen",
-        "lead_organisation_category": "Governmental",
-        "start_date": "2018",
-        "active": "Yes",
-        "end_date": "",
-        "primary_sector": "Financial and fiscal affairs",
-        "secondary_sector": "Procurement",
-        "technology": "Blockchain",
-        "uptake": "Unknown",
-        "cross_border": "No",
-        "cross_sector": "No",
-        "type": "Disintermediation and decentralized networks",
-        "status": "In development"
-    },
-    {
-        "cid": 10005,
-        "id": 51769,
-        "name": "TrustForWills",
-        "url": "https:\/\/www.atsistemas.com",
-        "contact": "",
-        "description": "In the context of digital legacy, TrustForWills ensures the automated compliance of users' wills in case of temporary disability or death. This is a government supported initiative aimed at promoting the adoption of blockchain technology. To stimulate the generation of new business models within the legal sector by covering the management of currently unsupported patrimonies such as those pertaining to digital assets ecosystem.",
-        "geoextent": "National",
-        "geocoverage": [
-            "Spain"
-        ],
-        "geocoverage_codes": [
-            "ES"
-        ],
-        "lead_organisation": {
-            "name": "Ministery of Economy Tourism and Digital Agenda (Spain)",
-            "category": "Governmental"
-        },
-        "lead_organisation_name": "Ministery of Economy Tourism and Digital Agenda (Spain)",
-        "lead_organisation_category": "Governmental",
-        "start_date": "2018",
-        "active": "Yes",
-        "end_date": "",
-        "primary_sector": "General public services",
-        "secondary_sector": "Control and monitoring",
-        "technology": "Blockchain",
-        "uptake": "Unknown",
-        "cross_border": "No",
-        "cross_sector": "No",
-        "type": "Process digitisation",
-        "status": "In development"
-    },
-    {
-        "cid": 10005,
-        "id": 52118,
-        "name": "Distributed Open Data Portal",
-        "url": "https:\/\/dadesobertes.valls.cat\/",
-        "contact": "",
-        "description": "Open data portal in which the different data sets and resources are published both in the web portal and in a distributed network based on IPFS (data persistence). At the same time data is accountable by logging all changes on a distributed, immutable database (Ethereum)Improve citizen participation. Reinforce commitment with citizens. Security and resilience",
-        "geoextent": "Local",
-        "geocoverage": [
-            "Spain"
-        ],
-        "geocoverage_codes": [
-            "ES"
-        ],
-        "lead_organisation": {
-            "name": "Ajuntament de Valls (Valls City Council)",
-            "category": "Governmental"
-        },
-        "lead_organisation_name": "Ajuntament de Valls (Valls City Council)",
-        "lead_organisation_category": "Governmental",
-        "start_date": "2019",
-        "active": "Yes",
-        "end_date": "",
-        "primary_sector": "General public services",
-        "secondary_sector": "Data access",
-        "technology": "Blockchain",
-        "uptake": "Unknown",
-        "cross_border": "No",
-        "cross_sector": "Yes",
-        "type": "Auditing and logging",
-        "status": "In production"
-    },
-    {
-        "cid": 10005,
-        "id": 52318,
-        "name": "City of Zug Blockchain Voting Trial",
-        "url": "https:\/\/www.coindesk.com\/crypto-valley-declares-blockchain-voting-trial-a-success",
-        "contact": "",
-        "description": "The Swiss city launched an e-voting pilot platform built on a blockchain as part of the city\u2019s efforts to embrace the technology. The voting process took place between June 25 and July 1, and stored both polling information and residents\u2019 IDs on the system.\"We will build the e-voting platform \u2018Open Source\u2019 so that people can understand what the technology is and how it works. We want to encourage more people to develop blockchain-based applications for governments worldwide.\"",
-        "geoextent": "Local",
-        "geocoverage": [
-            "Switzerland"
-        ],
-        "geocoverage_codes": [
-            "CH"
-        ],
-        "lead_organisation": {
-            "name": "City of Zug",
-            "category": "Governmental"
-        },
-        "lead_organisation_name": "City of Zug",
-        "lead_organisation_category": "Governmental",
-        "start_date": "2018",
-        "active": "Yes",
-        "end_date": "",
-        "primary_sector": "General public services",
-        "secondary_sector": "Other",
-        "technology": "Blockchain",
-        "uptake": "Unknown",
-        "cross_border": "No",
-        "cross_sector": "Yes",
-        "type": "Governance and voting",
-        "status": "Pilot"
-    },
-    {
-        "cid": 10005,
-        "id": 52326,
+        "id": 50003,
         "name": "Austrian Federal Government's Finance Agency, Oesterreichische Kontrollbank",
         "url": "https:\/\/www.coindesk.com\/austrian-government-to-notarize-1-3-billion-bond-auction-using-ethereum\/",
         "contact": "",
@@ -2497,7 +1121,423 @@
     },
     {
         "cid": 10005,
-        "id": 52330,
+        "id": 50004,
+        "name": "BeSure - Demonstrability Service",
+        "url": "https:\/\/medium.com\/@cryptovnet\/besure-a-realistic-blockchain-case-for-the-belgian-government-c5b8c62dff38",
+        "contact": "",
+        "description": "An analysis and PoC have been made for a demonstrability service. It generates long-term proofs that a digital document has been sent and that it has been received, without relying on central parties. Strong security & privacy requirements were paramount. Offering strong evidence with legal value that certain actions happened or did not happen.",
+        "geoextent": "National",
+        "geocoverage": [
+            "Belgium"
+        ],
+        "geocoverage_codes": [
+            "BE"
+        ],
+        "lead_organisation": {
+            "name": "Smals Research",
+            "category": "Governmental"
+        },
+        "lead_organisation_name": "Smals Research",
+        "lead_organisation_category": "Governmental",
+        "start_date": "2018",
+        "active": "Yes",
+        "end_date": "",
+        "primary_sector": "General public services",
+        "secondary_sector": "Certification",
+        "technology": "Blockchain",
+        "uptake": "Unknown",
+        "cross_border": "No",
+        "cross_sector": "Yes",
+        "type": "Other",
+        "status": "In development"
+    },
+    {
+        "cid": 10005,
+        "id": 50005,
+        "name": "FlowBikes",
+        "url": "https:\/\/flowbikes.io\/",
+        "contact": "",
+        "description": "Rewarding children who go to school by foot\/bike with tokens that are usable at the local fair or shops. Collaboration between local governement, school and Belfius Bank.Create a safer school environment Guide children over the safest roads to school.",
+        "geoextent": "National",
+        "geocoverage": [
+            "Belgium"
+        ],
+        "geocoverage_codes": [
+            "BE"
+        ],
+        "lead_organisation": {
+            "name": "Belfius Bank & Insurance",
+            "category": "Private"
+        },
+        "lead_organisation_name": "Belfius Bank & Insurance",
+        "lead_organisation_category": "Private",
+        "start_date": "2018",
+        "active": "Yes",
+        "end_date": "",
+        "primary_sector": "Social protection",
+        "secondary_sector": "Financial support",
+        "technology": "Blockchain",
+        "uptake": "Unknown",
+        "cross_border": "No",
+        "cross_sector": "No",
+        "type": "Other",
+        "status": "In production"
+    },
+    {
+        "cid": 10005,
+        "id": 50006,
+        "name": "A digital talent profile for maximum development",
+        "url": "https:\/\/antwerpen.digipolis.be\/en\/blog\/Blockchain-projects-in-Antwerp",
+        "contact": "",
+        "description": "The city of Antwerp is using the digital talent profile using blockchain to collect all the children\u2019s talents and passions. Children can therefore make their own decisions as to who they would like to share which talents with and for how long. The digital talent profile will be implemented in a number of schools in Antwerp within the context of A\u2019REA 2020. A\u2019REA 2020\u2019s global ambition is for children to be able to progress onto a professional career, based on their talents and passions.",
+        "geoextent": "Local",
+        "geocoverage": [
+            "Belgium"
+        ],
+        "geocoverage_codes": [
+            "BE"
+        ],
+        "lead_organisation": {
+            "name": "Digipolis",
+            "category": "Governmental"
+        },
+        "lead_organisation_name": "Digipolis",
+        "lead_organisation_category": "Governmental",
+        "start_date": "2018",
+        "active": "Yes",
+        "end_date": "",
+        "primary_sector": "Education",
+        "secondary_sector": "Certification",
+        "technology": "Blockchain",
+        "uptake": "Unknown",
+        "cross_border": "No",
+        "cross_sector": "No",
+        "type": "Self sovereign - digital identity",
+        "status": "In production"
+    },
+    {
+        "cid": 10005,
+        "id": 50007,
+        "name": "Privacy engine Antwerp City Platform as a Service",
+        "url": "https:\/\/antwerpen.digipolis.be\/en\/blog\/Blockchain-projects-in-Antwerp",
+        "contact": "",
+        "description": "This ACPaaS Privacy engine uses blockchain technology. It\u2019s an innovative concept, whereby the engine functions as a gateway or middleware and subsequently protects all privacy-sensitive services and data.The Privacy engine ensures all privacy rules are respected and that applications satisfy the GDPR regulations. If a citizen grants his permission (i.e. consent), blockchain will guarantee the unaltered and irrefutable consent for the use of this data until the citizen withdraws his consent.",
+        "geoextent": "Local",
+        "geocoverage": [
+            "Belgium"
+        ],
+        "geocoverage_codes": [
+            "BE"
+        ],
+        "lead_organisation": {
+            "name": "Digipolis",
+            "category": "Governmental"
+        },
+        "lead_organisation_name": "Digipolis",
+        "lead_organisation_category": "Governmental",
+        "start_date": "2018",
+        "active": "Yes",
+        "end_date": "",
+        "primary_sector": "General public services",
+        "secondary_sector": "Certification",
+        "technology": "Blockchain",
+        "uptake": "Unknown",
+        "cross_border": "No",
+        "cross_sector": "Yes",
+        "type": "Self sovereign - digital identity",
+        "status": "In production"
+    },
+    {
+        "cid": 10005,
+        "id": 50008,
+        "name": "i-Voting",
+        "url": "https:\/\/e-estonia.com\/solutions\/e-governance\/",
+        "contact": "",
+        "description": "i-Voting is a unique solution that simply and conveniently helps to engage people in the governance process. In 2005, Estonia became the first country in the world to hold nation-wide elections using this method, and in 2007, it made headlines as the first country to use i-Voting in parliamentary elections. Internet voting, or i-Voting, is a system that allows voters to cast their ballots from any internet-connected computer anywhere in the world. Completely unrelated to the electronic voting systems used elsewhere, which involve costly and problematic machinery, the Estonian solution is simple, elegant and secure. During a designated pre-voting period, the voter logs onto the system using an ID-card or Mobile-ID, and casts a ballot. The voter\u2019s identity is removed from the ballot before it reaches the National Electoral Commission for counting, thereby ensuring anonymity. With any method of remote voting, including traditional postal ballots, the possibility of votes being forced or bought is a concern. Estonia\u2019s solution was to allow voters to log on and vote as many times as they want during the pre-voting period. Since each vote cancels the last, a voter always has the option of changing his or her vote later. In the case of i-Voting, the cumulative time saved in the last Estonian elections was 11,000 working days.",
+        "geoextent": "National",
+        "geocoverage": [
+            "Estonia"
+        ],
+        "geocoverage_codes": [
+            "EE"
+        ],
+        "lead_organisation": {
+            "name": "E-Estonia",
+            "category": "Governmental"
+        },
+        "lead_organisation_name": "E-Estonia",
+        "lead_organisation_category": "Governmental",
+        "start_date": "",
+        "active": "Yes",
+        "end_date": "",
+        "primary_sector": "General public services",
+        "secondary_sector": "Control and monitoring",
+        "technology": "Blockchain",
+        "uptake": "Unknown",
+        "cross_border": "No",
+        "cross_sector": "No",
+        "type": "Governance and voting",
+        "status": "In production"
+    },
+    {
+        "cid": 10005,
+        "id": 50009,
+        "name": "X-Road Interoperability Services",
+        "url": "https:\/\/e-estonia.com\/solutions\/security-and-safety\/",
+        "contact": "",
+        "description": "X-Road is the backbone of e-Estonia. Invisible yet crucial, it allows the nation\u2019s various public and private sector e-Service databases to link up and function in harmony. Estonia\u2019s e-solution environment includes a full range of services for the general public, and since each service has its own databases they all use X-Road. To ensure secure transfers, all outgoing data from X-Road is digitally signed and encrypted, and all incoming data is authenticated and logged. Originally X-Road was simply used to send queries to different databases. Now it has developed into a tool that can also write to multiple databases, transmit large data sets and perform searches across several databases simultaneously. X-Road was designed with growth in mind, so it can be scaled up as new e-services and new platforms come online.",
+        "geoextent": "National",
+        "geocoverage": [
+            "Estonia"
+        ],
+        "geocoverage_codes": [
+            "EE"
+        ],
+        "lead_organisation": {
+            "name": "E-Estonia",
+            "category": "Governmental"
+        },
+        "lead_organisation_name": "E-Estonia",
+        "lead_organisation_category": "Governmental",
+        "start_date": "",
+        "active": "Yes",
+        "end_date": "",
+        "primary_sector": "General public services",
+        "secondary_sector": "Service integration",
+        "technology": "Blockchain",
+        "uptake": "Unknown",
+        "cross_border": "No",
+        "cross_sector": "Yes",
+        "type": "Authentication",
+        "status": "In production"
+    },
+    {
+        "cid": 10005,
+        "id": 50010,
+        "name": "Health Records",
+        "url": "https:\/\/e-estonia.com\/solutions\/healthcare\/",
+        "contact": "",
+        "description": "Data security startup Guardtime has announced a partnership with the Estonian eHealth Foundation that will see it deploy a blockchain-based system to secure over 1 million patient healthcare records. Under the deal, the foundation will integrate Guardtime's keyless signature infrastructure (KSI) blockchain into the foundation's Oracle database engine to provide \"real-time visibility\" into the state of patient records.",
+        "geoextent": "National",
+        "geocoverage": [
+            "Estonia"
+        ],
+        "geocoverage_codes": [
+            "EE"
+        ],
+        "lead_organisation": {
+            "name": "E-Estonia",
+            "category": "Governmental"
+        },
+        "lead_organisation_name": "E-Estonia",
+        "lead_organisation_category": "Governmental",
+        "start_date": "",
+        "active": "Yes",
+        "end_date": "",
+        "primary_sector": "Health",
+        "secondary_sector": "Control and monitoring",
+        "technology": "Blockchain",
+        "uptake": "Unknown",
+        "cross_border": "No",
+        "cross_sector": "No",
+        "type": "Authentication",
+        "status": "In production"
+    },
+    {
+        "cid": 10005,
+        "id": 50011,
+        "name": "Blockchain-based Keyless Signature Infrastructure (KSI)",
+        "url": "https:\/\/e-estonia.com\/solutions\/security-and-safety\/",
+        "contact": "",
+        "description": "KSI is a blockchain technology designed in Estonia and used globally to make sure networks, systems and data are free of compromise, all while retaining 100% data privacy. A blockchain is a distributed public ledger \u2013 a database with a set of pre-defined rules for how the ledger is appended by the distributed consensus of the participants in the system. Due to its widely witnessed property, blockchain technology makes it also impossible to change the data already on the blockchain. With KSI Blockchain deployed in Estonian government networks, history cannot be rewritten by anybody and the authenticity of the electronic data can be mathematically proven. It means that no-one \u2013 not hackers, not system administrators, and not even government itself \u2013 can manipulate the data and get away with that.",
+        "geoextent": "National",
+        "geocoverage": [
+            "Estonia"
+        ],
+        "geocoverage_codes": [
+            "EE"
+        ],
+        "lead_organisation": {
+            "name": "E-Estonia",
+            "category": "Governmental"
+        },
+        "lead_organisation_name": "E-Estonia",
+        "lead_organisation_category": "Governmental",
+        "start_date": "",
+        "active": "Yes",
+        "end_date": "",
+        "primary_sector": "General public services",
+        "secondary_sector": "Certification",
+        "technology": "Blockchain",
+        "uptake": "Unknown",
+        "cross_border": "No",
+        "cross_sector": "Yes",
+        "type": "Cybersecurity",
+        "status": "In production"
+    },
+    {
+        "cid": 10005,
+        "id": 50012,
+        "name": "GIZ Blockchain Lab",
+        "url": "http:\/\/www.giz.de\/blockchain",
+        "contact": "",
+        "description": "Developing blockchain governance models in the context of the 2030 Agenda for Sustainable Development, the Lab engages the start-up ecosystem, governmental institutions, academia, and the business sector to identify and implement the most promising blockchain use cases for social good. Drive forward the maturity of decentralised governance models for a better world.",
+        "geoextent": "National",
+        "geocoverage": [
+            "Germany"
+        ],
+        "geocoverage_codes": [
+            "DE"
+        ],
+        "lead_organisation": {
+            "name": "Deutsche Gesellschaft f\u00fcr Internationale Zusammenarbeit (GIZ) GmbH",
+            "category": "Private"
+        },
+        "lead_organisation_name": "Deutsche Gesellschaft f\u00fcr Internationale Zusammenarbeit (GIZ) GmbH",
+        "lead_organisation_category": "Private",
+        "start_date": "2018",
+        "active": "Yes",
+        "end_date": "",
+        "primary_sector": "General public services",
+        "secondary_sector": "Other",
+        "technology": "Blockchain",
+        "uptake": "Unknown",
+        "cross_border": "No",
+        "cross_sector": "Yes",
+        "type": "Governance and voting",
+        "status": "In production"
+    },
+    {
+        "cid": 10005,
+        "id": 50013,
+        "name": "Blockchain as Digital Enabler for the European Federalism in the Asylum Context",
+        "url": "http:\/\/www.bamf.de\/DE\/DasBAMF\/BAMFdigital\/Blockchain\/blockchain-node.html",
+        "contact": "",
+        "description": "Together with the German Federal office for Migration and Refugees, the Fraunhofer FIT and technology partners aim to migrate the current German asylum process on a blockchain-based system. This would help the participating nations to reduce the duration and error-rate of the European asylum process. Blockchain allows for cross-organizational refugee management. We deploy the process logic of participating organizations on the blockchain to fasten up and raise the integrity of each asylum process in Europe. BLC thus affords the establishment of a federal, national-agnostic ecosystem for the EU.",
+        "geoextent": "National",
+        "geocoverage": [
+            "Germany"
+        ],
+        "geocoverage_codes": [
+            "DE"
+        ],
+        "lead_organisation": {
+            "name": "Federal office for Migration and Refugees",
+            "category": "Governmental"
+        },
+        "lead_organisation_name": "Federal office for Migration and Refugees",
+        "lead_organisation_category": "Governmental",
+        "start_date": "",
+        "active": "Yes",
+        "end_date": "",
+        "primary_sector": "Social protection",
+        "secondary_sector": "Immigration",
+        "technology": "Blockchain",
+        "uptake": "Unknown",
+        "cross_border": "Yes",
+        "cross_sector": "No",
+        "type": "Other",
+        "status": "In development"
+    },
+    {
+        "cid": 10005,
+        "id": 50014,
+        "name": "Blockchain & Virtual Currencies Working Group",
+        "url": "http:\/\/www.finance.gov.ie\/what-we-do\/shareholding-financial-advisory\/virtual-currencies-blockchain-technology\/",
+        "contact": "",
+        "description": "Ireland's Minister for Finance and Public Expenditure & Reform, Paschal Donohoe T.D announced the creation of an internal working group to monitor further developments in the areas of virtual currencies and blockchain technology. To provide clarity to consumers, investors and businesses on matters pertaining to blockchain and virtual currencies in Ireland.",
+        "geoextent": "National",
+        "geocoverage": [
+            "Ireland"
+        ],
+        "geocoverage_codes": [
+            "IE"
+        ],
+        "lead_organisation": {
+            "name": "Ministry for Finance and Public Expenditure & Reform",
+            "category": "Governmental"
+        },
+        "lead_organisation_name": "Ministry for Finance and Public Expenditure & Reform",
+        "lead_organisation_category": "Governmental",
+        "start_date": "",
+        "active": "Yes",
+        "end_date": "",
+        "primary_sector": "Financial and fiscal affairs",
+        "secondary_sector": "Other",
+        "technology": "Blockchain",
+        "uptake": "Unknown",
+        "cross_border": "Yes",
+        "cross_sector": "No",
+        "type": "Other",
+        "status": "In development"
+    },
+    {
+        "cid": 10005,
+        "id": 50015,
+        "name": "Securing the Internet of Things",
+        "url": "https:\/\/www.fnlondon.com\/articles\/isle-of-man-government-on-blockchain-iot-quest-20160808",
+        "contact": "",
+        "description": "The Isle of Man partnered with the startup Credits, a blockchain infrastructure provider, to secure IoT technology. The collaborative effort plans on using a distributed ledger to enhance new IoT applications and devices. Credits claims its services enable a broad range of scalable and interoperable applications. The idea behind [the experiment] is that internet of things has a promise of assigning a unique, non-forgeable identity to physical items and what the blockchain provides is the way of managing and maintaining an identity.",
+        "geoextent": "Regional",
+        "geocoverage": [
+            "United Kingdom"
+        ],
+        "geocoverage_codes": [
+            "GB"
+        ],
+        "lead_organisation": {
+            "name": "Isle of Man",
+            "category": "Governmental"
+        },
+        "lead_organisation_name": "Isle of Man",
+        "lead_organisation_category": "Governmental",
+        "start_date": "2016",
+        "active": "Yes",
+        "end_date": "",
+        "primary_sector": "General public services",
+        "secondary_sector": "Control and monitoring",
+        "technology": "Blockchain",
+        "uptake": "Unknown",
+        "cross_border": "No",
+        "cross_sector": "Yes",
+        "type": "Tracking of goods, supply chain, iot",
+        "status": "In development"
+    },
+    {
+        "cid": 10005,
+        "id": 50016,
+        "name": "Digital Currency Business Register",
+        "url": "https:\/\/www.whereyoucan.com\/Blog\/Isle-of-Man-Blockchain-cluster-expansion.aspx",
+        "contact": "",
+        "description": "The Isle of Man Government's Department of Economic Development will create a stand-alone register of Island-based digital currency businesses using the protocol of this local Blockchain service. The Department of Economic Development sought to take a small sub-set of company data \u2013 namely the digital currency companies themselves \u2013 and secure this using the Blockchain. This is a proof of concept initiative and is not intended to be an alternative for any formal register or directory that the Isle of Man\u2019s Financial Supervision Commission may introduce in the future.",
+        "geoextent": "Regional",
+        "geocoverage": [
+            "United Kingdom"
+        ],
+        "geocoverage_codes": [
+            "GB"
+        ],
+        "lead_organisation": {
+            "name": "Isle of Man",
+            "category": "Governmental"
+        },
+        "lead_organisation_name": "Isle of Man",
+        "lead_organisation_category": "Governmental",
+        "start_date": "2015",
+        "active": "Yes",
+        "end_date": "",
+        "primary_sector": "Financial and fiscal affairs",
+        "secondary_sector": "Registration",
+        "technology": "Blockchain",
+        "uptake": "Unknown",
+        "cross_border": "No",
+        "cross_sector": "No",
+        "type": "Process digitisation",
+        "status": "In development"
+    },
+    {
+        "cid": 10005,
+        "id": 50017,
         "name": "New solutions for the traceability of Italian food products",
         "url": "https:\/\/vigneviniequalita.edagricole.it\/mercato\/accordo-csqa-poligrafico-nuove-soluzioni-per-la-tracciabilita-dei-prodotti-agroalimentari-italiani\/",
         "contact": "",
@@ -2529,7 +1569,7 @@
     },
     {
         "cid": 10005,
-        "id": 52343,
+        "id": 50018,
         "name": "DOGANA 4.0",
         "url": "https:\/\/www.logisticamanagement.it\/it\/articles\/20180628\/blockchain_alcuni_casi_duso_presentati_a_milano",
         "contact": "",
@@ -2561,7 +1601,7 @@
     },
     {
         "cid": 10005,
-        "id": 52349,
+        "id": 50019,
         "name": "Food fraud and falsification of Made in Italy",
         "url": "https:\/\/www.corrierecomunicazioni.it\/digital-economy\/blockchain-contro-le-frodi-alimentari-best-case-enology-in-un-tag-nfc-tutta-la-storia-di-una-bottiglia\/",
         "contact": "",
@@ -2593,7 +1633,935 @@
     },
     {
         "cid": 10005,
-        "id": 52353,
+        "id": 50020,
+        "name": "Decentralised Digital Identity Pilot",
+        "url": "https:\/\/media.wix.com\/ugd\/df1122_3de6de424d3b4f618af9e768e12d0ca0.pdf",
+        "contact": "",
+        "description": "The project team conducted research into the potential powerful combination of digital identity and Blockchain. Since (digital) identity is a broader and complex topic, the scope of the project was brought back to 4 user stories, one of them being age control while purchasing specific goods, such as cigarettes or alcohol. A particular advantage of Blockchain in relation to digital identity could be that it becomes easier to share specific information only in a specific context. Furthermore, each citizen would have control over which data he would share with whom (for obvious reasons, the exceptions can be made for governmental organisations). Going back to the age control, the owner of a shop only needs to know that the person in front of him is older than 18 years old, but currently (has to) ask for a document containing more data.",
+        "geoextent": "National",
+        "geocoverage": [
+            "Netherlands"
+        ],
+        "geocoverage_codes": [
+            "NL"
+        ],
+        "lead_organisation": {
+            "name": "Ministry of Interior Affairs",
+            "category": "Governmental"
+        },
+        "lead_organisation_name": "Ministry of Interior Affairs",
+        "lead_organisation_category": "Governmental",
+        "start_date": "2016",
+        "active": "No",
+        "end_date": "",
+        "primary_sector": "General public services",
+        "secondary_sector": "Control and monitoring",
+        "technology": "Blockchain",
+        "uptake": "Unknown",
+        "cross_border": "No",
+        "cross_sector": "Yes",
+        "type": "Self sovereign - digital identity",
+        "status": "Pilot"
+    },
+    {
+        "cid": 10005,
+        "id": 50021,
+        "name": "Execution of a judicial decision of juvenile court",
+        "url": "https:\/\/media.wix.com\/ugd\/df1122_3de6de424d3b4f618af9e768e12d0ca0.pdf",
+        "contact": "",
+        "description": "In The Netherlands, minors can get a so-called HALT sentence for committing (minor) crimes. This sentence means that the minor has to do labour. When the work gets completed, the minor no longer has criminal record. The project team looked into the possibilities to use Blockchain for the registration of labour that has been completed. Blockchain would be an interesting technology for such a log, but important legal questions need to be resolved. For example, would it be legally allowed to store information on a Blockchain permanently if the point of getting a HALT sentence is that the minor can continue his life without a criminal record?",
+        "geoextent": "National",
+        "geocoverage": [
+            "Netherlands"
+        ],
+        "geocoverage_codes": [
+            "NL"
+        ],
+        "lead_organisation": {
+            "name": "Ministry of Justice",
+            "category": "Governmental"
+        },
+        "lead_organisation_name": "Ministry of Justice",
+        "lead_organisation_category": "Governmental",
+        "start_date": "2016",
+        "active": "No",
+        "end_date": "",
+        "primary_sector": "General public services",
+        "secondary_sector": "Registration",
+        "technology": "Blockchain",
+        "uptake": "Unknown",
+        "cross_border": "No",
+        "cross_sector": "No",
+        "type": "Other",
+        "status": "Pilot"
+    },
+    {
+        "cid": 10005,
+        "id": 50022,
+        "name": "Toxic Waste Transport",
+        "url": "https:\/\/media.wix.com\/ugd\/df1122_3de6de424d3b4f618af9e768e12d0ca0.pdf",
+        "contact": "",
+        "description": "Transporting toxic waste from the Netherlands to another EU State in order for it to get disposed is a complex process that involves multiple stakeholders: the Human Environment and Transport Inspectorate (HETI), its foreign counterpart, the company that wants to dispose waste, a transport company and the company that will take care of the disposal. Currently, this is a paper-intensive process that requires all parties to have their own administration. During their pilot project, the HETI rethought the entire process. All notifications during this logistical process would go through different applications; approval for a transport could be automated based on a smart contract on the Blockchain.",
+        "geoextent": "National",
+        "geocoverage": [
+            "Netherlands"
+        ],
+        "geocoverage_codes": [
+            "NL"
+        ],
+        "lead_organisation": {
+            "name": "Human Environment and Transport Inspectorate",
+            "category": "Governmental"
+        },
+        "lead_organisation_name": "Human Environment and Transport Inspectorate",
+        "lead_organisation_category": "Governmental",
+        "start_date": "2016",
+        "active": "No",
+        "end_date": "",
+        "primary_sector": "General public services",
+        "secondary_sector": "General public services",
+        "technology": "Blockchain",
+        "uptake": "Unknown",
+        "cross_border": "No",
+        "cross_sector": "No",
+        "type": "Tracking of goods, supply chain, iot",
+        "status": "Pilot"
+    },
+    {
+        "cid": 10005,
+        "id": 50023,
+        "name": "Public Healthcare Benefits Subsidy",
+        "url": "https:\/\/media.wix.com\/ugd\/df1122_3de6de424d3b4f618af9e768e12d0ca0.pdf",
+        "contact": "",
+        "description": "Created a blockchain process to make the financial and administrative process for subsidized public healthcare services more efficient.",
+        "geoextent": "National",
+        "geocoverage": [
+            "Netherlands"
+        ],
+        "geocoverage_codes": [
+            "NL"
+        ],
+        "lead_organisation": {
+            "name": "CAK",
+            "category": "Governmental"
+        },
+        "lead_organisation_name": "CAK",
+        "lead_organisation_category": "Governmental",
+        "start_date": "2016",
+        "active": "No",
+        "end_date": "",
+        "primary_sector": "Health",
+        "secondary_sector": "Financial support",
+        "technology": "Blockchain",
+        "uptake": "Unknown",
+        "cross_border": "No",
+        "cross_sector": "No",
+        "type": "Process digitisation",
+        "status": "Pilot"
+    },
+    {
+        "cid": 10005,
+        "id": 50024,
+        "name": "Healthcare Process Authorization",
+        "url": "https:\/\/media.wix.com\/ugd\/df1122_3de6de424d3b4f618af9e768e12d0ca0.pdf",
+        "contact": "",
+        "description": "The Healthcare Institute focused on authorisations in the healthcare process. The pilot project evolved around a fictional elderly person, who required care from different healthcare providers. Who can make arrangements when this person ends up in a (temporary) emergency situation currently is arranged in an informal way or at best registered in a notebook. Healthcare providers don\u2019t always know each other or aren\u2019t aware of specific arrangements. The Healthcare Institute sees Blockchain as a technology that can create a clear overview of authorisations in the healthcare process. It has developed a prototype on Ethereum, which allows involved healthcare providers to get real time information on a need to know basis about their client\/ patient. The client\/patient has more control over his data and can determine - via an application - which professional can get access to additional information.",
+        "geoextent": "National",
+        "geocoverage": [
+            "Netherlands"
+        ],
+        "geocoverage_codes": [
+            "NL"
+        ],
+        "lead_organisation": {
+            "name": "Healthcare Institute",
+            "category": "Governmental"
+        },
+        "lead_organisation_name": "Healthcare Institute",
+        "lead_organisation_category": "Governmental",
+        "start_date": "2016",
+        "active": "No",
+        "end_date": "",
+        "primary_sector": "Health",
+        "secondary_sector": "Control and monitoring",
+        "technology": "Blockchain",
+        "uptake": "Unknown",
+        "cross_border": "No",
+        "cross_sector": "No",
+        "type": "Auditing and logging",
+        "status": "Pilot"
+    },
+    {
+        "cid": 10005,
+        "id": 50025,
+        "name": "FlashCompany",
+        "url": "https:\/\/media.wix.com\/ugd\/df1122_3de6de424d3b4f618af9e768e12d0ca0.pdf",
+        "contact": "",
+        "description": "Establishing a temporary foundation in order to collect money for a good cause is a time consuming administrative process. The Chamber looked into the possible benefits of establishing a temporary organisation (FlashCompany) on the Blockchain. It found out that for the registration process (online), opening a bank account (can be linked automatically) and selecting conditions for establishing and ending the temporary organisation, Blockchain would be a viable solution. In addition, using smart contracts for donations (\u201cIf this video has 1000 views, I will donate 100 Euro\u201d) could be interesting.",
+        "geoextent": "National",
+        "geocoverage": [
+            "Netherlands"
+        ],
+        "geocoverage_codes": [
+            "NL"
+        ],
+        "lead_organisation": {
+            "name": "Chamber of Commerce",
+            "category": "Governmental"
+        },
+        "lead_organisation_name": "Chamber of Commerce",
+        "lead_organisation_category": "Governmental",
+        "start_date": "2016",
+        "active": "No",
+        "end_date": "",
+        "primary_sector": "General public services",
+        "secondary_sector": "Registration",
+        "technology": "Blockchain",
+        "uptake": "Unknown",
+        "cross_border": "No",
+        "cross_sector": "Yes",
+        "type": "Process digitisation",
+        "status": "Pilot"
+    },
+    {
+        "cid": 10005,
+        "id": 50026,
+        "name": "Blockchain-based Land Registry",
+        "url": "https:\/\/media.wix.com\/ugd\/df1122_3de6de424d3b4f618af9e768e12d0ca0.pdf",
+        "contact": "",
+        "description": "In this second round of blockchain pilots with the government, we looked at and co-designed with a pilot from the municipality of Eindhoven. The Department does not only register ownership of real estate, but also registers and provides geo-information data. Sometimes the data is used in the wrong context, or an outdated set is accidentally used. By applying the blockchain, the Kadaster can immediately specify the most up-to-date dataset by means of a timestamp. It can then be used when filling in a form for environmental law requirements as well as other use cases. All participants can then establish that the data is up-to-date and correct. Providing these open data sets within the blockchain is not a very complicated process, but is therefore suitable to use to build a first blockchain prototype. The Kadaster is also researching work from other countries that are already experimenting with the blockchain and is looking to apply certain elements in the Netherlands.",
+        "geoextent": "National",
+        "geocoverage": [
+            "Netherlands"
+        ],
+        "geocoverage_codes": [
+            "NL"
+        ],
+        "lead_organisation": {
+            "name": "Kadaster Gemeente Eindhoven",
+            "category": "Governmental"
+        },
+        "lead_organisation_name": "Kadaster Gemeente Eindhoven",
+        "lead_organisation_category": "Governmental",
+        "start_date": "2016",
+        "active": "No",
+        "end_date": "",
+        "primary_sector": "General economic and commercial affairs",
+        "secondary_sector": "Registration",
+        "technology": "Blockchain",
+        "uptake": "Unknown",
+        "cross_border": "No",
+        "cross_sector": "No",
+        "type": "Tracking of goods, supply chain, iot",
+        "status": "Pilot"
+    },
+    {
+        "cid": 10005,
+        "id": 50027,
+        "name": "Truck Driver Tracking",
+        "url": "https:\/\/media.wix.com\/ugd\/df1122_3de6de424d3b4f618af9e768e12d0ca0.pdf",
+        "contact": "",
+        "description": "Developed a blockchain-based system for the tracking of working and resting hours of truck drivers.",
+        "geoextent": "National",
+        "geocoverage": [
+            "Netherlands"
+        ],
+        "geocoverage_codes": [
+            "NL"
+        ],
+        "lead_organisation": {
+            "name": "Human Environment and Transport Inspectorate",
+            "category": "Governmental"
+        },
+        "lead_organisation_name": "Human Environment and Transport Inspectorate",
+        "lead_organisation_category": "Governmental",
+        "start_date": "2016",
+        "active": "No",
+        "end_date": "",
+        "primary_sector": "Transport",
+        "secondary_sector": "Control and monitoring",
+        "technology": "Blockchain",
+        "uptake": "Unknown",
+        "cross_border": "No",
+        "cross_sector": "No",
+        "type": "Tracking of goods, supply chain, iot",
+        "status": "Pilot"
+    },
+    {
+        "cid": 10005,
+        "id": 50028,
+        "name": "Financing New School Buildings",
+        "url": "https:\/\/media.wix.com\/ugd\/df1122_3de6de424d3b4f618af9e768e12d0ca0.pdf",
+        "contact": "",
+        "description": "Built a prototype on Ethereum in collaboration with ING to improve the process of financing the development of new school buildings. This administrative and financial process involves multiple governmental organisations.",
+        "geoextent": "National",
+        "geocoverage": [
+            "Netherlands"
+        ],
+        "geocoverage_codes": [
+            "NL"
+        ],
+        "lead_organisation": {
+            "name": "Ministry of Finance",
+            "category": "Governmental"
+        },
+        "lead_organisation_name": "Ministry of Finance",
+        "lead_organisation_category": "Governmental",
+        "start_date": "2016",
+        "active": "No",
+        "end_date": "",
+        "primary_sector": "General public services",
+        "secondary_sector": "Financial support",
+        "technology": "Blockchain",
+        "uptake": "Unknown",
+        "cross_border": "No",
+        "cross_sector": "No",
+        "type": "Process digitisation",
+        "status": "Pilot"
+    },
+    {
+        "cid": 10005,
+        "id": 50029,
+        "name": "Electric Vehicle Subsidy Registry",
+        "url": "https:\/\/media.wix.com\/ugd\/df1122_3de6de424d3b4f618af9e768e12d0ca0.pdf",
+        "contact": "",
+        "description": "Develop a significantly improved (and highly automated) regulation for subsidies on electric vehicles.",
+        "geoextent": "Local",
+        "geocoverage": [
+            "Netherlands"
+        ],
+        "geocoverage_codes": [
+            "NL"
+        ],
+        "lead_organisation": {
+            "name": "City of the Hague",
+            "category": "Governmental"
+        },
+        "lead_organisation_name": "City of the Hague",
+        "lead_organisation_category": "Governmental",
+        "start_date": "2016",
+        "active": "No",
+        "end_date": "",
+        "primary_sector": "General public services",
+        "secondary_sector": "Financial support",
+        "technology": "Blockchain",
+        "uptake": "Unknown",
+        "cross_border": "No",
+        "cross_sector": "No",
+        "type": "Process digitisation",
+        "status": "Pilot"
+    },
+    {
+        "cid": 10005,
+        "id": 50030,
+        "name": "Medical Instrument Registration",
+        "url": "https:\/\/media.wix.com\/ugd\/df1122_3de6de424d3b4f618af9e768e12d0ca0.pdf",
+        "contact": "",
+        "description": "The CIBG manages, records and provides information for the government. Especially in the field of health care. One of the most well-known registers of the CIBG is probably the BIG registry where medical professionals are registered. But there are still more data that fall under the management of the CIBG. This registration has been largely digitized and the CIBG could therefore call you an ICT-driven organization. Does the blockchain still have added value?",
+        "geoextent": "National",
+        "geocoverage": [
+            "Netherlands"
+        ],
+        "geocoverage_codes": [
+            "NL"
+        ],
+        "lead_organisation": {
+            "name": "CIBG",
+            "category": "Governmental"
+        },
+        "lead_organisation_name": "CIBG",
+        "lead_organisation_category": "Governmental",
+        "start_date": "2016",
+        "active": "No",
+        "end_date": "",
+        "primary_sector": "Health",
+        "secondary_sector": "Registration",
+        "technology": "Blockchain",
+        "uptake": "Unknown",
+        "cross_border": "No",
+        "cross_sector": "No",
+        "type": "Process digitisation",
+        "status": "Pilot"
+    },
+    {
+        "cid": 10005,
+        "id": 50031,
+        "name": "Employment and Identity Fraud",
+        "url": "https:\/\/media.wix.com\/ugd\/df1122_3de6de424d3b4f618af9e768e12d0ca0.pdf",
+        "contact": "",
+        "description": "Created a use case for the improvement of data sharing with several other governmental organizations in order to improve detection of fraud, exploitation and organized crime within the chain of work and income.",
+        "geoextent": "National",
+        "geocoverage": [
+            "Netherlands"
+        ],
+        "geocoverage_codes": [
+            "NL"
+        ],
+        "lead_organisation": {
+            "name": "The Inspectorate of the Ministry of Employment",
+            "category": "Governmental"
+        },
+        "lead_organisation_name": "The Inspectorate of the Ministry of Employment",
+        "lead_organisation_category": "Governmental",
+        "start_date": "2016",
+        "active": "No",
+        "end_date": "",
+        "primary_sector": "General public services",
+        "secondary_sector": "Control and monitoring",
+        "technology": "Blockchain",
+        "uptake": "Unknown",
+        "cross_border": "No",
+        "cross_sector": "No",
+        "type": "Authentication",
+        "status": "Pilot"
+    },
+    {
+        "cid": 10005,
+        "id": 50032,
+        "name": "Multi-stakeholder Financial Arrangements",
+        "url": "https:\/\/media.wix.com\/ugd\/df1122_3de6de424d3b4f618af9e768e12d0ca0.pdf",
+        "contact": "",
+        "description": "Developed a use case for the improvement of financial arrangements that involved multiple stakeholders.",
+        "geoextent": "National",
+        "geocoverage": [
+            "Netherlands"
+        ],
+        "geocoverage_codes": [
+            "NL"
+        ],
+        "lead_organisation": {
+            "name": "Ministry of Foreign Affairs",
+            "category": "Governmental"
+        },
+        "lead_organisation_name": "Ministry of Foreign Affairs",
+        "lead_organisation_category": "Governmental",
+        "start_date": "2016",
+        "active": "No",
+        "end_date": "",
+        "primary_sector": "Financial and fiscal affairs",
+        "secondary_sector": "Other",
+        "technology": "Blockchain",
+        "uptake": "Unknown",
+        "cross_border": "No",
+        "cross_sector": "No",
+        "type": "Disintermediation and decentralized networks",
+        "status": "Pilot"
+    },
+    {
+        "cid": 10005,
+        "id": 50033,
+        "name": "Large Event Permitting",
+        "url": "https:\/\/media.wix.com\/ugd\/df1122_3de6de424d3b4f618af9e768e12d0ca0.pdf",
+        "contact": "",
+        "description": "The municipalities of Barendrecht, Albrandswaard and Ridderkerk's BAR Organization looked into ways in which they could apply blockchain to various permitting processes such as street parties. The BAR organization looked at small-scale events where someone applies for a license for a street party. Currently, the permit application is submitted to the municipality, but must be checked by several authorities, such as the fire department or police to approve or deny the permit based on feasibility. All these control moments and advice are again collected by the municipality and then it is checked whether the event permit can be issued. With the pilot team and experts, the BAR organization tried to model this process on the blockchain automating standard procedures with smart contracts. An additional advantage is that all involved agencies are now also immediately aware of each other's advice and any objections, without intervention of the municipality. Both matters mean a huge reduction in the burden on the work within the municipality. Everything can be done faster and the procedure becomes less vulnerable because a large part of the communication is no longer necessary.",
+        "geoextent": "Local",
+        "geocoverage": [
+            "Netherlands"
+        ],
+        "geocoverage_codes": [
+            "NL"
+        ],
+        "lead_organisation": {
+            "name": "BAR Organization Gemeente Barendrecht Gemeente Albrandswaard Gemeente Ridderkerk",
+            "category": "Governmental"
+        },
+        "lead_organisation_name": "BAR Organization Gemeente Barendrecht Gemeente Albrandswaard Gemeente Ridderkerk",
+        "lead_organisation_category": "Governmental",
+        "start_date": "2016",
+        "active": "No",
+        "end_date": "",
+        "primary_sector": "General public services",
+        "secondary_sector": "Control and monitoring",
+        "technology": "Blockchain",
+        "uptake": "Unknown",
+        "cross_border": "No",
+        "cross_sector": "No",
+        "type": "Process digitisation",
+        "status": "Pilot"
+    },
+    {
+        "cid": 10005,
+        "id": 50034,
+        "name": "Waste Sector Data Sharing",
+        "url": "https:\/\/media.wix.com\/ugd\/df1122_3de6de424d3b4f618af9e768e12d0ca0.pdf",
+        "contact": "",
+        "description": "The city of Utrecht is piloting blockchain for 'waste processing'. The city believes apparent that organisation of the waste processing in the blockchain could bring many benefits. Specifically, the way in which waste weight per empty container is registered. In the pilot, the waste weight data is linked to that of the transporters, intermediaries and final processors, and organized via the blockchain. All these parties keep their own administration. Blockchain can contribute to a joint administration that provides absolute certainty about the integrity of the data. Another big advantage is that a number of control moments are automatically controlled via smart contracts. At the same time, we have insight into the entire process from waste container to final processor.",
+        "geoextent": "Local",
+        "geocoverage": [
+            "Netherlands"
+        ],
+        "geocoverage_codes": [
+            "NL"
+        ],
+        "lead_organisation": {
+            "name": "Gemeente Utrecht",
+            "category": "Governmental"
+        },
+        "lead_organisation_name": "Gemeente Utrecht",
+        "lead_organisation_category": "Governmental",
+        "start_date": "2016",
+        "active": "No",
+        "end_date": "",
+        "primary_sector": "Waste management",
+        "secondary_sector": "Control and monitoring",
+        "technology": "Blockchain",
+        "uptake": "Unknown",
+        "cross_border": "No",
+        "cross_sector": "No",
+        "type": "Process digitisation",
+        "status": "Pilot"
+    },
+    {
+        "cid": 10005,
+        "id": 50035,
+        "name": "Blockchain-based Digital Identity: Do-it-Yourself Marriage",
+        "url": "https:\/\/media.wix.com\/ugd\/df1122_3de6de424d3b4f618af9e768e12d0ca0.pdf",
+        "contact": "",
+        "description": "Rijksdienst voor Identiteitsgegevens (RvIG) is investigating how digital identity can be implemented on blockchains for Dutch citizens According to RvIG, a reliable, easy-to-use digital identity is a prerequisite for being able to participate in the blockchain. There are still many questions open about the concept of digital identity. RvIG recently organized an internal blockchain workshop. One of the most appealing examples of 'identity in the blockchain' that came up was the do-it-yourself marriage. For the conclusion of a marriage, three parties are now needed: the two partners who decide to marry and the registrar of the civil registry who closes the marriage. The civil registrar's role is that of the 'third party that creates trust and can conclude the agreement after checking.' The nature of the blockchain means that this 'third party' is in some cases superfluous. In theory, this could also apply to a marriage: via the blockchain, the identity and intention of the two partners can be checked and verified via smart contracts and the decentralized databases. The marriage could thus be completed via the blockchain.",
+        "geoextent": "National",
+        "geocoverage": [
+            "Netherlands"
+        ],
+        "geocoverage_codes": [
+            "NL"
+        ],
+        "lead_organisation": {
+            "name": "Rijksdienst voor Identiteitsgegevens (RvIG) Gemeente Zaanstad",
+            "category": "Governmental"
+        },
+        "lead_organisation_name": "Rijksdienst voor Identiteitsgegevens (RvIG) Gemeente Zaanstad",
+        "lead_organisation_category": "Governmental",
+        "start_date": "2016",
+        "active": "No",
+        "end_date": "",
+        "primary_sector": "General public services",
+        "secondary_sector": "Service integration",
+        "technology": "Blockchain",
+        "uptake": "Unknown",
+        "cross_border": "No",
+        "cross_sector": "Yes",
+        "type": "Self sovereign - digital identity",
+        "status": "Pilot"
+    },
+    {
+        "cid": 10005,
+        "id": 50036,
+        "name": "Aid Subsidy Collection",
+        "url": "https:\/\/www.zuidhorn.nl\/bestuur-en-organisatie\/nieuws_3800\/item\/innovatieve-uitvoering-kindpakket-met-belangrijke-eerste-stap-blockchain-technologie_6490.html",
+        "contact": "",
+        "description": "The municipality of Zuidhorn has found a unique and innovative way to implement the Kindpakket subsidies via blockchain technology. The Child Package is a budget for children of parents with a minimum income. In the municipality of Zuidhorn about 150 children are eligible for the program. This money is used by the municipality for disadvantaged children, giving them the opportunity to participate in social activities, in sports and cultural activities at school. The municipality carries out this national assignment with local entrepreneurs and associations. Within the city, two students have been engaged in research into the possible applications of blockchain in municipal services. They have designed the implementation of the Kindpakket in a new and very user-friendly way with blockchain. The recipient of the Kindpakket can take out the purchase in a simple administrative and financial manner. The 'customer' pays, for example buying a bicycle, with a specific code and the entrepreneur gets the money directly into his account with no intervention from the municipality.",
+        "geoextent": "Local",
+        "geocoverage": [
+            "Netherlands"
+        ],
+        "geocoverage_codes": [
+            "NL"
+        ],
+        "lead_organisation": {
+            "name": "Gemeente Zuidhorn",
+            "category": "Governmental"
+        },
+        "lead_organisation_name": "Gemeente Zuidhorn",
+        "lead_organisation_category": "Governmental",
+        "start_date": "2016",
+        "active": "Yes",
+        "end_date": "",
+        "primary_sector": "Social protection",
+        "secondary_sector": "Financial support",
+        "technology": "Blockchain",
+        "uptake": "Unknown",
+        "cross_border": "No",
+        "cross_sector": "No",
+        "type": "Process digitisation",
+        "status": "In development"
+    },
+    {
+        "cid": 10005,
+        "id": 50037,
+        "name": "IoT & Blockchain Lab",
+        "url": "http:\/\/www.itainnova.es",
+        "contact": "",
+        "description": "The IoT & Blockchain Lab is a innovation ecosystem in which companies, people in training, entrepreneurs and ITAINNOVA staff work together in the development of new systems and products with IoT&Blockchain and Data Analytics for Supply Chain, Transport and Industry. The objective of the lab is to generate an innovation ecosystem in which companies, people in training, entrepreneurs and ITAINNOVA staff work together in the development of new systems and products that generate high value for our society through the IoT, Blockchain and Data Analytics.",
+        "geoextent": "Regional",
+        "geocoverage": [
+            "Spain"
+        ],
+        "geocoverage_codes": [
+            "ES"
+        ],
+        "lead_organisation": {
+            "name": "Aragon Government",
+            "category": "Governmental"
+        },
+        "lead_organisation_name": "Aragon Government",
+        "lead_organisation_category": "Governmental",
+        "start_date": "2018",
+        "active": "Yes",
+        "end_date": "",
+        "primary_sector": "Transport",
+        "secondary_sector": "Other",
+        "technology": "Blockchain",
+        "uptake": "Unknown",
+        "cross_border": "No",
+        "cross_sector": "No",
+        "type": "Tracking of goods, supply chain, iot",
+        "status": "In development"
+    },
+    {
+        "cid": 10005,
+        "id": 50038,
+        "name": "TrustForWills",
+        "url": "https:\/\/www.atsistemas.com",
+        "contact": "",
+        "description": "In the context of digital legacy, TrustForWills ensures the automated compliance of users' wills in case of temporary disability or death. This is a government supported initiative aimed at promoting the adoption of blockchain technology. To stimulate the generation of new business models within the legal sector by covering the management of currently unsupported patrimonies such as those pertaining to digital assets ecosystem.",
+        "geoextent": "National",
+        "geocoverage": [
+            "Spain"
+        ],
+        "geocoverage_codes": [
+            "ES"
+        ],
+        "lead_organisation": {
+            "name": "Ministery of Economy Tourism and Digital Agenda (Spain)",
+            "category": "Governmental"
+        },
+        "lead_organisation_name": "Ministery of Economy Tourism and Digital Agenda (Spain)",
+        "lead_organisation_category": "Governmental",
+        "start_date": "2018",
+        "active": "Yes",
+        "end_date": "",
+        "primary_sector": "General public services",
+        "secondary_sector": "Control and monitoring",
+        "technology": "Blockchain",
+        "uptake": "Unknown",
+        "cross_border": "No",
+        "cross_sector": "No",
+        "type": "Process digitisation",
+        "status": "In development"
+    },
+    {
+        "cid": 10005,
+        "id": 50039,
+        "name": "Distributed Open Data Portal",
+        "url": "https:\/\/dadesobertes.valls.cat\/",
+        "contact": "",
+        "description": "Open data portal in which the different data sets and resources are published both in the web portal and in a distributed network based on IPFS (data persistence). At the same time data is accountable by logging all changes on a distributed, immutable database (Ethereum)Improve citizen participation. Reinforce commitment with citizens. Security and resilience",
+        "geoextent": "Local",
+        "geocoverage": [
+            "Spain"
+        ],
+        "geocoverage_codes": [
+            "ES"
+        ],
+        "lead_organisation": {
+            "name": "Ajuntament de Valls (Valls City Council)",
+            "category": "Governmental"
+        },
+        "lead_organisation_name": "Ajuntament de Valls (Valls City Council)",
+        "lead_organisation_category": "Governmental",
+        "start_date": "2019",
+        "active": "Yes",
+        "end_date": "",
+        "primary_sector": "General public services",
+        "secondary_sector": "Data access",
+        "technology": "Blockchain",
+        "uptake": "Unknown",
+        "cross_border": "No",
+        "cross_sector": "Yes",
+        "type": "Auditing and logging",
+        "status": "In production"
+    },
+    {
+        "cid": 10005,
+        "id": 50040,
+        "name": "Decentralized Energy Trading Marketplace",
+        "url": "http:\/\/news.vattenfall.com\/en\/article\/forefront-field-trial-blockchain-technology",
+        "contact": "",
+        "description": "Swedish state-owned energy company Vattenfall is to collaborate with 22 other European energy trading firms to launch a blockchain-based pilot. Should the project prove successful it would become the world\u2019s first blockchain-based trading system for wholesale energy. Vattenfall\u2019s Business Area Markets division will conduct the pilot in order to deepen its understanding of the technology and conclude whether or not such a decentralised solution could match its existing trading platforms while simultaneously reducing cost. The trial will be managed by Hamburg-based B2B solutions provider Ponton, which will provide software that facilitates encrypted sending and receipt of orders through a decentralised order book. The trading is all managed on a peer-to-peer basis, removing the need for a central marketplace that is operated by a third party exchange or broker.",
+        "geoextent": "International",
+        "geocoverage": [
+            "Sweden"
+        ],
+        "geocoverage_codes": [
+            "SE"
+        ],
+        "lead_organisation": {
+            "name": "Vattenfall - Business Area Markets",
+            "category": "Governmental"
+        },
+        "lead_organisation_name": "Vattenfall - Business Area Markets",
+        "lead_organisation_category": "Governmental",
+        "start_date": "2016",
+        "active": "Yes",
+        "end_date": "",
+        "primary_sector": "Fuel and energy",
+        "secondary_sector": "Other",
+        "technology": "Blockchain",
+        "uptake": "Unknown",
+        "cross_border": "Yes",
+        "cross_sector": "No",
+        "type": "Disintermediation and decentralized networks",
+        "status": "In development"
+    },
+    {
+        "cid": 10005,
+        "id": 50041,
+        "name": "e-Government Pilot Project",
+        "url": "http:\/\/www.tcbe.ch\/news\/focus-2017\/blockchain-technologie.html",
+        "contact": "",
+        "description": "Procivis, a specialist provider of electronic government services, the startup will supply the Canton of Schaffhausen with an electronic Citizen-ID based on a mobile app, which will be available to citizens free of charge. The Citizen-ID is planned to be launched later this year as a pilot project. The collaboration with the Canton of Schaffhausen marks Procivis\u2019s first Swiss client win after having launched the beta version of its e-government platform, called \u201ceID+\u201d, two months ago. The Procivis solution will function as the technical backbone for identity-related online services, which form part of Schaffhausen\u2019s citizen portal. Citizens of the canton will get access to their official, electronic Citizen-ID through a mobile application, which allows them to log on to the citizen portal and use the available government services, such as residents\u2019 registration office or tax services.",
+        "geoextent": "Regional",
+        "geocoverage": [
+            "Switzerland"
+        ],
+        "geocoverage_codes": [
+            "CH"
+        ],
+        "lead_organisation": {
+            "name": "Canton of Schaffhausen",
+            "category": "Governmental"
+        },
+        "lead_organisation_name": "Canton of Schaffhausen",
+        "lead_organisation_category": "Governmental",
+        "start_date": "2017",
+        "active": "Yes",
+        "end_date": "",
+        "primary_sector": "General public services",
+        "secondary_sector": "Control and monitoring",
+        "technology": "Blockchain",
+        "uptake": "Unknown",
+        "cross_border": "No",
+        "cross_sector": "Yes",
+        "type": "Self sovereign - digital identity",
+        "status": "In development"
+    },
+    {
+        "cid": 10005,
+        "id": 50042,
+        "name": "Swiss Cryptovalley",
+        "url": "https:\/\/cryptovalley.swiss\/",
+        "contact": "",
+        "description": "On March 1, 2017, the Crypto Valley Association (CVA) launched in Zug, Switzerland with the goal of accelerating the development, deployment, and funding of blockchain technology. The CVA is a government-backed institution focused on blockchain innovation and is comprised of several major blue chip members, disruptive startups, and globally recognized leaders. The association has set up headquarters in the canton of Zug, a region of Switzerland known as \u201cCrypto Valley.\u201d Led by fintech and blockchain influencer Oliver Bussmann, the CVA launch members include Ethereum-based ConsenSys, Lucerne University of Applied Sciences and Arts, Luxoft, PricewaterhouseCoopers, Thomson Reuters, and UBS. The CVA will support startups and established enterprises through policy recommendations, implementing research projects, and organizing conferences, hackathons, and other blockchain-based events. Taking advantage of the country\u2019s environment of free speech and data privacy, the CVA seeks to foster innovation within the world\u2019s leading blockchain and cryptographic ecosystem to pioneer digital technologies within Switzerland as well as internationally.",
+        "geoextent": "International",
+        "geocoverage": [
+            "Switzerland"
+        ],
+        "geocoverage_codes": [
+            "CH"
+        ],
+        "lead_organisation": {
+            "name": "Swiss Federal Government",
+            "category": "Governmental"
+        },
+        "lead_organisation_name": "Swiss Federal Government",
+        "lead_organisation_category": "Governmental",
+        "start_date": "2017",
+        "active": "Yes",
+        "end_date": "",
+        "primary_sector": "Financial and fiscal affairs",
+        "secondary_sector": "Other",
+        "technology": "Blockchain",
+        "uptake": "Unknown",
+        "cross_border": "No",
+        "cross_sector": "No",
+        "type": "Disintermediation and decentralized networks",
+        "status": "In production"
+    },
+    {
+        "cid": 10005,
+        "id": 50043,
+        "name": "City of Zug Blockchain Voting Trial",
+        "url": "https:\/\/www.coindesk.com\/crypto-valley-declares-blockchain-voting-trial-a-success",
+        "contact": "",
+        "description": "The Swiss city launched an e-voting pilot platform built on a blockchain as part of the city\u2019s efforts to embrace the technology. The voting process took place between June 25 and July 1, and stored both polling information and residents\u2019 IDs on the system.\"We will build the e-voting platform \u2018Open Source\u2019 so that people can understand what the technology is and how it works. We want to encourage more people to develop blockchain-based applications for governments worldwide.\"",
+        "geoextent": "Local",
+        "geocoverage": [
+            "Switzerland"
+        ],
+        "geocoverage_codes": [
+            "CH"
+        ],
+        "lead_organisation": {
+            "name": "City of Zug",
+            "category": "Governmental"
+        },
+        "lead_organisation_name": "City of Zug",
+        "lead_organisation_category": "Governmental",
+        "start_date": "2018",
+        "active": "Yes",
+        "end_date": "",
+        "primary_sector": "General public services",
+        "secondary_sector": "Other",
+        "technology": "Blockchain",
+        "uptake": "Unknown",
+        "cross_border": "No",
+        "cross_sector": "Yes",
+        "type": "Governance and voting",
+        "status": "Pilot"
+    },
+    {
+        "cid": 10005,
+        "id": 50044,
+        "name": "e-Auction 3.0",
+        "url": "http:\/\/govsale.com.ua\/#\/?_k=lo64u5",
+        "contact": "",
+        "description": "In October 2015 Innovations and Development Foundation began working on a next generation of decentralised, blockchain E-auction system. The platform is built for supporting non-corrupt, transparent privatisation process of state and regional property, land and enterprises. The first phase of the project was launched in February 2016.The strategy for improving the state property privatisation and lease process is based on the emerging, innovative models, that apply transformational changes to components which are relevant for Ukraine. Models offer the latest technological solutions, such as complete decentralisation\/distribution based on blockchain and transparency for easy monitoring through API.",
+        "geoextent": "National",
+        "geocoverage": [
+            "Ukraine"
+        ],
+        "geocoverage_codes": [
+            "UA"
+        ],
+        "lead_organisation": {
+            "name": "Ministry of Finance",
+            "category": "Governmental"
+        },
+        "lead_organisation_name": "Ministry of Finance",
+        "lead_organisation_category": "Governmental",
+        "start_date": "2015",
+        "active": "Yes",
+        "end_date": "",
+        "primary_sector": "Financial and fiscal affairs",
+        "secondary_sector": "Control and monitoring",
+        "technology": "Blockchain",
+        "uptake": "Unknown",
+        "cross_border": "No",
+        "cross_sector": "No",
+        "type": "Disintermediation and decentralized networks",
+        "status": "In production"
+    },
+    {
+        "cid": 10005,
+        "id": 50045,
+        "name": "Project Maison",
+        "url": "https:\/\/www.fca.org.uk\/firms\/regtech\/our-work-programme",
+        "contact": "",
+        "description": "R3 CEV has partnered with Britain\u2019s financial watchdog and two large banks to develop a blockchain-based application to improve the regulatory reporting of mortgage transactions. R3 said on Tuesday that it had developed a prototype of the system together with the Financial Conduct Authority, the Royal Bank of Scotland Group and another global bank which did not wish to be named. The system, which was built using R3\u2019s blockchain called Corda, enables banks to generate automated delivery receipts for the regulator each time a mortgage is booked. The organizations hope that it can reduce the cost of the process and the risk of error. The FCA prototype \u201ccan give the regulator a new tool capable of overseeing mortgage activity much more quickly and efficiently than before whilst greatly reducing data inconsistencies,\u201d Richard Crook, head of emerging technology at RBS, said in a statement.",
+        "geoextent": "National",
+        "geocoverage": [
+            "United Kingdom"
+        ],
+        "geocoverage_codes": [
+            "GB"
+        ],
+        "lead_organisation": {
+            "name": "Financial Conduct Authority (FCA)",
+            "category": "Governmental"
+        },
+        "lead_organisation_name": "Financial Conduct Authority (FCA)",
+        "lead_organisation_category": "Governmental",
+        "start_date": "2017",
+        "active": "Yes",
+        "end_date": "",
+        "primary_sector": "Financial and fiscal affairs",
+        "secondary_sector": "Control and monitoring",
+        "technology": "Blockchain",
+        "uptake": "Unknown",
+        "cross_border": "No",
+        "cross_sector": "No",
+        "type": "Process digitisation",
+        "status": "In development"
+    },
+    {
+        "cid": 10005,
+        "id": 50046,
+        "name": "GovCoin Proof of Concept",
+        "url": "http:\/\/www.cityam.com\/245128\/government-has-quietly-been-testing-blockchain-technology",
+        "contact": "",
+        "description": "Novel payment models will enable HM Treasury (HMT) and the Department for Work and Pensions (DWP) to distribute welfare support more efficiently and improve policy delivery. By applying DLTs in the registration and payment processes for government grants and benefits, DWP will be better equipped to: (1) Prevent financial losses through fraud and error, (2) Support the most vulnerable citizens by offering them the benefits of full financial inclusion, (3) Support the achievement of the government\u2019s wider policy objectives, especially getting people out of poverty in a sustainable way and (4) Offer good value for money and place public expenditure on a sustainable footing. A large number of welfare claimants are un- or under-banked and face barriers to greater financial inclusion such as credit checks, access to traditional financial products, and the costs of unauthorised transactions. DLTs offer a cheap and supportive means of getting these claimants into the benefits system. Digital identities could be confirmed through distributed ledgers running on securely-encoded devices \u2014 or even through software on a mobile device \u2014 which would allow end-users to receive benefits directly, at reduced transaction costs to banks or local authorities. This may allow them to become more fully included in the financial system through a secure distribution point that is more reliable than a bank account. Such a solution could also be linked with other systems to reduce the level of fraud and official error in the delivery of benefits, as identities would be more difficult to forge. Such activities may help to achieve one of the DWP\u2019s principal policy objectives: to lift people sustainably out of the cycle of poverty and state dependence. Through the innovative application of such technologies, it would be possible \u2014 with agreement from the benefit claimant in question \u2014 to set rules at both the recipient and merchant ends of welfare transactions. This may present the opportunity for ministers to consider options for achieving better policy outcomes from the distribution of welfare support by agreeing or setting rules around the use of benefits.",
+        "geoextent": "National",
+        "geocoverage": [
+            "United Kingdom"
+        ],
+        "geocoverage_codes": [
+            "GB"
+        ],
+        "lead_organisation": {
+            "name": "Department of Work and Pensions",
+            "category": "Governmental"
+        },
+        "lead_organisation_name": "Department of Work and Pensions",
+        "lead_organisation_category": "Governmental",
+        "start_date": "2016",
+        "active": "Yes",
+        "end_date": "",
+        "primary_sector": "Social protection",
+        "secondary_sector": "Financial support",
+        "technology": "Blockchain",
+        "uptake": "Unknown",
+        "cross_border": "No",
+        "cross_sector": "Yes",
+        "type": "Process digitisation",
+        "status": "In development"
+    },
+    {
+        "cid": 10005,
+        "id": 50047,
+        "name": "RMG\u00ae The New Digital Gold Standard",
+        "url": "http:\/\/www.royalmint.com\/rmg",
+        "contact": "",
+        "description": "The Royal Mint, the world's leading export mint, and CME Group, the world's leading and most diverse derivatives marketplace, announced a collaboration to transform the way that market participants can trade gold. The Royal Mint, a 1,000-year-old institution owned by HM Treasury, has partnered with CME Group to build and launch a digitised gold offering called Royal Mint Gold (RMG). RMG will change the way traders and investors trade, execute and settle gold. The innovative new product will see The Royal Mint issue RMG as a digital record of ownership for gold stored at its highly-secure on-site bullion vault storage facility. CME Group will develop, implement and operate the product\u2019s digital trading platform. Taken together, this new service will provide an easier, cost-effective and cryptographically secure alternative to buying, holding and trading spot gold.",
+        "geoextent": "National",
+        "geocoverage": [
+            "United Kingdom"
+        ],
+        "geocoverage_codes": [
+            "GB"
+        ],
+        "lead_organisation": {
+            "name": "The Royal Mint",
+            "category": "Governmental"
+        },
+        "lead_organisation_name": "The Royal Mint",
+        "lead_organisation_category": "Governmental",
+        "start_date": "2018",
+        "active": "Yes",
+        "end_date": "",
+        "primary_sector": "Financial and fiscal affairs",
+        "secondary_sector": "Other",
+        "technology": "Blockchain",
+        "uptake": "Unknown",
+        "cross_border": "No",
+        "cross_sector": "No",
+        "type": "Process digitisation",
+        "status": "In production"
+    },
+    {
+        "cid": 10005,
+        "id": 50048,
+        "name": "Distributed Ledger-based Gross Settlement System",
+        "url": "https:\/\/www.bankofengland.co.uk\/research\/fintech\/proof-of-concept",
+        "contact": "",
+        "description": "The Bank of England wants to open its interbank settlement service to blockchain technologies as part of a major revamp of the system. The bank is not suggesting that U.K. banks should begin processing bitcoin payments as a matter of routine. However, it does want the replacement for its aging real-time gross settlement (RTGS) system to be ready for whatever the industry is likely to throw at it when it goes into service in 2020. It identified five key strategic drivers for the new RTGS system in a consultation document, \"A new RTGS service for the U.K.: safeguarding stability, enabling innovation\". Among them, it lists the need to interface with new technologies such as distributed ledgers. These are often referred to as blockchains, and include systems such as bitcoin and Ethereum. In the bank's view, these systems -- and, indeed, the entire concept of distributed ledgers -- are still in their infancy, but if they achieve critical mass, it wants to be ready for them.",
+        "geoextent": "National",
+        "geocoverage": [
+            "United Kingdom"
+        ],
+        "geocoverage_codes": [
+            "GB"
+        ],
+        "lead_organisation": {
+            "name": "Bank of England",
+            "category": "Governmental"
+        },
+        "lead_organisation_name": "Bank of England",
+        "lead_organisation_category": "Governmental",
+        "start_date": "2017",
+        "active": "Yes",
+        "end_date": "",
+        "primary_sector": "Financial and fiscal affairs",
+        "secondary_sector": "Other",
+        "technology": "Blockchain",
+        "uptake": "Unknown",
+        "cross_border": "No",
+        "cross_sector": "Yes",
+        "type": "Process digitisation",
+        "status": "In development"
+    },
+    {
+        "cid": 10005,
+        "id": 50049,
         "name": "Food Standards Agency",
         "url": "https:\/\/www.coindesk.com\/uk-food-watchdog-trials-blockchain-meat-inspection\/",
         "contact": "",
@@ -6484,10 +6452,10 @@
     {
         "cid": 10006,
         "id": 60124,
-        "name": "Amsterdam CitySDK platform",
-        "url": "http:\/\/citysdk.waag.org\/data\/",
+        "name": "City Dashboard Amsterdam",
+        "url": "http:\/\/citydashboard.org\/amsterdam\/",
         "contact": "",
-        "description": "Amsterdam CitySDK platform",
+        "description": "The City Dashboard Amsterdam has been developed as part of the City Service Development Kit and the Open Data Exchange projects, to make existing Amsterdam data sets available in realtime.",
         "geoextent": "Local",
         "geocoverage": [
             "Netherlands"
@@ -6516,22 +6484,22 @@
     {
         "cid": 10006,
         "id": 60125,
-        "name": "Antwerp CityPlatform",
-        "url": "https:\/\/acpaas.digipolis.be\/nl\/home",
+        "name": "Antwerp City Platform as a Service (ACPaaS)",
+        "url": "https:\/\/acpaas.digipolis.be\/",
         "contact": "",
-        "description": "Antwerp CityPlatform",
+        "description": "ACPaaS, a project by Digipolis and the City of Antwerp, is a hi-tech platform supporting all IT solutions of the City of Antwerp. ACPaaS is a collection of ready-to-use, reusable blocks of software or engines, such as notifications, profile management, payment and workflow. There are around sixty in total. These can be combined in many different ways and integrated with each other to form new IT solutions. In practice, they are used in more than 100 applications and systems and many more are on the way. Furthermore, new technologies, such as Internet of Things, blockchain and artificial intelligence are part of the platform.",
         "geoextent": "Local",
         "geocoverage": [
-            "Netherlands"
+            "Belgium"
         ],
         "geocoverage_codes": [
-            "NL"
+            "BE"
         ],
         "lead_organisation": {
-            "name": "City of Antwerp Consortium",
+            "name": "Digipolis",
             "category": "Governmental"
         },
-        "lead_organisation_name": "City of Antwerp Consortium",
+        "lead_organisation_name": "Digipolis",
         "lead_organisation_category": "Governmental",
         "start_date": "",
         "active": "Yes",
@@ -8565,7 +8533,7 @@
         "cid": 10007,
         "id": 70006,
         "name": "Digipolis Antwerp, Smart procurement tool",
-        "url": "http:\/\/www.innovatieveoverheidsopdrachten.be\/en\/projects\/public-spatial-planning-projects-augmented-and-virtual-reality",
+        "url": "https:\/\/antwerpen.digipolis.be\/en\/blog\/Blockchain-projects-in-Antwerp",
         "contact": "",
         "description": "Digipolis, the IT agency for Antwerp, is developing a blockchain-based application together with its partner for the project, BallistiX, which will allow for the publication of a quotation request and submission and opening of quotations. It is believed that the use of blockchain will guarantee the reliability of each step of the procurement process, as they will be recorded in a transparent manner.",
         "geoextent": "National",
@@ -8590,7 +8558,7 @@
         "uptake": "Unknown",
         "cross_border": "Unknown",
         "cross_sector": "Yes",
-        "type": "Other",
+        "type": "Disintermediation and decentralized networks",
         "status": "In development"
     },
     {
