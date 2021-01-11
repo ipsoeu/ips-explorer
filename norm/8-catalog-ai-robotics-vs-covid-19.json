@@ -1,5 +1,6 @@
 [
     {
+        "entry_type": "catalog",
         "c_id": 10008,
         "c_name": "AI-ROBOTICS vs COVID-19 initiative of the European AI Alliance",
         "c_url": "https:\/\/ec.europa.eu\/digital-single-market\/en\/news\/join-ai-robotics-vs-covid-19-initiative-european-ai-alliance",
@@ -7,6 +8,7 @@
         "c_description": "The European Commission launches an initiative to collect ideas about deployable Artificial Intelligence (AI) and Robotics solutions as well as information on other initiatives that could help face the ongoing COVID-19 crisis.",
         "c_publisher": "European Commission",
         "c_country": "European Union",
-        "c_type": "Catalogue"
+        "c_type": "Catalogue",
+        "c_year": "2020"
     }
 ]

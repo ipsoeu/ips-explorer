@@ -1,5 +1,6 @@
 [
     {
+        "entry_type": "service",
         "cid": 10008,
         "id": 80001,
         "name": "COVID19AragonBot",

@@ -13,7 +13,8 @@
 
   $data[1] = $data_folder . 'catalogs.json';
 
-  $prj_db =  $data_folder . 'services.json';
+  $res_db[] =  $data_folder . 'services.json';
+  $res_db[] =  $data_folder . 'projects.json';
 
   foreach ($data as $i => $file) {
 
@@ -39,6 +40,7 @@
     $publisher = $v["c_publisher"];
     $country = $v["c_country"];
     $type = $v["c_type"];
+    $year = $v["c_year"];
 //    $geoextent = $v["geoextent"];
 //    $geocoverage = $v["geocoverage_dirty"];
 //    $geocoverage = $v["geocoverage"];
@@ -73,16 +75,20 @@
     $unsdg[17] = $v["unsdg"][17];
 */
 
+  $related_services = array();
+
+  foreach ($res_db as $prj_db) {
+
   $json = file_get_contents($prj_db);
 
   $prj = json_decode($json, true);
-  $related_services = array();
-
   foreach ($prj as $pdata) {
     if ($pdata["cid"] === $id) {
       $related_services[] = $pdata;
     }
   }
+
+}
 
 //var_dump($related_services);
 //exit;
@@ -140,7 +146,7 @@
 $(document).ready(function() {
   var related_services_table = $("#related_services").DataTable( { 
     "scrollY": "500px", "scrollCollapse": true, "paging": false, "dom": "Bfrtip", 
-    "order": [[ 1, "asc" ]],
+    "order": [[ 0, "asc" ]],
     "buttons": [ "copy", "csv", "excel", "pdf" ] 
   } );
   related_services_table.columns().every( function () {
@@ -216,10 +222,10 @@ $(document).ready(function() {
 <div>
 <div class="well">
 ';
-  $html .= '<p><strong>Service number</strong></p>
+  $html .= '<p><strong>Number of cases</strong></p>
 <p>' . $prj_nr . '</p>
 ';
-  $html .= '<p><strong>Service coverage</strong></p>
+  $html .= '<p><strong>Coverage</strong></p>
 ';
   foreach ($prj_geocoverage as $pgck => $pgcv) {
     $html .= '<p>' . $pgck . ' (' . $pgcv . ')</p>
@@ -261,6 +267,13 @@ $(document).ready(function() {
 <td>' . $type . '</td>
 </tr>
 ';
+  if ($year != '') {
+    $html .= '<tr>
+<th>Year</th>
+<td>' . $year . '</td>
+</tr>
+';
+  }
   if ($url != '') {
     $html .= '<tr>
 <th>Web site</th>
@@ -357,7 +370,7 @@ $(document).ready(function() {
   $html .= '</section>
 */
   $html .= '<section>
-<h3>Related services</h3>
+<h3>Relevant services and projects</h3>
 ';
 //var_dump($related_services);
 
@@ -365,9 +378,12 @@ $(document).ready(function() {
     $html .= '<table id="related_services" class="table table-hover table-striped">
 <thead>
 <tr>
-<th>Service</th>
+<th>Case</th>
+<th>Type</th>
 <th>Technology</th>
+<!--
 <th>Geo extent</th>
+-->
 </tr>
 </thead>
 <tbody>
@@ -376,18 +392,22 @@ $(document).ready(function() {
 //      $score = count($rp) - 1;
 //      $score = 100*((count($rp) - 1)/10) . "%";
       $html .= '<tr>
-<td><a href="../service/' . $rp["id"] . '.html">' . $rp["name"] . '</a></td>
+<td><a href="../' . $rp["entry_type"] . '/' . $rp["id"] . '.html">' . $rp["name"] . '</a></td>
+<td>' . $rp["entry_type"] . '</td>      
 <td>' . $rp["technology"] . '</td>      
-<td>' . $rp["geoextent"] . '</td>      
 </tr>
 ';
+//<td>' . $rp["geoextent"] . '</td>      
     }
   $html .= '</tbody>
 <tfoot>
 <tr>
-<th><input class="filter" type="text" placeholder="Filter by service" data-index="0" /></th>
-<th><input class="filter" type="text" placeholder="Filter by technology" data-index="1" /></th>
-<th><input class="filter" type="text" placeholder="Filter by geo extent" data-index="2" /></th>
+<th><input class="filter" type="text" placeholder="Filter by name" data-index="0" /></th>
+<th><input class="filter" type="text" placeholder="Filter by type" data-index="1" /></th>
+<th><input class="filter" type="text" placeholder="Filter by technology" data-index="2" /></th>
+<!--
+<th><input class="filter" type="text" placeholder="Filter by geo extent" data-index="3" /></th>
+-->
 </tr>
 </tfoot>
 </table>

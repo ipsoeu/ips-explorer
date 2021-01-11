@@ -30,7 +30,7 @@
 $(document).ready(function() {
   var related_services_table = $("#related_services").DataTable( { 
     "scrollY": "500px", "scrollCollapse": true, "paging": false, "dom": "Bfrtip", 
-    "order": [[ 1, "asc" ]],
+    "order": [[ 0, "asc" ]],
     "buttons": [ "copy", "csv", "excel", "pdf" ] 
   } );
   related_services_table.columns().every( function () {
@@ -56,38 +56,36 @@ $(document).ready(function() {
   "spatialCoverage":[
     {"@type":"Place","name":"European Union"},
     {"@type":"Place","name":"United Kingdom"},
-    {"@type":"Place","name":"Spain"},
     {"@type":"Place","name":"Belgium"},
-    {"@type":"Place","name":"Netherlands"},
+    {"@type":"Place","name":"Spain"},
     {"@type":"Place","name":"Denmark"},
+    {"@type":"Place","name":"Netherlands"},
     {"@type":"Place","name":"Germany"},
-    {"@type":"Place","name":"France"},
     {"@type":"Place","name":"Italy"},
-    {"@type":"Place","name":"Finland"},
+    {"@type":"Place","name":"France"},
     {"@type":"Place","name":"Czechia"},
-    {"@type":"Place","name":"Ireland"},
-    {"@type":"Place","name":"Sweden"},
+    {"@type":"Place","name":"Finland"},
     {"@type":"Place","name":"Greece"},
+    {"@type":"Place","name":"Sweden"},
     {"@type":"Place","name":"Estonia"},
-    {"@type":"Place","name":"Community"},
     {"@type":"Place","name":"Luxembourg"},
-    {"@type":"Place","name":"Austria"},
-    {"@type":"Place","name":"Latvia"},
-    {"@type":"Place","name":"Bulgaria"},
+    {"@type":"Place","name":"Ireland"},
     {"@type":"Place","name":"Slovakia"},
     {"@type":"Place","name":"Portugal"},
     {"@type":"Place","name":"Poland"},
-    {"@type":"Place","name":"Hungary"},
-    {"@type":"Place","name":"Norway"},
+    {"@type":"Place","name":"Austria"},
+    {"@type":"Place","name":"Bulgaria"},
+    {"@type":"Place","name":"Latvia"},
     {"@type":"Place","name":"Malta"},
+    {"@type":"Place","name":"Lithuania"},
+    {"@type":"Place","name":"Norway"},
+    {"@type":"Place","name":"Liechenstein"},
     {"@type":"Place","name":"Iceland"},
     {"@type":"Place","name":"Romania"},
-    {"@type":"Place","name":"Lithuania"},
+    {"@type":"Place","name":"Hungary"},
     {"@type":"Place","name":"Slovenia"},
-    {"@type":"Place","name":"Liechenstein"},
     {"@type":"Place","name":"Cyprus"},
-    {"@type":"Place","name":"Switzerland"},
-    {"@type":"Place","name":"Croatia"}
+    {"@type":"Place","name":"Switzerland"}
   ],
   "includedInDataCatalog":{
     "@type":"DataCatalog",
@@ -104,7 +102,8 @@ $(document).ready(function() {
 <p class="navbar-header"><a title="Innovative Public Services Explorer" class="navbar-brand" href="/ips-explorer/">IPS-X</a></p>
 <ul class="nav navbar-nav collapse navbar-collapse">
 <li class=""><a href="/ips-explorer/service/">Services</a></li>
-<li class=""><a href="/ips-explorer/chart/">Gallery</a></li>
+<li class=""><a href="/ips-explorer/project/">Projects</a></li>
+<li class=""><a href="/ips-explorer/chart/">Statistics</a></li>
 <li class="active"><a href="/ips-explorer/catalog/">Sources</a></li>
 </ul>
 <ul class="nav navbar-nav collapse navbar-collapse navbar-right">
@@ -118,43 +117,41 @@ $(document).ready(function() {
 <aside class="sidebar col-md-3">
 <div>
 <div class="well">
-<p><strong>Service number</strong></p>
-<p>183</p>
-<p><strong>Service coverage</strong></p>
-<p>European Union (35)</p>
+<p><strong>Number of cases</strong></p>
+<p>182</p>
+<p><strong>Coverage</strong></p>
+<p>European Union (39)</p>
 <p>United Kingdom (24)</p>
-<p>Spain (11)</p>
 <p>Belgium (11)</p>
-<p>Netherlands (10)</p>
+<p>Spain (11)</p>
 <p>Denmark (10)</p>
+<p>Netherlands (10)</p>
 <p>Germany (8)</p>
-<p>France (8)</p>
 <p>Italy (8)</p>
-<p>Finland (7)</p>
+<p>France (8)</p>
 <p>Czechia (7)</p>
-<p>Ireland (4)</p>
-<p>Sweden (4)</p>
+<p>Finland (7)</p>
 <p>Greece (4)</p>
+<p>Sweden (4)</p>
 <p>Estonia (3)</p>
-<p>Community (3)</p>
 <p>Luxembourg (3)</p>
-<p>Austria (2)</p>
-<p>Latvia (2)</p>
-<p>Bulgaria (2)</p>
+<p>Ireland (3)</p>
 <p>Slovakia (2)</p>
 <p>Portugal (2)</p>
 <p>Poland (2)</p>
-<p>Hungary (1)</p>
-<p>Norway (1)</p>
+<p>Austria (2)</p>
+<p>Bulgaria (2)</p>
+<p>Latvia (2)</p>
 <p>Malta (1)</p>
+<p>Lithuania (1)</p>
+<p>Norway (1)</p>
+<p>Liechenstein (1)</p>
 <p>Iceland (1)</p>
 <p>Romania (1)</p>
-<p>Lithuania (1)</p>
+<p>Hungary (1)</p>
 <p>Slovenia (1)</p>
-<p>Liechenstein (1)</p>
 <p>Cyprus (1)</p>
 <p>Switzerland (1)</p>
-<p>Croatia (1)</p>
 </div>
 </div>
 </aside>
@@ -171,6 +168,10 @@ $(document).ready(function() {
 <td>Desk research</td>
 </tr>
 <tr>
+<th>Year</th>
+<td>2019</td>
+</tr>
+<tr>
 <th>Web site</th>
 <td><a href="http://data.europa.eu/89h/45ca8d82-ac31-4360-b3a1-ba43b0b07377">http://data.europa.eu/89h/45ca8d82-ac31-4360-b3a1-ba43b0b07377</a></td>
 </tr>
@@ -180,937 +181,938 @@ $(document).ready(function() {
 </table>
 </section>
 <section>
-<h3>Related services</h3>
+<h3>Relevant services and projects</h3>
 <table id="related_services" class="table table-hover table-striped">
 <thead>
 <tr>
-<th>Service</th>
+<th>Case</th>
+<th>Type</th>
 <th>Technology</th>
+<!--
 <th>Geo extent</th>
+-->
 </tr>
 </thead>
 <tbody>
 <tr>
 <td><a href="../service/60001.html">Austrian data catalogue</a></td>
+<td>service</td>      
 <td>Api</td>      
-<td>National</td>      
 </tr>
 <tr>
 <td><a href="../service/60002.html">Austrian geodata catalogue</a></td>
+<td>service</td>      
 <td>Api</td>      
-<td>National</td>      
 </tr>
 <tr>
 <td><a href="../service/60003.html">Belgium data catalogue</a></td>
+<td>service</td>      
 <td>Api</td>      
-<td>National</td>      
 </tr>
 <tr>
 <td><a href="../service/60004.html">Belgium data on parliament</a></td>
+<td>service</td>      
 <td>Api</td>      
-<td>National</td>      
 </tr>
 <tr>
 <td><a href="../service/60005.html">Belgium geodata catalogue</a></td>
+<td>service</td>      
 <td>Api</td>      
-<td>National</td>      
 </tr>
 <tr>
 <td><a href="../service/60006.html">Brussels geodata catalogue</a></td>
+<td>service</td>      
 <td>Api</td>      
-<td>Local</td>      
 </tr>
 <tr>
 <td><a href="../service/60007.html">Flanders INSPIRE data catalogue</a></td>
+<td>service</td>      
 <td>Api</td>      
-<td>Regional</td>      
 </tr>
 <tr>
 <td><a href="../service/60008.html">Flanders open data catalogue</a></td>
+<td>service</td>      
 <td>Api</td>      
-<td>Regional</td>      
 </tr>
 <tr>
 <td><a href="../service/60009.html">Flanders utility maps and data</a></td>
+<td>service</td>      
 <td>Api</td>      
-<td>Regional</td>      
 </tr>
 <tr>
 <td><a href="../service/60010.html">FRIS Onderzoeksportaal</a></td>
+<td>service</td>      
 <td>Api</td>      
-<td>Regional</td>      
 </tr>
 <tr>
 <td><a href="../service/60011.html">Ghent data catalogue</a></td>
+<td>service</td>      
 <td>Api</td>      
-<td>Local</td>      
 </tr>
 <tr>
 <td><a href="../service/60012.html">Wallonie geodata catalogue</a></td>
+<td>service</td>      
 <td>Api</td>      
-<td>Regional</td>      
 </tr>
 <tr>
 <td><a href="../service/60013.html">Bulgaria data catalogue</a></td>
+<td>service</td>      
 <td>Api</td>      
-<td>National</td>      
 </tr>
 <tr>
 <td><a href="../service/60014.html">Bulgaria geodata catalogue</a></td>
+<td>service</td>      
 <td>Api</td>      
-<td>National</td>      
 </tr>
 <tr>
 <td><a href="../service/60015.html">European Centre for Medium-Range Weather Forecasts (ECMWF)</a></td>
+<td>service</td>      
 <td>Api</td>      
-<td>International</td>      
 </tr>
 <tr>
 <td><a href="../service/60016.html">European Marine Observation and Data Network (EMODNET)</a></td>
+<td>service</td>      
 <td>Api</td>      
-<td>International</td>      
 </tr>
 <tr>
 <td><a href="../service/60017.html">YourDataStories</a></td>
+<td>service</td>      
 <td>Api</td>      
-<td>International</td>      
 </tr>
 <tr>
 <td><a href="../service/60018.html">Croatia geodata catalogue</a></td>
+<td>service</td>      
 <td>Api</td>      
-<td>National</td>      
 </tr>
 <tr>
 <td><a href="../service/60019.html">Cyprus geodata catalogue</a></td>
+<td>service</td>      
 <td>Api</td>      
-<td>National</td>      
 </tr>
 <tr>
 <td><a href="../service/60020.html">Access to Registers of Economic Subjects / Entities (ARES)</a></td>
+<td>service</td>      
 <td>Api</td>      
-<td>National</td>      
 </tr>
 <tr>
 <td><a href="../service/60021.html">Czech Cadastre Web Services</a></td>
+<td>service</td>      
 <td>Api</td>      
-<td>National</td>      
 </tr>
 <tr>
 <td><a href="../service/60022.html">Czech data catalogue</a></td>
+<td>service</td>      
 <td>Api</td>      
-<td>National</td>      
 </tr>
 <tr>
 <td><a href="../service/60023.html">Czech geodata catalogue</a></td>
+<td>service</td>      
 <td>Api</td>      
-<td>National</td>      
 </tr>
 <tr>
 <td><a href="../service/60024.html">Czech Mapybezbarier</a></td>
+<td>service</td>      
 <td>Api</td>      
-<td>National</td>      
 </tr>
 <tr>
 <td><a href="../service/60025.html">Czech Taric custom administration</a></td>
+<td>service</td>      
 <td>Api</td>      
-<td>National</td>      
 </tr>
 <tr>
 <td><a href="../service/60026.html">Open Data CEDR III</a></td>
+<td>service</td>      
 <td>Api</td>      
-<td>National</td>      
 </tr>
 <tr>
 <td><a href="../service/60027.html">Copenhagen parking</a></td>
+<td>service</td>      
 <td>Api</td>      
-<td>Local</td>      
 </tr>
 <tr>
 <td><a href="../service/60028.html">Denmark Adresses</a></td>
+<td>service</td>      
 <td>Api</td>      
-<td>National</td>      
 </tr>
 <tr>
 <td><a href="../service/60029.html">Denmark Central Company Registry</a></td>
+<td>service</td>      
 <td>Api</td>      
-<td>National</td>      
 </tr>
 <tr>
 <td><a href="../service/60030.html">Denmark Customs and Tax Administration</a></td>
+<td>service</td>      
 <td>Api</td>      
-<td>National</td>      
 </tr>
 <tr>
 <td><a href="../service/60031.html">Denmark data</a></td>
+<td>service</td>      
 <td>Api</td>      
-<td>National</td>      
 </tr>
 <tr>
 <td><a href="../service/60032.html">Denmark geodata</a></td>
+<td>service</td>      
 <td>Api</td>      
-<td>National</td>      
 </tr>
 <tr>
 <td><a href="../service/60033.html">Denmark maps</a></td>
+<td>service</td>      
 <td>Api</td>      
-<td>National</td>      
 </tr>
 <tr>
 <td><a href="../service/60034.html">Denmark national service platform healthcare</a></td>
+<td>service</td>      
 <td>Api</td>      
-<td>National</td>      
 </tr>
 <tr>
 <td><a href="../service/60035.html">Denmark natural environment portal</a></td>
+<td>service</td>      
 <td>Api</td>      
-<td>National</td>      
 </tr>
 <tr>
 <td><a href="../service/60036.html">Denmark statistics</a></td>
+<td>service</td>      
 <td>Api</td>      
-<td>National</td>      
 </tr>
 <tr>
 <td><a href="../service/60037.html">Estonia Center for Health and Welfare Information Systems</a></td>
+<td>service</td>      
 <td>Api</td>      
-<td>National</td>      
 </tr>
 <tr>
 <td><a href="../service/60038.html">Estonia company registration</a></td>
+<td>service</td>      
 <td>Api</td>      
-<td>National</td>      
 </tr>
 <tr>
 <td><a href="../service/60039.html">Estonia geodata</a></td>
+<td>service</td>      
 <td>Api</td>      
-<td>National</td>      
 </tr>
 <tr>
 <td><a href="../service/60040.html">Copernicus</a></td>
+<td>service</td>      
 <td>Api</td>      
-<td>International</td>      
 </tr>
 <tr>
 <td><a href="../service/60041.html">Digital Agenda Key Indicators</a></td>
+<td>service</td>      
 <td>Api</td>      
-<td>International</td>      
 </tr>
 <tr>
 <td><a href="../service/60042.html">Dissemination and Visualization of Statistical Semantic Data</a></td>
+<td>service</td>      
 <td>Api</td>      
-<td>International</td>      
 </tr>
 <tr>
 <td><a href="../service/60043.html">eArchiving building block</a></td>
+<td>service</td>      
 <td>Api</td>      
-<td>International</td>      
 </tr>
 <tr>
 <td><a href="../service/60044.html">eInvoice CEN Building block</a></td>
+<td>service</td>      
 <td>Api</td>      
-<td>International</td>      
 </tr>
 <tr>
 <td><a href="../service/60045.html">eInvoice UBL Bulding block</a></td>
+<td>service</td>      
 <td>Api</td>      
-<td>International</td>      
 </tr>
 <tr>
 <td><a href="../service/60046.html">eTendering</a></td>
+<td>service</td>      
 <td>Api</td>      
-<td>International</td>      
 </tr>
 <tr>
 <td><a href="../service/60047.html">eTranslation building block</a></td>
+<td>service</td>      
 <td>Api</td>      
-<td>International</td>      
 </tr>
 <tr>
 <td><a href="../service/60048.html">EU Open Data Portal</a></td>
+<td>service</td>      
 <td>Api</td>      
-<td>International</td>      
 </tr>
 <tr>
 <td><a href="../service/60049.html">European Chemicals Agency (ECHA) IUCLID chemical substances</a></td>
+<td>service</td>      
 <td>Api</td>      
-<td>International</td>      
 </tr>
 <tr>
 <td><a href="../service/60050.html">European Chemicals Agency (ECHA) QSART</a></td>
+<td>service</td>      
 <td>Api</td>      
-<td>International</td>      
 </tr>
 <tr>
 <td><a href="../service/60051.html">European Commission Health and Food Safety Directorate General public data</a></td>
+<td>service</td>      
 <td>Api</td>      
-<td>International</td>      
 </tr>
 <tr>
 <td><a href="../service/60052.html">European Council</a></td>
+<td>service</td>      
 <td>Api</td>      
-<td>International</td>      
 </tr>
 <tr>
 <td><a href="../service/60053.html">European Court Database</a></td>
+<td>service</td>      
 <td>Api</td>      
-<td>International</td>      
 </tr>
 <tr>
 <td><a href="../service/60054.html">European Court Database statistics</a></td>
+<td>service</td>      
 <td>Api</td>      
-<td>International</td>      
 </tr>
 <tr>
 <td><a href="../service/60055.html">European Data Portal</a></td>
+<td>service</td>      
 <td>Api</td>      
-<td>International</td>      
 </tr>
 <tr>
 <td><a href="../service/60056.html">European Environmental Agency</a></td>
+<td>service</td>      
 <td>Api</td>      
-<td>International</td>      
 </tr>
 <tr>
 <td><a href="../service/60057.html">European Participant Portal</a></td>
+<td>service</td>      
 <td>Api</td>      
-<td>International</td>      
 </tr>
 <tr>
 <td><a href="../service/60058.html">European Single Procurement Document (ESPD)</a></td>
+<td>service</td>      
 <td>Api</td>      
-<td>International</td>      
 </tr>
 <tr>
 <td><a href="../service/60059.html">European Skills, Competences, Qualifications and Occupations (ESCO)</a></td>
+<td>service</td>      
 <td>Api</td>      
-<td>International</td>      
 </tr>
 <tr>
 <td><a href="../service/60060.html">European Union law and publications</a></td>
+<td>service</td>      
 <td>Api</td>      
-<td>International</td>      
 </tr>
 <tr>
 <td><a href="../service/60061.html">European Union legislation</a></td>
+<td>service</td>      
 <td>Api</td>      
-<td>International</td>      
 </tr>
 <tr>
 <td><a href="../service/60062.html">Europeana</a></td>
+<td>service</td>      
 <td>Api</td>      
-<td>International</td>      
 </tr>
 <tr>
 <td><a href="../service/60063.html">Eurostat</a></td>
+<td>service</td>      
 <td>Api</td>      
-<td>International</td>      
 </tr>
 <tr>
 <td><a href="../service/60064.html">Eurostat NUTS administrative classification</a></td>
+<td>service</td>      
 <td>Api</td>      
-<td>International</td>      
 </tr>
 <tr>
 <td><a href="../service/60065.html">Farm Oriented Open Data in Europe</a></td>
+<td>service</td>      
 <td>Api</td>      
-<td>International</td>      
 </tr>
 <tr>
 <td><a href="../service/60066.html">Geographic Information System of the Cоmmission datasets</a></td>
+<td>service</td>      
 <td>Api</td>      
-<td>International</td>      
 </tr>
 <tr>
 <td><a href="../service/60067.html">Global Open Data for Agriculture and nutrition</a></td>
+<td>service</td>      
 <td>Api</td>      
-<td>International</td>      
 </tr>
 <tr>
 <td><a href="../service/60068.html">Historic payments</a></td>
+<td>service</td>      
 <td>Api</td>      
-<td>International</td>      
 </tr>
 <tr>
 <td><a href="../service/60069.html">International Aid Transparency Initiative</a></td>
+<td>service</td>      
 <td>Api</td>      
-<td>International</td>      
 </tr>
 <tr>
 <td><a href="../service/60070.html">It's Your Parliament (Itsy)</a></td>
+<td>service</td>      
 <td>Api</td>      
-<td>International</td>      
 </tr>
 <tr>
 <td><a href="../service/60071.html">LobbyFacts</a></td>
+<td>service</td>      
 <td>Api</td>      
-<td>International</td>      
 </tr>
 <tr>
 <td><a href="../service/60072.html">National Trusted Lists and the European List of Trusted Lists (LOTL)</a></td>
+<td>service</td>      
 <td>Api</td>      
-<td>International</td>      
 </tr>
 <tr>
 <td><a href="../service/60073.html">Spatial Information in the European Community (INSPIRE) European Testing Framework</a></td>
+<td>service</td>      
 <td>Api</td>      
-<td>International</td>      
 </tr>
 <tr>
 <td><a href="../service/60074.html">Spatial Information in the European Community (INSPIRE) geocatalogue</a></td>
+<td>service</td>      
 <td>Api</td>      
-<td>International</td>      
 </tr>
 <tr>
 <td><a href="../service/60075.html">Finland data catalogue</a></td>
+<td>service</td>      
 <td>Api</td>      
-<td>National</td>      
 </tr>
 <tr>
 <td><a href="../service/60076.html">Finland INSPIRE data catalogue</a></td>
+<td>service</td>      
 <td>Api</td>      
-<td>National</td>      
 </tr>
 <tr>
 <td><a href="../service/60077.html">Helsinki Map APIs</a></td>
+<td>service</td>      
 <td>Api</td>      
-<td>Local</td>      
 </tr>
 <tr>
 <td><a href="../service/60078.html">Helsinki Open Ahjo APIs</a></td>
+<td>service</td>      
 <td>Api</td>      
-<td>Local</td>      
 </tr>
 <tr>
 <td><a href="../service/60079.html">Helsinki Regional Transport Authority HSL Developer Community</a></td>
+<td>service</td>      
 <td>Api</td>      
-<td>Local</td>      
 </tr>
 <tr>
 <td><a href="../service/60080.html">Helsinki Video Council APIs</a></td>
+<td>service</td>      
 <td>Api</td>      
-<td>Local</td>      
 </tr>
 <tr>
 <td><a href="../service/60081.html">Online portal for citizens of Finland</a></td>
+<td>service</td>      
 <td>Api</td>      
-<td>National</td>      
 </tr>
 <tr>
 <td><a href="../service/60082.html">France Data</a></td>
+<td>service</td>      
 <td>Api</td>      
-<td>National</td>      
 </tr>
 <tr>
 <td><a href="../service/60083.html">France Declaration social nominative (DSN)</a></td>
+<td>service</td>      
 <td>Api</td>      
-<td>National</td>      
 </tr>
 <tr>
 <td><a href="../service/60084.html">France Enterprise</a></td>
+<td>service</td>      
 <td>Api</td>      
-<td>National</td>      
 </tr>
 <tr>
 <td><a href="../service/60085.html">France INSPIRE data Catalogue</a></td>
+<td>service</td>      
 <td>Api</td>      
-<td>National</td>      
 </tr>
 <tr>
 <td><a href="../service/60086.html">French business register Sirene</a></td>
+<td>service</td>      
 <td>Api</td>      
-<td>National</td>      
 </tr>
 <tr>
 <td><a href="../service/60087.html">Paris data</a></td>
+<td>service</td>      
 <td>Api</td>      
-<td>Local</td>      
 </tr>
 <tr>
 <td><a href="../service/60088.html">Paris Participatory Budget</a></td>
+<td>service</td>      
 <td>Api</td>      
-<td>Local</td>      
 </tr>
 <tr>
 <td><a href="../service/60089.html">Rennes Data</a></td>
+<td>service</td>      
 <td>Api</td>      
-<td>Local</td>      
 </tr>
 <tr>
 <td><a href="../service/60090.html">Bayern Data</a></td>
+<td>service</td>      
 <td>Api</td>      
-<td>Local</td>      
 </tr>
 <tr>
 <td><a href="../service/60091.html">Berlin Data</a></td>
+<td>service</td>      
 <td>Api</td>      
-<td>Local</td>      
 </tr>
 <tr>
 <td><a href="../service/60092.html">GENESIS</a></td>
+<td>service</td>      
 <td>Api</td>      
-<td>National</td>      
 </tr>
 <tr>
 <td><a href="../service/60093.html">Germany Berlin GeoPortal</a></td>
+<td>service</td>      
 <td>Api</td>      
-<td>Local</td>      
 </tr>
 <tr>
 <td><a href="../service/60094.html">Germany INSPIRE data catalogue</a></td>
+<td>service</td>      
 <td>Api</td>      
-<td>National</td>      
 </tr>
 <tr>
 <td><a href="../service/60095.html">Germany Leipzig Data</a></td>
+<td>service</td>      
 <td>Api</td>      
-<td>Local</td>      
 </tr>
 <tr>
 <td><a href="../service/60096.html">Germany Munich Transparent</a></td>
+<td>service</td>      
 <td>Api</td>      
-<td>Local</td>      
 </tr>
 <tr>
 <td><a href="../service/60097.html">Leipzig Corpora Collection (LCC)</a></td>
+<td>service</td>      
 <td>Api</td>      
-<td>National</td>      
 </tr>
 <tr>
 <td><a href="../service/60098.html">Greece Data</a></td>
+<td>service</td>      
 <td>Api</td>      
-<td>National</td>      
 </tr>
 <tr>
 <td><a href="../service/60099.html">Greece Diavgeia</a></td>
+<td>service</td>      
 <td>Api</td>      
-<td>National</td>      
 </tr>
 <tr>
 <td><a href="../service/60100.html">Greece Geodata</a></td>
+<td>service</td>      
 <td>Api</td>      
-<td>National</td>      
 </tr>
 <tr>
 <td><a href="../service/60101.html">Greece INSPIRE data catalogue</a></td>
+<td>service</td>      
 <td>Api</td>      
-<td>National</td>      
 </tr>
 <tr>
 <td><a href="../service/60102.html">Hungary INSPIRE data catalogue</a></td>
+<td>service</td>      
 <td>Api</td>      
-<td>National</td>      
 </tr>
 <tr>
 <td><a href="../service/60103.html">Iceland INSPIRE data catalogue</a></td>
+<td>service</td>      
 <td>Api</td>      
-<td>National</td>      
 </tr>
 <tr>
 <td><a href="../service/60104.html">Ireland data</a></td>
+<td>service</td>      
 <td>Api</td>      
-<td>National</td>      
 </tr>
 <tr>
 <td><a href="../service/60105.html">Ireland INSPIRE data catalogue</a></td>
+<td>service</td>      
 <td>Api</td>      
-<td>National</td>      
 </tr>
 <tr>
 <td><a href="../service/60106.html">Ireland Light Rail Transit System in Dublin</a></td>
+<td>service</td>      
 <td>Api</td>      
-<td>National</td>      
 </tr>
 <tr>
-<td><a href="../service/60107.html">Smart Dublin</a></td>
+<td><a href="../service/60107.html">Italy Data</a></td>
+<td>service</td>      
 <td>Api</td>      
-<td>Local</td>      
 </tr>
 <tr>
-<td><a href="../service/60108.html">Italy Data</a></td>
+<td><a href="../service/60108.html">Italy Data of 'Repertorio Nazionale Dati Territoriali'</a></td>
+<td>service</td>      
 <td>Api</td>      
-<td>National</td>      
 </tr>
 <tr>
-<td><a href="../service/60109.html">Italy Data of 'Repertorio Nazionale Dati Territoriali'</a></td>
+<td><a href="../service/60109.html">Italy eInvoicing building block APIs</a></td>
+<td>service</td>      
 <td>Api</td>      
-<td>National</td>      
 </tr>
 <tr>
-<td><a href="../service/60110.html">Italy eInvoicing building block APIs</a></td>
+<td><a href="../service/60110.html">Italy INSPIRE data catalogue APIs</a></td>
+<td>service</td>      
 <td>Api</td>      
-<td>National</td>      
 </tr>
 <tr>
-<td><a href="../service/60111.html">Italy INSPIRE data catalogue APIs</a></td>
+<td><a href="../service/60111.html">Italy Lombardy Open Data</a></td>
+<td>service</td>      
 <td>Api</td>      
-<td>National</td>      
 </tr>
 <tr>
-<td><a href="../service/60112.html">Italy Lombardy Open Data</a></td>
+<td><a href="../service/60112.html">Italy Milano Data</a></td>
+<td>service</td>      
 <td>Api</td>      
-<td>Regional</td>      
 </tr>
 <tr>
-<td><a href="../service/60113.html">Italy Milano Data</a></td>
+<td><a href="../service/60113.html">Italy Piedmont YUCCA Smart Data Platform</a></td>
+<td>service</td>      
 <td>Api</td>      
-<td>Local</td>      
 </tr>
 <tr>
-<td><a href="../service/60114.html">Italy Piedmont YUCCA Smart Data Platform</a></td>
+<td><a href="../service/60114.html">Italy Trento ComunWeb APIs</a></td>
+<td>service</td>      
 <td>Api</td>      
-<td>Regional</td>      
 </tr>
 <tr>
-<td><a href="../service/60115.html">Italy Trento ComunWeb APIs</a></td>
+<td><a href="../service/60115.html">Latvian Information Agency INSPIRE data catalogue</a></td>
+<td>service</td>      
 <td>Api</td>      
-<td>Local</td>      
 </tr>
 <tr>
-<td><a href="../service/60116.html">Latvian Information Agency INSPIRE data catalogue</a></td>
+<td><a href="../service/60116.html">Latvian INSPIRE data catalogue</a></td>
+<td>service</td>      
 <td>Api</td>      
-<td>National</td>      
 </tr>
 <tr>
-<td><a href="../service/60117.html">Latvian INSPIRE data catalogue</a></td>
+<td><a href="../service/60117.html">Liechenstein INSPIRE data catalogue</a></td>
+<td>service</td>      
 <td>Api</td>      
-<td>National</td>      
 </tr>
 <tr>
-<td><a href="../service/60118.html">Liechenstein INSPIRE data catalogue</a></td>
+<td><a href="../service/60118.html">Lithuania INSPIRE data catalogue</a></td>
+<td>service</td>      
 <td>Api</td>      
-<td>National</td>      
 </tr>
 <tr>
-<td><a href="../service/60119.html">Lithuania INSPIRE data catalogue</a></td>
+<td><a href="../service/60119.html">Luxembourg INSPIRE data catalogue</a></td>
+<td>service</td>      
 <td>Api</td>      
-<td>National</td>      
 </tr>
 <tr>
-<td><a href="../service/60120.html">Luxembourg INSPIRE data catalogue</a></td>
+<td><a href="../service/60120.html">LuxHub banking</a></td>
+<td>service</td>      
 <td>Api</td>      
-<td>National</td>      
 </tr>
 <tr>
-<td><a href="../service/60121.html">LuxHub banking</a></td>
+<td><a href="../service/60121.html">National Library Luxembourg</a></td>
+<td>service</td>      
 <td>Api</td>      
-<td>International</td>      
 </tr>
 <tr>
-<td><a href="../service/60122.html">National Library Luxembourg</a></td>
+<td><a href="../service/60122.html">Malta INSPIRE data catalogue</a></td>
+<td>service</td>      
 <td>Api</td>      
-<td>National</td>      
 </tr>
 <tr>
-<td><a href="../service/60123.html">Malta INSPIRE data catalogue</a></td>
+<td><a href="../service/60123.html">City Dashboard Amsterdam</a></td>
+<td>service</td>      
 <td>Api</td>      
-<td>National</td>      
 </tr>
 <tr>
-<td><a href="../service/60124.html">City Dashboard Amsterdam</a></td>
+<td><a href="../service/60124.html">Antwerp City Platform as a Service (ACPaaS)</a></td>
+<td>service</td>      
 <td>Api</td>      
-<td>Local</td>      
 </tr>
 <tr>
-<td><a href="../service/60125.html">Antwerp City Platform as a Service (ACPaaS)</a></td>
+<td><a href="../service/60125.html">Eindhoven Data</a></td>
+<td>service</td>      
 <td>Api</td>      
-<td>Local</td>      
 </tr>
 <tr>
-<td><a href="../service/60126.html">Eindhoven Data</a></td>
+<td><a href="../service/60126.html">Netherlands data</a></td>
+<td>service</td>      
 <td>Api</td>      
-<td>Local</td>      
 </tr>
 <tr>
-<td><a href="../service/60127.html">Netherlands data</a></td>
+<td><a href="../service/60127.html">Netherlands INSPIRE data catalogue</a></td>
+<td>service</td>      
 <td>Api</td>      
-<td>National</td>      
 </tr>
 <tr>
-<td><a href="../service/60128.html">Netherlands INSPIRE data catalogue</a></td>
+<td><a href="../service/60128.html">Netherlands KB national library</a></td>
+<td>service</td>      
 <td>Api</td>      
-<td>National</td>      
 </tr>
 <tr>
-<td><a href="../service/60129.html">Netherlands KB national library</a></td>
+<td><a href="../service/60129.html">Netherlands Open Dutch Chamber of Commerce</a></td>
+<td>service</td>      
 <td>Api</td>      
-<td>National</td>      
 </tr>
 <tr>
-<td><a href="../service/60130.html">Netherlands Open Dutch Chamber of Commerce</a></td>
+<td><a href="../service/60130.html">Netherlands Public Services On the Map</a></td>
+<td>service</td>      
 <td>Api</td>      
-<td>National</td>      
 </tr>
 <tr>
-<td><a href="../service/60131.html">Netherlands Public Services On the Map</a></td>
+<td><a href="../service/60131.html">Netherlands public transportation sector</a></td>
+<td>service</td>      
 <td>Api</td>      
-<td>National</td>      
 </tr>
 <tr>
-<td><a href="../service/60132.html">Netherlands public transportation sector</a></td>
+<td><a href="../service/60132.html">Netherlands Rijksmuseum</a></td>
+<td>service</td>      
 <td>Api</td>      
-<td>National</td>      
 </tr>
 <tr>
-<td><a href="../service/60133.html">Netherlands Rijksmuseum</a></td>
+<td><a href="../service/60133.html">Netherlands Schools</a></td>
+<td>service</td>      
 <td>Api</td>      
-<td>National</td>      
 </tr>
 <tr>
-<td><a href="../service/60134.html">Netherlands Schools</a></td>
+<td><a href="../service/60134.html">Norway INSPIRE data catalogue</a></td>
+<td>service</td>      
 <td>Api</td>      
-<td>National</td>      
 </tr>
 <tr>
-<td><a href="../service/60135.html">Norway INSPIRE data catalogue</a></td>
+<td><a href="../service/60135.html">Poland INSPIRE data catalogue</a></td>
+<td>service</td>      
 <td>Api</td>      
-<td>National</td>      
 </tr>
 <tr>
-<td><a href="../service/60136.html">Poland INSPIRE data catalogue</a></td>
+<td><a href="../service/60136.html">Web Service TAX FREE</a></td>
+<td>service</td>      
 <td>Api</td>      
-<td>National</td>      
 </tr>
 <tr>
-<td><a href="../service/60137.html">Web Service TAX FREE</a></td>
+<td><a href="../service/60137.html">Portugal INSPIRE data catalogue</a></td>
+<td>service</td>      
 <td>Api</td>      
-<td>National</td>      
 </tr>
 <tr>
-<td><a href="../service/60138.html">Portugal INSPIRE data catalogue</a></td>
+<td><a href="../service/60138.html">Portugal National Health Service</a></td>
+<td>service</td>      
 <td>Api</td>      
-<td>National</td>      
 </tr>
 <tr>
-<td><a href="../service/60139.html">Portugal National Health Service</a></td>
+<td><a href="../service/60139.html">Romania INSPIRE data catalogue</a></td>
+<td>service</td>      
 <td>Api</td>      
-<td>National</td>      
 </tr>
 <tr>
-<td><a href="../service/60140.html">Romania INSPIRE data catalogue</a></td>
+<td><a href="../service/60140.html">Slovakia Data</a></td>
+<td>service</td>      
 <td>Api</td>      
-<td>National</td>      
 </tr>
 <tr>
-<td><a href="../service/60141.html">Slovakia Data</a></td>
+<td><a href="../service/60141.html">Slovakia INSPIRE data catalogue</a></td>
+<td>service</td>      
 <td>Api</td>      
-<td>National</td>      
 </tr>
 <tr>
-<td><a href="../service/60142.html">Slovakia INSPIRE data catalogue</a></td>
+<td><a href="../service/60142.html">Slovenia INSPIRE data catalogue</a></td>
+<td>service</td>      
 <td>Api</td>      
-<td>National</td>      
 </tr>
 <tr>
-<td><a href="../service/60143.html">Slovenia INSPIRE data catalogue</a></td>
+<td><a href="../service/60143.html">Aragon OpenData</a></td>
+<td>service</td>      
 <td>Api</td>      
-<td>National</td>      
 </tr>
 <tr>
-<td><a href="../service/60144.html">Aragon OpenData</a></td>
+<td><a href="../service/60144.html">Barcelona Open Data</a></td>
+<td>service</td>      
 <td>Api</td>      
-<td>Regional</td>      
 </tr>
 <tr>
-<td><a href="../service/60145.html">Barcelona Open Data</a></td>
-<td>Api</td>      
-<td>Local</td>      
-</tr>
-<tr>
-<td><a href="../service/60146.html">Barcelona Sentilo</a></td>
+<td><a href="../service/60145.html">Barcelona Sentilo</a></td>
+<td>service</td>      
 <td>Internet of things</td>      
-<td>Local</td>      
 </tr>
 <tr>
-<td><a href="../service/60147.html">Cantabria Statistics</a></td>
+<td><a href="../service/60146.html">Cantabria Statistics</a></td>
+<td>service</td>      
 <td>Api</td>      
-<td>Regional</td>      
 </tr>
 <tr>
-<td><a href="../service/60148.html">Catalunya Statistics</a></td>
+<td><a href="../service/60147.html">Catalunya Statistics</a></td>
+<td>service</td>      
 <td>Api</td>      
-<td>Regional</td>      
 </tr>
 <tr>
-<td><a href="../service/60149.html">Galicia Meteo</a></td>
+<td><a href="../service/60148.html">Galicia Meteo</a></td>
+<td>service</td>      
 <td>Api</td>      
-<td>Regional</td>      
 </tr>
 <tr>
-<td><a href="../service/60150.html">Madrid MobilityLabs</a></td>
+<td><a href="../service/60149.html">Madrid MobilityLabs</a></td>
+<td>service</td>      
 <td>Api</td>      
-<td>Local</td>      
 </tr>
 <tr>
-<td><a href="../service/60151.html">Spain Data</a></td>
+<td><a href="../service/60150.html">Spain Data</a></td>
+<td>service</td>      
 <td>Api</td>      
-<td>National</td>      
 </tr>
 <tr>
-<td><a href="../service/60152.html">Spain INSPIRE data catalogue</a></td>
+<td><a href="../service/60151.html">Spain INSPIRE data catalogue</a></td>
+<td>service</td>      
 <td>Api</td>      
-<td>National</td>      
 </tr>
 <tr>
-<td><a href="../service/60153.html">University of Alicante data</a></td>
+<td><a href="../service/60152.html">University of Alicante data</a></td>
+<td>service</td>      
 <td>Api</td>      
-<td>Local</td>      
 </tr>
 <tr>
-<td><a href="../service/60154.html">Zaragoza Open Data</a></td>
+<td><a href="../service/60153.html">Zaragoza Open Data</a></td>
+<td>service</td>      
 <td>Api</td>      
-<td>Local</td>      
 </tr>
 <tr>
-<td><a href="../service/60155.html">Sweden INSPIRE data catalogue</a></td>
+<td><a href="../service/60154.html">Sweden INSPIRE data catalogue</a></td>
+<td>service</td>      
 <td>Api</td>      
-<td>National</td>      
 </tr>
 <tr>
-<td><a href="../service/60156.html">Sweden OpenAid</a></td>
+<td><a href="../service/60155.html">Sweden OpenAid</a></td>
+<td>service</td>      
 <td>Api</td>      
-<td>National</td>      
 </tr>
 <tr>
-<td><a href="../service/60157.html">Sweden Parliament</a></td>
+<td><a href="../service/60156.html">Sweden Parliament</a></td>
+<td>service</td>      
 <td>Api</td>      
-<td>National</td>      
 </tr>
 <tr>
-<td><a href="../service/60158.html">Sweden Stockholm data</a></td>
+<td><a href="../service/60157.html">Sweden Stockholm data</a></td>
+<td>service</td>      
 <td>Api</td>      
-<td>Local</td>      
 </tr>
 <tr>
-<td><a href="../service/60159.html">Switzerland INSPIRE data catalogue</a></td>
+<td><a href="../service/60158.html">Switzerland INSPIRE data catalogue</a></td>
+<td>service</td>      
 <td>Api</td>      
-<td>National</td>      
 </tr>
 <tr>
-<td><a href="../service/60160.html">London DataStore</a></td>
+<td><a href="../service/60159.html">London DataStore</a></td>
+<td>service</td>      
 <td>Api</td>      
-<td>Local</td>      
 </tr>
 <tr>
-<td><a href="../service/60161.html">London Transport for London</a></td>
+<td><a href="../service/60160.html">London Transport for London</a></td>
+<td>service</td>      
 <td>Api</td>      
-<td>Local</td>      
 </tr>
 <tr>
-<td><a href="../service/60162.html">The Guardian World gov data</a></td>
+<td><a href="../service/60161.html">The Guardian World gov data</a></td>
+<td>service</td>      
 <td>Api</td>      
-<td>International</td>      
 </tr>
 <tr>
-<td><a href="../service/60163.html">UK AirQuality</a></td>
+<td><a href="../service/60162.html">UK AirQuality</a></td>
+<td>service</td>      
 <td>Api</td>      
-<td>National</td>      
 </tr>
 <tr>
-<td><a href="../service/60164.html">UK BBC</a></td>
+<td><a href="../service/60163.html">UK BBC</a></td>
+<td>service</td>      
 <td>Api</td>      
-<td>National</td>      
 </tr>
 <tr>
-<td><a href="../service/60165.html">UK Data</a></td>
+<td><a href="../service/60164.html">UK Data</a></td>
+<td>service</td>      
 <td>Api</td>      
-<td>National</td>      
 </tr>
 <tr>
-<td><a href="../service/60166.html">UK Directgov Syndication</a></td>
+<td><a href="../service/60165.html">UK Directgov Syndication</a></td>
+<td>service</td>      
 <td>Api</td>      
-<td>National</td>      
 </tr>
 <tr>
-<td><a href="../service/60167.html">UK Find Your MP</a></td>
+<td><a href="../service/60166.html">UK Find Your MP</a></td>
+<td>service</td>      
 <td>Api</td>      
-<td>National</td>      
 </tr>
 <tr>
-<td><a href="../service/60168.html">UK Fish register</a></td>
+<td><a href="../service/60167.html">UK Fish register</a></td>
+<td>service</td>      
 <td>Api</td>      
-<td>National</td>      
 </tr>
 <tr>
-<td><a href="../service/60169.html">UK FoodGov</a></td>
+<td><a href="../service/60168.html">UK FoodGov</a></td>
+<td>service</td>      
 <td>Api</td>      
-<td>National</td>      
 </tr>
 <tr>
-<td><a href="../service/60170.html">UK Gateway to Research</a></td>
+<td><a href="../service/60169.html">UK Gateway to Research</a></td>
+<td>service</td>      
 <td>Api</td>      
-<td>National</td>      
 </tr>
 <tr>
-<td><a href="../service/60171.html">UK Her Majesty Revenue and Costs (HMRC)</a></td>
+<td><a href="../service/60170.html">UK Her Majesty Revenue and Costs (HMRC)</a></td>
+<td>service</td>      
 <td>Api</td>      
-<td>National</td>      
 </tr>
 <tr>
-<td><a href="../service/60172.html">UK INSPIRE data catalogue</a></td>
+<td><a href="../service/60171.html">UK INSPIRE data catalogue</a></td>
+<td>service</td>      
 <td>Api</td>      
-<td>National</td>      
 </tr>
 <tr>
-<td><a href="../service/60173.html">UK Institute development studies</a></td>
+<td><a href="../service/60172.html">UK Institute development studies</a></td>
+<td>service</td>      
 <td>Api</td>      
-<td>National</td>      
 </tr>
 <tr>
-<td><a href="../service/60174.html">UK Legislation</a></td>
+<td><a href="../service/60173.html">UK Legislation</a></td>
+<td>service</td>      
 <td>Api</td>      
-<td>National</td>      
 </tr>
 <tr>
-<td><a href="../service/60175.html">UK local government association Effective Service Delivery</a></td>
+<td><a href="../service/60174.html">UK local government association Effective Service Delivery</a></td>
+<td>service</td>      
 <td>Api</td>      
-<td>National</td>      
 </tr>
 <tr>
-<td><a href="../service/60176.html">UK Meteo Office Weather Observations</a></td>
+<td><a href="../service/60175.html">UK Meteo Office Weather Observations</a></td>
+<td>service</td>      
 <td>Api</td>      
-<td>National</td>      
 </tr>
 <tr>
-<td><a href="../service/60177.html">UK National archives</a></td>
+<td><a href="../service/60176.html">UK National archives</a></td>
+<td>service</td>      
 <td>Api</td>      
-<td>National</td>      
 </tr>
 <tr>
-<td><a href="../service/60178.html">UK National Health System</a></td>
+<td><a href="../service/60177.html">UK National Health System</a></td>
+<td>service</td>      
 <td>Api</td>      
-<td>National</td>      
 </tr>
 <tr>
-<td><a href="../service/60179.html">UK Next buses</a></td>
+<td><a href="../service/60178.html">UK Next buses</a></td>
+<td>service</td>      
 <td>Api</td>      
-<td>National</td>      
 </tr>
 <tr>
-<td><a href="../service/60180.html">UK Ordnance Survey</a></td>
+<td><a href="../service/60179.html">UK Ordnance Survey</a></td>
+<td>service</td>      
 <td>Api</td>      
-<td>National</td>      
 </tr>
 <tr>
-<td><a href="../service/60181.html">UK Police</a></td>
+<td><a href="../service/60180.html">UK Police</a></td>
+<td>service</td>      
 <td>Api</td>      
-<td>National</td>      
 </tr>
 <tr>
-<td><a href="../service/60182.html">UK Redbridge data</a></td>
+<td><a href="../service/60181.html">UK Redbridge data</a></td>
+<td>service</td>      
 <td>Api</td>      
-<td>Local</td>      
 </tr>
 <tr>
-<td><a href="../service/60183.html">UK Shrewsbury Museum</a></td>
+<td><a href="../service/60182.html">UK Shrewsbury Museum</a></td>
+<td>service</td>      
 <td>Api</td>      
-<td>Local</td>      
 </tr>
 </tbody>
 <tfoot>
 <tr>
-<th><input class="filter" type="text" placeholder="Filter by service" data-index="0" /></th>
-<th><input class="filter" type="text" placeholder="Filter by technology" data-index="1" /></th>
-<th><input class="filter" type="text" placeholder="Filter by geo extent" data-index="2" /></th>
+<th><input class="filter" type="text" placeholder="Filter by name" data-index="0" /></th>
+<th><input class="filter" type="text" placeholder="Filter by type" data-index="1" /></th>
+<th><input class="filter" type="text" placeholder="Filter by technology" data-index="2" /></th>
+<!--
+<th><input class="filter" type="text" placeholder="Filter by geo extent" data-index="3" /></th>
+-->
 </tr>
 </tfoot>
 </table>

@@ -30,7 +30,7 @@
 $(document).ready(function() {
   var related_services_table = $("#related_services").DataTable( { 
     "scrollY": "500px", "scrollCollapse": true, "paging": false, "dom": "Bfrtip", 
-    "order": [[ 1, "asc" ]],
+    "order": [[ 0, "asc" ]],
     "buttons": [ "copy", "csv", "excel", "pdf" ] 
   } );
   related_services_table.columns().every( function () {
@@ -75,7 +75,8 @@ $(document).ready(function() {
 <p class="navbar-header"><a title="Innovative Public Services Explorer" class="navbar-brand" href="/ips-explorer/">IPS-X</a></p>
 <ul class="nav navbar-nav collapse navbar-collapse">
 <li class=""><a href="/ips-explorer/service/">Services</a></li>
-<li class=""><a href="/ips-explorer/chart/">Gallery</a></li>
+<li class=""><a href="/ips-explorer/project/">Projects</a></li>
+<li class=""><a href="/ips-explorer/chart/">Statistics</a></li>
 <li class="active"><a href="/ips-explorer/catalog/">Sources</a></li>
 </ul>
 <ul class="nav navbar-nav collapse navbar-collapse navbar-right">
@@ -89,9 +90,9 @@ $(document).ready(function() {
 <aside class="sidebar col-md-3">
 <div>
 <div class="well">
-<p><strong>Service number</strong></p>
+<p><strong>Number of cases</strong></p>
 <p>6</p>
-<p><strong>Service coverage</strong></p>
+<p><strong>Coverage</strong></p>
 <p>Netherlands (2)</p>
 <p>Malta (1)</p>
 <p>Sweden (1)</p>
@@ -113,6 +114,10 @@ $(document).ready(function() {
 <td>Desk research</td>
 </tr>
 <tr>
+<th>Year</th>
+<td>2019</td>
+</tr>
+<tr>
 <th>Web site</th>
 <td><a href="https://doi.org/10.2760/942739">https://doi.org/10.2760/942739</a></td>
 </tr>
@@ -120,52 +125,58 @@ $(document).ready(function() {
 </table>
 </section>
 <section>
-<h3>Related services</h3>
+<h3>Relevant services and projects</h3>
 <table id="related_services" class="table table-hover table-striped">
 <thead>
 <tr>
-<th>Service</th>
+<th>Case</th>
+<th>Type</th>
 <th>Technology</th>
+<!--
 <th>Geo extent</th>
+-->
 </tr>
 </thead>
 <tbody>
 <tr>
 <td><a href="../service/40001.html">Blockcerts academic credentials</a></td>
+<td>service</td>      
 <td>Blockchain</td>      
-<td>National</td>      
 </tr>
 <tr>
 <td><a href="../service/40002.html">Chromaway property transactions</a></td>
+<td>service</td>      
 <td>Blockchain</td>      
-<td>National</td>      
 </tr>
 <tr>
 <td><a href="../service/40003.html">uPort decentralised identity</a></td>
+<td>service</td>      
 <td>Blockchain</td>      
-<td>Local</td>      
 </tr>
 <tr>
 <td><a href="../service/40004.html">Infrachain governance framework</a></td>
+<td>service</td>      
 <td>Blockchain</td>      
-<td>National</td>      
 </tr>
 <tr>
 <td><a href="../service/40005.html">Pension infrastructure</a></td>
+<td>service</td>      
 <td>Blockchain</td>      
-<td>National</td>      
 </tr>
 <tr>
 <td><a href="../service/40006.html">Stadjerspas smart vouchers</a></td>
+<td>service</td>      
 <td>Blockchain</td>      
-<td>Local</td>      
 </tr>
 </tbody>
 <tfoot>
 <tr>
-<th><input class="filter" type="text" placeholder="Filter by service" data-index="0" /></th>
-<th><input class="filter" type="text" placeholder="Filter by technology" data-index="1" /></th>
-<th><input class="filter" type="text" placeholder="Filter by geo extent" data-index="2" /></th>
+<th><input class="filter" type="text" placeholder="Filter by name" data-index="0" /></th>
+<th><input class="filter" type="text" placeholder="Filter by type" data-index="1" /></th>
+<th><input class="filter" type="text" placeholder="Filter by technology" data-index="2" /></th>
+<!--
+<th><input class="filter" type="text" placeholder="Filter by geo extent" data-index="3" /></th>
+-->
 </tr>
 </tfoot>
 </table>

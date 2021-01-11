@@ -1,5 +1,6 @@
 [
     {
+        "entry_type": "service",
         "cid": 10002,
         "id": 20001,
         "name": "Atelier de calcul IFT",
@@ -32,6 +33,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10002,
         "id": 20002,
         "name": "ARPENT(examen)",
@@ -64,6 +66,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10002,
         "id": 20003,
         "name": "ARPENT(r\u00e9sultats)",
@@ -96,6 +99,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10002,
         "id": 20004,
         "name": "BourseSCO",
@@ -128,6 +132,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10002,
         "id": 20005,
         "name": "Lyon : Mon compte",
@@ -160,6 +165,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10002,
         "id": 20006,
         "name": "demarches-simplifiees.fr",
@@ -192,6 +198,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10002,
         "id": 20007,
         "name": "Dossier Social \u00c9tudiant",
@@ -224,6 +231,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10002,
         "id": 20008,
         "name": "Mes aides",
@@ -256,6 +264,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10002,
         "id": 20009,
         "name": "MPS",
@@ -288,6 +297,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10002,
         "id": 20010,
         "name": "D\u00e9chets malins",
@@ -320,6 +330,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10002,
         "id": 20011,
         "name": "RenCircul",
@@ -352,6 +363,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10002,
         "id": 20012,
         "name": "Simulateur d'embauche",
@@ -384,6 +396,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10002,
         "id": 20013,
         "name": "T\u00e9l\u00e9points",

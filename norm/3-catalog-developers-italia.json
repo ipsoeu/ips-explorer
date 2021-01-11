@@ -1,5 +1,6 @@
 [
     {
+        "entry_type": "catalog",
         "c_id": 10003,
         "c_name": "Developers Italia",
         "c_url": "https:\/\/developers.italia.it\/",
@@ -7,6 +8,7 @@
         "c_description": "Developers Italia is the community dedicated to the development of Open Source Software to support Italian digital public services. It collects a large amount of libraries and SDK, as well as test environments, code examples and clear documentation aimed at simplifying the integration of the national enabling platforms within digital services.",
         "c_publisher": "Agenzia per l'Italia Digitale",
         "c_country": "Italy",
-        "c_type": "Catalogue"
+        "c_type": "Catalogue",
+        "c_year": "2020"
     }
 ]

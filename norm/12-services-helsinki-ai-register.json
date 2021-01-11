@@ -1,5 +1,6 @@
 [
     {
+        "entry_type": "service",
         "cid": 10012,
         "id": 120001,
         "name": "Parking chatbot",
@@ -32,6 +33,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10012,
         "id": 120002,
         "name": "Maternity clinic chatbot NeRo",
@@ -64,6 +66,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10012,
         "id": 120003,
         "name": "Health center chatbot",
@@ -96,6 +99,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10012,
         "id": 120004,
         "name": "Oodi\u2019s book recommendation service Obotti",
@@ -128,6 +132,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10012,
         "id": 120005,
         "name": "Intelligent material management system",

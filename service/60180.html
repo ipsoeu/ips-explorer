@@ -3,7 +3,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
-<title>IPS-X | UK Ordnance Survey</title>
+<title>IPS-X | UK Police</title>
 <link type="text/css" rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 <link type="text/css" rel="stylesheet" href="https://cdn.datatables.net/1.10.10/css/dataTables.bootstrap.min.css" media="screen"/>
 <link type="text/css" rel="stylesheet" href="https://cdn.datatables.net/buttons/1.2.4/css/buttons.dataTables.min.css" media="screen"/>
@@ -49,10 +49,10 @@ $(document).ready(function() {
   "@context":"http://schema.org/",
   "@type":"Service",
   "@id":"https://w3id.org/ipsoeu/ips-explorer/service/60180",
-  "name":"UK Ordnance Survey",
-  "url":"https://developer.ordnancesurvey.co.uk/home",
-  "description":"UK Ordnance Survey",
-  "provider":{"@type":"Organization","name":"Ordnance Survey"},
+  "name":"UK Police",
+  "url":"https://data.police.uk/",
+  "description":"UK Police",
+  "provider":{"@type":"Organization","name":"Home Office"},
   "areaServed":[
     {"@type":"Place","name":"United Kingdom"}
   ]
@@ -66,7 +66,8 @@ $(document).ready(function() {
 <p class="navbar-header"><a title="Innovative Public Services Explorer" class="navbar-brand" href="/ips-explorer/">IPS-X</a></p>
 <ul class="nav navbar-nav collapse navbar-collapse">
 <li class="active"><a href="/ips-explorer/service/">Services</a></li>
-<li class=""><a href="/ips-explorer/chart/">Gallery</a></li>
+<li class=""><a href="/ips-explorer/project/">Projects</a></li>
+<li class=""><a href="/ips-explorer/chart/">Statistics</a></li>
 <li class=""><a href="/ips-explorer/catalog/">Sources</a></li>
 </ul>
 <ul class="nav navbar-nav collapse navbar-collapse navbar-right">
@@ -87,7 +88,7 @@ $(document).ready(function() {
 <p><strong>Geographic coverage</strong></p>
 <p>United Kingdom</p>
 <p><strong>Primary sector</strong></p>
-<p>Environmental protection</p>
+<p>Public order and safety</p>
 <p><strong>Activity</strong></p>
 <p>Data access</p>
 <p><strong>Uptake</strong></p>
@@ -104,11 +105,11 @@ $(document).ready(function() {
 </div>
 </aside>
 <section class="col-md-9">
-<h2>UK Ordnance Survey</h2>
+<h2>UK Police</h2>
 <address class="small">
-<p>Responsible organisation: Ordnance Survey (Governmental)</p>
+<p>Responsible organisation: Home Office (Governmental)</p>
 </address>
-<p>UK Ordnance Survey</p>
+<p>UK Police</p>
 <section>
 <h3>Additional information</h3>
 <table class="table table-hover table-striped">
@@ -119,7 +120,7 @@ $(document).ready(function() {
 </tr>
 <tr>
 <th>Web site</th>
-<td><a href="https://developer.ordnancesurvey.co.uk/home">https://developer.ordnancesurvey.co.uk/home</a></td>
+<td><a href="https://data.police.uk/">https://data.police.uk/</a></td>
 </tr>
 <tr>
 <th>Start/end date</th>
@@ -534,8 +535,8 @@ $(document).ready(function() {
 </tr>
 <tr>
 <td><a href="./60002.html">Austrian geodata catalogue</a></td>
-<td>70%</td>      
-<td><span class="icon icon-it" title="Same technology">IT</span>&nbsp;<span class="icon icon-ge" title="Same geographic extent">GE</span>&nbsp;<span class="icon icon-ps" title="Same primary sector">PS</span>&nbsp;<span class="icon icon-ac" title="Same activity">AC</span>&nbsp;<span class="icon icon-up" title="Same level of uptake">UP</span>&nbsp;<span class="icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="icon icon-ty" title="Same service type">TY</span>&nbsp;</td>
+<td>60%</td>      
+<td><span class="icon icon-it" title="Same technology">IT</span>&nbsp;<span class="icon icon-ge" title="Same geographic extent">GE</span>&nbsp;<span class="icon icon-ac" title="Same activity">AC</span>&nbsp;<span class="icon icon-up" title="Same level of uptake">UP</span>&nbsp;<span class="icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="icon icon-ty" title="Same service type">TY</span>&nbsp;</td>
 </tr>
 <tr>
 <td><a href="./60003.html">Belgium data catalogue</a></td>
@@ -549,18 +550,18 @@ $(document).ready(function() {
 </tr>
 <tr>
 <td><a href="./60005.html">Belgium geodata catalogue</a></td>
-<td>70%</td>      
-<td><span class="icon icon-it" title="Same technology">IT</span>&nbsp;<span class="icon icon-ge" title="Same geographic extent">GE</span>&nbsp;<span class="icon icon-ps" title="Same primary sector">PS</span>&nbsp;<span class="icon icon-ac" title="Same activity">AC</span>&nbsp;<span class="icon icon-up" title="Same level of uptake">UP</span>&nbsp;<span class="icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="icon icon-ty" title="Same service type">TY</span>&nbsp;</td>
+<td>60%</td>      
+<td><span class="icon icon-it" title="Same technology">IT</span>&nbsp;<span class="icon icon-ge" title="Same geographic extent">GE</span>&nbsp;<span class="icon icon-ac" title="Same activity">AC</span>&nbsp;<span class="icon icon-up" title="Same level of uptake">UP</span>&nbsp;<span class="icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="icon icon-ty" title="Same service type">TY</span>&nbsp;</td>
 </tr>
 <tr>
 <td><a href="./60006.html">Brussels geodata catalogue</a></td>
-<td>50%</td>      
-<td><span class="icon icon-it" title="Same technology">IT</span>&nbsp;<span class="icon icon-ps" title="Same primary sector">PS</span>&nbsp;<span class="icon icon-ac" title="Same activity">AC</span>&nbsp;<span class="icon icon-up" title="Same level of uptake">UP</span>&nbsp;<span class="icon icon-ty" title="Same service type">TY</span>&nbsp;</td>
+<td>40%</td>      
+<td><span class="icon icon-it" title="Same technology">IT</span>&nbsp;<span class="icon icon-ac" title="Same activity">AC</span>&nbsp;<span class="icon icon-up" title="Same level of uptake">UP</span>&nbsp;<span class="icon icon-ty" title="Same service type">TY</span>&nbsp;</td>
 </tr>
 <tr>
 <td><a href="./60007.html">Flanders INSPIRE data catalogue</a></td>
-<td>60%</td>      
-<td><span class="icon icon-it" title="Same technology">IT</span>&nbsp;<span class="icon icon-ps" title="Same primary sector">PS</span>&nbsp;<span class="icon icon-ac" title="Same activity">AC</span>&nbsp;<span class="icon icon-up" title="Same level of uptake">UP</span>&nbsp;<span class="icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="icon icon-ty" title="Same service type">TY</span>&nbsp;</td>
+<td>50%</td>      
+<td><span class="icon icon-it" title="Same technology">IT</span>&nbsp;<span class="icon icon-ac" title="Same activity">AC</span>&nbsp;<span class="icon icon-up" title="Same level of uptake">UP</span>&nbsp;<span class="icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="icon icon-ty" title="Same service type">TY</span>&nbsp;</td>
 </tr>
 <tr>
 <td><a href="./60008.html">Flanders open data catalogue</a></td>
@@ -584,8 +585,8 @@ $(document).ready(function() {
 </tr>
 <tr>
 <td><a href="./60012.html">Wallonie geodata catalogue</a></td>
-<td>60%</td>      
-<td><span class="icon icon-it" title="Same technology">IT</span>&nbsp;<span class="icon icon-ps" title="Same primary sector">PS</span>&nbsp;<span class="icon icon-ac" title="Same activity">AC</span>&nbsp;<span class="icon icon-up" title="Same level of uptake">UP</span>&nbsp;<span class="icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="icon icon-ty" title="Same service type">TY</span>&nbsp;</td>
+<td>50%</td>      
+<td><span class="icon icon-it" title="Same technology">IT</span>&nbsp;<span class="icon icon-ac" title="Same activity">AC</span>&nbsp;<span class="icon icon-up" title="Same level of uptake">UP</span>&nbsp;<span class="icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="icon icon-ty" title="Same service type">TY</span>&nbsp;</td>
 </tr>
 <tr>
 <td><a href="./60013.html">Bulgaria data catalogue</a></td>
@@ -594,8 +595,8 @@ $(document).ready(function() {
 </tr>
 <tr>
 <td><a href="./60014.html">Bulgaria geodata catalogue</a></td>
-<td>70%</td>      
-<td><span class="icon icon-it" title="Same technology">IT</span>&nbsp;<span class="icon icon-ge" title="Same geographic extent">GE</span>&nbsp;<span class="icon icon-ps" title="Same primary sector">PS</span>&nbsp;<span class="icon icon-ac" title="Same activity">AC</span>&nbsp;<span class="icon icon-up" title="Same level of uptake">UP</span>&nbsp;<span class="icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="icon icon-ty" title="Same service type">TY</span>&nbsp;</td>
+<td>60%</td>      
+<td><span class="icon icon-it" title="Same technology">IT</span>&nbsp;<span class="icon icon-ge" title="Same geographic extent">GE</span>&nbsp;<span class="icon icon-ac" title="Same activity">AC</span>&nbsp;<span class="icon icon-up" title="Same level of uptake">UP</span>&nbsp;<span class="icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="icon icon-ty" title="Same service type">TY</span>&nbsp;</td>
 </tr>
 <tr>
 <td><a href="./60015.html">European Centre for Medium-Range Weather Forecasts (ECMWF)</a></td>
@@ -604,8 +605,8 @@ $(document).ready(function() {
 </tr>
 <tr>
 <td><a href="./60016.html">European Marine Observation and Data Network (EMODNET)</a></td>
-<td>60%</td>      
-<td><span class="icon icon-it" title="Same technology">IT</span>&nbsp;<span class="icon icon-ps" title="Same primary sector">PS</span>&nbsp;<span class="icon icon-ac" title="Same activity">AC</span>&nbsp;<span class="icon icon-up" title="Same level of uptake">UP</span>&nbsp;<span class="icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="icon icon-ty" title="Same service type">TY</span>&nbsp;</td>
+<td>50%</td>      
+<td><span class="icon icon-it" title="Same technology">IT</span>&nbsp;<span class="icon icon-ac" title="Same activity">AC</span>&nbsp;<span class="icon icon-up" title="Same level of uptake">UP</span>&nbsp;<span class="icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="icon icon-ty" title="Same service type">TY</span>&nbsp;</td>
 </tr>
 <tr>
 <td><a href="./60017.html">YourDataStories</a></td>
@@ -614,13 +615,13 @@ $(document).ready(function() {
 </tr>
 <tr>
 <td><a href="./60018.html">Croatia geodata catalogue</a></td>
-<td>70%</td>      
-<td><span class="icon icon-it" title="Same technology">IT</span>&nbsp;<span class="icon icon-ge" title="Same geographic extent">GE</span>&nbsp;<span class="icon icon-ps" title="Same primary sector">PS</span>&nbsp;<span class="icon icon-ac" title="Same activity">AC</span>&nbsp;<span class="icon icon-up" title="Same level of uptake">UP</span>&nbsp;<span class="icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="icon icon-ty" title="Same service type">TY</span>&nbsp;</td>
+<td>60%</td>      
+<td><span class="icon icon-it" title="Same technology">IT</span>&nbsp;<span class="icon icon-ge" title="Same geographic extent">GE</span>&nbsp;<span class="icon icon-ac" title="Same activity">AC</span>&nbsp;<span class="icon icon-up" title="Same level of uptake">UP</span>&nbsp;<span class="icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="icon icon-ty" title="Same service type">TY</span>&nbsp;</td>
 </tr>
 <tr>
 <td><a href="./60019.html">Cyprus geodata catalogue</a></td>
-<td>70%</td>      
-<td><span class="icon icon-it" title="Same technology">IT</span>&nbsp;<span class="icon icon-ge" title="Same geographic extent">GE</span>&nbsp;<span class="icon icon-ps" title="Same primary sector">PS</span>&nbsp;<span class="icon icon-ac" title="Same activity">AC</span>&nbsp;<span class="icon icon-up" title="Same level of uptake">UP</span>&nbsp;<span class="icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="icon icon-ty" title="Same service type">TY</span>&nbsp;</td>
+<td>60%</td>      
+<td><span class="icon icon-it" title="Same technology">IT</span>&nbsp;<span class="icon icon-ge" title="Same geographic extent">GE</span>&nbsp;<span class="icon icon-ac" title="Same activity">AC</span>&nbsp;<span class="icon icon-up" title="Same level of uptake">UP</span>&nbsp;<span class="icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="icon icon-ty" title="Same service type">TY</span>&nbsp;</td>
 </tr>
 <tr>
 <td><a href="./60020.html">Access to Registers of Economic Subjects / Entities (ARES)</a></td>
@@ -639,8 +640,8 @@ $(document).ready(function() {
 </tr>
 <tr>
 <td><a href="./60023.html">Czech geodata catalogue</a></td>
-<td>70%</td>      
-<td><span class="icon icon-it" title="Same technology">IT</span>&nbsp;<span class="icon icon-ge" title="Same geographic extent">GE</span>&nbsp;<span class="icon icon-ps" title="Same primary sector">PS</span>&nbsp;<span class="icon icon-ac" title="Same activity">AC</span>&nbsp;<span class="icon icon-up" title="Same level of uptake">UP</span>&nbsp;<span class="icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="icon icon-ty" title="Same service type">TY</span>&nbsp;</td>
+<td>60%</td>      
+<td><span class="icon icon-it" title="Same technology">IT</span>&nbsp;<span class="icon icon-ge" title="Same geographic extent">GE</span>&nbsp;<span class="icon icon-ac" title="Same activity">AC</span>&nbsp;<span class="icon icon-up" title="Same level of uptake">UP</span>&nbsp;<span class="icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="icon icon-ty" title="Same service type">TY</span>&nbsp;</td>
 </tr>
 <tr>
 <td><a href="./60024.html">Czech Mapybezbarier</a></td>
@@ -684,13 +685,13 @@ $(document).ready(function() {
 </tr>
 <tr>
 <td><a href="./60032.html">Denmark geodata</a></td>
-<td>70%</td>      
-<td><span class="icon icon-it" title="Same technology">IT</span>&nbsp;<span class="icon icon-ge" title="Same geographic extent">GE</span>&nbsp;<span class="icon icon-ps" title="Same primary sector">PS</span>&nbsp;<span class="icon icon-ac" title="Same activity">AC</span>&nbsp;<span class="icon icon-up" title="Same level of uptake">UP</span>&nbsp;<span class="icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="icon icon-ty" title="Same service type">TY</span>&nbsp;</td>
+<td>60%</td>      
+<td><span class="icon icon-it" title="Same technology">IT</span>&nbsp;<span class="icon icon-ge" title="Same geographic extent">GE</span>&nbsp;<span class="icon icon-ac" title="Same activity">AC</span>&nbsp;<span class="icon icon-up" title="Same level of uptake">UP</span>&nbsp;<span class="icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="icon icon-ty" title="Same service type">TY</span>&nbsp;</td>
 </tr>
 <tr>
 <td><a href="./60033.html">Denmark maps</a></td>
-<td>70%</td>      
-<td><span class="icon icon-it" title="Same technology">IT</span>&nbsp;<span class="icon icon-ge" title="Same geographic extent">GE</span>&nbsp;<span class="icon icon-ps" title="Same primary sector">PS</span>&nbsp;<span class="icon icon-ac" title="Same activity">AC</span>&nbsp;<span class="icon icon-up" title="Same level of uptake">UP</span>&nbsp;<span class="icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="icon icon-ty" title="Same service type">TY</span>&nbsp;</td>
+<td>60%</td>      
+<td><span class="icon icon-it" title="Same technology">IT</span>&nbsp;<span class="icon icon-ge" title="Same geographic extent">GE</span>&nbsp;<span class="icon icon-ac" title="Same activity">AC</span>&nbsp;<span class="icon icon-up" title="Same level of uptake">UP</span>&nbsp;<span class="icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="icon icon-ty" title="Same service type">TY</span>&nbsp;</td>
 </tr>
 <tr>
 <td><a href="./60034.html">Denmark national service platform healthcare</a></td>
@@ -699,8 +700,8 @@ $(document).ready(function() {
 </tr>
 <tr>
 <td><a href="./60035.html">Denmark natural environment portal</a></td>
-<td>70%</td>      
-<td><span class="icon icon-it" title="Same technology">IT</span>&nbsp;<span class="icon icon-ge" title="Same geographic extent">GE</span>&nbsp;<span class="icon icon-ps" title="Same primary sector">PS</span>&nbsp;<span class="icon icon-ac" title="Same activity">AC</span>&nbsp;<span class="icon icon-up" title="Same level of uptake">UP</span>&nbsp;<span class="icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="icon icon-ty" title="Same service type">TY</span>&nbsp;</td>
+<td>60%</td>      
+<td><span class="icon icon-it" title="Same technology">IT</span>&nbsp;<span class="icon icon-ge" title="Same geographic extent">GE</span>&nbsp;<span class="icon icon-ac" title="Same activity">AC</span>&nbsp;<span class="icon icon-up" title="Same level of uptake">UP</span>&nbsp;<span class="icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="icon icon-ty" title="Same service type">TY</span>&nbsp;</td>
 </tr>
 <tr>
 <td><a href="./60036.html">Denmark statistics</a></td>
@@ -719,13 +720,13 @@ $(document).ready(function() {
 </tr>
 <tr>
 <td><a href="./60039.html">Estonia geodata</a></td>
-<td>70%</td>      
-<td><span class="icon icon-it" title="Same technology">IT</span>&nbsp;<span class="icon icon-ge" title="Same geographic extent">GE</span>&nbsp;<span class="icon icon-ps" title="Same primary sector">PS</span>&nbsp;<span class="icon icon-ac" title="Same activity">AC</span>&nbsp;<span class="icon icon-up" title="Same level of uptake">UP</span>&nbsp;<span class="icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="icon icon-ty" title="Same service type">TY</span>&nbsp;</td>
+<td>60%</td>      
+<td><span class="icon icon-it" title="Same technology">IT</span>&nbsp;<span class="icon icon-ge" title="Same geographic extent">GE</span>&nbsp;<span class="icon icon-ac" title="Same activity">AC</span>&nbsp;<span class="icon icon-up" title="Same level of uptake">UP</span>&nbsp;<span class="icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="icon icon-ty" title="Same service type">TY</span>&nbsp;</td>
 </tr>
 <tr>
 <td><a href="./60040.html">Copernicus</a></td>
-<td>60%</td>      
-<td><span class="icon icon-it" title="Same technology">IT</span>&nbsp;<span class="icon icon-ps" title="Same primary sector">PS</span>&nbsp;<span class="icon icon-ac" title="Same activity">AC</span>&nbsp;<span class="icon icon-up" title="Same level of uptake">UP</span>&nbsp;<span class="icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="icon icon-ty" title="Same service type">TY</span>&nbsp;</td>
+<td>50%</td>      
+<td><span class="icon icon-it" title="Same technology">IT</span>&nbsp;<span class="icon icon-ac" title="Same activity">AC</span>&nbsp;<span class="icon icon-up" title="Same level of uptake">UP</span>&nbsp;<span class="icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="icon icon-ty" title="Same service type">TY</span>&nbsp;</td>
 </tr>
 <tr>
 <td><a href="./60041.html">Digital Agenda Key Indicators</a></td>
@@ -769,13 +770,13 @@ $(document).ready(function() {
 </tr>
 <tr>
 <td><a href="./60049.html">European Chemicals Agency (ECHA) IUCLID chemical substances</a></td>
-<td>60%</td>      
-<td><span class="icon icon-it" title="Same technology">IT</span>&nbsp;<span class="icon icon-ps" title="Same primary sector">PS</span>&nbsp;<span class="icon icon-ac" title="Same activity">AC</span>&nbsp;<span class="icon icon-up" title="Same level of uptake">UP</span>&nbsp;<span class="icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="icon icon-ty" title="Same service type">TY</span>&nbsp;</td>
+<td>50%</td>      
+<td><span class="icon icon-it" title="Same technology">IT</span>&nbsp;<span class="icon icon-ac" title="Same activity">AC</span>&nbsp;<span class="icon icon-up" title="Same level of uptake">UP</span>&nbsp;<span class="icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="icon icon-ty" title="Same service type">TY</span>&nbsp;</td>
 </tr>
 <tr>
 <td><a href="./60050.html">European Chemicals Agency (ECHA) QSART</a></td>
-<td>60%</td>      
-<td><span class="icon icon-it" title="Same technology">IT</span>&nbsp;<span class="icon icon-ps" title="Same primary sector">PS</span>&nbsp;<span class="icon icon-ac" title="Same activity">AC</span>&nbsp;<span class="icon icon-up" title="Same level of uptake">UP</span>&nbsp;<span class="icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="icon icon-ty" title="Same service type">TY</span>&nbsp;</td>
+<td>50%</td>      
+<td><span class="icon icon-it" title="Same technology">IT</span>&nbsp;<span class="icon icon-ac" title="Same activity">AC</span>&nbsp;<span class="icon icon-up" title="Same level of uptake">UP</span>&nbsp;<span class="icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="icon icon-ty" title="Same service type">TY</span>&nbsp;</td>
 </tr>
 <tr>
 <td><a href="./60051.html">European Commission Health and Food Safety Directorate General public data</a></td>
@@ -804,8 +805,8 @@ $(document).ready(function() {
 </tr>
 <tr>
 <td><a href="./60056.html">European Environmental Agency</a></td>
-<td>60%</td>      
-<td><span class="icon icon-it" title="Same technology">IT</span>&nbsp;<span class="icon icon-ps" title="Same primary sector">PS</span>&nbsp;<span class="icon icon-ac" title="Same activity">AC</span>&nbsp;<span class="icon icon-up" title="Same level of uptake">UP</span>&nbsp;<span class="icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="icon icon-ty" title="Same service type">TY</span>&nbsp;</td>
+<td>50%</td>      
+<td><span class="icon icon-it" title="Same technology">IT</span>&nbsp;<span class="icon icon-ac" title="Same activity">AC</span>&nbsp;<span class="icon icon-up" title="Same level of uptake">UP</span>&nbsp;<span class="icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="icon icon-ty" title="Same service type">TY</span>&nbsp;</td>
 </tr>
 <tr>
 <td><a href="./60057.html">European Participant Portal</a></td>
@@ -854,8 +855,8 @@ $(document).ready(function() {
 </tr>
 <tr>
 <td><a href="./60066.html">Geographic Information System of the Cоmmission datasets</a></td>
-<td>60%</td>      
-<td><span class="icon icon-it" title="Same technology">IT</span>&nbsp;<span class="icon icon-ps" title="Same primary sector">PS</span>&nbsp;<span class="icon icon-ac" title="Same activity">AC</span>&nbsp;<span class="icon icon-up" title="Same level of uptake">UP</span>&nbsp;<span class="icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="icon icon-ty" title="Same service type">TY</span>&nbsp;</td>
+<td>50%</td>      
+<td><span class="icon icon-it" title="Same technology">IT</span>&nbsp;<span class="icon icon-ac" title="Same activity">AC</span>&nbsp;<span class="icon icon-up" title="Same level of uptake">UP</span>&nbsp;<span class="icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="icon icon-ty" title="Same service type">TY</span>&nbsp;</td>
 </tr>
 <tr>
 <td><a href="./60067.html">Global Open Data for Agriculture and nutrition</a></td>
@@ -889,13 +890,13 @@ $(document).ready(function() {
 </tr>
 <tr>
 <td><a href="./60073.html">Spatial Information in the European Community (INSPIRE) European Testing Framework</a></td>
-<td>50%</td>      
-<td><span class="icon icon-it" title="Same technology">IT</span>&nbsp;<span class="icon icon-ps" title="Same primary sector">PS</span>&nbsp;<span class="icon icon-ac" title="Same activity">AC</span>&nbsp;<span class="icon icon-up" title="Same level of uptake">UP</span>&nbsp;<span class="icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;</td>
+<td>40%</td>      
+<td><span class="icon icon-it" title="Same technology">IT</span>&nbsp;<span class="icon icon-ac" title="Same activity">AC</span>&nbsp;<span class="icon icon-up" title="Same level of uptake">UP</span>&nbsp;<span class="icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;</td>
 </tr>
 <tr>
 <td><a href="./60074.html">Spatial Information in the European Community (INSPIRE) geocatalogue</a></td>
-<td>60%</td>      
-<td><span class="icon icon-it" title="Same technology">IT</span>&nbsp;<span class="icon icon-ps" title="Same primary sector">PS</span>&nbsp;<span class="icon icon-ac" title="Same activity">AC</span>&nbsp;<span class="icon icon-up" title="Same level of uptake">UP</span>&nbsp;<span class="icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="icon icon-ty" title="Same service type">TY</span>&nbsp;</td>
+<td>50%</td>      
+<td><span class="icon icon-it" title="Same technology">IT</span>&nbsp;<span class="icon icon-ac" title="Same activity">AC</span>&nbsp;<span class="icon icon-up" title="Same level of uptake">UP</span>&nbsp;<span class="icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="icon icon-ty" title="Same service type">TY</span>&nbsp;</td>
 </tr>
 <tr>
 <td><a href="./60075.html">Finland data catalogue</a></td>
@@ -904,13 +905,13 @@ $(document).ready(function() {
 </tr>
 <tr>
 <td><a href="./60076.html">Finland INSPIRE data catalogue</a></td>
-<td>70%</td>      
-<td><span class="icon icon-it" title="Same technology">IT</span>&nbsp;<span class="icon icon-ge" title="Same geographic extent">GE</span>&nbsp;<span class="icon icon-ps" title="Same primary sector">PS</span>&nbsp;<span class="icon icon-ac" title="Same activity">AC</span>&nbsp;<span class="icon icon-up" title="Same level of uptake">UP</span>&nbsp;<span class="icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="icon icon-ty" title="Same service type">TY</span>&nbsp;</td>
+<td>60%</td>      
+<td><span class="icon icon-it" title="Same technology">IT</span>&nbsp;<span class="icon icon-ge" title="Same geographic extent">GE</span>&nbsp;<span class="icon icon-ac" title="Same activity">AC</span>&nbsp;<span class="icon icon-up" title="Same level of uptake">UP</span>&nbsp;<span class="icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="icon icon-ty" title="Same service type">TY</span>&nbsp;</td>
 </tr>
 <tr>
 <td><a href="./60077.html">Helsinki Map APIs</a></td>
-<td>50%</td>      
-<td><span class="icon icon-it" title="Same technology">IT</span>&nbsp;<span class="icon icon-ps" title="Same primary sector">PS</span>&nbsp;<span class="icon icon-ac" title="Same activity">AC</span>&nbsp;<span class="icon icon-up" title="Same level of uptake">UP</span>&nbsp;<span class="icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;</td>
+<td>40%</td>      
+<td><span class="icon icon-it" title="Same technology">IT</span>&nbsp;<span class="icon icon-ac" title="Same activity">AC</span>&nbsp;<span class="icon icon-up" title="Same level of uptake">UP</span>&nbsp;<span class="icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;</td>
 </tr>
 <tr>
 <td><a href="./60078.html">Helsinki Open Ahjo APIs</a></td>
@@ -949,8 +950,8 @@ $(document).ready(function() {
 </tr>
 <tr>
 <td><a href="./60085.html">France INSPIRE data Catalogue</a></td>
-<td>70%</td>      
-<td><span class="icon icon-it" title="Same technology">IT</span>&nbsp;<span class="icon icon-ge" title="Same geographic extent">GE</span>&nbsp;<span class="icon icon-ps" title="Same primary sector">PS</span>&nbsp;<span class="icon icon-ac" title="Same activity">AC</span>&nbsp;<span class="icon icon-up" title="Same level of uptake">UP</span>&nbsp;<span class="icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="icon icon-ty" title="Same service type">TY</span>&nbsp;</td>
+<td>60%</td>      
+<td><span class="icon icon-it" title="Same technology">IT</span>&nbsp;<span class="icon icon-ge" title="Same geographic extent">GE</span>&nbsp;<span class="icon icon-ac" title="Same activity">AC</span>&nbsp;<span class="icon icon-up" title="Same level of uptake">UP</span>&nbsp;<span class="icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="icon icon-ty" title="Same service type">TY</span>&nbsp;</td>
 </tr>
 <tr>
 <td><a href="./60086.html">French business register Sirene</a></td>
@@ -989,13 +990,13 @@ $(document).ready(function() {
 </tr>
 <tr>
 <td><a href="./60093.html">Germany Berlin GeoPortal</a></td>
-<td>60%</td>      
-<td><span class="icon icon-it" title="Same technology">IT</span>&nbsp;<span class="icon icon-ps" title="Same primary sector">PS</span>&nbsp;<span class="icon icon-ac" title="Same activity">AC</span>&nbsp;<span class="icon icon-up" title="Same level of uptake">UP</span>&nbsp;<span class="icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="icon icon-ty" title="Same service type">TY</span>&nbsp;</td>
+<td>50%</td>      
+<td><span class="icon icon-it" title="Same technology">IT</span>&nbsp;<span class="icon icon-ac" title="Same activity">AC</span>&nbsp;<span class="icon icon-up" title="Same level of uptake">UP</span>&nbsp;<span class="icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="icon icon-ty" title="Same service type">TY</span>&nbsp;</td>
 </tr>
 <tr>
 <td><a href="./60094.html">Germany INSPIRE data catalogue</a></td>
-<td>70%</td>      
-<td><span class="icon icon-it" title="Same technology">IT</span>&nbsp;<span class="icon icon-ge" title="Same geographic extent">GE</span>&nbsp;<span class="icon icon-ps" title="Same primary sector">PS</span>&nbsp;<span class="icon icon-ac" title="Same activity">AC</span>&nbsp;<span class="icon icon-up" title="Same level of uptake">UP</span>&nbsp;<span class="icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="icon icon-ty" title="Same service type">TY</span>&nbsp;</td>
+<td>60%</td>      
+<td><span class="icon icon-it" title="Same technology">IT</span>&nbsp;<span class="icon icon-ge" title="Same geographic extent">GE</span>&nbsp;<span class="icon icon-ac" title="Same activity">AC</span>&nbsp;<span class="icon icon-up" title="Same level of uptake">UP</span>&nbsp;<span class="icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="icon icon-ty" title="Same service type">TY</span>&nbsp;</td>
 </tr>
 <tr>
 <td><a href="./60095.html">Germany Leipzig Data</a></td>
@@ -1024,23 +1025,23 @@ $(document).ready(function() {
 </tr>
 <tr>
 <td><a href="./60100.html">Greece Geodata</a></td>
-<td>70%</td>      
-<td><span class="icon icon-it" title="Same technology">IT</span>&nbsp;<span class="icon icon-ge" title="Same geographic extent">GE</span>&nbsp;<span class="icon icon-ps" title="Same primary sector">PS</span>&nbsp;<span class="icon icon-ac" title="Same activity">AC</span>&nbsp;<span class="icon icon-up" title="Same level of uptake">UP</span>&nbsp;<span class="icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="icon icon-ty" title="Same service type">TY</span>&nbsp;</td>
+<td>60%</td>      
+<td><span class="icon icon-it" title="Same technology">IT</span>&nbsp;<span class="icon icon-ge" title="Same geographic extent">GE</span>&nbsp;<span class="icon icon-ac" title="Same activity">AC</span>&nbsp;<span class="icon icon-up" title="Same level of uptake">UP</span>&nbsp;<span class="icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="icon icon-ty" title="Same service type">TY</span>&nbsp;</td>
 </tr>
 <tr>
 <td><a href="./60101.html">Greece INSPIRE data catalogue</a></td>
-<td>70%</td>      
-<td><span class="icon icon-it" title="Same technology">IT</span>&nbsp;<span class="icon icon-ge" title="Same geographic extent">GE</span>&nbsp;<span class="icon icon-ps" title="Same primary sector">PS</span>&nbsp;<span class="icon icon-ac" title="Same activity">AC</span>&nbsp;<span class="icon icon-up" title="Same level of uptake">UP</span>&nbsp;<span class="icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="icon icon-ty" title="Same service type">TY</span>&nbsp;</td>
+<td>60%</td>      
+<td><span class="icon icon-it" title="Same technology">IT</span>&nbsp;<span class="icon icon-ge" title="Same geographic extent">GE</span>&nbsp;<span class="icon icon-ac" title="Same activity">AC</span>&nbsp;<span class="icon icon-up" title="Same level of uptake">UP</span>&nbsp;<span class="icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="icon icon-ty" title="Same service type">TY</span>&nbsp;</td>
 </tr>
 <tr>
 <td><a href="./60102.html">Hungary INSPIRE data catalogue</a></td>
-<td>70%</td>      
-<td><span class="icon icon-it" title="Same technology">IT</span>&nbsp;<span class="icon icon-ge" title="Same geographic extent">GE</span>&nbsp;<span class="icon icon-ps" title="Same primary sector">PS</span>&nbsp;<span class="icon icon-ac" title="Same activity">AC</span>&nbsp;<span class="icon icon-up" title="Same level of uptake">UP</span>&nbsp;<span class="icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="icon icon-ty" title="Same service type">TY</span>&nbsp;</td>
+<td>60%</td>      
+<td><span class="icon icon-it" title="Same technology">IT</span>&nbsp;<span class="icon icon-ge" title="Same geographic extent">GE</span>&nbsp;<span class="icon icon-ac" title="Same activity">AC</span>&nbsp;<span class="icon icon-up" title="Same level of uptake">UP</span>&nbsp;<span class="icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="icon icon-ty" title="Same service type">TY</span>&nbsp;</td>
 </tr>
 <tr>
 <td><a href="./60103.html">Iceland INSPIRE data catalogue</a></td>
-<td>70%</td>      
-<td><span class="icon icon-it" title="Same technology">IT</span>&nbsp;<span class="icon icon-ge" title="Same geographic extent">GE</span>&nbsp;<span class="icon icon-ps" title="Same primary sector">PS</span>&nbsp;<span class="icon icon-ac" title="Same activity">AC</span>&nbsp;<span class="icon icon-up" title="Same level of uptake">UP</span>&nbsp;<span class="icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="icon icon-ty" title="Same service type">TY</span>&nbsp;</td>
+<td>60%</td>      
+<td><span class="icon icon-it" title="Same technology">IT</span>&nbsp;<span class="icon icon-ge" title="Same geographic extent">GE</span>&nbsp;<span class="icon icon-ac" title="Same activity">AC</span>&nbsp;<span class="icon icon-up" title="Same level of uptake">UP</span>&nbsp;<span class="icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="icon icon-ty" title="Same service type">TY</span>&nbsp;</td>
 </tr>
 <tr>
 <td><a href="./60104.html">Ireland data</a></td>
@@ -1049,8 +1050,8 @@ $(document).ready(function() {
 </tr>
 <tr>
 <td><a href="./60105.html">Ireland INSPIRE data catalogue</a></td>
-<td>70%</td>      
-<td><span class="icon icon-it" title="Same technology">IT</span>&nbsp;<span class="icon icon-ge" title="Same geographic extent">GE</span>&nbsp;<span class="icon icon-ps" title="Same primary sector">PS</span>&nbsp;<span class="icon icon-ac" title="Same activity">AC</span>&nbsp;<span class="icon icon-up" title="Same level of uptake">UP</span>&nbsp;<span class="icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="icon icon-ty" title="Same service type">TY</span>&nbsp;</td>
+<td>60%</td>      
+<td><span class="icon icon-it" title="Same technology">IT</span>&nbsp;<span class="icon icon-ge" title="Same geographic extent">GE</span>&nbsp;<span class="icon icon-ac" title="Same activity">AC</span>&nbsp;<span class="icon icon-up" title="Same level of uptake">UP</span>&nbsp;<span class="icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="icon icon-ty" title="Same service type">TY</span>&nbsp;</td>
 </tr>
 <tr>
 <td><a href="./60106.html">Ireland Light Rail Transit System in Dublin</a></td>
@@ -1058,382 +1059,377 @@ $(document).ready(function() {
 <td><span class="icon icon-it" title="Same technology">IT</span>&nbsp;<span class="icon icon-ge" title="Same geographic extent">GE</span>&nbsp;<span class="icon icon-ac" title="Same activity">AC</span>&nbsp;<span class="icon icon-up" title="Same level of uptake">UP</span>&nbsp;<span class="icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;</td>
 </tr>
 <tr>
-<td><a href="./60107.html">Smart Dublin</a></td>
-<td>40%</td>      
-<td><span class="icon icon-it" title="Same technology">IT</span>&nbsp;<span class="icon icon-ps" title="Same primary sector">PS</span>&nbsp;<span class="icon icon-ac" title="Same activity">AC</span>&nbsp;<span class="icon icon-up" title="Same level of uptake">UP</span>&nbsp;</td>
-</tr>
-<tr>
-<td><a href="./60108.html">Italy Data</a></td>
+<td><a href="./60107.html">Italy Data</a></td>
 <td>50%</td>      
 <td><span class="icon icon-it" title="Same technology">IT</span>&nbsp;<span class="icon icon-ge" title="Same geographic extent">GE</span>&nbsp;<span class="icon icon-ac" title="Same activity">AC</span>&nbsp;<span class="icon icon-up" title="Same level of uptake">UP</span>&nbsp;<span class="icon icon-ty" title="Same service type">TY</span>&nbsp;</td>
 </tr>
 <tr>
-<td><a href="./60109.html">Italy Data of 'Repertorio Nazionale Dati Territoriali'</a></td>
-<td>70%</td>      
-<td><span class="icon icon-it" title="Same technology">IT</span>&nbsp;<span class="icon icon-ge" title="Same geographic extent">GE</span>&nbsp;<span class="icon icon-ps" title="Same primary sector">PS</span>&nbsp;<span class="icon icon-ac" title="Same activity">AC</span>&nbsp;<span class="icon icon-up" title="Same level of uptake">UP</span>&nbsp;<span class="icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="icon icon-ty" title="Same service type">TY</span>&nbsp;</td>
+<td><a href="./60108.html">Italy Data of 'Repertorio Nazionale Dati Territoriali'</a></td>
+<td>60%</td>      
+<td><span class="icon icon-it" title="Same technology">IT</span>&nbsp;<span class="icon icon-ge" title="Same geographic extent">GE</span>&nbsp;<span class="icon icon-ac" title="Same activity">AC</span>&nbsp;<span class="icon icon-up" title="Same level of uptake">UP</span>&nbsp;<span class="icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="icon icon-ty" title="Same service type">TY</span>&nbsp;</td>
 </tr>
 <tr>
-<td><a href="./60110.html">Italy eInvoicing building block APIs</a></td>
+<td><a href="./60109.html">Italy eInvoicing building block APIs</a></td>
 <td>50%</td>      
 <td><span class="icon icon-it" title="Same technology">IT</span>&nbsp;<span class="icon icon-ge" title="Same geographic extent">GE</span>&nbsp;<span class="icon icon-ac" title="Same activity">AC</span>&nbsp;<span class="icon icon-up" title="Same level of uptake">UP</span>&nbsp;<span class="icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;</td>
 </tr>
 <tr>
-<td><a href="./60111.html">Italy INSPIRE data catalogue APIs</a></td>
-<td>70%</td>      
-<td><span class="icon icon-it" title="Same technology">IT</span>&nbsp;<span class="icon icon-ge" title="Same geographic extent">GE</span>&nbsp;<span class="icon icon-ps" title="Same primary sector">PS</span>&nbsp;<span class="icon icon-ac" title="Same activity">AC</span>&nbsp;<span class="icon icon-up" title="Same level of uptake">UP</span>&nbsp;<span class="icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="icon icon-ty" title="Same service type">TY</span>&nbsp;</td>
+<td><a href="./60110.html">Italy INSPIRE data catalogue APIs</a></td>
+<td>60%</td>      
+<td><span class="icon icon-it" title="Same technology">IT</span>&nbsp;<span class="icon icon-ge" title="Same geographic extent">GE</span>&nbsp;<span class="icon icon-ac" title="Same activity">AC</span>&nbsp;<span class="icon icon-up" title="Same level of uptake">UP</span>&nbsp;<span class="icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="icon icon-ty" title="Same service type">TY</span>&nbsp;</td>
 </tr>
 <tr>
-<td><a href="./60112.html">Italy Lombardy Open Data</a></td>
+<td><a href="./60111.html">Italy Lombardy Open Data</a></td>
 <td>40%</td>      
 <td><span class="icon icon-it" title="Same technology">IT</span>&nbsp;<span class="icon icon-ac" title="Same activity">AC</span>&nbsp;<span class="icon icon-up" title="Same level of uptake">UP</span>&nbsp;<span class="icon icon-ty" title="Same service type">TY</span>&nbsp;</td>
 </tr>
 <tr>
-<td><a href="./60113.html">Italy Milano Data</a></td>
+<td><a href="./60112.html">Italy Milano Data</a></td>
 <td>40%</td>      
 <td><span class="icon icon-it" title="Same technology">IT</span>&nbsp;<span class="icon icon-ac" title="Same activity">AC</span>&nbsp;<span class="icon icon-up" title="Same level of uptake">UP</span>&nbsp;<span class="icon icon-ty" title="Same service type">TY</span>&nbsp;</td>
 </tr>
 <tr>
-<td><a href="./60114.html">Italy Piedmont YUCCA Smart Data Platform</a></td>
+<td><a href="./60113.html">Italy Piedmont YUCCA Smart Data Platform</a></td>
 <td>30%</td>      
 <td><span class="icon icon-it" title="Same technology">IT</span>&nbsp;<span class="icon icon-ac" title="Same activity">AC</span>&nbsp;<span class="icon icon-up" title="Same level of uptake">UP</span>&nbsp;</td>
 </tr>
 <tr>
-<td><a href="./60115.html">Italy Trento ComunWeb APIs</a></td>
+<td><a href="./60114.html">Italy Trento ComunWeb APIs</a></td>
 <td>40%</td>      
 <td><span class="icon icon-it" title="Same technology">IT</span>&nbsp;<span class="icon icon-ac" title="Same activity">AC</span>&nbsp;<span class="icon icon-up" title="Same level of uptake">UP</span>&nbsp;<span class="icon icon-ty" title="Same service type">TY</span>&nbsp;</td>
 </tr>
 <tr>
-<td><a href="./60116.html">Latvian Information Agency INSPIRE data catalogue</a></td>
-<td>70%</td>      
-<td><span class="icon icon-it" title="Same technology">IT</span>&nbsp;<span class="icon icon-ge" title="Same geographic extent">GE</span>&nbsp;<span class="icon icon-ps" title="Same primary sector">PS</span>&nbsp;<span class="icon icon-ac" title="Same activity">AC</span>&nbsp;<span class="icon icon-up" title="Same level of uptake">UP</span>&nbsp;<span class="icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="icon icon-ty" title="Same service type">TY</span>&nbsp;</td>
+<td><a href="./60115.html">Latvian Information Agency INSPIRE data catalogue</a></td>
+<td>60%</td>      
+<td><span class="icon icon-it" title="Same technology">IT</span>&nbsp;<span class="icon icon-ge" title="Same geographic extent">GE</span>&nbsp;<span class="icon icon-ac" title="Same activity">AC</span>&nbsp;<span class="icon icon-up" title="Same level of uptake">UP</span>&nbsp;<span class="icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="icon icon-ty" title="Same service type">TY</span>&nbsp;</td>
 </tr>
 <tr>
-<td><a href="./60117.html">Latvian INSPIRE data catalogue</a></td>
-<td>70%</td>      
-<td><span class="icon icon-it" title="Same technology">IT</span>&nbsp;<span class="icon icon-ge" title="Same geographic extent">GE</span>&nbsp;<span class="icon icon-ps" title="Same primary sector">PS</span>&nbsp;<span class="icon icon-ac" title="Same activity">AC</span>&nbsp;<span class="icon icon-up" title="Same level of uptake">UP</span>&nbsp;<span class="icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="icon icon-ty" title="Same service type">TY</span>&nbsp;</td>
+<td><a href="./60116.html">Latvian INSPIRE data catalogue</a></td>
+<td>60%</td>      
+<td><span class="icon icon-it" title="Same technology">IT</span>&nbsp;<span class="icon icon-ge" title="Same geographic extent">GE</span>&nbsp;<span class="icon icon-ac" title="Same activity">AC</span>&nbsp;<span class="icon icon-up" title="Same level of uptake">UP</span>&nbsp;<span class="icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="icon icon-ty" title="Same service type">TY</span>&nbsp;</td>
 </tr>
 <tr>
-<td><a href="./60118.html">Liechenstein INSPIRE data catalogue</a></td>
-<td>70%</td>      
-<td><span class="icon icon-it" title="Same technology">IT</span>&nbsp;<span class="icon icon-ge" title="Same geographic extent">GE</span>&nbsp;<span class="icon icon-ps" title="Same primary sector">PS</span>&nbsp;<span class="icon icon-ac" title="Same activity">AC</span>&nbsp;<span class="icon icon-up" title="Same level of uptake">UP</span>&nbsp;<span class="icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="icon icon-ty" title="Same service type">TY</span>&nbsp;</td>
+<td><a href="./60117.html">Liechenstein INSPIRE data catalogue</a></td>
+<td>60%</td>      
+<td><span class="icon icon-it" title="Same technology">IT</span>&nbsp;<span class="icon icon-ge" title="Same geographic extent">GE</span>&nbsp;<span class="icon icon-ac" title="Same activity">AC</span>&nbsp;<span class="icon icon-up" title="Same level of uptake">UP</span>&nbsp;<span class="icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="icon icon-ty" title="Same service type">TY</span>&nbsp;</td>
 </tr>
 <tr>
-<td><a href="./60119.html">Lithuania INSPIRE data catalogue</a></td>
-<td>70%</td>      
-<td><span class="icon icon-it" title="Same technology">IT</span>&nbsp;<span class="icon icon-ge" title="Same geographic extent">GE</span>&nbsp;<span class="icon icon-ps" title="Same primary sector">PS</span>&nbsp;<span class="icon icon-ac" title="Same activity">AC</span>&nbsp;<span class="icon icon-up" title="Same level of uptake">UP</span>&nbsp;<span class="icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="icon icon-ty" title="Same service type">TY</span>&nbsp;</td>
+<td><a href="./60118.html">Lithuania INSPIRE data catalogue</a></td>
+<td>60%</td>      
+<td><span class="icon icon-it" title="Same technology">IT</span>&nbsp;<span class="icon icon-ge" title="Same geographic extent">GE</span>&nbsp;<span class="icon icon-ac" title="Same activity">AC</span>&nbsp;<span class="icon icon-up" title="Same level of uptake">UP</span>&nbsp;<span class="icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="icon icon-ty" title="Same service type">TY</span>&nbsp;</td>
 </tr>
 <tr>
-<td><a href="./60120.html">Luxembourg INSPIRE data catalogue</a></td>
-<td>70%</td>      
-<td><span class="icon icon-it" title="Same technology">IT</span>&nbsp;<span class="icon icon-ge" title="Same geographic extent">GE</span>&nbsp;<span class="icon icon-ps" title="Same primary sector">PS</span>&nbsp;<span class="icon icon-ac" title="Same activity">AC</span>&nbsp;<span class="icon icon-up" title="Same level of uptake">UP</span>&nbsp;<span class="icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="icon icon-ty" title="Same service type">TY</span>&nbsp;</td>
+<td><a href="./60119.html">Luxembourg INSPIRE data catalogue</a></td>
+<td>60%</td>      
+<td><span class="icon icon-it" title="Same technology">IT</span>&nbsp;<span class="icon icon-ge" title="Same geographic extent">GE</span>&nbsp;<span class="icon icon-ac" title="Same activity">AC</span>&nbsp;<span class="icon icon-up" title="Same level of uptake">UP</span>&nbsp;<span class="icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="icon icon-ty" title="Same service type">TY</span>&nbsp;</td>
 </tr>
 <tr>
-<td><a href="./60121.html">LuxHub banking</a></td>
+<td><a href="./60120.html">LuxHub banking</a></td>
 <td>40%</td>      
 <td><span class="icon icon-it" title="Same technology">IT</span>&nbsp;<span class="icon icon-ac" title="Same activity">AC</span>&nbsp;<span class="icon icon-up" title="Same level of uptake">UP</span>&nbsp;<span class="icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;</td>
 </tr>
 <tr>
-<td><a href="./60122.html">National Library Luxembourg</a></td>
+<td><a href="./60121.html">National Library Luxembourg</a></td>
 <td>60%</td>      
 <td><span class="icon icon-it" title="Same technology">IT</span>&nbsp;<span class="icon icon-ge" title="Same geographic extent">GE</span>&nbsp;<span class="icon icon-ac" title="Same activity">AC</span>&nbsp;<span class="icon icon-up" title="Same level of uptake">UP</span>&nbsp;<span class="icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="icon icon-ty" title="Same service type">TY</span>&nbsp;</td>
 </tr>
 <tr>
-<td><a href="./60123.html">Malta INSPIRE data catalogue</a></td>
-<td>70%</td>      
-<td><span class="icon icon-it" title="Same technology">IT</span>&nbsp;<span class="icon icon-ge" title="Same geographic extent">GE</span>&nbsp;<span class="icon icon-ps" title="Same primary sector">PS</span>&nbsp;<span class="icon icon-ac" title="Same activity">AC</span>&nbsp;<span class="icon icon-up" title="Same level of uptake">UP</span>&nbsp;<span class="icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="icon icon-ty" title="Same service type">TY</span>&nbsp;</td>
+<td><a href="./60122.html">Malta INSPIRE data catalogue</a></td>
+<td>60%</td>      
+<td><span class="icon icon-it" title="Same technology">IT</span>&nbsp;<span class="icon icon-ge" title="Same geographic extent">GE</span>&nbsp;<span class="icon icon-ac" title="Same activity">AC</span>&nbsp;<span class="icon icon-up" title="Same level of uptake">UP</span>&nbsp;<span class="icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="icon icon-ty" title="Same service type">TY</span>&nbsp;</td>
 </tr>
 <tr>
-<td><a href="./60124.html">City Dashboard Amsterdam</a></td>
+<td><a href="./60123.html">City Dashboard Amsterdam</a></td>
 <td>30%</td>      
 <td><span class="icon icon-it" title="Same technology">IT</span>&nbsp;<span class="icon icon-ac" title="Same activity">AC</span>&nbsp;<span class="icon icon-up" title="Same level of uptake">UP</span>&nbsp;</td>
 </tr>
 <tr>
-<td><a href="./60125.html">Antwerp City Platform as a Service (ACPaaS)</a></td>
+<td><a href="./60124.html">Antwerp City Platform as a Service (ACPaaS)</a></td>
 <td>30%</td>      
 <td><span class="icon icon-it" title="Same technology">IT</span>&nbsp;<span class="icon icon-ac" title="Same activity">AC</span>&nbsp;<span class="icon icon-up" title="Same level of uptake">UP</span>&nbsp;</td>
 </tr>
 <tr>
-<td><a href="./60126.html">Eindhoven Data</a></td>
+<td><a href="./60125.html">Eindhoven Data</a></td>
 <td>40%</td>      
 <td><span class="icon icon-it" title="Same technology">IT</span>&nbsp;<span class="icon icon-ac" title="Same activity">AC</span>&nbsp;<span class="icon icon-up" title="Same level of uptake">UP</span>&nbsp;<span class="icon icon-ty" title="Same service type">TY</span>&nbsp;</td>
 </tr>
 <tr>
-<td><a href="./60127.html">Netherlands data</a></td>
+<td><a href="./60126.html">Netherlands data</a></td>
 <td>50%</td>      
 <td><span class="icon icon-it" title="Same technology">IT</span>&nbsp;<span class="icon icon-ge" title="Same geographic extent">GE</span>&nbsp;<span class="icon icon-ac" title="Same activity">AC</span>&nbsp;<span class="icon icon-up" title="Same level of uptake">UP</span>&nbsp;<span class="icon icon-ty" title="Same service type">TY</span>&nbsp;</td>
 </tr>
 <tr>
-<td><a href="./60128.html">Netherlands INSPIRE data catalogue</a></td>
-<td>70%</td>      
-<td><span class="icon icon-it" title="Same technology">IT</span>&nbsp;<span class="icon icon-ge" title="Same geographic extent">GE</span>&nbsp;<span class="icon icon-ps" title="Same primary sector">PS</span>&nbsp;<span class="icon icon-ac" title="Same activity">AC</span>&nbsp;<span class="icon icon-up" title="Same level of uptake">UP</span>&nbsp;<span class="icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="icon icon-ty" title="Same service type">TY</span>&nbsp;</td>
-</tr>
-<tr>
-<td><a href="./60129.html">Netherlands KB national library</a></td>
+<td><a href="./60127.html">Netherlands INSPIRE data catalogue</a></td>
 <td>60%</td>      
 <td><span class="icon icon-it" title="Same technology">IT</span>&nbsp;<span class="icon icon-ge" title="Same geographic extent">GE</span>&nbsp;<span class="icon icon-ac" title="Same activity">AC</span>&nbsp;<span class="icon icon-up" title="Same level of uptake">UP</span>&nbsp;<span class="icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="icon icon-ty" title="Same service type">TY</span>&nbsp;</td>
 </tr>
 <tr>
-<td><a href="./60130.html">Netherlands Open Dutch Chamber of Commerce</a></td>
+<td><a href="./60128.html">Netherlands KB national library</a></td>
 <td>60%</td>      
 <td><span class="icon icon-it" title="Same technology">IT</span>&nbsp;<span class="icon icon-ge" title="Same geographic extent">GE</span>&nbsp;<span class="icon icon-ac" title="Same activity">AC</span>&nbsp;<span class="icon icon-up" title="Same level of uptake">UP</span>&nbsp;<span class="icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="icon icon-ty" title="Same service type">TY</span>&nbsp;</td>
 </tr>
 <tr>
-<td><a href="./60131.html">Netherlands Public Services On the Map</a></td>
+<td><a href="./60129.html">Netherlands Open Dutch Chamber of Commerce</a></td>
 <td>60%</td>      
-<td><span class="icon icon-it" title="Same technology">IT</span>&nbsp;<span class="icon icon-ge" title="Same geographic extent">GE</span>&nbsp;<span class="icon icon-ps" title="Same primary sector">PS</span>&nbsp;<span class="icon icon-ac" title="Same activity">AC</span>&nbsp;<span class="icon icon-up" title="Same level of uptake">UP</span>&nbsp;<span class="icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;</td>
+<td><span class="icon icon-it" title="Same technology">IT</span>&nbsp;<span class="icon icon-ge" title="Same geographic extent">GE</span>&nbsp;<span class="icon icon-ac" title="Same activity">AC</span>&nbsp;<span class="icon icon-up" title="Same level of uptake">UP</span>&nbsp;<span class="icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="icon icon-ty" title="Same service type">TY</span>&nbsp;</td>
 </tr>
 <tr>
-<td><a href="./60132.html">Netherlands public transportation sector</a></td>
+<td><a href="./60130.html">Netherlands Public Services On the Map</a></td>
 <td>50%</td>      
 <td><span class="icon icon-it" title="Same technology">IT</span>&nbsp;<span class="icon icon-ge" title="Same geographic extent">GE</span>&nbsp;<span class="icon icon-ac" title="Same activity">AC</span>&nbsp;<span class="icon icon-up" title="Same level of uptake">UP</span>&nbsp;<span class="icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;</td>
 </tr>
 <tr>
-<td><a href="./60133.html">Netherlands Rijksmuseum</a></td>
-<td>60%</td>      
-<td><span class="icon icon-it" title="Same technology">IT</span>&nbsp;<span class="icon icon-ge" title="Same geographic extent">GE</span>&nbsp;<span class="icon icon-ac" title="Same activity">AC</span>&nbsp;<span class="icon icon-up" title="Same level of uptake">UP</span>&nbsp;<span class="icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="icon icon-ty" title="Same service type">TY</span>&nbsp;</td>
-</tr>
-<tr>
-<td><a href="./60134.html">Netherlands Schools</a></td>
+<td><a href="./60131.html">Netherlands public transportation sector</a></td>
 <td>50%</td>      
 <td><span class="icon icon-it" title="Same technology">IT</span>&nbsp;<span class="icon icon-ge" title="Same geographic extent">GE</span>&nbsp;<span class="icon icon-ac" title="Same activity">AC</span>&nbsp;<span class="icon icon-up" title="Same level of uptake">UP</span>&nbsp;<span class="icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;</td>
 </tr>
 <tr>
-<td><a href="./60135.html">Norway INSPIRE data catalogue</a></td>
-<td>70%</td>      
-<td><span class="icon icon-it" title="Same technology">IT</span>&nbsp;<span class="icon icon-ge" title="Same geographic extent">GE</span>&nbsp;<span class="icon icon-ps" title="Same primary sector">PS</span>&nbsp;<span class="icon icon-ac" title="Same activity">AC</span>&nbsp;<span class="icon icon-up" title="Same level of uptake">UP</span>&nbsp;<span class="icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="icon icon-ty" title="Same service type">TY</span>&nbsp;</td>
-</tr>
-<tr>
-<td><a href="./60136.html">Poland INSPIRE data catalogue</a></td>
-<td>70%</td>      
-<td><span class="icon icon-it" title="Same technology">IT</span>&nbsp;<span class="icon icon-ge" title="Same geographic extent">GE</span>&nbsp;<span class="icon icon-ps" title="Same primary sector">PS</span>&nbsp;<span class="icon icon-ac" title="Same activity">AC</span>&nbsp;<span class="icon icon-up" title="Same level of uptake">UP</span>&nbsp;<span class="icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="icon icon-ty" title="Same service type">TY</span>&nbsp;</td>
-</tr>
-<tr>
-<td><a href="./60137.html">Web Service TAX FREE</a></td>
-<td>50%</td>      
-<td><span class="icon icon-it" title="Same technology">IT</span>&nbsp;<span class="icon icon-ge" title="Same geographic extent">GE</span>&nbsp;<span class="icon icon-ac" title="Same activity">AC</span>&nbsp;<span class="icon icon-up" title="Same level of uptake">UP</span>&nbsp;<span class="icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;</td>
-</tr>
-<tr>
-<td><a href="./60138.html">Portugal INSPIRE data catalogue</a></td>
-<td>70%</td>      
-<td><span class="icon icon-it" title="Same technology">IT</span>&nbsp;<span class="icon icon-ge" title="Same geographic extent">GE</span>&nbsp;<span class="icon icon-ps" title="Same primary sector">PS</span>&nbsp;<span class="icon icon-ac" title="Same activity">AC</span>&nbsp;<span class="icon icon-up" title="Same level of uptake">UP</span>&nbsp;<span class="icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="icon icon-ty" title="Same service type">TY</span>&nbsp;</td>
-</tr>
-<tr>
-<td><a href="./60139.html">Portugal National Health Service</a></td>
+<td><a href="./60132.html">Netherlands Rijksmuseum</a></td>
 <td>60%</td>      
 <td><span class="icon icon-it" title="Same technology">IT</span>&nbsp;<span class="icon icon-ge" title="Same geographic extent">GE</span>&nbsp;<span class="icon icon-ac" title="Same activity">AC</span>&nbsp;<span class="icon icon-up" title="Same level of uptake">UP</span>&nbsp;<span class="icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="icon icon-ty" title="Same service type">TY</span>&nbsp;</td>
 </tr>
 <tr>
-<td><a href="./60140.html">Romania INSPIRE data catalogue</a></td>
-<td>70%</td>      
-<td><span class="icon icon-it" title="Same technology">IT</span>&nbsp;<span class="icon icon-ge" title="Same geographic extent">GE</span>&nbsp;<span class="icon icon-ps" title="Same primary sector">PS</span>&nbsp;<span class="icon icon-ac" title="Same activity">AC</span>&nbsp;<span class="icon icon-up" title="Same level of uptake">UP</span>&nbsp;<span class="icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="icon icon-ty" title="Same service type">TY</span>&nbsp;</td>
+<td><a href="./60133.html">Netherlands Schools</a></td>
+<td>50%</td>      
+<td><span class="icon icon-it" title="Same technology">IT</span>&nbsp;<span class="icon icon-ge" title="Same geographic extent">GE</span>&nbsp;<span class="icon icon-ac" title="Same activity">AC</span>&nbsp;<span class="icon icon-up" title="Same level of uptake">UP</span>&nbsp;<span class="icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;</td>
 </tr>
 <tr>
-<td><a href="./60141.html">Slovakia Data</a></td>
+<td><a href="./60134.html">Norway INSPIRE data catalogue</a></td>
+<td>60%</td>      
+<td><span class="icon icon-it" title="Same technology">IT</span>&nbsp;<span class="icon icon-ge" title="Same geographic extent">GE</span>&nbsp;<span class="icon icon-ac" title="Same activity">AC</span>&nbsp;<span class="icon icon-up" title="Same level of uptake">UP</span>&nbsp;<span class="icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="icon icon-ty" title="Same service type">TY</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./60135.html">Poland INSPIRE data catalogue</a></td>
+<td>60%</td>      
+<td><span class="icon icon-it" title="Same technology">IT</span>&nbsp;<span class="icon icon-ge" title="Same geographic extent">GE</span>&nbsp;<span class="icon icon-ac" title="Same activity">AC</span>&nbsp;<span class="icon icon-up" title="Same level of uptake">UP</span>&nbsp;<span class="icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="icon icon-ty" title="Same service type">TY</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./60136.html">Web Service TAX FREE</a></td>
+<td>50%</td>      
+<td><span class="icon icon-it" title="Same technology">IT</span>&nbsp;<span class="icon icon-ge" title="Same geographic extent">GE</span>&nbsp;<span class="icon icon-ac" title="Same activity">AC</span>&nbsp;<span class="icon icon-up" title="Same level of uptake">UP</span>&nbsp;<span class="icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./60137.html">Portugal INSPIRE data catalogue</a></td>
+<td>60%</td>      
+<td><span class="icon icon-it" title="Same technology">IT</span>&nbsp;<span class="icon icon-ge" title="Same geographic extent">GE</span>&nbsp;<span class="icon icon-ac" title="Same activity">AC</span>&nbsp;<span class="icon icon-up" title="Same level of uptake">UP</span>&nbsp;<span class="icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="icon icon-ty" title="Same service type">TY</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./60138.html">Portugal National Health Service</a></td>
+<td>60%</td>      
+<td><span class="icon icon-it" title="Same technology">IT</span>&nbsp;<span class="icon icon-ge" title="Same geographic extent">GE</span>&nbsp;<span class="icon icon-ac" title="Same activity">AC</span>&nbsp;<span class="icon icon-up" title="Same level of uptake">UP</span>&nbsp;<span class="icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="icon icon-ty" title="Same service type">TY</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./60139.html">Romania INSPIRE data catalogue</a></td>
+<td>60%</td>      
+<td><span class="icon icon-it" title="Same technology">IT</span>&nbsp;<span class="icon icon-ge" title="Same geographic extent">GE</span>&nbsp;<span class="icon icon-ac" title="Same activity">AC</span>&nbsp;<span class="icon icon-up" title="Same level of uptake">UP</span>&nbsp;<span class="icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="icon icon-ty" title="Same service type">TY</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./60140.html">Slovakia Data</a></td>
 <td>50%</td>      
 <td><span class="icon icon-it" title="Same technology">IT</span>&nbsp;<span class="icon icon-ge" title="Same geographic extent">GE</span>&nbsp;<span class="icon icon-ac" title="Same activity">AC</span>&nbsp;<span class="icon icon-up" title="Same level of uptake">UP</span>&nbsp;<span class="icon icon-ty" title="Same service type">TY</span>&nbsp;</td>
 </tr>
 <tr>
-<td><a href="./60142.html">Slovakia INSPIRE data catalogue</a></td>
-<td>70%</td>      
-<td><span class="icon icon-it" title="Same technology">IT</span>&nbsp;<span class="icon icon-ge" title="Same geographic extent">GE</span>&nbsp;<span class="icon icon-ps" title="Same primary sector">PS</span>&nbsp;<span class="icon icon-ac" title="Same activity">AC</span>&nbsp;<span class="icon icon-up" title="Same level of uptake">UP</span>&nbsp;<span class="icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="icon icon-ty" title="Same service type">TY</span>&nbsp;</td>
+<td><a href="./60141.html">Slovakia INSPIRE data catalogue</a></td>
+<td>60%</td>      
+<td><span class="icon icon-it" title="Same technology">IT</span>&nbsp;<span class="icon icon-ge" title="Same geographic extent">GE</span>&nbsp;<span class="icon icon-ac" title="Same activity">AC</span>&nbsp;<span class="icon icon-up" title="Same level of uptake">UP</span>&nbsp;<span class="icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="icon icon-ty" title="Same service type">TY</span>&nbsp;</td>
 </tr>
 <tr>
-<td><a href="./60143.html">Slovenia INSPIRE data catalogue</a></td>
-<td>70%</td>      
-<td><span class="icon icon-it" title="Same technology">IT</span>&nbsp;<span class="icon icon-ge" title="Same geographic extent">GE</span>&nbsp;<span class="icon icon-ps" title="Same primary sector">PS</span>&nbsp;<span class="icon icon-ac" title="Same activity">AC</span>&nbsp;<span class="icon icon-up" title="Same level of uptake">UP</span>&nbsp;<span class="icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="icon icon-ty" title="Same service type">TY</span>&nbsp;</td>
+<td><a href="./60142.html">Slovenia INSPIRE data catalogue</a></td>
+<td>60%</td>      
+<td><span class="icon icon-it" title="Same technology">IT</span>&nbsp;<span class="icon icon-ge" title="Same geographic extent">GE</span>&nbsp;<span class="icon icon-ac" title="Same activity">AC</span>&nbsp;<span class="icon icon-up" title="Same level of uptake">UP</span>&nbsp;<span class="icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="icon icon-ty" title="Same service type">TY</span>&nbsp;</td>
 </tr>
 <tr>
-<td><a href="./60144.html">Aragon OpenData</a></td>
+<td><a href="./60143.html">Aragon OpenData</a></td>
 <td>40%</td>      
 <td><span class="icon icon-it" title="Same technology">IT</span>&nbsp;<span class="icon icon-ac" title="Same activity">AC</span>&nbsp;<span class="icon icon-up" title="Same level of uptake">UP</span>&nbsp;<span class="icon icon-ty" title="Same service type">TY</span>&nbsp;</td>
 </tr>
 <tr>
-<td><a href="./60145.html">Barcelona Open Data</a></td>
+<td><a href="./60144.html">Barcelona Open Data</a></td>
 <td>40%</td>      
 <td><span class="icon icon-it" title="Same technology">IT</span>&nbsp;<span class="icon icon-ac" title="Same activity">AC</span>&nbsp;<span class="icon icon-up" title="Same level of uptake">UP</span>&nbsp;<span class="icon icon-ty" title="Same service type">TY</span>&nbsp;</td>
 </tr>
 <tr>
-<td><a href="./60146.html">Barcelona Sentilo</a></td>
+<td><a href="./60145.html">Barcelona Sentilo</a></td>
 <td>20%</td>      
 <td><span class="icon icon-ac" title="Same activity">AC</span>&nbsp;<span class="icon icon-up" title="Same level of uptake">UP</span>&nbsp;</td>
 </tr>
 <tr>
-<td><a href="./60147.html">Cantabria Statistics</a></td>
+<td><a href="./60146.html">Cantabria Statistics</a></td>
 <td>50%</td>      
 <td><span class="icon icon-it" title="Same technology">IT</span>&nbsp;<span class="icon icon-ac" title="Same activity">AC</span>&nbsp;<span class="icon icon-up" title="Same level of uptake">UP</span>&nbsp;<span class="icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="icon icon-ty" title="Same service type">TY</span>&nbsp;</td>
 </tr>
 <tr>
-<td><a href="./60148.html">Catalunya Statistics</a></td>
+<td><a href="./60147.html">Catalunya Statistics</a></td>
 <td>50%</td>      
 <td><span class="icon icon-it" title="Same technology">IT</span>&nbsp;<span class="icon icon-ac" title="Same activity">AC</span>&nbsp;<span class="icon icon-up" title="Same level of uptake">UP</span>&nbsp;<span class="icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="icon icon-ty" title="Same service type">TY</span>&nbsp;</td>
 </tr>
 <tr>
-<td><a href="./60149.html">Galicia Meteo</a></td>
+<td><a href="./60148.html">Galicia Meteo</a></td>
 <td>40%</td>      
 <td><span class="icon icon-it" title="Same technology">IT</span>&nbsp;<span class="icon icon-ac" title="Same activity">AC</span>&nbsp;<span class="icon icon-up" title="Same level of uptake">UP</span>&nbsp;<span class="icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;</td>
 </tr>
 <tr>
-<td><a href="./60150.html">Madrid MobilityLabs</a></td>
+<td><a href="./60149.html">Madrid MobilityLabs</a></td>
 <td>50%</td>      
 <td><span class="icon icon-it" title="Same technology">IT</span>&nbsp;<span class="icon icon-ac" title="Same activity">AC</span>&nbsp;<span class="icon icon-up" title="Same level of uptake">UP</span>&nbsp;<span class="icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="icon icon-ty" title="Same service type">TY</span>&nbsp;</td>
 </tr>
 <tr>
-<td><a href="./60151.html">Spain Data</a></td>
+<td><a href="./60150.html">Spain Data</a></td>
 <td>50%</td>      
 <td><span class="icon icon-it" title="Same technology">IT</span>&nbsp;<span class="icon icon-ge" title="Same geographic extent">GE</span>&nbsp;<span class="icon icon-ac" title="Same activity">AC</span>&nbsp;<span class="icon icon-up" title="Same level of uptake">UP</span>&nbsp;<span class="icon icon-ty" title="Same service type">TY</span>&nbsp;</td>
 </tr>
 <tr>
-<td><a href="./60152.html">Spain INSPIRE data catalogue</a></td>
-<td>70%</td>      
-<td><span class="icon icon-it" title="Same technology">IT</span>&nbsp;<span class="icon icon-ge" title="Same geographic extent">GE</span>&nbsp;<span class="icon icon-ps" title="Same primary sector">PS</span>&nbsp;<span class="icon icon-ac" title="Same activity">AC</span>&nbsp;<span class="icon icon-up" title="Same level of uptake">UP</span>&nbsp;<span class="icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="icon icon-ty" title="Same service type">TY</span>&nbsp;</td>
-</tr>
-<tr>
-<td><a href="./60153.html">University of Alicante data</a></td>
-<td>40%</td>      
-<td><span class="icon icon-it" title="Same technology">IT</span>&nbsp;<span class="icon icon-ac" title="Same activity">AC</span>&nbsp;<span class="icon icon-up" title="Same level of uptake">UP</span>&nbsp;<span class="icon icon-ty" title="Same service type">TY</span>&nbsp;</td>
-</tr>
-<tr>
-<td><a href="./60154.html">Zaragoza Open Data</a></td>
-<td>40%</td>      
-<td><span class="icon icon-it" title="Same technology">IT</span>&nbsp;<span class="icon icon-ac" title="Same activity">AC</span>&nbsp;<span class="icon icon-up" title="Same level of uptake">UP</span>&nbsp;<span class="icon icon-ty" title="Same service type">TY</span>&nbsp;</td>
-</tr>
-<tr>
-<td><a href="./60155.html">Sweden INSPIRE data catalogue</a></td>
-<td>70%</td>      
-<td><span class="icon icon-it" title="Same technology">IT</span>&nbsp;<span class="icon icon-ge" title="Same geographic extent">GE</span>&nbsp;<span class="icon icon-ps" title="Same primary sector">PS</span>&nbsp;<span class="icon icon-ac" title="Same activity">AC</span>&nbsp;<span class="icon icon-up" title="Same level of uptake">UP</span>&nbsp;<span class="icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="icon icon-ty" title="Same service type">TY</span>&nbsp;</td>
-</tr>
-<tr>
-<td><a href="./60156.html">Sweden OpenAid</a></td>
+<td><a href="./60151.html">Spain INSPIRE data catalogue</a></td>
 <td>60%</td>      
 <td><span class="icon icon-it" title="Same technology">IT</span>&nbsp;<span class="icon icon-ge" title="Same geographic extent">GE</span>&nbsp;<span class="icon icon-ac" title="Same activity">AC</span>&nbsp;<span class="icon icon-up" title="Same level of uptake">UP</span>&nbsp;<span class="icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="icon icon-ty" title="Same service type">TY</span>&nbsp;</td>
 </tr>
 <tr>
-<td><a href="./60157.html">Sweden Parliament</a></td>
-<td>60%</td>      
-<td><span class="icon icon-it" title="Same technology">IT</span>&nbsp;<span class="icon icon-ge" title="Same geographic extent">GE</span>&nbsp;<span class="icon icon-ac" title="Same activity">AC</span>&nbsp;<span class="icon icon-up" title="Same level of uptake">UP</span>&nbsp;<span class="icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="icon icon-ty" title="Same service type">TY</span>&nbsp;</td>
-</tr>
-<tr>
-<td><a href="./60158.html">Sweden Stockholm data</a></td>
+<td><a href="./60152.html">University of Alicante data</a></td>
 <td>40%</td>      
 <td><span class="icon icon-it" title="Same technology">IT</span>&nbsp;<span class="icon icon-ac" title="Same activity">AC</span>&nbsp;<span class="icon icon-up" title="Same level of uptake">UP</span>&nbsp;<span class="icon icon-ty" title="Same service type">TY</span>&nbsp;</td>
 </tr>
 <tr>
-<td><a href="./60159.html">Switzerland INSPIRE data catalogue</a></td>
-<td>70%</td>      
-<td><span class="icon icon-it" title="Same technology">IT</span>&nbsp;<span class="icon icon-ge" title="Same geographic extent">GE</span>&nbsp;<span class="icon icon-ps" title="Same primary sector">PS</span>&nbsp;<span class="icon icon-ac" title="Same activity">AC</span>&nbsp;<span class="icon icon-up" title="Same level of uptake">UP</span>&nbsp;<span class="icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="icon icon-ty" title="Same service type">TY</span>&nbsp;</td>
+<td><a href="./60153.html">Zaragoza Open Data</a></td>
+<td>40%</td>      
+<td><span class="icon icon-it" title="Same technology">IT</span>&nbsp;<span class="icon icon-ac" title="Same activity">AC</span>&nbsp;<span class="icon icon-up" title="Same level of uptake">UP</span>&nbsp;<span class="icon icon-ty" title="Same service type">TY</span>&nbsp;</td>
 </tr>
 <tr>
-<td><a href="./60160.html">London DataStore</a></td>
+<td><a href="./60154.html">Sweden INSPIRE data catalogue</a></td>
+<td>60%</td>      
+<td><span class="icon icon-it" title="Same technology">IT</span>&nbsp;<span class="icon icon-ge" title="Same geographic extent">GE</span>&nbsp;<span class="icon icon-ac" title="Same activity">AC</span>&nbsp;<span class="icon icon-up" title="Same level of uptake">UP</span>&nbsp;<span class="icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="icon icon-ty" title="Same service type">TY</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./60155.html">Sweden OpenAid</a></td>
+<td>60%</td>      
+<td><span class="icon icon-it" title="Same technology">IT</span>&nbsp;<span class="icon icon-ge" title="Same geographic extent">GE</span>&nbsp;<span class="icon icon-ac" title="Same activity">AC</span>&nbsp;<span class="icon icon-up" title="Same level of uptake">UP</span>&nbsp;<span class="icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="icon icon-ty" title="Same service type">TY</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./60156.html">Sweden Parliament</a></td>
+<td>60%</td>      
+<td><span class="icon icon-it" title="Same technology">IT</span>&nbsp;<span class="icon icon-ge" title="Same geographic extent">GE</span>&nbsp;<span class="icon icon-ac" title="Same activity">AC</span>&nbsp;<span class="icon icon-up" title="Same level of uptake">UP</span>&nbsp;<span class="icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="icon icon-ty" title="Same service type">TY</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./60157.html">Sweden Stockholm data</a></td>
+<td>40%</td>      
+<td><span class="icon icon-it" title="Same technology">IT</span>&nbsp;<span class="icon icon-ac" title="Same activity">AC</span>&nbsp;<span class="icon icon-up" title="Same level of uptake">UP</span>&nbsp;<span class="icon icon-ty" title="Same service type">TY</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./60158.html">Switzerland INSPIRE data catalogue</a></td>
+<td>60%</td>      
+<td><span class="icon icon-it" title="Same technology">IT</span>&nbsp;<span class="icon icon-ge" title="Same geographic extent">GE</span>&nbsp;<span class="icon icon-ac" title="Same activity">AC</span>&nbsp;<span class="icon icon-up" title="Same level of uptake">UP</span>&nbsp;<span class="icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="icon icon-ty" title="Same service type">TY</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./60159.html">London DataStore</a></td>
 <td>50%</td>      
 <td><span class="icon icon-it" title="Same technology">IT</span>&nbsp;<span class="icon icon-gc" title="Overlapping geographic coverage">GC</span>&nbsp;<span class="icon icon-ac" title="Same activity">AC</span>&nbsp;<span class="icon icon-up" title="Same level of uptake">UP</span>&nbsp;<span class="icon icon-ty" title="Same service type">TY</span>&nbsp;</td>
 </tr>
 <tr>
-<td><a href="./60161.html">London Transport for London</a></td>
+<td><a href="./60160.html">London Transport for London</a></td>
 <td>50%</td>      
 <td><span class="icon icon-it" title="Same technology">IT</span>&nbsp;<span class="icon icon-gc" title="Overlapping geographic coverage">GC</span>&nbsp;<span class="icon icon-ac" title="Same activity">AC</span>&nbsp;<span class="icon icon-up" title="Same level of uptake">UP</span>&nbsp;<span class="icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;</td>
 </tr>
 <tr>
-<td><a href="./60162.html">The Guardian World gov data</a></td>
+<td><a href="./60161.html">The Guardian World gov data</a></td>
 <td>50%</td>      
 <td><span class="icon icon-it" title="Same technology">IT</span>&nbsp;<span class="icon icon-gc" title="Overlapping geographic coverage">GC</span>&nbsp;<span class="icon icon-ac" title="Same activity">AC</span>&nbsp;<span class="icon icon-up" title="Same level of uptake">UP</span>&nbsp;<span class="icon icon-ty" title="Same service type">TY</span>&nbsp;</td>
 </tr>
 <tr>
-<td><a href="./60163.html">UK AirQuality</a></td>
-<td>70%</td>      
-<td><span class="icon icon-it" title="Same technology">IT</span>&nbsp;<span class="icon icon-ge" title="Same geographic extent">GE</span>&nbsp;<span class="icon icon-gc" title="Overlapping geographic coverage">GC</span>&nbsp;<span class="icon icon-ps" title="Same primary sector">PS</span>&nbsp;<span class="icon icon-ac" title="Same activity">AC</span>&nbsp;<span class="icon icon-up" title="Same level of uptake">UP</span>&nbsp;<span class="icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;</td>
+<td><a href="./60162.html">UK AirQuality</a></td>
+<td>60%</td>      
+<td><span class="icon icon-it" title="Same technology">IT</span>&nbsp;<span class="icon icon-ge" title="Same geographic extent">GE</span>&nbsp;<span class="icon icon-gc" title="Overlapping geographic coverage">GC</span>&nbsp;<span class="icon icon-ac" title="Same activity">AC</span>&nbsp;<span class="icon icon-up" title="Same level of uptake">UP</span>&nbsp;<span class="icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;</td>
 </tr>
 <tr>
-<td><a href="./60164.html">UK BBC</a></td>
+<td><a href="./60163.html">UK BBC</a></td>
 <td>70%</td>      
 <td><span class="icon icon-it" title="Same technology">IT</span>&nbsp;<span class="icon icon-ge" title="Same geographic extent">GE</span>&nbsp;<span class="icon icon-gc" title="Overlapping geographic coverage">GC</span>&nbsp;<span class="icon icon-ac" title="Same activity">AC</span>&nbsp;<span class="icon icon-up" title="Same level of uptake">UP</span>&nbsp;<span class="icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="icon icon-ty" title="Same service type">TY</span>&nbsp;</td>
 </tr>
 <tr>
-<td><a href="./60165.html">UK Data</a></td>
+<td><a href="./60164.html">UK Data</a></td>
 <td>60%</td>      
 <td><span class="icon icon-it" title="Same technology">IT</span>&nbsp;<span class="icon icon-ge" title="Same geographic extent">GE</span>&nbsp;<span class="icon icon-gc" title="Overlapping geographic coverage">GC</span>&nbsp;<span class="icon icon-ac" title="Same activity">AC</span>&nbsp;<span class="icon icon-up" title="Same level of uptake">UP</span>&nbsp;<span class="icon icon-ty" title="Same service type">TY</span>&nbsp;</td>
 </tr>
 <tr>
-<td><a href="./60166.html">UK Directgov Syndication</a></td>
+<td><a href="./60165.html">UK Directgov Syndication</a></td>
 <td>70%</td>      
 <td><span class="icon icon-it" title="Same technology">IT</span>&nbsp;<span class="icon icon-ge" title="Same geographic extent">GE</span>&nbsp;<span class="icon icon-gc" title="Overlapping geographic coverage">GC</span>&nbsp;<span class="icon icon-ac" title="Same activity">AC</span>&nbsp;<span class="icon icon-up" title="Same level of uptake">UP</span>&nbsp;<span class="icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="icon icon-ty" title="Same service type">TY</span>&nbsp;</td>
 </tr>
 <tr>
-<td><a href="./60167.html">UK Find Your MP</a></td>
+<td><a href="./60166.html">UK Find Your MP</a></td>
 <td>70%</td>      
 <td><span class="icon icon-it" title="Same technology">IT</span>&nbsp;<span class="icon icon-ge" title="Same geographic extent">GE</span>&nbsp;<span class="icon icon-gc" title="Overlapping geographic coverage">GC</span>&nbsp;<span class="icon icon-ac" title="Same activity">AC</span>&nbsp;<span class="icon icon-up" title="Same level of uptake">UP</span>&nbsp;<span class="icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="icon icon-ty" title="Same service type">TY</span>&nbsp;</td>
 </tr>
 <tr>
-<td><a href="./60168.html">UK Fish register</a></td>
-<td>80%</td>      
-<td><span class="icon icon-it" title="Same technology">IT</span>&nbsp;<span class="icon icon-ge" title="Same geographic extent">GE</span>&nbsp;<span class="icon icon-gc" title="Overlapping geographic coverage">GC</span>&nbsp;<span class="icon icon-ps" title="Same primary sector">PS</span>&nbsp;<span class="icon icon-ac" title="Same activity">AC</span>&nbsp;<span class="icon icon-up" title="Same level of uptake">UP</span>&nbsp;<span class="icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="icon icon-ty" title="Same service type">TY</span>&nbsp;</td>
+<td><a href="./60167.html">UK Fish register</a></td>
+<td>70%</td>      
+<td><span class="icon icon-it" title="Same technology">IT</span>&nbsp;<span class="icon icon-ge" title="Same geographic extent">GE</span>&nbsp;<span class="icon icon-gc" title="Overlapping geographic coverage">GC</span>&nbsp;<span class="icon icon-ac" title="Same activity">AC</span>&nbsp;<span class="icon icon-up" title="Same level of uptake">UP</span>&nbsp;<span class="icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="icon icon-ty" title="Same service type">TY</span>&nbsp;</td>
 </tr>
 <tr>
-<td><a href="./60169.html">UK FoodGov</a></td>
+<td><a href="./60168.html">UK FoodGov</a></td>
 <td>60%</td>      
 <td><span class="icon icon-it" title="Same technology">IT</span>&nbsp;<span class="icon icon-ge" title="Same geographic extent">GE</span>&nbsp;<span class="icon icon-gc" title="Overlapping geographic coverage">GC</span>&nbsp;<span class="icon icon-ac" title="Same activity">AC</span>&nbsp;<span class="icon icon-up" title="Same level of uptake">UP</span>&nbsp;<span class="icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;</td>
 </tr>
 <tr>
-<td><a href="./60170.html">UK Gateway to Research</a></td>
+<td><a href="./60169.html">UK Gateway to Research</a></td>
 <td>60%</td>      
 <td><span class="icon icon-it" title="Same technology">IT</span>&nbsp;<span class="icon icon-ge" title="Same geographic extent">GE</span>&nbsp;<span class="icon icon-gc" title="Overlapping geographic coverage">GC</span>&nbsp;<span class="icon icon-ac" title="Same activity">AC</span>&nbsp;<span class="icon icon-up" title="Same level of uptake">UP</span>&nbsp;<span class="icon icon-ty" title="Same service type">TY</span>&nbsp;</td>
 </tr>
 <tr>
-<td><a href="./60171.html">UK Her Majesty Revenue and Costs (HMRC)</a></td>
+<td><a href="./60170.html">UK Her Majesty Revenue and Costs (HMRC)</a></td>
 <td>60%</td>      
 <td><span class="icon icon-it" title="Same technology">IT</span>&nbsp;<span class="icon icon-ge" title="Same geographic extent">GE</span>&nbsp;<span class="icon icon-gc" title="Overlapping geographic coverage">GC</span>&nbsp;<span class="icon icon-ac" title="Same activity">AC</span>&nbsp;<span class="icon icon-up" title="Same level of uptake">UP</span>&nbsp;<span class="icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;</td>
 </tr>
 <tr>
-<td><a href="./60172.html">UK INSPIRE data catalogue</a></td>
-<td>80%</td>      
-<td><span class="icon icon-it" title="Same technology">IT</span>&nbsp;<span class="icon icon-ge" title="Same geographic extent">GE</span>&nbsp;<span class="icon icon-gc" title="Overlapping geographic coverage">GC</span>&nbsp;<span class="icon icon-ps" title="Same primary sector">PS</span>&nbsp;<span class="icon icon-ac" title="Same activity">AC</span>&nbsp;<span class="icon icon-up" title="Same level of uptake">UP</span>&nbsp;<span class="icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="icon icon-ty" title="Same service type">TY</span>&nbsp;</td>
+<td><a href="./60171.html">UK INSPIRE data catalogue</a></td>
+<td>70%</td>      
+<td><span class="icon icon-it" title="Same technology">IT</span>&nbsp;<span class="icon icon-ge" title="Same geographic extent">GE</span>&nbsp;<span class="icon icon-gc" title="Overlapping geographic coverage">GC</span>&nbsp;<span class="icon icon-ac" title="Same activity">AC</span>&nbsp;<span class="icon icon-up" title="Same level of uptake">UP</span>&nbsp;<span class="icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="icon icon-ty" title="Same service type">TY</span>&nbsp;</td>
 </tr>
 <tr>
-<td><a href="./60173.html">UK Institute development studies</a></td>
+<td><a href="./60172.html">UK Institute development studies</a></td>
 <td>60%</td>      
 <td><span class="icon icon-it" title="Same technology">IT</span>&nbsp;<span class="icon icon-ge" title="Same geographic extent">GE</span>&nbsp;<span class="icon icon-gc" title="Overlapping geographic coverage">GC</span>&nbsp;<span class="icon icon-ac" title="Same activity">AC</span>&nbsp;<span class="icon icon-up" title="Same level of uptake">UP</span>&nbsp;<span class="icon icon-ty" title="Same service type">TY</span>&nbsp;</td>
 </tr>
 <tr>
-<td><a href="./60174.html">UK Legislation</a></td>
+<td><a href="./60173.html">UK Legislation</a></td>
 <td>70%</td>      
 <td><span class="icon icon-it" title="Same technology">IT</span>&nbsp;<span class="icon icon-ge" title="Same geographic extent">GE</span>&nbsp;<span class="icon icon-gc" title="Overlapping geographic coverage">GC</span>&nbsp;<span class="icon icon-ac" title="Same activity">AC</span>&nbsp;<span class="icon icon-up" title="Same level of uptake">UP</span>&nbsp;<span class="icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="icon icon-ty" title="Same service type">TY</span>&nbsp;</td>
 </tr>
 <tr>
-<td><a href="./60175.html">UK local government association Effective Service Delivery</a></td>
+<td><a href="./60174.html">UK local government association Effective Service Delivery</a></td>
 <td>70%</td>      
 <td><span class="icon icon-it" title="Same technology">IT</span>&nbsp;<span class="icon icon-ge" title="Same geographic extent">GE</span>&nbsp;<span class="icon icon-gc" title="Overlapping geographic coverage">GC</span>&nbsp;<span class="icon icon-ac" title="Same activity">AC</span>&nbsp;<span class="icon icon-up" title="Same level of uptake">UP</span>&nbsp;<span class="icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="icon icon-ty" title="Same service type">TY</span>&nbsp;</td>
 </tr>
 <tr>
-<td><a href="./60176.html">UK Meteo Office Weather Observations</a></td>
+<td><a href="./60175.html">UK Meteo Office Weather Observations</a></td>
 <td>70%</td>      
 <td><span class="icon icon-it" title="Same technology">IT</span>&nbsp;<span class="icon icon-ge" title="Same geographic extent">GE</span>&nbsp;<span class="icon icon-gc" title="Overlapping geographic coverage">GC</span>&nbsp;<span class="icon icon-ac" title="Same activity">AC</span>&nbsp;<span class="icon icon-up" title="Same level of uptake">UP</span>&nbsp;<span class="icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="icon icon-ty" title="Same service type">TY</span>&nbsp;</td>
 </tr>
 <tr>
-<td><a href="./60177.html">UK National archives</a></td>
+<td><a href="./60176.html">UK National archives</a></td>
 <td>70%</td>      
 <td><span class="icon icon-it" title="Same technology">IT</span>&nbsp;<span class="icon icon-ge" title="Same geographic extent">GE</span>&nbsp;<span class="icon icon-gc" title="Overlapping geographic coverage">GC</span>&nbsp;<span class="icon icon-ac" title="Same activity">AC</span>&nbsp;<span class="icon icon-up" title="Same level of uptake">UP</span>&nbsp;<span class="icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="icon icon-ty" title="Same service type">TY</span>&nbsp;</td>
 </tr>
 <tr>
-<td><a href="./60178.html">UK National Health System</a></td>
+<td><a href="./60177.html">UK National Health System</a></td>
 <td>60%</td>      
 <td><span class="icon icon-it" title="Same technology">IT</span>&nbsp;<span class="icon icon-ge" title="Same geographic extent">GE</span>&nbsp;<span class="icon icon-gc" title="Overlapping geographic coverage">GC</span>&nbsp;<span class="icon icon-ac" title="Same activity">AC</span>&nbsp;<span class="icon icon-up" title="Same level of uptake">UP</span>&nbsp;<span class="icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;</td>
 </tr>
 <tr>
-<td><a href="./60179.html">UK Next buses</a></td>
+<td><a href="./60178.html">UK Next buses</a></td>
 <td>60%</td>      
 <td><span class="icon icon-it" title="Same technology">IT</span>&nbsp;<span class="icon icon-ge" title="Same geographic extent">GE</span>&nbsp;<span class="icon icon-gc" title="Overlapping geographic coverage">GC</span>&nbsp;<span class="icon icon-ac" title="Same activity">AC</span>&nbsp;<span class="icon icon-up" title="Same level of uptake">UP</span>&nbsp;<span class="icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;</td>
 </tr>
 <tr>
-<td><a href="./60181.html">UK Police</a></td>
+<td><a href="./60179.html">UK Ordnance Survey</a></td>
 <td>70%</td>      
 <td><span class="icon icon-it" title="Same technology">IT</span>&nbsp;<span class="icon icon-ge" title="Same geographic extent">GE</span>&nbsp;<span class="icon icon-gc" title="Overlapping geographic coverage">GC</span>&nbsp;<span class="icon icon-ac" title="Same activity">AC</span>&nbsp;<span class="icon icon-up" title="Same level of uptake">UP</span>&nbsp;<span class="icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="icon icon-ty" title="Same service type">TY</span>&nbsp;</td>
 </tr>
 <tr>
-<td><a href="./60182.html">UK Redbridge data</a></td>
+<td><a href="./60181.html">UK Redbridge data</a></td>
 <td>50%</td>      
 <td><span class="icon icon-it" title="Same technology">IT</span>&nbsp;<span class="icon icon-gc" title="Overlapping geographic coverage">GC</span>&nbsp;<span class="icon icon-ac" title="Same activity">AC</span>&nbsp;<span class="icon icon-up" title="Same level of uptake">UP</span>&nbsp;<span class="icon icon-ty" title="Same service type">TY</span>&nbsp;</td>
 </tr>
 <tr>
-<td><a href="./60183.html">UK Shrewsbury Museum</a></td>
+<td><a href="./60182.html">UK Shrewsbury Museum</a></td>
 <td>60%</td>      
 <td><span class="icon icon-it" title="Same technology">IT</span>&nbsp;<span class="icon icon-gc" title="Overlapping geographic coverage">GC</span>&nbsp;<span class="icon icon-ac" title="Same activity">AC</span>&nbsp;<span class="icon icon-up" title="Same level of uptake">UP</span>&nbsp;<span class="icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="icon icon-ty" title="Same service type">TY</span>&nbsp;</td>
 </tr>
@@ -1498,147 +1494,142 @@ $(document).ready(function() {
 <td><span class="icon icon-ge" title="Same geographic extent">GE</span>&nbsp;<span class="icon icon-up" title="Same level of uptake">UP</span>&nbsp;</td>
 </tr>
 <tr>
-<td><a href="./70013.html">Digiwhist</a></td>
+<td><a href="./70013.html">Red flags</a></td>
 <td>10%</td>      
 <td><span class="icon icon-up" title="Same level of uptake">UP</span>&nbsp;</td>
 </tr>
 <tr>
-<td><a href="./70014.html">Red flags</a></td>
-<td>10%</td>      
-<td><span class="icon icon-up" title="Same level of uptake">UP</span>&nbsp;</td>
-</tr>
-<tr>
-<td><a href="./70015.html">Agency for Public Management and eGovernment, Digital procurement program</a></td>
+<td><a href="./70014.html">Agency for Public Management and eGovernment, Digital procurement program</a></td>
 <td>10%</td>      
 <td><span class="icon icon-ge" title="Same geographic extent">GE</span>&nbsp;</td>
 </tr>
 <tr>
-<td><a href="./70016.html">Consip, Open data platform</a></td>
+<td><a href="./70015.html">Consip, Open data platform</a></td>
 <td>30%</td>      
 <td><span class="icon icon-ge" title="Same geographic extent">GE</span>&nbsp;<span class="icon icon-up" title="Same level of uptake">UP</span>&nbsp;<span class="icon icon-ty" title="Same service type">TY</span>&nbsp;</td>
 </tr>
 <tr>
-<td><a href="./70017.html">ProZorro, Risk indicators</a></td>
+<td><a href="./70016.html">ProZorro, Risk indicators</a></td>
 <td>10%</td>      
 <td><span class="icon icon-ge" title="Same geographic extent">GE</span>&nbsp;</td>
 </tr>
 <tr>
-<td><a href="./70018.html">ProZorro, Bid prediction</a></td>
+<td><a href="./70017.html">ProZorro, Bid prediction</a></td>
 <td>10%</td>      
 <td><span class="icon icon-ge" title="Same geographic extent">GE</span>&nbsp;</td>
 </tr>
 <tr>
-<td><a href="./70019.html">ProZorro, CPV Prediction</a></td>
+<td><a href="./70018.html">ProZorro, CPV Prediction</a></td>
 <td>10%</td>      
 <td><span class="icon icon-ge" title="Same geographic extent">GE</span>&nbsp;</td>
 </tr>
 <tr>
-<td><a href="./70020.html">DoZorro AI tool</a></td>
+<td><a href="./70019.html">DoZorro AI tool</a></td>
 <td>10%</td>      
 <td><span class="icon icon-ge" title="Same geographic extent">GE</span>&nbsp;</td>
 </tr>
 <tr>
-<td><a href="./70021.html">Kommers (KAI) semantics check tool</a></td>
+<td><a href="./70020.html">Kommers (KAI) semantics check tool</a></td>
 <td>20%</td>      
 <td><span class="icon icon-ge" title="Same geographic extent">GE</span>&nbsp;<span class="icon icon-up" title="Same level of uptake">UP</span>&nbsp;</td>
 </tr>
 <tr>
-<td><a href="./70022.html">ANAC, Machine learning tool,</a></td>
+<td><a href="./70021.html">ANAC, Machine learning tool,</a></td>
 <td>20%</td>      
 <td><span class="icon icon-ge" title="Same geographic extent">GE</span>&nbsp;<span class="icon icon-up" title="Same level of uptake">UP</span>&nbsp;</td>
 </tr>
 <tr>
-<td><a href="./70023.html">State Treasury eInvoicing plans</a></td>
+<td><a href="./70022.html">State Treasury eInvoicing plans</a></td>
 <td>20%</td>      
 <td><span class="icon icon-ge" title="Same geographic extent">GE</span>&nbsp;<span class="icon icon-up" title="Same level of uptake">UP</span>&nbsp;</td>
 </tr>
 <tr>
-<td><a href="./70024.html">YPO, Procurement Information Provider</a></td>
+<td><a href="./70023.html">YPO, Procurement Information Provider</a></td>
 <td>30%</td>      
 <td><span class="icon icon-ge" title="Same geographic extent">GE</span>&nbsp;<span class="icon icon-gc" title="Overlapping geographic coverage">GC</span>&nbsp;<span class="icon icon-up" title="Same level of uptake">UP</span>&nbsp;</td>
 </tr>
 <tr>
-<td><a href="./70025.html">Hansel Oy, Explore state spending</a></td>
+<td><a href="./70024.html">Hansel Oy, Explore state spending</a></td>
 <td>30%</td>      
 <td><span class="icon icon-ge" title="Same geographic extent">GE</span>&nbsp;<span class="icon icon-up" title="Same level of uptake">UP</span>&nbsp;<span class="icon icon-ty" title="Same service type">TY</span>&nbsp;</td>
 </tr>
 <tr>
-<td><a href="./70026.html">Hansel Oy, eNest solution</a></td>
+<td><a href="./70025.html">Hansel Oy, eNest solution</a></td>
 <td>20%</td>      
 <td><span class="icon icon-ge" title="Same geographic extent">GE</span>&nbsp;<span class="icon icon-up" title="Same level of uptake">UP</span>&nbsp;</td>
 </tr>
 <tr>
-<td><a href="./70027.html">Palkeet, RPA Project</a></td>
+<td><a href="./70026.html">Palkeet, RPA Project</a></td>
 <td>20%</td>      
 <td><span class="icon icon-ge" title="Same geographic extent">GE</span>&nbsp;<span class="icon icon-up" title="Same level of uptake">UP</span>&nbsp;</td>
 </tr>
 <tr>
-<td><a href="./70028.html">Ministry of Finance, mTender</a></td>
+<td><a href="./70027.html">Ministry of Finance, mTender</a></td>
 <td>20%</td>      
 <td><span class="icon icon-ge" title="Same geographic extent">GE</span>&nbsp;<span class="icon icon-up" title="Same level of uptake">UP</span>&nbsp;</td>
 </tr>
 <tr>
-<td><a href="./70029.html">Deutsche Bahn, 3D Printing</a></td>
+<td><a href="./70028.html">Deutsche Bahn, 3D Printing</a></td>
 <td>20%</td>      
 <td><span class="icon icon-ge" title="Same geographic extent">GE</span>&nbsp;<span class="icon icon-up" title="Same level of uptake">UP</span>&nbsp;</td>
 </tr>
 <tr>
-<td><a href="./70030.html">Nederlandse Sporten, 3D Printing</a></td>
+<td><a href="./70029.html">Nederlandse Sporten, 3D Printing</a></td>
 <td>20%</td>      
 <td><span class="icon icon-ge" title="Same geographic extent">GE</span>&nbsp;<span class="icon icon-up" title="Same level of uptake">UP</span>&nbsp;</td>
 </tr>
 <tr>
-<td><a href="./70031.html">Material Stock Logistic Command of the Dutch Army, 3D Printing roadmap</a></td>
+<td><a href="./70030.html">Material Stock Logistic Command of the Dutch Army, 3D Printing roadmap</a></td>
 <td>20%</td>      
 <td><span class="icon icon-ge" title="Same geographic extent">GE</span>&nbsp;<span class="icon icon-up" title="Same level of uptake">UP</span>&nbsp;</td>
 </tr>
 <tr>
-<td><a href="./70032.html">Agency for Nature and Forestry (ANB) and Department for Mobility and Public Works (MOW), Public spatial planning projects</a></td>
+<td><a href="./70031.html">Agency for Nature and Forestry (ANB) and Department for Mobility and Public Works (MOW), Public spatial planning projects</a></td>
 <td>20%</td>      
 <td><span class="icon icon-ge" title="Same geographic extent">GE</span>&nbsp;<span class="icon icon-up" title="Same level of uptake">UP</span>&nbsp;</td>
 </tr>
 <tr>
-<td><a href="./70033.html">Helsinki city council, Urban planning project</a></td>
+<td><a href="./70032.html">Helsinki city council, Urban planning project</a></td>
 <td>20%</td>      
 <td><span class="icon icon-ge" title="Same geographic extent">GE</span>&nbsp;<span class="icon icon-up" title="Same level of uptake">UP</span>&nbsp;</td>
 </tr>
 <tr>
-<td><a href="./70034.html">Digibygg, Digitised construction project</a></td>
+<td><a href="./70033.html">Digibygg, Digitised construction project</a></td>
 <td>20%</td>      
 <td><span class="icon icon-ge" title="Same geographic extent">GE</span>&nbsp;<span class="icon icon-up" title="Same level of uptake">UP</span>&nbsp;</td>
 </tr>
 <tr>
-<td><a href="./70035.html">Statsbygg, Imerso pilot project</a></td>
+<td><a href="./70034.html">Statsbygg, Imerso pilot project</a></td>
 <td>20%</td>      
 <td><span class="icon icon-ge" title="Same geographic extent">GE</span>&nbsp;<span class="icon icon-up" title="Same level of uptake">UP</span>&nbsp;</td>
 </tr>
 <tr>
-<td><a href="./70036.html">Competition and Markets Authority, Cartel screening tool</a></td>
+<td><a href="./70035.html">Competition and Markets Authority, Cartel screening tool</a></td>
 <td>20%</td>      
 <td><span class="icon icon-ge" title="Same geographic extent">GE</span>&nbsp;<span class="icon icon-up" title="Same level of uptake">UP</span>&nbsp;</td>
 </tr>
 <tr>
-<td><a href="./70037.html">Estonian Blockchain Technology</a></td>
+<td><a href="./70036.html">Estonian Blockchain Technology</a></td>
 <td>20%</td>      
 <td><span class="icon icon-ge" title="Same geographic extent">GE</span>&nbsp;<span class="icon icon-up" title="Same level of uptake">UP</span>&nbsp;</td>
 </tr>
 <tr>
-<td><a href="./70038.html">SUVE</a></td>
+<td><a href="./70037.html">SUVE</a></td>
 <td>30%</td>      
 <td><span class="icon icon-ge" title="Same geographic extent">GE</span>&nbsp;<span class="icon icon-up" title="Same level of uptake">UP</span>&nbsp;<span class="icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;</td>
 </tr>
 <tr>
-<td><a href="./70039.html">Kratid</a></td>
+<td><a href="./70038.html">Kratid</a></td>
 <td>20%</td>      
 <td><span class="icon icon-ge" title="Same geographic extent">GE</span>&nbsp;<span class="icon icon-up" title="Same level of uptake">UP</span>&nbsp;</td>
 </tr>
 <tr>
-<td><a href="./70040.html">Skrinja 2.0</a></td>
+<td><a href="./70039.html">Skrinja 2.0</a></td>
 <td>20%</td>      
 <td><span class="icon icon-ge" title="Same geographic extent">GE</span>&nbsp;<span class="icon icon-up" title="Same level of uptake">UP</span>&nbsp;</td>
 </tr>
 <tr>
-<td><a href="./70041.html">PIANOo</a></td>
+<td><a href="./70040.html">PIANOo</a></td>
 <td>20%</td>      
 <td><span class="icon icon-ge" title="Same geographic extent">GE</span>&nbsp;<span class="icon icon-up" title="Same level of uptake">UP</span>&nbsp;</td>
 </tr>
@@ -1684,8 +1675,8 @@ $(document).ready(function() {
 </tr>
 <tr>
 <td><a href="./90008.html">VeriPol</a></td>
-<td>30%</td>      
-<td><span class="icon icon-ge" title="Same geographic extent">GE</span>&nbsp;<span class="icon icon-up" title="Same level of uptake">UP</span>&nbsp;<span class="icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;</td>
+<td>40%</td>      
+<td><span class="icon icon-ge" title="Same geographic extent">GE</span>&nbsp;<span class="icon icon-ps" title="Same primary sector">PS</span>&nbsp;<span class="icon icon-up" title="Same level of uptake">UP</span>&nbsp;<span class="icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;</td>
 </tr>
 <tr>
 <td><a href="./100001.html">Covid-bot</a></td>
@@ -1701,6 +1692,11 @@ $(document).ready(function() {
 <td><a href="./110002.html">Holiday rental housing fraud risk</a></td>
 <td>20%</td>      
 <td><span class="icon icon-up" title="Same level of uptake">UP</span>&nbsp;<span class="icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./110004.html">One and a half meter monitor</a></td>
+<td>10%</td>      
+<td><span class="icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;</td>
 </tr>
 <tr>
 <td><a href="./120001.html">Parking chatbot</a></td>

@@ -1,5 +1,6 @@
 [
     {
+        "entry_type": "service",
         "cid": 10010,
         "id": 100001,
         "name": "Covid-bot",

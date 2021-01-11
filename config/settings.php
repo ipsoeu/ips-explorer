@@ -40,26 +40,36 @@
 //  $section["about"]["url"] = $site_abs_path;
    
   $section["service"]["name"] = "Services";
-  $section["service"]["icon"] = "fa-group";
+  $section["service"]["icon"] = "fa-cogs";
   $section["service"]["descr"] = "Explore European public services making use of emerging and disruptive technologies, such as AI, DLT, IoT and APIs, and find out their distribution and scope in terms of public administration levels and sectors.";
   $section["service"]["url"] = $site_abs_path . "service/";
   $section["service"]["path"] = $root_abs_path . "service/";
 //  $section["service"]["data"] = $site_abs_path . $data_folder . "services";
   $section["service"]["data"] = $data_path . "services";
+
+  $section["project"]["name"] = "Projects";
+  $section["project"]["icon"] = "fa-group";
+  $section["project"]["descr"] = "Explore European projects developing pubic services making use of emerging and disruptive technologies, such as AI, DLT, IoT and APIs, and find out their distribution in terms of public administration levels and sectors.";
+  $section["project"]["url"] = $site_abs_path . "project/";
+  $section["project"]["path"] = $root_abs_path . "project/";
+//  $section["project"]["data"] = $site_abs_path . $data_folder . "projects";
+  $section["project"]["data"] = $data_path . "projects";
+   
 /*   
   $section["i-chart"]["name"] = "Interactive Charts";
   $section["i-chart"]["url"] = $site_abs_path . "datavis/";
   $section["i-chart"]["path"] = $root_abs_path . "datavis/";
 */   
-  $section["chart"]["name"] = "Gallery";
+
+  $section["chart"]["name"] = "Statistics";
   $section["chart"]["icon"] = "fa-area-chart";
-  $section["chart"]["descr"] = "Access statistics of public services based on their core characteristics, including geographic coverage, uptake and the technologies used. Browse the already prepared views, and create dynamic visualisations.";
+  $section["chart"]["descr"] = "Access statistics of public services and projects based on their core characteristics, including geographic coverage, uptake and the technologies used. Browse the already prepared views, and create dynamic visualisations.";
   $section["chart"]["url"] = $site_abs_path . "chart/";
   $section["chart"]["path"] = $root_abs_path . "chart/";
 
   $section["catalog"]["name"] = "Sources";
   $section["catalog"]["icon"] = "fa-download";
-  $section["catalog"]["descr"] = "Get to know the surveys, catalogues and data sets of public services that are integrated here. Find out how you could add your own public service, or results from a longitudinal study.";
+  $section["catalog"]["descr"] = "Get to know the surveys, catalogues and data sets of public services and projects that are integrated and documented here. Find out how you could add your own public services, projects, or results from a longitudinal study.";
   $section["catalog"]["url"] = $site_abs_path . "catalog/";
   $section["catalog"]["path"] = $root_abs_path . "catalog/";
 //  $section["catalog"]["data"] = $site_abs_path . $data_folder . "catalogs";

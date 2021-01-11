@@ -1,5 +1,6 @@
 [
     {
+        "entry_type": "catalog",
         "c_id": 10014,
         "c_name": "Mobile contact tracing apps in EU Member States",
         "c_url": "https:\/\/ec.europa.eu\/info\/live-work-travel-eu\/health\/coronavirus-response\/travel-during-coronavirus-pandemic\/mobile-contact-tracing-apps-eu-member-states_en",
@@ -7,6 +8,7 @@
         "c_description": "Contact tracing and warning apps can be voluntarily installed and used to warn users if they have been in the proximity of a person who is reported to have been tested positive for coronavirus. In the case of an alert, the app may provide relevant information from health authorities, such as advice to get tested or to self-isolate, and who to contact. Mobile contact tracing apps can help speed up traditional contact tracing and save precious hours of work for public health staff tracing the chain of infection.",
         "c_publisher": "European Commission",
         "c_country": "European Union",
-        "c_type": "Catalogue"
+        "c_type": "Catalogue",
+        "c_year": "2020"
     }
 ]

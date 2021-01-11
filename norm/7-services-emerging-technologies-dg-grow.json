@@ -1,5 +1,6 @@
 [
     {
+        "entry_type": "service",
         "cid": 10007,
         "id": 70001,
         "name": "Aragon General Directorate of Contracting, Blockchain Project",
@@ -32,6 +33,7 @@
         "status": "In development"
     },
     {
+        "entry_type": "service",
         "cid": 10007,
         "id": 70002,
         "name": "Basque Government Blockchain project",
@@ -64,6 +66,7 @@
         "status": "In development"
     },
     {
+        "entry_type": "service",
         "cid": 10007,
         "id": 70003,
         "name": "V-ICT-OR Blockchain Project",
@@ -96,6 +99,7 @@
         "status": "In development"
     },
     {
+        "entry_type": "service",
         "cid": 10007,
         "id": 70004,
         "name": "Public Procurement Advisory Unit Blockchain Project",
@@ -128,6 +132,7 @@
         "status": "In development"
     },
     {
+        "entry_type": "service",
         "cid": 10007,
         "id": 70005,
         "name": "Government of Austria Blockchain Project",
@@ -160,6 +165,7 @@
         "status": "In development"
     },
     {
+        "entry_type": "service",
         "cid": 10007,
         "id": 70006,
         "name": "Digipolis Antwerp, Smart procurement tool",
@@ -192,6 +198,7 @@
         "status": "In development"
     },
     {
+        "entry_type": "service",
         "cid": 10007,
         "id": 70007,
         "name": "Malta Information Technology Agency (MITA),  Smart Public Contracts",
@@ -224,6 +231,7 @@
         "status": "In development"
     },
     {
+        "entry_type": "service",
         "cid": 10007,
         "id": 70008,
         "name": "Ministry of Public Administration, Big data project",
@@ -256,6 +264,7 @@
         "status": "Pilot"
     },
     {
+        "entry_type": "service",
         "cid": 10007,
         "id": 70009,
         "name": "Procurement Monitoring Bureau, ZoomChart",
@@ -288,6 +297,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10007,
         "id": 70010,
         "name": "Department of Mobility & Public Works, Medium for Economic Data, Information and Applications on Public Procurement (MEDIAAN)",
@@ -320,6 +330,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10007,
         "id": 70011,
         "name": "Agjencia Erokurimit Publik, Business intelligence project",
@@ -352,6 +363,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10007,
         "id": 70012,
         "name": "IT Directorate, Ministry of Public Administration, SKRINJA 2.0",
@@ -384,38 +396,9 @@
         "status": "In development"
     },
     {
+        "entry_type": "service",
         "cid": 10007,
         "id": 70013,
-        "name": "Digiwhist",
-        "url": "http:\/\/digiwhist.eu\/about-digiwhist\/",
-        "contact": "",
-        "description": "This H2020 funded project focussed on the systematic collection, structuring, analysis, and broad dissemination of information on public procurement. It made use of big data analytics to detect potential conflicts of interest in the system of public procurement and to identify system vulnerabilities",
-        "geoextent": "International",
-        "geocoverage": [
-            "European Union"
-        ],
-        "geocoverage_codes": [],
-        "lead_organisation": {
-            "name": "University of Cambridge",
-            "category": "Consortium"
-        },
-        "lead_organisation_name": "University of Cambridge",
-        "lead_organisation_category": "Consortium",
-        "start_date": "2015",
-        "active": "No",
-        "end_date": "2018",
-        "primary_sector": "General public services",
-        "secondary_sector": "Procurement",
-        "technology": "Data analytics",
-        "uptake": "Unknown",
-        "cross_border": "Unknown",
-        "cross_sector": "Yes",
-        "type": "Auditing and logging",
-        "status": "In production"
-    },
-    {
-        "cid": 10007,
-        "id": 70014,
         "name": "Red flags",
         "url": "http:\/\/redflags.eu\/",
         "contact": "",
@@ -426,11 +409,11 @@
         ],
         "geocoverage_codes": [],
         "lead_organisation": {
-            "name": "Unknown",
-            "category": "Consortium"
+            "name": "Transparency International Hungary",
+            "category": "Governmental"
         },
-        "lead_organisation_name": "Unknown",
-        "lead_organisation_category": "Consortium",
+        "lead_organisation_name": "Transparency International Hungary",
+        "lead_organisation_category": "Governmental",
         "start_date": "2015",
         "active": "Yes",
         "end_date": "",
@@ -444,8 +427,9 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10007,
-        "id": 70015,
+        "id": 70014,
         "name": "Agency for Public Management and eGovernment, Digital procurement program",
         "url": "https:\/\/www.supplychaindigital.com\/company\/difi-digitising-procurement",
         "contact": "",
@@ -476,8 +460,9 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10007,
-        "id": 70016,
+        "id": 70015,
         "name": "Consip, Open data platform",
         "url": "https:\/\/dati.consip.it\/",
         "contact": "",
@@ -508,8 +493,9 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10007,
-        "id": 70017,
+        "id": 70016,
         "name": "ProZorro, Risk indicators",
         "url": "https:\/\/oecd-opsi.org\/innovations\/eprocurement-system-prozorro\/",
         "contact": "",
@@ -540,8 +526,9 @@
         "status": "In development"
     },
     {
+        "entry_type": "service",
         "cid": 10007,
-        "id": 70018,
+        "id": 70017,
         "name": "ProZorro, Bid prediction",
         "url": "https:\/\/ocdsanalytics.com\/ua\/prozorro\/ai\/docs\/",
         "contact": "",
@@ -572,8 +559,9 @@
         "status": "Pilot"
     },
     {
+        "entry_type": "service",
         "cid": 10007,
-        "id": 70019,
+        "id": 70018,
         "name": "ProZorro, CPV Prediction",
         "url": "https:\/\/ocdsanalytics.com\/ua\/prozorro\/ai\/docs\/examples\/",
         "contact": "",
@@ -604,8 +592,9 @@
         "status": "In development"
     },
     {
+        "entry_type": "service",
         "cid": 10007,
-        "id": 70020,
+        "id": 70019,
         "name": "DoZorro AI tool",
         "url": "https:\/\/ti-ukraine.org\/en\/news\/dozorro-artificial-intelligence-to-find-violations-in-prozorro-how-it-works\/",
         "contact": "",
@@ -636,8 +625,9 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10007,
-        "id": 70021,
+        "id": 70020,
         "name": "Kommers (KAI) semantics check tool",
         "url": "http:\/\/www.primona.se\/en\/public-sector\/our-modules-for-public-sector\/kommers-kai\/",
         "contact": "",
@@ -668,8 +658,9 @@
         "status": "In development"
     },
     {
+        "entry_type": "service",
         "cid": 10007,
-        "id": 70022,
+        "id": 70021,
         "name": "ANAC, Machine learning tool,",
         "url": "https:\/\/www.slideshare.net\/FabianaLanotte\/machine-learning-on-public-procurement-open-data-anac-case-study",
         "contact": "",
@@ -700,8 +691,9 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10007,
-        "id": 70023,
+        "id": 70022,
         "name": "State Treasury eInvoicing plans",
         "url": "https:\/\/ec.europa.eu\/cefdigital\/wiki\/display\/CEFDIGITAL\/2018\/06\/13\/Finland+is+using+AI+in+attempt+to+achieve+one-hundred+per+cent+eInvoicing",
         "contact": "",
@@ -732,8 +724,9 @@
         "status": "In development"
     },
     {
+        "entry_type": "service",
         "cid": 10007,
-        "id": 70024,
+        "id": 70023,
         "name": "YPO, Procurement Information Provider",
         "url": "https:\/\/www.ukauthority.com\/articles\/ypo-launches-procurement-chatbot\/",
         "contact": "",
@@ -764,8 +757,9 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10007,
-        "id": 70025,
+        "id": 70024,
         "name": "Hansel Oy, Explore state spending",
         "url": "https:\/\/tutkihankintoja.fi\/?lang=en",
         "contact": "",
@@ -796,8 +790,9 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10007,
-        "id": 70026,
+        "id": 70025,
         "name": "Hansel Oy, eNest solution",
         "url": "https:\/\/www.handi.fi\/projektit\/procurement-data\/?lang=en",
         "contact": "",
@@ -828,8 +823,9 @@
         "status": "In development"
     },
     {
+        "entry_type": "service",
         "cid": 10007,
-        "id": 70027,
+        "id": 70026,
         "name": "Palkeet, RPA Project",
         "url": "https:\/\/www.palkeet.fi\/ajankohtaista\/pohjoismaat-kansainvalista-rpa-karkea.html",
         "contact": "",
@@ -860,8 +856,9 @@
         "status": "In development"
     },
     {
+        "entry_type": "service",
         "cid": 10007,
-        "id": 70028,
+        "id": 70027,
         "name": "Ministry of Finance, mTender",
         "url": "https:\/\/mtender.gov.md\/",
         "contact": "",
@@ -892,8 +889,9 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10007,
-        "id": 70029,
+        "id": 70028,
         "name": "Deutsche Bahn, 3D Printing",
         "url": "https:\/\/www.deutschebahn.com\/en\/Digitalization\/DB_Digital\/productworld\/3dprint-1214672",
         "contact": "",
@@ -924,8 +922,9 @@
         "status": "In development"
     },
     {
+        "entry_type": "service",
         "cid": 10007,
-        "id": 70030,
+        "id": 70029,
         "name": "Nederlandse Sporten, 3D Printing",
         "url": "https:\/\/nieuws.ns.nl\/ns-zet-stap-in-de-wereld-van-3d-printen\/",
         "contact": "",
@@ -956,8 +955,9 @@
         "status": "In development"
     },
     {
+        "entry_type": "service",
         "cid": 10007,
-        "id": 70031,
+        "id": 70030,
         "name": "Material Stock Logistic Command of the Dutch Army, 3D Printing roadmap",
         "url": "https:\/\/www.dimanex.com\/2018\/05\/14\/dutch-army-starts-cooperation-with-dimanex-to-solve-spare-part-supply-challenges-with-an-end-to-end-service-for-3d-manufacturing\/",
         "contact": "",
@@ -988,8 +988,9 @@
         "status": "In development"
     },
     {
+        "entry_type": "service",
         "cid": 10007,
-        "id": 70032,
+        "id": 70031,
         "name": "Agency for Nature and Forestry (ANB) and Department for Mobility and Public Works (MOW), Public spatial planning projects",
         "url": "http:\/\/www.innovatieveoverheidsopdrachten.be\/en\/projects\/public-spatial-planning-projects-augmented-and-virtual-reality",
         "contact": "",
@@ -1020,8 +1021,9 @@
         "status": "In development"
     },
     {
+        "entry_type": "service",
         "cid": 10007,
-        "id": 70033,
+        "id": 70032,
         "name": "Helsinki city council, Urban planning project",
         "url": "https:\/\/vttblog.com\/2018\/01\/08\/augmented-reality-urban-data-and-the-related-opportunities\/",
         "contact": "",
@@ -1052,8 +1054,9 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10007,
-        "id": 70034,
+        "id": 70033,
         "name": "Digibygg, Digitised construction project",
         "url": "http:\/\/www.bygg.no\/article\/1381510?image=dp-image121202-1381521",
         "contact": "",
@@ -1084,8 +1087,9 @@
         "status": "Pilot"
     },
     {
+        "entry_type": "service",
         "cid": 10007,
-        "id": 70035,
+        "id": 70034,
         "name": "Statsbygg, Imerso pilot project",
         "url": "https:\/\/www.dn.no\/morgendagens-naringsliv\/imerso\/statsbygg\/sarah-muller\/hun-sjekket-hver-millimeter-av-12000-kvadratmeter-pa-en-dag\/2-1-428362",
         "contact": "",
@@ -1116,8 +1120,9 @@
         "status": "Pilot"
     },
     {
+        "entry_type": "service",
         "cid": 10007,
-        "id": 70036,
+        "id": 70035,
         "name": "Competition and Markets Authority, Cartel screening tool",
         "url": "https:\/\/www.gov.uk\/government\/publications\/screening-for-cartels-tool-for-procurers",
         "contact": "",
@@ -1146,8 +1151,9 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10007,
-        "id": 70037,
+        "id": 70036,
         "name": "Estonian Blockchain Technology",
         "url": "https:\/\/toolbox.estonia.ee\/media\/1921",
         "contact": "",
@@ -1178,8 +1184,9 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10007,
-        "id": 70038,
+        "id": 70037,
         "name": "SUVE",
         "url": "https:\/\/www.valitsus.ee\/en\/news\/chatbot-will-help-you-find-answers-your-questions-about-crisis",
         "contact": "",
@@ -1210,8 +1217,9 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10007,
-        "id": 70039,
+        "id": 70038,
         "name": "Kratid",
         "url": "https:\/\/www.kratid.ee\/in-english",
         "contact": "",
@@ -1242,8 +1250,9 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10007,
-        "id": 70040,
+        "id": 70039,
         "name": "Skrinja 2.0",
         "url": "https:\/\/2tm.si\/the-b2-college-takes-part-in-the-skrinja-2-0-project\/?lang=en",
         "contact": "",
@@ -1274,8 +1283,9 @@
         "status": "In development"
     },
     {
+        "entry_type": "service",
         "cid": 10007,
-        "id": 70041,
+        "id": 70040,
         "name": "PIANOo",
         "url": "https:\/\/www.tenderned.nl\/cms\/nieuws\/pianoo-maakt-wekelijks-analyse-aanbestedingen",
         "contact": "",

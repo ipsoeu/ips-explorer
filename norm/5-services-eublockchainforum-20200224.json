@@ -1,5 +1,6 @@
 [
     {
+        "entry_type": "service",
         "cid": 10005,
         "id": 50001,
         "name": "Blockchain pilot - Open Data notarization & change protocol",
@@ -32,6 +33,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10005,
         "id": 50002,
         "name": "Blockchain pilot - Digital food voucher",
@@ -64,6 +66,7 @@
         "status": "In development"
     },
     {
+        "entry_type": "service",
         "cid": 10005,
         "id": 50003,
         "name": "Austrian Federal Government's Finance Agency, Oesterreichische Kontrollbank",
@@ -96,6 +99,7 @@
         "status": "In development"
     },
     {
+        "entry_type": "service",
         "cid": 10005,
         "id": 50004,
         "name": "BeSure - Demonstrability Service",
@@ -128,6 +132,7 @@
         "status": "In development"
     },
     {
+        "entry_type": "service",
         "cid": 10005,
         "id": 50005,
         "name": "FlowBikes",
@@ -160,6 +165,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10005,
         "id": 50006,
         "name": "A digital talent profile for maximum development",
@@ -192,6 +198,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10005,
         "id": 50007,
         "name": "Privacy engine Antwerp City Platform as a Service",
@@ -224,6 +231,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10005,
         "id": 50008,
         "name": "i-Voting",
@@ -256,6 +264,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10005,
         "id": 50009,
         "name": "X-Road Interoperability Services",
@@ -288,6 +297,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10005,
         "id": 50010,
         "name": "Health Records",
@@ -320,6 +330,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10005,
         "id": 50011,
         "name": "Blockchain-based Keyless Signature Infrastructure (KSI)",
@@ -352,6 +363,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10005,
         "id": 50012,
         "name": "GIZ Blockchain Lab",
@@ -384,6 +396,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10005,
         "id": 50013,
         "name": "Blockchain as Digital Enabler for the European Federalism in the Asylum Context",
@@ -416,6 +429,7 @@
         "status": "In development"
     },
     {
+        "entry_type": "service",
         "cid": 10005,
         "id": 50014,
         "name": "Blockchain & Virtual Currencies Working Group",
@@ -448,6 +462,7 @@
         "status": "In development"
     },
     {
+        "entry_type": "service",
         "cid": 10005,
         "id": 50015,
         "name": "Securing the Internet of Things",
@@ -480,6 +495,7 @@
         "status": "In development"
     },
     {
+        "entry_type": "service",
         "cid": 10005,
         "id": 50016,
         "name": "Digital Currency Business Register",
@@ -512,6 +528,7 @@
         "status": "In development"
     },
     {
+        "entry_type": "service",
         "cid": 10005,
         "id": 50017,
         "name": "New solutions for the traceability of Italian food products",
@@ -544,6 +561,7 @@
         "status": "In development"
     },
     {
+        "entry_type": "service",
         "cid": 10005,
         "id": 50018,
         "name": "DOGANA 4.0",
@@ -576,6 +594,7 @@
         "status": "In development"
     },
     {
+        "entry_type": "service",
         "cid": 10005,
         "id": 50019,
         "name": "Food fraud and falsification of Made in Italy",
@@ -608,6 +627,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10005,
         "id": 50020,
         "name": "Decentralised Digital Identity Pilot",
@@ -640,6 +660,7 @@
         "status": "Pilot"
     },
     {
+        "entry_type": "service",
         "cid": 10005,
         "id": 50021,
         "name": "Execution of a judicial decision of juvenile court",
@@ -672,6 +693,7 @@
         "status": "Pilot"
     },
     {
+        "entry_type": "service",
         "cid": 10005,
         "id": 50022,
         "name": "Toxic Waste Transport",
@@ -704,6 +726,7 @@
         "status": "Pilot"
     },
     {
+        "entry_type": "service",
         "cid": 10005,
         "id": 50023,
         "name": "Public Healthcare Benefits Subsidy",
@@ -736,6 +759,7 @@
         "status": "Pilot"
     },
     {
+        "entry_type": "service",
         "cid": 10005,
         "id": 50024,
         "name": "Healthcare Process Authorization",
@@ -768,6 +792,7 @@
         "status": "Pilot"
     },
     {
+        "entry_type": "service",
         "cid": 10005,
         "id": 50025,
         "name": "FlashCompany",
@@ -800,6 +825,7 @@
         "status": "Pilot"
     },
     {
+        "entry_type": "service",
         "cid": 10005,
         "id": 50026,
         "name": "Blockchain-based Land Registry",
@@ -832,6 +858,7 @@
         "status": "Pilot"
     },
     {
+        "entry_type": "service",
         "cid": 10005,
         "id": 50027,
         "name": "Truck Driver Tracking",
@@ -864,6 +891,7 @@
         "status": "Pilot"
     },
     {
+        "entry_type": "service",
         "cid": 10005,
         "id": 50028,
         "name": "Financing New School Buildings",
@@ -896,6 +924,7 @@
         "status": "Pilot"
     },
     {
+        "entry_type": "service",
         "cid": 10005,
         "id": 50029,
         "name": "Electric Vehicle Subsidy Registry",
@@ -928,6 +957,7 @@
         "status": "Pilot"
     },
     {
+        "entry_type": "service",
         "cid": 10005,
         "id": 50030,
         "name": "Medical Instrument Registration",
@@ -960,6 +990,7 @@
         "status": "Pilot"
     },
     {
+        "entry_type": "service",
         "cid": 10005,
         "id": 50031,
         "name": "Employment and Identity Fraud",
@@ -992,6 +1023,7 @@
         "status": "Pilot"
     },
     {
+        "entry_type": "service",
         "cid": 10005,
         "id": 50032,
         "name": "Multi-stakeholder Financial Arrangements",
@@ -1024,6 +1056,7 @@
         "status": "Pilot"
     },
     {
+        "entry_type": "service",
         "cid": 10005,
         "id": 50033,
         "name": "Large Event Permitting",
@@ -1056,6 +1089,7 @@
         "status": "Pilot"
     },
     {
+        "entry_type": "service",
         "cid": 10005,
         "id": 50034,
         "name": "Waste Sector Data Sharing",
@@ -1088,6 +1122,7 @@
         "status": "Pilot"
     },
     {
+        "entry_type": "service",
         "cid": 10005,
         "id": 50035,
         "name": "Blockchain-based Digital Identity: Do-it-Yourself Marriage",
@@ -1120,6 +1155,7 @@
         "status": "Pilot"
     },
     {
+        "entry_type": "service",
         "cid": 10005,
         "id": 50036,
         "name": "Aid Subsidy Collection",
@@ -1152,6 +1188,7 @@
         "status": "In development"
     },
     {
+        "entry_type": "service",
         "cid": 10005,
         "id": 50037,
         "name": "IoT & Blockchain Lab",
@@ -1184,6 +1221,7 @@
         "status": "In development"
     },
     {
+        "entry_type": "service",
         "cid": 10005,
         "id": 50038,
         "name": "TrustForWills",
@@ -1216,6 +1254,7 @@
         "status": "In development"
     },
     {
+        "entry_type": "service",
         "cid": 10005,
         "id": 50039,
         "name": "Distributed Open Data Portal",
@@ -1248,6 +1287,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10005,
         "id": 50040,
         "name": "Decentralized Energy Trading Marketplace",
@@ -1280,6 +1320,7 @@
         "status": "In development"
     },
     {
+        "entry_type": "service",
         "cid": 10005,
         "id": 50041,
         "name": "e-Government Pilot Project",
@@ -1312,6 +1353,7 @@
         "status": "In development"
     },
     {
+        "entry_type": "service",
         "cid": 10005,
         "id": 50042,
         "name": "Swiss Cryptovalley",
@@ -1344,6 +1386,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10005,
         "id": 50043,
         "name": "City of Zug Blockchain Voting Trial",
@@ -1376,6 +1419,7 @@
         "status": "Pilot"
     },
     {
+        "entry_type": "service",
         "cid": 10005,
         "id": 50044,
         "name": "e-Auction 3.0",
@@ -1408,6 +1452,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10005,
         "id": 50045,
         "name": "Project Maison",
@@ -1440,6 +1485,7 @@
         "status": "In development"
     },
     {
+        "entry_type": "service",
         "cid": 10005,
         "id": 50046,
         "name": "GovCoin Proof of Concept",
@@ -1472,6 +1518,7 @@
         "status": "In development"
     },
     {
+        "entry_type": "service",
         "cid": 10005,
         "id": 50047,
         "name": "RMG\u00ae The New Digital Gold Standard",
@@ -1504,6 +1551,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10005,
         "id": 50048,
         "name": "Distributed Ledger-based Gross Settlement System",
@@ -1536,6 +1584,7 @@
         "status": "In development"
     },
     {
+        "entry_type": "service",
         "cid": 10005,
         "id": 50049,
         "name": "Food Standards Agency",

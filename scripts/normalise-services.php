@@ -59,6 +59,7 @@
     foreach ($input as $k => $v) {
 //    var_dump($v);
     
+      $output[$k]["entry_type"] = "service";
       $output[$k]["cid"] = $catalog_id;
       if (isset($v["id"]) && trim($v["id"]) != '' && is_int($v["id"] + 0)) {
         $output[$k]["id"] = $v["id"] + $n;

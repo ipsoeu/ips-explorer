@@ -42,4 +42,13 @@
   $src["catalog"][14]  = "14-catalog-covid-mobile-contact-tracing-apps.csv";
   $src["services"][14] = "14-services-covid-mobile-contact-tracing-apps.csv";
   
+  $src["catalog"][15]  = "15-catalog-ips-kpmg-jrc121672.csv";
+  $src["projects"][15] = "15-projects-ips-kpmg-jrc121672.csv";
+  
+  $src["catalog"][16]  = "16-catalog-cordis-results-pack-405547.csv";
+  $src["projects"][16] = "16-projects-cordis-results-pack-405547.csv";
+  
+  $src["catalog"][17]  = "17-catalog-joint-migration-policy-whitepaper.csv";
+  $src["projects"][17] = "17-projects-joint-migration-policy-whitepaper.csv";
+  
 ?>

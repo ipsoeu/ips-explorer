@@ -1,0 +1,95 @@
+[
+    {
+        "entry_type": "project",
+        "cid": 10017,
+        "id": 170001,
+        "name": "REBUILD",
+        "url": "https:\/\/cordis.europa.eu\/project\/id\/822215",
+        "contact": "",
+        "description": "REBUILD (ICT-enabled integration facilitator and life-rebuilding guidance) aims at designing and developing an ICT toolbox providing support to both migrants and refugees in Europe for accessing existing services, and local service providers interacting with migrants and refugees in enhancing their service provision. REBUILD follows a user-centred and participated design approach, aiming at addressing properly real target users\u2019 needs, ethical and cross-cultural dimensions, and at monitoring and validating the socio-economic impact of the proposed solution. The technological ambition is to use AI-based solutions (user profiling, skills\/needs matching, chatbots) for the development of a usable, accessible, smart ecosystem for both the target groups. The methodological challenge is to adopt a participatory co-design approach, involving both the target groups since the very early stage of the project, taking into consideration users\u2019 needs, expectations, perceived gaps, cultural differences.",
+        "geoextent": "National",
+        "geocoverage": [
+            "European Union"
+        ],
+        "geocoverage_codes": [],
+        "lead_organisation": {
+            "name": "UNINETTUNO",
+            "category": "Consortium"
+        },
+        "lead_organisation_name": "UNINETTUNO",
+        "lead_organisation_category": "Consortium",
+        "start_date": "2019",
+        "active": "Yes",
+        "end_date": "2021",
+        "primary_sector": "General public services",
+        "secondary_sector": "Immigration",
+        "technology": "Artificial intelligence",
+        "uptake": "Unknown",
+        "cross_border": "No",
+        "cross_sector": "Yes",
+        "type": "Co-designed services",
+        "status": "Pilot"
+    },
+    {
+        "entry_type": "project",
+        "cid": 10017,
+        "id": 170002,
+        "name": "NADINE",
+        "url": "https:\/\/cordis.europa.eu\/project\/id\/822601",
+        "contact": "",
+        "description": "NADINE is a platform to promote migrant inclusion. It aims to harness the potential of big data and artificial intelligence to better understand the supply and demand of skills brought to Europe through migration. The NADINE platform aims to use open data to gain a better understanding of migrant realities and the challenges associated with their integration. Data about local services and migrants will feed user-friendly tools for employability and career guidance, whilst assessing supply and demand of migrants\u2019 skills. The platform will also focus on the social, educational and cultural needs of migrants and how these fit to existing services offered by local hosts. Overall, the system will allow public authorities and guidance professionals to offer a personalised service to migrants based on real needs and the opportunities available to them. The NADINE system will be based around two key banks of data \u2013 a repository of information about host societies and migrants from which a range of services will be produced. As users access the services, more data will be captured to enhance the existing banks and feed reliable information into the system.",
+        "geoextent": "National",
+        "geocoverage": [
+            "European Union"
+        ],
+        "geocoverage_codes": [],
+        "lead_organisation": {
+            "name": "SCRIPT & GO",
+            "category": "Consortium"
+        },
+        "lead_organisation_name": "SCRIPT & GO",
+        "lead_organisation_category": "Consortium",
+        "start_date": "2018",
+        "active": "Yes",
+        "end_date": "2021",
+        "primary_sector": "General public services",
+        "secondary_sector": "Immigration",
+        "technology": "Artificial intelligence",
+        "uptake": "Unknown",
+        "cross_border": "No",
+        "cross_sector": "Yes",
+        "type": "Skill assessment",
+        "status": "Pilot"
+    },
+    {
+        "entry_type": "project",
+        "cid": 10017,
+        "id": 170003,
+        "name": "WELCOME",
+        "url": "https:\/\/cordis.europa.eu\/project\/id\/870930",
+        "contact": "",
+        "description": "WELCOME (Multiple Intelligent Conversation Agent Services for Reception, Management and Integration of Third Country Nationals in the EU) aims to research and develop intelligent technologies for support of the reception and integration of migrants and refugees in Europe. WELCOME will offer a personalized and psychologically and socially competent solution for both migrants and refugees and public administrations. It will develop immersive and intelligent services, in which embodied intelligent multilingual agents will act as dedicated personalized assistants of migrants and refugees in contexts of registration, orientation, language teaching, civic education, and social and societal inclusion. The services will be validated in Catalonia, Spain, Germany and Greece in three Pilot Use Cases (PUCs). Each of the PUCs will focus on specific contexts.",
+        "geoextent": "National",
+        "geocoverage": [
+            "European Union"
+        ],
+        "geocoverage_codes": [],
+        "lead_organisation": {
+            "name": "Universidad Pompeu Fabra",
+            "category": "Consortium"
+        },
+        "lead_organisation_name": "Universidad Pompeu Fabra",
+        "lead_organisation_category": "Consortium",
+        "start_date": "2020",
+        "active": "Yes",
+        "end_date": "2023",
+        "primary_sector": "General public services",
+        "secondary_sector": "Immigration",
+        "technology": "Artificial intelligence",
+        "uptake": "Unknown",
+        "cross_border": "No",
+        "cross_sector": "Yes",
+        "type": "Chatbot",
+        "status": "Pilot"
+    }
+]

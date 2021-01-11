@@ -1,5 +1,6 @@
 [
     {
+        "entry_type": "service",
         "cid": 10001,
         "id": 10001,
         "name": "Nidi gratis",
@@ -32,6 +33,7 @@
         "status": "Pilot"
     },
     {
+        "entry_type": "service",
         "cid": 10001,
         "id": 10002,
         "name": "Tracciabilit\u00e0 filiera",
@@ -64,6 +66,7 @@
         "status": "Pilot"
     },
     {
+        "entry_type": "service",
         "cid": 10001,
         "id": 10003,
         "name": "Chatbot Coronavirus",
@@ -96,6 +99,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10002,
         "id": 20001,
         "name": "Atelier de calcul IFT",
@@ -128,6 +132,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10002,
         "id": 20002,
         "name": "ARPENT(examen)",
@@ -160,6 +165,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10002,
         "id": 20003,
         "name": "ARPENT(r\u00e9sultats)",
@@ -192,6 +198,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10002,
         "id": 20004,
         "name": "BourseSCO",
@@ -224,6 +231,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10002,
         "id": 20005,
         "name": "Lyon : Mon compte",
@@ -256,6 +264,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10002,
         "id": 20006,
         "name": "demarches-simplifiees.fr",
@@ -288,6 +297,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10002,
         "id": 20007,
         "name": "Dossier Social \u00c9tudiant",
@@ -320,6 +330,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10002,
         "id": 20008,
         "name": "Mes aides",
@@ -352,6 +363,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10002,
         "id": 20009,
         "name": "MPS",
@@ -384,6 +396,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10002,
         "id": 20010,
         "name": "D\u00e9chets malins",
@@ -416,6 +429,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10002,
         "id": 20011,
         "name": "RenCircul",
@@ -448,6 +462,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10002,
         "id": 20012,
         "name": "Simulateur d'embauche",
@@ -480,6 +495,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10002,
         "id": 20013,
         "name": "T\u00e9l\u00e9points",
@@ -512,6 +528,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10003,
         "id": 30001,
         "name": "pagoPA",
@@ -544,6 +561,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10003,
         "id": 30002,
         "name": "IO App",
@@ -576,6 +594,7 @@
         "status": "Pilot"
     },
     {
+        "entry_type": "service",
         "cid": 10003,
         "id": 30003,
         "name": "18app e Carta Docente",
@@ -608,6 +627,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10003,
         "id": 30004,
         "name": "ANPR",
@@ -640,6 +660,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10003,
         "id": 30005,
         "name": "Data & Analytics Framework (DAF)",
@@ -672,6 +693,7 @@
         "status": "Pilot"
     },
     {
+        "entry_type": "service",
         "cid": 10003,
         "id": 30006,
         "name": "dati.gov.it",
@@ -704,6 +726,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10003,
         "id": 30007,
         "name": "Docs Italia",
@@ -736,6 +759,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10003,
         "id": 30008,
         "name": "Fatturazione Elettronica",
@@ -768,6 +792,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10003,
         "id": 30009,
         "name": "OTELLO 2.0",
@@ -800,6 +825,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10003,
         "id": 30010,
         "name": "SPID",
@@ -832,6 +858,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10004,
         "id": 40001,
         "name": "Blockcerts academic credentials",
@@ -864,6 +891,7 @@
         "status": "Pilot"
     },
     {
+        "entry_type": "service",
         "cid": 10004,
         "id": 40002,
         "name": "Chromaway property transactions",
@@ -896,6 +924,7 @@
         "status": "Pilot"
     },
     {
+        "entry_type": "service",
         "cid": 10004,
         "id": 40003,
         "name": "uPort decentralised identity",
@@ -928,6 +957,7 @@
         "status": "Pilot"
     },
     {
+        "entry_type": "service",
         "cid": 10004,
         "id": 40004,
         "name": "Infrachain governance framework",
@@ -960,6 +990,7 @@
         "status": "Pilot"
     },
     {
+        "entry_type": "service",
         "cid": 10004,
         "id": 40005,
         "name": "Pension infrastructure",
@@ -992,6 +1023,7 @@
         "status": "Pilot"
     },
     {
+        "entry_type": "service",
         "cid": 10004,
         "id": 40006,
         "name": "Stadjerspas smart vouchers",
@@ -1024,6 +1056,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10005,
         "id": 50001,
         "name": "Blockchain pilot - Open Data notarization & change protocol",
@@ -1056,6 +1089,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10005,
         "id": 50002,
         "name": "Blockchain pilot - Digital food voucher",
@@ -1088,6 +1122,7 @@
         "status": "In development"
     },
     {
+        "entry_type": "service",
         "cid": 10005,
         "id": 50003,
         "name": "Austrian Federal Government's Finance Agency, Oesterreichische Kontrollbank",
@@ -1120,6 +1155,7 @@
         "status": "In development"
     },
     {
+        "entry_type": "service",
         "cid": 10005,
         "id": 50004,
         "name": "BeSure - Demonstrability Service",
@@ -1152,6 +1188,7 @@
         "status": "In development"
     },
     {
+        "entry_type": "service",
         "cid": 10005,
         "id": 50005,
         "name": "FlowBikes",
@@ -1184,6 +1221,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10005,
         "id": 50006,
         "name": "A digital talent profile for maximum development",
@@ -1216,6 +1254,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10005,
         "id": 50007,
         "name": "Privacy engine Antwerp City Platform as a Service",
@@ -1248,6 +1287,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10005,
         "id": 50008,
         "name": "i-Voting",
@@ -1280,6 +1320,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10005,
         "id": 50009,
         "name": "X-Road Interoperability Services",
@@ -1312,6 +1353,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10005,
         "id": 50010,
         "name": "Health Records",
@@ -1344,6 +1386,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10005,
         "id": 50011,
         "name": "Blockchain-based Keyless Signature Infrastructure (KSI)",
@@ -1376,6 +1419,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10005,
         "id": 50012,
         "name": "GIZ Blockchain Lab",
@@ -1408,6 +1452,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10005,
         "id": 50013,
         "name": "Blockchain as Digital Enabler for the European Federalism in the Asylum Context",
@@ -1440,6 +1485,7 @@
         "status": "In development"
     },
     {
+        "entry_type": "service",
         "cid": 10005,
         "id": 50014,
         "name": "Blockchain & Virtual Currencies Working Group",
@@ -1472,6 +1518,7 @@
         "status": "In development"
     },
     {
+        "entry_type": "service",
         "cid": 10005,
         "id": 50015,
         "name": "Securing the Internet of Things",
@@ -1504,6 +1551,7 @@
         "status": "In development"
     },
     {
+        "entry_type": "service",
         "cid": 10005,
         "id": 50016,
         "name": "Digital Currency Business Register",
@@ -1536,6 +1584,7 @@
         "status": "In development"
     },
     {
+        "entry_type": "service",
         "cid": 10005,
         "id": 50017,
         "name": "New solutions for the traceability of Italian food products",
@@ -1568,6 +1617,7 @@
         "status": "In development"
     },
     {
+        "entry_type": "service",
         "cid": 10005,
         "id": 50018,
         "name": "DOGANA 4.0",
@@ -1600,6 +1650,7 @@
         "status": "In development"
     },
     {
+        "entry_type": "service",
         "cid": 10005,
         "id": 50019,
         "name": "Food fraud and falsification of Made in Italy",
@@ -1632,6 +1683,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10005,
         "id": 50020,
         "name": "Decentralised Digital Identity Pilot",
@@ -1664,6 +1716,7 @@
         "status": "Pilot"
     },
     {
+        "entry_type": "service",
         "cid": 10005,
         "id": 50021,
         "name": "Execution of a judicial decision of juvenile court",
@@ -1696,6 +1749,7 @@
         "status": "Pilot"
     },
     {
+        "entry_type": "service",
         "cid": 10005,
         "id": 50022,
         "name": "Toxic Waste Transport",
@@ -1728,6 +1782,7 @@
         "status": "Pilot"
     },
     {
+        "entry_type": "service",
         "cid": 10005,
         "id": 50023,
         "name": "Public Healthcare Benefits Subsidy",
@@ -1760,6 +1815,7 @@
         "status": "Pilot"
     },
     {
+        "entry_type": "service",
         "cid": 10005,
         "id": 50024,
         "name": "Healthcare Process Authorization",
@@ -1792,6 +1848,7 @@
         "status": "Pilot"
     },
     {
+        "entry_type": "service",
         "cid": 10005,
         "id": 50025,
         "name": "FlashCompany",
@@ -1824,6 +1881,7 @@
         "status": "Pilot"
     },
     {
+        "entry_type": "service",
         "cid": 10005,
         "id": 50026,
         "name": "Blockchain-based Land Registry",
@@ -1856,6 +1914,7 @@
         "status": "Pilot"
     },
     {
+        "entry_type": "service",
         "cid": 10005,
         "id": 50027,
         "name": "Truck Driver Tracking",
@@ -1888,6 +1947,7 @@
         "status": "Pilot"
     },
     {
+        "entry_type": "service",
         "cid": 10005,
         "id": 50028,
         "name": "Financing New School Buildings",
@@ -1920,6 +1980,7 @@
         "status": "Pilot"
     },
     {
+        "entry_type": "service",
         "cid": 10005,
         "id": 50029,
         "name": "Electric Vehicle Subsidy Registry",
@@ -1952,6 +2013,7 @@
         "status": "Pilot"
     },
     {
+        "entry_type": "service",
         "cid": 10005,
         "id": 50030,
         "name": "Medical Instrument Registration",
@@ -1984,6 +2046,7 @@
         "status": "Pilot"
     },
     {
+        "entry_type": "service",
         "cid": 10005,
         "id": 50031,
         "name": "Employment and Identity Fraud",
@@ -2016,6 +2079,7 @@
         "status": "Pilot"
     },
     {
+        "entry_type": "service",
         "cid": 10005,
         "id": 50032,
         "name": "Multi-stakeholder Financial Arrangements",
@@ -2048,6 +2112,7 @@
         "status": "Pilot"
     },
     {
+        "entry_type": "service",
         "cid": 10005,
         "id": 50033,
         "name": "Large Event Permitting",
@@ -2080,6 +2145,7 @@
         "status": "Pilot"
     },
     {
+        "entry_type": "service",
         "cid": 10005,
         "id": 50034,
         "name": "Waste Sector Data Sharing",
@@ -2112,6 +2178,7 @@
         "status": "Pilot"
     },
     {
+        "entry_type": "service",
         "cid": 10005,
         "id": 50035,
         "name": "Blockchain-based Digital Identity: Do-it-Yourself Marriage",
@@ -2144,6 +2211,7 @@
         "status": "Pilot"
     },
     {
+        "entry_type": "service",
         "cid": 10005,
         "id": 50036,
         "name": "Aid Subsidy Collection",
@@ -2176,6 +2244,7 @@
         "status": "In development"
     },
     {
+        "entry_type": "service",
         "cid": 10005,
         "id": 50037,
         "name": "IoT & Blockchain Lab",
@@ -2208,6 +2277,7 @@
         "status": "In development"
     },
     {
+        "entry_type": "service",
         "cid": 10005,
         "id": 50038,
         "name": "TrustForWills",
@@ -2240,6 +2310,7 @@
         "status": "In development"
     },
     {
+        "entry_type": "service",
         "cid": 10005,
         "id": 50039,
         "name": "Distributed Open Data Portal",
@@ -2272,6 +2343,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10005,
         "id": 50040,
         "name": "Decentralized Energy Trading Marketplace",
@@ -2304,6 +2376,7 @@
         "status": "In development"
     },
     {
+        "entry_type": "service",
         "cid": 10005,
         "id": 50041,
         "name": "e-Government Pilot Project",
@@ -2336,6 +2409,7 @@
         "status": "In development"
     },
     {
+        "entry_type": "service",
         "cid": 10005,
         "id": 50042,
         "name": "Swiss Cryptovalley",
@@ -2368,6 +2442,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10005,
         "id": 50043,
         "name": "City of Zug Blockchain Voting Trial",
@@ -2400,6 +2475,7 @@
         "status": "Pilot"
     },
     {
+        "entry_type": "service",
         "cid": 10005,
         "id": 50044,
         "name": "e-Auction 3.0",
@@ -2432,6 +2508,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10005,
         "id": 50045,
         "name": "Project Maison",
@@ -2464,6 +2541,7 @@
         "status": "In development"
     },
     {
+        "entry_type": "service",
         "cid": 10005,
         "id": 50046,
         "name": "GovCoin Proof of Concept",
@@ -2496,6 +2574,7 @@
         "status": "In development"
     },
     {
+        "entry_type": "service",
         "cid": 10005,
         "id": 50047,
         "name": "RMG\u00ae The New Digital Gold Standard",
@@ -2528,6 +2607,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10005,
         "id": 50048,
         "name": "Distributed Ledger-based Gross Settlement System",
@@ -2560,6 +2640,7 @@
         "status": "In development"
     },
     {
+        "entry_type": "service",
         "cid": 10005,
         "id": 50049,
         "name": "Food Standards Agency",
@@ -2592,6 +2673,7 @@
         "status": "Pilot"
     },
     {
+        "entry_type": "service",
         "cid": 10006,
         "id": 60001,
         "name": "Austrian data catalogue",
@@ -2624,6 +2706,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10006,
         "id": 60002,
         "name": "Austrian geodata catalogue",
@@ -2656,6 +2739,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10006,
         "id": 60003,
         "name": "Belgium data catalogue",
@@ -2688,6 +2772,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10006,
         "id": 60004,
         "name": "Belgium data on parliament",
@@ -2720,6 +2805,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10006,
         "id": 60005,
         "name": "Belgium geodata catalogue",
@@ -2752,6 +2838,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10006,
         "id": 60006,
         "name": "Brussels geodata catalogue",
@@ -2784,6 +2871,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10006,
         "id": 60007,
         "name": "Flanders INSPIRE data catalogue",
@@ -2816,6 +2904,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10006,
         "id": 60008,
         "name": "Flanders open data catalogue",
@@ -2848,6 +2937,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10006,
         "id": 60009,
         "name": "Flanders utility maps and data",
@@ -2880,6 +2970,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10006,
         "id": 60010,
         "name": "FRIS Onderzoeksportaal",
@@ -2912,6 +3003,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10006,
         "id": 60011,
         "name": "Ghent data catalogue",
@@ -2944,6 +3036,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10006,
         "id": 60012,
         "name": "Wallonie geodata catalogue",
@@ -2976,6 +3069,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10006,
         "id": 60013,
         "name": "Bulgaria data catalogue",
@@ -3008,6 +3102,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10006,
         "id": 60014,
         "name": "Bulgaria geodata catalogue",
@@ -3040,6 +3135,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10006,
         "id": 60015,
         "name": "European Centre for Medium-Range Weather Forecasts (ECMWF)",
@@ -3048,7 +3144,7 @@
         "description": "European Centre for Medium-Range Weather Forecasts (ECMWF)",
         "geoextent": "International",
         "geocoverage": [
-            "Community"
+            "European Union"
         ],
         "geocoverage_codes": [],
         "lead_organisation": {
@@ -3070,6 +3166,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10006,
         "id": 60016,
         "name": "European Marine Observation and Data Network (EMODNET)",
@@ -3078,7 +3175,7 @@
         "description": "European Marine Observation and Data Network (EMODNET)",
         "geoextent": "International",
         "geocoverage": [
-            "Community"
+            "European Union"
         ],
         "geocoverage_codes": [],
         "lead_organisation": {
@@ -3100,6 +3197,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10006,
         "id": 60017,
         "name": "YourDataStories",
@@ -3108,7 +3206,7 @@
         "description": "YourDataStories",
         "geoextent": "International",
         "geocoverage": [
-            "Community"
+            "European Union"
         ],
         "geocoverage_codes": [],
         "lead_organisation": {
@@ -3130,6 +3228,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10006,
         "id": 60018,
         "name": "Croatia geodata catalogue",
@@ -3138,11 +3237,9 @@
         "description": "Croatia geodata catalogue",
         "geoextent": "National",
         "geocoverage": [
-            "Croatia"
+            "European Union"
         ],
-        "geocoverage_codes": [
-            "HR"
-        ],
+        "geocoverage_codes": [],
         "lead_organisation": {
             "name": "Government of Croatia",
             "category": "Governmental"
@@ -3162,6 +3259,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10006,
         "id": 60019,
         "name": "Cyprus geodata catalogue",
@@ -3194,6 +3292,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10006,
         "id": 60020,
         "name": "Access to Registers of Economic Subjects \/ Entities (ARES)",
@@ -3226,6 +3325,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10006,
         "id": 60021,
         "name": "Czech Cadastre Web Services",
@@ -3258,6 +3358,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10006,
         "id": 60022,
         "name": "Czech data catalogue",
@@ -3290,6 +3391,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10006,
         "id": 60023,
         "name": "Czech geodata catalogue",
@@ -3322,6 +3424,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10006,
         "id": 60024,
         "name": "Czech Mapybezbarier",
@@ -3354,6 +3457,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10006,
         "id": 60025,
         "name": "Czech Taric custom administration",
@@ -3386,6 +3490,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10006,
         "id": 60026,
         "name": "Open Data CEDR III",
@@ -3418,6 +3523,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10006,
         "id": 60027,
         "name": "Copenhagen parking",
@@ -3450,6 +3556,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10006,
         "id": 60028,
         "name": "Denmark Adresses",
@@ -3482,6 +3589,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10006,
         "id": 60029,
         "name": "Denmark Central Company Registry",
@@ -3514,6 +3622,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10006,
         "id": 60030,
         "name": "Denmark Customs and Tax Administration",
@@ -3546,6 +3655,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10006,
         "id": 60031,
         "name": "Denmark data",
@@ -3578,6 +3688,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10006,
         "id": 60032,
         "name": "Denmark geodata",
@@ -3610,6 +3721,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10006,
         "id": 60033,
         "name": "Denmark maps",
@@ -3642,6 +3754,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10006,
         "id": 60034,
         "name": "Denmark national service platform healthcare",
@@ -3674,6 +3787,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10006,
         "id": 60035,
         "name": "Denmark natural environment portal",
@@ -3706,6 +3820,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10006,
         "id": 60036,
         "name": "Denmark statistics",
@@ -3738,6 +3853,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10006,
         "id": 60037,
         "name": "Estonia Center for Health and Welfare Information Systems",
@@ -3770,6 +3886,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10006,
         "id": 60038,
         "name": "Estonia company registration",
@@ -3802,6 +3919,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10006,
         "id": 60039,
         "name": "Estonia geodata",
@@ -3834,6 +3952,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10006,
         "id": 60040,
         "name": "Copernicus",
@@ -3864,6 +3983,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10006,
         "id": 60041,
         "name": "Digital Agenda Key Indicators",
@@ -3894,6 +4014,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10006,
         "id": 60042,
         "name": "Dissemination and Visualization of Statistical Semantic Data",
@@ -3924,6 +4045,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10006,
         "id": 60043,
         "name": "eArchiving building block",
@@ -3954,6 +4076,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10006,
         "id": 60044,
         "name": "eInvoice CEN Building block",
@@ -3984,6 +4107,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10006,
         "id": 60045,
         "name": "eInvoice UBL Bulding block",
@@ -4014,6 +4138,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10006,
         "id": 60046,
         "name": "eTendering",
@@ -4044,6 +4169,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10006,
         "id": 60047,
         "name": "eTranslation building block",
@@ -4074,6 +4200,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10006,
         "id": 60048,
         "name": "EU Open Data Portal",
@@ -4104,6 +4231,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10006,
         "id": 60049,
         "name": "European Chemicals Agency (ECHA) IUCLID chemical substances",
@@ -4134,6 +4262,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10006,
         "id": 60050,
         "name": "European Chemicals Agency (ECHA) QSART",
@@ -4164,6 +4293,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10006,
         "id": 60051,
         "name": "European Commission Health and Food Safety Directorate General public data",
@@ -4194,6 +4324,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10006,
         "id": 60052,
         "name": "European Council",
@@ -4224,6 +4355,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10006,
         "id": 60053,
         "name": "European Court Database",
@@ -4254,6 +4386,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10006,
         "id": 60054,
         "name": "European Court Database statistics",
@@ -4284,6 +4417,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10006,
         "id": 60055,
         "name": "European Data Portal",
@@ -4314,6 +4448,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10006,
         "id": 60056,
         "name": "European Environmental Agency",
@@ -4344,6 +4479,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10006,
         "id": 60057,
         "name": "European Participant Portal",
@@ -4374,6 +4510,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10006,
         "id": 60058,
         "name": "European Single Procurement Document (ESPD)",
@@ -4404,6 +4541,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10006,
         "id": 60059,
         "name": "European Skills, Competences, Qualifications and Occupations (ESCO)",
@@ -4434,6 +4572,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10006,
         "id": 60060,
         "name": "European Union law and publications",
@@ -4464,6 +4603,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10006,
         "id": 60061,
         "name": "European Union legislation",
@@ -4494,6 +4634,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10006,
         "id": 60062,
         "name": "Europeana",
@@ -4524,6 +4665,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10006,
         "id": 60063,
         "name": "Eurostat",
@@ -4554,6 +4696,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10006,
         "id": 60064,
         "name": "Eurostat NUTS administrative classification",
@@ -4584,6 +4727,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10006,
         "id": 60065,
         "name": "Farm Oriented Open Data in Europe",
@@ -4614,6 +4758,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10006,
         "id": 60066,
         "name": "Geographic Information System of the C\u043emmission datasets",
@@ -4644,6 +4789,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10006,
         "id": 60067,
         "name": "Global Open Data for Agriculture and nutrition",
@@ -4674,6 +4820,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10006,
         "id": 60068,
         "name": "Historic payments",
@@ -4704,6 +4851,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10006,
         "id": 60069,
         "name": "International Aid Transparency Initiative",
@@ -4734,6 +4882,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10006,
         "id": 60070,
         "name": "It's Your Parliament (Itsy)",
@@ -4764,6 +4913,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10006,
         "id": 60071,
         "name": "LobbyFacts",
@@ -4794,6 +4944,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10006,
         "id": 60072,
         "name": "National Trusted Lists and the European List of Trusted Lists (LOTL)",
@@ -4824,6 +4975,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10006,
         "id": 60073,
         "name": "Spatial Information in the European Community (INSPIRE) European Testing Framework",
@@ -4854,6 +5006,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10006,
         "id": 60074,
         "name": "Spatial Information in the European Community (INSPIRE) geocatalogue",
@@ -4884,6 +5037,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10006,
         "id": 60075,
         "name": "Finland data catalogue",
@@ -4916,6 +5070,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10006,
         "id": 60076,
         "name": "Finland INSPIRE data catalogue",
@@ -4948,6 +5103,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10006,
         "id": 60077,
         "name": "Helsinki Map APIs",
@@ -4980,6 +5136,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10006,
         "id": 60078,
         "name": "Helsinki Open Ahjo APIs",
@@ -5012,6 +5169,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10006,
         "id": 60079,
         "name": "Helsinki Regional Transport Authority HSL Developer Community",
@@ -5044,6 +5202,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10006,
         "id": 60080,
         "name": "Helsinki Video Council APIs",
@@ -5076,6 +5235,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10006,
         "id": 60081,
         "name": "Online portal for citizens of Finland",
@@ -5108,6 +5268,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10006,
         "id": 60082,
         "name": "France Data",
@@ -5140,6 +5301,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10006,
         "id": 60083,
         "name": "France Declaration social nominative (DSN)",
@@ -5172,6 +5334,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10006,
         "id": 60084,
         "name": "France Enterprise",
@@ -5204,6 +5367,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10006,
         "id": 60085,
         "name": "France INSPIRE data Catalogue",
@@ -5236,6 +5400,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10006,
         "id": 60086,
         "name": "French business register Sirene",
@@ -5268,6 +5433,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10006,
         "id": 60087,
         "name": "Paris data",
@@ -5300,6 +5466,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10006,
         "id": 60088,
         "name": "Paris Participatory Budget",
@@ -5332,6 +5499,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10006,
         "id": 60089,
         "name": "Rennes Data",
@@ -5364,6 +5532,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10006,
         "id": 60090,
         "name": "Bayern Data",
@@ -5396,6 +5565,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10006,
         "id": 60091,
         "name": "Berlin Data",
@@ -5428,6 +5598,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10006,
         "id": 60092,
         "name": "GENESIS",
@@ -5460,6 +5631,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10006,
         "id": 60093,
         "name": "Germany Berlin GeoPortal",
@@ -5492,6 +5664,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10006,
         "id": 60094,
         "name": "Germany INSPIRE data catalogue",
@@ -5524,6 +5697,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10006,
         "id": 60095,
         "name": "Germany Leipzig Data",
@@ -5556,6 +5730,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10006,
         "id": 60096,
         "name": "Germany Munich Transparent",
@@ -5588,6 +5763,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10006,
         "id": 60097,
         "name": "Leipzig Corpora Collection (LCC)",
@@ -5620,6 +5796,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10006,
         "id": 60098,
         "name": "Greece Data",
@@ -5652,6 +5829,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10006,
         "id": 60099,
         "name": "Greece Diavgeia",
@@ -5684,6 +5862,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10006,
         "id": 60100,
         "name": "Greece Geodata",
@@ -5716,6 +5895,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10006,
         "id": 60101,
         "name": "Greece INSPIRE data catalogue",
@@ -5748,6 +5928,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10006,
         "id": 60102,
         "name": "Hungary INSPIRE data catalogue",
@@ -5780,6 +5961,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10006,
         "id": 60103,
         "name": "Iceland INSPIRE data catalogue",
@@ -5812,6 +5994,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10006,
         "id": 60104,
         "name": "Ireland data",
@@ -5844,6 +6027,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10006,
         "id": 60105,
         "name": "Ireland INSPIRE data catalogue",
@@ -5876,6 +6060,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10006,
         "id": 60106,
         "name": "Ireland Light Rail Transit System in Dublin",
@@ -5908,40 +6093,9 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10006,
         "id": 60107,
-        "name": "Smart Dublin",
-        "url": "https:\/\/data.smartdublin.ie\/api\/3\/action\/package_list",
-        "contact": "",
-        "description": "Smart Dublin",
-        "geoextent": "Local",
-        "geocoverage": [
-            "Ireland"
-        ],
-        "geocoverage_codes": [
-            "IE"
-        ],
-        "lead_organisation": {
-            "name": "Smart Dublin",
-            "category": "Governmental"
-        },
-        "lead_organisation_name": "Smart Dublin",
-        "lead_organisation_category": "Governmental",
-        "start_date": "",
-        "active": "Yes",
-        "end_date": "",
-        "primary_sector": "Environmental protection",
-        "secondary_sector": "Data access",
-        "technology": "Api",
-        "uptake": "Unknown",
-        "cross_border": "No",
-        "cross_sector": "Yes",
-        "type": "Service integration",
-        "status": "In production"
-    },
-    {
-        "cid": 10006,
-        "id": 60108,
         "name": "Italy Data",
         "url": "https:\/\/www.dati.gov.it\/api\/3\/action\/package_list",
         "contact": "",
@@ -5972,8 +6126,9 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10006,
-        "id": 60109,
+        "id": 60108,
         "name": "Italy Data of 'Repertorio Nazionale Dati Territoriali'",
         "url": "http:\/\/geodati.gov.it\/RNDT\/csw",
         "contact": "",
@@ -6004,8 +6159,9 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10006,
-        "id": 60110,
+        "id": 60109,
         "name": "Italy eInvoicing building block APIs",
         "url": "http:\/\/www.gov4j.it\/gov4j\/jsp\/index.jsp?sel=fatturapa",
         "contact": "",
@@ -6036,8 +6192,9 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10006,
-        "id": 60111,
+        "id": 60110,
         "name": "Italy INSPIRE data catalogue APIs",
         "url": "https:\/\/geodati.gov.it\/RNDT\/csw",
         "contact": "",
@@ -6068,8 +6225,9 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10006,
-        "id": 60112,
+        "id": 60111,
         "name": "Italy Lombardy Open Data",
         "url": "https:\/\/dati.lombardia.it\/",
         "contact": "",
@@ -6100,8 +6258,9 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10006,
-        "id": 60113,
+        "id": 60112,
         "name": "Italy Milano Data",
         "url": "https:\/\/dati.comune.milano.it\/api\/3",
         "contact": "",
@@ -6132,8 +6291,9 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10006,
-        "id": 60114,
+        "id": 60113,
         "name": "Italy Piedmont YUCCA Smart Data Platform",
         "url": "https:\/\/yucca.readthedocs.io\/it\/latest\/yucca-docs\/docs\/come_fare_per\/2_Accesso_API.html",
         "contact": "",
@@ -6164,8 +6324,9 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10006,
-        "id": 60115,
+        "id": 60114,
         "name": "Italy Trento ComunWeb APIs",
         "url": "https:\/\/www.comunweb.it\/Temi\/OpenData\/Guadagnare-con-gli-Open-Data\/Modalita-di-erogazione-dei-dati-attraverso-servizi-aperti-Open-Services",
         "contact": "",
@@ -6196,8 +6357,9 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10006,
-        "id": 60116,
+        "id": 60115,
         "name": "Latvian Information Agency INSPIRE data catalogue",
         "url": "https:\/\/metadati.lgia.gov.lv\/geoportal\/csw",
         "contact": "",
@@ -6228,8 +6390,9 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10006,
-        "id": 60117,
+        "id": 60116,
         "name": "Latvian INSPIRE data catalogue",
         "url": "https:\/\/geometadati.viss.gov.lv\/geoportal\/csw",
         "contact": "",
@@ -6260,8 +6423,9 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10006,
-        "id": 60118,
+        "id": 60117,
         "name": "Liechenstein INSPIRE data catalogue",
         "url": "https:\/\/www.geocat.ch\/geonetwork\/srv\/ger\/csw-liechtenstein-inspire",
         "contact": "",
@@ -6290,8 +6454,9 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10006,
-        "id": 60119,
+        "id": 60118,
         "name": "Lithuania INSPIRE data catalogue",
         "url": "https:\/\/www.geoportal.lt:\/geonetwork\/srv\/eng\/csw",
         "contact": "",
@@ -6322,8 +6487,9 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10006,
-        "id": 60120,
+        "id": 60119,
         "name": "Luxembourg INSPIRE data catalogue",
         "url": "https:\/\/catalog.inspire.geoportail.lu\/geonetwork\/srv\/eng\/csw",
         "contact": "",
@@ -6354,8 +6520,9 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10006,
-        "id": 60121,
+        "id": 60120,
         "name": "LuxHub banking",
         "url": "https:\/\/developer.luxhub.com\/api-catalog",
         "contact": "",
@@ -6386,8 +6553,9 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10006,
-        "id": 60122,
+        "id": 60121,
         "name": "National Library Luxembourg",
         "url": "https:\/\/data.bnl.lu\/apis\/",
         "contact": "",
@@ -6418,8 +6586,9 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10006,
-        "id": 60123,
+        "id": 60122,
         "name": "Malta INSPIRE data catalogue",
         "url": "https:\/\/msdi.data.gov.mt\/geonetwork\/srv\/eng\/csw",
         "contact": "",
@@ -6450,8 +6619,9 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10006,
-        "id": 60124,
+        "id": 60123,
         "name": "City Dashboard Amsterdam",
         "url": "http:\/\/citydashboard.org\/amsterdam\/",
         "contact": "",
@@ -6482,8 +6652,9 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10006,
-        "id": 60125,
+        "id": 60124,
         "name": "Antwerp City Platform as a Service (ACPaaS)",
         "url": "https:\/\/acpaas.digipolis.be\/",
         "contact": "",
@@ -6514,8 +6685,9 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10006,
-        "id": 60126,
+        "id": 60125,
         "name": "Eindhoven Data",
         "url": "https:\/\/data.eindhoven.nl\/api\/v1\/console\/datasets\/1.0\/search\/",
         "contact": "",
@@ -6546,8 +6718,9 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10006,
-        "id": 60127,
+        "id": 60126,
         "name": "Netherlands data",
         "url": "https:\/\/data.overheid.nl\/dataset\/1\/25?search=API",
         "contact": "",
@@ -6578,8 +6751,9 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10006,
-        "id": 60128,
+        "id": 60127,
         "name": "Netherlands INSPIRE data catalogue",
         "url": "https:\/\/www.nationaalgeoregister.nl:443\/geonetwork\/srv\/dut\/csw-inspire",
         "contact": "",
@@ -6610,8 +6784,9 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10006,
-        "id": 60129,
+        "id": 60128,
         "name": "Netherlands KB national library",
         "url": "https:\/\/www.kb.nl\/bronnen-zoekwijzers\/dataservices-en-apis",
         "contact": "",
@@ -6642,8 +6817,9 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10006,
-        "id": 60130,
+        "id": 60129,
         "name": "Netherlands Open Dutch Chamber of Commerce",
         "url": "https:\/\/overheid.io\/documentatie\/openkvk",
         "contact": "",
@@ -6674,8 +6850,9 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10006,
-        "id": 60131,
+        "id": 60130,
         "name": "Netherlands Public Services On the Map",
         "url": "https:\/\/www.pdok.nl\/voor-aanbieders",
         "contact": "",
@@ -6706,8 +6883,9 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10006,
-        "id": 60132,
+        "id": 60131,
         "name": "Netherlands public transportation sector",
         "url": "https:\/\/www.ns.nl\/en\/travel-information\/ns-api",
         "contact": "",
@@ -6738,8 +6916,9 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10006,
-        "id": 60133,
+        "id": 60132,
         "name": "Netherlands Rijksmuseum",
         "url": "https:\/\/www.rijksmuseum.nl\/en\/api",
         "contact": "",
@@ -6770,8 +6949,9 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10006,
-        "id": 60134,
+        "id": 60133,
         "name": "Netherlands Schools",
         "url": "http:\/\/api.openonderwijsdata.nl\/",
         "contact": "",
@@ -6802,8 +6982,9 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10006,
-        "id": 60135,
+        "id": 60134,
         "name": "Norway INSPIRE data catalogue",
         "url": "http:\/\/www.geonorge.no\/geonetwork\/srv\/nor\/csw-inspire",
         "contact": "",
@@ -6834,8 +7015,9 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10006,
-        "id": 60136,
+        "id": 60135,
         "name": "Poland INSPIRE data catalogue",
         "url": "http:\/\/mapy.geoportal.gov.pl:80\/wss\/service\/CSWINSP\/guest\/CSWStartup?",
         "contact": "",
@@ -6866,8 +7048,9 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10006,
-        "id": 60137,
+        "id": 60136,
         "name": "Web Service TAX FREE",
         "url": "https:\/\/granica.gov.pl\/TaxFree\/webServiceTaxFree.php?v=;https:\/\/granica.gov.pl\/dopobrania.php?v=en",
         "contact": "",
@@ -6898,8 +7081,9 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10006,
-        "id": 60138,
+        "id": 60137,
         "name": "Portugal INSPIRE data catalogue",
         "url": "http:\/\/snig.dgterritorio.pt\/geoportal\/csw\/discovery",
         "contact": "",
@@ -6930,8 +7114,9 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10006,
-        "id": 60139,
+        "id": 60138,
         "name": "Portugal National Health Service",
         "url": "https:\/\/transparencia.sns.gov.pt\/api\/v1\/console\/datasets\/1.0\/search\/",
         "contact": "",
@@ -6962,8 +7147,9 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10006,
-        "id": 60140,
+        "id": 60139,
         "name": "Romania INSPIRE data catalogue",
         "url": "http:\/\/geoportal.gov.ro\/Geoportal_INIS\/csw",
         "contact": "",
@@ -6994,8 +7180,9 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10006,
-        "id": 60141,
+        "id": 60140,
         "name": "Slovakia Data",
         "url": "https:\/\/data.gov.sk\/api\/3\/action\/package_list",
         "contact": "",
@@ -7026,8 +7213,9 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10006,
-        "id": 60142,
+        "id": 60141,
         "name": "Slovakia INSPIRE data catalogue",
         "url": "https:\/\/rpi.gov.sk\/rpi_csw\/service.svc\/get",
         "contact": "",
@@ -7058,8 +7246,9 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10006,
-        "id": 60143,
+        "id": 60142,
         "name": "Slovenia INSPIRE data catalogue",
         "url": "http:\/\/prostor4.gov.si\/imps\/srv\/eng\/csw-INSPIRE",
         "contact": "",
@@ -7090,8 +7279,9 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10006,
-        "id": 60144,
+        "id": 60143,
         "name": "Aragon OpenData",
         "url": "https:\/\/opendata.aragon.es\/herramientas\/desarrolladores",
         "contact": "",
@@ -7122,8 +7312,9 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10006,
-        "id": 60145,
+        "id": 60144,
         "name": "Barcelona Open Data",
         "url": "https:\/\/opendata-ajuntament.barcelona.cat\/en\/api-cataleg",
         "contact": "",
@@ -7154,8 +7345,9 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10006,
-        "id": 60146,
+        "id": 60145,
         "name": "Barcelona Sentilo",
         "url": "https:\/\/connecta.bcn.cat\/connecta-catalog-web\/component\/map",
         "contact": "",
@@ -7186,8 +7378,9 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10006,
-        "id": 60147,
+        "id": 60146,
         "name": "Cantabria Statistics",
         "url": "http:\/\/www.icane.es\/statistical-api",
         "contact": "",
@@ -7218,8 +7411,9 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10006,
-        "id": 60148,
+        "id": 60147,
         "name": "Catalunya Statistics",
         "url": "http:\/\/api.idescat.cat\/indicadors\/v1\/",
         "contact": "",
@@ -7250,8 +7444,9 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10006,
-        "id": 60149,
+        "id": 60148,
         "name": "Galicia Meteo",
         "url": "http:\/\/servizos.meteogalicia.es\/api_manual\/en\/index.html",
         "contact": "",
@@ -7282,8 +7477,9 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10006,
-        "id": 60150,
+        "id": 60149,
         "name": "Madrid MobilityLabs",
         "url": "https:\/\/mobilitylabs.emtmadrid.es\/portal\/",
         "contact": "",
@@ -7314,8 +7510,9 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10006,
-        "id": 60151,
+        "id": 60150,
         "name": "Spain Data",
         "url": "http:\/\/www.datos.gob.es",
         "contact": "",
@@ -7346,8 +7543,9 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10006,
-        "id": 60152,
+        "id": 60151,
         "name": "Spain INSPIRE data catalogue",
         "url": "http:\/\/www.idee.es\/csw-codsi-idee\/srv\/spa\/csw",
         "contact": "",
@@ -7378,8 +7576,9 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10006,
-        "id": 60153,
+        "id": 60152,
         "name": "University of Alicante data",
         "url": "https:\/\/dev.datos.ua.es\/",
         "contact": "",
@@ -7410,8 +7609,9 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10006,
-        "id": 60154,
+        "id": 60153,
         "name": "Zaragoza Open Data",
         "url": "https:\/\/www.zaragoza.es\/sede\/portal\/datos-abiertos\/api",
         "contact": "",
@@ -7442,8 +7642,9 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10006,
-        "id": 60155,
+        "id": 60154,
         "name": "Sweden INSPIRE data catalogue",
         "url": "https:\/\/www.geodata.se:443\/geodataportalen\/srv\/swe\/csw-inspire",
         "contact": "",
@@ -7474,8 +7675,9 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10006,
-        "id": 60156,
+        "id": 60155,
         "name": "Sweden OpenAid",
         "url": "https:\/\/openaid.se\/api\/",
         "contact": "",
@@ -7506,8 +7708,9 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10006,
-        "id": 60157,
+        "id": 60156,
         "name": "Sweden Parliament",
         "url": "https:\/\/data.riksdagen.se\/data\/dokument\/",
         "contact": "",
@@ -7538,8 +7741,9 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10006,
-        "id": 60158,
+        "id": 60157,
         "name": "Sweden Stockholm data",
         "url": "https:\/\/dataportalen.stockholm.se\/dataportalen\/",
         "contact": "",
@@ -7570,8 +7774,9 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10006,
-        "id": 60159,
+        "id": 60158,
         "name": "Switzerland INSPIRE data catalogue",
         "url": "https:\/\/www.geocat.ch\/geonetwork\/srv\/eng\/csw-geobasisdaten",
         "contact": "",
@@ -7602,8 +7807,9 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10006,
-        "id": 60160,
+        "id": 60159,
         "name": "London DataStore",
         "url": "http:\/\/data.london.gov.uk\/api\/3\/action\/package_list",
         "contact": "",
@@ -7634,8 +7840,9 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10006,
-        "id": 60161,
+        "id": 60160,
         "name": "London Transport for London",
         "url": "https:\/\/tfl.gov.uk\/info-for\/open-data-users\/unified-api?intcmp=29422",
         "contact": "",
@@ -7666,8 +7873,9 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10006,
-        "id": 60162,
+        "id": 60161,
         "name": "The Guardian World gov data",
         "url": "https:\/\/open-platform.theguardian.com\/access\/",
         "contact": "",
@@ -7698,8 +7906,9 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10006,
-        "id": 60163,
+        "id": 60162,
         "name": "UK AirQuality",
         "url": "https:\/\/rapidapi.com\/extropynet\/api\/uk-air-quality\/details",
         "contact": "",
@@ -7730,8 +7939,9 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10006,
-        "id": 60164,
+        "id": 60163,
         "name": "UK BBC",
         "url": "http:\/\/www.bbc.co.uk\/developer\/technology\/apis.html",
         "contact": "",
@@ -7762,8 +7972,9 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10006,
-        "id": 60165,
+        "id": 60164,
         "name": "UK Data",
         "url": "https:\/\/ckan.publishing.service.gov.uk\/api\/3\/action\/package_list",
         "contact": "",
@@ -7794,8 +8005,9 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10006,
-        "id": 60166,
+        "id": 60165,
         "name": "UK Directgov Syndication",
         "url": "https:\/\/webarchive.nationalarchives.gov.uk\/+\/http:\/\/innovate.direct.gov.uk\/syndication\/",
         "contact": "",
@@ -7826,8 +8038,9 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10006,
-        "id": 60167,
+        "id": 60166,
         "name": "UK Find Your MP",
         "url": "http:\/\/findyourmp.parliament.uk\/api\/search?q=YOUR_SEARCH_TERM&format=YOUR_DESIRED_FORMAT",
         "contact": "",
@@ -7858,8 +8071,9 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10006,
-        "id": 60168,
+        "id": 60167,
         "name": "UK Fish register",
         "url": "http:\/\/www.fishregister.gov.uk\/ERSDocuments\/Scotland\/API%20Developers%20Pack-129249598131000000.zip",
         "contact": "",
@@ -7890,8 +8104,9 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10006,
-        "id": 60169,
+        "id": 60168,
         "name": "UK FoodGov",
         "url": "http:\/\/data.food.gov.uk\/food-alerts\/ui\/reference",
         "contact": "",
@@ -7922,8 +8137,9 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10006,
-        "id": 60170,
+        "id": 60169,
         "name": "UK Gateway to Research",
         "url": "https:\/\/gtr.ukri.org\/resources\/api.html",
         "contact": "",
@@ -7954,8 +8170,9 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10006,
-        "id": 60171,
+        "id": 60170,
         "name": "UK Her Majesty Revenue and Costs (HMRC)",
         "url": "https:\/\/developer.service.hmrc.gov.uk\/api-documentation",
         "contact": "",
@@ -7986,8 +8203,9 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10006,
-        "id": 60172,
+        "id": 60171,
         "name": "UK INSPIRE data catalogue",
         "url": "http:\/\/csw.data.gov.uk\/geonetwork\/srv\/en\/csw",
         "contact": "",
@@ -8018,8 +8236,9 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10006,
-        "id": 60173,
+        "id": 60172,
         "name": "UK Institute development studies",
         "url": "http:\/\/api.ids.ac.uk\/openapi\/",
         "contact": "",
@@ -8050,8 +8269,9 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10006,
-        "id": 60174,
+        "id": 60173,
         "name": "UK Legislation",
         "url": "http:\/\/www.legislation.gov.uk\/search",
         "contact": "",
@@ -8082,8 +8302,9 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10006,
-        "id": 60175,
+        "id": 60174,
         "name": "UK local government association Effective Service Delivery",
         "url": "http:\/\/about.esd.org.uk\/api",
         "contact": "",
@@ -8114,8 +8335,9 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10006,
-        "id": 60176,
+        "id": 60175,
         "name": "UK Meteo Office Weather Observations",
         "url": "http:\/\/wow.metoffice.gov.uk\/support\/dataformats",
         "contact": "",
@@ -8146,8 +8368,9 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10006,
-        "id": 60177,
+        "id": 60176,
         "name": "UK National archives",
         "url": "http:\/\/discovery.nationalarchives.gov.uk\/API\/",
         "contact": "",
@@ -8178,8 +8401,9 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10006,
-        "id": 60178,
+        "id": 60177,
         "name": "UK National Health System",
         "url": "https:\/\/developer.nhs.uk\/apis\/",
         "contact": "",
@@ -8210,8 +8434,9 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10006,
-        "id": 60179,
+        "id": 60178,
         "name": "UK Next buses",
         "url": "https:\/\/data.gov.uk\/dataset\/15be9dba-392c-4375-a931-425e35b956f7\/nextbuses-api",
         "contact": "",
@@ -8242,8 +8467,9 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10006,
-        "id": 60180,
+        "id": 60179,
         "name": "UK Ordnance Survey",
         "url": "https:\/\/developer.ordnancesurvey.co.uk\/home",
         "contact": "",
@@ -8274,8 +8500,9 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10006,
-        "id": 60181,
+        "id": 60180,
         "name": "UK Police",
         "url": "https:\/\/data.police.uk\/",
         "contact": "",
@@ -8306,8 +8533,9 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10006,
-        "id": 60182,
+        "id": 60181,
         "name": "UK Redbridge data",
         "url": "http:\/\/data.redbridge.gov.uk\/api\/",
         "contact": "",
@@ -8338,8 +8566,9 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10006,
-        "id": 60183,
+        "id": 60182,
         "name": "UK Shrewsbury Museum",
         "url": "http:\/\/www.shrewsburymuseum.org.uk\/api\/",
         "contact": "",
@@ -8370,6 +8599,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10007,
         "id": 70001,
         "name": "Aragon General Directorate of Contracting, Blockchain Project",
@@ -8402,6 +8632,7 @@
         "status": "In development"
     },
     {
+        "entry_type": "service",
         "cid": 10007,
         "id": 70002,
         "name": "Basque Government Blockchain project",
@@ -8434,6 +8665,7 @@
         "status": "In development"
     },
     {
+        "entry_type": "service",
         "cid": 10007,
         "id": 70003,
         "name": "V-ICT-OR Blockchain Project",
@@ -8466,6 +8698,7 @@
         "status": "In development"
     },
     {
+        "entry_type": "service",
         "cid": 10007,
         "id": 70004,
         "name": "Public Procurement Advisory Unit Blockchain Project",
@@ -8498,6 +8731,7 @@
         "status": "In development"
     },
     {
+        "entry_type": "service",
         "cid": 10007,
         "id": 70005,
         "name": "Government of Austria Blockchain Project",
@@ -8530,6 +8764,7 @@
         "status": "In development"
     },
     {
+        "entry_type": "service",
         "cid": 10007,
         "id": 70006,
         "name": "Digipolis Antwerp, Smart procurement tool",
@@ -8562,6 +8797,7 @@
         "status": "In development"
     },
     {
+        "entry_type": "service",
         "cid": 10007,
         "id": 70007,
         "name": "Malta Information Technology Agency (MITA),  Smart Public Contracts",
@@ -8594,6 +8830,7 @@
         "status": "In development"
     },
     {
+        "entry_type": "service",
         "cid": 10007,
         "id": 70008,
         "name": "Ministry of Public Administration, Big data project",
@@ -8626,6 +8863,7 @@
         "status": "Pilot"
     },
     {
+        "entry_type": "service",
         "cid": 10007,
         "id": 70009,
         "name": "Procurement Monitoring Bureau, ZoomChart",
@@ -8658,6 +8896,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10007,
         "id": 70010,
         "name": "Department of Mobility & Public Works, Medium for Economic Data, Information and Applications on Public Procurement (MEDIAAN)",
@@ -8690,6 +8929,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10007,
         "id": 70011,
         "name": "Agjencia Erokurimit Publik, Business intelligence project",
@@ -8722,6 +8962,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10007,
         "id": 70012,
         "name": "IT Directorate, Ministry of Public Administration, SKRINJA 2.0",
@@ -8754,38 +8995,9 @@
         "status": "In development"
     },
     {
+        "entry_type": "service",
         "cid": 10007,
         "id": 70013,
-        "name": "Digiwhist",
-        "url": "http:\/\/digiwhist.eu\/about-digiwhist\/",
-        "contact": "",
-        "description": "This H2020 funded project focussed on the systematic collection, structuring, analysis, and broad dissemination of information on public procurement. It made use of big data analytics to detect potential conflicts of interest in the system of public procurement and to identify system vulnerabilities",
-        "geoextent": "International",
-        "geocoverage": [
-            "European Union"
-        ],
-        "geocoverage_codes": [],
-        "lead_organisation": {
-            "name": "University of Cambridge",
-            "category": "Consortium"
-        },
-        "lead_organisation_name": "University of Cambridge",
-        "lead_organisation_category": "Consortium",
-        "start_date": "2015",
-        "active": "No",
-        "end_date": "2018",
-        "primary_sector": "General public services",
-        "secondary_sector": "Procurement",
-        "technology": "Data analytics",
-        "uptake": "Unknown",
-        "cross_border": "Unknown",
-        "cross_sector": "Yes",
-        "type": "Auditing and logging",
-        "status": "In production"
-    },
-    {
-        "cid": 10007,
-        "id": 70014,
         "name": "Red flags",
         "url": "http:\/\/redflags.eu\/",
         "contact": "",
@@ -8796,11 +9008,11 @@
         ],
         "geocoverage_codes": [],
         "lead_organisation": {
-            "name": "Unknown",
-            "category": "Consortium"
+            "name": "Transparency International Hungary",
+            "category": "Governmental"
         },
-        "lead_organisation_name": "Unknown",
-        "lead_organisation_category": "Consortium",
+        "lead_organisation_name": "Transparency International Hungary",
+        "lead_organisation_category": "Governmental",
         "start_date": "2015",
         "active": "Yes",
         "end_date": "",
@@ -8814,8 +9026,9 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10007,
-        "id": 70015,
+        "id": 70014,
         "name": "Agency for Public Management and eGovernment, Digital procurement program",
         "url": "https:\/\/www.supplychaindigital.com\/company\/difi-digitising-procurement",
         "contact": "",
@@ -8846,8 +9059,9 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10007,
-        "id": 70016,
+        "id": 70015,
         "name": "Consip, Open data platform",
         "url": "https:\/\/dati.consip.it\/",
         "contact": "",
@@ -8878,8 +9092,9 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10007,
-        "id": 70017,
+        "id": 70016,
         "name": "ProZorro, Risk indicators",
         "url": "https:\/\/oecd-opsi.org\/innovations\/eprocurement-system-prozorro\/",
         "contact": "",
@@ -8910,8 +9125,9 @@
         "status": "In development"
     },
     {
+        "entry_type": "service",
         "cid": 10007,
-        "id": 70018,
+        "id": 70017,
         "name": "ProZorro, Bid prediction",
         "url": "https:\/\/ocdsanalytics.com\/ua\/prozorro\/ai\/docs\/",
         "contact": "",
@@ -8942,8 +9158,9 @@
         "status": "Pilot"
     },
     {
+        "entry_type": "service",
         "cid": 10007,
-        "id": 70019,
+        "id": 70018,
         "name": "ProZorro, CPV Prediction",
         "url": "https:\/\/ocdsanalytics.com\/ua\/prozorro\/ai\/docs\/examples\/",
         "contact": "",
@@ -8974,8 +9191,9 @@
         "status": "In development"
     },
     {
+        "entry_type": "service",
         "cid": 10007,
-        "id": 70020,
+        "id": 70019,
         "name": "DoZorro AI tool",
         "url": "https:\/\/ti-ukraine.org\/en\/news\/dozorro-artificial-intelligence-to-find-violations-in-prozorro-how-it-works\/",
         "contact": "",
@@ -9006,8 +9224,9 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10007,
-        "id": 70021,
+        "id": 70020,
         "name": "Kommers (KAI) semantics check tool",
         "url": "http:\/\/www.primona.se\/en\/public-sector\/our-modules-for-public-sector\/kommers-kai\/",
         "contact": "",
@@ -9038,8 +9257,9 @@
         "status": "In development"
     },
     {
+        "entry_type": "service",
         "cid": 10007,
-        "id": 70022,
+        "id": 70021,
         "name": "ANAC, Machine learning tool,",
         "url": "https:\/\/www.slideshare.net\/FabianaLanotte\/machine-learning-on-public-procurement-open-data-anac-case-study",
         "contact": "",
@@ -9070,8 +9290,9 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10007,
-        "id": 70023,
+        "id": 70022,
         "name": "State Treasury eInvoicing plans",
         "url": "https:\/\/ec.europa.eu\/cefdigital\/wiki\/display\/CEFDIGITAL\/2018\/06\/13\/Finland+is+using+AI+in+attempt+to+achieve+one-hundred+per+cent+eInvoicing",
         "contact": "",
@@ -9102,8 +9323,9 @@
         "status": "In development"
     },
     {
+        "entry_type": "service",
         "cid": 10007,
-        "id": 70024,
+        "id": 70023,
         "name": "YPO, Procurement Information Provider",
         "url": "https:\/\/www.ukauthority.com\/articles\/ypo-launches-procurement-chatbot\/",
         "contact": "",
@@ -9134,8 +9356,9 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10007,
-        "id": 70025,
+        "id": 70024,
         "name": "Hansel Oy, Explore state spending",
         "url": "https:\/\/tutkihankintoja.fi\/?lang=en",
         "contact": "",
@@ -9166,8 +9389,9 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10007,
-        "id": 70026,
+        "id": 70025,
         "name": "Hansel Oy, eNest solution",
         "url": "https:\/\/www.handi.fi\/projektit\/procurement-data\/?lang=en",
         "contact": "",
@@ -9198,8 +9422,9 @@
         "status": "In development"
     },
     {
+        "entry_type": "service",
         "cid": 10007,
-        "id": 70027,
+        "id": 70026,
         "name": "Palkeet, RPA Project",
         "url": "https:\/\/www.palkeet.fi\/ajankohtaista\/pohjoismaat-kansainvalista-rpa-karkea.html",
         "contact": "",
@@ -9230,8 +9455,9 @@
         "status": "In development"
     },
     {
+        "entry_type": "service",
         "cid": 10007,
-        "id": 70028,
+        "id": 70027,
         "name": "Ministry of Finance, mTender",
         "url": "https:\/\/mtender.gov.md\/",
         "contact": "",
@@ -9262,8 +9488,9 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10007,
-        "id": 70029,
+        "id": 70028,
         "name": "Deutsche Bahn, 3D Printing",
         "url": "https:\/\/www.deutschebahn.com\/en\/Digitalization\/DB_Digital\/productworld\/3dprint-1214672",
         "contact": "",
@@ -9294,8 +9521,9 @@
         "status": "In development"
     },
     {
+        "entry_type": "service",
         "cid": 10007,
-        "id": 70030,
+        "id": 70029,
         "name": "Nederlandse Sporten, 3D Printing",
         "url": "https:\/\/nieuws.ns.nl\/ns-zet-stap-in-de-wereld-van-3d-printen\/",
         "contact": "",
@@ -9326,8 +9554,9 @@
         "status": "In development"
     },
     {
+        "entry_type": "service",
         "cid": 10007,
-        "id": 70031,
+        "id": 70030,
         "name": "Material Stock Logistic Command of the Dutch Army, 3D Printing roadmap",
         "url": "https:\/\/www.dimanex.com\/2018\/05\/14\/dutch-army-starts-cooperation-with-dimanex-to-solve-spare-part-supply-challenges-with-an-end-to-end-service-for-3d-manufacturing\/",
         "contact": "",
@@ -9358,8 +9587,9 @@
         "status": "In development"
     },
     {
+        "entry_type": "service",
         "cid": 10007,
-        "id": 70032,
+        "id": 70031,
         "name": "Agency for Nature and Forestry (ANB) and Department for Mobility and Public Works (MOW), Public spatial planning projects",
         "url": "http:\/\/www.innovatieveoverheidsopdrachten.be\/en\/projects\/public-spatial-planning-projects-augmented-and-virtual-reality",
         "contact": "",
@@ -9390,8 +9620,9 @@
         "status": "In development"
     },
     {
+        "entry_type": "service",
         "cid": 10007,
-        "id": 70033,
+        "id": 70032,
         "name": "Helsinki city council, Urban planning project",
         "url": "https:\/\/vttblog.com\/2018\/01\/08\/augmented-reality-urban-data-and-the-related-opportunities\/",
         "contact": "",
@@ -9422,8 +9653,9 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10007,
-        "id": 70034,
+        "id": 70033,
         "name": "Digibygg, Digitised construction project",
         "url": "http:\/\/www.bygg.no\/article\/1381510?image=dp-image121202-1381521",
         "contact": "",
@@ -9454,8 +9686,9 @@
         "status": "Pilot"
     },
     {
+        "entry_type": "service",
         "cid": 10007,
-        "id": 70035,
+        "id": 70034,
         "name": "Statsbygg, Imerso pilot project",
         "url": "https:\/\/www.dn.no\/morgendagens-naringsliv\/imerso\/statsbygg\/sarah-muller\/hun-sjekket-hver-millimeter-av-12000-kvadratmeter-pa-en-dag\/2-1-428362",
         "contact": "",
@@ -9486,8 +9719,9 @@
         "status": "Pilot"
     },
     {
+        "entry_type": "service",
         "cid": 10007,
-        "id": 70036,
+        "id": 70035,
         "name": "Competition and Markets Authority, Cartel screening tool",
         "url": "https:\/\/www.gov.uk\/government\/publications\/screening-for-cartels-tool-for-procurers",
         "contact": "",
@@ -9516,8 +9750,9 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10007,
-        "id": 70037,
+        "id": 70036,
         "name": "Estonian Blockchain Technology",
         "url": "https:\/\/toolbox.estonia.ee\/media\/1921",
         "contact": "",
@@ -9548,8 +9783,9 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10007,
-        "id": 70038,
+        "id": 70037,
         "name": "SUVE",
         "url": "https:\/\/www.valitsus.ee\/en\/news\/chatbot-will-help-you-find-answers-your-questions-about-crisis",
         "contact": "",
@@ -9580,8 +9816,9 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10007,
-        "id": 70039,
+        "id": 70038,
         "name": "Kratid",
         "url": "https:\/\/www.kratid.ee\/in-english",
         "contact": "",
@@ -9612,8 +9849,9 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10007,
-        "id": 70040,
+        "id": 70039,
         "name": "Skrinja 2.0",
         "url": "https:\/\/2tm.si\/the-b2-college-takes-part-in-the-skrinja-2-0-project\/?lang=en",
         "contact": "",
@@ -9644,8 +9882,9 @@
         "status": "In development"
     },
     {
+        "entry_type": "service",
         "cid": 10007,
-        "id": 70041,
+        "id": 70040,
         "name": "PIANOo",
         "url": "https:\/\/www.tenderned.nl\/cms\/nieuws\/pianoo-maakt-wekelijks-analyse-aanbestedingen",
         "contact": "",
@@ -9676,6 +9915,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10008,
         "id": 80001,
         "name": "COVID19AragonBot",
@@ -9708,6 +9948,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10009,
         "id": 90001,
         "name": "SATIKAS",
@@ -9740,6 +9981,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10009,
         "id": 90002,
         "name": "Predictive System, Belgium",
@@ -9772,6 +10014,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10009,
         "id": 90003,
         "name": "Automated Public Services in Trelleborg, Sweden",
@@ -9804,6 +10047,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10009,
         "id": 90004,
         "name": "Chatbot UNA",
@@ -9836,6 +10080,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10009,
         "id": 90005,
         "name": "Tengai",
@@ -9868,6 +10113,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10009,
         "id": 90006,
         "name": "SyRi (Systeem Risico Indicatie)",
@@ -9900,6 +10146,7 @@
         "status": "Withdrawn"
     },
     {
+        "entry_type": "service",
         "cid": 10009,
         "id": 90007,
         "name": "Unemployed Profiling",
@@ -9932,6 +10179,7 @@
         "status": "Withdrawn"
     },
     {
+        "entry_type": "service",
         "cid": 10009,
         "id": 90008,
         "name": "VeriPol",
@@ -9964,6 +10212,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10010,
         "id": 100001,
         "name": "Covid-bot",
@@ -9996,6 +10245,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10011,
         "id": 110001,
         "name": "Automated parking control",
@@ -10015,7 +10265,7 @@
         },
         "lead_organisation_name": "Amsterdam Parking Services",
         "lead_organisation_category": "Governmental",
-        "start_date": "",
+        "start_date": "2020",
         "active": "Yes",
         "end_date": "",
         "primary_sector": "Transport",
@@ -10028,6 +10278,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10011,
         "id": 110002,
         "name": "Holiday rental housing fraud risk",
@@ -10060,6 +10311,7 @@
         "status": "Pilot"
     },
     {
+        "entry_type": "service",
         "cid": 10011,
         "id": 110003,
         "name": "Reporting issues in public space",
@@ -10079,7 +10331,7 @@
         },
         "lead_organisation_name": "Research, Information & Statistics (OIS)",
         "lead_organisation_category": "Governmental",
-        "start_date": "",
+        "start_date": "2020",
         "active": "Yes",
         "end_date": "",
         "primary_sector": "General public services",
@@ -10092,6 +10344,40 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
+        "cid": 10011,
+        "id": 110004,
+        "name": "One and a half meter monitor",
+        "url": "https:\/\/algoritmeregister.amsterdam.nl\/en\/one-and-a-half-meter-monitor\/",
+        "contact": "",
+        "description": "Because of COVID19 measures have been taken to prevent person to person detection, one of the most influential and important new regulation is to keep 1.5 meters distance from each other. To help remind citizens to maintain this distance we have created the 1.5 meter monitor.  The 1.5 meter monitor is a system created to make users aware of social distancing measures. It uses a camera, computer with GPU (or edge devices) and a screen to create awareness for anybody within the field of view of the camera to keep social distance. It does so by displaying a picture that is taken of passersby, that is overlayed with a smiley: a green smiley for more than 1.8 meters distance, an orange smiley for 1.5-1.8 meters distance and a red one for less than 1.5 meters distance. An audio signal can also be played.  The system does not store any visual information, and when detected people will be displayed with a smiley overlay to prevent visual recognition. We do record the number of passers-by within range of the camera, to monitor whether it is too busy in a certain area.  We are using the 1.5 meter monitor temporarily because of the COVID-19 Emergency Ordinance and because of the need to keep a distance of 1.5 meters. The system is being tested in public spaces at a number of locations in the Amsterdam-Amstelland Safety Region.",
+        "geoextent": "Local",
+        "geocoverage": [
+            "Netherlands"
+        ],
+        "geocoverage_codes": [
+            "NL"
+        ],
+        "lead_organisation": {
+            "name": "Amsterdam-Amstelland safety region",
+            "category": "Governmental"
+        },
+        "lead_organisation_name": "Amsterdam-Amstelland safety region",
+        "lead_organisation_category": "Governmental",
+        "start_date": "2020",
+        "active": "Yes",
+        "end_date": "",
+        "primary_sector": "Health",
+        "secondary_sector": "Control and monitoring",
+        "technology": "Iot",
+        "uptake": "Considerable",
+        "cross_border": "No",
+        "cross_sector": "No",
+        "type": "Auditing and logging",
+        "status": "In production"
+    },
+    {
+        "entry_type": "service",
         "cid": 10012,
         "id": 120001,
         "name": "Parking chatbot",
@@ -10124,6 +10410,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10012,
         "id": 120002,
         "name": "Maternity clinic chatbot NeRo",
@@ -10156,6 +10443,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10012,
         "id": 120003,
         "name": "Health center chatbot",
@@ -10188,6 +10476,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10012,
         "id": 120004,
         "name": "Oodi\u2019s book recommendation service Obotti",
@@ -10220,6 +10509,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10012,
         "id": 120005,
         "name": "Intelligent material management system",
@@ -10252,6 +10542,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10013,
         "id": 130001,
         "name": "BonnBot",
@@ -10284,6 +10575,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10013,
         "id": 130002,
         "name": "Kamu",
@@ -10316,6 +10608,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10013,
         "id": 130003,
         "name": "Noa",
@@ -10348,6 +10641,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10013,
         "id": 130004,
         "name": "PatRek",
@@ -10380,6 +10674,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10013,
         "id": 130005,
         "name": "Sigma",
@@ -10412,6 +10707,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10013,
         "id": 130006,
         "name": "Travelbot",
@@ -10444,6 +10740,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10013,
         "id": 130007,
         "name": "VeroBot",
@@ -10476,6 +10773,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10013,
         "id": 130008,
         "name": "Bobbi",
@@ -10508,6 +10806,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10014,
         "id": 140001,
         "name": "Stopp Corona App",
@@ -10540,6 +10839,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10014,
         "id": 140002,
         "name": "Coronalert",
@@ -10572,6 +10872,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10014,
         "id": 140003,
         "name": "Stop COVID-19",
@@ -10604,6 +10905,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10014,
         "id": 140004,
         "name": "eRou\u0161ka",
@@ -10634,6 +10936,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10014,
         "id": 140005,
         "name": "Smitte | stop",
@@ -10666,6 +10969,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10014,
         "id": 140006,
         "name": "Koronavilkku",
@@ -10698,6 +11002,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10014,
         "id": 140007,
         "name": "StopCovid",
@@ -10730,6 +11035,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10014,
         "id": 140008,
         "name": "Corna-Warn-App",
@@ -10762,6 +11068,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10014,
         "id": 140009,
         "name": "VirusRadar",
@@ -10794,6 +11101,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10014,
         "id": 140010,
         "name": "COVID Tracker",
@@ -10826,6 +11134,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10014,
         "id": 140011,
         "name": "Immuni",
@@ -10858,6 +11167,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10014,
         "id": 140012,
         "name": "Apturi Covid",
@@ -10890,6 +11200,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10014,
         "id": 140013,
         "name": "ProteGO Safe",
@@ -10922,6 +11233,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10014,
         "id": 140014,
         "name": "StayAway COVID",
@@ -10954,6 +11266,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10014,
         "id": 140015,
         "name": "#OstaniZdrav",
@@ -10986,6 +11299,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10014,
         "id": 140016,
         "name": "Radar Covid",

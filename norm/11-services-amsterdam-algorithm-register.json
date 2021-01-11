@@ -1,5 +1,6 @@
 [
     {
+        "entry_type": "service",
         "cid": 10011,
         "id": 110001,
         "name": "Automated parking control",
@@ -19,7 +20,7 @@
         },
         "lead_organisation_name": "Amsterdam Parking Services",
         "lead_organisation_category": "Governmental",
-        "start_date": "",
+        "start_date": "2020",
         "active": "Yes",
         "end_date": "",
         "primary_sector": "Transport",
@@ -32,6 +33,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10011,
         "id": 110002,
         "name": "Holiday rental housing fraud risk",
@@ -64,6 +66,7 @@
         "status": "Pilot"
     },
     {
+        "entry_type": "service",
         "cid": 10011,
         "id": 110003,
         "name": "Reporting issues in public space",
@@ -83,7 +86,7 @@
         },
         "lead_organisation_name": "Research, Information & Statistics (OIS)",
         "lead_organisation_category": "Governmental",
-        "start_date": "",
+        "start_date": "2020",
         "active": "Yes",
         "end_date": "",
         "primary_sector": "General public services",
@@ -93,6 +96,39 @@
         "cross_border": "No",
         "cross_sector": "Yes",
         "type": "Other",
+        "status": "In production"
+    },
+    {
+        "entry_type": "service",
+        "cid": 10011,
+        "id": 110004,
+        "name": "One and a half meter monitor",
+        "url": "https:\/\/algoritmeregister.amsterdam.nl\/en\/one-and-a-half-meter-monitor\/",
+        "contact": "",
+        "description": "Because of COVID19 measures have been taken to prevent person to person detection, one of the most influential and important new regulation is to keep 1.5 meters distance from each other. To help remind citizens to maintain this distance we have created the 1.5 meter monitor.  The 1.5 meter monitor is a system created to make users aware of social distancing measures. It uses a camera, computer with GPU (or edge devices) and a screen to create awareness for anybody within the field of view of the camera to keep social distance. It does so by displaying a picture that is taken of passersby, that is overlayed with a smiley: a green smiley for more than 1.8 meters distance, an orange smiley for 1.5-1.8 meters distance and a red one for less than 1.5 meters distance. An audio signal can also be played.  The system does not store any visual information, and when detected people will be displayed with a smiley overlay to prevent visual recognition. We do record the number of passers-by within range of the camera, to monitor whether it is too busy in a certain area.  We are using the 1.5 meter monitor temporarily because of the COVID-19 Emergency Ordinance and because of the need to keep a distance of 1.5 meters. The system is being tested in public spaces at a number of locations in the Amsterdam-Amstelland Safety Region.",
+        "geoextent": "Local",
+        "geocoverage": [
+            "Netherlands"
+        ],
+        "geocoverage_codes": [
+            "NL"
+        ],
+        "lead_organisation": {
+            "name": "Amsterdam-Amstelland safety region",
+            "category": "Governmental"
+        },
+        "lead_organisation_name": "Amsterdam-Amstelland safety region",
+        "lead_organisation_category": "Governmental",
+        "start_date": "2020",
+        "active": "Yes",
+        "end_date": "",
+        "primary_sector": "Health",
+        "secondary_sector": "Control and monitoring",
+        "technology": "Iot",
+        "uptake": "Considerable",
+        "cross_border": "No",
+        "cross_sector": "No",
+        "type": "Auditing and logging",
         "status": "In production"
     }
 ]

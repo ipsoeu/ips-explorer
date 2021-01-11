@@ -1,5 +1,6 @@
 [
     {
+        "entry_type": "service",
         "cid": 10013,
         "id": 130001,
         "name": "BonnBot",
@@ -32,6 +33,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10013,
         "id": 130002,
         "name": "Kamu",
@@ -64,6 +66,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10013,
         "id": 130003,
         "name": "Noa",
@@ -96,6 +99,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10013,
         "id": 130004,
         "name": "PatRek",
@@ -128,6 +132,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10013,
         "id": 130005,
         "name": "Sigma",
@@ -160,6 +165,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10013,
         "id": 130006,
         "name": "Travelbot",
@@ -192,6 +198,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10013,
         "id": 130007,
         "name": "VeroBot",
@@ -224,6 +231,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10013,
         "id": 130008,
         "name": "Bobbi",

@@ -1,5 +1,6 @@
 [
     {
+        "entry_type": "service",
         "cid": 10014,
         "id": 140001,
         "name": "Stopp Corona App",
@@ -32,6 +33,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10014,
         "id": 140002,
         "name": "Coronalert",
@@ -64,6 +66,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10014,
         "id": 140003,
         "name": "Stop COVID-19",
@@ -96,6 +99,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10014,
         "id": 140004,
         "name": "eRou\u0161ka",
@@ -126,6 +130,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10014,
         "id": 140005,
         "name": "Smitte | stop",
@@ -158,6 +163,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10014,
         "id": 140006,
         "name": "Koronavilkku",
@@ -190,6 +196,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10014,
         "id": 140007,
         "name": "StopCovid",
@@ -222,6 +229,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10014,
         "id": 140008,
         "name": "Corna-Warn-App",
@@ -254,6 +262,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10014,
         "id": 140009,
         "name": "VirusRadar",
@@ -286,6 +295,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10014,
         "id": 140010,
         "name": "COVID Tracker",
@@ -318,6 +328,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10014,
         "id": 140011,
         "name": "Immuni",
@@ -350,6 +361,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10014,
         "id": 140012,
         "name": "Apturi Covid",
@@ -382,6 +394,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10014,
         "id": 140013,
         "name": "ProteGO Safe",
@@ -414,6 +427,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10014,
         "id": 140014,
         "name": "StayAway COVID",
@@ -446,6 +460,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10014,
         "id": 140015,
         "name": "#OstaniZdrav",
@@ -478,6 +493,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10014,
         "id": 140016,
         "name": "Radar Covid",

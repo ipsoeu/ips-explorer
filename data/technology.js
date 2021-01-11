@@ -3,6 +3,7 @@ var technology = [
     "Artificial intelligence",
     "Augmented reality \/ virtual reality",
     "Blockchain",
-    "Data analytics",
-    "Internet of things"
+    "Cloud-oriented cybersecurity",
+    "Iot",
+    "Virtual reality"
 ]

@@ -1,5 +1,6 @@
 [
     {
+        "entry_type": "service",
         "cid": 10004,
         "id": 40001,
         "name": "Blockcerts academic credentials",
@@ -32,6 +33,7 @@
         "status": "Pilot"
     },
     {
+        "entry_type": "service",
         "cid": 10004,
         "id": 40002,
         "name": "Chromaway property transactions",
@@ -64,6 +66,7 @@
         "status": "Pilot"
     },
     {
+        "entry_type": "service",
         "cid": 10004,
         "id": 40003,
         "name": "uPort decentralised identity",
@@ -96,6 +99,7 @@
         "status": "Pilot"
     },
     {
+        "entry_type": "service",
         "cid": 10004,
         "id": 40004,
         "name": "Infrachain governance framework",
@@ -128,6 +132,7 @@
         "status": "Pilot"
     },
     {
+        "entry_type": "service",
         "cid": 10004,
         "id": 40005,
         "name": "Pension infrastructure",
@@ -160,6 +165,7 @@
         "status": "Pilot"
     },
     {
+        "entry_type": "service",
         "cid": 10004,
         "id": 40006,
         "name": "Stadjerspas smart vouchers",

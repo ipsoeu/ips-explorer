@@ -1,5 +1,6 @@
 [
     {
+        "entry_type": "catalog",
         "c_id": 10004,
         "c_name": "Blockchain for digital government - An assessment of pioneering implementations in public services",
         "c_url": "https:\/\/doi.org\/10.2760\/942739",
@@ -7,6 +8,7 @@
         "c_description": "The publication, carried out in the framework of the the ISA\u00b2 ELISE Action, analyses seven blockchain-based services developed in Europe, with an active participation of public authorities from both national and local levels.",
         "c_publisher": "European Commission",
         "c_country": "European Union",
-        "c_type": "Desk research"
+        "c_type": "Desk research",
+        "c_year": "2019"
     }
 ]

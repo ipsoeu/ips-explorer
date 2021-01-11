@@ -1,5 +1,6 @@
 [
     {
+        "entry_type": "catalog",
         "c_id": 10005,
         "c_name": "EU Blockchain Observatory and Forum - Initiatives Map",
         "c_url": "https:\/\/www.eublockchainforum.eu\/initiative-map",
@@ -7,6 +8,7 @@
         "c_description": "The European Union Blockchain Observatory and Forum aims to accelerate blockchain innovation and the development of the blockchain ecosystem within the EU, and so help cement Europe\u2019s position as a global leader in this transformative new technology. The Web site includes a map of existing initiatives.",
         "c_publisher": "EU Blockchain Observatory and Forum",
         "c_country": "European Union",
-        "c_type": "Catalogue"
+        "c_type": "Catalogue",
+        "c_year": "2020"
     }
 ]

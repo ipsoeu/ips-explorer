@@ -1,5 +1,6 @@
 [
     {
+        "entry_type": "service",
         "cid": 10009,
         "id": 90001,
         "name": "SATIKAS",
@@ -32,6 +33,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10009,
         "id": 90002,
         "name": "Predictive System, Belgium",
@@ -64,6 +66,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10009,
         "id": 90003,
         "name": "Automated Public Services in Trelleborg, Sweden",
@@ -96,6 +99,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10009,
         "id": 90004,
         "name": "Chatbot UNA",
@@ -128,6 +132,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10009,
         "id": 90005,
         "name": "Tengai",
@@ -160,6 +165,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10009,
         "id": 90006,
         "name": "SyRi (Systeem Risico Indicatie)",
@@ -192,6 +198,7 @@
         "status": "Withdrawn"
     },
     {
+        "entry_type": "service",
         "cid": 10009,
         "id": 90007,
         "name": "Unemployed Profiling",
@@ -224,6 +231,7 @@
         "status": "Withdrawn"
     },
     {
+        "entry_type": "service",
         "cid": 10009,
         "id": 90008,
         "name": "VeriPol",

@@ -60,6 +60,7 @@
   foreach ($input as $k => $v) {
 //    var_dump($v);
     
+    $output[$k]["entry_type"] = "catalog";
     $output[$k]["c_id"] = $n;
 /*
     if (isset($v["c_id"]) && trim($v["c_id"]) != '' && is_int($v["c_id"] + 0)) {
@@ -93,6 +94,7 @@
     $output[$k]["c_publisher"] = trim($v["c_publisher"]);
     $output[$k]["c_country"] = trim($v["c_country"]);
     $output[$k]["c_type"] = trim($v["c_type"]);
+    $output[$k]["c_year"] = trim($v["c_year"]);
 //    $output[$k]["geoextent"] = trim($v["geoextent"]);
 //    $output[$k]["geocoverage"] = $v["geocoverage_dirty"];
 //    $output[$k]["geocoverage"] = array_map('trim', explode(',', $v["geocoverage"]));

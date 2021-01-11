@@ -1,22 +1,14 @@
 var type = [
-    "3d printing",
     "Auditing and logging",
-    "Authentication",
     "Chatbot",
-    "Contact tracing",
-    "Cybersecurity",
+    "Co-designed services",
     "Data access and reuse",
     "Digital identity",
-    "Disintermediation and decentralized networks",
-    "Governance and voting",
-    "Other",
-    "Payments and international transactions",
+    "Personalised healthcare",
     "Process automation",
     "Process digitisation",
-    "Self sovereign - digital identity",
+    "Self-sovereing - digital identity",
     "Service integration",
-    "Smart city",
-    "Tracking of goods, supply chain, iot",
-    "Validation and benchmarking",
-    "Virtual models"
+    "Skill assessment",
+    "Smart city"
 ]

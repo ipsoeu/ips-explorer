@@ -1,5 +1,6 @@
 [
     {
+        "entry_type": "catalog",
         "c_id": 10011,
         "c_name": "City of Amsterdam Algorithm Register",
         "c_url": "https:\/\/algoritmeregister.amsterdam.nl\/en\/ai-register\/",
@@ -7,6 +8,7 @@
         "c_description": "The Algorithm Register is an overview of the artificial intelligence systems and algorithms used by the City of Amsterdam. Through the register, you can get acquainted with the quick overviews of the city's algorithmic systems or examine their more detailed information based on your own interests. You can also give feedback and thus participate in building human-centered algorithms in Amsterdam.",
         "c_publisher": "City of Amsterdam",
         "c_country": "Netherlands",
-        "c_type": "Catalogue"
+        "c_type": "Catalogue",
+        "c_year": "2021"
     }
 ]

@@ -1,5 +1,6 @@
 [
     {
+        "entry_type": "catalog",
         "c_id": 10002,
         "c_name": "api.gouv.fr",
         "c_url": "https:\/\/api.gouv.fr\/",
@@ -7,6 +8,7 @@
         "c_description": "Catalogue of APIs used by the French public administration. The catalogue includes also the list public services using such APIs.",
         "c_publisher": "DINUM",
         "c_country": "France",
-        "c_type": "Catalogue"
+        "c_type": "Catalogue",
+        "c_year": "2020"
     }
 ]

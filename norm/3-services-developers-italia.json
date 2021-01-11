@@ -1,5 +1,6 @@
 [
     {
+        "entry_type": "service",
         "cid": 10003,
         "id": 30001,
         "name": "pagoPA",
@@ -32,6 +33,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10003,
         "id": 30002,
         "name": "IO App",
@@ -64,6 +66,7 @@
         "status": "Pilot"
     },
     {
+        "entry_type": "service",
         "cid": 10003,
         "id": 30003,
         "name": "18app e Carta Docente",
@@ -96,6 +99,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10003,
         "id": 30004,
         "name": "ANPR",
@@ -128,6 +132,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10003,
         "id": 30005,
         "name": "Data & Analytics Framework (DAF)",
@@ -160,6 +165,7 @@
         "status": "Pilot"
     },
     {
+        "entry_type": "service",
         "cid": 10003,
         "id": 30006,
         "name": "dati.gov.it",
@@ -192,6 +198,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10003,
         "id": 30007,
         "name": "Docs Italia",
@@ -224,6 +231,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10003,
         "id": 30008,
         "name": "Fatturazione Elettronica",
@@ -256,6 +264,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10003,
         "id": 30009,
         "name": "OTELLO 2.0",
@@ -288,6 +297,7 @@
         "status": "In production"
     },
     {
+        "entry_type": "service",
         "cid": 10003,
         "id": 30010,
         "name": "SPID",
