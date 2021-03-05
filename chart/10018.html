@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>IPS-X | Statistics</title>
+<link type="text/css" rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://eloquentstudio.github.io/filter.js/assets/css/bootstrap.min.css" media="screen" rel="stylesheet" type="text/css">
+<link href="https://eloquentstudio.github.io/filter.js/assets/css/jquery-ui-1.10.2.custom.min.css" media="screen" rel="stylesheet" type="text/css">
+<link href="/ips-explorer/css/common.css" media="screen" rel="stylesheet" type="text/css">
+<script src="https://unpkg.com/@jpmorganchase/perspective/build/perspective.js"></script>
+<script src="https://unpkg.com/@jpmorganchase/perspective-viewer/build/perspective.view.js"></script>
+<script src="https://unpkg.com/@jpmorganchase/perspective-viewer-hypergrid/build/hypergrid.plugin.js"></script>
+<script src="https://unpkg.com/@jpmorganchase/perspective-viewer-highcharts/build/highcharts.plugin.js"></script>
+<script src="/ips-explorer/data/cases.js"></script>
+<script src="https://eloquentstudio.github.io/filter.js/assets/js/jquery-1.11.3.min.js" type="text/javascript"></script>
+<script src="https://eloquentstudio.github.io/filter.js/assets/js/jquery-ui-1.10.2.custom.min.js" type="text/javascript"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.9.1/underscore-min.js" integrity="sha256-G7A4JrJjJlFqP0yamznwPjAApIKPkadeHfyIwiaa9e0=" crossorigin="anonymous"></script>
+
+<script type="text/javascript" src="/ips-explorer/js/common.js"></script> 
+<style>
+#chart-10018 {
+  position: absolute;
+  top: 60px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+</style>
+<script>
+$(document).ready(function () {
+  document.addEventListener("WebComponentsReady", function () {
+    var element = document.getElementById("chart-10018");
+    element.load(cases);
+    element._toggle_config();
+  });
+});
+</script>
+</head>
+<body>
+<nav role="navigation" class="navbar navbar-default">
+<div class="container">
+<p class="navbar-header"><a title="Innovative Public Services Explorer" class="navbar-brand" href="/ips-explorer/">IPS-X</a></p>
+<ul class="nav navbar-nav collapse navbar-collapse">
+<li class=""><a href="/ips-explorer/case/">Cases</a></li>
+<li class="active"><a href="/ips-explorer/chart/">Statistics</a></li>
+<li class=""><a href="/ips-explorer/catalog/">Sources</a></li>
+</ul>
+<ul class="nav navbar-nav collapse navbar-collapse navbar-right">
+<li><a target="_blank" href="https://github.com/ipsoeu/ips-explorer/issues/" title="Send us your feedback."><i class="fa fa-comment"></i> Feedback</a></li>
+<li><a target="_blank" href="https://github.com/ipsoeu/ips-explorer/" title="Report projects, services, initiatives you are aware of."><i class="fa fa-github"></i> Contribute</a></li>
+<li><a target="_blank" href="https://ec.europa.eu/eusurvey/runner/isa2-ips-survey-review" title="Fill in the IPS survey."><i class="fa fa-edit"></i> IPS Survey</a></li>
+</ul>
+</div>
+</nav>
+<perspective-viewer view="y_bar" row-pivots='["start_date"]' column-pivots='["cross_border"]' sort='[["start_date", "asc"]]' columns='["id"]' aggregates='{"id": "distinct count"}' id="chart-10018"></perspective-viewer></body>
+</html>

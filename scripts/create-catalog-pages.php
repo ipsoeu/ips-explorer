@@ -13,8 +13,9 @@
 
   $data[1] = $data_folder . 'catalogs.json';
 
-  $res_db[] =  $data_folder . 'services.json';
-  $res_db[] =  $data_folder . 'projects.json';
+//  $res_db[] =  $data_folder . 'services.json';
+//  $res_db[] =  $data_folder . 'projects.json';
+  $res_db[] =  $data_folder . 'cases.json';
 
   foreach ($data as $i => $file) {
 
@@ -393,7 +394,7 @@ $(document).ready(function() {
 //      $score = 100*((count($rp) - 1)/10) . "%";
       $html .= '<tr>
 <td><a href="../' . $rp["entry_type"] . '/' . $rp["id"] . '.html">' . $rp["name"] . '</a></td>
-<td>' . $rp["entry_type"] . '</td>      
+<td>' . $rp["rtype"] . '</td>      
 <td>' . $rp["technology"] . '</td>      
 </tr>
 ';

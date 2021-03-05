@@ -1,0 +1,274 @@
+[
+    {
+        "entry_type": "case",
+        "cid": 10013,
+        "id": 130001,
+        "rtype": "Service",
+        "name": "BonnBot",
+        "url": "https:\/\/govbot.bonn.de\/",
+        "contact": "",
+        "description": "Chatbot Bonn is a chatbot that specializes in urban affairs: Be it searching for applications and forms, questions about opening times and responsibilities, or making an appointment. The chatbot has an answer for everything. Step by step, the user is guided through an application in a dialogue format and can ask questions or view additional explanatory information at any time.",
+        "geoextent": "Local",
+        "geocoverage": [
+            "Germany"
+        ],
+        "geocoverage_codes": [
+            "DE"
+        ],
+        "lead_organisation": {
+            "name": "City of Bonn",
+            "category": "Governmental"
+        },
+        "lead_organisation_name": "City of Bonn",
+        "lead_organisation_category": "Governmental",
+        "start_date": "2019",
+        "active": "Yes",
+        "end_date": "",
+        "primary_sector": "General public services",
+        "secondary_sector": "Information",
+        "technology": "Artificial intelligence",
+        "uptake": "Unknown",
+        "cross_border": "No",
+        "cross_sector": "Yes",
+        "type": "Chatbot",
+        "status": "In production"
+    },
+    {
+        "entry_type": "case",
+        "cid": 10013,
+        "id": 130002,
+        "rtype": "Service",
+        "name": "Kamu",
+        "url": "http:\/\/startingupsmoothly.fi\/",
+        "contact": "",
+        "description": "The Kamu chatbot helps you with residence permits to live in Finland. Together with PatRek and Verobot, Kamu is one of the chatbots develped in the framework of Starting up Smoothly, a collaboration between the Finnish Immigration Service (Migri), the Finnish Tax Administration (Vero) and the Finnish Patent and Registration Office (PRH). The goal of this collaboration was to pilot a chatbot network, where three independent chatbots are interconnected through an intelligent layer.",
+        "geoextent": "National",
+        "geocoverage": [
+            "Finland"
+        ],
+        "geocoverage_codes": [
+            "FI"
+        ],
+        "lead_organisation": {
+            "name": "Finnish Immigration Service",
+            "category": "Governmental"
+        },
+        "lead_organisation_name": "Finnish Immigration Service",
+        "lead_organisation_category": "Governmental",
+        "start_date": "2018",
+        "active": "Yes",
+        "end_date": "",
+        "primary_sector": "Social protection",
+        "secondary_sector": "Information",
+        "technology": "Artificial intelligence",
+        "uptake": "Unknown",
+        "cross_border": "No",
+        "cross_sector": "No",
+        "type": "Chatbot",
+        "status": "In production"
+    },
+    {
+        "entry_type": "case",
+        "cid": 10013,
+        "id": 130003,
+        "rtype": "Service",
+        "name": "Noa",
+        "url": "https:\/\/french-tech-central.com\/",
+        "contact": "",
+        "description": "The Noa chatbot (Nous orienter dans l\u2019Administration) was desined to facilitate your administrative procedures. It is a project led by the prefecture of the \u00cele-de-France region, with around ten administrations, supported by the Investments for the Future program and the French Tech mission.",
+        "geoextent": "Regional",
+        "geocoverage": [
+            "France"
+        ],
+        "geocoverage_codes": [
+            "FR"
+        ],
+        "lead_organisation": {
+            "name": "Prefecture de l'Ile de France",
+            "category": "Governmental"
+        },
+        "lead_organisation_name": "Prefecture de l'Ile de France",
+        "lead_organisation_category": "Governmental",
+        "start_date": "2019",
+        "active": "Yes",
+        "end_date": "",
+        "primary_sector": "General economic and commercial affairs",
+        "secondary_sector": "Information",
+        "technology": "Artificial intelligence",
+        "uptake": "Unknown",
+        "cross_border": "No",
+        "cross_sector": "No",
+        "type": "Chatbot",
+        "status": "In production"
+    },
+    {
+        "entry_type": "case",
+        "cid": 10013,
+        "id": 130004,
+        "rtype": "Service",
+        "name": "PatRek",
+        "url": "http:\/\/startingupsmoothly.fi\/",
+        "contact": "",
+        "description": "The PatRek chatbot advises you how to set up your company in Finland. Together with Kamu and VeroBot, PatRek is one of the chatbots develped in the framework of Starting up Smoothly, a collaboration between the Finnish Immigration Service (Migri), the Finnish Tax Administration (Vero) and the Finnish Patent and Registration Office (PRH). The goal of this collaboration was to pilot a chatbot network, where three independent chatbots are interconnected through an intelligent layer.",
+        "geoextent": "National",
+        "geocoverage": [
+            "Finland"
+        ],
+        "geocoverage_codes": [
+            "FI"
+        ],
+        "lead_organisation": {
+            "name": "Finnish Patent and Registration Office",
+            "category": "Governmental"
+        },
+        "lead_organisation_name": "Finnish Patent and Registration Office",
+        "lead_organisation_category": "Governmental",
+        "start_date": "2018",
+        "active": "Yes",
+        "end_date": "",
+        "primary_sector": "General economic and commercial affairs",
+        "secondary_sector": "Information",
+        "technology": "Artificial intelligence",
+        "uptake": "Unknown",
+        "cross_border": "No",
+        "cross_sector": "No",
+        "type": "Chatbot",
+        "status": "In production"
+    },
+    {
+        "entry_type": "case",
+        "cid": 10013,
+        "id": 130005,
+        "rtype": "Service",
+        "name": "Sigma",
+        "url": "https:\/\/eportugal.gov.pt\/",
+        "contact": "",
+        "description": "Sigma is the chatbot of the ePortugal portal, which allows quick clarification of doubts, serving as a support to navigation, and which can also be found on Facebook. With the help of Sigma, you can, for example, perform the change of address service.",
+        "geoextent": "National",
+        "geocoverage": [
+            "Portugal"
+        ],
+        "geocoverage_codes": [
+            "PT"
+        ],
+        "lead_organisation": {
+            "name": "Agency for Administrative Modernisation",
+            "category": "Governmental"
+        },
+        "lead_organisation_name": "Agency for Administrative Modernisation",
+        "lead_organisation_category": "Governmental",
+        "start_date": "2019",
+        "active": "Yes",
+        "end_date": "",
+        "primary_sector": "General public services",
+        "secondary_sector": "Information",
+        "technology": "Artificial intelligence",
+        "uptake": "Unknown",
+        "cross_border": "No",
+        "cross_sector": "No",
+        "type": "Chatbot",
+        "status": "In production"
+    },
+    {
+        "entry_type": "case",
+        "cid": 10013,
+        "id": 130006,
+        "rtype": "Service",
+        "name": "Travelbot",
+        "url": "https:\/\/www.facebook.com\/tfltravelbot\/",
+        "contact": "",
+        "description": "Transport for London (TfL) has launched the next generation in customer service technology with its first ever 'TravelBot'. The new social media tool, which is powered by artificial intelligence, can \"chat\" with customers using Messenger and instantly tell them when their bus is due to arrive, provide service updates and Tube maps. The TravelBot can also link direct to a customer service agent, making customer service queries easier than ever.",
+        "geoextent": "Local",
+        "geocoverage": [
+            "United Kingdom"
+        ],
+        "geocoverage_codes": [
+            "GB"
+        ],
+        "lead_organisation": {
+            "name": "Transport for London",
+            "category": "Governmental"
+        },
+        "lead_organisation_name": "Transport for London",
+        "lead_organisation_category": "Governmental",
+        "start_date": "2019",
+        "active": "Yes",
+        "end_date": "",
+        "primary_sector": "Transport",
+        "secondary_sector": "Information",
+        "technology": "Artificial intelligence",
+        "uptake": "Unknown",
+        "cross_border": "No",
+        "cross_sector": "No",
+        "type": "Chatbot",
+        "status": "In production"
+    },
+    {
+        "entry_type": "case",
+        "cid": 10013,
+        "id": 130007,
+        "rtype": "Service",
+        "name": "VeroBot",
+        "url": "http:\/\/startingupsmoothly.fi\/",
+        "contact": "",
+        "description": "The VeroBot chatbot tells you about business and work-related taxes in Finland. Together with Kamu and PatRek, VeroBot is one of the chatbots develped in the framework of Starting up Smoothly, a collaboration between the Finnish Immigration Service (Migri), the Finnish Tax Administration (Vero) and the Finnish Patent and Registration Office (PRH). The goal of this collaboration was to pilot a chatbot network, where three independent chatbots are interconnected through an intelligent layer.",
+        "geoextent": "National",
+        "geocoverage": [
+            "Finland"
+        ],
+        "geocoverage_codes": [
+            "FI"
+        ],
+        "lead_organisation": {
+            "name": "Finnish Tax Administration",
+            "category": "Governmental"
+        },
+        "lead_organisation_name": "Finnish Tax Administration",
+        "lead_organisation_category": "Governmental",
+        "start_date": "2018",
+        "active": "Yes",
+        "end_date": "",
+        "primary_sector": "Financial and fiscal affairs",
+        "secondary_sector": "Information",
+        "technology": "Artificial intelligence",
+        "uptake": "Unknown",
+        "cross_border": "No",
+        "cross_sector": "No",
+        "type": "Chatbot",
+        "status": "In production"
+    },
+    {
+        "entry_type": "case",
+        "cid": 10013,
+        "id": 130008,
+        "rtype": "Service",
+        "name": "Bobbi",
+        "url": "https:\/\/service.berlin.de\/chatbot\/chatbot-bobbi-606279.php",
+        "contact": "",
+        "description": "As part of the  IDBB sub- project Virtual Citizen Assistant, the D115 call center employees of the State of Berlin are to be relieved of citizen-authority interaction and at the same time the provision of information for citizens is to be improved. This can be achieved either by automating the telephony itself (optimization of a channel) or by adding additional communication channels to telephony (multi-channel approach, hybrid approach). While personal contact with an employee is usually necessary for specific problem solving, the simple provision of information and forwarding of information can also be implemented via other, more automated, channels. We follow the suggestions for action recommended in the study \u201cUniform telephone numbers for authorities in the European Union\u201d (IfG.CC, 2010) and formulate the project objective to increase the accessibility of D115 and to create expanded and combined access channels to information from authorities. In addition, the citizen assistant should use and promote the increasing digitalization of services of the Berlin administration. For this purpose, interfaces to services are integrated or created. As a result, the citizens will have convenient online access to the services of the Berlin administration.",
+        "geoextent": "Local",
+        "geocoverage": [
+            "Germany"
+        ],
+        "geocoverage_codes": [
+            "DE"
+        ],
+        "lead_organisation": {
+            "name": "City of Berlin",
+            "category": "Governmental"
+        },
+        "lead_organisation_name": "City of Berlin",
+        "lead_organisation_category": "Governmental",
+        "start_date": "2019",
+        "active": "Yes",
+        "end_date": "",
+        "primary_sector": "General public services",
+        "secondary_sector": "Information",
+        "technology": "Artificial intelligence",
+        "uptake": "Unknown",
+        "cross_border": "No",
+        "cross_sector": "Yes",
+        "type": "Chatbot",
+        "status": "In production"
+    }
+]

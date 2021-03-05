@@ -1062,7 +1062,7 @@ var services = [
         "name": "Blockchain pilot - Open Data notarization & change protocol",
         "url": "https:\/\/open.wien.gv.at\/site\/blockchain\/",
         "contact": "",
-        "description": "In December 2017, the City of Vienna published a unique solution in Europe that secures public administration data with blockchain. Nearly 4,000 open data resources are already being notarized and are publishing clear identifiers on public blockchains.The solution will be extended to all open government data on data.gv.at and will be used throughout Austria. Notarization for data and documents will become a general service \"BLOCKSTEMPEL\" in cooperation with the Austrian Federal Computing Centre.",
+        "description": "In December 2017, the City of Vienna published a unique solution in Europe that secures public administration data with blockchain. Nearly 4,000 open data resources are already being notarized and are publishing clear identifiers on public blockchains. The solution will be extended to all open government data on data.gv.at and will be used throughout Austria. Notarization for data and documents will become a general service \"BLOCKSTEMPEL\" in cooperation with the Austrian Federal Computing Centre.",
         "geoextent": "Local",
         "geocoverage": [
             "Austria"
@@ -1085,7 +1085,7 @@ var services = [
         "uptake": "Unknown",
         "cross_border": "No",
         "cross_sector": "Yes",
-        "type": "Other",
+        "type": "Data notarisation",
         "status": "In production"
     },
     {
@@ -1118,7 +1118,7 @@ var services = [
         "uptake": "Unknown",
         "cross_border": "No",
         "cross_sector": "No",
-        "type": "Other",
+        "type": "Process digitisation",
         "status": "In development"
     },
     {
@@ -1184,7 +1184,7 @@ var services = [
         "uptake": "Unknown",
         "cross_border": "No",
         "cross_sector": "Yes",
-        "type": "Other",
+        "type": "Data notarisation",
         "status": "In development"
     },
     {
@@ -1194,7 +1194,7 @@ var services = [
         "name": "FlowBikes",
         "url": "https:\/\/flowbikes.io\/",
         "contact": "",
-        "description": "Rewarding children who go to school by foot\/bike with tokens that are usable at the local fair or shops. Collaboration between local governement, school and Belfius Bank.Create a safer school environment Guide children over the safest roads to school.",
+        "description": "Rewarding children who go to school by foot\/bike with tokens that are usable at the local fair or shops. Collaboration between local governement, school and Belfius Bank. Create a safer school environment. Guide children over the safest roads to school.",
         "geoextent": "National",
         "geocoverage": [
             "Belgium"
@@ -1217,7 +1217,7 @@ var services = [
         "uptake": "Unknown",
         "cross_border": "No",
         "cross_sector": "No",
-        "type": "Other",
+        "type": "Reward systems",
         "status": "In production"
     },
     {
@@ -1311,7 +1311,7 @@ var services = [
         "active": "Yes",
         "end_date": "",
         "primary_sector": "General public services",
-        "secondary_sector": "Control and monitoring",
+        "secondary_sector": "Voting",
         "technology": "Blockchain",
         "uptake": "Unknown",
         "cross_border": "No",
@@ -1443,7 +1443,7 @@ var services = [
         "active": "Yes",
         "end_date": "",
         "primary_sector": "General public services",
-        "secondary_sector": "Other",
+        "secondary_sector": "Innovation",
         "technology": "Blockchain",
         "uptake": "Unknown",
         "cross_border": "No",
@@ -1481,7 +1481,7 @@ var services = [
         "uptake": "Unknown",
         "cross_border": "Yes",
         "cross_sector": "No",
-        "type": "Other",
+        "type": "Immigration",
         "status": "In development"
     },
     {
@@ -1509,12 +1509,12 @@ var services = [
         "active": "Yes",
         "end_date": "",
         "primary_sector": "Financial and fiscal affairs",
-        "secondary_sector": "Other",
+        "secondary_sector": "Control and monitoring",
         "technology": "Blockchain",
         "uptake": "Unknown",
         "cross_border": "Yes",
         "cross_sector": "No",
-        "type": "Other",
+        "type": "Virtual currencies",
         "status": "In development"
     },
     {
@@ -1745,7 +1745,7 @@ var services = [
         "uptake": "Unknown",
         "cross_border": "No",
         "cross_sector": "No",
-        "type": "Other",
+        "type": "Auditing and logging",
         "status": "Pilot"
     },
     {
@@ -1773,7 +1773,7 @@ var services = [
         "active": "No",
         "end_date": "",
         "primary_sector": "General public services",
-        "secondary_sector": "General public services",
+        "secondary_sector": "Control and monitoring",
         "technology": "Blockchain",
         "uptake": "Unknown",
         "cross_border": "No",
@@ -2103,12 +2103,12 @@ var services = [
         "active": "No",
         "end_date": "",
         "primary_sector": "Financial and fiscal affairs",
-        "secondary_sector": "Other",
+        "secondary_sector": "Procedures",
         "technology": "Blockchain",
         "uptake": "Unknown",
         "cross_border": "No",
         "cross_sector": "No",
-        "type": "Disintermediation and decentralized networks",
+        "type": "Disintermediation and decentralised networks",
         "status": "Pilot"
     },
     {
@@ -2268,7 +2268,7 @@ var services = [
         "active": "Yes",
         "end_date": "",
         "primary_sector": "Transport",
-        "secondary_sector": "Other",
+        "secondary_sector": "Innovation",
         "technology": "Blockchain",
         "uptake": "Unknown",
         "cross_border": "No",
@@ -2367,12 +2367,12 @@ var services = [
         "active": "Yes",
         "end_date": "",
         "primary_sector": "Fuel and energy",
-        "secondary_sector": "Other",
+        "secondary_sector": "Auditing and logging",
         "technology": "Blockchain",
         "uptake": "Unknown",
         "cross_border": "Yes",
         "cross_sector": "No",
-        "type": "Disintermediation and decentralized networks",
+        "type": "Disintermediation and decentralised networks",
         "status": "In development"
     },
     {
@@ -2433,12 +2433,12 @@ var services = [
         "active": "Yes",
         "end_date": "",
         "primary_sector": "Financial and fiscal affairs",
-        "secondary_sector": "Other",
+        "secondary_sector": "Innovation",
         "technology": "Blockchain",
         "uptake": "Unknown",
         "cross_border": "No",
         "cross_sector": "No",
-        "type": "Disintermediation and decentralized networks",
+        "type": "Disintermediation and decentralised networks",
         "status": "In production"
     },
     {
@@ -2466,7 +2466,7 @@ var services = [
         "active": "Yes",
         "end_date": "",
         "primary_sector": "General public services",
-        "secondary_sector": "Other",
+        "secondary_sector": "Voting",
         "technology": "Blockchain",
         "uptake": "Unknown",
         "cross_border": "No",
@@ -2504,7 +2504,7 @@ var services = [
         "uptake": "Unknown",
         "cross_border": "No",
         "cross_sector": "No",
-        "type": "Disintermediation and decentralized networks",
+        "type": "Disintermediation and decentralised networks",
         "status": "In production"
     },
     {
@@ -2598,7 +2598,7 @@ var services = [
         "active": "Yes",
         "end_date": "",
         "primary_sector": "Financial and fiscal affairs",
-        "secondary_sector": "Other",
+        "secondary_sector": "Control and monitoring",
         "technology": "Blockchain",
         "uptake": "Unknown",
         "cross_border": "No",
@@ -2631,7 +2631,7 @@ var services = [
         "active": "Yes",
         "end_date": "",
         "primary_sector": "Financial and fiscal affairs",
-        "secondary_sector": "Other",
+        "secondary_sector": "Innovation",
         "technology": "Blockchain",
         "uptake": "Unknown",
         "cross_border": "No",
@@ -8727,7 +8727,7 @@ var services = [
         "uptake": "Unknown",
         "cross_border": "Unknown",
         "cross_sector": "Yes",
-        "type": "Other",
+        "type": "Auditing and logging",
         "status": "In development"
     },
     {
@@ -8760,7 +8760,7 @@ var services = [
         "uptake": "Unknown",
         "cross_border": "Unknown",
         "cross_sector": "Yes",
-        "type": "Other",
+        "type": "Auditing and logging",
         "status": "In development"
     },
     {
@@ -8793,7 +8793,7 @@ var services = [
         "uptake": "Unknown",
         "cross_border": "Unknown",
         "cross_sector": "Yes",
-        "type": "Disintermediation and decentralized networks",
+        "type": "Disintermediation and decentralised networks",
         "status": "In development"
     },
     {
@@ -8826,7 +8826,7 @@ var services = [
         "uptake": "Unknown",
         "cross_border": "Unknown",
         "cross_sector": "Yes",
-        "type": "Other",
+        "type": "Auditing and logging",
         "status": "In development"
     },
     {
@@ -8859,7 +8859,7 @@ var services = [
         "uptake": "Unknown",
         "cross_border": "Unknown",
         "cross_sector": "Yes",
-        "type": "Other",
+        "type": "Business intelligence",
         "status": "Pilot"
     },
     {
@@ -8892,7 +8892,7 @@ var services = [
         "uptake": "Unknown",
         "cross_border": "Unknown",
         "cross_sector": "Yes",
-        "type": "Other",
+        "type": "Data visualisation",
         "status": "In production"
     },
     {
@@ -8958,7 +8958,7 @@ var services = [
         "uptake": "Unknown",
         "cross_border": "Unknown",
         "cross_sector": "Yes",
-        "type": "Auditing and logging",
+        "type": "Business intelligence",
         "status": "In production"
     },
     {
@@ -8968,7 +8968,7 @@ var services = [
         "name": "IT Directorate, Ministry of Public Administration, SKRINJA 2.0",
         "url": "http:\/\/www.mju.gov.si\/en\/areas_of_work\/information_and_communications_technology\/",
         "contact": "",
-        "description": "The ICT department of the Ministry of Public Administration is planning to implement a data warehouse and business intelligence system that shall be configured as a horizontal service on Government Computer Cloud till 2022 to promote data-driven decision making in public administration. The Ministry also handles the procurement activities of the country and therefore there is a prospect of utilizing the system in the procurement procedures as well.",
+        "description": "The ICT department of the Ministry of Public Administration is planning to implement a data warehouse and business intelligence system that shall be configured as a horizontal service on Government Computer Cloud till 2022 to promote data-driven decision making in public administration. The Ministry also handles the procurement activities of the country and therefore there is a prospect of utilising the system in the procurement procedures as well.",
         "geoextent": "National",
         "geocoverage": [
             "Slovenia"
@@ -8991,7 +8991,7 @@ var services = [
         "uptake": "Unknown",
         "cross_border": "Unknown",
         "cross_sector": "Yes",
-        "type": "Other",
+        "type": "Business intelligence",
         "status": "In development"
     },
     {
@@ -9055,7 +9055,7 @@ var services = [
         "uptake": "Large",
         "cross_border": "No",
         "cross_sector": "Yes",
-        "type": "Other",
+        "type": "Auditing and logging",
         "status": "In production"
     },
     {
@@ -9154,7 +9154,7 @@ var services = [
         "uptake": "Large",
         "cross_border": "No",
         "cross_sector": "Yes",
-        "type": "Other",
+        "type": "Predictive systems",
         "status": "Pilot"
     },
     {
@@ -9187,7 +9187,7 @@ var services = [
         "uptake": "Large",
         "cross_border": "No",
         "cross_sector": "Yes",
-        "type": "Other",
+        "type": "Predictive systems",
         "status": "In development"
     },
     {
@@ -9220,7 +9220,7 @@ var services = [
         "uptake": "Large",
         "cross_border": "No",
         "cross_sector": "Yes",
-        "type": "Other",
+        "type": "Detection systems",
         "status": "In production"
     },
     {
@@ -9286,7 +9286,7 @@ var services = [
         "uptake": "Unknown",
         "cross_border": "Unknown",
         "cross_sector": "Yes",
-        "type": "Other",
+        "type": "Detection systems",
         "status": "In production"
     },
     {
@@ -9845,7 +9845,7 @@ var services = [
         "uptake": "Unknown",
         "cross_border": "Unknown",
         "cross_sector": "Yes",
-        "type": "Other",
+        "type": "Predictive systems",
         "status": "In production"
     },
     {
@@ -9878,7 +9878,7 @@ var services = [
         "uptake": "Unknown",
         "cross_border": "Unknown",
         "cross_sector": "Yes",
-        "type": "Other",
+        "type": "Business intelligence",
         "status": "In development"
     },
     {

@@ -1,13 +1,24 @@
 var secondary_sector = [
+    "Asset management",
+    "Auditing and logging",
     "Certification",
     "Control and monitoring",
     "Data access",
+    "Feedback",
+    "Financial support",
     "Immigration",
     "Inclusiveness",
     "Information",
+    "Innovation",
+    "Law enforcement",
+    "Procedures",
     "Procurement",
+    "Recruitment",
+    "Registration",
     "Service integration",
-    "Service personlisation",
+    "Service personalisation",
     "Sustainable growth",
-    "Waste management"
+    "Taxation",
+    "Unemployment",
+    "Voting"
 ]

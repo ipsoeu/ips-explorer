@@ -37,7 +37,7 @@
 ';
     }
           
-    $html .= '<script src="' . $section["service"]["data"] . '.js"></script>
+    $html .= '<script src="' . $section[$sec]["data"] . '.js"></script>
 <script src="https://eloquentstudio.github.io/filter.js/assets/js/jquery-1.11.3.min.js" type="text/javascript"></script>
 <script src="https://eloquentstudio.github.io/filter.js/assets/js/jquery-ui-1.10.2.custom.min.js" type="text/javascript"></script>
 ';
@@ -69,7 +69,7 @@ $(document).ready(function () {
 ';
 
     if ($sv["lib"] == "jvectormap") {
-      $html .= 'var countries = _.map(services, function (p) {
+      $html .= 'var countries = _.map(cases, function (p) {
     return p.geocoverage_codes;
   });
   countries = _.flatten(countries);
@@ -92,7 +92,7 @@ $(document).ready(function () {
       el.html(el.html() + " - Services: " + (data[code] ? data[code] : "unknown") );
     },
     onRegionClick: function(e, code){
-      window.location.href = window.location.href + "service";
+      window.location.href = window.location.href + "case";
     }
   });
 ';
@@ -101,7 +101,7 @@ $(document).ready(function () {
     if ($sv["lib"] == "perspective") {
       $html .= '  document.addEventListener("WebComponentsReady", function () {
     var element = document.getElementById("chart-' . $sk . '");
-    element.load(services);
+    element.load(cases);
     element._toggle_config();
   });
 ';

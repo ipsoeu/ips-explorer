@@ -159,7 +159,8 @@ $(document).ready(function () {
 
   foreach ($section as $sk => $sv) {
 
-    echo '<a class="col-sm-6 col-md-3 block-link" href="' . $sv["url"] . '">' . "\n";
+    echo '<a class="col-sm-6 col-md-4 block-link" href="' . $sv["url"] . '">' . "\n";
+//    echo '<a class="col-sm-6 col-md-3 block-link" href="' . $sv["url"] . '">' . "\n";
 //    echo '<div class="col-sm-6 col-md-4">' . "\n";  
     echo '<div class="thumbnail">' . "\n";
     echo '<div class="img"><span class="fa ' . $sv["icon"] . '"></span></div>' . "\n";

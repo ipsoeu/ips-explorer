@@ -1,0 +1,138 @@
+[
+    {
+        "entry_type": "case",
+        "cid": 10011,
+        "id": 110001,
+        "rtype": "Service",
+        "name": "Automated parking control",
+        "url": "https:\/\/algoritmeregister.amsterdam.nl\/en\/automated-parking-control\/",
+        "contact": "",
+        "description": "In Amsterdam, the number of cars allowed to park in the city is limited, keeping the city liveable and accessible. The municipality checks whether a parked car has the right to be parked, for example, because parking fees have been paid via a parking meter or app, or because the owner has a parking permit. Enforcement is done with the help of scan cars equpiped with camera\u2019s, automating the process of license plate identification and background checks with specific scanning equipment and AI-based identification service. The service is currently in use for more than 150,000 street parking spaces in the City of Amsterdam.",
+        "geoextent": "Local",
+        "geocoverage": [
+            "Netherlands"
+        ],
+        "geocoverage_codes": [
+            "NL"
+        ],
+        "lead_organisation": {
+            "name": "Amsterdam Parking Services",
+            "category": "Governmental"
+        },
+        "lead_organisation_name": "Amsterdam Parking Services",
+        "lead_organisation_category": "Governmental",
+        "start_date": "2020",
+        "active": "Yes",
+        "end_date": "",
+        "primary_sector": "Transport",
+        "secondary_sector": "Control and monitoring",
+        "technology": "Artificial intelligence",
+        "uptake": "Large",
+        "cross_border": "No",
+        "cross_sector": "No",
+        "type": "Auditing and logging",
+        "status": "In production"
+    },
+    {
+        "entry_type": "case",
+        "cid": 10011,
+        "id": 110002,
+        "rtype": "Service",
+        "name": "Holiday rental housing fraud risk",
+        "url": "https:\/\/algoritmeregister.amsterdam.nl\/en\/holiday-rental-housing-fraud-risk\/",
+        "contact": "",
+        "description": "Amsterdam has limited living space; both for citizens and visitors. If a citizen wants to rent out their home or houseboat to tourists, they need to meet certain requirements. For example, they can do so for a maximum of 30 nights per year and a maximum of 4 people at a time. They must also report it to the municipality. Not everyone adheres to those conditions. The municipality sometimes receives reports, for instance from neighbours or rental platforms, who suspect that a home has been rented out without meeting those requirements. If such a report is filed, employees of the department of Surveillance & Enforcement can start an investigation. From 1 July 2020, a pilot will be carried out for six months with an algorithm that supports the employees of the department of Surveillance & Enforcement in their investigation of the reports made concerning possible illegal holiday rentals. The algorithm helps prioritize the reports so that the limited enforcement capacity can be used efficiently and effectively. By analyzing the data of related housing fraud cases of the past 5 years, it calculates the probability of an illegal holiday rental situation on the reported address.",
+        "geoextent": "Local",
+        "geocoverage": [
+            "Netherlands"
+        ],
+        "geocoverage_codes": [
+            "NL"
+        ],
+        "lead_organisation": {
+            "name": "Housing Department, Surveillance & Enforcement",
+            "category": "Governmental"
+        },
+        "lead_organisation_name": "Housing Department, Surveillance & Enforcement",
+        "lead_organisation_category": "Governmental",
+        "start_date": "2020",
+        "active": "Yes",
+        "end_date": "",
+        "primary_sector": "Financial and fiscal affairs",
+        "secondary_sector": "Control and monitoring",
+        "technology": "Artificial intelligence",
+        "uptake": "Unknown",
+        "cross_border": "No",
+        "cross_sector": "No",
+        "type": "Auditing and logging",
+        "status": "Pilot"
+    },
+    {
+        "entry_type": "case",
+        "cid": 10011,
+        "id": 110003,
+        "rtype": "Service",
+        "name": "Reporting issues in public space",
+        "url": "https:\/\/algoritmeregister.amsterdam.nl\/en\/reporting-issues-in-public-space\/",
+        "contact": "",
+        "description": "When someone encounters rubbish or a maintenance issue on the street or in a park, they can report this to the municipality via an online reporting system. A dangerous traffic situation or disturbance from people or cafe\u2019s can also be reported. This system used to be a collection of drop-down menus, from which the user would pick the category that best suited their report. The department responsible for a certain category would then take care of the report. However, as the municipality is a complex organisation, there are countless categories. Many times the wrong category would be chosen, resulting in delays. Now, an algorithm recognizes certain keywords, for example, \u2018waste\u2019 and \u2018sidewalk\u2019. From these keywords, it determines which category it belongs to, and ultimately, which department within the municipality should examine the case. As a result, there are fewer administrative steps for the person reporting on the issue. Also, the report can be processed much faster, because it arrives at the right department more quickly.",
+        "geoextent": "Local",
+        "geocoverage": [
+            "Netherlands"
+        ],
+        "geocoverage_codes": [
+            "NL"
+        ],
+        "lead_organisation": {
+            "name": "Research, Information & Statistics (OIS)",
+            "category": "Governmental"
+        },
+        "lead_organisation_name": "Research, Information & Statistics (OIS)",
+        "lead_organisation_category": "Governmental",
+        "start_date": "2020",
+        "active": "Yes",
+        "end_date": "",
+        "primary_sector": "General public services",
+        "secondary_sector": "Feedback",
+        "technology": "Artificial intelligence",
+        "uptake": "Considerable",
+        "cross_border": "No",
+        "cross_sector": "Yes",
+        "type": "Other",
+        "status": "In production"
+    },
+    {
+        "entry_type": "case",
+        "cid": 10011,
+        "id": 110004,
+        "rtype": "Service",
+        "name": "One and a half meter monitor",
+        "url": "https:\/\/algoritmeregister.amsterdam.nl\/en\/one-and-a-half-meter-monitor\/",
+        "contact": "",
+        "description": "Because of COVID19 measures have been taken to prevent person to person detection, one of the most influential and important new regulation is to keep 1.5 meters distance from each other. To help remind citizens to maintain this distance we have created the 1.5 meter monitor.  The 1.5 meter monitor is a system created to make users aware of social distancing measures. It uses a camera, computer with GPU (or edge devices) and a screen to create awareness for anybody within the field of view of the camera to keep social distance. It does so by displaying a picture that is taken of passersby, that is overlayed with a smiley: a green smiley for more than 1.8 meters distance, an orange smiley for 1.5-1.8 meters distance and a red one for less than 1.5 meters distance. An audio signal can also be played.  The system does not store any visual information, and when detected people will be displayed with a smiley overlay to prevent visual recognition. We do record the number of passers-by within range of the camera, to monitor whether it is too busy in a certain area.  We are using the 1.5 meter monitor temporarily because of the COVID-19 Emergency Ordinance and because of the need to keep a distance of 1.5 meters. The system is being tested in public spaces at a number of locations in the Amsterdam-Amstelland Safety Region.",
+        "geoextent": "Local",
+        "geocoverage": [
+            "Netherlands"
+        ],
+        "geocoverage_codes": [
+            "NL"
+        ],
+        "lead_organisation": {
+            "name": "Amsterdam-Amstelland safety region",
+            "category": "Governmental"
+        },
+        "lead_organisation_name": "Amsterdam-Amstelland safety region",
+        "lead_organisation_category": "Governmental",
+        "start_date": "2020",
+        "active": "Yes",
+        "end_date": "",
+        "primary_sector": "Health",
+        "secondary_sector": "Control and monitoring",
+        "technology": "Internet of things",
+        "uptake": "Considerable",
+        "cross_border": "No",
+        "cross_sector": "No",
+        "type": "Auditing and logging",
+        "status": "In production"
+    }
+]

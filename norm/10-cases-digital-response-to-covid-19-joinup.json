@@ -1,0 +1,36 @@
+[
+    {
+        "entry_type": "case",
+        "cid": 10010,
+        "id": 100001,
+        "rtype": "Service",
+        "name": "Covid-bot",
+        "url": "https:\/\/joinup.ec.europa.eu\/collection\/open-source-observatory-osor\/news\/covid-19-auto-diagnosis-bot",
+        "contact": "",
+        "description": "On 20 March 2020, the Pasteur Institute, Greater Paris University Hospitals (AP-HP) and the chatbot start-up Clevy, released the so-called Covid-bot, an open source COVID-19 auto-diagnosis chatbot. The Covid-bot allows respondents to assess their risk of COVID-19 contamination by filling a questionnaire.",
+        "geoextent": "National",
+        "geocoverage": [
+            "France"
+        ],
+        "geocoverage_codes": [
+            "FR"
+        ],
+        "lead_organisation": {
+            "name": "Pasteur Institute",
+            "category": "Private"
+        },
+        "lead_organisation_name": "Pasteur Institute",
+        "lead_organisation_category": "Private",
+        "start_date": "2020",
+        "active": "Yes",
+        "end_date": "",
+        "primary_sector": "Health",
+        "secondary_sector": "Information",
+        "technology": "Artificial intelligence",
+        "uptake": "Unknown",
+        "cross_border": "No",
+        "cross_sector": "No",
+        "type": "Chatbot",
+        "status": "In production"
+    }
+]

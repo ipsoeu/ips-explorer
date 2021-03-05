@@ -19,7 +19,7 @@
   $headline["welcome"]["name"] = "Welcome to " . $site_title . "!";
   $headline["welcome"]["icon"] = "";
   $headline["welcome"]["descr"] = "The Innovative Public Services Explorer is an exercise to provide an integrated view of public services using emerging and disruptive technologies.";
-  $headline["welcome"]["url"] = $site_abs_path . "service/";
+  $headline["welcome"]["url"] = $site_abs_path . "case/";
   $headline["welcome"]["url_caption"] = "Explore";
   
   $headline["contribute"]["name"] = "Contribute";
@@ -39,6 +39,14 @@
 //  $section["about"]["name"] = "About";
 //  $section["about"]["url"] = $site_abs_path;
    
+  $section["case"]["name"] = "Cases";
+  $section["case"]["icon"] = "fa-flag";
+  $section["case"]["descr"] = "Explore European cases of pubic services making use of emerging and disruptive technologies, such as AI, DLT, IoT and APIs, and find out their distribution in terms of public administration levels and sectors.";
+  $section["case"]["url"] = $site_abs_path . "case/";
+  $section["case"]["path"] = $root_abs_path . "case/";
+//  $section["case"]["data"] = $site_abs_path . $data_folder . "cases";
+  $section["case"]["data"] = $data_path . "cases";
+/*   
   $section["service"]["name"] = "Services";
   $section["service"]["icon"] = "fa-cogs";
   $section["service"]["descr"] = "Explore European public services making use of emerging and disruptive technologies, such as AI, DLT, IoT and APIs, and find out their distribution and scope in terms of public administration levels and sectors.";
@@ -54,7 +62,7 @@
   $section["project"]["path"] = $root_abs_path . "project/";
 //  $section["project"]["data"] = $site_abs_path . $data_folder . "projects";
   $section["project"]["data"] = $data_path . "projects";
-   
+*/   
 /*   
   $section["i-chart"]["name"] = "Interactive Charts";
   $section["i-chart"]["url"] = $site_abs_path . "datavis/";
@@ -66,6 +74,7 @@
   $section["chart"]["descr"] = "Access statistics of public services and projects based on their core characteristics, including geographic coverage, uptake and the technologies used. Browse the already prepared views, and create dynamic visualisations.";
   $section["chart"]["url"] = $site_abs_path . "chart/";
   $section["chart"]["path"] = $root_abs_path . "chart/";
+  $section["chart"]["data"] = $data_path . "cases";
 
   $section["catalog"]["name"] = "Sources";
   $section["catalog"]["icon"] = "fa-download";
@@ -74,76 +83,143 @@
   $section["catalog"]["path"] = $root_abs_path . "catalog/";
 //  $section["catalog"]["data"] = $site_abs_path . $data_folder . "catalogs";
   $section["catalog"]["data"] = $data_path . "catalogs";
+
+// Charts
    
   $subsection["chart"]["10001"]["name"] = "Geographic coverage";
   $subsection["chart"]["10001"]["icon"] = "fa-globe";
   $subsection["chart"]["10001"]["descr"] = "Countries covered by the different public services. Hovering the mouse on one country, a tooltip shows the number of public services covering it.";
-//  $subsection["chart"]["10001"]["url"] = $site_abs_path . "chart/10001.html";
-//  $subsection["chart"]["10001"]["path"] = $root_abs_path . "chart/10001.html";
-//  $subsection["chart"]["10001"]["data"] = $site_abs_path . $data_folder . "services";
-  $subsection["chart"]["10001"]["data"] = $data_path . "services";
+  $subsection["chart"]["10001"]["data"] = $data_path . "cases";
   $subsection["chart"]["10001"]["graph"] = '<div id="chart-10001"></div>';
   $subsection["chart"]["10001"]["lib"] = 'jvectormap';
 
-  $subsection["chart"]["10002"]["name"] = "Primary sector";
+  $subsection["chart"]["10002"]["name"] = "Technology";
   $subsection["chart"]["10002"]["icon"] = "fa-area-chart";
-//  $subsection["chart"]["10002"]["descr"] = "The primary sector tackled by public services. Hovering the mouse on a sector name, a tooltip shows the number of public services tackling it.";
-  $subsection["chart"]["10002"]["descr"] = "The primary sector tackled by public services.";
-//  $subsection["chart"]["10002"]["url"] = $site_abs_path . "chart/10002.html";
-//  $subsection["chart"]["10002"]["path"] = $root_abs_path . "chart/10002.html";
-//  $subsection["chart"]["10002"]["data"] = $site_abs_path . $data_folder . "services";
-  $subsection["chart"]["10002"]["data"] = $data_path . "services";
-  $subsection["chart"]["10002"]["graph"] = '<perspective-viewer view="treemap" row-pivots=\'["primary_sector"]\' sort=\'[["id", "asc"]]\' columns=\'["id", "geocoverage"]\' aggregates=\'{"id": "distinct count"}\' id="chart-10002"></perspective-viewer>';
+  $subsection["chart"]["10002"]["descr"] = "Technology distribution in the collected cases.";
+  $subsection["chart"]["10002"]["data"] = $data_path . "cases";
+  $subsection["chart"]["10002"]["graph"] = '<perspective-viewer view="treemap" row-pivots=\'["technology"]\' sort=\'[["id", "asc"]]\' columns=\'["id", "geocoverage"]\' aggregates=\'{"id": "distinct count"}\' id="chart-10002"></perspective-viewer>';
   $subsection["chart"]["10002"]["lib"] = 'perspective';
   
-  $subsection["chart"]["10003"]["name"] = "Activity";
+  $subsection["chart"]["10003"]["name"] = "Primary sector";
   $subsection["chart"]["10003"]["icon"] = "fa-area-chart";
-//  $subsection["chart"]["10003"]["descr"] = "Main activity addressed by public services. Hovering the mouse on an activity, a tooltip shows the number of public services addressing this activity.";
-  $subsection["chart"]["10003"]["descr"] = "Distribution of activities for the collected public services.";
-//  $subsection["chart"]["10003"]["url"] = $site_abs_path . "chart/10003.html";
-//  $subsection["chart"]["10003"]["path"] = $root_abs_path . "chart/10003.html";
-//  $subsection["chart"]["10003"]["data"] = $site_abs_path . $data_folder . "services";
-  $subsection["chart"]["10003"]["data"] = $data_path . "services";
-  $subsection["chart"]["10003"]["graph"] = '<perspective-viewer view="treemap" row-pivots=\'["secondary_sector"]\' columns=\'["id", "name"]\' aggregates=\'{"id": "distinct count"}\' id="chart-10003"></perspective-viewer>';
+  $subsection["chart"]["10003"]["descr"] = "Primary sectors covered by the collected cases.";
+  $subsection["chart"]["10003"]["data"] = $data_path . "cases";
+  $subsection["chart"]["10003"]["graph"] = '<perspective-viewer view="treemap" row-pivots=\'["primary_sector"]\' columns=\'["id", "name"]\' aggregates=\'{"id": "distinct count"}\' id="chart-10003"></perspective-viewer>';
   $subsection["chart"]["10003"]["lib"] = 'perspective';
   
-  $subsection["chart"]["10004"]["name"] = "Primary sector vs. activity";
+  $subsection["chart"]["10004"]["name"] = "Primary sector vs. technology";
   $subsection["chart"]["10004"]["icon"] = "fa-area-chart";
-  $subsection["chart"]["10004"]["descr"] = "Joint visual representation of the primary sector and the activity of the collected public services.";
-//  $subsection["chart"]["10004"]["url"] = $site_abs_path . "chart/10004.html";
-//  $subsection["chart"]["10004"]["path"] = $root_abs_path . "chart/10004.html";
-//  $subsection["chart"]["10004"]["data"] = $site_abs_path . $data_folder . "services";
-  $subsection["chart"]["10004"]["data"] = $data_path . "services";
-  $subsection["chart"]["10004"]["graph"] = '<perspective-viewer view="sunburst" row-pivots=\'["primary_sector", "secondary_sector"]\' sort=\'[["id", "asc"]]\' columns=\'["id", "geocoverage"]\' aggregates=\'{"id": "distinct count"}\' id="chart-10004"></perspective-viewer>';
+  $subsection["chart"]["10004"]["descr"] = "Technology distribution per primary sector in the collected cases.";
+  $subsection["chart"]["10004"]["data"] = $data_path . "cases";
+  $subsection["chart"]["10004"]["graph"] = '<perspective-viewer view="x_bar" row-pivots=\'["primary_sector"]\' column-pivots=\'["technology"]\' sort=\'[["id", "asc"]]\' columns=\'["id"]\' aggregates=\'{"id": "distinct count"}\' id="chart-10004"></perspective-viewer>';
   $subsection["chart"]["10004"]["lib"] = 'perspective';
   
-  $subsection["chart"]["10005"]["name"] = "Service type vs. technology";
+  $subsection["chart"]["10005"]["name"] = "Activity vs. technology";
   $subsection["chart"]["10005"]["icon"] = "fa-area-chart";
-  $subsection["chart"]["10005"]["descr"] = "Joint visual representation of the public service type and the used technologies.";
-//  $subsection["chart"]["10005"]["url"] = $site_abs_path . "chart/10005.html";
-//  $subsection["chart"]["10005"]["path"] = $root_abs_path . "chart/10005.html";
-//  $subsection["chart"]["10005"]["data"] = $site_abs_path . $data_folder . "services";
-  $subsection["chart"]["10005"]["data"] = $data_path . "services";
-  $subsection["chart"]["10005"]["graph"] = '<perspective-viewer view="sunburst" row-pivots=\'["type", "technology"]\' sort=\'[["id", "asc"]]\' columns=\'["id", "geocoverage"]\' aggregates=\'{"id": "distinct count"}\' id="chart-10005"></perspective-viewer>';
+  $subsection["chart"]["10005"]["descr"] = "Technology distribution per activity in the collected cases.";
+  $subsection["chart"]["10005"]["data"] = $data_path . "cases";
+  $subsection["chart"]["10005"]["graph"] = '<perspective-viewer view="x_bar" row-pivots=\'["secondary_sector"]\' column-pivots=\'["technology"]\' sort=\'[["id", "asc"]]\' columns=\'["id"]\' aggregates=\'{"id": "distinct count"}\' id="chart-10005"></perspective-viewer>';
   $subsection["chart"]["10005"]["lib"] = 'perspective';
   
-  $subsection["chart"]["10006"]["name"] = "Cross-sector applicability vs. technology";
+  $subsection["chart"]["10006"]["name"] = "Cross-sector vs. technology";
   $subsection["chart"]["10006"]["icon"] = "fa-area-chart";
-  $subsection["chart"]["10006"]["descr"] = "Joint visual representation of the public service applicability in cross-sector scenarios and the used technologies.";
-//  $subsection["chart"]["10006"]["url"] = $site_abs_path . "chart/10006.html";
-//  $subsection["chart"]["10006"]["path"] = $root_abs_path . "chart/10006.html";
-//  $subsection["chart"]["10006"]["data"] = $site_abs_path . $data_folder . "services";
-  $subsection["chart"]["10006"]["data"] = $data_path . "services";
-  $subsection["chart"]["10006"]["graph"] = '<perspective-viewer view="x_bar" row-pivots=\'["cross_sector", "technology"]\' sort=\'[["id", "asc"]]\' columns=\'["id"]\' aggregates=\'{"id": "distinct count"}\' id="chart-10006"></perspective-viewer>';
+  $subsection["chart"]["10006"]["descr"] = "Technology distribution in cross-sector cases.";
+  $subsection["chart"]["10006"]["data"] = $data_path . "cases";
+  $subsection["chart"]["10006"]["graph"] = '<perspective-viewer view="x_bar" row-pivots=\'["cross_sector"]\' column-pivots=\'["technology"]\' sort=\'[["id", "asc"]]\' columns=\'["id"]\' aggregates=\'{"id": "distinct count"}\' id="chart-10006"></perspective-viewer>';
   $subsection["chart"]["10006"]["lib"] = 'perspective';
   
+  $subsection["chart"]["10007"]["name"] = "Cross-sector vs. activity";
+  $subsection["chart"]["10007"]["icon"] = "fa-area-chart";
+  $subsection["chart"]["10007"]["descr"] = "Activity distribution in cross-sector cases.";
+  $subsection["chart"]["10007"]["data"] = $data_path . "cases";
+  $subsection["chart"]["10007"]["graph"] = '<perspective-viewer view="x_bar" row-pivots=\'["cross_sector"]\' column-pivots=\'["secondary_sector"]\' sort=\'[["id", "asc"]]\' columns=\'["id"]\' aggregates=\'{"id": "distinct count"}\' id="chart-10007"></perspective-viewer>';
+  $subsection["chart"]["10007"]["lib"] = 'perspective';
+
+  $subsection["chart"]["10008"]["name"] = "Cross-border vs. technology";
+  $subsection["chart"]["10008"]["icon"] = "fa-area-chart";
+  $subsection["chart"]["10008"]["descr"] = "Technology distribution in cross-border cases.";
+  $subsection["chart"]["10008"]["data"] = $data_path . "cases";
+  $subsection["chart"]["10008"]["graph"] = '<perspective-viewer view="x_bar" row-pivots=\'["cross_border"]\' column-pivots=\'["technology"]\' sort=\'[["id", "asc"]]\' columns=\'["id"]\' aggregates=\'{"id": "distinct count"}\' id="chart-10008"></perspective-viewer>';
+  $subsection["chart"]["10008"]["lib"] = 'perspective';
+  
+  $subsection["chart"]["10009"]["name"] = "Cross-border vs. activity";
+  $subsection["chart"]["10009"]["icon"] = "fa-area-chart";
+  $subsection["chart"]["10009"]["descr"] = "Activity distribution in cross-border cases.";
+  $subsection["chart"]["10009"]["data"] = $data_path . "cases";
+  $subsection["chart"]["10009"]["graph"] = '<perspective-viewer view="x_bar" row-pivots=\'["cross_border"]\' column-pivots=\'["secondary_sector"]\' sort=\'[["id", "asc"]]\' columns=\'["id"]\' aggregates=\'{"id": "distinct count"}\' id="chart-10009"></perspective-viewer>';
+  $subsection["chart"]["10009"]["lib"] = 'perspective';
+
+  $subsection["chart"]["10010"]["name"] = "Administration level";
+  $subsection["chart"]["10010"]["icon"] = "fa-area-chart";
+  $subsection["chart"]["10010"]["descr"] = "Distribution of cases per administration level.";
+  $subsection["chart"]["10010"]["data"] = $data_path . "cases";
+  $subsection["chart"]["10010"]["graph"] = '<perspective-viewer view="treemap" row-pivots=\'["geoextent"]\' sort=\'[["id", "asc"]]\' columns=\'["id", "geocoverage"]\' aggregates=\'{"id": "distinct count"}\' id="chart-10010"></perspective-viewer>';
+  $subsection["chart"]["10010"]["lib"] = 'perspective';
+  
+  $subsection["chart"]["10011"]["name"] = "Administration level vs. technology";
+  $subsection["chart"]["10011"]["icon"] = "fa-area-chart";
+  $subsection["chart"]["10011"]["descr"] = "Technology distribution per administration level in the collected cases.";
+  $subsection["chart"]["10011"]["data"] = $data_path . "cases";
+  $subsection["chart"]["10011"]["graph"] = '<perspective-viewer view="x_bar" row-pivots=\'["geoextent"]\' column-pivots=\'["technology"]\' sort=\'[["id", "asc"]]\' columns=\'["id"]\' aggregates=\'{"id": "distinct count"}\' id="chart-10011"></perspective-viewer>';
+  $subsection["chart"]["10011"]["lib"] = 'perspective';
+  
+  $subsection["chart"]["10012"]["name"] = "Administration level vs. cross-sector";
+  $subsection["chart"]["10012"]["icon"] = "fa-area-chart";
+  $subsection["chart"]["10012"]["descr"] = "Distribution of cross-sector cases per administration level.";
+  $subsection["chart"]["10012"]["data"] = $data_path . "cases";
+  $subsection["chart"]["10012"]["graph"] = '<perspective-viewer view="x_bar" row-pivots=\'["geoextent"]\' column-pivots=\'["cross_sector"]\' sort=\'[["id", "asc"]]\' columns=\'["id"]\' aggregates=\'{"id": "distinct count"}\' id="chart-10012"></perspective-viewer>';
+  $subsection["chart"]["10012"]["lib"] = 'perspective';
+  
+  $subsection["chart"]["10013"]["name"] = "Administration level vs. cross-border";
+  $subsection["chart"]["10013"]["icon"] = "fa-area-chart";
+  $subsection["chart"]["10013"]["descr"] = "Distribution of cross-border cases per administration level.";
+  $subsection["chart"]["10013"]["data"] = $data_path . "cases";
+  $subsection["chart"]["10013"]["graph"] = '<perspective-viewer view="x_bar" row-pivots=\'["geoextent"]\' column-pivots=\'["cross_border"]\' sort=\'[["id", "asc"]]\' columns=\'["id"]\' aggregates=\'{"id": "distinct count"}\' id="chart-10013"></perspective-viewer>';
+  $subsection["chart"]["10013"]["lib"] = 'perspective';
+  
+  $subsection["chart"]["10014"]["name"] = "Cases per year";
+  $subsection["chart"]["10014"]["icon"] = "fa-area-chart";
+  $subsection["chart"]["10014"]["descr"] = "Distribution of the collected cases across the years.";
+  $subsection["chart"]["10014"]["data"] = $data_path . "cases";
+  $subsection["chart"]["10014"]["graph"] = '<perspective-viewer view="y_bar" row-pivots=\'["start_date"]\' sort=\'[["start_date", "asc"]]\' columns=\'["id"]\' aggregates=\'{"id": "distinct count"}\' id="chart-10014"></perspective-viewer>';
+  $subsection["chart"]["10014"]["lib"] = 'perspective';
+  
+  $subsection["chart"]["10015"]["name"] = "Cases per year and technology";
+  $subsection["chart"]["10015"]["icon"] = "fa-area-chart";
+  $subsection["chart"]["10015"]["descr"] = "Distribution of the collected cases per technology across the years.";
+  $subsection["chart"]["10015"]["data"] = $data_path . "cases";
+  $subsection["chart"]["10015"]["graph"] = '<perspective-viewer view="y_bar" row-pivots=\'["start_date"]\' column-pivots=\'["technology"]\' sort=\'[["start_date", "asc"]]\' columns=\'["id"]\' aggregates=\'{"id": "distinct count"}\' id="chart-10015"></perspective-viewer>';
+  $subsection["chart"]["10015"]["lib"] = 'perspective';
+  
+  $subsection["chart"]["10016"]["name"] = "Cases per year and administration level";
+  $subsection["chart"]["10016"]["icon"] = "fa-area-chart";
+  $subsection["chart"]["10016"]["descr"] = "Distribution of the collected cases per administration level across the years.";
+  $subsection["chart"]["10016"]["data"] = $data_path . "cases";
+  $subsection["chart"]["10016"]["graph"] = '<perspective-viewer view="y_bar" row-pivots=\'["start_date"]\' column-pivots=\'["geoextent"]\' sort=\'[["start_date", "asc"]]\' columns=\'["id"]\' aggregates=\'{"id": "distinct count"}\' id="chart-10016"></perspective-viewer>';
+  $subsection["chart"]["10016"]["lib"] = 'perspective';
+  
+  $subsection["chart"]["10017"]["name"] = "Cross-sector cases per year";
+  $subsection["chart"]["10017"]["icon"] = "fa-area-chart";
+  $subsection["chart"]["10017"]["descr"] = "Distribution of cross-sector cases across the years.";
+  $subsection["chart"]["10017"]["data"] = $data_path . "cases";
+  $subsection["chart"]["10017"]["graph"] = '<perspective-viewer view="y_bar" row-pivots=\'["start_date"]\' column-pivots=\'["cross_sector"]\' sort=\'[["start_date", "asc"]]\' columns=\'["id"]\' aggregates=\'{"id": "distinct count"}\' id="chart-10017"></perspective-viewer>';
+  $subsection["chart"]["10017"]["lib"] = 'perspective';
+  
+  $subsection["chart"]["10018"]["name"] = "Cross-border cases per year";
+  $subsection["chart"]["10018"]["icon"] = "fa-area-chart";
+  $subsection["chart"]["10018"]["descr"] = "Distribution of cross-border cases across the years.";
+  $subsection["chart"]["10018"]["data"] = $data_path . "cases";
+  $subsection["chart"]["10018"]["graph"] = '<perspective-viewer view="y_bar" row-pivots=\'["start_date"]\' column-pivots=\'["cross_border"]\' sort=\'[["start_date", "asc"]]\' columns=\'["id"]\' aggregates=\'{"id": "distinct count"}\' id="chart-10018"></perspective-viewer>';
+  $subsection["chart"]["10018"]["lib"] = 'perspective';
+  
+/*  
   $subsection["chart"]["10007"]["name"] = "Uptake vs. organisation category";
   $subsection["chart"]["10007"]["icon"] = "fa-area-chart";
   $subsection["chart"]["10007"]["descr"] = "Joint visual representation of the public service uptake and the responsible organisation category.";
 //  $subsection["chart"]["10007"]["url"] = $site_abs_path . "chart/10007.html";
 //  $subsection["chart"]["10007"]["path"] = $root_abs_path . "chart/10007.html";
-//  $subsection["chart"]["10007"]["data"] = $site_abs_path . $data_folder . "services";
-  $subsection["chart"]["10007"]["data"] = $data_path . "services";
+//  $subsection["chart"]["10007"]["data"] = $site_abs_path . $data_folder . "cases";
+  $subsection["chart"]["10007"]["data"] = $data_path . "cases";
   $subsection["chart"]["10007"]["graph"] = '<perspective-viewer view="x_bar" row-pivots=\'["uptake", "lead_organisation_category"]\' sort=\'[["id", "asc"]]\' columns=\'["id"]\' aggregates=\'{"id": "distinct count"}\' id="chart-10007"></perspective-viewer>';
   $subsection["chart"]["10007"]["lib"] = 'perspective';
   
@@ -152,10 +228,11 @@
   $subsection["chart"]["10008"]["descr"] = "Joint visual representation of the public service technology and its social uptake.";
 //  $subsection["chart"]["10008"]["url"] = $site_abs_path . "chart/10008.html";
 //  $subsection["chart"]["10008"]["path"] = $root_abs_path . "chart/10008.html";
-//  $subsection["chart"]["10008"]["data"] = $site_abs_path . $data_folder . "services";
-  $subsection["chart"]["10008"]["data"] = $data_path . "services";
+//  $subsection["chart"]["10008"]["data"] = $site_abs_path . $data_folder . "cases";
+  $subsection["chart"]["10008"]["data"] = $data_path . "cases";
   $subsection["chart"]["10008"]["graph"] = '<perspective-viewer view="sunburst" row-pivots=\'["technology", "uptake"]\' sort=\'[["id", "asc"]]\' columns=\'["id", "geocoverage"]\' aggregates=\'{"id": "distinct count"}\' id="chart-10008"></perspective-viewer>';
   $subsection["chart"]["10008"]["lib"] = 'perspective';
+*/
 
   foreach ($subsection["chart"] as $ssk => $ssv) {
     $subsection["chart"][$ssk]["url"] = $site_abs_path . "chart/" . $ssk . ".html";
@@ -216,6 +293,5 @@
   $nav .= '</ul>' . "\n";
   $nav .= '</div>' . "\n";
   $nav .= '</nav>' . "\n";
-
 
 ?>

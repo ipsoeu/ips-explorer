@@ -1,9 +1,9 @@
 $(document).ready(function () {
 
   //configuring JVecorMap
-  var countries = _.map(services, function (p) {
-      return p.geocoverage_codes;
-//      return p.geocoverage_codes.toLowerCase();
+  var countries = _.map(services, function (x) {
+      return x.geocoverage_codes;
+//      return x.geocoverage_codes.toLowerCase();
   });
   countries = _.flatten(countries);
   countries = _.groupBy(countries);
@@ -40,8 +40,8 @@ $(document).ready(function () {
       el.html(el.html() + ' - Services: ' + (current_data[code] ? current_data[code] : 'unknown'));
     },
     onRegionSelected: function (e, code, is_selected, selected_regions) {
-      var active_services = _.filter(services, function(service){
-        return _.isEmpty(this.selected_regions) || ! _.isEmpty(_.intersection(service.geocoverage_codes, this.selected_regions));
+      var active_services = _.filter(services, function(x){
+        return _.isEmpty(this.selected_regions) || ! _.isEmpty(_.intersection(x.geocoverage_codes, this.selected_regions));
       },{selected_regions:selected_regions});
       FJS.removeRecords({'id.$gt': 0});
       FJS.addRecords(active_services);

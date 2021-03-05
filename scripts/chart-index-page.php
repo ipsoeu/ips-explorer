@@ -22,8 +22,15 @@
 <script src="https://unpkg.com/@jpmorganchase/perspective-viewer/build/perspective.view.js"></script>
 <script src="https://unpkg.com/@jpmorganchase/perspective-viewer-hypergrid/build/hypergrid.plugin.js"></script>
 <script src="https://unpkg.com/@jpmorganchase/perspective-viewer-highcharts/build/highcharts.plugin.js"></script>
+
+<!--
+<script src="https://unpkg.com/@finos/perspective"></script>
+<script src="https://unpkg.com/@finos/perspective-viewer"></script>
+<script src="https://unpkg.com/@finos/perspective-viewer-datagrid"></script>
+<script src="https://unpkg.com/@finos/perspective-viewer-d3fc"></script>
+-->
         
-<script src="<?php echo $section["service"]["data"]; ?>.js"></script>
+<script src="<?php echo $section[$sec]["data"]; ?>.js"></script>
 <script src="https://eloquentstudio.github.io/filter.js/assets/js/jquery-1.11.3.min.js" type="text/javascript"></script>
 <script src="https://eloquentstudio.github.io/filter.js/assets/js/jquery-ui-1.10.2.custom.min.js" type="text/javascript"></script>
 <script src="<?php echo $site_abs_path; ?>js/jvectormap.com/js/jquery-jvectormap-2.0.3.min.js"></script>
@@ -47,7 +54,7 @@
 <script>
 $(document).ready(function () {
 <?php if (isset($chart_lib["jvectormap"])) { ?>
-  var countries = _.map(services, function (p) {
+  var countries = _.map(cases, function (p) {
     return p.geocoverage_codes;
   });
   countries = _.flatten(countries);
@@ -78,7 +85,7 @@ $(document).ready(function () {
 <?php if (isset($chart_lib["perspective"])) { ?>
   document.addEventListener("WebComponentsReady", function () {
     for (var el of document.getElementsByTagName('perspective-viewer')) {
-      el.load(services);
+      el.load(cases);
     }
   });
 <?php } ?>
