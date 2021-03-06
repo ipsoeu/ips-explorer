@@ -29,6 +29,7 @@ svg {background-color: #27456b;}
 .unsdg-direct {background-color:#0000ff;color:#ffffff;}
 .unsdg-indirect {background-color:#ffff00;}
 
+span[title] {cursor:help;}
 
 /* Carousel base class */
 .carousel {

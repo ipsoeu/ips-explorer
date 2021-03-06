@@ -276,6 +276,8 @@ select:focus, textarea:focus, input:focus{
 }
 */
 
+.icon {cursor:help;}
+/*
 .icon {border-radius:50%;border:1px solid;display:inline-block;padding:5px;font-weight:bold;cursor:help;}
 .icon-ca {border-color:#990000;background-color:#ff0000;color:#ffffff;}
 .icon-ed {border-color:#005500;background-color:#009900;color:#ffffff;}
@@ -285,6 +287,7 @@ select:focus, textarea:focus, input:focus{
 .icon-su {border-color:#999900;background-color:#ffff00;color:#555500;}
 .icon-pr {border-color:#000099;background-color:#0000ff;color:#ffffff;}
 .icon-pu {border-color:#000099;background-color:#0000ff;color:#ffffff;}
+*/
 
 .panel-footer {font-size:.8em;}
 

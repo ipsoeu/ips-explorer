@@ -302,11 +302,16 @@ $(document).ready(function() {
       if ($secondary_sector == $p["secondary_sector"]) {
         $related_cases[$p["id"]]["secondary_sector"] = "Yes";
       }
+/*
       if ($uptake == $p["uptake"]) {
         $related_cases[$p["id"]]["uptake"] = "Yes";
       }
+*/
       if ($cross_sector == $p["cross_sector"]) {
         $related_cases[$p["id"]]["cross_sector"] = "Yes";
+      }
+      if ($cross_sector == $p["cross_border"]) {
+        $related_cases[$p["id"]]["cross_border"] = "Yes";
       }
       if ($type == $p["type"]) {
         $related_cases[$p["id"]]["type"] = "Yes";
@@ -367,26 +372,32 @@ $(document).ready(function() {
               $tag = "AC";
               $label = "Same activity";
               break;
+/*
             case "uptake":
               $tag = "UP";
               $label = "Same level of uptake";
               break;
+*/
             case "cross_sector":
               $tag = "CS";
               $label = "Same cross-sector applicability";
               break;
+            case "cross_border":
+              $tag = "CB";
+              $label = "Same cross-border applicability";
+              break;
             case "type":
-              $label = "Same case type";
-              $tag = "TY";
-	      break;
+              $label = "Same service type";
+              $tag = "ST";
+	            break;
 /*	      
             case "unsdg":
               $label = "Similar contribution to UN SDGs";
               $tag = "SDG";
-	      break;
+	            break;
 */	      
           }
-          $html .= '<span class="icon icon-' . strtolower($tag) . '" title="' . $label . '">' . $tag . '</span>&nbsp;';
+          $html .= '<span class="label label-info icon icon-' . strtolower($tag) . '" title="' . $label . '">' . $tag . '</span>&nbsp;';
         }
       }
       $html .= '</td>
