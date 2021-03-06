@@ -34,3 +34,9 @@ echo "Merge catalog records..."
 php merge-catalogs.php
 echo "Done."
 
+# Temporary copy - to be removed.
+cp -p ../data/cases.json ../data/services.json
+
+echo "Create CSV files..."
+php json2csv.php
+echo "Done."
