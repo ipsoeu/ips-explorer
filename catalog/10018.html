@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+<title>IPS-X | OSP2020 - Case studies</title>
+<link type="text/css" rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://eloquentstudio.github.io/filter.js/assets/css/bootstrap.min.css" media="screen" rel="stylesheet" type="text/css">
+<link type="text/css" rel="stylesheet" href="https://cdn.datatables.net/1.10.10/css/dataTables.bootstrap.min.css" media="screen"/>
+<link href="https://eloquentstudio.github.io/filter.js/assets/css/jquery-ui-1.10.2.custom.min.css" media="screen" rel="stylesheet" type="text/css">
+<link type="text/css" rel="stylesheet" href="https://cdn.datatables.net/buttons/1.2.4/css/buttons.dataTables.min.css" media="screen"/>
+<link type="text/css" rel="stylesheet" href="https://cdn.datatables.net/select/1.2.1/css/select.dataTables.min.css" media="screen"/>
+<link href="/ips-explorer/css/common.css" media="screen" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="https://eloquentstudio.github.io/filter.js/assets/js/jquery-1.11.3.min.js" type="text/javascript"></script>
+<script type="text/javascript" src="https://eloquentstudio.github.io/filter.js/assets/js/jquery-ui-1.10.2.custom.min.js" type="text/javascript"></script>
+<script type="text/javascript" src="https://eloquentstudio.github.io/filter.js/filter.min.js" type="text/javascript"></script>
+<script type="text/javascript" src="https://cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script>
+<script type="text/javascript" src="https://cdn.datatables.net/1.10.16/js/dataTables.bootstrap.min.js"></script>
+<script type="text/javascript" src="https://cdn.datatables.net/buttons/1.5.1/js/dataTables.buttons.min.js"></script>
+<script type="text/javascript" src="https://cdn.datatables.net/buttons/1.5.1/js/buttons.flash.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.1.3/jszip.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.32/pdfmake.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.32/vfs_fonts.js"></script>
+<script type="text/javascript" src="https://cdn.datatables.net/buttons/1.5.1/js/buttons.html5.min.js"></script>
+<script type="text/javascript" src="https://cdn.datatables.net/buttons/1.5.1/js/buttons.print.min.js"></script>
+<script type="text/javascript" src="https://cdn.datatables.net/select/1.2.7/js/dataTables.select.min.js"></script>
+<script type="text/javascript" src="https://cdn.datatables.net/buttons/1.5.2/js/buttons.colVis.min.js"></script>
+<script type="text/javascript" src="/ips-explorer/js/common.js"></script> 
+<script>
+$(document).ready(function() {
+  var related_services_table = $("#related_services").DataTable( { 
+    "scrollY": "500px", "scrollCollapse": true, "paging": false, "dom": "Bfrtip", 
+    "order": [[ 0, "asc" ]],
+    "buttons": [ "copy", "csv", "excel", "pdf" ] 
+  } );
+  related_services_table.columns().every( function () {
+    var that = this;
+    $( "input.filter", this.footer() ).on( "keyup change", function () {
+      if ( that.search() !== this.value ) {
+        that.search( this.value ).draw();
+      }
+    } );
+  } );    
+});
+</script>
+<script type="application/ld+json">
+{
+  "@context":"http://schema.org/",
+  "@type":"Dataset",
+  "@id":"https://w3id.org/ipsoeu/ips-explorer/catalog/10018",
+  "name":"OSP2020 - Case studies",
+  "url":"https://www.ops2020.gov.ie/what-is-ops2020/case-studies/",
+  "sameAs":"https://www.ops2020.gov.ie/what-is-ops2020/case-studies/",
+  "description":"Our Public Service 2020 is the framework for development and innovation in Ireland’s public service. It was preceded by two public service reform plans beginning in 2011. These plans have embedded a range of new approaches to governance, people management and service delivery, and have made the work of the public service more transparent, decision-making more accountable, and service delivery more effective."
+  "publisher":{"@type":"Organization","name":"Department of Public Expenditure and Reform"},
+  "spatialCoverage":[
+    {"@type":"Place","name":"Ireland"}
+  ],
+  "includedInDataCatalog":{
+    "@type":"DataCatalog",
+    "name":"IPS Explorer",
+    "url":"https://w3id.org/ipsoeu/ips-explorer/"
+  }
+}
+</script>
+
+</head>
+<body>
+<nav role="navigation" class="navbar navbar-default">
+<div class="container">
+<p class="navbar-header"><a title="Innovative Public Services Explorer" class="navbar-brand" href="/ips-explorer/">IPS-X</a></p>
+<ul class="nav navbar-nav collapse navbar-collapse">
+<li class=""><a href="/ips-explorer/case/">Cases</a></li>
+<li class=""><a href="/ips-explorer/chart/">Statistics</a></li>
+<li class="active"><a href="/ips-explorer/catalog/">Sources</a></li>
+</ul>
+<ul class="nav navbar-nav collapse navbar-collapse navbar-right">
+<li><a target="_blank" href="https://github.com/ipsoeu/ips-explorer/issues/" title="Send us your feedback."><i class="fa fa-comment"></i> Feedback</a></li>
+<li><a target="_blank" href="https://github.com/ipsoeu/ips-explorer/" title="Report projects, services, initiatives you are aware of."><i class="fa fa-github"></i> Contribute</a></li>
+<li><a target="_blank" href="https://ec.europa.eu/eusurvey/runner/6c2c3469-14fe-6d78-129d-0cc558731310" title="Fill in the IPS survey."><i class="fa fa-edit"></i> IPS Survey</a></li>
+</ul>
+</div>
+</nav>
+<article class="container">
+<aside class="sidebar col-md-3">
+<div>
+<div class="well">
+<p><strong>Number of cases</strong></p>
+<p>2</p>
+<p><strong>Coverage</strong></p>
+<p>Ireland (2)</p>
+</div>
+</div>
+</aside>
+<section class="col-md-9">
+<h2>OSP2020 - Case studies</h2>
+<address class="small">Publisher: Department of Public Expenditure and Reform, Ireland</address>
+<p>Our Public Service 2020 is the framework for development and innovation in Ireland’s public service. It was preceded by two public service reform plans beginning in 2011. These plans have embedded a range of new approaches to governance, people management and service delivery, and have made the work of the public service more transparent, decision-making more accountable, and service delivery more effective.</p>
+<section>
+<h3>Additional information</h3>
+<table class="table table-hover table-striped">
+<tbody>
+<tr>
+<th>Source type</th>
+<td>Catalogue</td>
+</tr>
+<tr>
+<th>Year</th>
+<td>2021</td>
+</tr>
+<tr>
+<th>Web site</th>
+<td><a href="https://www.ops2020.gov.ie/what-is-ops2020/case-studies/">https://www.ops2020.gov.ie/what-is-ops2020/case-studies/</a></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section>
+<h3>Relevant services and projects</h3>
+<table id="related_services" class="table table-hover table-striped">
+<thead>
+<tr>
+<th>Case</th>
+<th>Type</th>
+<th>Technology</th>
+<!--
+<th>Geo extent</th>
+-->
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../case/180001.html">DPER Robotic Process Automation (RPA) Pilot</a></td>
+<td>Project</td>      
+<td>Ai</td>      
+</tr>
+<tr>
+<td><a href="../case/180002.html">Housing Assistance Payment Robotics Pilot</a></td>
+<td>Project</td>      
+<td>Ai</td>      
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<th><input class="filter" type="text" placeholder="Filter by name" data-index="0" /></th>
+<th><input class="filter" type="text" placeholder="Filter by type" data-index="1" /></th>
+<th><input class="filter" type="text" placeholder="Filter by technology" data-index="2" /></th>
+<!--
+<th><input class="filter" type="text" placeholder="Filter by geo extent" data-index="3" /></th>
+-->
+</tr>
+</tfoot>
+</table>
+</section>
+</section>
+</article>
+<footer>
+<p></p>
+</footer>
+</body>
+</html>

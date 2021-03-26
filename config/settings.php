@@ -11,8 +11,9 @@
   $twitter = "";
   $github = "https://github.com/ipsoeu/ips-explorer/";
   $contribute = "https://github.com/ipsoeu/ips-explorer/";
- $feedback = "https://github.com/ipsoeu/ips-explorer/issues/";
-  $survey = "https://ec.europa.eu/eusurvey/runner/isa2-ips-survey-review";
+  $feedback = "https://github.com/ipsoeu/ips-explorer/issues/";
+//  $survey = "https://ec.europa.eu/eusurvey/runner/isa2-ips-survey-review";
+  $survey = "https://ec.europa.eu/eusurvey/runner/6c2c3469-14fe-6d78-129d-0cc558731310";
 
   $footer = '<p></p>';
 

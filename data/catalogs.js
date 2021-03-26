@@ -202,5 +202,17 @@ var catalogs = [
         "c_country": "European Union",
         "c_type": "Catalogue",
         "c_year": "2020"
+    },
+    {
+        "entry_type": "catalog",
+        "c_id": 10018,
+        "c_name": "OSP2020 - Case studies",
+        "c_url": "https:\/\/www.ops2020.gov.ie\/what-is-ops2020\/case-studies\/",
+        "c_contact": "",
+        "c_description": "Our Public Service 2020 is the framework for development and innovation in Ireland\u2019s public service. It was preceded by two public service reform plans beginning in 2011. These plans have embedded a range of new approaches to governance, people management and service delivery, and have made the work of the public service more transparent, decision-making more accountable, and service delivery more effective.",
+        "c_publisher": "Department of Public Expenditure and Reform",
+        "c_country": "Ireland",
+        "c_type": "Catalogue",
+        "c_year": "2021"
     }
 ]

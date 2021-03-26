@@ -68,4 +68,7 @@
   $src["projects"][17] = "17-projects-joint-migration-policy-whitepaper.csv";
   $src["cases"][17] = "17-cases-joint-migration-policy-whitepaper.csv";
   
+  $src["catalog"][18]  = "18-catalog-ops2020-case-studies.csv";
+  $src["cases"][18] = "18-cases-ops2020-case-studies.csv";
+  
 ?>

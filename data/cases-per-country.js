@@ -10,7 +10,7 @@ var prj_per_country = {
     "Belgium": 21,
     "Estonia": 12,
     "Germany": 14,
-    "Ireland": 6,
+    "Ireland": 8,
     "United Kingdom": 37,
     "Spain": 20,
     "Ukraine": 5,

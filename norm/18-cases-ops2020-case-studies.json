@@ -1,0 +1,70 @@
+[
+    {
+        "entry_type": "case",
+        "cid": 10018,
+        "id": 180001,
+        "rtype": "Project",
+        "name": "DPER Robotic Process Automation (RPA) Pilot",
+        "url": "https:\/\/www.ops2020.gov.ie\/case-studies\/robotic-process-automation-rpa\/",
+        "contact": "",
+        "description": "During 2017, the Department of Public Expenditure and Reform (DPER) ran a pilot study in RPA where four Government Departments selected some routine, stable and completely computer based processes for the purpose of exploring the efficiencies to be gained by automating this work using RPA.",
+        "geoextent": "National",
+        "geocoverage": [
+            "Ireland"
+        ],
+        "geocoverage_codes": [
+            "IE"
+        ],
+        "lead_organisation": {
+            "name": "Department of Public Expenditure and Reform",
+            "category": "Governmental"
+        },
+        "lead_organisation_name": "Department of Public Expenditure and Reform",
+        "lead_organisation_category": "Governmental",
+        "start_date": "2017",
+        "active": "Yes",
+        "end_date": "",
+        "primary_sector": "General public services",
+        "secondary_sector": "Control and monitoring",
+        "technology": "Ai",
+        "uptake": "Unknown",
+        "cross_border": "No",
+        "cross_sector": "No",
+        "type": "Process automation",
+        "status": "Pilot"
+    },
+    {
+        "entry_type": "case",
+        "cid": 10018,
+        "id": 180002,
+        "rtype": "Project",
+        "name": "Housing Assistance Payment Robotics Pilot",
+        "url": "https:\/\/www.ops2020.gov.ie\/case-studies\/housing-assistance-payment-robotics-pilot\/",
+        "contact": "",
+        "description": "Limerick City and County Council operate the Housing Assistance Payment Shared Service Centre (HAP SSC) on behalf of the local government sector and are continuously striving for ways to improve their business. The organisation deals with more than 47,000 tenancies and 27,000 landlords, makes payments in excess of \u20ac400million, and collects more than \u20ac100million in rents. By 2021 it is anticipated that the HAP SSC will deal with 80,000 tenancies, 55,000 landlords and \u20ac600million in payments. In order to help deal with these volumes, the deployment of Robotic Process Automation (RPA) in the HAP Shared Service Centre was investigated. During 2018 a proof of concept pilot project was carried out by Agilisys, examining 3 micro processes within the centre. The proof of concept project demonstrated that opportunities for efficiencies and savings can be achieved through the deployment of RPA. Applying the outcome of the proof of concept project to a business case, it was concluded that if 10 complex processes could be replaced by RPA, then considerable savings could be made, while at the same time improving services to all key stakeholders. The HAP SSC is now seeking to identify existing processes where RPA may be immediately deployed, as well as opportunities for further business systems integration and automation within the HAP SSC.",
+        "geoextent": "Regional",
+        "geocoverage": [
+            "Ireland"
+        ],
+        "geocoverage_codes": [
+            "IE"
+        ],
+        "lead_organisation": {
+            "name": "Housing Assistance Payment Shared Service Centre",
+            "category": "Governmental"
+        },
+        "lead_organisation_name": "Housing Assistance Payment Shared Service Centre",
+        "lead_organisation_category": "Governmental",
+        "start_date": "2018",
+        "active": "Yes",
+        "end_date": "",
+        "primary_sector": "Financial and fiscal affairs",
+        "secondary_sector": "Control and monitoring",
+        "technology": "Ai",
+        "uptake": "Unknown",
+        "cross_border": "No",
+        "cross_sector": "No",
+        "type": "Process automation",
+        "status": "Pilot"
+    }
+]
