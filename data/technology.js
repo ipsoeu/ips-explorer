@@ -1,5 +1,4 @@
 var technology = [
-    "Ai",
     "Api",
     "Artificial intelligence",
     "Augmented reality \/ virtual reality",
