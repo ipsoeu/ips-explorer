@@ -1,5 +1,5 @@
 var geoextent = [
-    "International",
+    "Across Countries",
     "Local",
     "National",
     "Regional"

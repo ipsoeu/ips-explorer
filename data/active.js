@@ -1,4 +1,3 @@
 var active = [
-    "No",
-    "Yes"
+    ""
 ]

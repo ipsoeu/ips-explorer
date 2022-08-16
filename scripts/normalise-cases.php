@@ -11,9 +11,14 @@
   foreach ($src["cases"] as $i => $file) {
     $src["cases"][$i] = $src_folder . $file;
   }
+  
+ 
 
   foreach ($src["cases"] as $i => $file) {
 
+    echo $file ;
+    echo '/n';
+    
     $output = array();
     $catalog_id = $i + 10000;
     $n = $i * 10000;
