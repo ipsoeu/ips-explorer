@@ -1,0 +1,2030 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+<title>IPS-X | Verification of the authenticity of university degrees</title>
+<link type="text/css" rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link type="text/css" rel="stylesheet" href="https://cdn.datatables.net/1.10.10/css/dataTables.bootstrap.min.css" media="screen"/>
+<link type="text/css" rel="stylesheet" href="https://cdn.datatables.net/buttons/1.2.4/css/buttons.dataTables.min.css" media="screen"/>
+<link type="text/css" rel="stylesheet" href="https://cdn.datatables.net/select/1.2.1/css/select.dataTables.min.css" media="screen"/>
+<link href="https://eloquentstudio.github.io/filter.js/assets/css/bootstrap.min.css" media="screen" rel="stylesheet" type="text/css">
+<link href="https://eloquentstudio.github.io/filter.js/assets/css/jquery-ui-1.10.2.custom.min.css" media="screen" rel="stylesheet" type="text/css">
+<link href="/ips-explorer/css/common.css" media="screen" rel="stylesheet" type="text/css">
+<script src="https://eloquentstudio.github.io/filter.js/assets/js/jquery-1.11.3.min.js" type="text/javascript"></script>
+<script src="https://eloquentstudio.github.io/filter.js/assets/js/jquery-ui-1.10.2.custom.min.js" type="text/javascript"></script>
+<script src="https://eloquentstudio.github.io/filter.js/filter.min.js" type="text/javascript"></script>
+<script type="text/javascript" src="https://cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script>
+<script type="text/javascript" src="https://cdn.datatables.net/1.10.16/js/dataTables.bootstrap.min.js"></script>
+<script type="text/javascript" src="https://cdn.datatables.net/buttons/1.5.1/js/dataTables.buttons.min.js"></script>
+<script type="text/javascript" src="https://cdn.datatables.net/buttons/1.5.1/js/buttons.flash.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.1.3/jszip.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.32/pdfmake.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.32/vfs_fonts.js"></script>
+<script type="text/javascript" src="https://cdn.datatables.net/buttons/1.5.1/js/buttons.html5.min.js"></script>
+<script type="text/javascript" src="https://cdn.datatables.net/buttons/1.5.1/js/buttons.print.min.js"></script>
+<script type="text/javascript" src="https://cdn.datatables.net/select/1.2.7/js/dataTables.select.min.js"></script>
+<script type="text/javascript" src="https://cdn.datatables.net/buttons/1.5.2/js/buttons.colVis.min.js"></script>
+<script type="text/javascript" src="/ips-explorer/js/common.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.9.1/underscore-min.js" integrity="sha256-G7A4JrJjJlFqP0yamznwPjAApIKPkadeHfyIwiaa9e0=" crossorigin="anonymous"></script>
+<script>
+$(document).ready(function() {
+  var related_cases_table = $("#related_cases").DataTable( { 
+    "scrollY": "500px", "scrollCollapse": true, "paging": false, "dom": "Bfrtip", 
+    "order": [[ 1, "desc" ]],
+    "buttons": [ "copy", "csv", "excel", "pdf" ] 
+  } );
+  related_cases_table.columns().every( function () {
+    var that = this;
+    $( "input.filter", this.footer() ).on( "keyup change", function () {
+      if ( that.search() !== this.value ) {
+        that.search( this.value ).draw();
+      }
+    } );
+  } );    
+});
+</script>
+<script type="application/ld+json">
+{
+  "@context":"http://schema.org/",
+  "@type":"Service",
+  "@id":"https://w3id.org/ipsoeu/ips-explorer/case/10808",
+  "name":"Verification of the authenticity of university degrees",
+  "url":"https://cointelegraph.com/news/swiss-university-fights-fake-diplomas-with-blockchain-technology",
+  "description":"The University of St. Gallen (Switzerland) introduced a blockchain-based Proof of Concept project to verify the authenticity of its degrees in a matter of seconds rather than several days. The University of St. Gallen has chosen to partner with Swiss blockchain startup BlockFactory and used its certification solution to create immutable diplomas that are registered on the Ethereum blockchain.",
+  "provider":{"@type":"Organization","name":"The University of St. Gallen"},
+  "areaServed":[
+    {"@type":"Place","name":"Switzerland"}
+  ]
+}
+</script>
+
+</head>
+<body>
+<nav role="navigation" class="navbar navbar-default">
+<div class="container">
+<p class="navbar-header"><a title="Innovative Public Services Explorer" class="navbar-brand" href="/ips-explorer/">IPS-X</a></p>
+<ul class="nav navbar-nav collapse navbar-collapse">
+<li class="active"><a href="/ips-explorer/case/">Cases</a></li>
+<li class=""><a href="/ips-explorer/chart/">Statistics</a></li>
+<li class=""><a href="/ips-explorer/catalog/">Sources</a></li>
+</ul>
+<ul class="nav navbar-nav collapse navbar-collapse navbar-right">
+<li><a target="_blank" href="https://github.com/ipsoeu/ips-explorer/issues/" title="Send us your feedback."><i class="fa fa-comment"></i> Feedback</a></li>
+<li><a target="_blank" href="https://github.com/ipsoeu/ips-explorer/" title="Report projects, services, initiatives you are aware of."><i class="fa fa-github"></i> Contribute</a></li>
+<li><a target="_blank" href="https://ec.europa.eu/eusurvey/runner/6c2c3469-14fe-6d78-129d-0cc558731310" title="Fill in the IPS survey."><i class="fa fa-edit"></i> IPS Survey</a></li>
+</ul>
+</div>
+</nav>
+<article class="container">
+<aside class="sidebar col-md-3">
+<div>
+<div class="well">
+<p><strong>Type</strong></p>
+<p>Service</p>
+<p><strong>Technologies</strong></p>
+<p>Blockchain</p>
+<p><strong>Geographic extent</strong></p>
+<p>Local</p>
+<p><strong>Geographic coverage</strong></p>
+<p>Switzerland</p>
+<p><strong>Primary sector</strong></p>
+<p>Education</p>
+<p><strong>Activity</strong></p>
+<p>R&d education.</p>
+<!--
+<p><strong>Uptake</strong></p>
+<p>No</p>
+-->
+<p><strong>Cross-sector</strong></p>
+<p>No</p>
+<p><strong>Cross-border</strong></p>
+<p>No</p>
+<p><strong>Service Type</strong></p>
+<p>Certification and validation processes</p>
+<p><strong>Status</strong></p>
+<p>Pilot</p>
+</div>
+</div>
+</aside>
+<section class="col-md-9">
+<h2>Service: Verification of the authenticity of university degrees</h2>
+<address class="small">
+<p>Responsible organisation: The University of St. Gallen (Academic-Research)</p>
+</address>
+<p>The University of St. Gallen (Switzerland) introduced a blockchain-based Proof of Concept project to verify the authenticity of its degrees in a matter of seconds rather than several days. The University of St. Gallen has chosen to partner with Swiss blockchain startup BlockFactory and used its certification solution to create immutable diplomas that are registered on the Ethereum blockchain.</p>
+<section>
+<h3>Additional information</h3>
+<table class="table table-hover table-striped">
+<tbody>
+<tr>
+<th>Source</th>
+<td><a href="/ips-explorer/catalog/10001.html">Open Innovation Regione Lombardia</a></td>
+</tr>
+<tr>
+<th>Web site</th>
+<td><a href="https://cointelegraph.com/news/swiss-university-fights-fake-diplomas-with-blockchain-technology">https://cointelegraph.com/news/swiss-university-fights-fake-diplomas-with-blockchain-technology</a></td>
+</tr>
+<tr>
+<th>Start/end date</th>
+<td>2019 - </td>
+</tr>
+<tr>
+<th>Still active?</th>
+<td></td>
+</tr>
+</tbody>
+</table>
+</section><section>
+<h3>Related cases</h3>
+<table id="related_cases" class="table table-hover table-striped">
+<thead>
+<tr>
+<th>Service</th>
+<th>Similarity</th>
+<th>Relationships</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="./10004.html">AcPaas - Technical procurement documents comparison</a></td>
+<td>10%</td>      
+<td><span class="label label-info icon icon-ge" title="Same geographic extent">GE</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10009.html">Camera System - Mobile phone usage on vehicles</a></td>
+<td>10%</td>      
+<td><span class="label label-info icon icon-ge" title="Same geographic extent">GE</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10012.html">VDAB Chatbot for job seekers - Chatbots to better match jobseekers with the right vacancie</a></td>
+<td>10%</td>      
+<td><span class="label label-info icon icon-ge" title="Same geographic extent">GE</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10014.html">Plovdic - City Concierge Chatbot</a></td>
+<td>10%</td>      
+<td><span class="label label-info icon icon-ge" title="Same geographic extent">GE</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10016.html">Hope - Chatbot informing work of the Civil Protection Staff</a></td>
+<td>10%</td>      
+<td><span class="label label-info icon icon-ge" title="Same geographic extent">GE</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10021.html">Kiri - chatbot for citizens' enquiries</a></td>
+<td>10%</td>      
+<td><span class="label label-info icon icon-ge" title="Same geographic extent">GE</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10022.html">CHAIN - Smart Water optimising energy consumption</a></td>
+<td>10%</td>      
+<td><span class="label label-info icon icon-ge" title="Same geographic extent">GE</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10031.html">Traffic load - Machine vision for collecting information on traffic load</a></td>
+<td>10%</td>      
+<td><span class="label label-info icon icon-ge" title="Same geographic extent">GE</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10036.html">Helsinki HUH - Intensive care for premature baby</a></td>
+<td>10%</td>      
+<td><span class="label label-info icon icon-ge" title="Same geographic extent">GE</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10037.html">OuluBot - Virtual assistant for business</a></td>
+<td>10%</td>      
+<td><span class="label label-info icon icon-ge" title="Same geographic extent">GE</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10054.html">The Dublin Beat - Citizen opinion analysis</a></td>
+<td>10%</td>      
+<td><span class="label label-info icon icon-ge" title="Same geographic extent">GE</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10055.html">PROJECT PIERINO</a></td>
+<td>20%</td>      
+<td><span class="label label-info icon icon-ps" title="Same primary sector">PS</span>&nbsp;<span class="label label-info icon icon-ac" title="Same activity">AC</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10056.html">Borbot - Virtual assistant for museums</a></td>
+<td>10%</td>      
+<td><span class="label label-info icon icon-ge" title="Same geographic extent">GE</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10060.html">Smart Planner - Navigation planning assistant</a></td>
+<td>10%</td>      
+<td><span class="label label-info icon icon-ge" title="Same geographic extent">GE</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10071.html">CAS - Crime anticipation system</a></td>
+<td>10%</td>      
+<td><span class="label label-info icon icon-ge" title="Same geographic extent">GE</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10072.html">Xomnia - Law enforcement optimization system</a></td>
+<td>10%</td>      
+<td><span class="label label-info icon icon-ge" title="Same geographic extent">GE</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10073.html">SHAP - Holiday rental home fraud</a></td>
+<td>10%</td>      
+<td><span class="label label-info icon icon-ge" title="Same geographic extent">GE</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10074.html">Xomnia - The Burglary Predictor</a></td>
+<td>10%</td>      
+<td><span class="label label-info icon icon-ge" title="Same geographic extent">GE</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10078.html">SIA - Notifications public space</a></td>
+<td>10%</td>      
+<td><span class="label label-info icon icon-ge" title="Same geographic extent">GE</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10080.html">Rotterdam – Improving the usage of rooftops</a></td>
+<td>10%</td>      
+<td><span class="label label-info icon icon-ge" title="Same geographic extent">GE</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10081.html">Mercé - citizen science for better urban life</a></td>
+<td>10%</td>      
+<td><span class="label label-info icon icon-ge" title="Same geographic extent">GE</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10084.html">Nancy - Access to National library assets</a></td>
+<td>10%</td>      
+<td><span class="label label-info icon icon-ps" title="Same primary sector">PS</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10088.html">TrondHeim - Insolvency Prediction</a></td>
+<td>10%</td>      
+<td><span class="label label-info icon icon-ge" title="Same geographic extent">GE</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10095.html">Failstopper - Study the compressed air system of the vehicle</a></td>
+<td>10%</td>      
+<td><span class="label label-info icon icon-ge" title="Same geographic extent">GE</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10100.html">ModEst - Student Flow Modeling</a></td>
+<td>10%</td>      
+<td><span class="label label-info icon icon-ps" title="Same primary sector">PS</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10104.html">Bucharest airport Face recognition - Detection of wanted persons and unsafe situations</a></td>
+<td>10%</td>      
+<td><span class="label label-info icon icon-ge" title="Same geographic extent">GE</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10105.html">Metrici LPR cameras - Better license plate detection</a></td>
+<td>10%</td>      
+<td><span class="label label-info icon icon-ge" title="Same geographic extent">GE</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10106.html">Antonia - Automatic processing of requests of public services</a></td>
+<td>10%</td>      
+<td><span class="label label-info icon icon-ge" title="Same geographic extent">GE</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10115.html">Fuengirola Town Hall - measuring beach attendance</a></td>
+<td>10%</td>      
+<td><span class="label label-info icon icon-ge" title="Same geographic extent">GE</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10121.html">PDTI Urban Robotics Sewer Inspection</a></td>
+<td>10%</td>      
+<td><span class="label label-info icon icon-ge" title="Same geographic extent">GE</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10123.html">Robotic System Da Vinci</a></td>
+<td>10%</td>      
+<td><span class="label label-info icon icon-ge" title="Same geographic extent">GE</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10126.html">Trelleborg - Automated social welfare decisions</a></td>
+<td>10%</td>      
+<td><span class="label label-info icon icon-ge" title="Same geographic extent">GE</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10127.html">Tengai - Robot in recruitment processes</a></td>
+<td>10%</td>      
+<td><span class="label label-info icon icon-ge" title="Same geographic extent">GE</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10133.html">Stockholm3 - Diagnosing prostate cancer with OncoWatch</a></td>
+<td>10%</td>      
+<td><span class="label label-info icon icon-ge" title="Same geographic extent">GE</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10134.html">BFS - Plausibility check on quality and reliability of administrative data</a></td>
+<td>10%</td>      
+<td><span class="label label-info icon icon-gc" title="Overlapping geographic coverage">GC</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10135.html">NOGAuto - Assign or control codes to companies for economic activities</a></td>
+<td>10%</td>      
+<td><span class="label label-info icon icon-gc" title="Overlapping geographic coverage">GC</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10136.html">Chatbot - Offer residents and tourism information and services from the administration</a></td>
+<td>20%</td>      
+<td><span class="label label-info icon icon-ge" title="Same geographic extent">GE</span>&nbsp;<span class="label label-info icon icon-gc" title="Overlapping geographic coverage">GC</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10137.html">Maxi - Chatbot answering questions on insurance</a></td>
+<td>10%</td>      
+<td><span class="label label-info icon icon-gc" title="Overlapping geographic coverage">GC</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10138.html">Chatbot - Security institution information, find the ones entitled to premium reductions</a></td>
+<td>10%</td>      
+<td><span class="label label-info icon icon-gc" title="Overlapping geographic coverage">GC</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10139.html">Refugees - Assigning asylum seekers</a></td>
+<td>10%</td>      
+<td><span class="label label-info icon icon-gc" title="Overlapping geographic coverage">GC</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10142.html">Amelia - Chatbot helping local residents find city services</a></td>
+<td>10%</td>      
+<td><span class="label label-info icon icon-ge" title="Same geographic extent">GE</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10144.html">TravelBot - Chatbot for travel information</a></td>
+<td>10%</td>      
+<td><span class="label label-info icon icon-ge" title="Same geographic extent">GE</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10145.html">EHPS - Early help profiling system to identify children and families considered vulnerable</a></td>
+<td>10%</td>      
+<td><span class="label label-info icon icon-ge" title="Same geographic extent">GE</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10178.html">Ik houd van jou Monitor - Monitor which automatically calculates the distance between people</a></td>
+<td>10%</td>      
+<td><span class="label label-info icon icon-ge" title="Same geographic extent">GE</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10180.html">Object Detection Kit Amsterdam - Automatic detection of garbage</a></td>
+<td>10%</td>      
+<td><span class="label label-info icon icon-ge" title="Same geographic extent">GE</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10181.html">Detection causes early school leavers Kungsbacka - Analysing data of early school leavers</a></td>
+<td>20%</td>      
+<td><span class="label label-info icon icon-ge" title="Same geographic extent">GE</span>&nbsp;<span class="label label-info icon icon-ps" title="Same primary sector">PS</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10184.html">Support system for classification of citizen inquiries or complaints</a></td>
+<td>10%</td>      
+<td><span class="label label-info icon icon-ge" title="Same geographic extent">GE</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10191.html">IMMS (Intelligent Material Management System) for the entire library collection.</a></td>
+<td>10%</td>      
+<td><span class="label label-info icon icon-ge" title="Same geographic extent">GE</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10192.html">NeRo Chatbot - Chatbot for clients of maternity services</a></td>
+<td>10%</td>      
+<td><span class="label label-info icon icon-ge" title="Same geographic extent">GE</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10199.html">Kranj Digital Twin - Representation of the city digitally</a></td>
+<td>10%</td>      
+<td><span class="label label-info icon icon-ge" title="Same geographic extent">GE</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10204.html">Prediction of exacerbation of COPD and heart failure patients</a></td>
+<td>10%</td>      
+<td><span class="label label-info icon icon-ge" title="Same geographic extent">GE</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10205.html">Artificial Intelligence for faster and better diagnosis of emergency patients</a></td>
+<td>10%</td>      
+<td><span class="label label-info icon icon-ge" title="Same geographic extent">GE</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10206.html">Artificial Intelligence in general practice</a></td>
+<td>10%</td>      
+<td><span class="label label-info icon icon-ge" title="Same geographic extent">GE</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10207.html">Real-time predictions and essential information for clinicians</a></td>
+<td>10%</td>      
+<td><span class="label label-info icon icon-ge" title="Same geographic extent">GE</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10208.html">Better diagnosis of prostate cancer</a></td>
+<td>10%</td>      
+<td><span class="label label-info icon icon-ge" title="Same geographic extent">GE</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10209.html">Artificial Intelligence for better planning of cancer treatments</a></td>
+<td>10%</td>      
+<td><span class="label label-info icon icon-ge" title="Same geographic extent">GE</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10210.html">Artificial Intelligence to prevent complications after bowel cancer surgery</a></td>
+<td>10%</td>      
+<td><span class="label label-info icon icon-ge" title="Same geographic extent">GE</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10211.html">Reduction of radiation dose in relation to scans used in cancer treatment</a></td>
+<td>10%</td>      
+<td><span class="label label-info icon icon-ge" title="Same geographic extent">GE</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10212.html">Intelligent rehabilitation and targeted healthcare services for citizens</a></td>
+<td>10%</td>      
+<td><span class="label label-info icon icon-ge" title="Same geographic extent">GE</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10213.html">Faster case processing when granting cleaning services using new technology</a></td>
+<td>10%</td>      
+<td><span class="label label-info icon icon-ge" title="Same geographic extent">GE</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10214.html">Intelligent sorting and filing of mail to provide citizens with faster case processing</a></td>
+<td>10%</td>      
+<td><span class="label label-info icon icon-ge" title="Same geographic extent">GE</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10215.html">Shorter response time to construction applications and help submitting correct documents</a></td>
+<td>10%</td>      
+<td><span class="label label-info icon icon-ge" title="Same geographic extent">GE</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10216.html">Correct and uniform case management when sanctioning unemployed citizens</a></td>
+<td>10%</td>      
+<td><span class="label label-info icon icon-ge" title="Same geographic extent">GE</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10217.html">Targeted employment programmes for unemployed citizens</a></td>
+<td>10%</td>      
+<td><span class="label label-info icon icon-ge" title="Same geographic extent">GE</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10218.html">Better match between unemployed citizens and companies</a></td>
+<td>10%</td>      
+<td><span class="label label-info icon icon-ge" title="Same geographic extent">GE</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10223.html">ALTRUIS - Alternative Use of Imaging Systems through Artificial Intelligence</a></td>
+<td>10%</td>      
+<td><span class="label label-info icon icon-ge" title="Same geographic extent">GE</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10226.html">Smart Personalization of the cultural offer in Antwerp Testing (SOCRATES)</a></td>
+<td>10%</td>      
+<td><span class="label label-info icon icon-ge" title="Same geographic extent">GE</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10231.html">Naamsestraat - Reduce night noise through technology and nudging</a></td>
+<td>10%</td>      
+<td><span class="label label-info icon icon-ge" title="Same geographic extent">GE</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10248.html">Marakratt - Personal learning path infrastructure</a></td>
+<td>20%</td>      
+<td><span class="label label-info icon icon-ps" title="Same primary sector">PS</span>&nbsp;<span class="label label-info icon icon-ac" title="Same activity">AC</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10264.html">Predicting Heat Energy Consumption</a></td>
+<td>10%</td>      
+<td><span class="label label-info icon icon-ge" title="Same geographic extent">GE</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10281.html">Safe Spotter - AI platform to detect and transmit data of an accident</a></td>
+<td>10%</td>      
+<td><span class="label label-info icon icon-ge" title="Same geographic extent">GE</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10296.html">3D scan underground infrastructure - Prevention damage of critical infrastructure</a></td>
+<td>10%</td>      
+<td><span class="label label-info icon icon-ge" title="Same geographic extent">GE</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10297.html">8TING - Analysis of drivers to keep people in class</a></td>
+<td>20%</td>      
+<td><span class="label label-info icon icon-ge" title="Same geographic extent">GE</span>&nbsp;<span class="label label-info icon icon-ps" title="Same primary sector">PS</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10300.html">AI for public space notifications - Image recognition to analyse reports</a></td>
+<td>10%</td>      
+<td><span class="label label-info icon icon-ge" title="Same geographic extent">GE</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10303.html">AI machine learning supervised - Delivering learning reports</a></td>
+<td>20%</td>      
+<td><span class="label label-info icon icon-ps" title="Same primary sector">PS</span>&nbsp;<span class="label label-info icon icon-ac" title="Same activity">AC</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10308.html">Anti-cheat software for exams</a></td>
+<td>20%</td>      
+<td><span class="label label-info icon icon-ge" title="Same geographic extent">GE</span>&nbsp;<span class="label label-info icon icon-ps" title="Same primary sector">PS</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10312.html">Prediction of young people engagement in undesirable behaviour (Pilot Apeldoorn Youth)</a></td>
+<td>10%</td>      
+<td><span class="label label-info icon icon-ge" title="Same geographic extent">GE</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10315.html">Brid.ge</a></td>
+<td>10%</td>      
+<td><span class="label label-info icon icon-ge" title="Same geographic extent">GE</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10319.html">CrossWalk in Smart City Rijswijk</a></td>
+<td>10%</td>      
+<td><span class="label label-info icon icon-ge" title="Same geographic extent">GE</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10320.html">Improve data quality with AI - Machine learning to improve the data quality of registrations</a></td>
+<td>10%</td>      
+<td><span class="label label-info icon icon-ge" title="Same geographic extent">GE</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10321.html">the Refinery</a></td>
+<td>10%</td>      
+<td><span class="label label-info icon icon-ge" title="Same geographic extent">GE</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10324.html">Firework nuisance detection system - AI to determine if bangs are firework</a></td>
+<td>10%</td>      
+<td><span class="label label-info icon icon-ge" title="Same geographic extent">GE</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10325.html">Diagnosis Plan and Control Tool - Assessing the risk of home fraud</a></td>
+<td>10%</td>      
+<td><span class="label label-info icon icon-ge" title="Same geographic extent">GE</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10330.html">FlowCube - a picture of the traffic of cyclists, vehicles and pedestrians</a></td>
+<td>10%</td>      
+<td><span class="label label-info icon icon-ge" title="Same geographic extent">GE</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10332.html">Geniq -  reports wait times</a></td>
+<td>10%</td>      
+<td><span class="label label-info icon icon-ge" title="Same geographic extent">GE</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10337.html">HKV Eye - Line in Water</a></td>
+<td>10%</td>      
+<td><span class="label label-info icon icon-ge" title="Same geographic extent">GE</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10338.html">Identifying people at risk of falling into large debts</a></td>
+<td>10%</td>      
+<td><span class="label label-info icon icon-ge" title="Same geographic extent">GE</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10342.html">Use of scan cars for underground containers - Determining type of waste</a></td>
+<td>10%</td>      
+<td><span class="label label-info icon icon-ge" title="Same geographic extent">GE</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10346.html">Using smart algorithms to map whether building or demolishing certain homes improves liveability</a></td>
+<td>10%</td>      
+<td><span class="label label-info icon icon-ge" title="Same geographic extent">GE</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10347.html">Tackling undermining using AI</a></td>
+<td>10%</td>      
+<td><span class="label label-info icon icon-ge" title="Same geographic extent">GE</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10348.html">Detecting 'unknown' companies with environmental risk</a></td>
+<td>10%</td>      
+<td><span class="label label-info icon icon-ge" title="Same geographic extent">GE</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10349.html">Detecting welfare fraud - Prediction of the likelihood of unlawful behavior</a></td>
+<td>10%</td>      
+<td><span class="label label-info icon icon-ge" title="Same geographic extent">GE</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10350.html">Detecting welfare fraud in the municipality of Deventer and Goirle</a></td>
+<td>10%</td>      
+<td><span class="label label-info icon icon-ge" title="Same geographic extent">GE</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10351.html">Detection of crime and subversion</a></td>
+<td>10%</td>      
+<td><span class="label label-info icon icon-ge" title="Same geographic extent">GE</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10352.html">Detection of crime and subversion in the municipality of Dronten</a></td>
+<td>10%</td>      
+<td><span class="label label-info icon icon-ge" title="Same geographic extent">GE</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10353.html">Detection of crime and subversion in the municipality of Maastricht</a></td>
+<td>10%</td>      
+<td><span class="label label-info icon icon-ge" title="Same geographic extent">GE</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10354.html">Detection of crime and subversion in the municipality of Nederweert</a></td>
+<td>10%</td>      
+<td><span class="label label-info icon icon-ge" title="Same geographic extent">GE</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10355.html">Parking control in various Dutch municipalities - Parking control by means of scan cars</a></td>
+<td>10%</td>      
+<td><span class="label label-info icon icon-ge" title="Same geographic extent">GE</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10356.html">Passer-by count</a></td>
+<td>10%</td>      
+<td><span class="label label-info icon icon-ge" title="Same geographic extent">GE</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10357.html">Analyzing data to help people on welfare get back to work for Social Assistance in The Hague</a></td>
+<td>10%</td>      
+<td><span class="label label-info icon icon-ge" title="Same geographic extent">GE</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10359.html">Pilot Youth Policy Rotterdam - Influencing factors socio-emotional development of young people</a></td>
+<td>10%</td>      
+<td><span class="label label-info icon icon-ge" title="Same geographic extent">GE</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10361.html">VIALIS Real-time incident detection</a></td>
+<td>10%</td>      
+<td><span class="label label-info icon icon-ge" title="Same geographic extent">GE</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10362.html">Rain radar Rijnmond - Prediction of rain to prevent flooding and damage</a></td>
+<td>10%</td>      
+<td><span class="label label-info icon icon-ge" title="Same geographic extent">GE</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10365.html">Scan car for checking group formation and complying with corona measures</a></td>
+<td>10%</td>      
+<td><span class="label label-info icon icon-ge" title="Same geographic extent">GE</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10366.html">Sia - Online notification system of the municipality of Amsterdam</a></td>
+<td>10%</td>      
+<td><span class="label label-info icon icon-ge" title="Same geographic extent">GE</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10370.html">Smart lampposts for combating burglaries - Detection of suspicious movements and audio</a></td>
+<td>10%</td>      
+<td><span class="label label-info icon icon-ge" title="Same geographic extent">GE</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10371.html">Smart sensor waste containers</a></td>
+<td>10%</td>      
+<td><span class="label label-info icon icon-ge" title="Same geographic extent">GE</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10372.html">Amsterdam City Archive - Handwritten Text Recognition for eabling searches on old handwritten texts</a></td>
+<td>10%</td>      
+<td><span class="label label-info icon icon-ge" title="Same geographic extent">GE</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10376.html">Road safety model The Hague - Providing a risk score for all road sections and intersections</a></td>
+<td>10%</td>      
+<td><span class="label label-info icon icon-ge" title="Same geographic extent">GE</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10377.html">Road safety model Rotterdam - Predictive model for road accidents</a></td>
+<td>10%</td>      
+<td><span class="label label-info icon icon-ge" title="Same geographic extent">GE</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10380.html">Viralcom Egg - accidents in the water</a></td>
+<td>10%</td>      
+<td><span class="label label-info icon icon-ge" title="Same geographic extent">GE</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10381.html">Predict which residents have a higher risk of care or debt problems (SyRI)</a></td>
+<td>10%</td>      
+<td><span class="label label-info icon icon-ge" title="Same geographic extent">GE</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10382.html">Early school leavers in the municipality of Amersfoort - Estimation of students at risk</a></td>
+<td>20%</td>      
+<td><span class="label label-info icon icon-ge" title="Same geographic extent">GE</span>&nbsp;<span class="label label-info icon icon-ps" title="Same primary sector">PS</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10383.html">Wabo assistant - Automated environmental permits</a></td>
+<td>10%</td>      
+<td><span class="label label-info icon icon-ge" title="Same geographic extent">GE</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10384.html">Water fields - purification system for rainwater</a></td>
+<td>10%</td>      
+<td><span class="label label-info icon icon-ge" title="Same geographic extent">GE</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10385.html">Water management SR - Predicting of water levels</a></td>
+<td>10%</td>      
+<td><span class="label label-info icon icon-ge" title="Same geographic extent">GE</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10386.html">WIL Leak Current - Discover abuse and improper use of benefits</a></td>
+<td>10%</td>      
+<td><span class="label label-info icon icon-ge" title="Same geographic extent">GE</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10388.html">W(e). Service.Heerlen (WESH)</a></td>
+<td>10%</td>      
+<td><span class="label label-info icon icon-ge" title="Same geographic extent">GE</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10389.html">Poverty prevention - Identification of poverty and debt early</a></td>
+<td>10%</td>      
+<td><span class="label label-info icon icon-ge" title="Same geographic extent">GE</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10390.html">INZNAK Project - Intelligent road signs for adaptive vehicle traffic control</a></td>
+<td>10%</td>      
+<td><span class="label label-info icon icon-ge" title="Same geographic extent">GE</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10391.html">Virtual Clerk - Assistance with search for information</a></td>
+<td>10%</td>      
+<td><span class="label label-info icon icon-ge" title="Same geographic extent">GE</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10392.html">Intelligent Management Systems</a></td>
+<td>10%</td>      
+<td><span class="label label-info icon icon-ge" title="Same geographic extent">GE</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10393.html">The use of game theory in the process of modeling the development of smart city</a></td>
+<td>10%</td>      
+<td><span class="label label-info icon icon-ge" title="Same geographic extent">GE</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10394.html">Monitoring of a Water Treatment Station</a></td>
+<td>10%</td>      
+<td><span class="label label-info icon icon-ge" title="Same geographic extent">GE</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10395.html">Intelligent water and sewage network management system</a></td>
+<td>10%</td>      
+<td><span class="label label-info icon icon-ge" title="Same geographic extent">GE</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10396.html">Lupine Intelligent lighting system</a></td>
+<td>10%</td>      
+<td><span class="label label-info icon icon-ge" title="Same geographic extent">GE</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10397.html">Development of the Electronic Flood Warning System</a></td>
+<td>10%</td>      
+<td><span class="label label-info icon icon-ge" title="Same geographic extent">GE</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10398.html">Gliwice & Poznan Integrated Public Transport Management System - ITS</a></td>
+<td>10%</td>      
+<td><span class="label label-info icon icon-ge" title="Same geographic extent">GE</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10399.html">Cracow Virtual Clerk</a></td>
+<td>10%</td>      
+<td><span class="label label-info icon icon-ge" title="Same geographic extent">GE</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10400.html">AI-based timetables</a></td>
+<td>10%</td>      
+<td><span class="label label-info icon icon-ge" title="Same geographic extent">GE</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10401.html">Poznan: Improving the flow of electric bus traffic</a></td>
+<td>10%</td>      
+<td><span class="label label-info icon icon-ge" title="Same geographic extent">GE</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10402.html">Ioom Intelligent lighting system</a></td>
+<td>10%</td>      
+<td><span class="label label-info icon icon-ge" title="Same geographic extent">GE</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10403.html">Smart lighting in urban space</a></td>
+<td>10%</td>      
+<td><span class="label label-info icon icon-ge" title="Same geographic extent">GE</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10404.html">Wroclaw Intelligent lighting system</a></td>
+<td>10%</td>      
+<td><span class="label label-info icon icon-ge" title="Same geographic extent">GE</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10405.html">Wroclaw Intelligent parking system</a></td>
+<td>10%</td>      
+<td><span class="label label-info icon icon-ge" title="Same geographic extent">GE</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10406.html">Resident's Virtual Advisor</a></td>
+<td>10%</td>      
+<td><span class="label label-info icon icon-ge" title="Same geographic extent">GE</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10407.html">Katowice Intelligent Monitoring and Analysis System (KISMiA)</a></td>
+<td>10%</td>      
+<td><span class="label label-info icon icon-ge" title="Same geographic extent">GE</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10408.html">Integrated Public Transport Management System - ITS</a></td>
+<td>10%</td>      
+<td><span class="label label-info icon icon-ge" title="Same geographic extent">GE</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10409.html">Chojnice Virtual clerk</a></td>
+<td>10%</td>      
+<td><span class="label label-info icon icon-ge" title="Same geographic extent">GE</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10410.html">Introduction of autonomous electric vehicles for urban transport</a></td>
+<td>10%</td>      
+<td><span class="label label-info icon icon-ge" title="Same geographic extent">GE</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10411.html">Chatbot SAM - Virtual Community Assistant</a></td>
+<td>10%</td>      
+<td><span class="label label-info icon icon-ge" title="Same geographic extent">GE</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10412.html">Kąty Wrocławskie Virtual clerk</a></td>
+<td>10%</td>      
+<td><span class="label label-info icon icon-ge" title="Same geographic extent">GE</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10413.html">iVoting - a cyberdemocracy tool</a></td>
+<td>10%</td>      
+<td><span class="label label-info icon icon-ge" title="Same geographic extent">GE</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10419.html">Smart video surveillance by the local police: Briefcam</a></td>
+<td>10%</td>      
+<td><span class="label label-info icon icon-ge" title="Same geographic extent">GE</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10420.html">Algorithmic school registrations</a></td>
+<td>20%</td>      
+<td><span class="label label-info icon icon-ge" title="Same geographic extent">GE</span>&nbsp;<span class="label label-info icon icon-ps" title="Same primary sector">PS</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10423.html">Exam control in schools: fighting fraud or profiling students?</a></td>
+<td>10%</td>      
+<td><span class="label label-info icon icon-ps" title="Same primary sector">PS</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10430.html">Face recognition at schools - Face recognition at the building’s entrance</a></td>
+<td>20%</td>      
+<td><span class="label label-info icon icon-ge" title="Same geographic extent">GE</span>&nbsp;<span class="label label-info icon icon-ps" title="Same primary sector">PS</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10431.html">Suspicious sound detection Saint-Étienne</a></td>
+<td>10%</td>      
+<td><span class="label label-info icon icon-ge" title="Same geographic extent">GE</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10438.html">JUS-IT -  Child Care Service</a></td>
+<td>10%</td>      
+<td><span class="label label-info icon icon-ge" title="Same geographic extent">GE</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10440.html">DyRiAS threat levels of abusive male partners</a></td>
+<td>10%</td>      
+<td><span class="label label-info icon icon-ge" title="Same geographic extent">GE</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10443.html">AVINT Trikala - Integration of a line of automated buses</a></td>
+<td>10%</td>      
+<td><span class="label label-info icon icon-ge" title="Same geographic extent">GE</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10447.html">Predicting chronic pathologies and post-surgery complications</a></td>
+<td>10%</td>      
+<td><span class="label label-info icon icon-ge" title="Same geographic extent">GE</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10450.html">KeyCrime software -  Finding relationships among serial crimes</a></td>
+<td>10%</td>      
+<td><span class="label label-info icon icon-ge" title="Same geographic extent">GE</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10453.html">Proof of life recognition - Audio or video recognition</a></td>
+<td>10%</td>      
+<td><span class="label label-info icon icon-ge" title="Same geographic extent">GE</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10456.html">Detect early learning problems in primary schools (METS)</a></td>
+<td>10%</td>      
+<td><span class="label label-info icon icon-ps" title="Same primary sector">PS</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10458.html">Yasmine - Robot employee</a></td>
+<td>10%</td>      
+<td><span class="label label-info icon icon-ge" title="Same geographic extent">GE</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10459.html">Fall-Screening-Tool FaST - Assisting risk-oriented sanctioning</a></td>
+<td>10%</td>      
+<td><span class="label label-info icon icon-gc" title="Overlapping geographic coverage">GC</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10462.html">Financial Assistance Automation</a></td>
+<td>10%</td>      
+<td><span class="label label-info icon icon-ge" title="Same geographic extent">GE</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10463.html">Automated processes Uddevalla - AI to internal processes</a></td>
+<td>10%</td>      
+<td><span class="label label-info icon icon-ge" title="Same geographic extent">GE</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10464.html">RPA in Södertälje - Automation of internal services</a></td>
+<td>10%</td>      
+<td><span class="label label-info icon icon-ge" title="Same geographic extent">GE</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10465.html">Machine Learning SoSi (ML_SoSi)</a></td>
+<td>10%</td>      
+<td><span class="label label-info icon icon-gc" title="Overlapping geographic coverage">GC</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10466.html">Plausibility check with machine learning - Expanding plausability checks</a></td>
+<td>10%</td>      
+<td><span class="label label-info icon icon-gc" title="Overlapping geographic coverage">GC</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10467.html">MedicalGuide . Canton Aargau</a></td>
+<td>20%</td>      
+<td><span class="label label-info icon icon-ge" title="Same geographic extent">GE</span>&nbsp;<span class="label label-info icon icon-gc" title="Overlapping geographic coverage">GC</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10468.html">Manchester’s Research & Intelligence Database - Identifying troubled families</a></td>
+<td>10%</td>      
+<td><span class="label label-info icon icon-ge" title="Same geographic extent">GE</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10475.html">MATHISIS H2020 - Italian Pilot (MIUR)</a></td>
+<td>10%</td>      
+<td><span class="label label-info icon icon-ps" title="Same primary sector">PS</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10486.html">Understanding the determinants of academic performance from Portuguese secondary education system</a></td>
+<td>10%</td>      
+<td><span class="label label-info icon icon-ps" title="Same primary sector">PS</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10487.html">Modeling student flow in the Portuguese education system</a></td>
+<td>10%</td>      
+<td><span class="label label-info icon icon-ps" title="Same primary sector">PS</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10488.html">HEALTHI.CO: Factors for promoting dialogue and healthy behaviors in online school communities.</a></td>
+<td>10%</td>      
+<td><span class="label label-info icon icon-ps" title="Same primary sector">PS</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10490.html">CDAP@UP (Predictive Analysis to Promote Student Success and Fight School Dropout)</a></td>
+<td>10%</td>      
+<td><span class="label label-info icon icon-ps" title="Same primary sector">PS</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10491.html">P.IA.ES - Modeling and prediction of failure and school dropout in Higher Education</a></td>
+<td>10%</td>      
+<td><span class="label label-info icon icon-ps" title="Same primary sector">PS</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10524.html">SegnalaCI - Transparent management of citizen reports about City status</a></td>
+<td>10%</td>      
+<td><span class="label label-info icon icon-ge" title="Same geographic extent">GE</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10525.html">Brain4it : monitoring the SmartCity</a></td>
+<td>10%</td>      
+<td><span class="label label-info icon icon-ge" title="Same geographic extent">GE</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10554.html">REDOC - Digital Tutor to make easier learning the STEM subject</a></td>
+<td>10%</td>      
+<td><span class="label label-info icon icon-ps" title="Same primary sector">PS</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10560.html">MPAI Community: Moving Picture, Audio and Data Coding by Artificial Intelligence (MPAI)</a></td>
+<td>10%</td>      
+<td><span class="label label-info icon icon-gc" title="Overlapping geographic coverage">GC</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10565.html">Respondus:  assessment software for remote management of students (university)</a></td>
+<td>10%</td>      
+<td><span class="label label-info icon icon-ps" title="Same primary sector">PS</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10576.html">Sentilo BCN - Plataforma de Sensors i Actuadors de Barcelona</a></td>
+<td>10%</td>      
+<td><span class="label label-info icon icon-ge" title="Same geographic extent">GE</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10593.html">Automated Public Services in Trelleborg, Sweden</a></td>
+<td>10%</td>      
+<td><span class="label label-info icon icon-ge" title="Same geographic extent">GE</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10596.html">Automated parking control</a></td>
+<td>10%</td>      
+<td><span class="label label-info icon icon-ge" title="Same geographic extent">GE</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10597.html">Holiday rental housing fraud risk</a></td>
+<td>10%</td>      
+<td><span class="label label-info icon icon-ge" title="Same geographic extent">GE</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10598.html">Reporting issues in public space</a></td>
+<td>10%</td>      
+<td><span class="label label-info icon icon-ge" title="Same geographic extent">GE</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10599.html">Parking chatbot</a></td>
+<td>10%</td>      
+<td><span class="label label-info icon icon-ge" title="Same geographic extent">GE</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10600.html">Health center chatbot</a></td>
+<td>10%</td>      
+<td><span class="label label-info icon icon-ge" title="Same geographic extent">GE</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10601.html">Oodi's book recommendation service Obotti</a></td>
+<td>10%</td>      
+<td><span class="label label-info icon icon-ge" title="Same geographic extent">GE</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10602.html">ChatBot Botty Bonn</a></td>
+<td>10%</td>      
+<td><span class="label label-info icon icon-ge" title="Same geographic extent">GE</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10604.html">Bobbi -  Berlin administration</a></td>
+<td>10%</td>      
+<td><span class="label label-info icon icon-ge" title="Same geographic extent">GE</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10629.html">Management of the emergency at Hospital Gemelli - Rome</a></td>
+<td>10%</td>      
+<td><span class="label label-info icon icon-ge" title="Same geographic extent">GE</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10630.html">Artificial intelligence and video surveillance to control the distance at the airport</a></td>
+<td>10%</td>      
+<td><span class="label label-info icon icon-ge" title="Same geographic extent">GE</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10631.html">Met police deploy live facial recognition technology</a></td>
+<td>10%</td>      
+<td><span class="label label-info icon icon-ge" title="Same geographic extent">GE</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10638.html">Whatsapp InfoCenter City of Milan (020202)</a></td>
+<td>10%</td>      
+<td><span class="label label-info icon icon-ge" title="Same geographic extent">GE</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10639.html">A unique artificial intelligence system now directs Ülemiste City drivers to available parking spots</a></td>
+<td>10%</td>      
+<td><span class="label label-info icon icon-ge" title="Same geographic extent">GE</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10641.html">“Connected” robots in Turin hospitals</a></td>
+<td>10%</td>      
+<td><span class="label label-info icon icon-ge" title="Same geographic extent">GE</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10643.html">Frag-den-Michel! Innovativer Online-Bürgerservice in Betrieb</a></td>
+<td>10%</td>      
+<td><span class="label label-info icon icon-ge" title="Same geographic extent">GE</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10644.html">Municipality Welcome Manager (L2B2 Service Robot) in Ludwigsburg</a></td>
+<td>10%</td>      
+<td><span class="label label-info icon icon-ge" title="Same geographic extent">GE</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10647.html">Swedish municipality deploys robots for safer recruitment</a></td>
+<td>10%</td>      
+<td><span class="label label-info icon icon-ge" title="Same geographic extent">GE</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10649.html">London Police Facial Recognition System</a></td>
+<td>10%</td>      
+<td><span class="label label-info icon icon-ge" title="Same geographic extent">GE</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10650.html">The Municipality of Oslo explores chatbots to respond to citizen requests</a></td>
+<td>10%</td>      
+<td><span class="label label-info icon icon-ge" title="Same geographic extent">GE</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10651.html">CITY OF VIENNA Chatbot</a></td>
+<td>10%</td>      
+<td><span class="label label-info icon icon-ge" title="Same geographic extent">GE</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10652.html">London TravelBot</a></td>
+<td>10%</td>      
+<td><span class="label label-info icon icon-ge" title="Same geographic extent">GE</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10655.html">HELSINKI Robot Buses</a></td>
+<td>10%</td>      
+<td><span class="label label-info icon icon-ge" title="Same geographic extent">GE</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10658.html">University La Sapienza launches the first voice "assistant":  Infostud-Watson</a></td>
+<td>10%</td>      
+<td><span class="label label-info icon icon-ge" title="Same geographic extent">GE</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10660.html">Artificial intelligence: high technology and innovation to make life easier for citizens</a></td>
+<td>10%</td>      
+<td><span class="label label-info icon icon-ge" title="Same geographic extent">GE</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10662.html">Caterina, the first (virtual) municipal employee for identity cards and changes of residence</a></td>
+<td>10%</td>      
+<td><span class="label label-info icon icon-ge" title="Same geographic extent">GE</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10664.html">Bees help to bring cleaner air to Madrid metro</a></td>
+<td>10%</td>      
+<td><span class="label label-info icon icon-ge" title="Same geographic extent">GE</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10675.html">Creating an AI-driven mobile virtual assistant and common public services platform</a></td>
+<td>10%</td>      
+<td><span class="label label-info icon icon-ge" title="Same geographic extent">GE</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10677.html">Computer vision e-scooter technology to be trialled in UK city</a></td>
+<td>10%</td>      
+<td><span class="label label-info icon icon-ge" title="Same geographic extent">GE</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10681.html">Chatbot Comune di Collegno (TO)</a></td>
+<td>10%</td>      
+<td><span class="label label-info icon icon-ge" title="Same geographic extent">GE</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10684.html">Belgian city uses artificial intelligence to tackle noise pollution</a></td>
+<td>10%</td>      
+<td><span class="label label-info icon icon-ge" title="Same geographic extent">GE</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10686.html">TrueBee (Digital forensics and blockchain technology against deceptive deepfake imaging in social media)</a></td>
+<td>30%</td>      
+<td><span class="label label-info icon icon-it" title="Same technology">IT</span>&nbsp;<span class="label label-info icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="label label-info icon icon-cb" title="Same cross-border applicability">CB</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10687.html">Nidi Gratis: Public Service for Free Nursery</a></td>
+<td>30%</td>      
+<td><span class="label label-info icon icon-it" title="Same technology">IT</span>&nbsp;<span class="label label-info icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="label label-info icon icon-cb" title="Same cross-border applicability">CB</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10688.html">Lombardia supply chain traceability system</a></td>
+<td>30%</td>      
+<td><span class="label label-info icon icon-it" title="Same technology">IT</span>&nbsp;<span class="label label-info icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="label label-info icon icon-cb" title="Same cross-border applicability">CB</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10689.html">Project PININ: agri-food products tracking throughout the whole supply chain</a></td>
+<td>30%</td>      
+<td><span class="label label-info icon icon-it" title="Same technology">IT</span>&nbsp;<span class="label label-info icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="label label-info icon icon-cb" title="Same cross-border applicability">CB</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10690.html">BLINC: BLockchain INclusive for digital Citizenships</a></td>
+<td>30%</td>      
+<td><span class="label label-info icon icon-it" title="Same technology">IT</span>&nbsp;<span class="label label-info icon icon-cb" title="Same cross-border applicability">CB</span>&nbsp;<span class="label label-info icon icon-st" title="Same service type">ST</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10691.html">Blockcerts academic credentials</a></td>
+<td>40%</td>      
+<td><span class="label label-info icon icon-it" title="Same technology">IT</span>&nbsp;<span class="label label-info icon icon-ps" title="Same primary sector">PS</span>&nbsp;<span class="label label-info icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="label label-info icon icon-st" title="Same service type">ST</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10692.html">The Land Registry in the blockchain - testbed</a></td>
+<td>30%</td>      
+<td><span class="label label-info icon icon-it" title="Same technology">IT</span>&nbsp;<span class="label label-info icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="label label-info icon icon-cb" title="Same cross-border applicability">CB</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10693.html">uPort decentralised identity</a></td>
+<td>40%</td>      
+<td><span class="label label-info icon icon-it" title="Same technology">IT</span>&nbsp;<span class="label label-info icon icon-ge" title="Same geographic extent">GE</span>&nbsp;<span class="label label-info icon icon-gc" title="Overlapping geographic coverage">GC</span>&nbsp;<span class="label label-info icon icon-cb" title="Same cross-border applicability">CB</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10694.html">Infrachain governance framework</a></td>
+<td>20%</td>      
+<td><span class="label label-info icon icon-it" title="Same technology">IT</span>&nbsp;<span class="label label-info icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10695.html">Pension infrastructure</a></td>
+<td>30%</td>      
+<td><span class="label label-info icon icon-it" title="Same technology">IT</span>&nbsp;<span class="label label-info icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="label label-info icon icon-cb" title="Same cross-border applicability">CB</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10696.html">Stadjerspas smart vouchers</a></td>
+<td>30%</td>      
+<td><span class="label label-info icon icon-it" title="Same technology">IT</span>&nbsp;<span class="label label-info icon icon-ge" title="Same geographic extent">GE</span>&nbsp;<span class="label label-info icon icon-cb" title="Same cross-border applicability">CB</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10697.html">Blockchain pilot - Open Data notarization & change protocol</a></td>
+<td>40%</td>      
+<td><span class="label label-info icon icon-it" title="Same technology">IT</span>&nbsp;<span class="label label-info icon icon-ge" title="Same geographic extent">GE</span>&nbsp;<span class="label label-info icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="label label-info icon icon-cb" title="Same cross-border applicability">CB</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10698.html">Blockchain pilot - Digital food voucher</a></td>
+<td>40%</td>      
+<td><span class="label label-info icon icon-it" title="Same technology">IT</span>&nbsp;<span class="label label-info icon icon-ge" title="Same geographic extent">GE</span>&nbsp;<span class="label label-info icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="label label-info icon icon-cb" title="Same cross-border applicability">CB</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10699.html">Austrian Federal Government's Finance Agency, Oesterreichische Kontrollbank</a></td>
+<td>30%</td>      
+<td><span class="label label-info icon icon-it" title="Same technology">IT</span>&nbsp;<span class="label label-info icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="label label-info icon icon-cb" title="Same cross-border applicability">CB</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10700.html">BeSure - Demonstrability Service</a></td>
+<td>40%</td>      
+<td><span class="label label-info icon icon-it" title="Same technology">IT</span>&nbsp;<span class="label label-info icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="label label-info icon icon-cb" title="Same cross-border applicability">CB</span>&nbsp;<span class="label label-info icon icon-st" title="Same service type">ST</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10701.html">FlowBikes</a></td>
+<td>30%</td>      
+<td><span class="label label-info icon icon-it" title="Same technology">IT</span>&nbsp;<span class="label label-info icon icon-ge" title="Same geographic extent">GE</span>&nbsp;<span class="label label-info icon icon-cb" title="Same cross-border applicability">CB</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10702.html">A digital talent profile for maximum development</a></td>
+<td>60%</td>      
+<td><span class="label label-info icon icon-it" title="Same technology">IT</span>&nbsp;<span class="label label-info icon icon-ge" title="Same geographic extent">GE</span>&nbsp;<span class="label label-info icon icon-ps" title="Same primary sector">PS</span>&nbsp;<span class="label label-info icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="label label-info icon icon-cb" title="Same cross-border applicability">CB</span>&nbsp;<span class="label label-info icon icon-st" title="Same service type">ST</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10703.html">Privacy engine Antwerp City Platform as a Service</a></td>
+<td>50%</td>      
+<td><span class="label label-info icon icon-it" title="Same technology">IT</span>&nbsp;<span class="label label-info icon icon-ge" title="Same geographic extent">GE</span>&nbsp;<span class="label label-info icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="label label-info icon icon-cb" title="Same cross-border applicability">CB</span>&nbsp;<span class="label label-info icon icon-st" title="Same service type">ST</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10704.html">i-Voting</a></td>
+<td>30%</td>      
+<td><span class="label label-info icon icon-it" title="Same technology">IT</span>&nbsp;<span class="label label-info icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="label label-info icon icon-cb" title="Same cross-border applicability">CB</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10705.html">Health Records</a></td>
+<td>30%</td>      
+<td><span class="label label-info icon icon-it" title="Same technology">IT</span>&nbsp;<span class="label label-info icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="label label-info icon icon-cb" title="Same cross-border applicability">CB</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10706.html">Blockchain-based Keyless Signature Infrastructure (KSI)</a></td>
+<td>40%</td>      
+<td><span class="label label-info icon icon-it" title="Same technology">IT</span>&nbsp;<span class="label label-info icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="label label-info icon icon-cb" title="Same cross-border applicability">CB</span>&nbsp;<span class="label label-info icon icon-st" title="Same service type">ST</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10707.html">Blockchain as Digital Enabler for the European Federalism in the Asylum Context</a></td>
+<td>20%</td>      
+<td><span class="label label-info icon icon-it" title="Same technology">IT</span>&nbsp;<span class="label label-info icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10708.html">Securing the Internet of Things</a></td>
+<td>30%</td>      
+<td><span class="label label-info icon icon-it" title="Same technology">IT</span>&nbsp;<span class="label label-info icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="label label-info icon icon-cb" title="Same cross-border applicability">CB</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10709.html">Digital Currency Business Register</a></td>
+<td>30%</td>      
+<td><span class="label label-info icon icon-it" title="Same technology">IT</span>&nbsp;<span class="label label-info icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="label label-info icon icon-cb" title="Same cross-border applicability">CB</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10710.html">Traceability of Italian food products</a></td>
+<td>30%</td>      
+<td><span class="label label-info icon icon-it" title="Same technology">IT</span>&nbsp;<span class="label label-info icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="label label-info icon icon-cb" title="Same cross-border applicability">CB</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10711.html">DOGANA 4.0: innovation in the Customs Management</a></td>
+<td>30%</td>      
+<td><span class="label label-info icon icon-it" title="Same technology">IT</span>&nbsp;<span class="label label-info icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="label label-info icon icon-cb" title="Same cross-border applicability">CB</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10712.html">Food fraud and falsification of Made in Italy</a></td>
+<td>30%</td>      
+<td><span class="label label-info icon icon-it" title="Same technology">IT</span>&nbsp;<span class="label label-info icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="label label-info icon icon-cb" title="Same cross-border applicability">CB</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10713.html">Decentralised Digital Identity Proof of Concept</a></td>
+<td>30%</td>      
+<td><span class="label label-info icon icon-it" title="Same technology">IT</span>&nbsp;<span class="label label-info icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="label label-info icon icon-cb" title="Same cross-border applicability">CB</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10714.html">Execution of a judicial decision of juvenile court</a></td>
+<td>30%</td>      
+<td><span class="label label-info icon icon-it" title="Same technology">IT</span>&nbsp;<span class="label label-info icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="label label-info icon icon-cb" title="Same cross-border applicability">CB</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10715.html">Toxic Waste Transport</a></td>
+<td>30%</td>      
+<td><span class="label label-info icon icon-it" title="Same technology">IT</span>&nbsp;<span class="label label-info icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="label label-info icon icon-cb" title="Same cross-border applicability">CB</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10716.html">Public Healthcare Benefits Subsidy</a></td>
+<td>30%</td>      
+<td><span class="label label-info icon icon-it" title="Same technology">IT</span>&nbsp;<span class="label label-info icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="label label-info icon icon-cb" title="Same cross-border applicability">CB</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10717.html">Healthcare Process Authorization</a></td>
+<td>30%</td>      
+<td><span class="label label-info icon icon-it" title="Same technology">IT</span>&nbsp;<span class="label label-info icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="label label-info icon icon-cb" title="Same cross-border applicability">CB</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10718.html">FlashCompany</a></td>
+<td>30%</td>      
+<td><span class="label label-info icon icon-it" title="Same technology">IT</span>&nbsp;<span class="label label-info icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="label label-info icon icon-cb" title="Same cross-border applicability">CB</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10719.html">Blockchain-based Land Registry</a></td>
+<td>30%</td>      
+<td><span class="label label-info icon icon-it" title="Same technology">IT</span>&nbsp;<span class="label label-info icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="label label-info icon icon-cb" title="Same cross-border applicability">CB</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10720.html">Truck Driver Tracking</a></td>
+<td>30%</td>      
+<td><span class="label label-info icon icon-it" title="Same technology">IT</span>&nbsp;<span class="label label-info icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="label label-info icon icon-cb" title="Same cross-border applicability">CB</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10721.html">Financing New School Buildings</a></td>
+<td>20%</td>      
+<td><span class="label label-info icon icon-it" title="Same technology">IT</span>&nbsp;<span class="label label-info icon icon-cb" title="Same cross-border applicability">CB</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10722.html">Electric Vehicle Subsidy Registry</a></td>
+<td>40%</td>      
+<td><span class="label label-info icon icon-it" title="Same technology">IT</span>&nbsp;<span class="label label-info icon icon-ge" title="Same geographic extent">GE</span>&nbsp;<span class="label label-info icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="label label-info icon icon-cb" title="Same cross-border applicability">CB</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10723.html">Medical Instrument Registration</a></td>
+<td>30%</td>      
+<td><span class="label label-info icon icon-it" title="Same technology">IT</span>&nbsp;<span class="label label-info icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="label label-info icon icon-cb" title="Same cross-border applicability">CB</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10724.html">Employment and Identity Fraud</a></td>
+<td>30%</td>      
+<td><span class="label label-info icon icon-it" title="Same technology">IT</span>&nbsp;<span class="label label-info icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="label label-info icon icon-cb" title="Same cross-border applicability">CB</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10725.html">Multi-stakeholder Financial Arrangements</a></td>
+<td>30%</td>      
+<td><span class="label label-info icon icon-it" title="Same technology">IT</span>&nbsp;<span class="label label-info icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="label label-info icon icon-cb" title="Same cross-border applicability">CB</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10726.html">Large Event Permitting</a></td>
+<td>40%</td>      
+<td><span class="label label-info icon icon-it" title="Same technology">IT</span>&nbsp;<span class="label label-info icon icon-ge" title="Same geographic extent">GE</span>&nbsp;<span class="label label-info icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="label label-info icon icon-cb" title="Same cross-border applicability">CB</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10727.html">Waste Sector Data Sharing</a></td>
+<td>40%</td>      
+<td><span class="label label-info icon icon-it" title="Same technology">IT</span>&nbsp;<span class="label label-info icon icon-ge" title="Same geographic extent">GE</span>&nbsp;<span class="label label-info icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="label label-info icon icon-cb" title="Same cross-border applicability">CB</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10728.html">Blockchain-based Digital Identity: Do-it-Yourself Marriage</a></td>
+<td>30%</td>      
+<td><span class="label label-info icon icon-it" title="Same technology">IT</span>&nbsp;<span class="label label-info icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="label label-info icon icon-cb" title="Same cross-border applicability">CB</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10729.html">Aid Subsidy Collection</a></td>
+<td>40%</td>      
+<td><span class="label label-info icon icon-it" title="Same technology">IT</span>&nbsp;<span class="label label-info icon icon-ge" title="Same geographic extent">GE</span>&nbsp;<span class="label label-info icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="label label-info icon icon-cb" title="Same cross-border applicability">CB</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10730.html">TrustForWills</a></td>
+<td>30%</td>      
+<td><span class="label label-info icon icon-it" title="Same technology">IT</span>&nbsp;<span class="label label-info icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="label label-info icon icon-cb" title="Same cross-border applicability">CB</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10731.html">Distributed Open Data Portal</a></td>
+<td>40%</td>      
+<td><span class="label label-info icon icon-it" title="Same technology">IT</span>&nbsp;<span class="label label-info icon icon-ge" title="Same geographic extent">GE</span>&nbsp;<span class="label label-info icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="label label-info icon icon-cb" title="Same cross-border applicability">CB</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10732.html">Decentralized Energy Trading Marketplace</a></td>
+<td>20%</td>      
+<td><span class="label label-info icon icon-it" title="Same technology">IT</span>&nbsp;<span class="label label-info icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10733.html">PROCIVIS e-Government Pilot Project</a></td>
+<td>40%</td>      
+<td><span class="label label-info icon icon-it" title="Same technology">IT</span>&nbsp;<span class="label label-info icon icon-gc" title="Overlapping geographic coverage">GC</span>&nbsp;<span class="label label-info icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="label label-info icon icon-cb" title="Same cross-border applicability">CB</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10734.html">City of Zug Blockchain Voting Trial</a></td>
+<td>50%</td>      
+<td><span class="label label-info icon icon-it" title="Same technology">IT</span>&nbsp;<span class="label label-info icon icon-ge" title="Same geographic extent">GE</span>&nbsp;<span class="label label-info icon icon-gc" title="Overlapping geographic coverage">GC</span>&nbsp;<span class="label label-info icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="label label-info icon icon-cb" title="Same cross-border applicability">CB</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10735.html">e-Auction 3.0</a></td>
+<td>30%</td>      
+<td><span class="label label-info icon icon-it" title="Same technology">IT</span>&nbsp;<span class="label label-info icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="label label-info icon icon-cb" title="Same cross-border applicability">CB</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10736.html">R3 Project Maison</a></td>
+<td>30%</td>      
+<td><span class="label label-info icon icon-it" title="Same technology">IT</span>&nbsp;<span class="label label-info icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="label label-info icon icon-cb" title="Same cross-border applicability">CB</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10737.html">GovCoin Proof of Concept</a></td>
+<td>30%</td>      
+<td><span class="label label-info icon icon-it" title="Same technology">IT</span>&nbsp;<span class="label label-info icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="label label-info icon icon-cb" title="Same cross-border applicability">CB</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10738.html">RMGÂ® The New Digital Gold Standard</a></td>
+<td>30%</td>      
+<td><span class="label label-info icon icon-it" title="Same technology">IT</span>&nbsp;<span class="label label-info icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="label label-info icon icon-cb" title="Same cross-border applicability">CB</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10739.html">Distributed Ledger-based Gross Settlement System</a></td>
+<td>30%</td>      
+<td><span class="label label-info icon icon-it" title="Same technology">IT</span>&nbsp;<span class="label label-info icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="label label-info icon icon-cb" title="Same cross-border applicability">CB</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10740.html">Food Standards Agency</a></td>
+<td>30%</td>      
+<td><span class="label label-info icon icon-it" title="Same technology">IT</span>&nbsp;<span class="label label-info icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="label label-info icon icon-cb" title="Same cross-border applicability">CB</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10741.html">Aragon General Directorate of Contracting, Blockchain Project</a></td>
+<td>30%</td>      
+<td><span class="label label-info icon icon-it" title="Same technology">IT</span>&nbsp;<span class="label label-info icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="label label-info icon icon-cb" title="Same cross-border applicability">CB</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10742.html">Basque Government Blockchain project</a></td>
+<td>40%</td>      
+<td><span class="label label-info icon icon-it" title="Same technology">IT</span>&nbsp;<span class="label label-info icon icon-ge" title="Same geographic extent">GE</span>&nbsp;<span class="label label-info icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="label label-info icon icon-cb" title="Same cross-border applicability">CB</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10743.html">V-ICT-OR Blockchain Project</a></td>
+<td>30%</td>      
+<td><span class="label label-info icon icon-it" title="Same technology">IT</span>&nbsp;<span class="label label-info icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="label label-info icon icon-cb" title="Same cross-border applicability">CB</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10744.html">Digipolis Antwerp, Smart procurement tool</a></td>
+<td>40%</td>      
+<td><span class="label label-info icon icon-it" title="Same technology">IT</span>&nbsp;<span class="label label-info icon icon-ge" title="Same geographic extent">GE</span>&nbsp;<span class="label label-info icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="label label-info icon icon-cb" title="Same cross-border applicability">CB</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10745.html">Malta Information Technology Agency (MITA),  Smart Public Contracts</a></td>
+<td>30%</td>      
+<td><span class="label label-info icon icon-it" title="Same technology">IT</span>&nbsp;<span class="label label-info icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="label label-info icon icon-cb" title="Same cross-border applicability">CB</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10746.html">Estonian Blockchain Technology</a></td>
+<td>20%</td>      
+<td><span class="label label-info icon icon-it" title="Same technology">IT</span>&nbsp;<span class="label label-info icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10747.html">Signaturit - The smartest e-Signature solution to send and sign documents on the go</a></td>
+<td>30%</td>      
+<td><span class="label label-info icon icon-it" title="Same technology">IT</span>&nbsp;<span class="label label-info icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="label label-info icon icon-st" title="Same service type">ST</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10748.html">Obrir Girona -  system of certifications of vaccinations and Covid19 tests</a></td>
+<td>50%</td>      
+<td><span class="label label-info icon icon-it" title="Same technology">IT</span>&nbsp;<span class="label label-info icon icon-ge" title="Same geographic extent">GE</span>&nbsp;<span class="label label-info icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="label label-info icon icon-cb" title="Same cross-border applicability">CB</span>&nbsp;<span class="label label-info icon icon-st" title="Same service type">ST</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10749.html">Blockchain for Taxes project</a></td>
+<td>20%</td>      
+<td><span class="label label-info icon icon-it" title="Same technology">IT</span>&nbsp;<span class="label label-info icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10750.html">Decentralized Social Security System</a></td>
+<td>30%</td>      
+<td><span class="label label-info icon icon-it" title="Same technology">IT</span>&nbsp;<span class="label label-info icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="label label-info icon icon-cb" title="Same cross-border applicability">CB</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10751.html">Digital vehicle registration</a></td>
+<td>30%</td>      
+<td><span class="label label-info icon icon-it" title="Same technology">IT</span>&nbsp;<span class="label label-info icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="label label-info icon icon-cb" title="Same cross-border applicability">CB</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10752.html">Doing Business Abroad</a></td>
+<td>20%</td>      
+<td><span class="label label-info icon icon-it" title="Same technology">IT</span>&nbsp;<span class="label label-info icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10753.html">Cold Chain Monitoring of COVID-19 Vaccine</a></td>
+<td>30%</td>      
+<td><span class="label label-info icon icon-it" title="Same technology">IT</span>&nbsp;<span class="label label-info icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="label label-info icon icon-cb" title="Same cross-border applicability">CB</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10754.html">Supporting Lifelong Learning</a></td>
+<td>50%</td>      
+<td><span class="label label-info icon icon-it" title="Same technology">IT</span>&nbsp;<span class="label label-info icon icon-ps" title="Same primary sector">PS</span>&nbsp;<span class="label label-info icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="label label-info icon icon-cb" title="Same cross-border applicability">CB</span>&nbsp;<span class="label label-info icon icon-st" title="Same service type">ST</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10755.html">University Process Optimisation through Smart Curriculum Design and Student Accreditation</a></td>
+<td>50%</td>      
+<td><span class="label label-info icon icon-it" title="Same technology">IT</span>&nbsp;<span class="label label-info icon icon-ps" title="Same primary sector">PS</span>&nbsp;<span class="label label-info icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="label label-info icon icon-cb" title="Same cross-border applicability">CB</span>&nbsp;<span class="label label-info icon icon-st" title="Same service type">ST</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10756.html">Staffing the Public Sector – The Case of Greece</a></td>
+<td>30%</td>      
+<td><span class="label label-info icon icon-it" title="Same technology">IT</span>&nbsp;<span class="label label-info icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="label label-info icon icon-cb" title="Same cross-border applicability">CB</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10757.html">Staffing the Public Sector – The Case of Portugal</a></td>
+<td>30%</td>      
+<td><span class="label label-info icon icon-it" title="Same technology">IT</span>&nbsp;<span class="label label-info icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="label label-info icon icon-cb" title="Same cross-border applicability">CB</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10758.html">Provision of Recruitment & Competency Management Services</a></td>
+<td>30%</td>      
+<td><span class="label label-info icon icon-it" title="Same technology">IT</span>&nbsp;<span class="label label-info icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="label label-info icon icon-cb" title="Same cross-border applicability">CB</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10759.html">Digital Democracy and Data Commons</a></td>
+<td>40%</td>      
+<td><span class="label label-info icon icon-it" title="Same technology">IT</span>&nbsp;<span class="label label-info icon icon-ge" title="Same geographic extent">GE</span>&nbsp;<span class="label label-info icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="label label-info icon icon-cb" title="Same cross-border applicability">CB</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10760.html">Citizen Science Data Governance</a></td>
+<td>40%</td>      
+<td><span class="label label-info icon icon-it" title="Same technology">IT</span>&nbsp;<span class="label label-info icon icon-ge" title="Same geographic extent">GE</span>&nbsp;<span class="label label-info icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="label label-info icon icon-cb" title="Same cross-border applicability">CB</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10761.html">Amsterdam Digital Register - age check with municipal census data</a></td>
+<td>40%</td>      
+<td><span class="label label-info icon icon-it" title="Same technology">IT</span>&nbsp;<span class="label label-info icon icon-ge" title="Same geographic extent">GE</span>&nbsp;<span class="label label-info icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="label label-info icon icon-cb" title="Same cross-border applicability">CB</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10762.html">Gebiedonline (Neighbourhood Online)</a></td>
+<td>40%</td>      
+<td><span class="label label-info icon icon-it" title="Same technology">IT</span>&nbsp;<span class="label label-info icon icon-ge" title="Same geographic extent">GE</span>&nbsp;<span class="label label-info icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="label label-info icon icon-cb" title="Same cross-border applicability">CB</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10763.html">Public administration employee skills cerification</a></td>
+<td>40%</td>      
+<td><span class="label label-info icon icon-it" title="Same technology">IT</span>&nbsp;<span class="label label-info icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="label label-info icon icon-cb" title="Same cross-border applicability">CB</span>&nbsp;<span class="label label-info icon icon-st" title="Same service type">ST</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10764.html">Buying and selling property</a></td>
+<td>30%</td>      
+<td><span class="label label-info icon icon-it" title="Same technology">IT</span>&nbsp;<span class="label label-info icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="label label-info icon icon-cb" title="Same cross-border applicability">CB</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10765.html">Government-backed firm to launch Blockchain IDs</a></td>
+<td>30%</td>      
+<td><span class="label label-info icon icon-it" title="Same technology">IT</span>&nbsp;<span class="label label-info icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="label label-info icon icon-cb" title="Same cross-border applicability">CB</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10766.html">The European Blockchain Services Infrastructure (EBSI)</a></td>
+<td>10%</td>      
+<td><span class="label label-info icon icon-it" title="Same technology">IT</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10767.html">E-Voting for Parliamentary Election</a></td>
+<td>40%</td>      
+<td><span class="label label-info icon icon-it" title="Same technology">IT</span>&nbsp;<span class="label label-info icon icon-ge" title="Same geographic extent">GE</span>&nbsp;<span class="label label-info icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="label label-info icon icon-cb" title="Same cross-border applicability">CB</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10768.html">Voting Trial Using NEM's Blockchain</a></td>
+<td>30%</td>      
+<td><span class="label label-info icon icon-it" title="Same technology">IT</span>&nbsp;<span class="label label-info icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="label label-info icon icon-cb" title="Same cross-border applicability">CB</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10769.html">Electronic qualification management system</a></td>
+<td>60%</td>      
+<td><span class="label label-info icon icon-it" title="Same technology">IT</span>&nbsp;<span class="label label-info icon icon-ps" title="Same primary sector">PS</span>&nbsp;<span class="label label-info icon icon-ac" title="Same activity">AC</span>&nbsp;<span class="label label-info icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="label label-info icon icon-cb" title="Same cross-border applicability">CB</span>&nbsp;<span class="label label-info icon icon-st" title="Same service type">ST</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10770.html">Study of therapies for viral hepatitis</a></td>
+<td>30%</td>      
+<td><span class="label label-info icon icon-it" title="Same technology">IT</span>&nbsp;<span class="label label-info icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="label label-info icon icon-cb" title="Same cross-border applicability">CB</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10771.html">Academic degrees storage</a></td>
+<td>50%</td>      
+<td><span class="label label-info icon icon-it" title="Same technology">IT</span>&nbsp;<span class="label label-info icon icon-ps" title="Same primary sector">PS</span>&nbsp;<span class="label label-info icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="label label-info icon icon-cb" title="Same cross-border applicability">CB</span>&nbsp;<span class="label label-info icon icon-st" title="Same service type">ST</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10772.html">System for Tracking Diamonds</a></td>
+<td>30%</td>      
+<td><span class="label label-info icon icon-it" title="Same technology">IT</span>&nbsp;<span class="label label-info icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="label label-info icon icon-cb" title="Same cross-border applicability">CB</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10773.html">Registry of Companies system</a></td>
+<td>30%</td>      
+<td><span class="label label-info icon icon-it" title="Same technology">IT</span>&nbsp;<span class="label label-info icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="label label-info icon icon-cb" title="Same cross-border applicability">CB</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10774.html">Public administration tasks</a></td>
+<td>30%</td>      
+<td><span class="label label-info icon icon-it" title="Same technology">IT</span>&nbsp;<span class="label label-info icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="label label-info icon icon-cb" title="Same cross-border applicability">CB</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10775.html">Sustainability: rewarding best practices</a></td>
+<td>20%</td>      
+<td><span class="label label-info icon icon-it" title="Same technology">IT</span>&nbsp;<span class="label label-info icon icon-cb" title="Same cross-border applicability">CB</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10776.html">Protection and control of Secured Information by means of a privacy enhanced Dashboard</a></td>
+<td>20%</td>      
+<td><span class="label label-info icon icon-it" title="Same technology">IT</span>&nbsp;<span class="label label-info icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10777.html">Identity system to combat child trafficking</a></td>
+<td>30%</td>      
+<td><span class="label label-info icon icon-it" title="Same technology">IT</span>&nbsp;<span class="label label-info icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="label label-info icon icon-cb" title="Same cross-border applicability">CB</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10778.html">Safeguarding the integrity and accessibility of digital government records of national archives</a></td>
+<td>20%</td>      
+<td><span class="label label-info icon icon-it" title="Same technology">IT</span>&nbsp;<span class="label label-info icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10779.html">Blockchain Verified Certificates</a></td>
+<td>60%</td>      
+<td><span class="label label-info icon icon-it" title="Same technology">IT</span>&nbsp;<span class="label label-info icon icon-ps" title="Same primary sector">PS</span>&nbsp;<span class="label label-info icon icon-ac" title="Same activity">AC</span>&nbsp;<span class="label label-info icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="label label-info icon icon-cb" title="Same cross-border applicability">CB</span>&nbsp;<span class="label label-info icon icon-st" title="Same service type">ST</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10780.html">Monitoring exit poll results</a></td>
+<td>30%</td>      
+<td><span class="label label-info icon icon-it" title="Same technology">IT</span>&nbsp;<span class="label label-info icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="label label-info icon icon-cb" title="Same cross-border applicability">CB</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10781.html">Electronic voting system</a></td>
+<td>40%</td>      
+<td><span class="label label-info icon icon-it" title="Same technology">IT</span>&nbsp;<span class="label label-info icon icon-ge" title="Same geographic extent">GE</span>&nbsp;<span class="label label-info icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="label label-info icon icon-cb" title="Same cross-border applicability">CB</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10782.html">Registration of Property Rental Contracts</a></td>
+<td>30%</td>      
+<td><span class="label label-info icon icon-it" title="Same technology">IT</span>&nbsp;<span class="label label-info icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="label label-info icon icon-cb" title="Same cross-border applicability">CB</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10783.html">Solution for welfare payments</a></td>
+<td>30%</td>      
+<td><span class="label label-info icon icon-it" title="Same technology">IT</span>&nbsp;<span class="label label-info icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="label label-info icon icon-cb" title="Same cross-border applicability">CB</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10784.html">Decentralized identity platform</a></td>
+<td>30%</td>      
+<td><span class="label label-info icon icon-it" title="Same technology">IT</span>&nbsp;<span class="label label-info icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="label label-info icon icon-cb" title="Same cross-border applicability">CB</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10785.html">Digitallization of surety policies' management process</a></td>
+<td>40%</td>      
+<td><span class="label label-info icon icon-it" title="Same technology">IT</span>&nbsp;<span class="label label-info icon icon-ge" title="Same geographic extent">GE</span>&nbsp;<span class="label label-info icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="label label-info icon icon-cb" title="Same cross-border applicability">CB</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10786.html">Ensuring the validity and integrity of European degree certificates</a></td>
+<td>60%</td>      
+<td><span class="label label-info icon icon-it" title="Same technology">IT</span>&nbsp;<span class="label label-info icon icon-ge" title="Same geographic extent">GE</span>&nbsp;<span class="label label-info icon icon-ps" title="Same primary sector">PS</span>&nbsp;<span class="label label-info icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="label label-info icon icon-cb" title="Same cross-border applicability">CB</span>&nbsp;<span class="label label-info icon icon-st" title="Same service type">ST</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10787.html">Payments to Madrid's buses</a></td>
+<td>40%</td>      
+<td><span class="label label-info icon icon-it" title="Same technology">IT</span>&nbsp;<span class="label label-info icon icon-ge" title="Same geographic extent">GE</span>&nbsp;<span class="label label-info icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="label label-info icon icon-cb" title="Same cross-border applicability">CB</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10788.html">Enabling the transparent exchange of medical records</a></td>
+<td>40%</td>      
+<td><span class="label label-info icon icon-it" title="Same technology">IT</span>&nbsp;<span class="label label-info icon icon-ge" title="Same geographic extent">GE</span>&nbsp;<span class="label label-info icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="label label-info icon icon-cb" title="Same cross-border applicability">CB</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10789.html">Blockchain-based payment solutions</a></td>
+<td>30%</td>      
+<td><span class="label label-info icon icon-it" title="Same technology">IT</span>&nbsp;<span class="label label-info icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="label label-info icon icon-cb" title="Same cross-border applicability">CB</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10790.html">Validation of judicial expenses incurred during investigations</a></td>
+<td>30%</td>      
+<td><span class="label label-info icon icon-it" title="Same technology">IT</span>&nbsp;<span class="label label-info icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="label label-info icon icon-cb" title="Same cross-border applicability">CB</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10791.html">Blockchain-Based Training Certificates</a></td>
+<td>50%</td>      
+<td><span class="label label-info icon icon-it" title="Same technology">IT</span>&nbsp;<span class="label label-info icon icon-ps" title="Same primary sector">PS</span>&nbsp;<span class="label label-info icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="label label-info icon icon-cb" title="Same cross-border applicability">CB</span>&nbsp;<span class="label label-info icon icon-st" title="Same service type">ST</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10792.html">Copyright Management</a></td>
+<td>30%</td>      
+<td><span class="label label-info icon icon-it" title="Same technology">IT</span>&nbsp;<span class="label label-info icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="label label-info icon icon-cb" title="Same cross-border applicability">CB</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10793.html">Finding Waste Heat Spots</a></td>
+<td>30%</td>      
+<td><span class="label label-info icon icon-it" title="Same technology">IT</span>&nbsp;<span class="label label-info icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="label label-info icon icon-cb" title="Same cross-border applicability">CB</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10794.html">Health Certificates To Address Lockdowns</a></td>
+<td>50%</td>      
+<td><span class="label label-info icon icon-it" title="Same technology">IT</span>&nbsp;<span class="label label-info icon icon-gc" title="Overlapping geographic coverage">GC</span>&nbsp;<span class="label label-info icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="label label-info icon icon-cb" title="Same cross-border applicability">CB</span>&nbsp;<span class="label label-info icon icon-st" title="Same service type">ST</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10795.html">Medical Data Management</a></td>
+<td>30%</td>      
+<td><span class="label label-info icon icon-it" title="Same technology">IT</span>&nbsp;<span class="label label-info icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="label label-info icon icon-cb" title="Same cross-border applicability">CB</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10796.html">Tax Payments</a></td>
+<td>50%</td>      
+<td><span class="label label-info icon icon-it" title="Same technology">IT</span>&nbsp;<span class="label label-info icon icon-ge" title="Same geographic extent">GE</span>&nbsp;<span class="label label-info icon icon-gc" title="Overlapping geographic coverage">GC</span>&nbsp;<span class="label label-info icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="label label-info icon icon-cb" title="Same cross-border applicability">CB</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10797.html">Blockchain-based union card</a></td>
+<td>40%</td>      
+<td><span class="label label-info icon icon-it" title="Same technology">IT</span>&nbsp;<span class="label label-info icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="label label-info icon icon-cb" title="Same cross-border applicability">CB</span>&nbsp;<span class="label label-info icon icon-st" title="Same service type">ST</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10798.html">Traceability of meat and milk</a></td>
+<td>30%</td>      
+<td><span class="label label-info icon icon-it" title="Same technology">IT</span>&nbsp;<span class="label label-info icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="label label-info icon icon-cb" title="Same cross-border applicability">CB</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10799.html">Digital baccalaureate diplomas</a></td>
+<td>60%</td>      
+<td><span class="label label-info icon icon-it" title="Same technology">IT</span>&nbsp;<span class="label label-info icon icon-ge" title="Same geographic extent">GE</span>&nbsp;<span class="label label-info icon icon-ps" title="Same primary sector">PS</span>&nbsp;<span class="label label-info icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="label label-info icon icon-cb" title="Same cross-border applicability">CB</span>&nbsp;<span class="label label-info icon icon-st" title="Same service type">ST</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10800.html">Kickstarting the Financial Lives of Refugees</a></td>
+<td>30%</td>      
+<td><span class="label label-info icon icon-it" title="Same technology">IT</span>&nbsp;<span class="label label-info icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="label label-info icon icon-cb" title="Same cross-border applicability">CB</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10801.html">Online services for managing personnel salary accounts</a></td>
+<td>30%</td>      
+<td><span class="label label-info icon icon-it" title="Same technology">IT</span>&nbsp;<span class="label label-info icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="label label-info icon icon-cb" title="Same cross-border applicability">CB</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10802.html">Use of Public Cloud PaaS to host SaaS and/or to integrate with commercial SaaS solutions</a></td>
+<td>30%</td>      
+<td><span class="label label-info icon icon-it" title="Same technology">IT</span>&nbsp;<span class="label label-info icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="label label-info icon icon-cb" title="Same cross-border applicability">CB</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10803.html">Organised Crime Unit: Secure Cloud Storage for Data</a></td>
+<td>30%</td>      
+<td><span class="label label-info icon icon-it" title="Same technology">IT</span>&nbsp;<span class="label label-info icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="label label-info icon icon-cb" title="Same cross-border applicability">CB</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10804.html">E-Voting for Political Party primary elections</a></td>
+<td>30%</td>      
+<td><span class="label label-info icon icon-it" title="Same technology">IT</span>&nbsp;<span class="label label-info icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="label label-info icon icon-cb" title="Same cross-border applicability">CB</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10805.html">Corporate Registry in commercial court</a></td>
+<td>30%</td>      
+<td><span class="label label-info icon icon-it" title="Same technology">IT</span>&nbsp;<span class="label label-info icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="label label-info icon icon-cb" title="Same cross-border applicability">CB</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10806.html">Verifiable and tamper-proof university degree</a></td>
+<td>70%</td>      
+<td><span class="label label-info icon icon-it" title="Same technology">IT</span>&nbsp;<span class="label label-info icon icon-ge" title="Same geographic extent">GE</span>&nbsp;<span class="label label-info icon icon-ps" title="Same primary sector">PS</span>&nbsp;<span class="label label-info icon icon-ac" title="Same activity">AC</span>&nbsp;<span class="label label-info icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="label label-info icon icon-cb" title="Same cross-border applicability">CB</span>&nbsp;<span class="label label-info icon icon-st" title="Same service type">ST</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10807.html">Smart Working</a></td>
+<td>40%</td>      
+<td><span class="label label-info icon icon-it" title="Same technology">IT</span>&nbsp;<span class="label label-info icon icon-ge" title="Same geographic extent">GE</span>&nbsp;<span class="label label-info icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="label label-info icon icon-cb" title="Same cross-border applicability">CB</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10809.html">Flexible energy demand</a></td>
+<td>40%</td>      
+<td><span class="label label-info icon icon-it" title="Same technology">IT</span>&nbsp;<span class="label label-info icon icon-ge" title="Same geographic extent">GE</span>&nbsp;<span class="label label-info icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="label label-info icon icon-cb" title="Same cross-border applicability">CB</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10810.html">Enhancing intermodal freight movements</a></td>
+<td>30%</td>      
+<td><span class="label label-info icon icon-it" title="Same technology">IT</span>&nbsp;<span class="label label-info icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="label label-info icon icon-cb" title="Same cross-border applicability">CB</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10811.html">University certificates verification</a></td>
+<td>60%</td>      
+<td><span class="label label-info icon icon-it" title="Same technology">IT</span>&nbsp;<span class="label label-info icon icon-ps" title="Same primary sector">PS</span>&nbsp;<span class="label label-info icon icon-ac" title="Same activity">AC</span>&nbsp;<span class="label label-info icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="label label-info icon icon-cb" title="Same cross-border applicability">CB</span>&nbsp;<span class="label label-info icon icon-st" title="Same service type">ST</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10812.html">Verification of COVID-19 testing</a></td>
+<td>30%</td>      
+<td><span class="label label-info icon icon-it" title="Same technology">IT</span>&nbsp;<span class="label label-info icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="label label-info icon icon-cb" title="Same cross-border applicability">CB</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10813.html">Loans and insurance services requests simplification</a></td>
+<td>30%</td>      
+<td><span class="label label-info icon icon-it" title="Same technology">IT</span>&nbsp;<span class="label label-info icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="label label-info icon icon-cb" title="Same cross-border applicability">CB</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10814.html">Entrepreneur Passport</a></td>
+<td>30%</td>      
+<td><span class="label label-info icon icon-it" title="Same technology">IT</span>&nbsp;<span class="label label-info icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="label label-info icon icon-cb" title="Same cross-border applicability">CB</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10815.html">Carrière Wallet</a></td>
+<td>50%</td>      
+<td><span class="label label-info icon icon-it" title="Same technology">IT</span>&nbsp;<span class="label label-info icon icon-ps" title="Same primary sector">PS</span>&nbsp;<span class="label label-info icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="label label-info icon icon-cb" title="Same cross-border applicability">CB</span>&nbsp;<span class="label label-info icon icon-st" title="Same service type">ST</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10816.html">uNLock the world</a></td>
+<td>30%</td>      
+<td><span class="label label-info icon icon-it" title="Same technology">IT</span>&nbsp;<span class="label label-info icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="label label-info icon icon-cb" title="Same cross-border applicability">CB</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10817.html">My pension rights transfer</a></td>
+<td>30%</td>      
+<td><span class="label label-info icon icon-it" title="Same technology">IT</span>&nbsp;<span class="label label-info icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="label label-info icon icon-cb" title="Same cross-border applicability">CB</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10818.html">Electronic bill of lading (eBL)</a></td>
+<td>20%</td>      
+<td><span class="label label-info icon icon-it" title="Same technology">IT</span>&nbsp;<span class="label label-info icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10819.html">Energy trading platform</a></td>
+<td>30%</td>      
+<td><span class="label label-info icon icon-it" title="Same technology">IT</span>&nbsp;<span class="label label-info icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="label label-info icon icon-cb" title="Same cross-border applicability">CB</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10820.html">Privacy engine</a></td>
+<td>30%</td>      
+<td><span class="label label-info icon icon-it" title="Same technology">IT</span>&nbsp;<span class="label label-info icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="label label-info icon icon-cb" title="Same cross-border applicability">CB</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10821.html">Digital talent profile</a></td>
+<td>60%</td>      
+<td><span class="label label-info icon icon-it" title="Same technology">IT</span>&nbsp;<span class="label label-info icon icon-ge" title="Same geographic extent">GE</span>&nbsp;<span class="label label-info icon icon-ps" title="Same primary sector">PS</span>&nbsp;<span class="label label-info icon icon-ac" title="Same activity">AC</span>&nbsp;<span class="label label-info icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="label label-info icon icon-cb" title="Same cross-border applicability">CB</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10822.html">European Social Security Pass</a></td>
+<td>20%</td>      
+<td><span class="label label-info icon icon-it" title="Same technology">IT</span>&nbsp;<span class="label label-info icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10823.html">BIMChain: the blockchain application for managing BIM files</a></td>
+<td>30%</td>      
+<td><span class="label label-info icon icon-it" title="Same technology">IT</span>&nbsp;<span class="label label-info icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="label label-info icon icon-cb" title="Same cross-border applicability">CB</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10824.html">Diploma Notarization</a></td>
+<td>50%</td>      
+<td><span class="label label-info icon icon-it" title="Same technology">IT</span>&nbsp;<span class="label label-info icon icon-ps" title="Same primary sector">PS</span>&nbsp;<span class="label label-info icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="label label-info icon icon-cb" title="Same cross-border applicability">CB</span>&nbsp;<span class="label label-info icon icon-st" title="Same service type">ST</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10825.html">A blockchain platform for public administration</a></td>
+<td>30%</td>      
+<td><span class="label label-info icon icon-it" title="Same technology">IT</span>&nbsp;<span class="label label-info icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="label label-info icon icon-cb" title="Same cross-border applicability">CB</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10826.html">Secure Digital Identities</a></td>
+<td>30%</td>      
+<td><span class="label label-info icon icon-it" title="Same technology">IT</span>&nbsp;<span class="label label-info icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="label label-info icon icon-cb" title="Same cross-border applicability">CB</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10827.html">Private, institutional and non-profit blockchain network</a></td>
+<td>40%</td>      
+<td><span class="label label-info icon icon-it" title="Same technology">IT</span>&nbsp;<span class="label label-info icon icon-ge" title="Same geographic extent">GE</span>&nbsp;<span class="label label-info icon icon-gc" title="Overlapping geographic coverage">GC</span>&nbsp;<span class="label label-info icon icon-cb" title="Same cross-border applicability">CB</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10828.html">National Green Pass</a></td>
+<td>40%</td>      
+<td><span class="label label-info icon icon-it" title="Same technology">IT</span>&nbsp;<span class="label label-info icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="label label-info icon icon-cb" title="Same cross-border applicability">CB</span>&nbsp;<span class="label label-info icon icon-st" title="Same service type">ST</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10829.html">PlanetWatch: monitoring air quality</a></td>
+<td>20%</td>      
+<td><span class="label label-info icon icon-it" title="Same technology">IT</span>&nbsp;<span class="label label-info icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10830.html">Blockchain service infrastructure</a></td>
+<td>20%</td>      
+<td><span class="label label-info icon icon-it" title="Same technology">IT</span>&nbsp;<span class="label label-info icon icon-cb" title="Same cross-border applicability">CB</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10831.html">Blockchain to protect intellectual property</a></td>
+<td>30%</td>      
+<td><span class="label label-info icon icon-it" title="Same technology">IT</span>&nbsp;<span class="label label-info icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="label label-info icon icon-cb" title="Same cross-border applicability">CB</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10832.html">Pharmaledger: blockchain enabled healthcare</a></td>
+<td>20%</td>      
+<td><span class="label label-info icon icon-it" title="Same technology">IT</span>&nbsp;<span class="label label-info icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10833.html">Public procurement: streamlined and faster digital procedures</a></td>
+<td>30%</td>      
+<td><span class="label label-info icon icon-it" title="Same technology">IT</span>&nbsp;<span class="label label-info icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="label label-info icon icon-cb" title="Same cross-border applicability">CB</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10834.html">Ecocoin: encouraging virtuous behavior</a></td>
+<td>30%</td>      
+<td><span class="label label-info icon icon-it" title="Same technology">IT</span>&nbsp;<span class="label label-info icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="label label-info icon icon-cb" title="Same cross-border applicability">CB</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10835.html">Blockchain for emergency services</a></td>
+<td>40%</td>      
+<td><span class="label label-info icon icon-it" title="Same technology">IT</span>&nbsp;<span class="label label-info icon icon-ge" title="Same geographic extent">GE</span>&nbsp;<span class="label label-info icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="label label-info icon icon-cb" title="Same cross-border applicability">CB</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10836.html">Service to register digital acts</a></td>
+<td>40%</td>      
+<td><span class="label label-info icon icon-it" title="Same technology">IT</span>&nbsp;<span class="label label-info icon icon-ge" title="Same geographic extent">GE</span>&nbsp;<span class="label label-info icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="label label-info icon icon-cb" title="Same cross-border applicability">CB</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10837.html">Digital credentials for graduates</a></td>
+<td>60%</td>      
+<td><span class="label label-info icon icon-it" title="Same technology">IT</span>&nbsp;<span class="label label-info icon icon-ps" title="Same primary sector">PS</span>&nbsp;<span class="label label-info icon icon-ac" title="Same activity">AC</span>&nbsp;<span class="label label-info icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="label label-info icon icon-cb" title="Same cross-border applicability">CB</span>&nbsp;<span class="label label-info icon icon-st" title="Same service type">ST</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10838.html">EnergieKnip, Energy Wallet</a></td>
+<td>30%</td>      
+<td><span class="label label-info icon icon-it" title="Same technology">IT</span>&nbsp;<span class="label label-info icon icon-ge" title="Same geographic extent">GE</span>&nbsp;<span class="label label-info icon icon-cb" title="Same cross-border applicability">CB</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10839.html">Data Valorization Services</a></td>
+<td>40%</td>      
+<td><span class="label label-info icon icon-it" title="Same technology">IT</span>&nbsp;<span class="label label-info icon icon-ge" title="Same geographic extent">GE</span>&nbsp;<span class="label label-info icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="label label-info icon icon-cb" title="Same cross-border applicability">CB</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10840.html">The red button: debt pause button</a></td>
+<td>40%</td>      
+<td><span class="label label-info icon icon-it" title="Same technology">IT</span>&nbsp;<span class="label label-info icon icon-ge" title="Same geographic extent">GE</span>&nbsp;<span class="label label-info icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="label label-info icon icon-cb" title="Same cross-border applicability">CB</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10841.html">Self Sovereign Attendancy</a></td>
+<td>40%</td>      
+<td><span class="label label-info icon icon-it" title="Same technology">IT</span>&nbsp;<span class="label label-info icon icon-ge" title="Same geographic extent">GE</span>&nbsp;<span class="label label-info icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="label label-info icon icon-cb" title="Same cross-border applicability">CB</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10842.html">Generating Health Certificates</a></td>
+<td>50%</td>      
+<td><span class="label label-info icon icon-it" title="Same technology">IT</span>&nbsp;<span class="label label-info icon icon-ge" title="Same geographic extent">GE</span>&nbsp;<span class="label label-info icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="label label-info icon icon-cb" title="Same cross-border applicability">CB</span>&nbsp;<span class="label label-info icon icon-st" title="Same service type">ST</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10843.html">Healthy on the Blockchain</a></td>
+<td>40%</td>      
+<td><span class="label label-info icon icon-it" title="Same technology">IT</span>&nbsp;<span class="label label-info icon icon-ge" title="Same geographic extent">GE</span>&nbsp;<span class="label label-info icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="label label-info icon icon-cb" title="Same cross-border applicability">CB</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10844.html">Mobiliti App</a></td>
+<td>40%</td>      
+<td><span class="label label-info icon icon-it" title="Same technology">IT</span>&nbsp;<span class="label label-info icon icon-ge" title="Same geographic extent">GE</span>&nbsp;<span class="label label-info icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="label label-info icon icon-cb" title="Same cross-border applicability">CB</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10845.html">Blockchain for Maritime Ports</a></td>
+<td>40%</td>      
+<td><span class="label label-info icon icon-it" title="Same technology">IT</span>&nbsp;<span class="label label-info icon icon-ge" title="Same geographic extent">GE</span>&nbsp;<span class="label label-info icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="label label-info icon icon-cb" title="Same cross-border applicability">CB</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10846.html">Transparent management of public accounts</a></td>
+<td>40%</td>      
+<td><span class="label label-info icon icon-it" title="Same technology">IT</span>&nbsp;<span class="label label-info icon icon-ge" title="Same geographic extent">GE</span>&nbsp;<span class="label label-info icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="label label-info icon icon-cb" title="Same cross-border applicability">CB</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10847.html">ONCE project: Sovereign Data and Self Sovereign Identity</a></td>
+<td>30%</td>      
+<td><span class="label label-info icon icon-it" title="Same technology">IT</span>&nbsp;<span class="label label-info icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="label label-info icon icon-cb" title="Same cross-border applicability">CB</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10848.html">Cross-border erasmus exchange scenario</a></td>
+<td>50%</td>      
+<td><span class="label label-info icon icon-it" title="Same technology">IT</span>&nbsp;<span class="label label-info icon icon-ps" title="Same primary sector">PS</span>&nbsp;<span class="label label-info icon icon-ac" title="Same activity">AC</span>&nbsp;<span class="label label-info icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="label label-info icon icon-st" title="Same service type">ST</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10849.html">European Student eCard</a></td>
+<td>20%</td>      
+<td><span class="label label-info icon icon-it" title="Same technology">IT</span>&nbsp;<span class="label label-info icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10850.html">EQPR - CoE Refugee Passport</a></td>
+<td>40%</td>      
+<td><span class="label label-info icon icon-it" title="Same technology">IT</span>&nbsp;<span class="label label-info icon icon-ac" title="Same activity">AC</span>&nbsp;<span class="label label-info icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="label label-info icon icon-st" title="Same service type">ST</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10851.html">Cross-border micro-credentials</a></td>
+<td>40%</td>      
+<td><span class="label label-info icon icon-it" title="Same technology">IT</span>&nbsp;<span class="label label-info icon icon-ps" title="Same primary sector">PS</span>&nbsp;<span class="label label-info icon icon-ac" title="Same activity">AC</span>&nbsp;<span class="label label-info icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./10852.html">Bachelor/Master Diploma Credential</a></td>
+<td>50%</td>      
+<td><span class="label label-info icon icon-it" title="Same technology">IT</span>&nbsp;<span class="label label-info icon icon-ps" title="Same primary sector">PS</span>&nbsp;<span class="label label-info icon icon-ac" title="Same activity">AC</span>&nbsp;<span class="label label-info icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="label label-info icon icon-st" title="Same service type">ST</span>&nbsp;</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<th><input class="filter" type="text" placeholder="Filter by case" data-index="0" /></th>
+<th><input class="filter" type="text" placeholder="Filter by similarity" data-index="1" /></th>
+<th><input class="filter" type="text" placeholder="Filter by relationship" data-index="2" /></th>
+</tr>
+</tfoot>
+</table>
+</section>
+</section>
+</article>
+<footer>
+<?php echo $footer; ?>
+</footer>
+</body>
+</html>
