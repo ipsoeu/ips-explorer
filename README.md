@@ -206,4 +206,12 @@ The value of "N" must be incremental to the ones used in the already contributed
 </tbody>
 </table>
 
+## How to update the IPS observatory
+
+In order to add new cases to the IPS observatory the following step are required
+
+- Copy the new CSV file inside the src directory
+- Add the filename to the config/sources.php config file
+- Run the two scripts scritps/0-prepare-data.sh and script/1-create-pages.sh
+- Commit the changes to github
 
