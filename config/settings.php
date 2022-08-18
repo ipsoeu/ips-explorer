@@ -77,13 +77,13 @@
   $section["chart"]["path"] = $root_abs_path . "chart/";
   $section["chart"]["data"] = $data_path . "cases";
 
-  $section["catalog"]["name"] = "Sources";
-  $section["catalog"]["icon"] = "fa-download";
-  $section["catalog"]["descr"] = "Get to know the surveys, catalogues and data sets of public services and projects that are integrated and documented here. Find out how you could add your own public services, projects, or results from a longitudinal study.";
-  $section["catalog"]["url"] = $site_abs_path . "catalog/";
-  $section["catalog"]["path"] = $root_abs_path . "catalog/";
-//  $section["catalog"]["data"] = $site_abs_path . $data_folder . "catalogs";
-  $section["catalog"]["data"] = $data_path . "catalogs";
+//   $section["catalog"]["name"] = "Sources";
+//   $section["catalog"]["icon"] = "fa-download";
+//   $section["catalog"]["descr"] = "Get to know the surveys, catalogues and data sets of public services and projects that are integrated and documented here. Find out how you could add your own public services, projects, or results from a longitudinal study.";
+//   $section["catalog"]["url"] = $site_abs_path . "catalog/";
+//   $section["catalog"]["path"] = $root_abs_path . "catalog/";
+// //  $section["catalog"]["data"] = $site_abs_path . $data_folder . "catalogs";
+//   $section["catalog"]["data"] = $data_path . "catalogs";
 
 // Charts
    
