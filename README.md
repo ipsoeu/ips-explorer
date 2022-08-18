@@ -211,7 +211,9 @@ The value of "N" must be incremental to the ones used in the already contributed
 In order to add new cases to the IPS observatory the following step are required
 
 - Copy the new CSV file inside the [src](./src/) directory
-- Add the filename to the config/sources.php config file
-- Run the two scripts scritps/0-prepare-data.sh and script/1-create-pages.sh
+- Add a new entry in the [configuration](config/sources.php) file about data sources respecting the exixting format
+- Run the two scripts [1](scritps/0-prepare-data.sh) and [2](script/1-create-pages.sh)
 - Commit the changes to github
+
+Please note that the PHP interpreter must be installed in our local machine.
 
