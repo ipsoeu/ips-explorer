@@ -2,189 +2,33 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>IPS-X - Innovative Public Services Explorer</title>
-<link type="text/css" rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<title>Simple Page Example</title>
+<!-- Keeping the style of the previous page by referencing the same CSS files -->
 <link href="https://eloquentstudio.github.io/filter.js/assets/css/bootstrap.min.css" media="screen" rel="stylesheet" type="text/css">
-<link href="https://eloquentstudio.github.io/filter.js/assets/css/jquery-ui-1.10.2.custom.min.css" media="screen" rel="stylesheet" type="text/css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jvectormap/2.0.3/jquery-jvectormap.min.css" crossorigin="anonymous" />
 <link href="/ips-explorer/css/common.css" media="screen" rel="stylesheet" type="text/css">
-<script src="/ips-explorer/data/cases.js"></script>
-<script src="https://eloquentstudio.github.io/filter.js/assets/js/jquery-1.11.3.min.js" type="text/javascript"></script>
-<script src="https://eloquentstudio.github.io/filter.js/assets/js/jquery-ui-1.10.2.custom.min.js" type="text/javascript"></script>
-<script src="/ips-explorer/js/jvectormap.com/js/jquery-jvectormap-2.0.3.min.js"></script>
-<script src="/ips-explorer/js/jvectormap.com/js/jquery-jvectormap-world-mill.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.9.1/underscore-min.js" integrity="sha256-G7A4JrJjJlFqP0yamznwPjAApIKPkadeHfyIwiaa9e0=" crossorigin="anonymous"></script>
-<script type="text/javascript" src="/ips-explorer/js/common.js"></script> 
-<!--
-<style>
-#citsci-view {
-  position: absolute;
-  top: 240px;
-  left: 0;
-  right: 0;
-  bottom: 0;
-}
-</style>
-<script>
-$(document).ready(function () {
-  var countries = _.map(services, function (p) {
-    return p.geocoverage_codes;
-  });
-  countries = _.flatten(countries);
-  countries = _.groupBy(countries);
-  var data = {};
-  _.each(countries, function (v, k) {
-    data[k] = _.size(v);
-  }, data);
-
-  $('#citsci-view').vectorMap({
-    map: 'world_mill',
-    zoomOnScroll: false,
-    zoomButtons: false,
-    regionsSelectable: false,
-    regionStyle: {
-      hover: {
-        cursor: 'default'
-      }
-    },    
-    series: {
-      regions: [{
-        values: data,
-        scale: ['#C8EEFF', '#0071A4'],
-        normalizeFunction: 'polynomial'
-      }]
-    },
-    onRegionTipShow: function (e, el, code) {
-//      el.html(el.html() + ' - Services: ' + (data[code] ? data[code] : 'unknown') );
-    },
-    onRegionClick: function(e, code){
-//      window.location.href = window.location.href + 'service';
-    }
-  });
-});
-</script>
--->
 </head>
 
 <body>
 
-<nav role="navigation" class="navbar navbar-default">
+<!-- Using Bootstrap's container class to maintain consistent styling -->
 <div class="container">
-<p class="navbar-header"><a title="Innovative Public Services Explorer" class="navbar-brand" href="/ips-explorer/">IPS-X</a></p>
-<ul class="nav navbar-nav collapse navbar-collapse">
-<li class=""><a href="/ips-explorer/case/">Cases</a></li>
-<li class=""><a href="/ips-explorer/chart/">Statistics</a></li>
-</ul>
-<ul class="nav navbar-nav collapse navbar-collapse navbar-right">
-<li><a target="_blank" href="https://github.com/ipsoeu/ips-explorer/issues/" title="Send us your feedback."><i class="fa fa-comment"></i> Feedback</a></li>
-<li><a target="_blank" href="https://github.com/ipsoeu/ips-explorer/" title="Report projects, services, initiatives you are aware of."><i class="fa fa-github"></i> Contribute</a></li>
-<li><a target="_blank" href="https://ec.europa.eu/eusurvey/runner/6c2c3469-14fe-6d78-129d-0cc558731310" title="Fill in the IPS survey."><i class="fa fa-edit"></i> IPS Survey</a></li>
-</ul>
-</div>
-</nav>
-    
-<!--
-<header class="page-header">
-<div class="container">
-<h1 class="title">IPS-X</h1>
-<p class="lead">Innovative Public Services Explorer</p>
-</div>
-</header>
+  <!-- Simple text content -->
+  <h1>Welcome to IPS-X explore</h1>
+  <p>The Innovative Public Services Explorer aimed to provide an integrated view of public services using emerging and innovative technologies. This initiative has now converged with the Public Sector Tech Watch.</p>
+  <br>
 
-<div id="citsci-view"></div>
--->
+  <!-- Image -->
+  <img src="/img/pstw_logo_small_dark_0.jpg" alt="Public Sector Tech Watch logo" class="img-responsive center-block">
+  
+  <p>Public Sector Tech Watch (PSTW) is an observatory dedicated to monitoring, analysing and disseminating the use of emerging technologies (e.g., Blockchain, Artificial Intelligence, etc.) within the public sector in Europe 
+    and it aims to become the “one stop” for all stakeholders – public sector officials, policy makers, private companies, academia – interested on the latest technological developments to improve public sector operations 
+    and service delivery. PSTW is managed by the European Commission.</p>
+  
 
-<!--
-<header class="jumbotron">
-  <div class="container">
-    <img src="/ips-explorer/img/ipso-logo.jpg"/>
--->
-    <!-- Carousel
-    ================================================== -->
-    <div id="myCarousel" class="carousel slide" data-ride="carousel">
-      <!-- Indicators -->
-      <ol class="carousel-indicators">
-        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-        <li data-target="#myCarousel" data-slide-to="1"></li>
-        <li data-target="#myCarousel" data-slide-to="2"></li>
-      </ol>
-      <div class="carousel-inner" role="listbox">
-        <div class="item active">
-          <div class="container">
-            <div class="carousel-caption">
-              <h1>Welcome to IPS-X!</h1>
-              <p>The Innovative Public Services Explorer is an exercise to provide an integrated view of public services using emerging and disruptive technologies.</p>
-              <p><a class="btn btn-lg btn-primary" href="/ips-explorer/case/" role="button">Explore</a></p>
-            </div>
-          </div>
-        </div>
-        <div class="item">
-          <div class="container">
-            <div class="carousel-caption">
-              <h1>Contribute</h1>
-              <p>If you are aware of any project, service, or initiative that is not listed here, please let us know. We will be happy to add them to the catalogue.</p>
-              <p><a class="btn btn-lg btn-primary" href="https://github.com/ipsoeu/ips-explorer/" role="button">How to contribute</a></p>
-            </div>
-          </div>
-        </div>
-        <div class="item">
-          <div class="container">
-            <div class="carousel-caption">
-              <h1>IPS survey</h1>
-              <p>If you are involved in the provision of public services using emerging technologies, please consider filling in our survey.</p>
-              <p><a class="btn btn-lg btn-primary" href="https://ec.europa.eu/eusurvey/runner/6c2c3469-14fe-6d78-129d-0cc558731310" role="button">Start the survey</a></p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-      </a>
-      <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-      </a>
-    </div><!-- /.carousel -->
-<!--
-  </div>
-</header>
--->
--
+  
+  <!-- External link -->
+  <p>For more information, visit the Public Sector Tech Watch community on Joinup: <a href="https://joinup.ec.europa.eu/collection/public-sector-tech-watch" target="_blank"> PSTW website</a>.</p>
+</div>
 
-        
-<article class="container">
-<div class="row thumbnails-container">
-<a class="col-sm-6 col-md-4 block-link" href="/ips-explorer/case/">
-<div class="thumbnail">
-<div class="img"><span class="fa fa-flag"></span></div>
-<div class="caption">
-<h3>Cases</h3>
-<p>Explore European cases of pubic services making use of emerging and disruptive technologies, such as AI, DLT, IoT and APIs, and find out their distribution in terms of public administration levels and sectors.</p>
-</div>
-</div>
-</a>
-<a class="col-sm-6 col-md-4 block-link" href="/ips-explorer/chart/">
-<div class="thumbnail">
-<div class="img"><span class="fa fa-area-chart"></span></div>
-<div class="caption">
-<h3>Statistics</h3>
-<p>Access statistics of public services and projects based on their core characteristics, including geographic coverage, uptake and the technologies used. Browse the already prepared views, and create dynamic visualisations.</p>
-</div>
-</div>
-</a>
-<!--
-<div class="col-sm-12 col-md-12">
-<div class="thumbnail">
-<div class="caption">
-<p>These pages allow you to explore innovative public services that have been collected from different sources in an integrated and harmonised way. Services can be discovered using a text-based, as well as, a graphic-based approach. We also list the contributing sources and offer the possibility to add your own service descriptions.</p>
-</div>
-</div>
-</div>
--->
-</div>
-</article>        
-        
 </body>
 </html>
